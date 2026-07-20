@@ -11,6 +11,7 @@
     --good:#2E9E6B; --good-wash:#E4F3EB;
     --up:#3A6FC0;   --up-wash:#E6EDF9;
     --shadow:0 1px 2px rgba(20,40,32,.05), 0 4px 16px rgba(20,40,32,.05);
+    --shadow-h:0 2px 6px rgba(20,40,32,.08), 0 10px 28px rgba(20,40,32,.10);
     --radius:14px;
     --font:"PingFang TC","Noto Sans TC","Microsoft JhengHei",-apple-system,system-ui,"Segoe UI",sans-serif;
   }
@@ -25,6 +26,7 @@
       --good:#4FC98C; --good-wash:#122318;
       --up:#79A6EC;   --up-wash:#141E2E;
       --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.28);
+      --shadow-h:0 2px 6px rgba(0,0,0,.4), 0 10px 28px rgba(0,0,0,.36);
     }
   }
   :root[data-theme="light"]{
@@ -34,6 +36,7 @@
     --crit:#CB4233; --crit-wash:#FBE6E3; --warn:#B5771A; --warn-wash:#FAF0DE;
     --good:#2E9E6B; --good-wash:#E4F3EB; --up:#3A6FC0; --up-wash:#E6EDF9;
     --shadow:0 1px 2px rgba(20,40,32,.05), 0 4px 16px rgba(20,40,32,.05);
+    --shadow-h:0 2px 6px rgba(20,40,32,.08), 0 10px 28px rgba(20,40,32,.10);
   }
   :root[data-theme="dark"]{
     --ground:#0D1210; --surface:#151B18; --surface-2:#1D2521;
@@ -42,6 +45,7 @@
     --crit:#F0796C; --crit-wash:#2A1714; --warn:#E4A94C; --warn-wash:#2A2010;
     --good:#4FC98C; --good-wash:#122318; --up:#79A6EC; --up-wash:#141E2E;
     --shadow:0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.28);
+    --shadow-h:0 2px 6px rgba(0,0,0,.4), 0 10px 28px rgba(0,0,0,.36);
   }
 
   *{box-sizing:border-box}
@@ -49,21 +53,15 @@
   body{
     margin:0; background:var(--ground); color:var(--ink);
     font-family:var(--font); line-height:1.5;
-    font-variant-numeric:tabular-nums;
-    -webkit-font-smoothing:antialiased;
+    font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased;
     padding:0 0 env(safe-area-inset-bottom);
   }
   .wrap{max-width:660px; margin:0 auto; padding:0 16px}
 
-  /* header */
-  header{
-    position:sticky; top:0; z-index:20;
+  header{position:sticky; top:0; z-index:20;
     background:color-mix(in srgb, var(--ground) 88%, transparent);
-    backdrop-filter:saturate(1.4) blur(10px);
-    border-bottom:1px solid var(--line);
-  }
-  .head-in{max-width:660px; margin:0 auto; padding:12px 16px;
-    display:flex; align-items:center; gap:10px}
+    backdrop-filter:saturate(1.4) blur(10px); border-bottom:1px solid var(--line)}
+  .head-in{max-width:660px; margin:0 auto; padding:12px 16px; display:flex; align-items:center; gap:10px}
   .logo{display:flex; align-items:center; gap:9px; min-width:0}
   .radar{width:26px;height:26px;flex:0 0 auto}
   .logo h1{font-size:17px; font-weight:800; margin:0; letter-spacing:-.01em; white-space:nowrap}
@@ -75,7 +73,6 @@
     font-size:15px; display:grid;place-items:center}
   .themebtn:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
-  /* summary tiles */
   .tiles{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:16px 0 4px}
   .tile{background:var(--surface); border:1px solid var(--line); border-radius:12px;
     padding:11px 8px; text-align:center; box-shadow:var(--shadow)}
@@ -84,7 +81,6 @@
   .tile.c .n{color:var(--warn)} .tile.d .n{color:var(--crit)}
   .tile.u .n{color:var(--up)} .tile.a .n{color:var(--good)}
 
-  /* section */
   section{margin:26px 0}
   .sec-h{display:flex; align-items:baseline; gap:8px; margin:0 2px 11px}
   .sec-h h2{font-size:15.5px; font-weight:800; margin:0; letter-spacing:-.01em}
@@ -95,22 +91,29 @@
 
   .stack{display:flex; flex-direction:column; gap:9px}
 
-  /* deal card */
-  .deal{position:relative; background:var(--surface); border:1px solid var(--line);
+  /* deal card = 連結（整張可點進官網） */
+  a.deal{position:relative; background:var(--surface); border:1px solid var(--line);
     border-left:4px solid var(--line); border-radius:var(--radius);
     padding:12px 13px 12px 14px; box-shadow:var(--shadow);
-    display:grid; grid-template-columns:1fr auto; gap:4px 12px; align-items:start}
-  .deal.s-crit{border-left-color:var(--crit)}
-  .deal.s-warn{border-left-color:var(--warn)}
-  .deal.s-good{border-left-color:var(--good)}
-  .deal.s-up{border-left-color:var(--up)}
-  .deal.s-acc{border-left-color:var(--accent)}
+    display:grid; grid-template-columns:1fr auto; gap:4px 12px; align-items:start;
+    text-decoration:none; color:inherit; cursor:pointer;
+    transition:border-color .15s, box-shadow .15s, transform .08s}
+  a.deal:hover{border-color:var(--accent); box-shadow:var(--shadow-h)}
+  a.deal:active{transform:scale(.994)}
+  a.deal:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+  a.deal.s-crit{border-left-color:var(--crit)}
+  a.deal.s-warn{border-left-color:var(--warn)}
+  a.deal.s-good{border-left-color:var(--good)}
+  a.deal.s-up{border-left-color:var(--up)}
+  a.deal.s-acc{border-left-color:var(--accent)}
   .deal__top{grid-column:1/2; display:flex; align-items:center; gap:7px; flex-wrap:wrap}
   .svc{font-size:11.5px; font-weight:800; color:var(--accent-ink);
     background:var(--accent-wash); padding:2px 8px; border-radius:6px; letter-spacing:.01em}
   .deal__title{grid-column:1/2; font-size:14.5px; font-weight:700; margin:1px 0 0; line-height:1.35; text-wrap:balance}
   .deal__meta{grid-column:1/2; font-size:12px; color:var(--ink-soft); margin-top:2px}
   .deal__meta .sep{color:var(--ink-faint); margin:0 5px}
+  .deal__meta .go{color:var(--accent-ink); font-weight:700; margin-left:6px; white-space:nowrap}
+  a.deal:hover .deal__title{color:var(--accent-ink)}
   .reward{grid-column:2/3; grid-row:1/4; align-self:center; text-align:right; min-width:52px}
   .reward b{font-size:22px; font-weight:800; letter-spacing:-.02em; line-height:1; display:block}
   .reward small{font-size:10px; color:var(--ink-faint); display:block; margin-top:3px}
@@ -122,10 +125,9 @@
   .chip-good{background:var(--good-wash); color:var(--good)}
   .chip-up{background:var(--up-wash); color:var(--up)}
 
-  .deal.full{opacity:.72}
-  .deal.full .deal__title{text-decoration:line-through; text-decoration-color:var(--ink-faint); text-decoration-thickness:1px}
+  a.deal.full{opacity:.72}
+  a.deal.full .deal__title{text-decoration:line-through; text-decoration-color:var(--ink-faint); text-decoration-thickness:1px}
 
-  /* service groups */
   details.grp{background:var(--surface); border:1px solid var(--line); border-radius:12px;
     margin-bottom:8px; overflow:hidden; box-shadow:var(--shadow)}
   details.grp>summary{list-style:none; cursor:pointer; padding:13px 14px;
@@ -138,16 +140,18 @@
   .conf.soft{background:var(--warn-wash); color:var(--warn)}
   .grp .chev{color:var(--ink-faint); transition:transform .2s}
   details.grp[open] .chev{transform:rotate(90deg)}
-  .grp__body{padding:2px 12px 12px; display:flex; flex-direction:column; gap:7px}
-  .row{display:flex; gap:10px; align-items:baseline; padding:8px 2px; border-top:1px solid var(--line)}
-  .row:first-child{border-top:none}
+  .grp__body{padding:2px 12px 12px; display:flex; flex-direction:column; gap:0}
+  a.row{display:flex; gap:10px; align-items:baseline; padding:9px 2px; border-top:1px solid var(--line);
+    text-decoration:none; color:inherit}
+  a.row:first-child{border-top:none}
+  a.row:hover .rt b{color:var(--accent-ink)}
+  a.row:focus-visible{outline:2px solid var(--accent); outline-offset:-2px; border-radius:6px}
   .row .rt{flex:1; min-width:0}
   .row .rt b{font-weight:600; font-size:13.5px; display:block; line-height:1.35}
   .row .rt span{font-size:11.5px; color:var(--ink-soft)}
   .row .rv{font-size:13px; font-weight:800; color:var(--accent-ink); white-space:nowrap; flex:0 0 auto}
   summary:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
 
-  /* ptt community */
   .ptt{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:4px 14px; box-shadow:var(--shadow)}
   .ptt a.pl{display:flex; align-items:center; gap:9px; padding:11px 2px; border-top:1px solid var(--line);
     color:var(--ink); text-decoration:none; font-size:13.5px; font-weight:600}
@@ -160,10 +164,12 @@
 
   .legend{display:flex; flex-wrap:wrap; gap:7px 14px; margin:2px 2px 0; font-size:11.5px; color:var(--ink-soft)}
   .legend i{width:9px;height:9px;border-radius:50%; display:inline-block; margin-right:5px; vertical-align:middle}
+  .hint{font-size:11px; color:var(--ink-faint); margin:9px 2px 0}
 
   footer{margin:30px 0 40px; padding-top:16px; border-top:1px solid var(--line);
     font-size:11.5px; color:var(--ink-faint); line-height:1.6}
   footer b{color:var(--ink-soft)}
+  footer a{color:var(--accent-ink)}
   a{color:var(--accent-ink)}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
   @media (max-width:380px){ .tiles{gap:6px} .tile .n{font-size:20px} .logo h1{font-size:15.5px} }
@@ -201,35 +207,36 @@
     <span><i style="background:var(--good)"></i>進行中</span>
     <span><i style="background:var(--up)"></i>即將開跑</span>
   </div>
+  <p class="hint">👆 點任一活動即可前往官方活動頁。</p>
 
   <!-- 即將截止 -->
   <section>
     <div class="sec-h"><span class="dot dot-warn"></span><h2>即將截止</h2><span class="cnt">4 檔 · 7 天內</span></div>
     <div class="stack">
-      <article class="deal s-crit">
+      <a class="deal s-crit" href="https://mkt.jkopay.com/zh-TW/campaign/newevent" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">街口</span><span class="chip chip-crit">今日截止</span></div>
         <h3 class="deal__title">世界盃足球賽 8 折應援券＋抽獎</h3>
-        <div class="deal__meta">運動用品<span class="sep">·</span>~07/20</div>
+        <div class="deal__meta">運動用品<span class="sep">·</span>~07/20<span class="go">官網 ›</span></div>
         <div class="reward"><b>8折</b><small>應援券</small></div>
-      </article>
-      <article class="deal s-warn">
+      </a>
+      <a class="deal s-warn" href="https://mkt.jkopay.com/zh-TW/campaign/newevent" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">街口</span><span class="chip chip-warn">07/22 截止</span></div>
         <h3 class="deal__title">鑽石大亨週年慶　25% 無上限</h3>
-        <div class="deal__meta">遊戲儲值<span class="sep">·</span>07/01–07/22</div>
+        <div class="deal__meta">遊戲儲值<span class="sep">·</span>07/01–07/22<span class="go">官網 ›</span></div>
         <div class="reward good"><b>25%</b><small>無上限</small></div>
-      </article>
-      <article class="deal s-warn">
+      </a>
+      <a class="deal s-warn" href="https://mkt.jkopay.com/zh-TW/campaign/newevent" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">街口</span><span class="chip chip-warn">07/24 截止</span></div>
         <h3 class="deal__title">節能省電專區　指定家電現折 $2,000</h3>
-        <div class="deal__meta">家電<span class="sep">·</span>~07/24</div>
+        <div class="deal__meta">家電<span class="sep">·</span>~07/24<span class="go">官網 ›</span></div>
         <div class="reward"><b>−2千</b></div>
-      </article>
-      <article class="deal s-warn">
+      </a>
+      <a class="deal s-warn" href="https://easywallet.easycard.com.tw/benefit/content?id=1779862791" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">悠遊付</span><span class="chip chip-warn">07/26 截止</span></div>
         <h3 class="deal__title">微風南山之夜　滿額最高 13%</h3>
-        <div class="deal__meta">百貨<span class="sep">·</span>07/09–07/26</div>
+        <div class="deal__meta">百貨<span class="sep">·</span>07/09–07/26<span class="go">官網 ›</span></div>
         <div class="reward good"><b>13%</b></div>
-      </article>
+      </a>
     </div>
   </section>
 
@@ -237,42 +244,48 @@
   <section>
     <div class="sec-h"><span class="dot dot-acc"></span><h2>本週高回饋亮點</h2><span class="cnt">最值得用</span></div>
     <div class="stack">
-      <article class="deal s-acc">
+      <a class="deal s-acc" href="https://easywallet.easycard.com.tw/benefit/content?id=1776840470" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">悠遊付</span><span class="chip chip-good">進行中</span></div>
         <h3 class="deal__title">台中捷運乘車碼　筆筆 50% 回饋</h3>
-        <div class="deal__meta">台中捷運<span class="sep">·</span>~07/31</div>
+        <div class="deal__meta">台中捷運<span class="sep">·</span>~07/31<span class="go">官網 ›</span></div>
         <div class="reward acc"><b>50%</b></div>
-      </article>
-      <article class="deal s-acc">
+      </a>
+      <a class="deal s-acc" href="https://www.icashpay.com.tw/event/memberbenefits/" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">icash Pay</span><span class="chip chip-good">進行中</span></div>
         <h3 class="deal__title">暑假遊韓最速 PAY　最高 52% OPENPOINT</h3>
-        <div class="deal__meta">韓國 TWQR<span class="sep">·</span>~08/31</div>
+        <div class="deal__meta">韓國 TWQR<span class="sep">·</span>~08/31<span class="go">官網 ›</span></div>
         <div class="reward acc"><b>52%</b></div>
-      </article>
-      <article class="deal s-acc">
+      </a>
+      <a class="deal s-acc" href="https://easywallet.easycard.com.tw/benefit/content?id=1779331719" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">悠遊付</span><span class="chip chip-good">進行中</span></div>
         <h3 class="deal__title">韓國旅遊　現金回饋最高 50%</h3>
-        <div class="deal__meta">韓國消費<span class="sep">·</span>~08/31</div>
+        <div class="deal__meta">韓國消費<span class="sep">·</span>~08/31<span class="go">官網 ›</span></div>
         <div class="reward acc"><b>50%</b></div>
-      </article>
-      <article class="deal s-acc">
+      </a>
+      <a class="deal s-acc" href="https://mkt.jkopay.com/zh-TW/campaign/newevent" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">街口</span><span class="chip chip-good">進行中</span></div>
         <h3 class="deal__title">街口飲料節　最高 42.5%</h3>
-        <div class="deal__meta">飲料通路<span class="sep">·</span>~07/31</div>
+        <div class="deal__meta">飲料通路<span class="sep">·</span>~07/31<span class="go">官網 ›</span></div>
         <div class="reward acc"><b>42.5%</b></div>
-      </article>
-      <article class="deal s-acc">
+      </a>
+      <a class="deal s-acc" href="https://easywallet.easycard.com.tw/benefit/content?id=1781689964" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">悠遊付</span><span class="chip chip-good">進行中</span></div>
         <h3 class="deal__title">迺夜市　每週五六日最高 35%</h3>
-        <div class="deal__meta">指定夜市<span class="sep">·</span>~08/31</div>
+        <div class="deal__meta">指定夜市<span class="sep">·</span>~08/31<span class="go">官網 ›</span></div>
         <div class="reward acc"><b>35%</b></div>
-      </article>
-      <article class="deal s-acc">
+      </a>
+      <a class="deal s-acc" href="https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=88" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">全支付</span><span class="chip chip-warn">限量</span></div>
         <h3 class="deal__title">打牙祭臺北夜市　最高 35% ＋foodpanda 券</h3>
-        <div class="deal__meta">17 大夜市<span class="sep">·</span>07/01–08/31</div>
+        <div class="deal__meta">17 大夜市<span class="sep">·</span>07/01–08/31<span class="go">官網 ›</span></div>
         <div class="reward acc"><b>35%</b></div>
-      </article>
+      </a>
+      <a class="deal s-acc" href="https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=89" target="_blank" rel="noopener">
+        <div class="deal__top"><span class="svc">全支付</span><span class="chip chip-warn">限量</span></div>
+        <h3 class="deal__title">延三夜市　單筆 30%＋指定銀行加碼 5%</h3>
+        <div class="deal__meta">延三夜市<span class="sep">·</span>07/01–08/31<span class="go">官網 ›</span></div>
+        <div class="reward acc"><b>30%</b></div>
+      </a>
     </div>
   </section>
 
@@ -280,42 +293,48 @@
   <section>
     <div class="sec-h"><span class="dot dot-crit"></span><h2>已額滿（未過期，別白跑）</h2><span class="cnt">7 檔</span></div>
     <div class="stack">
-      <article class="deal s-crit full">
+      <a class="deal s-crit full" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE1FX96S45KZXBXBKPBWF2" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-crit">已額滿</span></div>
         <h3 class="deal__title">TWQR 金門風華 10% 回饋</h3>
-        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~11/30</div>
+        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~11/30<span class="go">官網 ›</span></div>
         <div class="reward crit"><b>10%</b></div>
-      </article>
-      <article class="deal s-crit full">
+      </a>
+      <a class="deal s-crit full" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0KT8V36PGVDW4ZY0PBYNR" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-crit">已額滿</span></div>
         <h3 class="deal__title">誠品生活　台灣Pay 20%</h3>
-        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~08/31</div>
+        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~08/31<span class="go">官網 ›</span></div>
         <div class="reward crit"><b>20%</b></div>
-      </article>
-      <article class="deal s-crit full">
+      </a>
+      <a class="deal s-crit full" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0QXVGRZ2TJ1YH7GT22FKC" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-crit">已額滿</span></div>
         <h3 class="deal__title">光復市場買好料 20%</h3>
-        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~09/30</div>
+        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~09/30<span class="go">官網 ›</span></div>
         <div class="reward crit"><b>20%</b></div>
-      </article>
-      <article class="deal s-crit full">
+      </a>
+      <a class="deal s-crit full" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN18HDDRP0Z953CB1MK53S7" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-crit">已額滿</span></div>
         <h3 class="deal__title">中原×元智生活圈 20%</h3>
-        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~09/30</div>
+        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~09/30<span class="go">官網 ›</span></div>
         <div class="reward crit"><b>20%</b></div>
-      </article>
-      <article class="deal s-crit full">
+      </a>
+      <a class="deal s-crit full" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ58WNF9BPT0HZBEHRFQ6D" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-crit">已額滿</span></div>
-        <h3 class="deal__title">寶島眼鏡寵 EYE 享回饋 · 嘟嘟房停車每筆 $10</h3>
-        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~08/31 / ~09/30</div>
-        <div class="reward crit"><b>×2</b></div>
-      </article>
-      <article class="deal s-crit full">
+        <h3 class="deal__title">寶島眼鏡寵 EYE 享回饋</h3>
+        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~08/31<span class="go">官網 ›</span></div>
+        <div class="reward crit"><b>—</b></div>
+      </a>
+      <a class="deal s-crit full" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN19NNF700RDTZQHJ59NW4S" target="_blank" rel="noopener">
+        <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-crit">已額滿</span></div>
+        <h3 class="deal__title">嘟嘟房停車　每筆 $10 回饋</h3>
+        <div class="deal__meta">官方標「(活動額滿)」<span class="sep">·</span>~09/30<span class="go">官網 ›</span></div>
+        <div class="reward crit"><b>$10</b></div>
+      </a>
+      <a class="deal s-crit full" href="https://pay.line.me/portal/tw/main" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">LINE Pay</span><span class="chip chip-crit">已額滿</span></div>
         <h3 class="deal__title">中信 LINE Pay 卡〔吃喝補給〕7 月</h3>
-        <div class="deal__meta">活動頁標「7/15 14:35 額滿」<span class="sep">·</span>📰</div>
+        <div class="deal__meta">活動頁標「7/15 14:35 額滿」<span class="sep">·</span>📰<span class="go">官網 ›</span></div>
         <div class="reward crit"><b>—</b></div>
-      </article>
+      </a>
     </div>
   </section>
 
@@ -323,143 +342,133 @@
   <section>
     <div class="sec-h"><span class="dot dot-up"></span><h2>即將開跑</h2><span class="cnt">1 檔</span></div>
     <div class="stack">
-      <article class="deal s-up">
+      <a class="deal s-up" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFV9GFDCS1EGK6MNEPD06FN" target="_blank" rel="noopener">
         <div class="deal__top"><span class="svc">台灣Pay</span><span class="chip chip-up">07/23 開跑</span></div>
         <h3 class="deal__title">揪 OK · 筆筆 10% 現金回饋</h3>
-        <div class="deal__meta">OK 超商<span class="sep">·</span>07/23–09/30 · 上限 $100</div>
+        <div class="deal__meta">OK 超商<span class="sep">·</span>07/23–09/30 · 上限 $100<span class="go">官網 ›</span></div>
         <div class="reward"><b>10%</b></div>
-      </article>
+      </a>
     </div>
   </section>
 
   <!-- 各服務 -->
   <section>
-    <div class="sec-h"><span class="dot dot-good"></span><h2>各服務明細</h2><span class="cnt">15 服務 · 點開展開</span></div>
+    <div class="sec-h"><span class="dot dot-good"></span><h2>各服務明細</h2><span class="cnt">15 服務 · 點列前往官網</span></div>
 
     <details class="grp">
       <summary><span>台灣Pay</span><span class="conf ok">API</span><span class="badge">20+ 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>多檔夜市／商圈 20%</b><span>大稻埕迪化 · 廣州街&梧州街 · 臨江街 · 長春商圈 · 成功中繼市場</span></div><div class="rv">20%</div></div>
-        <div class="row"><div class="rt"><b>Autopass 加油停車</b><span>~12/31</span></div><div class="rv">20%</div></div>
-        <div class="row"><div class="rt"><b>美十樂藥局 · 三峽×八里 · Focus 百貨</b><span>各檔期至 08–12 月</span></div><div class="rv">20%</div></div>
-        <div class="row"><div class="rt"><b>東森寵物</b><span>~09/30</span></div><div class="rv">15%</div></div>
-        <div class="row"><div class="rt"><b>TWQR 花火狂歡</b><span>每月額滿 · ~08/31</span></div><div class="rv">10%⚠️</div></div>
+        <a class="row" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3H9VZWN3CT13M3A8VX7P4" target="_blank" rel="noopener"><div class="rt"><b>廣州街&梧州街夜市</b><span>06/30–09/30</span></div><div class="rv">20%</div></a>
+        <a class="row" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3X49YBZMK7BVJG5DBPHE9" target="_blank" rel="noopener"><div class="rt"><b>臨江街觀光夜市</b><span>06/30–12/31</span></div><div class="rv">20%</div></a>
+        <a class="row" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ2VVMHRVYN8583BTGMHTWB" target="_blank" rel="noopener"><div class="rt"><b>Autopass 加油停車</b><span>~12/31</span></div><div class="rv">20%</div></a>
+        <a class="row" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN1089QDKBZFN388KPDWVSW" target="_blank" rel="noopener"><div class="rt"><b>大稻埕迪化商圈</b><span>04/20–08/31</span></div><div class="rv">20%</div></a>
+        <a class="row" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ6Q4RH65GH90WT4GJ1HZM" target="_blank" rel="noopener"><div class="rt"><b>TWQR 花火狂歡</b><span>每月額滿 · ~08/31</span></div><div class="rv">10%⚠️</div></a>
+        <a class="row" href="https://www.taiwanpay.com.tw/fisc-tpay/news/event" target="_blank" rel="noopener"><div class="rt"><b>更多台灣Pay 活動</b><span>美十樂 20% · 三峽×八里 20% · 東森寵物 15%…</span></div><div class="rv">全部 ›</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>悠遊付</span><span class="conf ok">官網</span><span class="badge">55+ 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>台中捷運乘車碼</b><span>~07/31</span></div><div class="rv">50%</div></div>
-        <div class="row"><div class="rt"><b>韓國旅遊現金回饋</b><span>~08/31</span></div><div class="rv">50%</div></div>
-        <div class="row"><div class="rt"><b>迺夜市（週五六日）</b><span>~08/31</span></div><div class="rv">35%</div></div>
-        <div class="row"><div class="rt"><b>7-ELEVEN 筆筆＋加碼</b><span>~09/30</span></div><div class="rv">最高12%</div></div>
-        <div class="row"><div class="rt"><b>全家滿額＋首購加碼</b><span>~09/30</span></div><div class="rv">最高9%</div></div>
-        <div class="row"><div class="rt"><b>週末聚餐 · 天天三餐</b><span>~09/30</span></div><div class="rv">10–12%</div></div>
+        <a class="row" href="https://easywallet.easycard.com.tw/benefit/content?id=1776840470" target="_blank" rel="noopener"><div class="rt"><b>台中捷運乘車碼</b><span>~07/31</span></div><div class="rv">50%</div></a>
+        <a class="row" href="https://easywallet.easycard.com.tw/benefit/content?id=1779331719" target="_blank" rel="noopener"><div class="rt"><b>韓國旅遊現金回饋</b><span>~08/31</span></div><div class="rv">50%</div></a>
+        <a class="row" href="https://easywallet.easycard.com.tw/benefit/content?id=1781689964" target="_blank" rel="noopener"><div class="rt"><b>迺夜市（週五六日）</b><span>~08/31</span></div><div class="rv">35%</div></a>
+        <a class="row" href="https://easywallet.easycard.com.tw/benefit/" target="_blank" rel="noopener"><div class="rt"><b>7-ELEVEN 筆筆＋加碼 · 全家滿額</b><span>~09/30</span></div><div class="rv">最高12%</div></a>
+        <a class="row" href="https://easywallet.easycard.com.tw/benefit/" target="_blank" rel="noopener"><div class="rt"><b>更多悠遊付優惠</b><span>週末聚餐 · 天天三餐 · 寶雅…</span></div><div class="rv">全部 ›</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>街口 JKOPAY</span><span class="conf ok">官網</span><span class="badge">16 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>街口飲料節</b><span>~07/31</span></div><div class="rv">42.5%</div></div>
-        <div class="row"><div class="rt"><b>暑期遊日（PayPay）</b><span>~09/30</span></div><div class="rv">最高15%</div></div>
-        <div class="row"><div class="rt"><b>Apple 服務夏日慶典</b><span>~08/31</span></div><div class="rv">85折</div></div>
-        <div class="row"><div class="rt"><b>萬家福／樂家康（週日）</b><span>~12/31</span></div><div class="rv">8%</div></div>
-        <div class="row"><div class="rt"><b>TWQR 撐傘 · 澎湖花火</b><span>~08/16 / ~08/31</span></div><div class="rv">10%</div></div>
+        <a class="row" href="https://mkt.jkopay.com/zh-TW/campaign/newevent" target="_blank" rel="noopener"><div class="rt"><b>街口飲料節</b><span>~07/31</span></div><div class="rv">42.5%</div></a>
+        <a class="row" href="https://mkt.jkopay.com/zh-TW/campaign/japan" target="_blank" rel="noopener"><div class="rt"><b>暑期遊日（PayPay）</b><span>~09/30</span></div><div class="rv">最高15%</div></a>
+        <a class="row" href="https://mkt.jkopay.com/zh-TW/campaign/newevent" target="_blank" rel="noopener"><div class="rt"><b>Apple 服務 · 萬家福週日 · TWQR 撐傘</b><span>~08/16~12/31</span></div><div class="rv">8–85折</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>一卡通 iPASS MONEY</span><span class="conf ok">官網</span><span class="badge">12 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>里仁超市</b><span>07/13–08/31</span></div><div class="rv">最高20%</div></div>
-        <div class="row"><div class="rt"><b>自動加值＋消費</b><span>~09/30</span></div><div class="rv">10%+5%</div></div>
-        <div class="row"><div class="rt"><b>誠品生活 · PayPay 日本</b><span>~09/17 / ~09/30</span></div><div class="rv">10–15%</div></div>
-        <div class="row"><div class="rt"><b>摩斯漢堡滿 150 送 50 · 公路養管費送 480 券</b><span>~08/31 / ~07/31</span></div><div class="rv">券</div></div>
+        <a class="row" href="https://www.i-pass.com.tw/Preferential?type=0" target="_blank" rel="noopener"><div class="rt"><b>里仁超市</b><span>07/13–08/31</span></div><div class="rv">最高20%</div></a>
+        <a class="row" href="https://www.i-pass.com.tw/Preferential?type=0" target="_blank" rel="noopener"><div class="rt"><b>自動加值＋消費 · 誠品 · PayPay 日本</b><span>~09/30</span></div><div class="rv">10–15%</div></a>
+        <a class="row" href="https://www.i-pass.com.tw/Preferential?type=0" target="_blank" rel="noopener"><div class="rt"><b>摩斯滿150送50 · 公路養管費送480券</b><span>~08/31 / ~07/31</span></div><div class="rv">券</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>icash Pay</span><span class="conf ok">官網</span><span class="badge">16 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>暑假遊韓最速 PAY</b><span>~08/31 · 韓國 TWQR</span></div><div class="rv">最高52%</div></div>
-        <div class="row"><div class="rt"><b>綁卡首綁滿 5,000</b><span>~12/31 · 月上限 12,000 點</span></div><div class="rv">11%</div></div>
-        <div class="row"><div class="rt"><b>7-ELEVEN 綁卡 · 全台 TWQR 尋寶</b><span>~12/31 / ~08/31</span></div><div class="rv">10%+</div></div>
-        <div class="row"><div class="rt"><b>超商 · 康是美折 $50 · 各餐飲折扣</b><span>~12/31</span></div><div class="rv">0.5%+</div></div>
+        <a class="row" href="https://www.icashpay.com.tw/event/memberbenefits/" target="_blank" rel="noopener"><div class="rt"><b>暑假遊韓最速 PAY</b><span>~08/31 · 韓國 TWQR</span></div><div class="rv">最高52%</div></a>
+        <a class="row" href="https://www.icashpay.com.tw/event/memberbenefits/" target="_blank" rel="noopener"><div class="rt"><b>綁卡首綁滿 5,000 · 7-11 綁卡</b><span>~12/31</span></div><div class="rv">10–11%</div></a>
+        <a class="row" href="https://www.icashpay.com.tw/event/memberbenefits/" target="_blank" rel="noopener"><div class="rt"><b>超商 · 康是美折 $50 · 各餐飲折扣</b><span>~12/31</span></div><div class="rv">0.5%+</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>全支付 PX Pay Plus</span><span class="conf ok">API</span><span class="badge">~40 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>打牙祭臺北夜市（17 大夜市）</b><span>07/01–08/31 · +foodpanda 券</span></div><div class="rv">最高35%</div></div>
-        <div class="row"><div class="rt"><b>延三夜市＋指定銀行</b><span>07/01–08/31</span></div><div class="rv">30%+5%</div></div>
-        <div class="row"><div class="rt"><b>玩日本／樂遊韓國</b><span>~09/30</span></div><div class="rv">最高15%</div></div>
-        <div class="row"><div class="rt"><b>百大品牌 5% 系列（8 檔）</b><span>07/01–12/31</span></div><div class="rv">5%</div></div>
-        <div class="row"><div class="rt"><b>綁國泰卡日韓各 30 全點</b><span>限量 · ~07/31</span></div><div class="rv">限量</div></div>
+        <a class="row" href="https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=88" target="_blank" rel="noopener"><div class="rt"><b>打牙祭臺北夜市（17 大夜市）</b><span>07/01–08/31</span></div><div class="rv">最高35%</div></a>
+        <a class="row" href="https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=89" target="_blank" rel="noopener"><div class="rt"><b>延三夜市＋指定銀行</b><span>07/01–08/31</span></div><div class="rv">30%+5%</div></a>
+        <a class="row" href="https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=87" target="_blank" rel="noopener"><div class="rt"><b>玩日本／樂遊韓國</b><span>~09/30</span></div><div class="rv">最高15%</div></a>
+        <a class="row" href="https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=74" target="_blank" rel="noopener"><div class="rt"><b>百大品牌 5% 系列（8 檔）</b><span>07/01–12/31</span></div><div class="rv">5%</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>Pi 拍錢包</span><span class="conf ok">官網</span><span class="badge">8 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>玉山 Pi 卡吃喝玩樂 · eSIM 網卡</b><span>~08/31</span></div><div class="rv">最高11%</div></div>
-        <div class="row"><div class="rt"><b>盛夏滿額贈 · PChome 24h</b><span>~08/31</span></div><div class="rv">500 P幣</div></div>
-        <div class="row"><div class="rt"><b>新安產險投保</b><span>限量 · 暑假</span></div><div class="rv">150 P幣⚠️</div></div>
-        <div class="row"><div class="rt"><b>中信 ALL ME 卡（四大超商）</b><span>~12/31</span></div><div class="rv">3%</div></div>
+        <a class="row" href="https://web.piapp.com.tw/events/" target="_blank" rel="noopener"><div class="rt"><b>玉山 Pi 卡吃喝玩樂 · eSIM 網卡</b><span>~08/31</span></div><div class="rv">最高11%</div></a>
+        <a class="row" href="https://web.piapp.com.tw/events/" target="_blank" rel="noopener"><div class="rt"><b>盛夏滿額贈 · PChome 24h</b><span>~08/31</span></div><div class="rv">500 P幣</div></a>
+        <a class="row" href="https://web.piapp.com.tw/events/" target="_blank" rel="noopener"><div class="rt"><b>中信 ALL ME 卡（四大超商）</b><span>~12/31</span></div><div class="rv">3%</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>歐付寶 O'Pay</span><span class="conf soft">部分📰</span><span class="badge">5 進行中</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>澎湖 TWQR 花火</b><span>每月贈完為止 · 06/01–08/31</span></div><div class="rv">10%⚠️</div></div>
-        <div class="row"><div class="rt"><b>悠遊聯名卡首刷</b><span>2026 全年</span></div><div class="rv">最高13%</div></div>
-        <div class="row"><div class="rt"><b>美廉社滿 199 · 高雄夜市／十大商圈 TWQR</b><span>日期未確認</span></div><div class="rv">10%</div></div>
+        <a class="row" href="https://www.opay.tw/Banner/Event" target="_blank" rel="noopener"><div class="rt"><b>澎湖 TWQR 花火</b><span>每月贈完為止 · ~08/31</span></div><div class="rv">10%⚠️</div></a>
+        <a class="row" href="https://www.opay.tw/Banner/Event" target="_blank" rel="noopener"><div class="rt"><b>悠遊聯名卡首刷 · 高雄夜市／十大商圈</b><span>2026 全年 / 日期未確認</span></div><div class="rv">最高13%</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>LINE Pay</span><span class="conf soft">📰</span><span class="badge">多檔</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>乘車碼（前10趟+滿30趟加碼）</b><span>07/01–09/30 · 月上限 250 點</span></div><div class="rv">最高30%</div></div>
-        <div class="row"><div class="rt"><b>天天 LINE Pay 第三季（週週領券）</b><span>~09/30</span></div><div class="rv">領券</div></div>
-        <div class="row"><div class="rt"><b>推薦好友 · 18 歲以下開通</b><span>~09/30 / ~07月底</span></div><div class="rv">50–300點</div></div>
+        <a class="row" href="https://pay.line.me/portal/tw/main" target="_blank" rel="noopener"><div class="rt"><b>乘車碼（前10趟+滿30趟加碼）</b><span>~09/30 · 月上限 250 點</span></div><div class="rv">最高30%</div></a>
+        <a class="row" href="https://pay.line.me/portal/tw/main" target="_blank" rel="noopener"><div class="rt"><b>天天 LINE Pay 第三季 · 推薦好友</b><span>~09/30</span></div><div class="rv">領券/點</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>全盈+PAY</span><span class="conf soft">📰</span><span class="badge">~6</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>日本 PayPay 通路</b><span>日期未確認</span></div><div class="rv">最高40%</div></div>
-        <div class="row"><div class="rt"><b>兆豐首綁（總名額 1,500）</b><span>限量 · ~12/31</span></div><div class="rv">20%⚠️</div></div>
-        <div class="row"><div class="rt"><b>玉山 Unicard 首綁（限量 3 萬名）</b><span>限量</span></div><div class="rv">12.5%⚠️</div></div>
+        <a class="row" href="https://www.pluspay.com.tw/" target="_blank" rel="noopener"><div class="rt"><b>日本 PayPay 通路</b><span>日期未確認</span></div><div class="rv">最高40%</div></a>
+        <a class="row" href="https://www.pluspay.com.tw/" target="_blank" rel="noopener"><div class="rt"><b>兆豐首綁（1,500 名）· 玉山 Unicard（3 萬名）</b><span>限量</span></div><div class="rv">20%⚠️</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>全聯 PX Pay</span><span class="conf soft">部分📰</span><span class="badge">~3</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>Q3 卡友日（週六日）</b><span>各行限量 · 06/26–08/06</span></div><div class="rv">最高3%⚠️</div></div>
-        <div class="row"><div class="rt"><b>7 月福利任務</b><span>App 個人化任務</span></div><div class="rv">任務</div></div>
+        <a class="row" href="https://www.pxmart.com.tw/campaign/pxpay-card" target="_blank" rel="noopener"><div class="rt"><b>Q3 卡友日（週六日）</b><span>各行限量 · 06/26–08/06</span></div><div class="rv">最高3%⚠️</div></a>
+        <a class="row" href="https://www.pxmart.com.tw/campaign" target="_blank" rel="noopener"><div class="rt"><b>7 月福利任務</b><span>App 個人化任務</span></div><div class="rv">任務</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>全家 FamiPay</span><span class="conf soft">📰</span><span class="badge">~3</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>首綁國泰卡送購物金</b><span>官網 bot 擋 · 搜尋摘要</span></div><div class="rv">$50</div></div>
-        <div class="row"><div class="rt"><b>中元節滿 200 折 20 · 全家消費</b><span>7 月檔期 / ~08/31</span></div><div class="rv">5%</div></div>
+        <a class="row" href="https://www.family.com.tw/Marketing/zh/Event" target="_blank" rel="noopener"><div class="rt"><b>首綁國泰卡送購物金 · 中元節滿 200 折 20</b><span>官網 bot 擋 · 搜尋摘要</span></div><div class="rv">$50/5%</div></a>
       </div>
     </details>
 
     <details class="grp">
       <summary><span>橘子支付 · OPEN錢包 · 簡單付</span><span class="conf soft">少／重疊</span><span class="badge">3 家</span><span class="chev">›</span></summary>
       <div class="grp__body">
-        <div class="row"><div class="rt"><b>橘子支付</b><span>TWQR 逛越多享回饋 · 台中 AVI 綁定（活動極少）</span></div><div class="rv">—</div></div>
-        <div class="row"><div class="rt"><b>OPEN錢包</b><span>綁卡滿 200 享回饋（與 icash Pay 重疊）</span></div><div class="rv">10%</div></div>
-        <div class="row"><div class="rt"><b>簡單付 ezPay</b><span>偏繳費金流，查無消費檔期活動</span></div><div class="rv">—</div></div>
+        <a class="row" href="https://www.gamapay.com.tw/news_list.html" target="_blank" rel="noopener"><div class="rt"><b>橘子支付</b><span>TWQR 逛越多享回饋（活動極少）</span></div><div class="rv">—</div></a>
+        <a class="row" href="https://www.openpoint.com.tw/" target="_blank" rel="noopener"><div class="rt"><b>OPEN錢包</b><span>綁卡滿 200 享回饋（與 icash Pay 重疊）</span></div><div class="rv">10%</div></a>
+        <a class="row" href="https://www.ezpay.com.tw/" target="_blank" rel="noopener"><div class="rt"><b>簡單付 ezPay</b><span>偏繳費金流，查無消費檔期活動</span></div><div class="rv">—</div></a>
       </div>
     </details>
   </section>
@@ -478,9 +487,9 @@
   </section>
 
   <footer>
-    <b>資料來源</b>：15 家支付官網／API（台灣Pay、全支付走後端 API；悠遊付、街口、iPASS、icash、Pi 等官網）＋ 5 個 PTT 看板社群情報。<br>
+    <b>資料來源</b>：15 家支付官網／API（台灣Pay、全支付走後端 API；悠遊付、街口、iPASS、icash、Pi 等官網）＋ 5 個 PTT 看板社群情報。點擊卡片／列即前往該活動官方頁。<br>
     <b>判讀基準日</b>：2026/07/20（台北）。結束日 &lt; 今日者已剔除；標「已額滿」為官方明確公告、「限量」為名額有限但未確認額滿。<br>
-    <b>更新頻率</b>：每日自動分析後更新本頁。回饋率為「最高」值，實際依各活動條件、通路與登錄狀態而定，消費前請確認官方活動辦法。本頁為資訊整理，非投資或消費建議。
+    <b>更新頻率</b>：每日自動分析後更新本頁（<a href="https://github.com/garychen-soc/tw-pay-deals-radar" target="_blank" rel="noopener">GitHub 開源</a>）。回饋率為「最高」值，實際依各活動條件、通路與登錄狀態而定，消費前請確認官方活動辦法。本頁為資訊整理，非投資或消費建議。
   </footer>
 </div>
 
@@ -489,9 +498,9 @@
     var KEY="twpay-theme";
     var root=document.documentElement;
     var btn=document.getElementById("themebtn");
-    function apply(t){ if(t){root.setAttribute("data-theme",t);} btn.textContent = cur()==="dark" ? "☀" : "☾"; }
     function cur(){ var a=root.getAttribute("data-theme"); if(a) return a;
       return window.matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"; }
+    function apply(t){ if(t){root.setAttribute("data-theme",t);} btn.textContent = cur()==="dark" ? "☀" : "☾"; }
     try{ var s=localStorage.getItem(KEY); if(s) apply(s); else apply(); }catch(e){ apply(); }
     btn.addEventListener("click",function(){
       var next = cur()==="dark" ? "light" : "dark";
