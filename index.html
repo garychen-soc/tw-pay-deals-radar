@@ -171,6 +171,20 @@
   footer b{color:var(--ink-soft)}
   footer a{color:var(--accent-ink)}
   a{color:var(--accent-ink)}
+  .search{position:relative; margin:14px 0 2px}
+  .search input{width:100%; box-sizing:border-box; font-family:inherit; font-size:15px;
+    padding:11px 40px; border:1px solid var(--line); border-radius:11px;
+    background:var(--surface); color:var(--ink); -webkit-appearance:none; appearance:none}
+  .search input:focus{outline:none; border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-wash)}
+  .search input::placeholder{color:var(--ink-faint)}
+  .search .mag{position:absolute; left:13px; top:50%; transform:translateY(-50%); pointer-events:none; font-size:14px; opacity:.7}
+  .search .clr{position:absolute; right:8px; top:50%; transform:translateY(-50%); border:none;
+    background:var(--surface-2); color:var(--ink-soft); width:24px;height:24px; border-radius:50%;
+    cursor:pointer; font-size:12px; line-height:1; display:none}
+  .search .clr:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+  .noresult{text-align:center; color:var(--ink-soft); font-size:13.5px; padding:26px 12px;
+    background:var(--surface); border:1px dashed var(--line); border-radius:12px; margin:14px 0}
+  [hidden]{display:none!important}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
   @media (max-width:380px){ .tiles{gap:6px} .tile .n{font-size:20px} .logo h1{font-size:15.5px} }
 </style>
@@ -207,7 +221,13 @@
     <span><i style="background:var(--good)"></i>進行中</span>
     <span><i style="background:var(--up)"></i>即將開跑</span>
   </div>
+  <div class="search">
+    <span class="mag" aria-hidden="true">🔍</span>
+    <input id="q" type="text" inputmode="search" autocomplete="off" placeholder="搜尋活動／服務／通路…（如 韓國、夜市、7-11、街口）" aria-label="搜尋優惠活動">
+    <button class="clr" id="qclr" type="button" aria-label="清除搜尋">✕</button>
+  </div>
   <p class="hint">👆 點任一活動即可前往官方活動頁。</p>
+  <p class="noresult" id="noresult" hidden>查無符合的活動，換個關鍵字或清除搜尋。</p>
 
   <!-- 即將截止 -->
   <section>
@@ -503,6 +523,39 @@
 </div>
 
 <script>
+  // 即時搜尋：過濾活動卡片與明細列，空區塊自動隱藏，有結果的服務自動展開
+  (function(){
+    var q=document.getElementById("q"), clr=document.getElementById("qclr"), nr=document.getElementById("noresult");
+    if(!q) return;
+    var deals=[].slice.call(document.querySelectorAll(".deal")),
+        rows=[].slice.call(document.querySelectorAll("a.row")),
+        grps=[].slice.call(document.querySelectorAll("details.grp")),
+        secs=[].slice.call(document.querySelectorAll("section"));
+    function n(s){return (s||"").toLowerCase();}
+    function run(){
+      var kw=n(q.value.trim());
+      clr.style.display = kw ? "block" : "none";
+      var anyDeal=false, anyGrp=false;
+      deals.forEach(function(el){ var hit=!kw||n(el.textContent).indexOf(kw)>=0; el.hidden=!hit; if(hit)anyDeal=true; });
+      rows.forEach(function(el){ el.hidden = !(!kw||n(el.textContent).indexOf(kw)>=0); });
+      grps.forEach(function(d){
+        var vis=false; d.querySelectorAll("a.row").forEach(function(r){ if(!r.hidden)vis=true; });
+        d.hidden = kw && !vis; if(kw){ d.open=vis; if(vis)anyGrp=true; } else { d.open=false; }
+      });
+      secs.forEach(function(sec){
+        if(sec.querySelector(".ptt")){ sec.hidden = !!kw; return; }        // PTT 段：搜尋時隱藏
+        var ds=sec.querySelectorAll(".deal"), gs=sec.querySelectorAll("details.grp");
+        if(!ds.length && !gs.length) return;                               // 無卡片的段不動
+        var vis=false;
+        ds.forEach(function(x){ if(!x.hidden)vis=true; });
+        gs.forEach(function(x){ if(!x.hidden)vis=true; });
+        sec.hidden = kw ? !vis : false;
+      });
+      nr.hidden = !(kw && !anyDeal && !anyGrp);
+    }
+    q.addEventListener("input", run);
+    clr.addEventListener("click", function(){ q.value=""; run(); q.focus(); });
+  })();
   (function(){
     var KEY="twpay-theme";
     var root=document.documentElement;
