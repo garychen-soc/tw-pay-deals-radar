@@ -1,0 +1,8 @@
+# 核心抓取腳本（fetch_pxpayplus.py / fetch_taiwanpay.py / fetch_ptt.py）
+# 僅使用 Python 標準庫，無需安裝任何套件即可執行。
+#
+# 以下為「擴充」時才需要的選用套件：
+requests>=2.31          # 較友善的 HTTP client（可選）
+beautifulsoup4>=4.12    # 較穩健的 HTML 解析（可選，取代 regex）
+# playwright>=1.40       # 抓街口 / 悠遊付 / 橘子等 SPA 站時需要
+#                         安裝後另需執行：playwright install chromium
