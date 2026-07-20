@@ -4,7 +4,7 @@
 **即將截止、已額滿、高回饋**，並排除過期活動、標記未過期但已額滿者。
 
 > 🌐 **網站**：https://garychen-soc.github.io/tw-pay-deals-radar/
-> （每日自動更新；下方為運作方式）
+> （隔日自動更新；下方為運作方式）
 
 ---
 
@@ -30,7 +30,7 @@ icash Pay（愛金卡）、全盈+PAY、全支付、LINE Pay（連加）
 | 環節 | 做法 |
 |---|---|
 | **抓取** | 台灣Pay／全支付有後端 JSON API（見 `scripts/`）；街口／悠遊付／橘子是 SPA 需瀏覽器渲染；全家有 bot 防護；PTT 為 HTML |
-| **判讀** | 「額滿雙來源判定、日期分類、跨來源去重、PTT 社群交叉驗證」由 Claude 每日分析完成 |
+| **判讀** | 「額滿雙來源判定、日期分類、跨來源去重、PTT 社群交叉驗證」由 Claude 隔日分析完成 |
 | **產出** | 依 `site_template.html` 版型產生 `index.html`（手機友善、雙主題），push 到本 repo |
 | **託管** | GitHub Pages 自動發佈網站；每次 commit 即更新 |
 
