@@ -569,17 +569,18 @@
   // 每張活動卡與各服務明細列自動加「📅 加入 Google 行事曆」鈕（純前端）
   (function(){
     function pad(n){return (n<10?"0":"")+n;}
-    var today=new Date(); today.setHours(0,0,0,0);
-    function mkDate(y,m,d){var dt=new Date(y,m-1,d); if(dt<today) dt=new Date(y+1,m-1,d); return dt;}
+    var Y=(new Date()).getFullYear();
     function fmt(dt){return ""+dt.getFullYear()+pad(dt.getMonth()+1)+pad(dt.getDate());}
     function nextday(dt){var x=new Date(dt.getTime()); x.setDate(x.getDate()+1); return x;}
     function attach(dateText,title,svc,href,box){
       if(!box||/更多/.test(title||"")) return;
       var ds=(dateText||"").match(/(\d{1,2})\/(\d{1,2})/g);
       if(!ds||!ds.length) return;
-      function toD(s){var q=s.split("/"); return mkDate(today.getFullYear(),+q[0],+q[1]);}
-      var endD=toD(ds[ds.length-1]), startD=ds.length>1?toD(ds[0]):endD;
-      if(startD>endD) startD=endD;
+      function md(s){var q=s.split("/"); return [+q[0],+q[1]];}
+      var sm=md(ds[0]), em=md(ds[ds.length-1]);
+      var startD=new Date(Y,sm[0]-1,sm[1]);
+      var endD=new Date(Y,em[0]-1,em[1]);
+      if(endD<startD) endD=new Date(Y+1,em[0]-1,em[1]);   // 僅「結束早於開始」才跨年+1
       var ttl="["+(svc||"優惠").trim()+"] "+(title||"").trim();
       var det="優惠活動詳情："+(href||"")+"\n（台灣行動支付優惠雷達整理，實際依官方活動辦法為準）";
       var url="https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(ttl)+"&dates="+fmt(startD)+"/"+fmt(nextday(endD))+"&details="+encodeURIComponent(det);
