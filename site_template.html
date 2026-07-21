@@ -577,10 +577,12 @@
       var ds=(dateText||"").match(/(\d{1,2})\/(\d{1,2})/g);
       if(!ds||!ds.length) return;
       function md(s){var q=s.split("/"); return [+q[0],+q[1]];}
-      var sm=md(ds[0]), em=md(ds[ds.length-1]);
-      var startD=new Date(Y,sm[0]-1,sm[1]);
+      var em=md(ds[ds.length-1]);
       var endD=new Date(Y,em[0]-1,em[1]);
-      if(endD<startD) endD=new Date(Y+1,em[0]-1,em[1]);   // 僅「結束早於開始」才跨年+1
+      var startD;
+      if(ds.length>1){ var sm=md(ds[0]); startD=new Date(Y,sm[0]-1,sm[1]); }
+      else { startD=new Date(); startD.setHours(0,0,0,0); }        // 只有結束日 → 從今天起，涵蓋剩餘期間
+      if(endD<startD) endD=new Date(Y+1,em[0]-1,em[1]);            // 僅結束早於開始才跨年
       var ttl="["+(svc||"優惠").trim()+"] "+(title||"").trim();
       var det="優惠活動詳情："+(href||"")+"\n（台灣行動支付優惠雷達整理，實際依官方活動辦法為準）";
       var url="https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(ttl)+"&dates="+fmt(startD)+"/"+fmt(nextday(endD))+"&details="+encodeURIComponent(det);
