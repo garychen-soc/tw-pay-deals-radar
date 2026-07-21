@@ -190,9 +190,9 @@
   .noresult{text-align:center; color:var(--ink-soft); font-size:13.5px; padding:26px 12px;
     background:var(--surface); border:1px dashed var(--line); border-radius:12px; margin:14px 0}
   [hidden]{display:none!important}
-  .deal__meta .cal{display:inline-block; margin-left:8px; cursor:pointer; opacity:.6; font-size:13px; vertical-align:-1px; user-select:none}
-  .deal__meta .cal:hover{opacity:1}
-  .deal__meta .cal:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:4px; opacity:1}
+  .cal{display:inline-block; margin-left:8px; cursor:pointer; opacity:.6; font-size:13px; vertical-align:-1px; user-select:none}
+  .cal:hover{opacity:1}
+  .cal:focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:4px; opacity:1}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
   @media (max-width:380px){ .tiles{gap:6px} .tile .n{font-size:20px} .logo h1{font-size:15.5px} }
 </style>
@@ -566,33 +566,40 @@
     q.addEventListener("input", run);
     clr.addEventListener("click", function(){ q.value=""; run(); q.focus(); });
   })();
-  // 每張活動卡自動加「📅 加入 Google 行事曆」鈕（純前端，開啟 Google 日曆預填活動期間與官網連結）
+  // 每張活動卡與各服務明細列自動加「📅 加入 Google 行事曆」鈕（純前端）
   (function(){
     function pad(n){return (n<10?"0":"")+n;}
     var today=new Date(); today.setHours(0,0,0,0);
     function mkDate(y,m,d){var dt=new Date(y,m-1,d); if(dt<today) dt=new Date(y+1,m-1,d); return dt;}
     function fmt(dt){return ""+dt.getFullYear()+pad(dt.getMonth()+1)+pad(dt.getDate());}
     function nextday(dt){var x=new Date(dt.getTime()); x.setDate(x.getDate()+1); return x;}
-    [].slice.call(document.querySelectorAll("a.deal")).forEach(function(card){
-      var meta=card.querySelector(".deal__meta"), tt=card.querySelector(".deal__title");
-      if(!meta||!tt) return;
-      var ds=meta.textContent.match(/(\d{1,2})\/(\d{1,2})/g);
-      if(!ds||!ds.length) return;                        // 無明確日期不加
-      function toD(s){var p=s.split("/"); return mkDate(today.getFullYear(),+p[0],+p[1]);}
+    function attach(dateText,title,svc,href,box){
+      if(!box||/更多/.test(title||"")) return;
+      var ds=(dateText||"").match(/(\d{1,2})\/(\d{1,2})/g);
+      if(!ds||!ds.length) return;
+      function toD(s){var q=s.split("/"); return mkDate(today.getFullYear(),+q[0],+q[1]);}
       var endD=toD(ds[ds.length-1]), startD=ds.length>1?toD(ds[0]):endD;
       if(startD>endD) startD=endD;
-      var svc=(card.querySelector(".svc")||{textContent:""}).textContent.trim();
-      var href=card.getAttribute("href")||"";
-      var title="["+svc+"] "+tt.textContent.trim();
-      var det="優惠活動詳情："+href+"\n（台灣行動支付優惠雷達整理，實際依官方活動辦法為準）";
-      var url="https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(title)+"&dates="+fmt(startD)+"/"+fmt(nextday(endD))+"&details="+encodeURIComponent(det);
+      var ttl="["+(svc||"優惠").trim()+"] "+(title||"").trim();
+      var det="優惠活動詳情："+(href||"")+"\n（台灣行動支付優惠雷達整理，實際依官方活動辦法為準）";
+      var url="https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(ttl)+"&dates="+fmt(startD)+"/"+fmt(nextday(endD))+"&details="+encodeURIComponent(det);
       var b=document.createElement("span");
       b.className="cal"; b.setAttribute("role","button"); b.tabIndex=0;
       b.setAttribute("aria-label","加入 Google 行事曆"); b.title="加入 Google 行事曆"; b.textContent="📅";
       function go(e){e.preventDefault(); e.stopPropagation(); window.open(url,"_blank","noopener");}
       b.addEventListener("click",go);
       b.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" ")go(e);});
-      meta.appendChild(b);
+      box.appendChild(b);
+    }
+    [].slice.call(document.querySelectorAll("a.deal")).forEach(function(c){
+      var m=c.querySelector(".deal__meta"), t=c.querySelector(".deal__title"), s=(c.querySelector(".svc")||{textContent:""}).textContent;
+      if(m&&t) attach(m.textContent,t.textContent,s,c.getAttribute("href"),m);
+    });
+    [].slice.call(document.querySelectorAll("a.row")).forEach(function(r){
+      var rt=r.querySelector(".rt"); if(!rt) return;
+      var b=rt.querySelector("b"), sp=rt.querySelector("span");
+      var g=r.closest("details.grp"), s=g?(g.querySelector("summary span")||{textContent:""}).textContent:"";
+      if(b&&sp) attach(sp.textContent,b.textContent,s,r.getAttribute("href"),rt);
     });
   })();
   (function(){
