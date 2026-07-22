@@ -23,7 +23,7 @@ icash Pay（愛金卡）、全盈+PAY、全支付、LINE Pay（連加）
 [CVS](https://www.ptt.cc/bbs/CVS/index.html)、
 [fastfood](https://www.ptt.cc/bbs/fastfood/index.html)
 
-## 運作架構（Claude 分析 ＋ GitHub 託管）
+## 運作架構（資料驅動：每日產 JSON ＋ 前端固定渲染）
 
 這些來源的抓取難度差異極大，因此採「智能分析 ＋ 靜態託管」：
 
@@ -31,7 +31,7 @@ icash Pay（愛金卡）、全盈+PAY、全支付、LINE Pay（連加）
 |---|---|
 | **抓取** | 台灣Pay／全支付有後端 JSON API（見 `scripts/`）；街口／悠遊付／橘子是 SPA 需瀏覽器渲染；全家有 bot 防護；PTT 為 HTML |
 | **判讀** | 「額滿雙來源判定、日期分類、跨來源去重、PTT 社群交叉驗證」由 Claude 隔日分析完成 |
-| **產出** | 依 `site_template.html` 版型產生 `index.html`（手機友善、雙主題），push 到本 repo |
+| **產出** | 排程每天只產 `data/promotions.json`；前端 `index.html` + `assets/app.js` 固定，讀 JSON 動態渲染（篩選/搜尋/行事曆），根治重生成走樣 |
 | **託管** | GitHub Pages 自動發佈網站；每次 commit 即更新 |
 
 > 為何不做成純爬蟲 GitHub Actions？SPA 渲染與「額滿雙來源」等判讀，純規則式會明顯掉品質、且官網一改版就壞。此架構保留判讀品質，GitHub 提供公開網址與版本歷史。
