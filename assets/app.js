@@ -81,7 +81,14 @@
       if(q && !searchText(a).includes(q)) return false;
       return matchesCategory(a); }).sort(sortActivities); }
 
-  function safeExternalUrl(v){ try{ const u=new URL(String(v)); return ["https:","http:"].includes(u.protocol)?u.href:""; }catch{ return ""; } }
+  // 官方網域白名單：只允許已登錄的支付官方網域與 PTT，防止資料被注入惡意連結
+  const ALLOWED_DOMAINS = ["taiwanpay.com.tw","easycard.com.tw","icashpay.com.tw","i-pass.com.tw",
+    "pxpayplus.com","piapp.com.tw","opay.tw","line.me","pluspay.com.tw","pxmart.com.tw",
+    "family.com.tw","gamapay.com.tw","openpoint.com.tw","ezpay.com.tw","jkopay.com","ptt.cc"];
+  function hostAllowed(host){ const h=String(host).toLowerCase(); return ALLOWED_DOMAINS.some(d=>h===d||h.endsWith("."+d)); }
+  function safeExternalUrl(v){ try{ const u=new URL(String(v));
+    if(!["https:","http:"].includes(u.protocol)) return "";
+    return hostAllowed(u.hostname) ? u.href : ""; }catch{ return ""; } }
   function pad(n){ return (n<10?"0":"")+n; }
   function ymd(d){ return ""+d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate()); }
   function buildCalendarUrl(a){

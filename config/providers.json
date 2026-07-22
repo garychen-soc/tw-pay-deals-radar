@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "note": "支付服務登錄與官方網域白名單。promotions.json 的活動 url 必須屬於此處網域（app.js 與 tests 皆據此驗證），避免把搜尋結果、短網址或第三方內容誤當官方來源。新增服務時同步更新此檔、app.js 的 ALLOWED_DOMAINS 與排程 SKILL.md。",
+  "providers": [
+    { "id": "taiwanpay",  "name": "台灣Pay",              "official_domains": ["taiwanpay.com.tw"] },
+    { "id": "easywallet", "name": "悠遊付",                "official_domains": ["easycard.com.tw", "easywallet.easycard.com.tw"] },
+    { "id": "icashpay",   "name": "icash Pay",            "official_domains": ["icashpay.com.tw", "openpoint.com.tw"] },
+    { "id": "ipassmoney", "name": "一卡通 iPASS MONEY",    "official_domains": ["i-pass.com.tw"] },
+    { "id": "pxpayplus",  "name": "全支付",                "official_domains": ["pxpayplus.com", "marketing.pxpayplus.com", "service.pxpayplus.com"] },
+    { "id": "jkopay",     "name": "街口",                  "official_domains": ["jkopay.com", "mkt.jkopay.com"] },
+    { "id": "pipay",      "name": "Pi 拍錢包",             "official_domains": ["piapp.com.tw", "web.piapp.com.tw"] },
+    { "id": "opay",       "name": "歐付寶",                "official_domains": ["opay.tw"] },
+    { "id": "linepay",    "name": "LINE Pay",             "official_domains": ["line.me", "pay.line.me"] },
+    { "id": "pluspay",    "name": "全盈+PAY",              "official_domains": ["pluspay.com.tw"] },
+    { "id": "pxmart",     "name": "全聯 PX Pay",           "official_domains": ["pxmart.com.tw"] },
+    { "id": "family",     "name": "全家 FamiPay",          "official_domains": ["family.com.tw"] },
+    { "id": "gamapay",    "name": "橘子支付",              "official_domains": ["gamapay.com.tw"] },
+    { "id": "openpoint",  "name": "OPEN錢包",              "official_domains": ["openpoint.com.tw"] },
+    { "id": "ezpay",      "name": "簡單付 ezPay",          "official_domains": ["ezpay.com.tw"] }
+  ],
+  "extra_allowed_domains": ["ptt.cc"]
+}
