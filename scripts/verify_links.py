@@ -139,7 +139,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fix", action="store_true", help="剔除判定為 dead 的活動並寫回 JSON")
     ap.add_argument("--limit", type=int, default=0, help="只驗前 N 個 unique 連結")
-    ap.add_argument("--only", default="", help="只驗指定 provider_name")
+    ap.add_argument("--only", default="",
+                    help="只驗指定 provider_name，可逗號分隔多個（如 台灣Pay,全支付）")
     ap.add_argument("--delay", type=float, default=1.5,
                     help="每個連結之間間隔秒數，避免密集請求觸發站台 5xx 限流（預設 1.5）")
     args = ap.parse_args()
@@ -148,9 +149,10 @@ def main():
     acts = d["activities"]
 
     # 去重：unique url → 代表用的 provider_name（僅供顯示）
+    only = {x.strip() for x in args.only.split(",") if x.strip()}
     url2name = {}
     for a in acts:
-        if args.only and a["provider_name"] != args.only:
+        if only and a["provider_name"] not in only:
             continue
         url2name.setdefault(a["url"], a["provider_name"])
     urls = list(url2name)
