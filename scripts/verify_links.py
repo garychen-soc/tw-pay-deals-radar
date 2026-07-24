@@ -92,25 +92,45 @@ def classify(title, body, url):
     return ("ok", "")
 
 
+def _read(url, wait_ms):
+    """開啟並讀取渲染後的 title/內文。回傳 dict 或 None（讀取失敗）。
+
+    先 open about:blank 清掉前一頁殘留——agent-browser daemon 復用同一 tab，
+    快速連驗多個 SPA 時，若不清空會 eval 到上一頁的 title/內文（title 串味）。
+    """
+    ab(["open", "about:blank"], timeout=15)  # 清殘留，避免 SPA 串味
+    ab(["open", url], timeout=40)
+    ab(["wait", str(wait_ms)], timeout=wait_ms // 1000 + 8)  # 等 SPA client route 渲染
+    expr = ("JSON.stringify({t:document.title,"
+            "b:document.body.innerText.slice(0,800),u:location.href})")
+    r = ab(["eval", expr, "--json"], timeout=20)
+    outer = json.loads(r.stdout.strip())
+    if not outer.get("success"):
+        return None
+    return json.loads(outer["data"]["result"])
+
+
 def probe(url):
-    """開真瀏覽器實測單一連結，回傳 (status, title, note)。"""
+    """開真瀏覽器實測單一連結，回傳 (status, title, note)。
+
+    防假判：SPA 首次可能沒渲染完（title 還是初始品牌名/空）→ 非 ok 時多等重試一次，
+    兩次都非 ok 才採信，避免把慢渲染的好連結誤判成 dead。
+    """
     try:
-        ab(["open", url], timeout=40)
-        ab(["wait", "2500"], timeout=8)  # 等 SPA 渲染 title/內文（台灣Pay/全支付延遲載入）
-        expr = ("JSON.stringify({t:document.title,"
-                "b:document.body.innerText.slice(0,800),u:location.href})")
-        r = ab(["eval", expr, "--json"], timeout=20)
-        outer = json.loads(r.stdout.strip())
-        if not outer.get("success"):
-            return ("warn", "", f"eval 失敗:{outer.get('error')}")
-        info = json.loads(outer["data"]["result"])
+        info = _read(url, 3500)
+        if info is None:
+            return ("warn", "", "eval 失敗")
+        title = (info.get("t") or "").strip()
+        status, note = classify(title, info.get("b"), url)
+        if status != "ok":
+            info2 = _read(url, 7000)  # 慢渲染兜底：多等一倍重試
+            if info2:
+                title = (info2.get("t") or "").strip()
+                status, note = classify(title, info2.get("b"), url)
     except subprocess.TimeoutExpired:
         return ("warn", "", "逾時")
     except (json.JSONDecodeError, KeyError, TypeError) as e:
         return ("warn", "", f"解析失敗:{e}")
-
-    title = (info.get("t") or "").strip()
-    status, note = classify(title, info.get("b"), url)
     return (status, title, note)
 
 
