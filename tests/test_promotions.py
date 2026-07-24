@@ -67,6 +67,20 @@ class TestPromotions(unittest.TestCase):
         ids = [a["id"] for a in DATA["activities"]]
         self.assertEqual(len(ids), len(set(ids)), "活動 id 有重複")
 
+    def test_no_known_broken_url_patterns(self):
+        """封鎖 2026-07-25 實測會 404／導回首頁的壞連結格式，防止排程再犯。"""
+        for a in DATA["activities"]:
+            u = a["url"]
+            self.assertNotIn(
+                "/tpay/news/event/", u,
+                f"{a['id']} 台灣Pay 活動頁須用 /fisc-tpay/ 前綴，/tpay/ 會 404：{u}")
+            self.assertNotIn(
+                "www.pxpayplus.com/activity_content_page", u,
+                f"{a['id']} 全支付須用 marketing.pxpayplus.com/pxplus_marketing_page/，www 會導回首頁：{u}")
+            self.assertNotRegex(
+                u, r"^https?://pluspay\.com\.tw",
+                f"{a['id']} 全盈須用 www.pluspay.com.tw（裸網域連不上）：{u}")
+
     def test_featured_ids_exist(self):
         ids = {a["id"] for a in DATA["activities"]}
         for fid in DATA.get("featured_ids", []):
