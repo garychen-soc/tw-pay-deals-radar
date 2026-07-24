@@ -25,6 +25,7 @@ import argparse
 import json
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -139,6 +140,8 @@ def main():
     ap.add_argument("--fix", action="store_true", help="剔除判定為 dead 的活動並寫回 JSON")
     ap.add_argument("--limit", type=int, default=0, help="只驗前 N 個 unique 連結")
     ap.add_argument("--only", default="", help="只驗指定 provider_name")
+    ap.add_argument("--delay", type=float, default=1.5,
+                    help="每個連結之間間隔秒數，避免密集請求觸發站台 5xx 限流（預設 1.5）")
     args = ap.parse_args()
 
     d = json.loads(DATA.read_text("utf-8"))
@@ -153,12 +156,26 @@ def main():
     urls = list(url2name)
     if args.limit:
         urls = urls[: args.limit]
+    # 按服務交錯排序：避免同站連續請求（如悠遊付 71 個）密集打觸發 5xx 限流
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for u in urls:
+        groups[url2name[u]].append(u)
+    lists = list(groups.values())
+    interleaved = []
+    while any(lists):
+        for lst in lists:
+            if lst:
+                interleaved.append(lst.pop(0))
+    urls = interleaved
 
     print(f"實測 {len(urls)} 個 unique 連結"
           f"（活動總數 {len(acts)}）…\n")
     result = {}
     dead, warn = [], []
     for i, u in enumerate(urls, 1):
+        if i > 1 and args.delay:
+            time.sleep(args.delay)  # 降速，避免同站密集請求觸發 5xx 限流
         status, title, note = probe(u)
         result[u] = status
         icon = {"ok": "✅", "dead": "❌", "warn": "⚠️"}[status]
