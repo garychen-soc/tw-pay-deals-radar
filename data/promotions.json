@@ -1,15 +1,15 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-28T11:30:00+08:00",
+ "generated_at": "2026-07-30T11:15:00+08:00",
  "timezone": "Asia/Taipei",
- "headline": "全支付 8 月新活動齊發（易遊網/水源市場/全聯高鐵快閃店），台灣Pay福利驚奇網9折上線，Pi拍錢包暑假eSIM／711 Day優惠開跑",
+ "headline": "全支付新增日韓信用卡跨境回饋活動(8/3上線)，台灣Pay/其餘14服務今日盤點後維持不變，共120+檔優惠持續有效",
  "source_health": {
   "status": "partial",
   "failures": [
-   "橘子支付 news_list.html 為 CSR 頁面, WebFetch 只取到清單框架, 改沿用昨日資料",
-   "全聯 PX Pay campaign 頁未成功渲染, 沿用昨日資料",
-   "悠遊付/街口 今日經比對確認資料與昨日一致, 沿用昨日資料 (未逐筆重新解析)",
-   "橘子支付/全聯/悠遊付/街口/LINE Pay/全盈+PAY/全家/OPEN錢包 本次未跑 verify_links (僅台灣Pay+全支付走 API 重抓)"
+   "台灣Pay TF020109 API 回應過長,瀏覽器 read_network_requests 於約第38筆截斷,今日以截斷內容比對: 31 檔舊活動全數確認仍有效、7 筆額外截斷內容經核對均為已過期活動,故台灣Pay 31 檔活動維持不變",
+   "全支付改用單執行緒序列掃描(1-130)以繞過本環境並發連線問題(12 workers 版本回傳 0 筆),掃描到 112 筆,新增 1 筆(EventId=112,08/03上線)",
+   "iPASS/icash/Pi/悠遊付/街口/歐付寶/全聯/全盈/橘子/OPEN/全家/LINE Pay 今日未重新逐筆解析,經檢查全部活動 end_date 均晚於今日(2026-07-30),故沿用上次(07-28)資料,未發現需下架或轉為 active 的項目",
+   "本次僅台灣Pay/全支付走過 API/瀏覽器重抓,依規則沿用資料的服務未跑 verify_links"
   ]
  },
  "featured_ids": [
@@ -1251,6 +1251,22 @@
    "lifecycle": "active",
    "quota_status": "not_marked_full",
    "reward": "最高7%",
+   "is_high_return": false,
+   "insights": [],
+   "source": "api"
+  },
+  {
+   "id": "pxpayplus-112",
+   "provider_id": "pxpayplus",
+   "provider_name": "全支付",
+   "title": "綁定國泰世華銀行信用卡，於日韓跨境消費滿額享限量全點回饋！",
+   "channel": "TWQR/信用卡",
+   "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=112",
+   "start_date": "2026-08-03",
+   "end_date": "2026-09-27",
+   "lifecycle": "upcoming",
+   "quota_status": "not_marked_full",
+   "reward": "詳活動內容",
    "is_high_return": false,
    "insights": [],
    "source": "api"
@@ -3515,15 +3531,15 @@
  "ptt_posts": [
   {
    "board": "MobilePay",
-   "title": "[情報] 萬家福/樂家康可使用icashpay了",
-   "push": "31",
-   "url": "https://www.ptt.cc/bbs/MobilePay/M.1784427357.A.925.html"
+   "title": "[情報] 萬家福、樂家康icash pay最高21%",
+   "push": "18",
+   "url": "https://www.ptt.cc/bbs/MobilePay/M.1785294289.A.A40.html"
   },
   {
    "board": "MobilePay",
-   "title": "Re: [心得] 超商刷卡/支付/自帶會員整理  (230211更)",
-   "push": "33",
-   "url": "https://www.ptt.cc/bbs/MobilePay/M.1643896282.A.C12.html"
+   "title": "[情報] 萬家福/樂家康可使用icashpay了",
+   "push": "38",
+   "url": "https://www.ptt.cc/bbs/MobilePay/M.1784427357.A.925.html"
   },
   {
    "board": "MobilePay",
@@ -3532,22 +3548,22 @@
    "url": "https://www.ptt.cc/bbs/MobilePay/M.1784396038.A.C4B.html"
   },
   {
-   "board": "CVS",
-   "title": "[討論] 小七VS全家的鮮食&早餐優惠組合比較",
-   "push": "54",
-   "url": "https://www.ptt.cc/bbs/CVS/M.1784960336.A.AF6.html"
+   "board": "MobilePay",
+   "title": "[情報] 郵局首綁送小物/同銀行綁2個帳戶電子支付",
+   "push": "3",
+   "url": "https://www.ptt.cc/bbs/MobilePay/M.1785141072.A.753.html"
+  },
+  {
+   "board": "MobilePay",
+   "title": "[閒聊] 雙北乘車碼轉乘優惠規範與儲值卡不同",
+   "push": "5",
+   "url": "https://www.ptt.cc/bbs/MobilePay/M.1785298083.A.D8C.html"
   },
   {
    "board": "fastfood",
-   "title": "[情報] 優惠卷彙整 & 集中分享串",
-   "push": "爆",
-   "url": "https://www.ptt.cc/bbs/fastfood/M.1526277935.A.DA0.html"
-  },
-  {
-   "board": "fastfood",
-   "title": "[情報] NEW！肯德基/必勝客優惠",
-   "push": "22",
-   "url": "https://www.ptt.cc/bbs/fastfood/M.1784704355.A.830.html"
+   "title": "[情報] 必勝客x悠遊卡限定活動分享",
+   "push": "",
+   "url": "https://www.ptt.cc/bbs/fastfood/M.1785119945.A.39E.html"
   }
  ]
 }
