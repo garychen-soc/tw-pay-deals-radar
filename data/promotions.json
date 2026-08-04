@@ -1,21 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-02T11:30:00+08:00",
+  "generated_at": "2026-08-04T18:20:00+08:00",
   "timezone": "Asia/Taipei",
-  "headline": "台灣Pay 8/1 上線永康國際商圈、高雄墨凡站前商圈等多筆新回饋活動；悠遊付迺夜市最高35%回饋、韓國旅遊最高50%回饋持續熱門",
+  "headline": "悠遊付8/1起新增暢遊金門23%、康是美網購45%、雙北捷運10%等多筆高回饋；街口8月解鎖30%回饋限量4,000名；iPASS新增momo、王道銀行等優惠",
   "source_health": {
     "status": "ok",
-    "failures": []
+    "failures": [
+      "悠遊付新增 8 筆連結未跑 verify_links.py（已知 headless 被 WAF 擋，本就無法自動驗證，改採列表頁 anchor href 直接擷取，可信度高）",
+      "iPASS/Pi/街口 新增連結已用瀏覽器直接開啟人工確認可達且內容正確"
+    ]
   },
   "featured_ids": [
-    "taiwanpay-01KY4P3N7N48E7PS9TRQD6P1AY",
-    "taiwanpay-01KYRZ4QM0NYQA204D89ZMT319",
-    "easywallet-1781689964",
-    "easywallet-1779331719",
-    "opay-02",
-    "pxpayplus-112",
-    "icash-11",
-    "ipass-GMZTMMQ4HWFB664P4Hun"
+    "easywallet-1784529826",
+    "easywallet-1784206763",
+    "jkopay-jko30bonus",
+    "easywallet-1784682808",
+    "pxpayplus-37",
+    "ipass-momo202608",
+    "easywallet-1784703624",
+    "ipass-wangdaocarbon"
   ],
   "activities": [
     {
@@ -3249,50 +3252,350 @@
       "is_high_return": false,
       "insights": [],
       "source": "api"
+    },
+    {
+      "id": "ipass-momo202608",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "點擊火速領取 momo 專屬 100 元優惠券",
+      "channel": "momo購物網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMQ25JNDT641k8ux",
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-08",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$100",
+      "is_high_return": true,
+      "insights": [
+        "momo購物網限時優惠券，8/3-8/8短期活動"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-wangdaobind",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【王道銀行】綁王道卡消費，最高享5%回饋！",
+      "channel": "王道銀行",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE",
+      "start_date": "2026-08-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高5%",
+      "is_high_return": false,
+      "insights": [
+        "綁定王道銀行信用卡消費回饋"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-wangdaocarbon",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【王道銀行】王道愛減碳 完成任務最高享一卡通綠點1,700點與新台幣500元現金回饋！",
+      "channel": "王道銀行",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOAKB6IZQ64S2dWx",
+      "start_date": "2026-07-31",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高$500+1700綠點",
+      "is_high_return": true,
+      "insights": [
+        "綠色減碳任務型活動，回饋含現金與綠點"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-mengo-tpass",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【MeN Go/TPASS 嘉南高屏定期票】用iPASS MONEY APP購票樂享雙重回饋！",
+      "channel": "MeN Go/TPASS",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOIXZZIFN645cRtj",
+      "start_date": "2026-08-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "雙重回饋",
+      "is_high_return": false,
+      "insights": [
+        "嘉南高屏地區定期票購票優惠"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-donsenpet202608",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【東森寵物】寵愛大放送，使用iPASS MONEY付款單筆滿千贈100元優惠券",
+      "channel": "東森寵物",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDQNQ7OUMSX64IfY7L",
+      "start_date": "2026-08-01",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$100",
+      "is_high_return": true,
+      "insights": [
+        "東森寵物消費滿千贈券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "pipay-711midautumn202608",
+      "provider_id": "pipay",
+      "provider_name": "Pi 拍錢包",
+      "title": "7-ELEVEN｜超吉好運拜中元 Pi拍錢包消費滿$1,111立折$100",
+      "channel": "7-ELEVEN",
+      "url": "https://web.piapp.com.tw/events-7-eleven-202608/",
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-23",
+      "lifecycle": "upcoming",
+      "quota_status": "not_marked_full",
+      "reward": "$100",
+      "is_high_return": true,
+      "insights": [
+        "中元節限定，7-ELEVEN消費滿$1,111現折$100，限量贈完為止"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784206763",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "悠遊付暢遊金門 筆筆最高回饋23%",
+      "channel": "金門地區",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784206763",
+      "start_date": "2026-08-01",
+      "end_date": "2026-11-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高23%",
+      "is_high_return": true,
+      "insights": [
+        "金門地區消費最高23%回饋"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784703624",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "2026悠遊付掃碼領100元金門暢遊券",
+      "channel": "金門地區",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784703624",
+      "start_date": "2026-08-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$100",
+      "is_high_return": true,
+      "insights": [
+        "金門暢遊券，掃碼領取"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784529379",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "樂天新戶綁定悠遊付好禮NT$1,000",
+      "channel": "樂天",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784529379",
+      "start_date": "2026-08-01",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$1,000",
+      "is_high_return": true,
+      "insights": [
+        "樂天新戶綁定悠遊付贈禮"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784529826",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "康是美網購eShop｜最高45%回饋 接力再升級！",
+      "channel": "康是美網購",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784529826",
+      "start_date": "2026-08-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高45%",
+      "is_high_return": true,
+      "insights": [
+        "康是美網購eShop高回饋活動"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784682808",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "用悠遊付搭乘雙北捷運公車享筆筆10%回饋 通勤常客再抽$1111",
+      "channel": "雙北捷運公車",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784682808",
+      "start_date": "2026-08-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [
+        "雙北大眾運輸回饋，另抽通勤獎金"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784794791",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "歡慶上線！台中銀行 x 悠遊付 首綁消費扣款享回饋",
+      "channel": "台中銀行",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784794791",
+      "start_date": "2026-08-03",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "首綁回饋",
+      "is_high_return": false,
+      "insights": [
+        "台中銀行帳戶新上線首綁優惠"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1784794814",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "【肉次方/和牛涮】悠遊付領券最高回饋15%",
+      "channel": "肉次方/和牛涮",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784794814",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高15%",
+      "is_high_return": true,
+      "insights": [
+        "餐飲通路領券最高15%回饋"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "easywallet-1785126639",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "悠遊聯名卡自動加值活動優惠",
+      "channel": "悠遊聯名卡",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1785126639",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "自動加值回饋",
+      "is_high_return": false,
+      "insights": [
+        "悠遊聯名卡自動加值長期優惠"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "jkopay-jko30bonus",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "街口8月解鎖30%回饋",
+      "channel": "指定通路",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/jko30bonus",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "30%(限量4000名)",
+      "is_high_return": true,
+      "insights": [
+        "累積消費滿$5,000可領30%街口券，限量4,000名先領先贏"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "jkopay-jkocitycafe",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "街口 X CITY CAFE 獨享優惠",
+      "channel": "CITY CAFE",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/jkocitycafe",
+      "start_date": "2026-08-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "CITY CAFE兌換券",
+      "is_high_return": false,
+      "insights": [
+        "繳費/首購/淘寶消費任務型贈CITY CAFE飲品券，每月重新計算"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "opay-08",
+      "provider_id": "opay",
+      "provider_name": "歐付寶",
+      "title": "歐付寶TWQR東遊趣，台東地區消費回饋10%",
+      "channel": "台東地區",
+      "url": "https://www.opay.tw/Banner/Event",
+      "start_date": null,
+      "end_date": null,
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": false,
+      "insights": [
+        "台東地區消費回饋活動"
+      ],
+      "source": "official"
     }
   ],
   "ptt_posts": [
     {
       "board": "MobilePay",
-      "title": "[討論] 為什麼偏偏街口可以、LINE Pay 不行",
-      "url": "https://www.ptt.cc/bbs/MobilePay/M.1784396038.A.C4B.html",
-      "push": "4",
-      "source": "PTT（社群，需查證）"
+      "title": "[情報] 萬家福、樂家康icash pay最高21%",
+      "push": "92",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1785294289.A.A40.html"
     },
     {
       "board": "MobilePay",
       "title": "[情報] 萬家福/樂家康可使用icashpay了",
-      "url": "https://www.ptt.cc/bbs/MobilePay/M.1784427357.A.925.html",
-      "push": "38",
-      "source": "PTT（社群，需查證）"
+      "push": "40",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1784427357.A.925.html"
     },
     {
-      "board": "e-coupon",
-      "title": "[交易] 萬家福/家樂福錢包91折 / 711商品卡 9",
-      "url": "https://www.ptt.cc/bbs/e-coupon/M.1785640090.A.34F.html",
-      "push": "",
-      "source": "PTT（社群，需查證）"
+      "board": "lifeismoney",
+      "title": "[情報] food熊貓 免費喝飲料八 折45元",
+      "push": "24",
+      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1785747423.A.978.html"
     },
     {
-      "board": "CVS",
-      "title": "[情報] 哆啦A夢 icash2.0 空卡現身 7-ELEVEN",
-      "url": "https://www.ptt.cc/bbs/CVS/M.1785361672.A.0BE.html",
-      "push": "3",
-      "source": "PTT（社群，需查證）"
+      "board": "MobilePay",
+      "title": "[新聞] 街口創辦人胡亦嘉判7年 法官批目無法紀",
+      "push": "15",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1785324549.A.9FA.html"
     },
     {
-      "board": "CVS",
-      "title": "[討論] 超商豆知識 發問前請看看我~:D 不定期更新",
-      "url": "https://www.ptt.cc/bbs/CVS/M.1216136990.A.41A.html",
-      "push": "21",
-      "source": "PTT（社群，需查證）"
+      "board": "lifeismoney",
+      "title": "[情報] iPASS MONEY 30元Q Burger優惠券",
+      "push": "18",
+      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1785774236.A.96D.html"
     },
     {
-      "board": "fastfood",
-      "title": "[情報] 優惠卷彙整 &amp; 集中分享串",
-      "url": "https://www.ptt.cc/bbs/fastfood/M.1526277935.A.DA0.html",
-      "push": "爆",
-      "source": "PTT（社群，需查證）"
+      "board": "MobilePay",
+      "title": "[新聞] 全聯、2大超商啟動「熊本7.1強震募款」",
+      "push": "10",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1785319686.A.06C.html"
     }
   ]
 }
