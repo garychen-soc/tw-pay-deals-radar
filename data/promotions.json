@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-04T18:20:00+08:00",
+  "generated_at": "2026-08-06T10:15:00+08:00",
   "timezone": "Asia/Taipei",
-  "headline": "悠遊付8/1起新增暢遊金門23%、康是美網購45%、雙北捷運10%等多筆高回饋；街口8月解鎖30%回饋限量4,000名；iPASS新增momo、王道銀行等優惠",
+  "headline": "台灣Pay新增父親節主題活動「謝謝爸爸 用回饋表達」(8/5起)；全支付日本消費回饋加碼至16%全點；其餘服務沿用前一日資料",
   "source_health": {
     "status": "ok",
     "failures": [
@@ -2118,6 +2118,24 @@
       "source": "api"
     },
     {
+      "id": "taiwanpay-01KZ8G8C9Z20MF3CY1GRK4JQVQ",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "謝謝爸爸 用回饋表達",
+      "channel": "官網",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KZ8G8C9Z20MF3CY1GRK4JQVQ",
+      "start_date": "2026-08-05",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "回饋",
+      "is_high_return": false,
+      "insights": [
+        "父親節主題活動,回饋方式待官網明細頁揭露"
+      ],
+      "source": "api"
+    },
+    {
       "id": "taiwanpay-01KY4P3N7N48E7PS9TRQD6P1AY",
       "provider_id": "taiwanpay",
       "provider_name": "台灣Pay",
@@ -2825,7 +2843,7 @@
       "id": "pxpayplus-87",
       "provider_id": "pxpayplus",
       "provider_name": "全支付",
-      "title": "玩日本用全支付｜筆筆最高10%回饋！連結指定銀行帳戶最高享15%全點",
+      "title": "玩日本全支付｜筆筆最高10%回饋！指定銀行帳戶/信用卡最高享16%全點",
       "channel": "官網",
       "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=87",
       "start_date": "2026-07-01",
