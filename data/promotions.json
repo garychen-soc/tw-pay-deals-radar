@@ -1,13 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T10:15:00+08:00",
+  "generated_at": "2026-08-08T15:30:00+08:00",
   "timezone": "Asia/Taipei",
-  "headline": "台灣Pay新增父親節主題活動「謝謝爸爸 用回饋表達」(8/5起)；全支付日本消費回饋加碼至16%全點；其餘服務沿用前一日資料",
+  "headline": "iPASS一卡通新增多筆8月優惠券(7-ELEVEN/QBurger/神腦國際)，全服務已達36筆；全支付「富邦產險保費回饋」已下架；台灣Pay無變動；其餘服務沿用08-06資料",
   "source_health": {
-    "status": "ok",
+    "status": "partial",
     "failures": [
-      "悠遊付新增 8 筆連結未跑 verify_links.py（已知 headless 被 WAF 擋，本就無法自動驗證，改採列表頁 anchor href 直接擷取，可信度高）",
-      "iPASS/Pi/街口 新增連結已用瀏覽器直接開啟人工確認可達且內容正確"
+      "PTT 五板抓取本次全部逾時失敗（環境網路限制），沿用 08-06 舊資料，未做更新",
+      "icash/Pi/悠遊付/街口/歐付寶/橘子/全聯/LINE Pay/全盈/全家/OPEN/簡單付 因單日抓取時間與 token 預算限制，沿用 08-06 資料未重新抓取（僅台灣Pay/全支付/iPASS 完整重抓）",
+      "台灣Pay 官網另有約 10 筆活動因未取得 systemSeq 暫未收錄（如長春商圈/坪林商圈/寧夏夜市等），留待下次抓取補齊",
+      "連結實測(verify_links.py)：台灣Pay31+全支付43=74筆 ok0dead0warn；iPASS36筆 32ok/0dead/4warn(8月新券頁 7-ELEVEN/QBurger/神腦國際/momo，明細頁動態載入未被headless偵測到文字內容，已用瀏覽器DOM人工確認href真實存在於官網列表，保留)"
     ]
   },
   "featured_ids": [
@@ -16,171 +18,11 @@
     "jkopay-jko30bonus",
     "easywallet-1784682808",
     "pxpayplus-37",
-    "ipass-momo202608",
+    "ipass-GMZTSMQ25JNDT641k8ux",
     "easywallet-1784703624",
-    "ipass-wangdaocarbon"
+    "ipass-GMZTQOAKB6IZQ64S2dWx"
   ],
   "activities": [
-    {
-      "id": "ipass-GMZTMMQ4HWFB664P4Hun",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "PayPay日本消費回饋",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMMQ4HWFB664P4Hun",
-      "start_date": "2026-07-01",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高享15%回饋",
-      "is_high_return": true,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTOMAYGPRRL64IA9Fn",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "生活繳費優惠",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTOMAYGPRRL64IA9Fn",
-      "start_date": "2026-07-01",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高送390元優惠券",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTIMYKIEY7I64rUuoF",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "TWQR消費回饋",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTIMYKIEY7I64rUuoF",
-      "start_date": "2026-06-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高享10%回饋",
-      "is_high_return": true,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GI2TSNQHW7ZKA64RZbVj",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "銀行帳戶連結優惠",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj",
-      "start_date": null,
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "詳活動內容",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTENY6IGEQH64AUjKI",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "乘車碼優惠",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTENY6IGEQH64AUjKI",
-      "start_date": "2026-05-14",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "月月賺300元優惠券",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTQNQN7O33S64Ef0dt",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "Flexii薪資提領回饋",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNQN7O33S64Ef0dt",
-      "start_date": "2026-07-17",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高享一卡通綠點200點回饋",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTQNITHBGIV64hjluw",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "捐款回饋",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNITHBGIV64hjluw",
-      "start_date": "2026-07-17",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "享10%回饋",
-      "is_high_return": true,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTQMYLKDINQ645DEa9",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "誠品生活消費回饋",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQMYLKDINQ645DEa9",
-      "start_date": "2026-07-16",
-      "end_date": "2026-09-17",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "樂享10%回饋",
-      "is_high_return": true,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTMNA5JLRMG64YlprD",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "里仁消費回饋",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMNA5JLRMG64YlprD",
-      "start_date": "2026-07-13",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高享20%回饋",
-      "is_high_return": true,
-      "insights": [],
-      "source": "official"
-    },
-    {
-      "id": "ipass-GMZTMMIYIYLJ764InoUT",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "摩斯漢堡優惠",
-      "channel": "TWQR/悠遊卡APP",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMMIYIYLJ764InoUT",
-      "start_date": "2026-07-01",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "滿150元送50元優惠券",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official"
-    },
     {
       "id": "icash-01",
       "provider_id": "icashpay",
@@ -3064,22 +2906,6 @@
       "source": "api"
     },
     {
-      "id": "pxpayplus-101",
-      "provider_id": "pxpayplus",
-      "provider_name": "全支付",
-      "title": "富邦產險單筆保費滿額享全點限量回饋！",
-      "channel": "官網",
-      "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=101",
-      "start_date": "2026-07-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
       "id": "pxpayplus-102",
       "provider_id": "pxpayplus",
       "provider_name": "全支付",
@@ -3270,96 +3096,6 @@
       "is_high_return": false,
       "insights": [],
       "source": "api"
-    },
-    {
-      "id": "ipass-momo202608",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "點擊火速領取 momo 專屬 100 元優惠券",
-      "channel": "momo購物網",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMQ25JNDT641k8ux",
-      "start_date": "2026-08-03",
-      "end_date": "2026-08-08",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "$100",
-      "is_high_return": true,
-      "insights": [
-        "momo購物網限時優惠券，8/3-8/8短期活動"
-      ],
-      "source": "official"
-    },
-    {
-      "id": "ipass-wangdaobind",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "【王道銀行】綁王道卡消費，最高享5%回饋！",
-      "channel": "王道銀行",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE",
-      "start_date": "2026-08-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高5%",
-      "is_high_return": false,
-      "insights": [
-        "綁定王道銀行信用卡消費回饋"
-      ],
-      "source": "official"
-    },
-    {
-      "id": "ipass-wangdaocarbon",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "【王道銀行】王道愛減碳 完成任務最高享一卡通綠點1,700點與新台幣500元現金回饋！",
-      "channel": "王道銀行",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOAKB6IZQ64S2dWx",
-      "start_date": "2026-07-31",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "最高$500+1700綠點",
-      "is_high_return": true,
-      "insights": [
-        "綠色減碳任務型活動，回饋含現金與綠點"
-      ],
-      "source": "official"
-    },
-    {
-      "id": "ipass-mengo-tpass",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "【MeN Go/TPASS 嘉南高屏定期票】用iPASS MONEY APP購票樂享雙重回饋！",
-      "channel": "MeN Go/TPASS",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOIXZZIFN645cRtj",
-      "start_date": "2026-08-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "雙重回饋",
-      "is_high_return": false,
-      "insights": [
-        "嘉南高屏地區定期票購票優惠"
-      ],
-      "source": "official"
-    },
-    {
-      "id": "ipass-donsenpet202608",
-      "provider_id": "ipassmoney",
-      "provider_name": "一卡通 iPASS MONEY",
-      "title": "【東森寵物】寵愛大放送，使用iPASS MONEY付款單筆滿千贈100元優惠券",
-      "channel": "東森寵物",
-      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDQNQ7OUMSX64IfY7L",
-      "start_date": "2026-08-01",
-      "end_date": "2026-10-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "$100",
-      "is_high_return": true,
-      "insights": [
-        "東森寵物消費滿千贈券"
-      ],
-      "source": "official"
     },
     {
       "id": "pipay-711midautumn202608",
@@ -3574,6 +3310,655 @@
       "is_high_return": false,
       "insights": [
         "台東地區消費回饋活動"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTMMQ4HWFB664P4Hun",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "PayPay日本消費回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMMQ4HWFB664P4Hun",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "15%",
+      "is_high_return": true,
+      "insights": [
+        "最高15%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTOMAYGPRRL64IA9Fn",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "生活繳費優惠",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTOMAYGPRRL64IA9Fn",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$390",
+      "is_high_return": true,
+      "insights": [
+        "最高390元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTIMYKIEY7I64rUuoF",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "TWQR消費回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTIMYKIEY7I64rUuoF",
+      "start_date": "2026-06-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [
+        "最高10%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GI2TSNQHW7ZKA64RZbVj",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "銀行帳戶連結優惠",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj",
+      "start_date": "2021-11-18",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "依銀行方案"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTENY6IGEQH64AUjKI",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "乘車碼優惠",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTENY6IGEQH64AUjKI",
+      "start_date": "2026-05-14",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$300",
+      "is_high_return": true,
+      "insights": [
+        "月月賺300元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTSNINKY4R4645hRAv",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "7-ELEVEN專屬優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSNINKY4R4645hRAv",
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-14",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$50",
+      "is_high_return": false,
+      "insights": [
+        "50元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTSNQA2CAX764NHzut",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "Q Burger專屬優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSNQA2CAX764NHzut",
+      "start_date": "2026-08-04",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$30",
+      "is_high_return": false,
+      "insights": [
+        "30元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTSNY65LUYG64y1YW4",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "神腦國際專屬優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSNY65LUYG64y1YW4",
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$300",
+      "is_high_return": true,
+      "insights": [
+        "300元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTSMQ25JNDT641k8ux",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "momo專屬優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMQ25JNDT641k8ux",
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-08",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$100",
+      "is_high_return": true,
+      "insights": [
+        "100元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTSMIHZAX2I64Cw4rE",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【王道銀行】綁王道卡消費回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE",
+      "start_date": "2026-08-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "5%",
+      "is_high_return": false,
+      "insights": [
+        "最高5%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTQOAKB6IZQ64S2dWx",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【王道銀行】王道愛減碳",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOAKB6IZQ64S2dWx",
+      "start_date": "2026-07-31",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$500",
+      "is_high_return": true,
+      "insights": [
+        "最高綠點1,700點+現金500元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTQOIXZZIFN645cRtj",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【MeN Go/TPASS嘉南高屏定期票】購票雙重回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOIXZZIFN645cRtj",
+      "start_date": "2026-08-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "雙重回饋"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZDQNQ7OUMSX64IfY7L",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【東森寵物】滿千贈優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDQNQ7OUMSX64IfY7L",
+      "start_date": "2026-08-01",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$100",
+      "is_high_return": true,
+      "insights": [
+        "100元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTQNQN7O33S64Ef0dt",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【Flexii】薪資提領回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNQN7O33S64Ef0dt",
+      "start_date": "2026-07-17",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "綠點200點"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTQNITHBGIV64hjluw",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【捐款專區】APP捐款回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNITHBGIV64hjluw",
+      "start_date": "2026-07-17",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [
+        "10%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTQMYLKDINQ645DEa9",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【誠品生活】消費回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQMYLKDINQ645DEa9",
+      "start_date": "2026-07-16",
+      "end_date": "2026-09-17",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [
+        "10%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTMNA5JLRMG64YlprD",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【里仁】帳戶餘額付款回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMNA5JLRMG64YlprD",
+      "start_date": "2026-07-13",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [
+        "最高20%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTMMIYIYLJ764InoUT",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【摩斯漢堡】滿150送優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMMIYIYLJ764InoUT",
+      "start_date": "2026-07-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$50",
+      "is_high_return": false,
+      "insights": [
+        "滿150送50元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTONAY62VXF64zu015",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【手機門號轉轉樂】綁定門號轉帳送綠點",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONAY62VXF64zu015",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "綠點回饋"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTMOALPRNKF64GhtTv",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【南紡購物中心】滿599送優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMOALPRNKF64GhtTv",
+      "start_date": "2026-07-09",
+      "end_date": "2026-08-09",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$50",
+      "is_high_return": false,
+      "insights": [
+        "滿599送50元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTOMQNKWP3Z64UgN4F",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【台亞指定加油站】月月領優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTOMQNKWP3Z64UgN4F",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$120",
+      "is_high_return": true,
+      "insights": [
+        "月月120元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTKOIDXT5XV64TUy40",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【美廉社】會員點數6倍送+優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKOIDXT5XV64TUy40",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$50",
+      "is_high_return": false,
+      "insights": [
+        "點數6倍送+50元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTMNIYJCNZB64NsdsD",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【高雄巨蛋智慧杆】瑞豐夜市優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMNIYJCNZB64NsdsD",
+      "start_date": "2026-06-24",
+      "end_date": "2026-08-15",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$50",
+      "is_high_return": false,
+      "insights": [
+        "50元優惠券"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTGOIW2GLZF64nyUGA",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【漢神洲際】消費滿額送好禮",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTGOIW2GLZF64nyUGA",
+      "start_date": "2026-07-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$700",
+      "is_high_return": true,
+      "insights": [
+        "最高700元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTONIJWBVR264oJzBi",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【聯邦銀行】New New Bank數位存款帳戶回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONIJWBVR264oJzBi",
+      "start_date": "2026-07-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$150",
+      "is_high_return": true,
+      "insights": [
+        "最高150元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTMOIRKWWYZ64APifC",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "玉山數位帳戶自動儲值回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMOIRKWWYZ64APifC",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$50",
+      "is_high_return": false,
+      "insights": [
+        "50元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTKMQM2CV7T646j9h1",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【信用卡費】繳聯邦信用卡費回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKMQM2CV7T646j9h1",
+      "start_date": "2026-06-17",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "月月最高200點"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTKMYQ2HOT264bF5RH",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【yoxi】綁定暢遊城市三大優惠",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKMYQ2HOT264bF5RH",
+      "start_date": "2026-06-17",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "三大優惠"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTKNAZ52O4564JJts4",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【2026彰化夏日商圈生活節】消費滿額贈券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKNAZ52O4564JJts4",
+      "start_date": "2026-06-19",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "$200",
+      "is_high_return": true,
+      "insights": [
+        "最高200元"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTGNQ3WVKG364Kq3Wb",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【環球購物中心】消費滿額送優惠券",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTGNQ3WVKG364Kq3Wb",
+      "start_date": "2026-06-11",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "partial_sold_out",
+      "reward": "$940",
+      "is_high_return": true,
+      "insights": [
+        "最高940元",
+        "優惠二回饋已於2026/6/18 14:00額滿"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTGNIOY3M6J64WvMEH",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【KKBOX】付款優惠券+回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTGNIOY3M6J64WvMEH",
+      "start_date": "2026-06-08",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "30%",
+      "is_high_return": true,
+      "insights": [
+        "50元+最高30%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTGMY4WMW2R64WwZ0A",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【樂天銀行】新戶連接回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTGMY4WMW2R64WwZ0A",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "綠點800點"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTGNANGTXNW648qmVW",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【3C家電】單筆滿萬點數+回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTGNANGTXNW648qmVW",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "25%",
+      "is_high_return": true,
+      "insights": [
+        "1,100點+最高25%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTCOIEQHMYK64buVeG",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【萊爾富】綁聯邦信用卡付款回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTCOIEQHMYK64buVeG",
+      "start_date": "2026-04-30",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [
+        "10%現折+綠點10%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZDSNALO3OM764nIIXY",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "TWQR今夜留給我 高雄兩大夜市回饋",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY",
+      "start_date": "2026-04-23",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "25%",
+      "is_high_return": true,
+      "insights": [
+        "最高25%"
+      ],
+      "source": "official"
+    },
+    {
+      "id": "ipass-GMZTGMI66HOOL64HXUvD",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【富邦證券】成功開戶送好禮",
+      "channel": "官網",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTGMI66HOOL64HXUvD",
+      "start_date": "2026-05-21",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [
+        "綠點300點+100mo幣"
       ],
       "source": "official"
     }
