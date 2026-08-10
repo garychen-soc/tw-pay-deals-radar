@@ -1,15 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-08T15:30:00+08:00",
+  "generated_at": "2026-08-10T10:20:00+08:00",
   "timezone": "Asia/Taipei",
-  "headline": "iPASS一卡通新增多筆8月優惠券(7-ELEVEN/QBurger/神腦國際)，全服務已達36筆；全支付「富邦產險保費回饋」已下架；台灣Pay無變動；其餘服務沿用08-06資料",
+  "headline": "全支付「富邦產險保費回饋」重新上架、「玩日本全支付」延長至12/31；台灣Pay即時比對39筆無變動；其餘服務沿用08-08資料",
   "source_health": {
     "status": "partial",
     "failures": [
-      "PTT 五板抓取本次全部逾時失敗（環境網路限制），沿用 08-06 舊資料，未做更新",
-      "icash/Pi/悠遊付/街口/歐付寶/橘子/全聯/LINE Pay/全盈/全家/OPEN/簡單付 因單日抓取時間與 token 預算限制，沿用 08-06 資料未重新抓取（僅台灣Pay/全支付/iPASS 完整重抓）",
-      "台灣Pay 官網另有約 10 筆活動因未取得 systemSeq 暫未收錄（如長春商圈/坪林商圈/寧夏夜市等），留待下次抓取補齊",
-      "連結實測(verify_links.py)：台灣Pay31+全支付43=74筆 ok0dead0warn；iPASS36筆 32ok/0dead/4warn(8月新券頁 7-ELEVEN/QBurger/神腦國際/momo，明細頁動態載入未被headless偵測到文字內容，已用瀏覽器DOM人工確認href真實存在於官網列表，保留)"
+      "本次僅重新抓取台灣Pay(API即時比對)與全支付(fetch_pxpayplus.py全掃)，其餘13服務+PTT沿用08-08資料未重新抓取"
     ]
   },
   "featured_ids": [
@@ -2689,7 +2686,7 @@
       "channel": "官網",
       "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=87",
       "start_date": "2026-07-01",
-      "end_date": "2026-09-30",
+      "end_date": "2026-12-31",
       "lifecycle": "active",
       "quota_status": "not_marked_full",
       "reward": "10%",
@@ -3961,6 +3958,24 @@
         "綠點300點+100mo幣"
       ],
       "source": "official"
+    },
+    {
+      "id": "pxpayplus-101",
+      "provider_id": "pxpayplus",
+      "provider_name": "全支付",
+      "title": "富邦產險單筆保費滿額享全點限量回饋！",
+      "channel": "官網",
+      "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=101",
+      "start_date": "2026-07-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "限量回饋",
+      "is_high_return": false,
+      "insights": [
+        "先前(08-08)曾判定已下架，本次重新掃描確認活動已恢復上架"
+      ],
+      "source": "api"
     }
   ],
   "ptt_posts": [
