@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from adapters import base, taiwanpay  # noqa: E402
+from adapters import base, taiwanpay, ipass  # noqa: E402
 
 
 class TestAdapterBase(unittest.TestCase):
@@ -60,6 +60,26 @@ class TestTaiwanpayQuota(unittest.TestCase):
     def test_normal_not_full(self):
         self.assertEqual(taiwanpay.quota_of("台灣Pay揪OK 筆筆10%回饋"), ("not_marked_full", False))
         self.assertEqual(taiwanpay.quota_of("限量送完為止"), ("not_marked_full", False))  # 限量≠額滿
+
+
+class TestIpassParse(unittest.TestCase):
+    def test_parse_merges_title_and_date(self):
+        # 同 id 兩塊：圖塊帶標題、文字塊帶日期——需合併
+        html = ('<a href="/Preferential/Detail/ABC123"><img alt="【測試】活動 15% 回饋"></a>'
+                '<a href="/Preferential/Detail/ABC123">【測試】活動 15% 回饋 '
+                '2026/7/1 (三) ~ 2026/9/30 (三)</a>')
+        items = ipass.parse_page(html)
+        self.assertEqual(len(items), 1)
+        aid, title, start, end = items[0]
+        self.assertEqual(aid, "ABC123")
+        self.assertIn("測試", title)
+        self.assertEqual(start, "2026-07-01")
+        self.assertEqual(end, "2026-09-30")
+
+    def test_quota(self):
+        self.assertEqual(ipass.quota_of("回饋上限已額滿")[0], "sold_out")
+        self.assertEqual(ipass.quota_of("每月上限額滿")[0], "partial_sold_out")
+        self.assertEqual(ipass.quota_of("一般活動 10%")[0], "not_marked_full")
 
 
 if __name__ == "__main__":
