@@ -10,37 +10,6 @@ X-WR-TIMEZONE:Asia/Taipei
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:end-2026-08-14@tw-pay-deals-radar
-DTSTAMP:20260814T022000Z
-LAST-MODIFIED:20260814T022000Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SUMMARY:1 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
-  點擊火速領取 7-ELEVEN 專屬 50 元優惠券\n\n完整清單與篩
- 選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內
- 容以各官方活動辦法為準。
-CATEGORIES:截止提醒
-URL:https://garychen-soc.github.io/tw-pay-deals-radar/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:end-2026-08-15@tw-pay-deals-radar
-DTSTAMP:20260814T022000Z
-LAST-MODIFIED:20260814T022000Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-SUMMARY:1 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
-  【高雄巨蛋智慧杆】掃碼領取高雄瑞豐夜市 50 元優惠券
- ，消費滿百即可兌換！\n\n完整清單與篩選：https://garychen
- -soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各官方活動
- 辦法為準。
-CATEGORIES:截止提醒
-URL:https://garychen-soc.github.io/tw-pay-deals-radar/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:end-2026-08-16@tw-pay-deals-radar
 DTSTAMP:20260814T022000Z
 LAST-MODIFIED:20260814T022000Z
@@ -65,6 +34,21 @@ SUMMARY:2 檔優惠今日截止
 DESCRIPTION:今日截止的優惠共 2 檔：\n\n・[悠遊付] 【微風
  信義之夜】悠遊付滿額最高回饋13%\n・[Pi 拍錢包] 7-ELEVEN 
  | 超吉好運拜中元 Pi 拍錢包消費滿$1\,111立折$100\n\n完整
+ 清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實
+ 際優惠內容以各官方活動辦法為準。
+CATEGORIES:截止提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:end-2026-08-27@tw-pay-deals-radar
+DTSTAMP:20260814T022000Z
+LAST-MODIFIED:20260814T022000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:1 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
+  【環球Online】中元壓壓驚，iPASS MONEY 送保佑禮！\n\n完整
  清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實
  際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
@@ -109,8 +93,8 @@ DTSTAMP:20260814T022000Z
 LAST-MODIFIED:20260814T022000Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-SUMMARY:37 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 37 檔：\n\n・[悠遊付] 2026悠遊
+SUMMARY:36 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 36 檔：\n\n・[悠遊付] 2026悠遊
  付迺夜市每週五六日最高回饋35%\n・[悠遊付] 元大悠遊聯
  名卡自動加值享 10% 刷卡金!!再加碼抽好禮\n・[悠遊付] 
  元大悠遊聯名卡首次自動加值享最高10%回饋刷卡金\n・[
@@ -120,31 +104,25 @@ DESCRIPTION:今日截止的優惠共 37 檔：\n\n・[悠遊付] 2026悠遊
  遊卡/悠遊付加油享回饋\n・[悠遊付] 【八方雲集線上點
  餐】悠遊付單筆滿百回饋10%\n・[悠遊付] 【孫東寶/貴族
  世家】悠遊卡滿200元最高得130元悠遊付現金回饋券\n・[
- 悠遊付] 【肉次方/和牛涮】 悠遊付領券最高回饋15%\n・[
- 一卡通 iPASS MONEY] 搭車用乘車碼，月月賺 300 元優惠券！\
- n・[一卡通 iPASS MONEY] 點擊領取 Q Burger 專屬 30 元優惠券\n
- ・[一卡通 iPASS MONEY] 點擊領取神腦國際專屬 300 元優惠券
- \n・[一卡通 iPASS MONEY] 【里仁】用 iPASS MONEY 帳戶餘額付
- 款最高享 20% 回饋！\n・[一卡通 iPASS MONEY] 【摩斯漢堡】
- 用 iPASS MONEY 累積消費滿 150 元送 50 元優惠券！\n・[一卡
- 通 iPASS MONEY] 【漢神洲際】就愛用 iPASS MONEY！消費滿額最
- 高送 700 元！\n・[一卡通 iPASS MONEY] 【環球購物中心】購
- 物就愛用 iPASS MONEY！消費滿額最高送 940 元優惠券！\n・[
- 一卡通 iPASS MONEY] 【KKBOX】付款新選擇！優惠券 50 元大方
- 送，最高再賺 30% 回饋！\n・[一卡通 iPASS MONEY] 【樂天銀
- 行】iPASS MONEY 連接樂天銀行新戶，享一卡通綠點 800 點回
- 饋\n・[一卡通 iPASS MONEY] 【3C家電】想省錢看過來！買 3C
- 家電單筆滿萬最高送 1\,100 點，符合條件再賺最高 25% 回
- 饋！\n・[一卡通 iPASS MONEY] 【富邦證券】成功開戶就送一
- 卡通綠點 300 點 + 100 mo幣 ！\n・[一卡通 iPASS MONEY] 玉山e
- 指信貸 CHILL 好貸，前 2 期貸款利率 0.01%，撥款再享一卡
- 通綠點 2000 點！\n・[Pi 拍錢包] Pi 拍錢包綁玉山 Pi 拍錢
- 包信用卡單筆滿399元登錄享最高5%P幣回饋\n・[Pi 拍錢包] 
- Pi 拍錢包會員暑假獨家限時優惠！買eSIM網卡最高享11% P
- 幣回饋\n・[Pi 拍錢包] Pi 拍錢包盛夏超給利綁玉山 Pi 拍
- 錢包信用卡單筆滿額贈最高500P幣\n…另有 12 檔，請見網
- 站。\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-de
- als-radar/\n實際優惠內容以各官方活動辦法為準。
+ 悠遊付] 【肉次方/和牛涮】 悠遊付領券最高回饋15%\n・[P
+ i 拍錢包] Pi 拍錢包綁玉山 Pi 拍錢包信用卡單筆滿399元登
+ 錄享最高5%P幣回饋\n・[Pi 拍錢包] Pi 拍錢包會員暑假獨家
+ 限時優惠！買eSIM網卡最高享11% P幣回饋\n・[Pi 拍錢包] Pi 
+ 拍錢包盛夏超給利綁玉山 Pi 拍錢包信用卡單筆滿額贈最
+ 高500P幣\n・[Pi 拍錢包] PChome 24h購物 | fun暑價單筆滿1萬贈
+ 500P幣\n・[街口] 尊爵會員專屬禮遇\n・[街口] 解鎖30%回饋
+ \n・[街口] 用街口支付，Apple 服務輕鬆付！首次綁定抽 $7
+ \,777\n・[街口] 街口支付 - 8月銀行優惠\n・[街口] 街口會
+ 員精選任務，月月送好禮！\n・[全支付] 打牙祭臺北夜市
+ ｜最高享35%全點，再送foodpanda 5%回饋券 — 最高35%\n・[全
+ 支付] 延三夜市｜單筆不限金額享30%回饋，指定銀行加碼
+ 最高5%！ — 最高30%\n・[台灣Pay] 大稻埕迪化商圈  Pay你吃
+ 喝玩樂 享20%回饋 — 20%\n・[台灣Pay] TWQR義起享好利 10%限
+ 時PAY — 10%\n・[台灣Pay] 馬可先生TWQR享20%回饋 — 20%\n・[
+ 台灣Pay] 長春商圈X台灣Pay消費20%回饋 — 20%\n…另有 11 檔
+ ，請見網站。\n\n完整清單與篩選：https://garychen-soc.github.
+ io/tw-pay-deals-radar/\n實際優惠內容以各官方活動辦法為準
+ 。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
@@ -180,6 +158,21 @@ URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:end-2026-09-15@tw-pay-deals-radar
+DTSTAMP:20260814T022000Z
+LAST-MODIFIED:20260814T022000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:1 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
+  【高雄巨蛋智慧杆】掃碼領取瑞豐夜市、巨蛋市集 30 元
+ 優惠券！\n\n完整清單與篩選：https://garychen-soc.github.io/tw-
+ pay-deals-radar/\n實際優惠內容以各官方活動辦法為準。
+CATEGORIES:截止提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:end-2026-09-17@tw-pay-deals-radar
 DTSTAMP:20260814T022000Z
 LAST-MODIFIED:20260814T022000Z
@@ -188,8 +181,9 @@ DTEND;VALUE=DATE:20260918
 SUMMARY:1 檔優惠今日截止
 DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
   【誠品生活】用 iPASS MONEY APP / 一卡通記名卡付款樂享 10
- % 回饋！\n\n完整清單與篩選：https://garychen-soc.github.io/tw-p
- ay-deals-radar/\n實際優惠內容以各官方活動辦法為準。
+ % 回饋！ — 10%\n\n完整清單與篩選：https://garychen-soc.github
+ .io/tw-pay-deals-radar/\n實際優惠內容以各官方活動辦法為準
+ 。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
@@ -389,13 +383,13 @@ DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:6 檔優惠今日截止
 DESCRIPTION:今日截止的優惠共 6 檔：\n\n・[悠遊付] 樂天新
- 戶綁定悠遊付好禮NT$ 1\,000\n・[一卡通 iPASS MONEY] 【東森
- 寵物】寵愛大放送，使用 iPASS MONEY 付款單筆滿千贈 100 
- 元優惠券\n・[一卡通 iPASS MONEY] 【yoxi】綁定 iPASS MONEY 暢
- 遊城市，三大優惠與你同行！\n・[全支付] 山隆加油站｜
- 登錄單筆滿額享7%全點！新戶再享50全點，指定銀行再加
- 碼！ — 7%\n・[台灣Pay] TWQR東遊趣 10%加碼Pay — 10%\n・[台
- 灣Pay] 清涼一夏．台灣PAY喝小仁泉享20%回饋！ — 20%\n\n完
+ 戶綁定悠遊付好禮NT$ 1\,000\n・[全支付] 山隆加油站｜登
+ 錄單筆滿額享7%全點！新戶再享50全點，指定銀行再加碼
+ ！ — 7%\n・[台灣Pay] TWQR東遊趣 10%加碼Pay — 10%\n・[台灣P
+ ay] 清涼一夏．台灣PAY喝小仁泉享20%回饋！ — 20%\n・[一
+ 卡通 iPASS MONEY] 【東森寵物】寵愛大放送，使用 iPASS MONEY
+  付款單筆滿千贈 100 元優惠券\n・[一卡通 iPASS MONEY] 【yox
+ i】綁定 iPASS MONEY 暢遊城市，三大優惠與你同行！\n\n完
  整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n
  實際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
@@ -504,23 +498,17 @@ DESCRIPTION:今日截止的優惠共 89 檔：\n\n・[悠遊付] 基北北
  數泡溫泉!\n・[悠遊付] 嗶桃園市好運卡，享專屬藥妝通
  路加碼優惠\n・[悠遊付] 選用悠遊付領臺北市補助款 首
  筆加發補助金10%！最高回饋300元！\n・[悠遊付] 孕媽咪專
- 屬悠遊付新會員贈$100優惠！\n・[一卡通 iPASS MONEY] 用 iPAS
- S MONEY 消費，最高享 10% 回饋！\n・[一卡通 iPASS MONEY] 【iP
- ASS MONEY】連結銀行帳戶／信用卡享優惠！\n・[一卡通 iPAS
- S MONEY] 【王道銀行】綁王道卡消費，最高享 5% 回饋！\n
- ・[一卡通 iPASS MONEY] 【MeN Go/ TPASS 嘉南高屏定期票】用 iP
- ASS MONEY APP 購票樂享雙重回饋！\n・[一卡通 iPASS MONEY] 【F
- lexii】首次選擇 iPASS MONEY 提領薪資，最高享一卡通綠點 2
- 00 點回饋！\n・[一卡通 iPASS MONEY] 【捐款專區】透過 iPASS
-  MONEY APP 捐款享 10% 回饋！\n・[一卡通 iPASS MONEY] 【聯邦
- 銀行】指定連結開立 New New Bank 數位存款帳戶，最高享 15
- 0 元\n・[一卡通 iPASS MONEY] 【信用卡費】用 iPASS MONEY 繳聯
- 邦信用卡費，月月最高享 200 點回饋！\n・[一卡通 iPASS MO
- NEY] 【萊爾富】用 iPASS MONEY APP 綁定聯邦信用卡付款，樂
- 享 10% 現折，滿額再享一卡通綠點 10% 回饋！\n…另有 64 
- 檔，請見網站。\n\n完整清單與篩選：https://garychen-soc.gith
- ub.io/tw-pay-deals-radar/\n實際優惠內容以各官方活動辦法為
- 準。
+ 屬悠遊付新會員贈$100優惠！\n・[Pi 拍錢包] Pi 拍錢包綁
+ 定中信 ALL ME 卡四大超商及指定通路最高享 3% 回饋！\n・
+ [Pi 拍錢包] JUJI｜30分鐘資金入袋成功撥款贈200Ⓟ\n・[街
+ 口] 街口 5 號會員日\n・[街口] 街口 X CITY CAFE 獨享優惠\n
+ ・[街口] 週日萬家福、樂家康品牌日 領券採買最高享10.5
+ %\n・[街口] 街口支付 x 淘寶 週四電商日\n・[街口] 街口
+ 新戶專屬優惠，領券消費現折50元！\n・[街口] 預訂 Trip.c
+ om 用街口 新戶獨家最高15%\n・[icash Pay] 統一超商 使用icas
+ h Pay消費享0.5% OPENPOINT回饋 — 0.5%\n…另有 64 檔，請見網
+ 站。\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-de
+ als-radar/\n實際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
@@ -598,6 +586,21 @@ DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
  s://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各
  官方活動辦法為準。
 CATEGORIES:截止提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:start-2026-08-16@tw-pay-deals-radar
+DTSTAMP:20260814T022000Z
+LAST-MODIFIED:20260814T022000Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:1 檔新優惠開跑
+DESCRIPTION:今日開跑的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
+  【高雄巨蛋智慧杆】掃碼領取瑞豐夜市、巨蛋市集 30 元
+ 優惠券！\n\n完整清單與篩選：https://garychen-soc.github.io/tw-
+ pay-deals-radar/\n實際優惠內容以各官方活動辦法為準。
+CATEGORIES:開跑提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
