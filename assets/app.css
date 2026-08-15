@@ -57,6 +57,42 @@ a{color:var(--accent-ink)}
   width:34px;height:34px;border-radius:9px; cursor:pointer; font-size:15px; display:grid;place-items:center}
 .themebtn:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
 
+/* 訂閱按鈕與說明對話框 */
+.subbtn{flex:0 0 auto; border:1px solid var(--accent); background:var(--accent-wash); color:var(--accent-ink);
+  min-height:34px; padding:0 11px; border-radius:9px; cursor:pointer; font-size:13px; font-weight:700;
+  font-family:inherit; white-space:nowrap; -webkit-tap-highlight-color:transparent}
+.subbtn:hover{background:var(--accent); color:var(--surface)}
+.subbtn:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+.subdlg{width:min(560px, calc(100vw - 28px)); max-height:min(84vh, 720px); padding:22px 22px 18px;
+  border:1px solid var(--line); border-radius:var(--radius); background:var(--surface); color:var(--ink);
+  box-shadow:var(--shadow-h); font-family:inherit; overscroll-behavior:contain}
+.subdlg::backdrop{background:rgba(10,20,16,.55)}
+.subdlg h2{margin:0 36px 8px 0; font-size:19px}
+.subdlg h3{margin:18px 0 6px; font-size:14px; color:var(--accent-ink);
+  border-top:1px solid var(--line); padding-top:14px}
+.subdlg p{margin:0 0 8px; font-size:13.5px; line-height:1.65; color:var(--ink-soft)}
+.subdlg strong{color:var(--ink)}
+.subdlg ol{margin:6px 0 0; padding-left:20px; font-size:13.5px; line-height:1.75; color:var(--ink-soft)}
+.subdlg a{color:var(--accent-ink); text-underline-offset:2px}
+.subdlg__x{position:absolute; top:12px; right:12px; margin:0}
+.subdlg__x button{width:34px; height:34px; border-radius:9px; border:1px solid var(--line);
+  background:var(--surface); color:var(--ink-soft); cursor:pointer; font-size:14px}
+.subdlg__x button:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.subdlg__lead{color:var(--ink)}
+.subdlg__urllabel{display:block; margin-top:14px; font-size:11.5px; font-weight:700;
+  letter-spacing:.06em; color:var(--ink-faint)}
+.subdlg__url{display:flex; gap:8px; margin-top:5px}
+.subdlg__url input{flex:1 1 auto; min-width:0; padding:9px 11px; font-size:12.5px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  border:1px solid var(--line); border-radius:9px; background:var(--surface-2); color:var(--ink)}
+.subdlg__url button{flex:0 0 auto; min-height:40px; padding:0 15px; border-radius:9px; border:1px solid var(--accent);
+  background:var(--accent); color:var(--surface); font-weight:700; font-size:13px; font-family:inherit; cursor:pointer}
+.subdlg__url button:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+.subdlg__warn{background:var(--warn-wash); border-left:3px solid var(--warn);
+  padding:9px 11px; border-radius:0 8px 8px 0; color:var(--ink)}
+.subdlg__foot{margin-top:16px; padding-top:12px; border-top:1px solid var(--line);
+  font-size:12px; color:var(--ink-faint)}
+
 /* tiles */
 .tiles{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:16px 0 0; padding:0}
 .tile{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:11px 8px; text-align:center; box-shadow:var(--shadow); margin:0}

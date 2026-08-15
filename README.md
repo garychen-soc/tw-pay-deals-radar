@@ -43,12 +43,30 @@ icash Pay（愛金卡）、全盈+PAY、全支付、LINE Pay（連加）
 | `fetch_pxpayplus.py` | 全支付後端 API 增量掃描（id 1→末端，`code` 判斷有效／末端） | ✅ 純標準庫，已實測 |
 | `fetch_taiwanpay.py` | 台灣Pay 列表 API 解析 ＋ 官方額滿標記判定 | 解析框架（POST payload 需擷取） |
 | `fetch_ptt.py` | 5 個 PTT 看板 index 抓取 ＋ 關鍵字篩選 | ✅ 純標準庫 |
+| `build_ics.py` | 由 `data/promotions.json` 產生訂閱用 `calendar.ics` | ✅ 純標準庫 |
 
 ```bash
 # 無需安裝任何套件（僅用 Python 標準庫）
 python scripts/fetch_pxpayplus.py    # 輸出全支付當前未過期活動 JSON
 python scripts/fetch_ptt.py          # 輸出 PTT 相關貼文 JSON
+python scripts/build_ics.py          # 重建 calendar.ics（每次資料更新後必跑）
 ```
+
+## 訂閱行事曆
+
+訂閱網址：`https://garychen-soc.github.io/tw-pay-deals-radar/calendar.ics`
+
+**按日期彙總，一天最多兩則提醒**（「N 檔優惠今日截止」「N 檔新優惠開跑」），活動清單放在事件說明裡。
+這是刻意的設計：資料實測有 88 檔活動同一天截止，若一檔一個事件，日曆單日會疊出 88 條全天橫幅，
+把使用者自己的行程整個蓋掉。已額滿與已結束的活動不產生提醒。
+
+| 平台 | 加入方式 |
+|---|---|
+| Google 日曆 | ⚠️ **Android／iOS App 無法用網址加日曆**，須先在電腦版網頁「其他日曆 → ＋ → 以網址新增」設定一次，之後自動同步到手機 |
+| Apple 行事曆 | 手機／電腦直接開 `webcal://garychen-soc.github.io/tw-pay-deals-radar/calendar.ics` |
+| Outlook | 行事曆 →「新增行事曆」→「訂閱網路行事曆」 |
+
+各家日曆的重新抓取頻率不同，Google 通常每數小時至一天一次，不是即時。
 
 ## 抓取對策速查（實測）
 

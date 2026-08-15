@@ -210,5 +210,19 @@
     try{ const s=localStorage.getItem(KEY); apply(s||undefined); }catch{ apply(); }
     btn.addEventListener("click",()=>{ const n=cur()==="dark"?"light":"dark"; apply(n); try{ localStorage.setItem(KEY,n); }catch{} }); })();
 
+  // 訂閱說明對話框
+  (function(){ const dlg=document.getElementById("subdlg"), open=document.getElementById("subbtn");
+    if(!dlg||!open) return;
+    open.addEventListener("click",()=>{ dlg.showModal(); });
+    // 點背景關閉：click 落在 dialog 元素本身（而非內容）即代表點到 ::backdrop
+    dlg.addEventListener("click",(e)=>{ if(e.target===dlg) dlg.close(); });
+    const copy=document.getElementById("subdlg-copy"), input=document.getElementById("subdlg-url");
+    copy.addEventListener("click",async()=>{
+      const done=()=>{ copy.textContent="已複製"; setTimeout(()=>{ copy.textContent="複製"; },1600); };
+      try{ await navigator.clipboard.writeText(input.value); done(); }
+      catch{ input.select(); input.setSelectionRange(0,input.value.length); // 非安全context或無權限時退回手動選取
+        try{ document.execCommand("copy"); done(); }catch{ copy.textContent="請手動複製"; } }
+    }); })();
+
   load();
 })();

@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="每日整理台灣行動支付／電子支付的官方優惠、額滿狀態與活動重點，可搜尋、篩選並一鍵加入 Google 行事曆。">
+  <meta name="description" content="每日整理台灣行動支付／電子支付的官方優惠、額滿狀態與活動重點，可搜尋、篩選、一鍵加入 Google 行事曆，或訂閱截止提醒行事曆。">
+  <link rel="alternate" type="text/calendar" href="./calendar.ics" title="台灣行動支付優惠雷達 — 截止與開跑提醒">
   <title>台灣行動支付優惠雷達</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/app.css">
@@ -27,6 +28,7 @@
         <span id="source-health" class="health-pill" role="status"><span class="health-dot" aria-hidden="true"></span><span id="source-health-text">更新資料狀態中</span></span>
         <span id="updated-at" class="updated-at">讀取更新時間…</span>
       </div>
+      <button class="subbtn" id="subbtn" type="button">📆 訂閱</button>
       <button class="themebtn" id="themebtn" type="button" aria-label="切換深淺主題">◐</button>
     </div>
   </header>
@@ -94,6 +96,34 @@
   <footer class="site-footer">
     資料來自各支付官方網站／API 與公開看板 · <a href="https://github.com/garychen-soc/tw-pay-deals-radar" target="_blank" rel="noopener">GitHub 開源</a>
   </footer>
+
+  <dialog id="subdlg" class="subdlg" aria-labelledby="subdlg-title">
+    <form method="dialog" class="subdlg__x"><button aria-label="關閉">✕</button></form>
+    <h2 id="subdlg-title">訂閱優惠行事曆</h2>
+    <p class="subdlg__lead">把「今日截止」與「新優惠開跑」自動同步到你的日曆。<strong>一天最多兩則彙總提醒</strong>（如「37 檔優惠今日截止」），清單放在事件說明裡，不會洗版。每日隨網站資料更新。</p>
+
+    <label class="subdlg__urllabel" for="subdlg-url">訂閱網址</label>
+    <div class="subdlg__url">
+      <input id="subdlg-url" type="text" readonly value="https://garychen-soc.github.io/tw-pay-deals-radar/calendar.ics">
+      <button type="button" id="subdlg-copy">複製</button>
+    </div>
+
+    <h3>Google 日曆（Android 及所有平台）</h3>
+    <p class="subdlg__warn">⚠️ Google 日曆的 <strong>Android／iOS App 無法用網址加入日曆</strong>，這一步只能在電腦版網頁做一次，之後就會自動同步到手機。</p>
+    <ol>
+      <li>電腦開 <a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" target="_blank" rel="noopener">calendar.google.com</a>（左側「其他日曆」→ ＋ →「以網址新增」）</li>
+      <li>貼上上面的訂閱網址 → 按「新增日曆」</li>
+      <li>手機 Google 日曆 App →「設定」→ 找到「台灣行動支付優惠雷達」→ 打開「同步」</li>
+    </ol>
+
+    <h3>iPhone／iPad／Mac（Apple 行事曆）</h3>
+    <p>手機直接點這個連結即可加入：<a id="subdlg-webcal" href="webcal://garychen-soc.github.io/tw-pay-deals-radar/calendar.ics">用 Apple 行事曆訂閱</a></p>
+
+    <h3>Outlook</h3>
+    <p>行事曆 →「新增行事曆」→「訂閱網路行事曆」→ 貼上網址。</p>
+
+    <p class="subdlg__foot">訂閱是唯讀的，隨時可在日曆設定中取消。各家日曆的更新頻率不同，Google 通常每數小時至一天才重新抓一次，不是即時。實際優惠內容以各官方活動辦法為準。</p>
+  </dialog>
 
   <template id="card-tpl">
     <article class="deal">
