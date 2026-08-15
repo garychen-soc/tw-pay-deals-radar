@@ -189,3 +189,18 @@ a{color:var(--accent-ink)}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 @media (max-width:380px){.tiles{gap:6px} .tile dd{font-size:20px} .brand h1{font-size:15.5px}}
+
+
+/* 官方證據鏈與待複核標記（吸收 codex 可稽核設計）*/
+.evidence{ margin-top:.55rem; border-top:1px solid var(--line); padding-top:.35rem; }
+.evidence__sum{ cursor:pointer; font-size:.78rem; color:var(--ink-soft); list-style:none; user-select:none; }
+.evidence__sum::-webkit-details-marker{ display:none; }
+.evidence__sum::before{ content:"🔎 "; }
+.evidence[open] .evidence__sum{ color:var(--ink); }
+.ev-item{ margin:.35rem 0 0; padding:.4rem .55rem; background:var(--surface-2); border-radius:9px; }
+.ev-ex{ font-size:.82rem; line-height:1.5; color:var(--ink); }
+.ev-meta{ font-size:.72rem; color:var(--ink-faint); margin-top:.25rem; }
+.ev-src{ color:var(--accent); text-decoration:none; }
+.ev-src:hover{ text-decoration:underline; }
+.ev-flag{ font-size:.76rem; color:var(--warn); margin:.2rem 0; font-weight:600; }
+.ev-flag--soft{ color:var(--ink-faint); font-weight:500; }

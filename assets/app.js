@@ -124,7 +124,33 @@
     // 用真正的 href 而非 window.open：LINE／FB 等 App 內建瀏覽器常擋掉 window.open，
     // 沒有 href 時會點了沒反應且長按也無法「在新分頁開啟」
     if(calUrl){ cal.hidden=false; cal.href=calUrl; }
+    renderEvidence(f,a);
     return f; }
+
+  // 官方證據鏈（吸收 codex 版可稽核設計）：有 evidence／待複核標記才顯示，否則優雅降級不顯示
+  function fmtEvidenceTime(v){ const d=parseDate(v); return d?dttf.format(d):""; }
+  const evidenceKindLabels={ activity_page:"活動頁", news:"官方公告", announcement:"官方公告", quota_api:"額滿 API", list:"活動列表", search:"官方搜尋" };
+  function renderEvidence(f,a){
+    const ev=f.querySelector(".evidence"); if(!ev) return;
+    const items=Array.isArray(a.evidence)?a.evidence.filter(e=>e&&(e.excerpt||e.source_url)):[];
+    const needRev=a.review_required===true, conf=norm(a.date_confidence);
+    if(!items.length && !needRev && !(conf==="low"||conf==="medium")) return; // 無證據就不顯示
+    ev.hidden=false;
+    const frag=document.createDocumentFragment();
+    if(needRev){ const p=document.createElement("p"); p.className="ev-flag"; p.textContent="⚠ 日期／額滿狀態待人工複核"; frag.append(p); }
+    else if(conf==="low"||conf==="medium"){ const p=document.createElement("p"); p.className="ev-flag ev-flag--soft"; p.textContent=`日期信心：${conf==="low"?"低":"中"}`; frag.append(p); }
+    items.slice(0,3).forEach(e=>{
+      const box=document.createElement("div"); box.className="ev-item";
+      if(e.excerpt){ const ex=document.createElement("p"); ex.className="ev-ex"; ex.textContent=String(e.excerpt).slice(0,140); box.append(ex); }
+      const meta=document.createElement("p"); meta.className="ev-meta";
+      const bits=[evidenceKindLabels[norm(e.kind)]||e.kind, fmtEvidenceTime(e.observed_at)].filter(Boolean);
+      meta.textContent=bits.join(" · ");
+      const src=safeExternalUrl(e.source_url);
+      if(src){ if(bits.length) meta.append(" · "); const link=document.createElement("a"); link.href=src; link.target="_blank"; link.rel="noopener"; link.className="ev-src"; link.textContent="查看來源"; meta.append(link); }
+      box.append(meta); frag.append(box);
+    });
+    f.querySelector(".evidence__body").replaceChildren(frag);
+  }
 
   function render(){
     const items=filtered(), frag=document.createDocumentFragment();
@@ -163,12 +189,21 @@
 
   function summarizeHealth(sh){
     const appOnly=state.activities.filter(a=>norm(a.quota_status)==="unknown_app_only").length;
-    let status="ok", fails=0;
+    let status="ok", fails=0, detail="";
     if(typeof sh==="string") status=norm(sh);
-    else if(sh&&typeof sh==="object"){ status=norm(sh.status||"ok"); fails=Number(sh.failures?.length ?? sh.failed ?? 0)||0; }
+    else if(sh&&typeof sh==="object"){
+      status=norm(sh.status||"ok"); fails=Number(sh.failures?.length ?? sh.failed ?? 0)||0;
+      // 透明成功率（吸收 codex 版）：官方入口 X/Y · 延伸檢查 A/B · 涵蓋缺口 N
+      const os=sh.official_sources, es=sh.extended_checks, gaps=sh.coverage_gaps, parts=[];
+      if(os&&Number(os.expected)) parts.push(`官方入口 ${os.succeeded??0}/${os.expected}`);
+      if(es&&Number(es.expected)) parts.push(`延伸檢查 ${es.succeeded??0}/${es.expected}`);
+      if(Array.isArray(gaps)&&gaps.length) parts.push(`涵蓋缺口 ${gaps.length}`);
+      detail=parts.join(" · ");
+    }
     el.health.classList.remove("is-warning","is-error");
-    if(["failed","error","unavailable"].includes(status)){ el.health.classList.add("is-error"); el.healthText.textContent="資料更新異常"; }
-    else if(fails>0||["partial","warning"].includes(status)){ el.health.classList.add("is-warning"); el.healthText.textContent="部分官網需補查"; }
+    if(["failed","error","unavailable"].includes(status)){ el.health.classList.add("is-error"); el.healthText.textContent="資料更新異常"+(detail?`・${detail}`:""); }
+    else if(fails>0||["partial","warning"].includes(status)){ el.health.classList.add("is-warning"); el.healthText.textContent=detail||"部分官網需補查"; }
+    else if(detail){ el.healthText.textContent=detail; }
     else if(appOnly>0){ el.health.classList.add("is-warning"); el.healthText.textContent=`資料更新正常・${appOnly} 項需至 App 確認`; }
     else el.healthText.textContent="資料更新正常"; }
 
