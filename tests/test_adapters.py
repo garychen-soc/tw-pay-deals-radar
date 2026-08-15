@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from adapters import base  # noqa: E402
+from adapters import base, taiwanpay  # noqa: E402
 
 
 class TestAdapterBase(unittest.TestCase):
@@ -47,6 +47,19 @@ class TestAdapterBase(unittest.TestCase):
         self.assertEqual(a["quota_status"], "not_marked_full")
         self.assertEqual(a["evidence"], [])
         self.assertEqual(a["channel"], "X")  # channel 預設用 provider_name
+
+
+class TestTaiwanpayQuota(unittest.TestCase):
+    def test_sold_out_whole(self):
+        for t in ["(活動額滿)TWQR金門風華", "（活動額滿）誠品生活", "TWQR花火狂歡【活動額滿】"]:
+            self.assertEqual(taiwanpay.quota_of(t), ("sold_out", True), t)
+
+    def test_partial_monthly(self):
+        self.assertEqual(taiwanpay.quota_of("TWQR花火【每月額滿詳提醒】"), ("partial_sold_out", True))
+
+    def test_normal_not_full(self):
+        self.assertEqual(taiwanpay.quota_of("台灣Pay揪OK 筆筆10%回饋"), ("not_marked_full", False))
+        self.assertEqual(taiwanpay.quota_of("限量送完為止"), ("not_marked_full", False))  # 限量≠額滿
 
 
 if __name__ == "__main__":
