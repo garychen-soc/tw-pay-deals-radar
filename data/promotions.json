@@ -9,721 +9,8 @@
       "本次重抓：台灣Pay(API,44筆)、全支付(API,46筆)；其餘服務沿用2026-08-12盤點結果（悠遊付/一卡通/Pi/街口/icash/歐付寶/橘子支付/全聯/全盈/OPEN）"
     ]
   },
-  "featured_ids": [
-    "taiwanpay-nepd06fn",
-    "taiwanpay-8kpdwvsw",
-    "taiwanpay-rqd6p1ay",
-    "taiwanpay-5gecgp7s",
-    "taiwanpay-w13j2y59",
-    "taiwanpay-89zmt319",
-    "taiwanpay-7e03pwqh",
-    "taiwanpay-kk6sdvsp"
-  ],
+  "featured_ids": [],
   "activities": [
-    {
-      "id": "taiwanpay-nepd06fn",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "台灣Pay揪OK 筆筆10%回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFV9GFDCS1EGK6MNEPD06FN",
-      "start_date": "2026-07-23",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-8kpdwvsw",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "大稻埕迪化商圈 Pay你吃喝玩樂 享20%回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN1089QDKBZFN388KPDWVSW",
-      "start_date": "2026-04-20",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-gfrr21cg",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "北捷TWQR乘車碼上線!",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2ZQF8TB1NKR3D0GFRR21CG",
-      "start_date": "2026-01-16",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-2yxtpzje",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "微碧愛點餐X台灣Pay 餐餐美味、樂享回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NYCMSPHMGN07Y2YXTPZJE",
-      "start_date": "2026-08-17",
-      "end_date": "2026-09-30",
-      "lifecycle": "upcoming",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-grk4jqvq",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "謝謝爸爸 用回饋表達",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KZ8G8C9Z20MF3CY1GRK4JQVQ",
-      "start_date": "2026-08-05",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-rqd6p1ay",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "永康國際商圈X台灣Pay消費拿回饋20%",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P3N7N48E7PS9TRQD6P1AY",
-      "start_date": "2026-08-01",
-      "end_date": "2026-11-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-5gecgp7s",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "前進仁愛鄉TWQR輕鬆付享10%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVV3J5Z8KAJ93Q5GECGP7S",
-      "start_date": "2026-08-01",
-      "end_date": "2027-03-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-w13j2y59",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "漫遊員山鄉TWQR輕鬆付享10%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVTCJ46TDYBDVVW13J2Y59",
-      "start_date": "2026-08-01",
-      "end_date": "2027-03-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-89zmt319",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "漫遊高雄．墨凡站前商圈台灣Pay樂享10%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KYRZ4QM0NYQA204D89ZMT319",
-      "start_date": "2026-08-01",
-      "end_date": "2026-11-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-hmcthjx1",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "福利驚奇網揪用台灣Pay 手機下單直接打9折",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVWACX4FDYW5F7HMCTHJX1",
-      "start_date": "2026-07-27",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "9折",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-7e03pwqh",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "TWQR義起享好利 10%限時PAY",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6WZYD7S5M99ZP7E03PWQH",
-      "start_date": "2026-07-23",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-kk6sdvsp",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "TWQR不只幫你撐傘，更Pay你省下 10% 開銷",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6DAPYSGX2DP60KK6SDVSP",
-      "start_date": "2026-07-20",
-      "end_date": "2026-08-16",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-d2mnxmja",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "TWQR東遊趣 10%加碼Pay",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFTZHE3F8XZ9V9CD2MNXMJA",
-      "start_date": "2026-07-15",
-      "end_date": "2026-10-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-g5dbphe9",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "臨江街觀光夜市超給利 台灣Pay單筆享20%現金回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3X49YBZMK7BVJG5DBPHE9",
-      "start_date": "2026-06-30",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-5gwkw6db",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "福懋台灣Pay 加油享回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEVY94PD4BH8085GWKW6DB",
-      "start_date": "2026-07-01",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-myrxjdy4",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "耐斯購物Pay你享回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE68A6TEEZDMT9MYRXJDY4",
-      "start_date": "2026-07-01",
-      "end_date": "2026-12-27",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-xbkpbwf2",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "TWQR金門風華Pay享10%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE1FX96S45KZXBXBKPBWF2",
-      "start_date": "2026-07-01",
-      "end_date": "2026-11-30",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-dvqyxxcc",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "毛小孩生活採購季！東森寵物X台灣Pay享15%回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ356T0ACAGQJHKDVQYXXCC",
-      "start_date": "2026-06-30",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "15%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-3a8vx7p4",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "廣州街夜市 & 梧州街夜市超給利 台灣Pay單筆享20%現金回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3H9VZWN3CT13M3A8VX7P4",
-      "start_date": "2026-06-30",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-btgmhtwb",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "Autopass麻吉神助攻 用台灣Pay加油停車享20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ2VVMHRVYN8583BTGMHTWB",
-      "start_date": "2026-06-29",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-ytqhb500",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBERR1F8E7RZDXMYTQHB500",
-      "start_date": "2026-06-25",
-      "end_date": "2026-11-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-m165d465",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "清涼一夏．台灣PAY喝小仁泉享20%回饋！",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ9EXY02V9B6K6M165D465",
-      "start_date": "2026-06-15",
-      "end_date": "2026-10-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-wx4bjgfp",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "三峽X八里攜手趴趴走 揪用台灣Pay享20%大回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTNSX3QEG4WT6GX9WX4BJGFP",
-      "start_date": "2026-06-16",
-      "end_date": "2026-12-15",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-skyftzms",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "微風集團【TWQR限定5%超回饋】",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ3BC9RGC6VX17SKYFTZMS",
-      "start_date": "2026-06-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "5%",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-yy7zfas8",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "Focus百貨放鬆購 台灣Pay享20%回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0HGJG46ZS5JM9YY7ZFAS8",
-      "start_date": "2026-06-05",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-zy0pbynr",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "好生活這樣Pay 誠品生活台灣Pay享20%",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0KT8V36PGVDW4ZY0PBYNR",
-      "start_date": "2026-06-04",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-qtcfa95h",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "馬可先生TWQR享20%回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ7YEXDTV14JX8QTCFA95H",
-      "start_date": "2026-06-01",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-t4gj1hzm",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "TWQR花火狂歡Pay享10%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ6Q4RH65GH90WT4GJ1HZM",
-      "start_date": "2026-06-01",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-behrfq6d",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "寶島眼鏡 x 台灣PAY 寵EYE享回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ58WNF9BPT0HZBEHRFQ6D",
-      "start_date": "2026-06-01",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-y4jenvet",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "成功中繼市場、士東市場買菜去 台灣 Pay 樂享 20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KRMM8ZADNBY5KS4CY4JENVET",
-      "start_date": "2026-05-15",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-7gt22fkc",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "光復市場買好料！台灣Pay享20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0QXVGRZ2TJ1YH7GT22FKC",
-      "start_date": "2026-05-01",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-njhsnjtp",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "日本PayPay在台灣也能通！",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAYG3J6FN72P4F1NJHSNJTP",
-      "start_date": "2026-04-27",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-z0w14zx6",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "長春商圈X台灣Pay消費20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KKK5WA82PMVAF6HVZ0W14ZX6",
-      "start_date": "2026-03-16",
-      "end_date": "2026-08-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-hj59nw4s",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "嘟嘟房停車就用台灣Pay，每筆交易不限金額享10元回饋",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN19NNF700RDTZQHJ59NW4S",
-      "start_date": "2026-03-15",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "$10",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-6tbw114a",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "停車就用TWQR！",
-      "channel": "金融卡/信用卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KK94W8H47NWNWRWT6TBW114A",
-      "start_date": "2026-03-15",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-b1mk53s7",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "中原x元智大學生活圈 Pay你遊壢享20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN18HDDRP0Z953CB1MK53S7",
-      "start_date": "2026-03-01",
-      "end_date": "2026-09-30",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-rw69sf15",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "來逛樂華夜市樂享10%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ9JVYJGQ9N9A1JRW69SF15",
-      "start_date": "2026-02-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-bcssdm4c",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "大家一起挺小農 台灣Pay結帳全站88折",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ8PJA620CP9Z0VBCSSDM4C",
-      "start_date": "2026-01-20",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "88折",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-jqjpa7m5",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "漫遊苗栗南庄老街台灣Pay給你20%驚喜回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KD780J3RYYYG0VZ9JQJPA7M5",
-      "start_date": "2026-01-19",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-01qrabcj",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "十大商圈掃全支付TWQR單筆不限金額享10%回饋！",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAX7T490S21W51F01QRABCJ",
-      "start_date": "2026-04-15",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "10%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-wx4e80h0",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "迺延三夜市就用TWQR「台灣Pay」樂享20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P02S3DCNG40XPWX4E80H0",
-      "start_date": "2026-08-13",
-      "end_date": "2027-01-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-evx49rfd",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "寧夏夜市愛逮玩 台灣Pay享20%回饋",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEPC9T5BE3J8C4EVX49RFD",
-      "start_date": "2026-07-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "20%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-8wsakdvs",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "萊爾富台灣Pay消費好康利馬萊",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0Q15Y2SPXRNBR8WSAKDVS",
-      "start_date": "2026-05-01",
-      "end_date": "2026-10-30",
-      "lifecycle": "active",
-      "quota_status": "sold_out",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
-    {
-      "id": "taiwanpay-mgym683g",
-      "provider_id": "taiwanpay",
-      "provider_name": "台灣Pay",
-      "title": "台灣Pay跨行轉帳免手續費",
-      "channel": "金融卡",
-      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2XT3YTA116DDTAMGYM683G",
-      "start_date": "2026-01-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "api"
-    },
     {
       "id": "ew-1784206763",
       "provider_id": "easywallet",
@@ -3536,7 +2823,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/37",
           "excerpt": "十大商圈掃全支付TWQR｜單筆不限金額享10%回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3563,7 +2850,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/61",
           "excerpt": "國泰CUBE信用卡切換【全支付】權益享2%小樹點(信用卡)回饋",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3590,7 +2877,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/65",
           "excerpt": "連結郵局帳戶，日本跨境消費享最高%全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3617,7 +2904,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/67",
           "excerpt": "PressPlay購課囉｜單筆滿額最高享5%回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3644,7 +2931,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/74",
           "excerpt": "百大品牌旅遊假期｜單筆滿$3000享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3671,7 +2958,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/75",
           "excerpt": "百大品牌品味饗樂｜單筆滿$1500享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3698,7 +2985,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/76",
           "excerpt": "百大品牌生活育樂｜單筆滿$500享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3725,7 +3012,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/77",
           "excerpt": "百大品牌風味美食｜單筆滿$200享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3752,7 +3039,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/78",
           "excerpt": "百大品牌日常百選｜單筆不限金額享5%回饋！新戶首筆消費加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3779,7 +3066,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/79",
           "excerpt": "百大品牌精選市場｜單筆不限金額享5%回饋！ 新戶首筆消費加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3806,7 +3093,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/80",
           "excerpt": "百大品牌精選夜市｜單筆不限金額享5%回饋！新戶首筆消費加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3833,7 +3120,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/81",
           "excerpt": "全聯生活圈｜單筆滿$100享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3860,7 +3147,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/82",
           "excerpt": "夏日乾杯飲料季｜筆筆5%全點！精選品牌再10%！將來銀行帳戶再10%",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3887,7 +3174,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/83",
           "excerpt": "iGO機場接送｜單筆滿$599享10%全點回饋",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3914,7 +3201,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/84",
           "excerpt": "全電商新會員活動｜首購使用全支付最高享價值50元回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3941,7 +3228,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/85",
           "excerpt": "跨境日韓｜不限消費方式與金額，送全通路返台樂購券！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3968,7 +3255,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/86",
           "excerpt": "韓國獨家通路活動｜現代百貨單筆消費滿千再加碼100全點回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3995,7 +3282,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/87",
           "excerpt": "玩日本全支付｜筆筆最高10%回饋！指定銀行帳戶/信用卡最高享16%全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4022,7 +3309,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/88",
           "excerpt": "打牙祭臺北夜市｜最高享35%全點，再送foodpanda 5%回饋券",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4049,7 +3336,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/89",
           "excerpt": "延三夜市｜單筆不限金額享30%回饋，指定銀行加碼最高5%！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4076,7 +3363,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/90",
           "excerpt": "全支付樂遊韓國｜筆筆享3.5%全點回饋！指定付款方式最高享15%全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4103,7 +3390,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/91",
           "excerpt": "全支付繳費日｜週一連結任一帳戶繳費筆筆享1%全點！再送5%樂購券！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4130,7 +3417,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/92",
           "excerpt": "連結指定銀行帳戶，最高3%全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4157,7 +3444,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/93",
           "excerpt": "連結指定銀行帳戶，日本跨境消費享最高5%全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4184,7 +3471,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/94",
           "excerpt": "連結指定銀行帳戶，韓國跨境消費享最高5%全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4211,7 +3498,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/95",
           "excerpt": "連結將來帳戶於全臺「全聯福利中心」實體門市消費(儲值不適用)筆筆享回饋",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4238,7 +3525,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/96",
           "excerpt": "連結將來帳戶於「夏日乾杯飲料季」消費筆筆享10%回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4265,7 +3552,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/97",
           "excerpt": "綁定指定信用卡，最高5%全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4292,7 +3579,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/98",
           "excerpt": "首次綁定指定信用卡，最高88全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4319,7 +3606,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/99",
           "excerpt": "綁定玉山信用卡於全支付APP「繳費」入口繳費(稅)，單筆滿額享全點回饋",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4346,7 +3633,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/100",
           "excerpt": "綁定台新卡至全聯實體門市消費，單筆滿額享全點回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4373,7 +3660,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/101",
           "excerpt": "富邦產險單筆保費滿額享全點限量回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4400,7 +3687,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/102",
           "excerpt": "通勤樂購券｜使用全支付乘車碼搭乘大眾運輸加碼5%全點回饋!",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4427,7 +3714,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/103",
           "excerpt": "AsiaYo楓葉賞｜單筆消費滿額最高享14%回饋！最高回饋1500全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4454,7 +3741,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/104",
           "excerpt": "全支付新戶優惠｜於大全聯消費滿千享5%全點回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4481,7 +3768,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/105",
           "excerpt": "日常繳費用全支付！繳費完成付款即可獲得全通路5%生活樂購券",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4508,7 +3795,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/106",
           "excerpt": "樂購券三重送｜完成繳費/搭車/日韓消費送全通路5%樂購券！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4535,7 +3822,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/107",
           "excerpt": "173ㄧ起上網｜出國網路首選滿千享130全點，指定付款最高16%回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4562,7 +3849,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/108",
           "excerpt": "易遊網週三限定｜單筆消費滿額享3%回饋！買機票最高省$600",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4589,7 +3876,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/109",
           "excerpt": "全聯高鐵快閃店｜掃全支付QR Code登錄活動，消費滿$150享10%",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4616,7 +3903,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/110",
           "excerpt": "水源市場｜單筆不限金額享30%全點回饋，指定銀行加碼最高5%全點回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4643,7 +3930,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/111",
           "excerpt": "山隆加油站｜登錄單筆滿額享7%全點！新戶再享50全點，指定銀行再加碼！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4670,7 +3957,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/112",
           "excerpt": "綁定國泰世華銀行信用卡，於日韓跨境消費滿額享限量全點回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4697,7 +3984,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/113",
           "excerpt": "選【全支付】權益｜綁定國泰CUBE信用卡於指定場域消費最高享7%回饋！",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4724,7 +4011,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/114",
           "excerpt": "全支付四週年4%帶你去旅行｜筆筆4%全點回饋！最高回饋400全點",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4751,7 +4038,1195 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/115",
           "excerpt": "全支付旅遊專區｜不限消費金額、次數享1%全點回饋！新戶滿額再加碼3%",
-          "observed_at": "2026-08-16T01:00:21+08:00",
+          "observed_at": "2026-08-16T01:07:48+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXFV9GFDCS1EGK6MNEPD06FN",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "台灣Pay揪OK 筆筆10%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFV9GFDCS1EGK6MNEPD06FN",
+      "start_date": "2026-07-23",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFV9GFDCS1EGK6MNEPD06FN",
+          "excerpt": "台灣Pay揪OK 筆筆10%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN1089QDKBZFN388KPDWVSW",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "大稻埕迪化商圈  Pay你吃喝玩樂 享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN1089QDKBZFN388KPDWVSW",
+      "start_date": "2026-04-20",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN1089QDKBZFN388KPDWVSW",
+          "excerpt": "大稻埕迪化商圈  Pay你吃喝玩樂 享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KF2ZQF8TB1NKR3D0GFRR21CG",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "北捷TWQR乘車碼上線!",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2ZQF8TB1NKR3D0GFRR21CG",
+      "start_date": "2026-01-16",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2ZQF8TB1NKR3D0GFRR21CG",
+          "excerpt": "北捷TWQR乘車碼上線!",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KY4NYCMSPHMGN07Y2YXTPZJE",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "微碧愛點餐X台灣Pay 餐餐美味、樂享回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NYCMSPHMGN07Y2YXTPZJE",
+      "start_date": "2026-08-17",
+      "end_date": "2026-09-30",
+      "lifecycle": "upcoming",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NYCMSPHMGN07Y2YXTPZJE",
+          "excerpt": "微碧愛點餐X台灣Pay 餐餐美味、樂享回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KZ8G8C9Z20MF3CY1GRK4JQVQ",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "謝謝爸爸 用回饋表達",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KZ8G8C9Z20MF3CY1GRK4JQVQ",
+      "start_date": "2026-08-05",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KZ8G8C9Z20MF3CY1GRK4JQVQ",
+          "excerpt": "謝謝爸爸 用回饋表達",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KY4P3N7N48E7PS9TRQD6P1AY",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "永康國際商圈X台灣Pay消費拿回饋20%",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P3N7N48E7PS9TRQD6P1AY",
+      "start_date": "2026-08-01",
+      "end_date": "2026-11-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P3N7N48E7PS9TRQD6P1AY",
+          "excerpt": "永康國際商圈X台灣Pay消費拿回饋20%",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXFVV3J5Z8KAJ93Q5GECGP7S",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "前進仁愛鄉TWQR輕鬆付享10%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVV3J5Z8KAJ93Q5GECGP7S",
+      "start_date": "2026-08-01",
+      "end_date": "2027-03-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVV3J5Z8KAJ93Q5GECGP7S",
+          "excerpt": "前進仁愛鄉TWQR輕鬆付享10%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXFVTCJ46TDYBDVVW13J2Y59",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "漫遊員山鄉TWQR輕鬆付享10%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVTCJ46TDYBDVVW13J2Y59",
+      "start_date": "2026-08-01",
+      "end_date": "2027-03-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVTCJ46TDYBDVVW13J2Y59",
+          "excerpt": "漫遊員山鄉TWQR輕鬆付享10%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KYRZ4QM0NYQA204D89ZMT319",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "漫遊高雄．墨凡站前商圈台灣Pay樂享10%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KYRZ4QM0NYQA204D89ZMT319",
+      "start_date": "2026-08-01",
+      "end_date": "2026-11-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KYRZ4QM0NYQA204D89ZMT319",
+          "excerpt": "漫遊高雄．墨凡站前商圈台灣Pay樂享10%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXFVWACX4FDYW5F7HMCTHJX1",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "福利驚奇網揪用台灣Pay 手機下單直接打9折",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVWACX4FDYW5F7HMCTHJX1",
+      "start_date": "2026-07-27",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVWACX4FDYW5F7HMCTHJX1",
+          "excerpt": "福利驚奇網揪用台灣Pay 手機下單直接打9折",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXN6WZYD7S5M99ZP7E03PWQH",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "TWQR義起享好利 10%限時PAY",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6WZYD7S5M99ZP7E03PWQH",
+      "start_date": "2026-07-23",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6WZYD7S5M99ZP7E03PWQH",
+          "excerpt": "TWQR義起享好利 10%限時PAY",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXN6DAPYSGX2DP60KK6SDVSP",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "TWQR不只幫你撐傘，更Pay你省下 10% 開銷",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6DAPYSGX2DP60KK6SDVSP",
+      "start_date": "2026-07-20",
+      "end_date": "2026-08-16",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6DAPYSGX2DP60KK6SDVSP",
+          "excerpt": "TWQR不只幫你撐傘，更Pay你省下 10% 開銷",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KXFTZHE3F8XZ9V9CD2MNXMJA",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "TWQR東遊趣 10%加碼Pay",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFTZHE3F8XZ9V9CD2MNXMJA",
+      "start_date": "2026-07-15",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFTZHE3F8XZ9V9CD2MNXMJA",
+          "excerpt": "TWQR東遊趣 10%加碼Pay",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KVZ3X49YBZMK7BVJG5DBPHE9",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "臨江街觀光夜市超給利 台灣Pay單筆享20%現金回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3X49YBZMK7BVJG5DBPHE9",
+      "start_date": "2026-06-30",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3X49YBZMK7BVJG5DBPHE9",
+          "excerpt": "臨江街觀光夜市超給利 台灣Pay單筆享20%現金回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KTBEVY94PD4BH8085GWKW6DB",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "福懋台灣Pay 加油享回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEVY94PD4BH8085GWKW6DB",
+      "start_date": "2026-07-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEVY94PD4BH8085GWKW6DB",
+          "excerpt": "福懋台灣Pay 加油享回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KTBE68A6TEEZDMT9MYRXJDY4",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "耐斯購物Pay你享回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE68A6TEEZDMT9MYRXJDY4",
+      "start_date": "2026-07-01",
+      "end_date": "2026-12-27",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE68A6TEEZDMT9MYRXJDY4",
+          "excerpt": "耐斯購物Pay你享回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KTBE1FX96S45KZXBXBKPBWF2",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "(活動額滿)TWQR金門風華Pay享10%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE1FX96S45KZXBXBKPBWF2",
+      "start_date": "2026-07-01",
+      "end_date": "2026-11-30",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE1FX96S45KZXBXBKPBWF2",
+          "excerpt": "(活動額滿)TWQR金門風華Pay享10%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KVZ356T0ACAGQJHKDVQYXXCC",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "(活動額滿)毛小孩生活採購季！東森寵物X台灣Pay享15%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ356T0ACAGQJHKDVQYXXCC",
+      "start_date": "2026-06-30",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "15%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ356T0ACAGQJHKDVQYXXCC",
+          "excerpt": "(活動額滿)毛小孩生活採購季！東森寵物X台灣Pay享15%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KVZ3H9VZWN3CT13M3A8VX7P4",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "廣州街夜市 & 梧州街夜市超給利 台灣Pay單筆享20%現金回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3H9VZWN3CT13M3A8VX7P4",
+      "start_date": "2026-06-30",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3H9VZWN3CT13M3A8VX7P4",
+          "excerpt": "廣州街夜市 & 梧州街夜市超給利 台灣Pay單筆享20%現金回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KVZ2VVMHRVYN8583BTGMHTWB",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "Autopass麻吉神助攻 用台灣Pay加油停車享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ2VVMHRVYN8583BTGMHTWB",
+      "start_date": "2026-06-29",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ2VVMHRVYN8583BTGMHTWB",
+          "excerpt": "Autopass麻吉神助攻 用台灣Pay加油停車享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KTBERR1F8E7RZDXMYTQHB500",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBERR1F8E7RZDXMYTQHB500",
+      "start_date": "2026-06-25",
+      "end_date": "2026-11-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBERR1F8E7RZDXMYTQHB500",
+          "excerpt": "美十樂連鎖藥局-台灣Pay 20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFMZ9EXY02V9B6K6M165D465",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "清涼一夏．台灣PAY喝小仁泉享20%回饋！",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ9EXY02V9B6K6M165D465",
+      "start_date": "2026-06-15",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ9EXY02V9B6K6M165D465",
+          "excerpt": "清涼一夏．台灣PAY喝小仁泉享20%回饋！",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KTNSX3QEG4WT6GX9WX4BJGFP",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "三峽X八里攜手趴趴走 揪用台灣Pay享20%大回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTNSX3QEG4WT6GX9WX4BJGFP",
+      "start_date": "2026-06-16",
+      "end_date": "2026-12-15",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTNSX3QEG4WT6GX9WX4BJGFP",
+          "excerpt": "三峽X八里攜手趴趴走 揪用台灣Pay享20%大回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFMZ3BC9RGC6VX17SKYFTZMS",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "微風集團【TWQR限定5%超回饋】",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ3BC9RGC6VX17SKYFTZMS",
+      "start_date": "2026-06-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "5%",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ3BC9RGC6VX17SKYFTZMS",
+          "excerpt": "微風集團【TWQR限定5%超回饋】",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN0HGJG46ZS5JM9YY7ZFAS8",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "Focus百貨放鬆購  台灣Pay享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0HGJG46ZS5JM9YY7ZFAS8",
+      "start_date": "2026-06-05",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0HGJG46ZS5JM9YY7ZFAS8",
+          "excerpt": "Focus百貨放鬆購  台灣Pay享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN0KT8V36PGVDW4ZY0PBYNR",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "（活動額滿）好生活這樣Pay 誠品生活台灣Pay享20%",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0KT8V36PGVDW4ZY0PBYNR",
+      "start_date": "2026-06-04",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0KT8V36PGVDW4ZY0PBYNR",
+          "excerpt": "（活動額滿）好生活這樣Pay 誠品生活台灣Pay享20%",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFMZ7YEXDTV14JX8QTCFA95H",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "馬可先生TWQR享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ7YEXDTV14JX8QTCFA95H",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ7YEXDTV14JX8QTCFA95H",
+          "excerpt": "馬可先生TWQR享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFMZ6Q4RH65GH90WT4GJ1HZM",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "TWQR花火狂歡Pay享10%回饋【活動額滿】",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ6Q4RH65GH90WT4GJ1HZM",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ6Q4RH65GH90WT4GJ1HZM",
+          "excerpt": "TWQR花火狂歡Pay享10%回饋【活動額滿】",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFMZ58WNF9BPT0HZBEHRFQ6D",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "（活動額滿）寶島眼鏡 x 台灣PAY 寵EYE享回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ58WNF9BPT0HZBEHRFQ6D",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ58WNF9BPT0HZBEHRFQ6D",
+          "excerpt": "（活動額滿）寶島眼鏡 x 台灣PAY 寵EYE享回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KRMM8ZADNBY5KS4CY4JENVET",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "成功中繼市場、士東市場買菜去 台灣 Pay 樂享 20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KRMM8ZADNBY5KS4CY4JENVET",
+      "start_date": "2026-05-15",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KRMM8ZADNBY5KS4CY4JENVET",
+          "excerpt": "成功中繼市場、士東市場買菜去 台灣 Pay 樂享 20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN0QXVGRZ2TJ1YH7GT22FKC",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "（活動額滿）光復市場買好料！台灣Pay享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0QXVGRZ2TJ1YH7GT22FKC",
+      "start_date": "2026-05-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0QXVGRZ2TJ1YH7GT22FKC",
+          "excerpt": "（活動額滿）光復市場買好料！台灣Pay享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KPAYG3J6FN72P4F1NJHSNJTP",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "日本PayPay在台灣也能通！",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAYG3J6FN72P4F1NJHSNJTP",
+      "start_date": "2026-04-27",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAYG3J6FN72P4F1NJHSNJTP",
+          "excerpt": "日本PayPay在台灣也能通！",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KKK5WA82PMVAF6HVZ0W14ZX6",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "長春商圈X台灣Pay消費20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KKK5WA82PMVAF6HVZ0W14ZX6",
+      "start_date": "2026-03-16",
+      "end_date": "2026-08-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KKK5WA82PMVAF6HVZ0W14ZX6",
+          "excerpt": "長春商圈X台灣Pay消費20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN19NNF700RDTZQHJ59NW4S",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "(活動額滿)嘟嘟房停車就用台灣Pay，每筆交易不限金額享10元回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN19NNF700RDTZQHJ59NW4S",
+      "start_date": "2026-03-15",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN19NNF700RDTZQHJ59NW4S",
+          "excerpt": "(活動額滿)嘟嘟房停車就用台灣Pay，每筆交易不限金額享10元回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KK94W8H47NWNWRWT6TBW114A",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "停車就用TWQR！",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KK94W8H47NWNWRWT6TBW114A",
+      "start_date": "2026-03-15",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KK94W8H47NWNWRWT6TBW114A",
+          "excerpt": "停車就用TWQR！",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN18HDDRP0Z953CB1MK53S7",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "(活動額滿)中原x元智大學生活圈 Pay你遊壢享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN18HDDRP0Z953CB1MK53S7",
+      "start_date": "2026-03-01",
+      "end_date": "2026-09-30",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN18HDDRP0Z953CB1MK53S7",
+          "excerpt": "(活動額滿)中原x元智大學生活圈 Pay你遊壢享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFZ9JVYJGQ9N9A1JRW69SF15",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "來逛樂華夜市樂享10%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ9JVYJGQ9N9A1JRW69SF15",
+      "start_date": "2026-02-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ9JVYJGQ9N9A1JRW69SF15",
+          "excerpt": "來逛樂華夜市樂享10%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFZ8PJA620CP9Z0VBCSSDM4C",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "大家一起挺小農 台灣Pay結帳全站88折",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ8PJA620CP9Z0VBCSSDM4C",
+      "start_date": "2026-01-20",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ8PJA620CP9Z0VBCSSDM4C",
+          "excerpt": "大家一起挺小農 台灣Pay結帳全站88折",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KD780J3RYYYG0VZ9JQJPA7M5",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "漫遊苗栗南庄老街台灣Pay給你20%驚喜回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KD780J3RYYYG0VZ9JQJPA7M5",
+      "start_date": "2026-01-19",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KD780J3RYYYG0VZ9JQJPA7M5",
+          "excerpt": "漫遊苗栗南庄老街台灣Pay給你20%驚喜回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KPAX7T490S21W51F01QRABCJ",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "十大商圈掃全支付TWQR單筆不限金額享10%回饋！",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAX7T490S21W51F01QRABCJ",
+      "start_date": "2026-04-15",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAX7T490S21W51F01QRABCJ",
+          "excerpt": "十大商圈掃全支付TWQR單筆不限金額享10%回饋！",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KY4P02S3DCNG40XPWX4E80H0",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "迺延三夜市就用TWQR「台灣Pay」樂享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P02S3DCNG40XPWX4E80H0",
+      "start_date": "2026-08-13",
+      "end_date": "2027-01-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P02S3DCNG40XPWX4E80H0",
+          "excerpt": "迺延三夜市就用TWQR「台灣Pay」樂享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KTBEPC9T5BE3J8C4EVX49RFD",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "寧夏夜市愛逮玩 台灣Pay享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEPC9T5BE3J8C4EVX49RFD",
+      "start_date": "2026-07-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEPC9T5BE3J8C4EVX49RFD",
+          "excerpt": "寧夏夜市愛逮玩 台灣Pay享20%回饋",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KFN0Q15Y2SPXRNBR8WSAKDVS",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "(活動額滿)萊爾富台灣Pay消費好康利馬萊",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0Q15Y2SPXRNBR8WSAKDVS",
+      "start_date": "2026-05-01",
+      "end_date": "2026-10-30",
+      "lifecycle": "active",
+      "quota_status": "sold_out",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": true,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0Q15Y2SPXRNBR8WSAKDVS",
+          "excerpt": "(活動額滿)萊爾富台灣Pay消費好康利馬萊",
+          "observed_at": "2026-08-16T01:07:50+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01KF2XT3YTA116DDTAMGYM683G",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "台灣Pay跨行轉帳免手續費",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2XT3YTA116DDTAMGYM683G",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2XT3YTA116DDTAMGYM683G",
+          "excerpt": "台灣Pay跨行轉帳免手續費",
+          "observed_at": "2026-08-16T01:07:50+08:00",
           "kind": "activity_page"
         }
       ]
