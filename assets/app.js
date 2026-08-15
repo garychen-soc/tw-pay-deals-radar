@@ -121,10 +121,9 @@
     (a.insights||[]).slice(0,3).forEach(t=>{ const li=document.createElement("li"); li.textContent=t; chips.append(li); });
     f.querySelector(".reward").textContent=a.reward||"";
     const cal=f.querySelector(".cal"), calUrl=buildCalendarUrl(a);
-    if(calUrl){ cal.hidden=false;
-      const go=(e)=>{ e.preventDefault(); e.stopPropagation(); window.open(calUrl,"_blank","noopener"); };
-      cal.addEventListener("click",go);
-      cal.addEventListener("keydown",(e)=>{ if(e.key==="Enter"||e.key===" ") go(e); }); }
+    // 用真正的 href 而非 window.open：LINE／FB 等 App 內建瀏覽器常擋掉 window.open，
+    // 沒有 href 時會點了沒反應且長按也無法「在新分頁開啟」
+    if(calUrl){ cal.hidden=false; cal.href=calUrl; }
     return f; }
 
   function render(){
