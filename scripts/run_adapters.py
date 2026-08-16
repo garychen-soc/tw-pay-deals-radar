@@ -21,9 +21,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from adapters import pxpayplus, taiwanpay, ipass  # noqa: E402
+from adapters import pxpayplus, taiwanpay, ipass, easywallet  # noqa: E402
 
-ADAPTERS = [pxpayplus, taiwanpay, ipass]
+ADAPTERS = [pxpayplus, taiwanpay, ipass, easywallet]
 DATA = ROOT / "data" / "promotions.json"
 
 

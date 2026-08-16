@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from adapters import base, taiwanpay, ipass  # noqa: E402
+from adapters import base, taiwanpay, ipass, easywallet  # noqa: E402
 
 
 class TestAdapterBase(unittest.TestCase):
@@ -80,6 +80,25 @@ class TestIpassParse(unittest.TestCase):
         self.assertEqual(ipass.quota_of("回饋上限已額滿")[0], "sold_out")
         self.assertEqual(ipass.quota_of("每月上限額滿")[0], "partial_sold_out")
         self.assertEqual(ipass.quota_of("一般活動 10%")[0], "not_marked_full")
+
+
+class TestEasywalletParse(unittest.TestCase):
+    def test_parse(self):
+        html = ('<a href="/benefit/content.php?id=123" class="slider-card">'
+                '<div class="card-text-block"><p class="title">悠遊付暢遊金門 23%</p>'
+                '<p class="date">2026-08-01 － 2026-11-30</p></div></a>')
+        items = easywallet.parse_page(html)
+        self.assertEqual(len(items), 1)
+        aid, title, start, end = items[0]
+        self.assertEqual(aid, "123")
+        self.assertIn("金門", title)
+        self.assertEqual(start, "2026-08-01")
+        self.assertEqual(end, "2026-11-30")
+
+    def test_quota(self):
+        self.assertEqual(easywallet.quota_of("每月額滿")[0], "partial_sold_out")
+        self.assertEqual(easywallet.quota_of("本活動已額滿")[0], "sold_out")
+        self.assertEqual(easywallet.quota_of("一般 10%")[0], "not_marked_full")
 
 
 if __name__ == "__main__":
