@@ -56,8 +56,10 @@ def merge_into_promotions(result):
     adapter_providers = {a["provider_name"] for a in result["activities"]}
     kept = [a for a in d.get("activities", []) if a.get("provider_name") not in adapter_providers]
     d["activities"] = kept + result["activities"]
-    # 不覆蓋 source_health：adapter 目前只涵蓋部分服務，成功率若只反映這些會誤導全站；
-    # 完整透明成功率待所有大宗服務都納入 adapter、或由排程 AI 統一統計時再填。
+    # 填入 adapter 的透明成功率：四大宗＝本輪真正重抓的服務，其成功率(官方入口/延伸/缺口)
+    # 是有意義的真實數據；長尾沿用前次、不計入本輪抓取。保留既有 failures(AI 端沿用說明)。
+    sh = d.setdefault("source_health", {})
+    sh.update(result["source_health"])
     ids = {a["id"] for a in d["activities"]}
     d["featured_ids"] = [i for i in d.get("featured_ids", []) if i in ids]
     DATA.write_text(json.dumps(d, ensure_ascii=False, indent=2), "utf-8")
