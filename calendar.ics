@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:end-2026-09-25@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:2 檔優惠今日截止
@@ -27,8 +27,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-09-27@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:7 檔優惠今日截止
@@ -50,31 +50,46 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-09-28@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:4 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 4 檔：\n\n・[全支付] 全支付
- 四週年｜4%帶你去旅行｜筆筆4%回饋！最高回饋400全點 —
-  最高4%\n・[一卡通 iPASS MONEY] 【7-ELEVEN】中秋採買就用 iPA
- SS MONEY APP 付款，樂享多重回饋！\n・[悠遊付] 7-ELEVEN悠遊
- 卡/悠遊付結帳滿額最高立折$180\n・[Pi 拍錢包] 7-ELEVEN｜
- 中秋慶團圓 指定商品消費滿$1\,111立折$100 — 現折$100\n\n
- 完整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/
- \n實際優惠內容以各官方活動辦法為準。
+DESCRIPTION:今日截止的優惠共 4 檔：\n\n・[Pi 拍錢包] 7-ELEVEN
+ ｜中秋慶團圓 指定商品消費滿$1\,111立折$100 — 現折$100\n
+ ・[全支付] 全支付四週年｜4%帶你去旅行｜筆筆4%回饋！
+ 最高回饋400全點 — 最高4%\n・[一卡通 iPASS MONEY] 【7-ELEVEN
+ 】中秋採買就用 iPASS MONEY APP 付款，樂享多重回饋！\n・[
+ 悠遊付] 7-ELEVEN悠遊卡/悠遊付結帳滿額最高立折$180\n\n完
+ 整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n
+ 實際優惠內容以各官方活動辦法為準。
+CATEGORIES:截止提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:end-2026-09-29@tw-pay-deals-radar
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:1 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[悠遊付] 全家嗶
+ 悠遊卡滿額享最高立折30元 — $30\n\n完整清單與篩選：htt
+ ps://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各
+ 官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-09-30@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
-SUMMARY:87 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 87 檔：\n\n・[全盈+PAY] 玉山信
+SUMMARY:84 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 84 檔：\n\n・[全盈+PAY] 玉山信
  用卡首次綁定全盈+PAY單筆滿238元享68點玉山e point回饋（
  限量30\,000名） — 68點\n・[全盈+PAY] 玉山信用卡綁定全盈
  +PAY(不限首綁)繳費服務單筆滿1\,200元享30元全盈儲值金回
@@ -97,28 +112,25 @@ DESCRIPTION:今日截止的優惠共 87 檔：\n\n・[全盈+PAY] 玉山信
  — 最高12%\n・[全盈+PAY] 智生活繳社區服務/管理費，最高
  贈63\,000 Fa點 — 最高贈63\,000 Fa點\n・[全盈+PAY] 瓦斯通訂
  瓦斯，單筆滿額最高30%回饋 — 最高30%\n・[全盈+PAY] 易安
- 網註冊會員，贈3\,000 Fa點 — 贈3\,000 Fa點\n・[全支付] 連
- 結郵局帳戶，日本跨境消費享最高%全點限量回饋！\n・[
- 全支付] 韓國獨家通路活動｜現代百貨單筆消費滿千再加
- 碼100全點回饋！\n・[全支付] 玩日本全支付｜筆筆最高10%
- 回饋！指定銀行帳戶/信用卡最高享16%全點 — 最高16%\n・
- [全支付] 全支付樂遊韓國｜筆筆享3.5%全點回饋！指定付
- 款方式最高享15%全點 — 最高15%\n・[全支付] 水源市場｜
- 單筆不限金額享30%全點回饋，指定銀行加碼最高5%全點回
- 饋！ — 最高30%\n・[全支付] 980x遊戲天地｜單筆消費滿額
- 最高享10%全點！限時加贈武神快前往領取 — 10%\n・[全支
- 付] 遊食購嗶出好運消費月｜用全支付完成指定任務，即
- 享抽900全點資格！\n…另有 62 檔，請見網站。\n\n完整清
- 單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實際
- 優惠內容以各官方活動辦法為準。
+ 網註冊會員，贈3\,000 Fa點 — 贈3\,000 Fa點\n・[Pi 拍錢包] P
+ i拍錢包Ｘ新安東京海上產險｜早鳥投保旅平險/機車險領
+ 150P幣，月月加碼抽1000P幣 — 150P幣/1000P幣\n・[街口] 去韓
+ 國做醫美用街口，筆筆享10%回饋 — 10%\n・[街口] 週一飲
+ 料主題日，喝飲料/咖啡享 7 折 — 7折\n・[街口] 週三午
+ 餐主題日，吃午餐最高享 23.5% — 最高23.5%\n・[街口] 週
+ 五美妍日，最高享17.5%回饋 — 最高17.5%\n・[街口] 週二旅
+ 遊日，最高享 13.5% 回饋 — 最高13.5%\n・[街口] 解鎖驚喜 
+ 7 折街口券 — 7折券\n…另有 59 檔，請見網站。\n\n完整
+ 清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實
+ 際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-01@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:6 檔優惠今日截止
@@ -138,8 +150,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-04@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:1 檔優惠今日截止
@@ -153,8 +165,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-06@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:1 檔優惠今日截止
@@ -168,8 +180,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-07@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:1 檔優惠今日截止
@@ -184,8 +196,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-14@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:1 檔優惠今日截止
@@ -199,8 +211,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-17@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:1 檔優惠今日截止
@@ -214,8 +226,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-22@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:1 檔優惠今日截止
@@ -229,8 +241,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-23@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:1 檔優惠今日截止
@@ -244,8 +256,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-28@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:1 檔優惠今日截止
@@ -259,8 +271,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-30@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:2 檔優惠今日截止
@@ -275,43 +287,43 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-10-31@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:17 檔優惠今日截止
 DESCRIPTION:今日截止的優惠共 17 檔：\n\n・[全盈+PAY] 遊臺東
  就用全盈+PAY掃TWQR，筆筆10%回饋 — 筆筆10%\n・[全盈+PAY] 
  全盈+PAY連結第一銀行帳戶，完成任務抽萬元mo幣 — 抽$10
- \,000 mo幣\n・[全支付] 山隆加油站｜登錄單筆滿額享7%全
- 點！新戶再享50全點，指定銀行再加碼！ — 7%\n・[全支
- 付] 神腦｜購買iPhone18 Pro系列新機送600全點，百大品牌再
- 加碼\n・[台灣Pay] TWQR義起享好利 10%限時PAY — 10%\n・[台
- 灣Pay] TWQR東遊趣 10%加碼Pay — 10%\n・[台灣Pay] 清涼一夏．
- 台灣PAY喝小仁泉享20%回饋！ — 20%\n・[一卡通 iPASS MONEY] 
- 【乘車碼】搭車就用 iPASS MONEY 乘車碼，週週送四大超商
- 優惠券\n・[一卡通 iPASS MONEY] 【東森寵物】寵愛大放送，
- 使用 iPASS MONEY 付款單筆滿千贈 100 元優惠券\n・[一卡通 i
- PASS MONEY] 【yoxi】綁定 iPASS MONEY 暢遊城市，三大優惠與你
- 同行！\n・[悠遊付] 日常採買 悠遊付滿額最高10%回饋 — 
- 10%\n・[悠遊付] 樂天新戶綁定悠遊付好禮NT$ 1\,000\n・[悠
- 遊付] 悠遊付繳學雜費最高10%回饋，綁定玉山信用卡滿額
- 登錄享3期0利率 — 10%\n・[悠遊付] 【摩斯漢堡】卡付同
- 享消費3筆送$50現金回饋券\n・[悠遊付] 台灣中油悠遊卡/
- 悠遊付加油享回饋\n・[Pi 拍錢包] PChome24h購物購新機綁定
- 玉山 Pi 拍錢包信用卡最高贈7517Ｐ幣 — 最高7517P幣\n・[Pi
-  拍錢包] Pi 拍錢包 9-10月指定電商、手機通路單筆滿額最
- 高贈1800Ｐ幣 — 最高1800P幣\n\n完整清單與篩選：https://gar
- ychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各官方活
- 動辦法為準。
+ \,000 mo幣\n・[Pi 拍錢包] PChome24h購物購新機綁定玉山 Pi 拍
+ 錢包信用卡最高贈7517Ｐ幣 — 最高7517P幣\n・[Pi 拍錢包] P
+ i 拍錢包 9-10月指定電商、手機通路單筆滿額最高贈1800Ｐ
+ 幣 — 最高1800P幣\n・[全支付] 山隆加油站｜登錄單筆滿
+ 額享7%全點！新戶再享50全點，指定銀行再加碼！ — 7%\n
+ ・[全支付] 神腦｜購買iPhone18 Pro系列新機送600全點，百
+ 大品牌再加碼\n・[台灣Pay] TWQR義起享好利 10%限時PAY — 10
+ %\n・[台灣Pay] TWQR東遊趣 10%加碼Pay — 10%\n・[台灣Pay] 清
+ 涼一夏．台灣PAY喝小仁泉享20%回饋！ — 20%\n・[一卡通 iP
+ ASS MONEY] 【乘車碼】搭車就用 iPASS MONEY 乘車碼，週週送
+ 四大超商優惠券\n・[一卡通 iPASS MONEY] 【東森寵物】寵愛
+ 大放送，使用 iPASS MONEY 付款單筆滿千贈 100 元優惠券\n・
+ [一卡通 iPASS MONEY] 【yoxi】綁定 iPASS MONEY 暢遊城市，三大
+ 優惠與你同行！\n・[悠遊付] 日常採買 悠遊付滿額最高10
+ %回饋 — 10%\n・[悠遊付] 樂天新戶綁定悠遊付好禮NT$ 1\,00
+ 0\n・[悠遊付] 悠遊付繳學雜費最高10%回饋，綁定玉山信
+ 用卡滿額登錄享3期0利率 — 10%\n・[悠遊付] 【摩斯漢堡
+ 】卡付同享消費3筆送$50現金回饋券\n・[悠遊付] 台灣中
+ 油悠遊卡/悠遊付加油享回饋\n\n完整清單與篩選：https://g
+ arychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各官方
+ 活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-11-01@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:3 檔優惠今日截止
@@ -327,8 +339,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-11-02@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:1 檔優惠今日截止
@@ -342,13 +354,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-11-30@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:13 檔優惠今日截止
 DESCRIPTION:今日截止的優惠共 13 檔：\n\n・[全盈+PAY] 遊金門
- 就用全盈+PAY掃TWQR，筆筆10%回饋 — 筆筆10%\n・[台灣Pay] 
+ 就用全盈+PAY掃TWQR，筆筆10%回饋 — 筆筆10%\n・[街口] 週
+ 六百貨日，最高享現折 20% 優惠 — 最高20%\n・[台灣Pay] 
  墊腳石Pay你樂購一夏，台灣Pay\n・[台灣Pay] 台灣Pay購新機
   STUDIO A最高享10% — 10%\n・[台灣Pay] 台灣Pay在漢神洲際強
  棒出擊滿2000送200元電子商品券！ — $200\n・[台灣Pay] 永
@@ -362,9 +375,8 @@ DESCRIPTION:今日截止的優惠共 13 檔：\n\n・[全盈+PAY] 遊金門
  S MONEY 最優惠，門市掃碼月月領 100 元優惠券！\n・[一卡
  通 iPASS MONEY] 【樂天銀行】iPASS MONEY 連接樂天銀行新戶，
  享一卡通綠點 800 點回饋\n・[悠遊付] 悠遊付暢遊金門 筆
- 筆最高回饋23% — 23%\n・[街口] 週六百貨日，最高享現折 
- 20% 優惠 — 最高20%\n\n完整清單與篩選：https://garychen-soc.g
- ithub.io/tw-pay-deals-radar/\n實際優惠內容以各官方活動辦法
+ 筆最高回饋23% — 23%\n\n完整清單與篩選：https://garychen-soc
+ .github.io/tw-pay-deals-radar/\n實際優惠內容以各官方活動辦法
  為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
@@ -372,8 +384,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-12-05@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:1 檔優惠今日截止
@@ -387,8 +399,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-12-15@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:1 檔優惠今日截止
@@ -402,8 +414,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-12-27@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:1 檔優惠今日截止
@@ -417,25 +429,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-12-30@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:3 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 3 檔：\n\n・[一卡通 iPASS MONEY]
-  【王道銀行】指定連結開立王道帳戶，並符合條件享 600
-  元回饋\n・[悠遊付] 【微風週三會員日】悠遊付單筆300
- 送300\n・[街口] 週日採買日，最高享 15% 優惠 — 最高15%\n
- \n完整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-rada
- r/\n實際優惠內容以各官方活動辦法為準。
+DESCRIPTION:今日截止的優惠共 3 檔：\n\n・[街口] 週日採買
+ 日，最高享 15% 優惠 — 最高15%\n・[一卡通 iPASS MONEY] 【
+ 王道銀行】指定連結開立王道帳戶，並符合條件享 600 元
+ 回饋\n・[悠遊付] 【微風週三會員日】悠遊付單筆300送300
+ \n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-ra
+ dar/\n實際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2026-12-31@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:118 檔優惠今日截止
@@ -482,8 +494,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2027-01-02@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:1 檔優惠今日截止
@@ -497,8 +509,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2027-01-03@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:8 檔優惠今日截止
@@ -521,8 +533,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2027-01-31@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:2 檔優惠今日截止
@@ -538,8 +550,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2027-02-28@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:1 檔優惠今日截止
@@ -553,28 +565,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2027-03-31@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
-SUMMARY:6 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 6 檔：\n\n・[全盈+PAY] 全盈+PAY
+SUMMARY:7 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 7 檔：\n\n・[全盈+PAY] 全盈+PAY
  綁定台新Richart卡，Pay著刷享最高2.3%回饋 — 最高2.3%\n・[
  全盈+PAY] 富邦產險網路投保，單筆滿額享5% Fa點 — 5%\n・
- [台灣Pay] 艋舺夜市超給利 台灣Pay單筆享20%現金回饋 — 20
- %\n・[台灣Pay] It’s「米」Time！刷台灣Pay享20%回饋 — 20%\n
- ・[台灣Pay] 泳渡日月潭就用台灣Pay  筆筆20%回饋最挺你 
- — 20%\n・[台灣Pay] 前進仁愛鄉TWQR輕鬆付享10%回饋 — 10%\n
- \n完整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-rada
- r/\n實際優惠內容以各官方活動辦法為準。
+ [台灣Pay] 新社大安TWQR消費趣 10%回饋很給利 — 10%\n・[台
+ 灣Pay] 艋舺夜市超給利 台灣Pay單筆享20%現金回饋 — 20%\n
+ ・[台灣Pay] It’s「米」Time！刷台灣Pay享20%回饋 — 20%\n・
+ [台灣Pay] 泳渡日月潭就用台灣Pay  筆筆20%回饋最挺你 — 2
+ 0%\n・[台灣Pay] 前進仁愛鄉TWQR輕鬆付享10%回饋 — 10%\n\n完
+ 整清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n
+ 實際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2028-01-01@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20280101
 DTEND;VALUE=DATE:20280102
 SUMMARY:1 檔優惠今日截止
@@ -588,8 +601,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:end-2031-07-31@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20310731
 DTEND;VALUE=DATE:20310801
 SUMMARY:1 檔優惠今日截止
@@ -602,24 +615,9 @@ URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:start-2026-09-25@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:1 檔新優惠開跑
-DESCRIPTION:今日開跑的優惠共 1 檔：\n\n・[台灣Pay] It’s「
- 米」Time！刷台灣Pay享20%回饋 — 20%\n\n完整清單與篩選：h
- ttps://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以
- 各官方活動辦法為準。
-CATEGORIES:開跑提醒
-URL:https://garychen-soc.github.io/tw-pay-deals-radar/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:start-2026-09-28@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:6 檔新優惠開跑
@@ -639,26 +637,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:start-2026-10-01@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:3 檔新優惠開跑
-DESCRIPTION:今日開跑的優惠共 3 檔：\n\n・[全支付] foodpanda
- ｜綁定「帳戶」付款，筆筆1%全點回饋！週五再加碼4% —
+SUMMARY:4 檔新優惠開跑
+DESCRIPTION:今日開跑的優惠共 4 檔：\n\n・[全支付] foodpanda
+ ｜連結「帳戶」付款，筆筆1%全點回饋！週五再加碼4% —
   最高4%\n・[全支付] 連結國泰世華帳戶於「火鍋季」消費
- 滿額享10%回饋！ — 10%\n・[台灣Pay] 艋舺夜市超給利 台灣
- Pay單筆享20%現金回饋 — 20%\n\n完整清單與篩選：https://gar
- ychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各官方活
- 動辦法為準。
+ 滿額享10%回饋！ — 10%\n・[台灣Pay] 新社大安TWQR消費趣 10
+ %回饋很給利 — 10%\n・[台灣Pay] 艋舺夜市超給利 台灣Pay
+ 單筆享20%現金回饋 — 20%\n\n完整清單與篩選：https://garych
+ en-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各官方活動
+ 辦法為準。
 CATEGORIES:開跑提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:start-2026-10-09@tw-pay-deals-radar
-DTSTAMP:20260923T123000Z
-LAST-MODIFIED:20260923T123000Z
+DTSTAMP:20260925T073000Z
+LAST-MODIFIED:20260925T073000Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:1 檔新優惠開跑
