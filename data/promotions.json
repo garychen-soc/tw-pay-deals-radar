@@ -1,21 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T11:00:00+08:00",
+  "generated_at": "2026-10-07T11:30:00+08:00",
   "timezone": "Asia/Taipei",
-  "headline": "台灣Pay/全支付/一卡通/悠遊付四大宗每日自動更新，長尾服務人工複查；清除 25 筆已過期活動（全盈+PAY/全聯/街口 9月底到期）",
+  "headline": "街口支付新增麥當勞/日本/Apple服務三大加碼活動，Pi拍錢包雙十節慶活動上線",
   "source_health": {
-    "status": "partial",
+    "status": "ok",
     "official_sources": {
-      "succeeded": 4,
-      "expected": 4
+      "succeeded": 13,
+      "expected": 13
     },
     "extended_checks": {
-      "succeeded": 205,
-      "expected": 205
+      "succeeded": 211,
+      "expected": 211
     },
     "coverage_gaps": [
-      "全聯 PX Pay campaign 頁持續 404，僅能沿用卡友日類活動（已清除過期的 2026Q3 批次）",
-      "橘子支付 news_list.html 為前端渲染清單，WebFetch 無法取得（沿用既有 2 筆）"
+      "全家 FamiPay 官網有反爬蟲機制，WebSearch 查到的多為日本 family.co.jp 結果，台灣全家僅沿用前一日單筆活動",
+      "全聯 PX Pay 活動分類選單為 SPA 互動元素、本輪點擊失敗導向食譜頁，僅沿用前一日單筆活動",
+      "全盈+PAY 活動頁（event2023.pluspay.com.tw）為複雜 SPA、多個活動標題與日期渲染錯位，僅新增可明確辨識的「全家買iPhone用全盈Pay」活動，其餘沿用前一日",
+      "OPEN錢包本輪未重新 WebSearch（與 icash 高度重疊），沿用前一日 7 筆"
     ],
     "failures": [
       "全聯 PX Pay https://www.pxmart.com.tw/campaign 回傳 404"
@@ -2293,7 +2295,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/37",
           "excerpt": "十大商圈掃全支付TWQR｜單筆不限金額享10%回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2320,7 +2322,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/61",
           "excerpt": "國泰CUBE信用卡切換【全支付】權益享2%小樹點(信用卡)回饋",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2347,7 +2349,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/67",
           "excerpt": "PressPlay購課囉｜單筆滿額最高享5%回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2374,7 +2376,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/74",
           "excerpt": "百大品牌旅遊假期｜單筆滿$3000享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2401,7 +2403,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/75",
           "excerpt": "百大品牌品味饗樂｜單筆滿$1500享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2428,7 +2430,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/76",
           "excerpt": "百大品牌生活育樂｜單筆滿$500享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2455,7 +2457,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/77",
           "excerpt": "百大品牌風味美食｜單筆滿$200享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2482,7 +2484,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/78",
           "excerpt": "百大品牌日常百選｜單筆不限金額享5%回饋！新戶首筆消費加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2509,7 +2511,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/79",
           "excerpt": "百大品牌精選市場｜單筆不限金額享5%回饋！ 新戶首筆消費加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2536,7 +2538,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/80",
           "excerpt": "百大品牌精選夜市｜單筆不限金額享5%回饋！新戶首筆消費加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2563,7 +2565,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/81",
           "excerpt": "全聯生活圈｜單筆滿$100享5%回饋！新戶首筆滿額加碼50全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2590,7 +2592,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/83",
           "excerpt": "iGO機場接送｜單筆滿$599享10%全點回饋",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2617,7 +2619,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/84",
           "excerpt": "全電商新會員活動｜首購使用全支付最高享價值50元回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2644,7 +2646,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/85",
           "excerpt": "跨境日韓｜不限消費方式與金額，送全通路返台樂購券！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2671,7 +2673,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/91",
           "excerpt": "全支付繳費日｜週一連結任一帳戶繳費筆筆享1%全點！再送5%樂購券！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2698,7 +2700,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/99",
           "excerpt": "綁定玉山信用卡於全支付APP「繳費」入口繳費(稅)，單筆滿額享全點回饋",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2725,7 +2727,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/101",
           "excerpt": "富邦產險單筆保費滿額享全點限量回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2752,7 +2754,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/102",
           "excerpt": "通勤樂購券｜使用全支付乘車碼搭乘大眾運輸加碼5%全點回饋!",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2779,7 +2781,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/103",
           "excerpt": "AsiaYo楓葉賞｜單筆消費滿額最高享14%回饋！最高回饋1500全點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2806,7 +2808,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/104",
           "excerpt": "全支付新戶優惠｜於大全聯消費滿千享5%全點回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2833,7 +2835,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/105",
           "excerpt": "日常繳費用全支付！繳費完成付款即可獲得全通路5%生活樂購券",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2860,7 +2862,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/106",
           "excerpt": "樂購券三重送｜完成繳費/搭車/日韓消費送全通路5%樂購券！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2887,7 +2889,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/107",
           "excerpt": "173ㄧ起上網｜出國網路首選滿千享130全點，指定付款最高16%回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2914,7 +2916,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/108",
           "excerpt": "易遊網週三限定｜單筆消費滿額享3%回饋！買機票最高省$600",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2941,7 +2943,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/109",
           "excerpt": "全聯高鐵快閃店｜掃全支付QR Code登錄活動，消費滿$150享10%",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2968,7 +2970,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/111",
           "excerpt": "山隆加油站｜登錄單筆滿額享7%全點！新戶再享50全點，指定銀行再加碼！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -2995,7 +2997,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/113",
           "excerpt": "選【全支付】權益｜綁定國泰CUBE信用卡於指定場域消費最高享7%回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3022,7 +3024,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/115",
           "excerpt": "全支付旅遊專區｜不限消費金額、次數享1%全點回饋！新戶滿額再加碼3%",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3049,7 +3051,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/116",
           "excerpt": "foodpanda｜綁定國泰世華信用卡，最高10%回饋！首綁消費再贈點",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3076,7 +3078,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/119",
           "excerpt": "電商獨家活動｜指定開店平台電商開通全支付，享前100筆交易手續費折抵",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3103,7 +3105,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/121",
           "excerpt": "神腦｜購買iPhone18 Pro系列新機送600全點，百大品牌再加碼",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3130,7 +3132,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/122",
           "excerpt": "foodpanda｜連結「帳戶」付款，筆筆1%全點回饋！週五再加碼4%",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3157,7 +3159,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/123",
           "excerpt": "連結指定銀行帳戶，最高3%全點限量回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3184,7 +3186,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/124",
           "excerpt": "連結指定銀行帳戶，日本跨境消費享最高5%全點限量回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3211,7 +3213,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/125",
           "excerpt": "連結指定銀行帳戶，韓國跨境消費享最高5%全點限量回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3238,7 +3240,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/126",
           "excerpt": "連結將來帳戶於全臺「全聯福利中心」實體門市消費(儲值不適用)筆筆享回饋",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3265,7 +3267,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/127",
           "excerpt": "連結國泰世華帳戶於「火鍋季」消費滿額享8%回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3292,7 +3294,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/128",
           "excerpt": "綁定指定信用卡，最高5%全點限量回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3319,7 +3321,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/129",
           "excerpt": "首次綁定指定信用卡，最高88全點限量回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3346,7 +3348,7 @@
         {
           "source_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/130",
           "excerpt": "綁定台新卡至全聯實體門市消費，單筆滿額享全點回饋！",
-          "observed_at": "2026-10-05T10:10:37+08:00",
+          "observed_at": "2026-10-07T10:10:43+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3373,7 +3375,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DH7MX5RKQT8TFRGSSZCBF",
           "excerpt": "新社大安TWQR消費趣 10%回饋很給利",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3400,7 +3402,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P2NSY924DGFRPK4AS6GGR",
           "excerpt": "暢遊馬祖享回饋，TWQR馬上Pay",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3427,7 +3429,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVRG4GM4043AQKVVQVTJCF",
           "excerpt": "墊腳石Pay你樂購一夏，台灣Pay",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3454,7 +3456,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN1089QDKBZFN388KPDWVSW",
           "excerpt": "大稻埕迪化商圈  Pay你吃喝玩樂 享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3481,7 +3483,34 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2ZQF8TB1NKR3D0GFRR21CG",
           "excerpt": "北捷TWQR乘車碼上線!",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "taiwanpay-01M25DF97H38K4205DRVJ2VYKJ",
+      "provider_id": "taiwanpay",
+      "provider_name": "台灣Pay",
+      "title": "相揪汐止買菜趣 TWQR獨享20%回饋",
+      "channel": "台灣Pay",
+      "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DF97H38K4205DRVJ2VYKJ",
+      "start_date": "2026-10-08",
+      "end_date": "2926-12-31",
+      "lifecycle": "upcoming",
+      "quota_status": "not_marked_full",
+      "reward": "20%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "api",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DF97H38K4205DRVJ2VYKJ",
+          "excerpt": "相揪汐止買菜趣 TWQR獨享20%回饋",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3508,7 +3537,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBDSM6DXNFC5Q2GET6PM705",
           "excerpt": "艋舺夜市超給利 台灣Pay單筆享20%現金回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3535,7 +3564,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M3RQRFNF47TZRD8068R819G2",
           "excerpt": "頂上加碼 掃 TWQR 享 10% 回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3562,7 +3591,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBDPHSJF8C5A9ESQAP4AM75",
           "excerpt": "It’s「米」Time！刷台灣Pay享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3589,7 +3618,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KD77ZWDJ8TWJZC8F3VN9HTZ4",
           "excerpt": "Apple Rewards Store Pay你換新機 享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3616,7 +3645,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01K0BVJNBDJ2BGK3EN32KHH68W",
           "excerpt": "泳渡日月潭就用台灣Pay  筆筆20%回饋最挺你",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3643,7 +3672,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M1XEMCRWGCH13W37HK8SBS4B",
           "excerpt": "傑昇愛用台灣Pay 獨享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3670,7 +3699,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBEPC9T5BE3J8C4EVX49RFD",
           "excerpt": "寧夏夜市愛逮玩 台灣Pay享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3697,7 +3726,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NSMDTNPBDFSGRJSYJETSM",
           "excerpt": "老少咸宜作伙台灣Pay！華西街×師大商圈享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3724,7 +3753,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NV26ZK7TR8N866TH221QA",
           "excerpt": "台灣Pay購新機 STUDIO A最高享10%",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3751,7 +3780,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NWSEH3CM7X0R49QN02S1T",
           "excerpt": "CITYLINK消費購划算，台灣Pay享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3778,7 +3807,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NQPPYJ1E4RWTHGQ1V1EH3",
           "excerpt": "台灣Pay在漢神洲際強棒出擊滿2000送200元電子商品券！",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3805,7 +3834,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P02S3DCNG40XPWX4E80H0",
           "excerpt": "迺延三夜市就用TWQR「台灣Pay」樂享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3832,7 +3861,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P3N7N48E7PS9TRQD6P1AY",
           "excerpt": "永康國際商圈X台灣Pay消費拿回饋20%",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3859,7 +3888,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVV3J5Z8KAJ93Q5GECGP7S",
           "excerpt": "(活動額滿)前進仁愛鄉TWQR輕鬆付享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3886,7 +3915,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KYRZ4QM0NYQA204D89ZMT319",
           "excerpt": "漫遊高雄．墨凡站前商圈台灣Pay樂享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3913,7 +3942,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXN6WZYD7S5M99ZP7E03PWQH",
           "excerpt": "(活動額滿)TWQR義起享好利 10%限時PAY",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3940,7 +3969,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFTZHE3F8XZ9V9CD2MNXMJA",
           "excerpt": "(活動額滿)TWQR東遊趣 10%加碼Pay",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3967,7 +3996,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ3X49YBZMK7BVJG5DBPHE9",
           "excerpt": "臨江街觀光夜市超給利 台灣Pay單筆享20%現金回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -3994,7 +4023,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE68A6TEEZDMT9MYRXJDY4",
           "excerpt": "耐斯購物Pay你享回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4021,7 +4050,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ2VVMHRVYN8583BTGMHTWB",
           "excerpt": "Autopass麻吉神助攻 用台灣Pay加油停車享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4048,7 +4077,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBERR1F8E7RZDXMYTQHB500",
           "excerpt": "美十樂連鎖藥局-台灣Pay 20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4075,7 +4104,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ9EXY02V9B6K6M165D465",
           "excerpt": "清涼一夏．台灣PAY喝小仁泉享20%回饋！",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4102,7 +4131,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTNSX3QEG4WT6GX9WX4BJGFP",
           "excerpt": "三峽X八里攜手趴趴走 揪用台灣Pay享20%大回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4129,7 +4158,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFMZ3BC9RGC6VX17SKYFTZMS",
           "excerpt": "微風集團【TWQR限定5%超回饋】",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4156,7 +4185,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0HGJG46ZS5JM9YY7ZFAS8",
           "excerpt": "Focus百貨放鬆購  台灣Pay享20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4183,7 +4212,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAYG3J6FN72P4F1NJHSNJTP",
           "excerpt": "日本PayPay在台灣也能通！",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4210,7 +4239,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ9JVYJGQ9N9A1JRW69SF15",
           "excerpt": "來逛樂華夜市樂享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4237,7 +4266,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFZ8PJA620CP9Z0VBCSSDM4C",
           "excerpt": "大家一起挺小農 台灣Pay結帳全站88折",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4264,7 +4293,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KD780J3RYYYG0VZ9JQJPA7M5",
           "excerpt": "漫遊苗栗南庄老街台灣Pay給你20%驚喜回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4291,7 +4320,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KPAX7T490S21W51F01QRABCJ",
           "excerpt": "十大商圈掃全支付TWQR單筆不限金額享10%回饋！",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4318,7 +4347,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P1JMN4AEF403FYC7AZGPA",
           "excerpt": "(活動額滿)TWQR玩澎湖，10%加碼帶回家",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4345,7 +4374,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVVRMPB8C7PWVM0VS18WB4",
           "excerpt": "(活動額滿)走入雲林好厝邊用TWQR消費享優惠",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4372,7 +4401,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVTCJ46TDYBDVVW13J2Y59",
           "excerpt": "(活動額滿)漫遊員山鄉TWQR輕鬆付享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4399,7 +4428,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBE1FX96S45KZXBXBKPBWF2",
           "excerpt": "(活動額滿)TWQR金門風華Pay享10%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4426,7 +4455,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN0Q15Y2SPXRNBR8WSAKDVS",
           "excerpt": "(活動額滿)萊爾富台灣Pay消費好康利馬萊",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4453,7 +4482,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KKK5WA82PMVAF6HVZ0W14ZX6",
           "excerpt": "(活動額滿)長春商圈X台灣Pay消費20%回饋",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4480,7 +4509,7 @@
         {
           "source_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KF2XT3YTA116DDTAMGYM683G",
           "excerpt": "台灣Pay跨行轉帳免手續費",
-          "observed_at": "2026-10-05T10:10:38+08:00",
+          "observed_at": "2026-10-07T10:10:44+08:00",
           "kind": "activity_page"
         }
       ]
@@ -4507,7 +4536,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTIMYKIEY7I64rUuoF",
           "excerpt": "用 iPASS MONEY 消費，最高享 10% 回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4534,7 +4563,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DENAOW36WY64iQ2Dn",
           "excerpt": "【TWQR 掃碼繳費】新開通數位券錢包，並使用 TWQR 繳費任一筆贈 50 元數位券",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4561,7 +4590,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj",
           "excerpt": "【iPASS MONEY】連結銀行帳戶／信用卡享優惠！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4588,7 +4617,61 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DENYXP52BK64fKeHE",
           "excerpt": "【中華郵政】連結郵局帳戶，完成任務抽888元！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
+          "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "ipassmoney-GM2DEOARWM3GE64IwUhE",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【第一銀行】連結一銀帳戶，完成任務抽萬元 mo 幣！",
+      "channel": "一卡通 iPASS MONEY",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEOARWM3GE64IwUhE",
+      "start_date": "2026-09-01",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEOARWM3GE64IwUhE",
+          "excerpt": "【第一銀行】連結一銀帳戶，完成任務抽萬元 mo 幣！",
+          "observed_at": "2026-10-07T10:10:45+08:00",
+          "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "ipassmoney-GM2DENI3Z5RID648nu5k",
+      "provider_id": "ipassmoney",
+      "provider_name": "一卡通 iPASS MONEY",
+      "title": "【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！",
+      "channel": "一卡通 iPASS MONEY",
+      "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DENI3Z5RID648nu5k",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-11",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DENI3Z5RID648nu5k",
+          "excerpt": "【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4615,7 +4698,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C",
           "excerpt": "【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4642,7 +4725,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMIXGEHTS64yy8Ve",
           "excerpt": "【漢神百貨/漢神巨蛋購物廣場】週年慶暖身同狂歡！月月領 100 元優惠券！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4669,7 +4752,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNYDQKTX564d2xFQ",
           "excerpt": "【旅電科技】使用 iPASS MONEY 付款樂享 10% 回饋，累積消費滿百再送 2 小時借電券！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4696,7 +4779,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG",
           "excerpt": "【高雄巨蛋智慧杆】登錄活動-捷運巨蛋站進出站筆筆交易享 5 點回饋並加碼領最高 100 回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4723,7 +4806,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNATUFDDM64G9CFS",
           "excerpt": "【玉山銀行】綁定玉山Unicard消費任 1 筆，享一卡通綠點 500 點回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4750,7 +4833,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCMI7U7AVM64S5EQR",
           "excerpt": "【誠品生活】iPASS MONEY 最優惠，門市掃碼月月領 100 元優惠券！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4777,7 +4860,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAOALJHZ7V64k0dNf",
           "excerpt": "【樂天銀行】iPASS MONEY 連接樂天銀行新戶，享一卡通綠點 800 點回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4804,7 +4887,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DANYXHAH5464GySaa",
           "excerpt": "【乘車碼】搭車就用 iPASS MONEY 乘車碼，週週送四大超商優惠券",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4831,7 +4914,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMYE26FQ664OlUBX",
           "excerpt": "【高雄流行音樂中心演唱會優惠券】憑演唱會門票可獲取 iPASS MONEY 優惠券！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4858,7 +4941,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DANITGE4EN64rASft",
           "excerpt": "【SKM Park Outlets 高雄草衙】使用 iPASS MONEY 當日累積消費滿 599 抽造型一卡通！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4885,7 +4968,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAMQVOGGMI64EFjxC",
           "excerpt": "【WeMo】綁定 iPASS MONEY 扣款送 50 元騎乘券！再享 10% 回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4912,7 +4995,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAMADJE3436443FDm",
           "excerpt": "【好禮券】好禮入手、點數到手，使用 iPASS MONEY 付款，享一卡通綠點 10% 回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4939,7 +5022,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOAKB6IZQ64S2dWx",
           "excerpt": "【王道銀行】王道愛減碳 完成任務最高享一卡通綠點 1,700 點與新台幣 500 元現金回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4966,7 +5049,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOIXZZIFN645cRtj",
           "excerpt": "【MeN Go/ TPASS 嘉南高屏定期票】用 iPASS MONEY APP 購票樂享雙重回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -4993,7 +5076,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDQNQ7OUMSX64IfY7L",
           "excerpt": "【東森寵物】寵愛大放送，使用 iPASS MONEY 付款單筆滿千贈 100 元優惠券",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5020,7 +5103,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNQN7O33S64Ef0dt",
           "excerpt": "【Flexii】首次選擇 iPASS MONEY 提領薪資，最高享一卡通綠點 200 點回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5047,7 +5130,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNITHBGIV64hjluw",
           "excerpt": "【捐款專區】透過 iPASS MONEY APP 捐款享 10% 回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5074,7 +5157,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONIJWBVR264oJzBi",
           "excerpt": "【聯邦銀行】指定連結開立 New New Bank 數位存款帳戶，最高享 150 元",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5101,7 +5184,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKMQM2CV7T646j9h1",
           "excerpt": "【信用卡費】用 iPASS MONEY 繳聯邦信用卡費，月月最高享 200 點回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5128,7 +5211,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKMYQ2HOT264bF5RH",
           "excerpt": "【yoxi】綁定 iPASS MONEY 暢遊城市，三大優惠與你同行！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5155,7 +5238,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTCOIEQHMYK64buVeG",
           "excerpt": "【萊爾富】用 iPASS MONEY APP 綁定聯邦信用卡付款，樂享 10% 現折，滿額再享一卡通綠點 10% 回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5182,7 +5265,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY",
           "excerpt": "TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5209,7 +5292,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCMYEM76HL64s20w1",
           "excerpt": "玉山e指信貸 免出門 資金即刻到位，首期貸款利率 0.01%，撥款再享一卡通綠點 2000 點！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5236,7 +5319,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCMAF4ZVQG64vTD9T",
           "excerpt": "微風集團【歡慶微風週年慶 TWQR 加碼禮】活動辦法",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5263,7 +5346,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAMYRFXVTI645aF6T",
           "excerpt": "【PayPay】Breezeグループ 周年祭 TWQRキャンペーン",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5290,7 +5373,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNYOTEKX26417u7r",
           "excerpt": "將來免等貸，利率最低 2.38% 起，最長 10 年分期！符合資格再送一卡通綠點 700 點！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5317,7 +5400,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTOMYJLLOTP64fLptX",
           "excerpt": "聯邦鈔期貸，開辦費優惠 0 元起 ! 撥款再送一卡通綠點 2,000 點！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5344,7 +5427,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTINYWBREUA64ayotP",
           "excerpt": "微風集團【 TWQR 限定 5% 超回饋】活動辦法",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5371,7 +5454,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDONI3CBS27642MKg1",
           "excerpt": "【王道銀行】指定連結開立王道帳戶，並符合條件享 600 元回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5398,7 +5481,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMYTGNAYHGIFI64RxCIu",
           "excerpt": "【iPASS MONEY】指定銀行貸款開辦費 0 元起",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5425,7 +5508,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDMMITD5KDA64Xu23W",
           "excerpt": "【台新銀行】指定連結開立 Richart 數位存款帳戶，完成指定任務享 250 元回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5452,7 +5535,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMYDMMYWGJ56F64zIBEa",
           "excerpt": "PayPay旅日神隊友經典優惠券領起來",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5479,7 +5562,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSOAMUKTSP64TBhdr",
           "excerpt": "搭乘公共運輸，省錢又減碳 TPASS 2.0 常客回饋再升級！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5506,7 +5589,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMYDOMA4GJKLI64IzNdo",
           "excerpt": "TPASS 2.0+ 公共運輸常客優惠回饋",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5533,7 +5616,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE",
           "excerpt": "[ 9 月份回饋上限已於 2026/9/8 額滿 ]【王道銀行】綁王道卡消費，最高享 5% 回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5560,7 +5643,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONQ2BJSWC64ic2dQ",
           "excerpt": "[ 9 月份回饋上限已於 2026/9/3 12:00 額滿 ]【聯邦銀行】綁定聯邦信用卡消費，最高享 10% 回饋！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5587,7 +5670,7 @@
         {
           "source_url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMNQWERQDL64mh9Ji",
           "excerpt": "【2026 交通優惠】一卡通搭交通，優惠一路通！",
-          "observed_at": "2026-10-05T10:10:40+08:00",
+          "observed_at": "2026-10-07T10:10:45+08:00",
           "kind": "list"
         }
       ]
@@ -5614,7 +5697,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1784206763",
           "excerpt": "悠遊付暢遊金門 筆筆最高回饋23%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5641,7 +5724,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1784703624",
           "excerpt": "2026悠遊付掃碼領100元金門暢遊券",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5668,7 +5751,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1787727024",
           "excerpt": "日常採買 悠遊付滿額最高10%回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5695,7 +5778,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790038856",
           "excerpt": "【大樹藥局】悠遊付錢包/帳戶滿額享5%回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5722,7 +5805,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1738641934",
           "excerpt": "基北北桃我的減碳存摺2.0",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5749,7 +5832,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1784529379",
           "excerpt": "樂天新戶綁定悠遊付好禮NT$ 1,000",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5776,7 +5859,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1782278283",
           "excerpt": "「減塑 Easy Life｜集集樂挑戰賽」",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5803,7 +5886,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790160236",
           "excerpt": "月級挑戰-筆筆最高3%回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5830,7 +5913,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1787728059",
           "excerpt": "元大悠遊聯名卡首次自動加值享最高20%回饋刷卡金",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5844,7 +5927,7 @@
       "url": "https://easywallet.easycard.com.tw/benefit/content?id=1788161940",
       "start_date": "2026-10-06",
       "end_date": "2026-10-08",
-      "lifecycle": "upcoming",
+      "lifecycle": "active",
       "quota_status": "not_marked_full",
       "reward": "",
       "is_high_return": false,
@@ -5857,7 +5940,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1788161940",
           "excerpt": "[悠遊付寵粉] APP首頁優先購買 新朋友立即領禮包",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5884,7 +5967,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1787550361",
           "excerpt": "【微風信義/南山/松高週年慶】悠遊付滿額最高回饋15%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5911,7 +5994,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785736053",
           "excerpt": "2026悠遊開學季 最高享30%回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5938,7 +6021,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785477114",
           "excerpt": "悠遊付繳學雜費最高10%回饋，綁定玉山信用卡滿額登錄享3期0利率",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5965,7 +6048,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1782459664",
           "excerpt": "元大銀行悠遊聯名卡暨悠遊付活動專區",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -5992,34 +6075,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1774408051",
           "excerpt": "台湾でTWQR対応のお店でPayPayが使えます！ 「PayPay」でお支払い、または、「指定の悠遊カード」のご提示で、 対象店舗で特典GET！",
-          "observed_at": "2026-10-05T10:10:42+08:00",
-          "kind": "list"
-        }
-      ]
-    },
-    {
-      "id": "easywallet-1785126639",
-      "provider_id": "easywallet",
-      "provider_name": "悠遊付",
-      "title": "悠遊聯名卡自動加值活動大禮包",
-      "channel": "悠遊付",
-      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1785126639",
-      "start_date": "2026-01-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official",
-      "date_confidence": "high",
-      "review_required": false,
-      "quota_evidence_complete": false,
-      "evidence": [
-        {
-          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785126639",
-          "excerpt": "悠遊聯名卡自動加值活動大禮包",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6046,7 +6102,34 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1769158790",
           "excerpt": "銀行帳戶連結悠遊付 享最高$2120元回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
+          "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "easywallet-1785126639",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "悠遊聯名卡自動加值活動大禮包",
+      "channel": "悠遊付",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1785126639",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785126639",
+          "excerpt": "悠遊聯名卡自動加值活動大禮包",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6073,7 +6156,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790213068",
           "excerpt": "玉山碳員專屬任務 抽悠遊付回饋金活動",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6100,7 +6183,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1786529493",
           "excerpt": "韓國旅遊｜悠遊付現金回饋最高12%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6127,7 +6210,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785403330",
           "excerpt": "悠遊付連結元大銀行新臺幣活期存款帳戶繳納學雜費，單筆金額滿5,999元贈100元悠遊付回饋金",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6154,7 +6237,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785726165",
           "excerpt": "悠遊付綁定永豐現金回饋Green卡最高享5%現金回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6181,7 +6264,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790172504",
           "excerpt": "悠遊付新會員註冊立即領$50禮包",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6208,7 +6291,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1768380568",
           "excerpt": "跟Richart一起快樂悠遊付 完成指定任務享用戶禮回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6235,7 +6318,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790062414",
           "excerpt": "悠遊卡生活購物嗶計畫  消費滿額享最高回饋8%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6262,7 +6345,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789551533",
           "excerpt": "悠遊卡生活購物嗶計畫  美廉社天天消費滿額享最高回饋10%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6289,7 +6372,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1782456438",
           "excerpt": "悠遊卡生活購物嗶計畫 週五六日萬家福/樂家康/Mia Cbon消費滿額享最高回饋8%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6316,7 +6399,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790063482",
           "excerpt": "燦坤愛不用等週年慶，悠遊付滿額最高回饋900元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6343,7 +6426,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789720786",
           "excerpt": "悠遊付逢1生活繳費享筆筆加碼2%回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6370,7 +6453,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790064312",
           "excerpt": "喜美超市悠遊付 消費滿額享最高回饋8%，新會員輸入專屬推薦碼註冊悠遊付 最高領100元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6397,7 +6480,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789723546",
           "excerpt": "全家便利商店 悠遊付錢包帳戶滿額最高回饋16% 首次消費加贈20%回饋券",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6424,7 +6507,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789539348",
           "excerpt": "【第一銀行 X 悠遊付】跟著小粉獅「悠遊」享回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6451,7 +6534,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789526598",
           "excerpt": "【指定餐廳】 悠遊付週週領券最高回饋13%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6478,34 +6561,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1784794791",
           "excerpt": "歡慶上線！台中銀行 x 悠遊付 首綁消費扣款享回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
-          "kind": "list"
-        }
-      ]
-    },
-    {
-      "id": "easywallet-1781230524",
-      "provider_id": "easywallet",
-      "provider_name": "悠遊付",
-      "title": "【寶雅週年慶】悠遊付滿額最高回饋11%",
-      "channel": "悠遊付",
-      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1781230524",
-      "start_date": "2026-07-01",
-      "end_date": "2026-10-06",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "11%",
-      "is_high_return": true,
-      "insights": [],
-      "source": "official",
-      "date_confidence": "high",
-      "review_required": false,
-      "quota_evidence_complete": false,
-      "evidence": [
-        {
-          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1781230524",
-          "excerpt": "【寶雅週年慶】悠遊付滿額最高回饋11%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6532,7 +6588,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1773728616",
           "excerpt": "限時加碼！王道新戶綁悠遊付賺$888   指定行動支付最高12.8%現金回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6559,7 +6615,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1747884970",
           "excerpt": "週五會員日 最高回饋5%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6586,7 +6642,34 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750",
           "excerpt": "用悠遊付搭乘雙北捷運公車 滿30趟最高送$100",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
+          "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "easywallet-1790925074",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "兆豐信用卡綁定悠遊付 滿額最高10%回饋！",
+      "channel": "悠遊付",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790925074",
+      "start_date": "2026-10-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790925074",
+          "excerpt": "兆豐信用卡綁定悠遊付 滿額最高10%回饋！",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6613,7 +6696,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1782179051",
           "excerpt": "全國加油站嗶悠遊卡/悠遊聯名卡支付，汽油每公升降0.5元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6640,7 +6723,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789960541",
           "excerpt": "頂呱呱_悠遊美味餐180元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6667,7 +6750,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1786502890",
           "excerpt": "【摩斯漢堡】卡付同享消費3筆送$50現金回饋券",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6694,7 +6777,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790222742",
           "excerpt": "台亞加油站人工加油-悠遊付錢包/銀行帳戶最高回饋7%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6721,7 +6804,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1787715465",
           "excerpt": "台灣中油悠遊卡/悠遊付加油享回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6748,7 +6831,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1781755415",
           "excerpt": "第一銀行悠遊聯名卡 悠遊付享3%刷卡金活動",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6775,7 +6858,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785146027",
           "excerpt": "【誠品生活週年慶】週四~週日 悠遊付滿額最高回饋17%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6802,7 +6885,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1780893747",
           "excerpt": "【夢時代週四會員日】 悠遊付滿額回饋30",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6829,7 +6912,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1780892834",
           "excerpt": "【微風週三會員日】悠遊付單筆300送300",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6856,7 +6939,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1785307223",
           "excerpt": "【康是美週年慶】悠遊付滿額最高回饋10%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6883,7 +6966,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1780644836",
           "excerpt": "悠遊康是美，週一滿額最高送60元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6910,7 +6993,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1764668818",
           "excerpt": "【誠品生活5號會員日】悠遊付滿額最高享8%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6937,7 +7020,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1790060962",
           "excerpt": "2026秋Out音樂節─悠遊付筆筆回饋20%",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6964,7 +7047,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789543374",
           "excerpt": "三商鮮五丼-點主餐享蒜味時蔬30元加價購",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -6991,7 +7074,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789541938",
           "excerpt": "三商炸雞-炸雞獨享餐特價119元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7018,7 +7101,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789547095",
           "excerpt": "福勝亭-卡滋豬排丼定食套餐特價295元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7045,7 +7128,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789548962",
           "excerpt": "三商巧福-點購指定套餐享加價購",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7072,34 +7155,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1739775992",
           "excerpt": "什麼？手機可以感應悠遊卡，隨時幫卡片加值？",
-          "observed_at": "2026-10-05T10:10:42+08:00",
-          "kind": "list"
-        }
-      ]
-    },
-    {
-      "id": "easywallet-1789389304",
-      "provider_id": "easywallet",
-      "provider_name": "悠遊付",
-      "title": "博客來｜閱讀豐收季 滿千最高8%現金回饋",
-      "channel": "悠遊付",
-      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789389304",
-      "start_date": "2026-10-01",
-      "end_date": "2026-12-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "8%",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official",
-      "date_confidence": "high",
-      "review_required": false,
-      "quota_evidence_complete": false,
-      "evidence": [
-        {
-          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789389304",
-          "excerpt": "博客來｜閱讀豐收季 滿千最高8%現金回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7126,7 +7182,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789390040",
           "excerpt": "momo購物網雙十開心購｜滿千最高8%｜滿額再加碼最高$1,500回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7153,7 +7209,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789386969",
           "excerpt": "指定遊戲電商｜滿千最高8%回饋｜最高再加碼拿$200",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7180,24 +7236,24 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789387586",
           "excerpt": "指定電商｜雙10搶回饋｜$500先用先賺",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
     },
     {
-      "id": "easywallet-1789359530",
+      "id": "easywallet-1789389304",
       "provider_id": "easywallet",
       "provider_name": "悠遊付",
-      "title": "91APP合作品牌官網購物｜最高25%接力送！",
+      "title": "博客來｜閱讀豐收季 滿千最高8%現金回饋",
       "channel": "悠遊付",
-      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789359530",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789389304",
       "start_date": "2026-10-01",
       "end_date": "2026-12-31",
       "lifecycle": "active",
       "quota_status": "not_marked_full",
-      "reward": "25%",
-      "is_high_return": true,
+      "reward": "8%",
+      "is_high_return": false,
       "insights": [],
       "source": "official",
       "date_confidence": "high",
@@ -7205,9 +7261,9 @@
       "quota_evidence_complete": false,
       "evidence": [
         {
-          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789359530",
-          "excerpt": "91APP合作品牌官網購物｜最高25%接力送！",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789389304",
+          "excerpt": "博客來｜閱讀豐收季 滿千最高8%現金回饋",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7234,7 +7290,34 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789555490",
           "excerpt": "MyCard X 悠遊付 四重好康一次拿",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
+          "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "easywallet-1789359530",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "91APP合作品牌官網購物｜最高25%接力送！",
+      "channel": "悠遊付",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789359530",
+      "start_date": "2026-10-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "25%",
+      "is_high_return": true,
+      "insights": [],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789359530",
+          "excerpt": "91APP合作品牌官網購物｜最高25%接力送！",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7261,7 +7344,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789360855",
           "excerpt": "康是美網購eShop｜最高45%回饋 接力再升級！",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7288,7 +7371,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789361414",
           "excerpt": "寶雅線上買｜最高35%回饋 接力再升級！",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7315,7 +7398,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789386225",
           "excerpt": "限定電商遊戲娛樂｜滿千最高8%回饋",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7342,7 +7425,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789388498",
           "excerpt": "PChome秋冬購物季｜滿千最高8%｜滿額再拿$400",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7369,7 +7452,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1769596449",
           "excerpt": "嗶臺北市敬老卡可享扣抵點數泡溫泉!",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7396,7 +7479,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1737338924",
           "excerpt": "嗶桃園市好運卡，享專屬藥妝通路加碼優惠",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7423,7 +7506,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1774403633",
           "excerpt": "選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7450,34 +7533,7 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1743060351",
           "excerpt": "孕媽咪專屬悠遊付新會員贈$100優惠！",
-          "observed_at": "2026-10-05T10:10:42+08:00",
-          "kind": "list"
-        }
-      ]
-    },
-    {
-      "id": "easywallet-1789539614",
-      "provider_id": "easywallet",
-      "provider_name": "悠遊付",
-      "title": "拿坡里-Mini雙享餐 特價299元",
-      "channel": "悠遊付",
-      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789539614",
-      "start_date": "2026-10-01",
-      "end_date": "2027-03-31",
-      "lifecycle": "active",
-      "quota_status": "not_marked_full",
-      "reward": "",
-      "is_high_return": false,
-      "insights": [],
-      "source": "official",
-      "date_confidence": "high",
-      "review_required": false,
-      "quota_evidence_complete": false,
-      "evidence": [
-        {
-          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789539614",
-          "excerpt": "拿坡里-Mini雙享餐 特價299元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
         }
       ]
@@ -7504,8 +7560,361 @@
         {
           "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789548305",
           "excerpt": "品川蘭-指定套餐特價289元",
-          "observed_at": "2026-10-05T10:10:42+08:00",
+          "observed_at": "2026-10-07T10:10:48+08:00",
           "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "easywallet-1789539614",
+      "provider_id": "easywallet",
+      "provider_name": "悠遊付",
+      "title": "拿坡里-Mini雙享餐 特價299元",
+      "channel": "悠遊付",
+      "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789539614",
+      "start_date": "2026-10-01",
+      "end_date": "2027-03-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "",
+      "is_high_return": false,
+      "insights": [],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://easywallet.easycard.com.tw/benefit/content?id=1789539614",
+          "excerpt": "拿坡里-Mini雙享餐 特價299元",
+          "observed_at": "2026-10-07T10:10:48+08:00",
+          "kind": "list"
+        }
+      ]
+    },
+    {
+      "id": "jko-mcdonalds",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "街口支付 x 麥當勞週四、五品牌日 App點餐8%／門市5%",
+      "channel": "",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/mcdonalds",
+      "start_date": "2026-10-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高10%(付款方式加碼)／App點餐8%",
+      "is_high_return": true,
+      "insights": [
+        "每週四五限定",
+        "每日限量先搶先贏"
+      ],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://mkt.jkopay.com/zh-TW/campaign/mcdonalds",
+          "excerpt": "街口支付 x 麥當勞週四、五品牌日 App點餐8%／門市5%",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "jko-koreanbeautyclinic",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "赴韓醫美用街口（ZERO.ONE / TONES 江南）筆筆10%即時回饋",
+      "channel": "",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/koreanbeautyclinic",
+      "start_date": "2026-09-16",
+      "end_date": "2026-10-15",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%街口幣",
+      "is_high_return": true,
+      "insights": [
+        "每人每月回饋上限各店不同"
+      ],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://mkt.jkopay.com/zh-TW/campaign/koreanbeautyclinic",
+          "excerpt": "赴韓醫美用街口（ZERO.ONE / TONES 江南）筆筆10%即時回饋",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "jko-japan",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "看到 PayPay 就用街口！玩日本週週最高20%",
+      "channel": "",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/japan",
+      "start_date": "2026-07-01",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高20%(含付款工具加碼)",
+      "is_high_return": true,
+      "insights": [
+        "月月滿額抽$100",
+        "日本精選店家加碼最高8%+免手續費1.5%"
+      ],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://mkt.jkopay.com/zh-TW/campaign/japan",
+          "excerpt": "看到 PayPay 就用街口！玩日本週週最高20%",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "jko-finance",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "街口支付10月銀行優惠彙總（華南/王道/樂天/凱基等）",
+      "channel": "",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/finance",
+      "start_date": null,
+      "end_date": null,
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "街口豬富卡新戶最高13.5%",
+      "is_high_return": true,
+      "insights": [
+        "多家銀行活動彙整頁，各活動時間不一"
+      ],
+      "source": "official",
+      "date_confidence": "low",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://mkt.jkopay.com/zh-TW/campaign/finance",
+          "excerpt": "街口支付10月銀行優惠彙總（華南/王道/樂天/凱基等）",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "jko-jkoecommerce",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "週四電商日，指定電商最高享10.5%（淘寶/momo）",
+      "channel": "",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/jkoecommerce",
+      "start_date": "2026-10-01",
+      "end_date": null,
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高10.5%",
+      "is_high_return": true,
+      "insights": [
+        "淘寶每週四至週六1.5%",
+        "momo每週四8%",
+        "需App登記"
+      ],
+      "source": "official",
+      "date_confidence": "low",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://mkt.jkopay.com/zh-TW/campaign/jkoecommerce",
+          "excerpt": "週四電商日，指定電商最高享10.5%（淘寶/momo）",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "jko-appleservice",
+      "provider_id": "jkopay",
+      "provider_name": "街口",
+      "title": "用街口支付，Apple服務輕鬆付！領券最高現折$150",
+      "channel": "",
+      "url": "https://mkt.jkopay.com/zh-TW/campaign/appleservice",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "10%折抵上限$150",
+      "is_high_return": true,
+      "insights": [
+        "App Store/iCloud/Apple Music皆適用",
+        "滿額另贈最高$30街口幣"
+      ],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://mkt.jkopay.com/zh-TW/campaign/appleservice",
+          "excerpt": "用街口支付，Apple服務輕鬆付！領券最高現折$150",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "pi-7eleven-202610",
+      "provider_id": "pipay",
+      "provider_name": "Pi 拍錢包",
+      "title": "7-ELEVEN｜慶雙十 十在省 指定商品消費滿$1,111立折$100",
+      "channel": "",
+      "url": "https://web.piapp.com.tw/events-7-eleven-202610/",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-11",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "滿1111折100(約9%)",
+      "is_high_return": false,
+      "insights": [
+        "限量贈完為止"
+      ],
+      "source": "official",
+      "date_confidence": "high",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://web.piapp.com.tw/events-7-eleven-202610/",
+          "excerpt": "7-ELEVEN｜慶雙十 十在省 指定商品消費滿$1,111立折$100",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "pi-esunloannew-202510-12",
+      "provider_id": "pipay",
+      "provider_name": "Pi 拍錢包",
+      "title": "循環貸｜免綁約當天借還免利息成功撥款最高領150 P幣",
+      "channel": "",
+      "url": "https://web.piapp.com.tw/events-esunloannew-202510-12/",
+      "start_date": null,
+      "end_date": null,
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高150 P幣",
+      "is_high_return": true,
+      "insights": [
+        "小額貸款",
+        "當天借還免利息"
+      ],
+      "source": "official",
+      "date_confidence": "low",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://web.piapp.com.tw/events-esunloannew-202510-12/",
+          "excerpt": "循環貸｜免綁約當天借還免利息成功撥款最高領150 P幣",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "pi-esunloan-202509-12",
+      "provider_id": "pipay",
+      "provider_name": "Pi 拍錢包",
+      "title": "拍享貸｜貸款利率首期0.01%成功撥款最高領1,550 P幣",
+      "channel": "",
+      "url": "https://web.piapp.com.tw/events-esunloan-202509-12/",
+      "start_date": null,
+      "end_date": null,
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高1,550 P幣",
+      "is_high_return": true,
+      "insights": [
+        "最高貸款金額300萬"
+      ],
+      "source": "official",
+      "date_confidence": "low",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://web.piapp.com.tw/events-esunloan-202509-12/",
+          "excerpt": "拍享貸｜貸款利率首期0.01%成功撥款最高領1,550 P幣",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "pi-nextbankloan-202509",
+      "provider_id": "pipay",
+      "provider_name": "Pi 拍錢包",
+      "title": "將來銀行｜貸10萬 月付金最低942元成功撥款最高送1,200 P幣",
+      "channel": "",
+      "url": "https://web.piapp.com.tw/events-nextbankloan-202509/",
+      "start_date": null,
+      "end_date": null,
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": "最高1,200 P幣",
+      "is_high_return": true,
+      "insights": [
+        "貸款費用最低0元起"
+      ],
+      "source": "official",
+      "date_confidence": "low",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://web.piapp.com.tw/events-nextbankloan-202509/",
+          "excerpt": "將來銀行｜貸10萬 月付金最低942元成功撥款最高送1,200 P幣",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
+        }
+      ]
+    },
+    {
+      "id": "pluspay-family-iphone",
+      "provider_id": "pluspay",
+      "provider_name": "全盈+PAY",
+      "title": "全家買iPhone新機用全盈+PAY！爽賺Fa點",
+      "channel": "",
+      "url": "https://event2023.pluspay.com.tw/",
+      "start_date": "2026-09-18",
+      "end_date": "2026-12-31",
+      "lifecycle": "active",
+      "quota_status": "not_marked_full",
+      "reward": null,
+      "is_high_return": false,
+      "insights": [
+        "全家通路限定",
+        "iPhone新機系列"
+      ],
+      "source": "official",
+      "date_confidence": "medium",
+      "review_required": false,
+      "quota_evidence_complete": false,
+      "evidence": [
+        {
+          "source_url": "https://event2023.pluspay.com.tw/",
+          "excerpt": "全家買iPhone新機用全盈+PAY！爽賺Fa點",
+          "observed_at": "2026-10-07T11:30:00+08:00",
+          "kind": "activity_page"
         }
       ]
     }
@@ -7513,38 +7922,39 @@
   "ptt_posts": [
     {
       "board": "lifeismoney",
-      "title": "Re: [情報] 街口5號會員日 166拿滿50回饋",
-      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1791122360.A.EC0.html",
-      "push": "23",
-      "source": "PTT（社群，需查證）"
+      "title": "[情報] UE 十月50%優惠碼（貌似變分眾）",
+      "push": "22",
+      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1791302725.A.ECB.html"
     },
     {
       "board": "MobilePay",
       "title": "Re: [情報] 國泰CUBE首綁LINE Pay消費滿200送50小樹點",
-      "url": "https://www.ptt.cc/bbs/MobilePay/M.1790045880.A.5F5.html",
       "push": "3",
-      "source": "PTT（社群，需查證）"
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1790045880.A.5F5.html"
     },
     {
       "board": "MobilePay",
       "title": "[情報] icash Pay新通路gonna滿額10%",
-      "url": "https://www.ptt.cc/bbs/MobilePay/M.1790739749.A.EDD.html",
-      "push": "13",
-      "source": "PTT（社群，需查證）"
+      "push": "15",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1790739749.A.EDD.html"
+    },
+    {
+      "board": "MobilePay",
+      "title": "Fw: [情報] 10/2-12/25 一銀帳戶綁悠遊付 每周五+5%儲值金上限20元",
+      "push": "22",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1790863780.A.685.html"
+    },
+    {
+      "board": "MobilePay",
+      "title": "[請益] icash Pay乘車碼點數折抵享30%回饋",
+      "push": "9",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1791130402.A.459.html"
     },
     {
       "board": "MobilePay",
       "title": "[情報] 10月街口主題日懶人包",
-      "url": "https://www.ptt.cc/bbs/MobilePay/M.1791164999.A.33A.html",
-      "push": "",
-      "source": "PTT（社群，需查證）"
-    },
-    {
-      "board": "CVS",
-      "title": "[新聞] 中華隊亞運狂掃55面獎牌！7-11冰淇淋紅茶買2送2　限時優惠一",
-      "url": "https://www.ptt.cc/bbs/CVS/M.1791122331.A.B44.html",
-      "push": "1",
-      "source": "PTT（社群，需查證）"
+      "push": "9",
+      "url": "https://www.ptt.cc/bbs/MobilePay/M.1791164999.A.33A.html"
     }
   ]
 }
