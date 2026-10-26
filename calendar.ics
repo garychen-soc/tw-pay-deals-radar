@@ -16,10 +16,10 @@ LAST-MODIFIED:20261025T080000Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:2 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 2 檔：\n\n・[一卡通 iPASS MONEY]
-  【Cashback】用 iPASS MONEY 付款，單筆消費滿 999 元送 100 元
- 獎勵金！ — $100\n・[全盈+PAY] 全家聰明消費滿$300贈1萬Fa
- 點\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-deals
+DESCRIPTION:今日截止的優惠共 2 檔：\n\n・[全盈+PAY] 全家聰
+ 明消費滿$300贈1萬Fa點\n・[一卡通 iPASS MONEY] 【Cashback】用
+  iPASS MONEY 付款，單筆消費滿 999 元送 100 元獎勵金！ — $
+ 100\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-deals
  -radar/\n實際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
@@ -109,16 +109,16 @@ LAST-MODIFIED:20261025T080000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:6 檔優惠今日截止
-DESCRIPTION:今日截止的優惠共 6 檔：\n\n・[一卡通 iPASS MONEY]
-  【SKM Park Outlets高雄草衙】不領券就搗蛋！週週拆開萬聖
- 驚喜包！\n・[一卡通 iPASS MONEY] 微風集團【歡慶微風週年
- 慶 TWQR 加碼禮】活動辦法\n・[一卡通 iPASS MONEY] 【PayPay】
- Breezeグループ 周年祭 TWQRキャンペーン\n・[悠遊付] 【微
- 風信義/南山/松高週年慶】悠遊付滿額最高回饋15% — 15%\
- n・[悠遊付] 2026悠遊開學季 最高享30%回饋 — 30%\n・[全盈
- +PAY] 1號會員日限定小資囤貨預備起\n\n完整清單與篩選：
- https://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以
- 各官方活動辦法為準。
+DESCRIPTION:今日截止的優惠共 6 檔：\n\n・[全盈+PAY] 1號會員
+ 日限定小資囤貨預備起\n・[一卡通 iPASS MONEY] 【SKM Park Out
+ lets高雄草衙】不領券就搗蛋！週週拆開萬聖驚喜包！\n
+ ・[一卡通 iPASS MONEY] 微風集團【歡慶微風週年慶 TWQR 加
+ 碼禮】活動辦法\n・[一卡通 iPASS MONEY] 【PayPay】Breezeグル
+ ープ 周年祭 TWQRキャンペーン\n・[悠遊付] 【微風信義/
+ 南山/松高週年慶】悠遊付滿額最高回饋15% — 15%\n・[悠
+ 遊付] 2026悠遊開學季 最高享30%回饋 — 30%\n\n完整清單與
+ 篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠
+ 內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
@@ -149,6 +149,21 @@ DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[全盈+PAY] 5號會員
  日限定滿額贈全家購物金\n\n完整清單與篩選：https://garyc
  hen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各官方活
  動辦法為準。
+CATEGORIES:截止提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:end-2026-11-13@tw-pay-deals-radar
+DTSTAMP:20261025T080000Z
+LAST-MODIFIED:20261025T080000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:1 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[悠遊付] 指定電
+ 商｜雙11搶券月曆｜$500先用先賺\n\n完整清單與篩選：http
+ s://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各
+ 官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
@@ -199,6 +214,21 @@ DESCRIPTION:今日截止的優惠共 17 檔：\n\n・[全盈+PAY] 遊金門
  付] 用悠遊付搭乘雙北捷運公車 滿30趟最高送$100\n\n完整
  清單與篩選：https://garychen-soc.github.io/tw-pay-deals-radar/\n實
  際優惠內容以各官方活動辦法為準。
+CATEGORIES:截止提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:end-2026-12-03@tw-pay-deals-radar
+DTSTAMP:20261025T080000Z
+LAST-MODIFIED:20261025T080000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:1 檔優惠今日截止
+DESCRIPTION:今日截止的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
+  【 TWQR 掃碼繳稅】用 iPASS MONEY APP 繳地價稅即贈 50 元數
+ 位券\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-de
+ als-radar/\n實際優惠內容以各官方活動辦法為準。
 CATEGORIES:截止提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
@@ -518,6 +548,21 @@ URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:start-2026-10-27@tw-pay-deals-radar
+DTSTAMP:20261025T080000Z
+LAST-MODIFIED:20261025T080000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:1 檔新優惠開跑
+DESCRIPTION:今日開跑的優惠共 1 檔：\n\n・[一卡通 iPASS MONEY]
+  【 TWQR 掃碼繳稅】用 iPASS MONEY APP 繳地價稅即贈 50 元數
+ 位券\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay-de
+ als-radar/\n實際優惠內容以各官方活動辦法為準。
+CATEGORIES:開跑提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:start-2026-10-28@tw-pay-deals-radar
 DTSTAMP:20261025T080000Z
 LAST-MODIFIED:20261025T080000Z
@@ -529,6 +574,21 @@ DESCRIPTION:今日開跑的優惠共 2 檔：\n\n・[悠遊付] 悠遊付
  遊付綁玉山信用卡繳地價稅，登錄享0.2%玉山e point回饋！
   — 0.2%\n\n完整清單與篩選：https://garychen-soc.github.io/tw-pay
  -deals-radar/\n實際優惠內容以各官方活動辦法為準。
+CATEGORIES:開跑提醒
+URL:https://garychen-soc.github.io/tw-pay-deals-radar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:start-2026-11-01@tw-pay-deals-radar
+DTSTAMP:20261025T080000Z
+LAST-MODIFIED:20261025T080000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:1 檔新優惠開跑
+DESCRIPTION:今日開跑的優惠共 1 檔：\n\n・[悠遊付] 指定電
+ 商｜雙11搶券月曆｜$500先用先賺\n\n完整清單與篩選：http
+ s://garychen-soc.github.io/tw-pay-deals-radar/\n實際優惠內容以各
+ 官方活動辦法為準。
 CATEGORIES:開跑提醒
 URL:https://garychen-soc.github.io/tw-pay-deals-radar/
 TRANSP:TRANSPARENT
