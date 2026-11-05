@@ -1,96 +1,53 @@
-# 📡 台灣行動支付優惠雷達 · tw-pay-deals-radar
+# 台灣支付優惠雷達 v2
 
-每日彙整台灣 **15 家行動支付／電子支付** 的官方優惠活動，一頁手機網站掃完
-**即將截止、已額滿、高回饋**，並排除過期活動、標記未過期但已額滿者。
+台灣行動支付（全支付、台灣Pay、一卡通 iPASS MONEY、悠遊付、街口…）官方優惠監控。
+v2 參照 [刷卡登錄雷達](https://github.com/garychen-soc/tw-card-registration-radar)
+的架構重建，回答使用者真正的三個問題：
 
-> 🌐 **網站**：https://garychen-soc.github.io/tw-pay-deals-radar/
-> （隔日自動更新；下方為運作方式）
+1. **拿得到多少**：回饋率／固定金額、每人上限、門檻、適用通路與付款方式。
+2. **還有沒有名額**：官方明寫已額滿才算額滿；「限量／送完為止」只是限量。
+3. **要不要先登錄或領券**：何時開放、先登錄再消費還是可事後補。
 
----
+## 三條規則（沿用刷卡登錄雷達）
 
-## 涵蓋範圍
+- **只放事實，不放推導。** 進行中／即將截止／高回饋等「今天」的函數由前端計算。
+- **抓不到就留空，絕不填補。**
+- **有風險的欄位帶逐字原文證據。** LLM 只負責「找出哪一句」，數值與日期由程式
+  驗證引句逐字出現在條款裡才採用。
 
-**台灣 10 家專營電子支付機構**（金管會核准）：
-歐付寶、橘子支付、簡單付、街口、悠遊付（悠遊卡）、一卡通 iPASS MONEY、
-icash Pay（愛金卡）、全盈+PAY、全支付、LINE Pay（連加）
+## 架構
 
-**＋ 5 家主流錢包／點數**：台灣Pay、Pi 拍錢包、全聯 PX Pay、全家 FamiPay、OPEN錢包
-
-**＋ 5 個 PTT 社群看板**（交叉驗證、補官網抓不到的）：
-[lifeismoney](https://www.ptt.cc/bbs/lifeismoney/index.html)、
-[MobilePay](https://www.ptt.cc/bbs/MobilePay/index.html)、
-[e-coupon](https://www.ptt.cc/bbs/e-coupon/index.html)、
-[CVS](https://www.ptt.cc/bbs/CVS/index.html)、
-[fastfood](https://www.ptt.cc/bbs/fastfood/index.html)
-
-## 運作架構（資料驅動：每日產 JSON ＋ 前端固定渲染）
-
-這些來源的抓取難度差異極大，因此採「智能分析 ＋ 靜態託管」：
-
-| 環節 | 做法 |
-|---|---|
-| **抓取** | 台灣Pay／全支付有後端 JSON API（見 `scripts/`）；街口／悠遊付／橘子是 SPA 需瀏覽器渲染；全家有 bot 防護；PTT 為 HTML |
-| **判讀** | 「額滿雙來源判定、日期分類、跨來源去重、PTT 社群交叉驗證」由 Claude 隔日分析完成 |
-| **產出** | 排程每天只產 `data/promotions.json`；前端 `index.html` + `assets/app.js` 固定，讀 JSON 動態渲染（篩選/搜尋/行事曆），根治重生成走樣 |
-| **託管** | GitHub Pages 自動發佈網站；每次 commit 即更新 |
-
-> 為何不做成純爬蟲 GitHub Actions？SPA 渲染與「額滿雙來源」等判讀，純規則式會明顯掉品質、且官網一改版就壞。此架構保留判讀品質，GitHub 提供公開網址與版本歷史。
-
-## `scripts/` — 可程式化來源的參考實作
-
-| 檔案 | 說明 | 可直接執行 |
-|---|---|---|
-| `fetch_pxpayplus.py` | 全支付後端 API 增量掃描（id 1→末端，`code` 判斷有效／末端） | ✅ 純標準庫，已實測 |
-| `fetch_taiwanpay.py` | 台灣Pay 列表 API 解析 ＋ 官方額滿標記判定 | 解析框架（POST payload 需擷取） |
-| `fetch_ptt.py` | 5 個 PTT 看板 index 抓取 ＋ 關鍵字篩選 | ✅ 純標準庫 |
-| `build_ics.py` | 由 `data/promotions.json` 產生訂閱用 `calendar.ics` | ✅ 純標準庫 |
-
-```bash
-# 無需安裝任何套件（僅用 Python 標準庫）
-python scripts/fetch_pxpayplus.py    # 輸出全支付當前未過期活動 JSON
-python scripts/fetch_ptt.py          # 輸出 PTT 相關貼文 JSON
-python scripts/build_ics.py          # 重建 calendar.ics（每次資料更新後必跑）
+```
+providers/<服務>.py  discover() → Stub（標題只取結構化欄位）
+                     terms(stub) → Terms（條款全文，限縮在內容容器）
+        ↓
+extract/  claude -p --json-schema 定位（內容雜湊快取，條款沒變不重算）→ 程式驗證
+        ↓
+state/  唯一正本（進版控）→ emit → web/（Astro）＋ 行事曆
 ```
 
-## 訂閱行事曆
+排程：本機 launchd 每日一次（`ops/run_local.sh`），任何一步失敗或 golden 精確率
+不達標就不發布，以 macOS 通知回報。
 
-訂閱網址：`https://garychen-soc.github.io/tw-pay-deals-radar/calendar.ics`
+## 進度
 
-**按日期彙總，一天最多兩則提醒**（「N 檔優惠今日截止」「N 檔新優惠開跑」），活動清單放在事件說明裡。
-這是刻意的設計：資料實測有 88 檔活動同一天截止，若一檔一個事件，日曆單日會疊出 88 條全天橫幅，
-把使用者自己的行程整個蓋掉。已額滿與已結束的活動不產生提醒。
+- [x] Phase 1：套件骨架、transport、四大宗擷取器（全支付 55／台灣Pay 52／
+      一卡通 37＋外部 8／悠遊付 74，2026-11-06 實測）
+- [ ] Phase 2：LLM 定位 schema、程式驗證、golden 集
+- [ ] Phase 3：長尾服務擷取器
+- [ ] Phase 4：Astro 前端、行事曆、PTT 社群區
+- [ ] 切換：merge main、launchd、停用舊例行任務
 
-| 平台 | 加入方式 |
-|---|---|
-| Google 日曆 | ⚠️ **Android／iOS App 無法用網址加日曆**，須先在電腦版網頁「其他日曆 → ＋ → 以網址新增」設定一次，之後自動同步到手機 |
-| Apple 行事曆 | 手機／電腦直接開 `webcal://garychen-soc.github.io/tw-pay-deals-radar/calendar.ics` |
-| Outlook | 行事曆 →「新增行事曆」→「訂閱網路行事曆」 |
+## 開發
 
-各家日曆的重新抓取頻率不同，Google 通常每數小時至一天一次，不是即時。
+```bash
+python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
+.venv/bin/python -m pytest -q
+.venv/bin/ruff check src tests && .venv/bin/mypy
+.venv/bin/payradar probe pxpayplus      # 單一服務擷取體檢（會連官網）
+```
 
-## 抓取對策速查（實測）
+## 安全邊界
 
-- **台灣Pay**：`POST …/taiwanpayfapi/TF02/TF020109` → `recommendedCampaigns[]`；
-  title 含「(活動額滿)」= 官方額滿標記（唯一能明確判定已額滿的來源）。
-- **全支付**：`GET service.pxpayplus.com/px-advertise/web/activity/detail/{id}`；
-  `code==0000` 有效、`code==2001` 末端。**勿用 prod-s3 的 `MKT_Event/event{id}.json`（2024 舊快取）**。
-- **悠遊付／悠遊卡**：三來源 —— benefit（檔期）、easycard.com.tw/offers（特約）、
-  easycard.com.tw/news（額滿公告）。
-
-## 判讀規則
-
-- 結束日 < 今日 → 剔除
-- 開始日 > 今日 → 🔜 即將開跑
-- 結束日距今 ≤ 7 天 → ⏰ 即將截止
-- 官方明確額滿且未過期 → 🔴 已額滿（保留提醒別白跑）
-- 僅「限量／名額 N／送完為止」未確認 → ⚠️ 限量
-
-## 免責
-
-本專案為**資訊整理**，非投資或消費建議。回饋率多為「最高」值，實際依各活動條件、
-通路與登錄狀態而定，**消費前請以各支付官方活動辦法為準**。PTT 為社群來源，未經官方確認。
-資料來自各支付公開官網／API 與公開看板。
-
-## 授權
-
-[MIT](./LICENSE) · © 2026 Gary Chen（garychen-soc）
+只讀取公開官方資訊：不登入、不領券、不代使用者登錄、不解 CAPTCHA。改用一般瀏覽器
+UA 的服務逐家核准並寫明理由。實際回饋與名額以各支付服務官方公告為準。

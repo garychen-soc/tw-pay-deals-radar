@@ -1,12 +1,12 @@
 __pycache__/
 *.pyc
-*.pyo
 .DS_Store
 .venv/
-venv/
+*.egg-info/
 *.log
-
-# 保留 data/promotions.json（網站資料，必須追蹤）
-# 僅排除本地備查報告與資料庫
-data/report-*.md
-data/*.sqlite3
+# 本機工作檔：原文副本、HTTP 快取、用量紀錄、golden 原文
+var/
+state/.run.lock
+web/node_modules/
+web/dist/
+web/.astro/
