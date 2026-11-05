@@ -54,7 +54,7 @@ def detail_text(data: dict[str, Any]) -> str:
             parts.append(line)
     for item in info.get("content_items") or []:
         if title := (item.get("title") or "").strip():
-            parts.append(f"【{title}】")
+            parts.append(title if title.startswith("【") else f"【{title}】")
         if text := html_fragment_text(str(item.get("content") or "")):
             parts.append(text)
     if text := html_fragment_text(str(info.get("remind") or "")):
