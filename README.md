@@ -34,7 +34,7 @@ state/  唯一正本（進版控）→ emit → web/（Astro）＋ 行事曆
 - [x] Phase 1：套件骨架、transport、四大宗擷取器（全支付 55／台灣Pay 52／
       一卡通 37＋外部 8／悠遊付 74，2026-11-06 實測）
 - [x] Phase 2：LLM 定位 schema、程式驗證、golden 集（36 頁；精確率 98.7%／召回率 90.5%，
-      已額滿 100%／100%；首次全量 216 筆、LLM 約 US$7.4）
+      已額滿 100%／100%；首次全量 217 筆、LLM 約 US$7.4）
 - [ ] Phase 3：長尾服務擷取器
 - [ ] Phase 4：Astro 前端、行事曆、PTT 社群區
 - [ ] 切換：merge main、launchd、停用舊例行任務
