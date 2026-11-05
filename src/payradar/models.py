@@ -116,7 +116,7 @@ class SubActivity(Strict):
 
 
 RewardKind = Literal["percent", "cash", "points", "coupon", "discount", "gift", "other"]
-RewardUnit = Literal["%", "元", "點", "筆", "次", "份", "other"]
+RewardUnit = Literal["%", "元", "點", "折", "筆", "次", "份", "other"]
 Per = Literal["txn", "day", "week", "month", "campaign", "unknown"]
 
 

@@ -1,0 +1,141 @@
+{
+ "key": "fd62fd9869d18c4d0ef8dd29",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:57:36+00:00",
+ "title": "品田牧場＆就饗鐵板燒｜登錄活動連結國泰世華帳戶滿$600最高20%回饋",
+ "duration_ms": 11796,
+ "cost_usd": 0.0489312,
+ "usage": {
+  "input": 2,
+  "output": 1761,
+  "cache_creation": 7656,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿$600(含)元，即可享10%全點回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動主活動需於消費前完成各波段「活動登錄」始享活動行銷回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "主活動｜需登錄",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆滿$600，享10%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 600,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿$600，享10%全點回饋"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "txn",
+      "quote": "單筆消費滿額一次最高可得100全點"
+     },
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "week",
+      "quote": "每週每一符合活動資格之全支付帳號最高可得100全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "「王品年末聚餐:品田牧場、就饗鐵板燒」適用之指定實體店家/門市",
+    "how": "使用全支付「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋限量144,000全點，數量有限贈完為止"
+    },
+    "quota": {
+     "seats": 144000,
+     "quote": "本活動總回饋限量144,000全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "登錄時間:2026/10/30(五)00:00起開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動主活動需於消費前完成各波段「活動登錄」始享活動行銷回饋資格。"
+    }
+   },
+   {
+    "name": "國泰世華帳戶加碼",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "連結帳戶，享10%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「王品集團指定餐廳」",
+    "how": "連結國泰世華銀行帳戶",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

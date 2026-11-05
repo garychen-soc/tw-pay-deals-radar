@@ -1,0 +1,71 @@
+{
+ "key": "f3534a4cb12d7af159a9cc94",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:18:22+00:00",
+ "title": "泳渡日月潭就用台灣Pay 筆筆20%回饋最挺你",
+ "duration_ms": 6717,
+ "cost_usd": 0.0288392,
+ "usage": {
+  "input": 2,
+  "output": 495,
+  "cache_creation": 5798,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%之現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%之現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間內每金融卡/帳戶最高回饋以新臺幣(以下同)1,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "日月潭形象商圈受理「台灣Pay」交易之店家",
+    "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限50萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限50萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

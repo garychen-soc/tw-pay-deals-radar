@@ -1,0 +1,119 @@
+{
+ "key": "f4e25775eb7e3e454f55344f",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:23+00:00",
+ "title": "悠遊卡生活購物嗶計畫 美廉社天天消費滿額享最高回饋10%",
+ "duration_ms": 12385,
+ "cost_usd": 0.0425672,
+ "usage": {
+  "input": 2,
+  "output": 1675,
+  "cache_creation": 6280,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享悠遊付美廉社15元現金回饋券一份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "以悠遊卡功能於美廉社門市消費滿額之人，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "悠遊卡生活購物嗶計畫 美廉社天天消費滿額享最高回饋10%",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 15,
+      "unit": "元",
+      "quote": "享悠遊付美廉社15元現金回饋券一份"
+     },
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "最高回饋10%"
+     }
+    ],
+    "min_spend": {
+     "amount": 150,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿150元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "活動期間悠遊付會員持記名悠遊卡"
+    },
+    "where": "於美廉社門市消費",
+    "how": "以悠遊卡功能單筆消費",
+    "limited": {
+     "value": "yes",
+     "quote": "優惠總限量30,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "優惠總限量30,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "於活動期間內註冊成為悠遊付新會員",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "「50元美廉社現金回饋券」1張"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "於活動期間內註冊成為悠遊付新會員"
+    },
+    "where": "",
+    "how": "並於註冊時填寫推薦碼【SIMPLE】",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋上限計1,000份，活動全期回饋共計3,000份"
+    },
+    "quota": {
+     "seats": 3000,
+     "quote": "活動全期回饋共計3,000份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

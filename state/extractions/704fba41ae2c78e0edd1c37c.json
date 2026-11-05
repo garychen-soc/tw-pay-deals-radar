@@ -1,0 +1,120 @@
+{
+ "key": "704fba41ae2c78e0edd1c37c",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:18+00:00",
+ "title": "【摩斯漢堡】悠遊卡/悠遊付 累滿$500送$100現金券",
+ "duration_ms": 12858,
+ "cost_usd": 0.0566234,
+ "usage": {
+  "input": 4,
+  "output": 2107,
+  "cache_creation": 8224,
+  "cache_read": 13247
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "悠遊付會員於摩斯漢堡使用悠遊付或記名悠遊卡累積扣款滿500元，贈100元現金回饋券1張。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間悠遊付會員於摩斯漢堡使用記名悠遊卡或悠遊付消費之人，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "贈100元現金回饋券1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "累積扣款滿500元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "month",
+      "quote": "每悠遊付會員、每悠遊卡友每月回饋上限1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "悠遊付會員於摩斯漢堡使用悠遊付或記名悠遊卡累積扣款滿500元"
+    },
+    "where": "摩斯漢堡",
+    "how": "使用悠遊付或記名悠遊卡",
+    "limited": {
+     "value": "yes",
+     "quote": "悠遊付每月上限1,200張、悠遊卡每月上限800張"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "悠遊付每月上限1,200張、悠遊卡每月上限800張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "贈50元現金回饋券1張"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "每悠遊付會員限贈1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次係指本活動前不曾以悠遊付於摩斯漢堡消費之人"
+    },
+    "where": "摩斯漢堡",
+    "how": "使用悠遊付",
+    "limited": {
+     "value": "yes",
+     "quote": "每悠遊付會員限贈1張，每月上限2,000張"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月上限2,000張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

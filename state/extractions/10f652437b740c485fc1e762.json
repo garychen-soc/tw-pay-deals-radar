@@ -1,0 +1,212 @@
+{
+ "key": "10f652437b740c485fc1e762",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:56:55+00:00",
+ "title": "百大品牌、乘車、繳費、日本、韓國｜指定場域完成消費，抽虎利應援周邊！",
+ "duration_ms": 12398,
+ "cost_usd": 0.056843199999999997,
+ "usage": {
+  "input": 2,
+  "output": 2179,
+  "cache_creation": 8589,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "指定場域完成消費：抽虎利應援周邊！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "結帳時選擇以「全支付」完成該活動辦法條件之付款，完成交易成功即可享有抽獎資格"
+  },
+  "subs": [
+   {
+    "name": "指定場域一｜百大品牌",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "指定百大品牌實體門市或線上通路",
+    "how": "使用全支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定場域二｜乘車碼",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "台北捷運、雙北公車、基隆公車",
+    "how": "使用全支付「乘車碼」付款完成搭車",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定場域三｜繳費",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "全支付APP「繳費」入口",
+    "how": "使用全支付付款完成繳費",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定場域四｜日本PayPay",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "日本PayPay合作夥伴通路",
+    "how": "使用全支付付款完成消費",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定場域五｜韓國ZeroPay / HIVEX",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "韓國ZeroPay /HIVEX識別之收款系統合作商店實體門市，或於指定百貨/地區",
+    "how": "使用全支付付款完成消費",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

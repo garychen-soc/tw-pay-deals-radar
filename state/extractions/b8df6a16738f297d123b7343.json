@@ -1,0 +1,70 @@
+{
+ "key": "b8df6a16738f297d123b7343",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:00:12+00:00",
+ "title": "搭乘公共運輸，省錢又減碳 TPASS 2.0 常客回饋再升級！",
+ "duration_ms": 4189,
+ "cost_usd": 0.027811199999999998,
+ "usage": {
+  "input": 2,
+  "output": 561,
+  "cache_creation": 5376,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "原本 TPASS2.0 常客優惠，現金回饋再加碼！註冊綠色運輸服務平台會員，根據註冊時間可獲得額外加碼回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "可下載 iPASS MONEY APP 完成註冊會員，並點選加入常客優惠及同意個資使用聲明後，即可符合常客回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "+3%"
+     },
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "第 1 波早鳥\n50 元\n首購回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "可下載 iPASS MONEY APP 完成註冊會員，並點選加入常客優惠及同意個資使用聲明後",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "曾於票證公司完成 TPASS 2.0 記名登錄者，不需再登錄即可接續享有 TPASS 2.0+ 常客回饋資格。"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

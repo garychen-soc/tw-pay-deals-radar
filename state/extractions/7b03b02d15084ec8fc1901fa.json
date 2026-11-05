@@ -1,0 +1,149 @@
+{
+ "key": "7b03b02d15084ec8fc1901fa",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:04:23+00:00",
+ "title": "寶雅線上買｜最高35%回饋 接力再升級！",
+ "duration_ms": 14286,
+ "cost_usd": 0.0490092,
+ "usage": {
+  "input": 2,
+  "output": 2124,
+  "cache_creation": 6768,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆滿千最高25%回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "點我先領券再消費，單筆滿千回饋100元回饋金"
+  },
+  "subs": [
+   {
+    "name": "活動一:滿千最高25%回饋",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "單筆滿千回饋100元回饋金"
+     },
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "每月指定期間滿千回饋100元現金券"
+     },
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆最高5%現金回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿千最高25%回饋"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "91APP與悠遊付合作活動",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "點我先領券再消費"
+    }
+   },
+   {
+    "name": "活動二:寶雅線上買獨享$100",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "回饋「100元91APP專用現金回饋券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "txn",
+     "quote": "支付單筆滿500元以上回饋「100元91APP專用現金回饋券」1張"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每悠遊付會員限贈1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「寶雅線上買」(WEB/APP)",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動10月限量500張，11月限量800張，12月限量600張，若額滿則活動提前結束"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動10月限量500張，11月限量800張，12月限量600張"
+    },
+    "sold_out": [
+     {
+      "quote": "活動二10月份回饋已於10/16早上09:55額滿",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": null,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": null,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

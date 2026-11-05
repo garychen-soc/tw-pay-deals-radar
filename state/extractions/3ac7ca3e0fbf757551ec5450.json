@@ -1,0 +1,111 @@
+{
+ "key": "3ac7ca3e0fbf757551ec5450",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:51+00:00",
+ "title": "歡慶上線！台中銀行 x 悠遊付 首綁消費扣款享回饋",
+ "duration_ms": 5146,
+ "cost_usd": 0.0265872,
+ "usage": {
+  "input": 2,
+  "output": 767,
+  "cache_creation": 4555,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "以該帳戶直接扣款消費單筆新臺幣(以下同)200元(含)以上，享150元悠遊付回饋金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "【數位存款帳戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 150,
+      "unit": "元",
+      "quote": "享150元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "消費單筆新臺幣(以下同)200元(含)以上"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定台中銀行「Lolly Bank數位存款帳戶」，並以該帳戶直接扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "(限額1,500名，額滿為止)"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "限額1,500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【一般存款帳戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "享100元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "直接扣款消費單筆200元(含)以上"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定台中銀行「一般存款帳戶」，並以該帳戶直接扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "(限額1,000名，額滿為止)"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "限額1,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

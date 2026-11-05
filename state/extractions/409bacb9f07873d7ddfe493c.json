@@ -1,0 +1,71 @@
+{
+ "key": "409bacb9f07873d7ddfe493c",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:23+00:00",
+ "title": "寧夏夜市愛逮玩 台灣Pay享20%回饋",
+ "duration_ms": 3566,
+ "cost_usd": 0.0284552,
+ "usage": {
+  "input": 2,
+  "output": 469,
+  "cache_creation": 5767,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%之現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%之現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡號/帳戶最高回饋500元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台北寧夏觀光夜市指定店家。",
+    "how": "以「台灣Pay」QR Code掃碼進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限30萬元，如達回饋總金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限30萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

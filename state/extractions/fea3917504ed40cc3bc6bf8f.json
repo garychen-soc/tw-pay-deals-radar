@@ -1,0 +1,120 @@
+{
+ "key": "fea3917504ed40cc3bc6bf8f",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:20:59+00:00",
+ "title": "跨境日韓｜不限消費方式與金額，送全通路返台樂購券！",
+ "duration_ms": 13285,
+ "cost_usd": 0.0465392,
+ "usage": {
+  "input": 2,
+  "output": 1663,
+  "cache_creation": 7303,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "成功付款將收到全通路5%返台樂購券，至指定場域消費，最高享5%全點回饋！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動無需進行活動登錄，惟需使用全支付在日本/韓國跨境完成付款，即可符合回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "主活動：日韓消費就送5%返台樂購券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": null,
+      "unit": "other",
+      "quote": "成功付款後即可獲得返台樂購券"
+     },
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "可享消費5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "other",
+      "per": "month",
+      "quote": "每一全支付帳號每月最多可領取3張"
+     },
+     {
+      "amount": 15,
+      "unit": "點",
+      "per": "txn",
+      "quote": "每一符合活動資格之全支付帳號單筆回饋上限15全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參與"
+    },
+    "where": "日本/韓國實體合作通路",
+    "how": "使用全支付跨境於日本/韓國實體合作通路消費",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月總回饋限量27萬點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行/信用卡活動：指定付款方式最高享5%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "指定付款方式最高享5%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "指定付款方式",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

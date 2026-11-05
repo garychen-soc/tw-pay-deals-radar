@@ -1,0 +1,967 @@
+{
+ "key": "b2b6f3b50bb9b9b79a8e71b5",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:02+00:00",
+ "title": "悠遊聯名卡自動加值活動大禮包",
+ "duration_ms": 41851,
+ "cost_usd": 0.10768920000000001,
+ "usage": {
+  "input": 2,
+  "output": 8022,
+  "cache_creation": 6693,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "JCB 悠遊聯名卡自動加值享10%現金回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "※活動需每月登錄，活動期間每卡限參加登錄3次。"
+  },
+  "subs": [
+   {
+    "name": "JCB 悠遊聯名卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "JCB 悠遊聯名卡自動加值享10%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "※每卡每月最高回饋50元"
+     },
+     {
+      "amount": 3,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每卡限參加登錄3次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "JCB 悠遊聯名卡自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量37,500卡"
+    },
+    "quota": {
+     "seats": 37500,
+     "quote": "每月限量37,500卡"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動需每月登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "悠遊聯名卡",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "贈50元悠遊付現金回饋券組乙份"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每卡限回饋乙份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "統一超商",
+    "how": "持已記名之悠遊聯名卡(不含悠遊Debit卡/悠遊金融卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量2萬份"
+    },
+    "quota": {
+     "seats": 20000,
+     "quote": "每月限量2萬份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "元大銀行",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "元大悠遊聯名卡自動加值享 10% 刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每戶回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "元大悠遊聯名卡自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "限量5,000卡"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "限量5,000卡"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "悠遊卡再加碼:",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "首次自動加值享10% 刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每戶回饋上限50元"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每卡限回饋1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "元大悠遊聯名卡首次自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "限量15,000卡"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "限量15,000卡"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "玉山銀行",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "贈100元悠遊付現金回饋券"
+     }
+    ],
+    "min_spend": {
+     "amount": 3,
+     "unit": "次",
+     "per": "month",
+     "quote": "同一卡片於當月自動加值達3次（含）以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "每悠遊付會員每月限獲得1份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "需使用本人名下之玉山悠遊聯名卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "玉山Unicard卡",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 500,
+      "unit": "元",
+      "quote": "獲得「500元悠遊付現金回饋券」"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "回饋上限為500元悠遊付現金回饋券"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每正卡限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次申辦玉山Unicard正卡"
+    },
+    "where": "",
+    "how": "透過悠遊付專屬連結首次申辦玉山Unicard正卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "momo悠遊聯名卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "首次自動加值享20%刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每戶回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "活動期間新申辦momo悠遊聯名卡"
+    },
+    "where": "",
+    "how": "新申辦momo悠遊聯名卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "中國信託銀行卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "自動加值滿500元享10%中信點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "自動加值滿500元"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每戶每月回饋上限50點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "中國信託銀行卡之悠遊卡功能自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量900名"
+    },
+    "quota": {
+     "seats": 900,
+     "quote": "每月限量900名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "漢神聯名卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "自動加值滿500元享10%刷卡金回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "自動加值滿500元"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "漢神卡之悠遊卡功能自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量800名"
+    },
+    "quota": {
+     "seats": 800,
+     "quote": "每月限量800名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動需每月登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "幸福M悠遊聯名卡",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5,
+      "unit": "元",
+      "quote": "每筆5元刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "申辦電子化帳單享幸福M卡之悠遊卡功能自動加值",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "DAWHO悠遊聯名卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "大戶Plus等級享悠遊卡自動加值5%回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "大戶等級享悠遊卡自動加值3%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月帳單週期回饋上限500元"
+     },
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月帳單週期回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "完成指定任務之客戶",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "現金回饋Green卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "享悠遊卡自動加值消費4%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每期帳單上限300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "新戶申辦現金回饋Green卡正卡"
+    },
+    "where": "",
+    "how": "設定永豐/京城帳戶自動扣繳永豐信用卡帳款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "綠活悠遊聯名卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "享最高5%現金回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "一般消費單筆滿1,000元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月帳單回饋上限200元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "五大通路(含悠遊卡自動加值)",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "遠東快樂信用卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "悠遊卡自動加值最高5%刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "悠遊卡自動加值",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動需每月登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "樂活卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "皆可以獲得 5% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高鐵、台鐵、悠遊卡自動加值",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "i運動卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "享綠色交通(含悠遊卡自動加值)5%回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 2999,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "新增一般消費達 2999元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "綠色交通(含悠遊卡自動加值)",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "幣享卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "悠遊卡自動加值 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限50元悠遊付現金回饋券"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "悠遊卡自動加值",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動需每月登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "誠品卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "悠遊卡自動加值 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限50元悠遊付現金回饋券"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "悠遊卡自動加值",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動需每月登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "My Sense悠遊御璽卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "享指定通路(含全聯悠遊卡自動加值)最高10%回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 2000,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "當期帳單新增一般消費達2,000元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月每戶最高回饋300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(含全聯悠遊卡自動加值)",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "大甲媽祖認同卡",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1,
+      "unit": "點",
+      "quote": "每25元享1點紅利點數回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 3000,
+      "unit": "點",
+      "per": "unclear",
+      "quote": "每期帳單額外回饋紅利點數上限3,000點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "大甲媽祖認同卡自動加值",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "key": "828e4d4081396b2d959e794e",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:00:51+00:00",
+ "title": "東門市場開幕慶 悠遊付筆筆最高13%回饋",
+ "duration_ms": 7978,
+ "cost_usd": 0.0431952,
+ "usage": {
+  "input": 2,
+  "output": 1185,
+  "cache_creation": 7662,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "於「東門市場」活動店家使用悠遊付消費，不限金額，筆筆享10%回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "於「東門市場」掃描QR Code領券活動，輕鬆領新臺幣(下同)50元現金回饋券1張"
+  },
+  "subs": [
+   {
+    "name": "【活動一】獨家筆筆回饋10%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "筆筆享10%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每人回饋上限200元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於「東門市場」活動店家使用悠遊付消費",
+    "how": "使用悠遊付 APP，以「掃碼」或「付款碼」付款。",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋金總額上限10萬元，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋金總額上限10萬元，送完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【活動二】月級挑戰筆筆最高回饋3%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 13,
+      "unit": "%",
+      "quote": "最高享13%悠遊付回饋金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於東門市場活動店家使用悠遊付錢包或綁定銀行帳戶扣款",
+    "how": "使用悠遊付 APP，以「掃碼」或「付款碼」付款。",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【活動三】首次註冊會員領$50現金回饋券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "輕鬆領新臺幣(下同)50元現金回饋券1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆實際以悠遊付消費滿100元(含)以上即可使用"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每會員限領1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "悠遊付首次註冊會員於「東門市場」掃描QR Code領券活動"
+    },
+    "where": "依券上所載之指定東門市場活動指定店家使用悠遊付消費",
+    "how": "掃描QR Code領券",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量1,000張，先用先得回饋"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "活動總限量1,000張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "每會員限領1次"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

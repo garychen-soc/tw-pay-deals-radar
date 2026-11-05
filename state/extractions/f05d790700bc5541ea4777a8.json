@@ -1,0 +1,138 @@
+{
+ "key": "f05d790700bc5541ea4777a8",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:21:20+00:00",
+ "title": "樂購券三重送｜完成繳費/搭車/日韓消費送全通路5%樂購券！",
+ "duration_ms": 11729,
+ "cost_usd": 0.0490332,
+ "usage": {
+  "input": 2,
+  "output": 1706,
+  "cache_creation": 7819,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "最高享5%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "將收到推播始取得通勤/返台/生活樂購券"
+  },
+  "subs": [
+   {
+    "name": "通勤樂購券",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "最高享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "臺北捷運（不含輕軌、貓纜)以及雙北市區公車",
+    "how": "使用全支付乘車碼搭乘",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動全點回饋為即時贈點，且為限量回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "返台樂購券",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "最高享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "日本/韓國實體合作通路",
+    "how": "使用全支付於日本/韓國實體合作通路消費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動全點回饋為即時贈點，且為限量回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "生活樂購券",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "最高享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "全支付APP「繳費」入口",
+    "how": "使用全支付APP繳費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動全點回饋為即時贈點，且為限量回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

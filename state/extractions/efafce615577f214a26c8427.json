@@ -1,0 +1,88 @@
+{
+ "key": "efafce615577f214a26c8427",
+ "prompt_version": "2026-11-06.3",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:12:26+00:00",
+ "title": "7-ELEVEN 嗶悠遊卡結帳滿$500現折$50",
+ "duration_ms": 5353,
+ "cost_usd": 0.04244,
+ "usage": {
+  "input": 2,
+  "output": 652,
+  "cache_creation": 8979,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆結帳金額滿500元享現折50元優惠(單筆不累折)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊卡於7-ELEVEN消費之人，視同參加本活動，為活動參加人。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 50,
+      "unit": "元",
+      "quote": "單筆結帳金額滿500元享現折50元優惠"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆結帳金額滿500元享現折50元優惠"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "活動期間使用悠遊卡於7-ELEVEN消費之人，視同參加本活動，為活動參加人。"
+    },
+    "where": "全台7-ELEVEN實體門市",
+    "how": "持悠遊卡/悠遊聯名卡於7-ELEVEN門市",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量2萬份，送完為止。"
+    },
+    "quota": {
+     "seats": 20000,
+     "quote": "每月限量2萬份，送完為止。"
+    },
+    "sold_out": [
+     {
+      "quote": "本活動10月份限量回饋2萬份於10/29(四)18:00已額滿",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": null,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": null,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

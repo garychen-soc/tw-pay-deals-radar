@@ -1,0 +1,76 @@
+{
+ "key": "8dcadd2bcaab190088982e47",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:21:06+00:00",
+ "title": "全支付新戶優惠｜於大全聯消費滿千享5%全點回饋！",
+ "duration_ms": 4504,
+ "cost_usd": 0.0342052,
+ "usage": {
+  "input": 2,
+  "output": 556,
+  "cache_creation": 6987,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿$1,000（含）元，即可享5%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "【主活動｜全支付新用戶滿額禮｜註冊當月於大全聯消費滿$1,000，享5%全點回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "即可享5%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿$1,000（含）元"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "可享回饋上限為100全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動限過往從未註冊全支付會員"
+    },
+    "where": "於大全聯實體門市使用全支付付款",
+    "how": "透過全支付入口「付款碼」付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋限量10萬全點，總回饋限量60萬全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月回饋限量10萬全點，總回饋限量60萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "key": "73bcbab3b317f5a279e4d0ff",
+ "prompt_version": "2026-11-06.2",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:10:15+00:00",
+ "title": "(活動額滿)暢遊馬祖享回饋，TWQR馬上Pay",
+ "duration_ms": 6882,
+ "cost_usd": 0.0313254,
+ "usage": {
+  "input": 2,
+  "output": 773,
+  "cache_creation": 5725,
+  "cache_read": 3457
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "用戶於活動期間至活動地點掃碼支付，單筆消費不限金額享10%現金回饋或點數回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%現金回饋或點數回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡/帳戶、電子支付帳戶最高回饋新臺幣(以下同)500元現金或等值點數"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "連江縣(馬祖)地區標示TWQR店家",
+    "how": "掃碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限30萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限30萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

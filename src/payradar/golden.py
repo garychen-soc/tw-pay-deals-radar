@@ -38,6 +38,28 @@ Fact = tuple[Any, ...]
 KINDS = ("reward", "min", "cap", "sold", "reg", "offer")
 
 
+_COUNT_UNITS = {"筆", "次", "份", "other"}
+
+
+def _reward(unit: str, value: Any) -> Fact:
+    """折扣、贈品、贈品數量等「其他」回饋只比有沒有，不比數值（記法因人而異）。"""
+    if unit in ("other", "折", "筆", "次", "份"):
+        return ("reward", "other", None)
+    return ("reward", unit, _num(value))
+
+
+def _amount(kind: str, amount: Any, unit: str) -> Fact:
+    """次數類單位（次／份／筆／other）視為同一類。"""
+    return (kind, _num(amount), "count" if unit in _COUNT_UNITS else unit)
+
+
+def _sold(start: Any, end: Any, label: Any) -> Fact:
+    """整檔額滿與「有範圍字樣但沒日期」的部分額滿必須分開 —— 後者標成整檔是嚴重錯誤。"""
+    s, e = _day(start), _day(end)
+    scope = "dated" if s or e else ("part" if label else "whole")
+    return ("sold", s, e, scope)
+
+
 def _num(value: Any) -> float | None:
     return None if value is None else round(float(value), 4)
 
@@ -53,12 +75,12 @@ def facts_of(activity: Activity) -> set[Fact]:
     if activity.registration != "unknown":
         out.add(("reg", activity.registration))
     for offer in activity.offers:
-        out |= {("reward", r.unit, _num(r.value)) for r in offer.rewards}
+        out |= {_reward(r.unit, r.value) for r in offer.rewards}
         if offer.min_spend:
-            out.add(("min", _num(offer.min_spend.amount), offer.min_spend.unit))
-        out |= {("cap", _num(c.amount), c.unit) for c in offer.caps}
-        out |= {("sold", _day(s.scope_start), _day(s.scope_end)) for s in offer.sold_out}
-    out |= {("sold", _day(s.scope_start), _day(s.scope_end)) for s in activity.title_sold_out}
+            out.add(_amount("min", offer.min_spend.amount, offer.min_spend.unit))
+        out |= {_amount("cap", c.amount, c.unit) for c in offer.caps}
+        out |= {_sold(s.scope_start, s.scope_end, s.scope_label) for s in offer.sold_out}
+    out |= {_sold(s.scope_start, s.scope_end, s.scope_label) for s in activity.title_sold_out}
     return out
 
 
@@ -71,11 +93,11 @@ def facts_expected(entry: dict[str, Any]) -> set[Fact]:
         out.add(("offer", offer))
     if entry.get("registration") in ("required", "not_required"):
         out.add(("reg", entry["registration"]))
-    out |= {("reward", str(r["unit"]), _num(r.get("value"))) for r in entry.get("rewards") or []}
-    out |= {("min", _num(m["amount"]), str(m["unit"])) for m in entry.get("min_spend") or []}
-    out |= {("cap", _num(c["amount"]), str(c["unit"])) for c in entry.get("caps") or []}
+    out |= {_reward(str(r["unit"]), r.get("value")) for r in entry.get("rewards") or []}
+    out |= {_amount("min", m["amount"], str(m["unit"])) for m in entry.get("min_spend") or []}
+    out |= {_amount("cap", c["amount"], str(c["unit"])) for c in entry.get("caps") or []}
     out |= {
-        ("sold", _day(s.get("scope_start")), _day(s.get("scope_end")))
+        _sold(s.get("scope_start"), s.get("scope_end"), s.get("scope_label"))
         for s in entry.get("sold_out") or []
     }
     return out
@@ -102,6 +124,9 @@ def _compare(
             stale.append(str(entry["id"]))
             continue
         expected, produced = facts_expected(entry), facts_of(activity)
+        # golden 標 unknown（原文有爭議）的欄位不計分，產出的也不算錯
+        scored_kinds = {f[0] for f in expected} | {"reward", "min", "cap", "sold"}
+        produced = {f for f in produced if f[0] in scored_kinds}
         for fact in produced | expected:
             slot = tally[str(fact[0])]
             if fact in produced and fact in expected:

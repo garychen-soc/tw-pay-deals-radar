@@ -1,0 +1,82 @@
+{
+ "key": "f77939c1b0e7e8089de30d3e",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:56:17+00:00",
+ "title": "連結國泰世華帳戶於「火鍋季」消費滿額享8%回饋！",
+ "duration_ms": 4139,
+ "cost_usd": 0.049842,
+ "usage": {
+  "input": 2,
+  "output": 601,
+  "cache_creation": 10957,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新臺幣800元，筆筆享8%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "筆筆享8%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 800,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿新臺幣800元"
+    },
+    "caps": [
+     {
+      "amount": 80,
+      "unit": "點",
+      "per": "txn",
+      "quote": "每一全支付帳號單筆最高享80全點回饋"
+     },
+     {
+      "amount": 240,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "活動最高享240全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "本活動僅適用於築間幸福鍋物、六扇門、五鮮級、老先覺、嗑肉食鍋、涮金鍋",
+    "how": "使用全支付連結國泰世華新臺幣活期存款帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每週回饋限量30,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每週回饋限量30,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

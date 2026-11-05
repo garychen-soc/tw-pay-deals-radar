@@ -1,0 +1,71 @@
+{
+ "key": "c565cf93cc298a08ecff8f90",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:32+00:00",
+ "title": "三商鮮五丼-點主餐享蒜味時蔬30元加價購",
+ "duration_ms": 3109,
+ "cost_usd": 0.0246732,
+ "usage": {
+  "input": 2,
+  "output": 406,
+  "cache_creation": 4979,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即享30元加購蒜味時蔬(原價45元)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 30,
+      "unit": "元",
+      "quote": "即享30元加購蒜味時蔬(原價45元)"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "每單筆扣款支付套餐限加購一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "三商鮮五丼",
+    "how": "持悠遊卡/悠遊聯名卡/悠遊付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

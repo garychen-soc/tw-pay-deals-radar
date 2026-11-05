@@ -1,0 +1,169 @@
+{
+ "key": "fd55ce60cfb1db305df0e348",
+ "prompt_version": "2026-11-06.2",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:08:12+00:00",
+ "title": "【指定餐廳】 悠遊付週週領券最高回饋13%",
+ "duration_ms": 18215,
+ "cost_usd": 0.0499194,
+ "usage": {
+  "input": 2,
+  "output": 2272,
+  "cache_creation": 6626,
+  "cache_read": 3457
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "悠遊付會員於指定領券頁面可領取下列主題之現金回饋券(下稱主題券)，至指定餐廳品牌以悠遊付消費達門檻享8%回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "悠遊付會員於指定領券頁面可領取下列主題之現金回饋券"
+  },
+  "subs": [
+   {
+    "name": "餐餐飽食券",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "至指定餐廳品牌以悠遊付消費達門檻享8%回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "至指定日常餐飲品牌單筆滿百元可抵用1張主題券"
+    },
+    "caps": [
+     {
+      "amount": 15,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每券回饋上限15元"
+     },
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "week",
+      "quote": "每主題券每會員每週限領取1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定日常餐飲品牌",
+    "how": "以悠遊付消費",
+    "limited": {
+     "value": "yes",
+     "quote": "各主題券每週限量用完為止"
+    },
+    "quota": {
+     "seats": 3500,
+     "quote": "每週用券上限3,500張"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "活動期間每週四開放領券",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": 4,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動期間每主題券每會員每週限領取1張"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "至指定日常餐飲品牌單筆滿百元可抵用1張主題券"
+    }
+   },
+   {
+    "name": "聚餐狂歡券",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "至指定餐廳品牌以悠遊付消費達門檻享8%回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "至指定聚餐品牌單筆滿千元可抵用1張主題券"
+    },
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每券回饋上限150元"
+     },
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "week",
+      "quote": "每主題券每會員每週限領取1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定聚餐品牌",
+    "how": "以悠遊付消費",
+    "limited": {
+     "value": "yes",
+     "quote": "各主題券每週限量用完為止"
+    },
+    "quota": {
+     "seats": 200,
+     "quote": "每週用券上限200張"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "活動期間每週四開放領券",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": 4,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動期間每主題券每會員每週限領取1張"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "至指定聚餐品牌單筆滿千元可抵用1張主題券"
+    }
+   }
+  ]
+ }
+}

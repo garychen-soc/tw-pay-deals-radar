@@ -1,0 +1,71 @@
+{
+ "key": "7391370ed2fab9eb7976e353",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:01+00:00",
+ "title": "桃園市復興區 TWQR 10% 任一Pay回饋",
+ "duration_ms": 3554,
+ "cost_usd": 0.029653199999999998,
+ "usage": {
+  "input": 2,
+  "output": 518,
+  "cache_creation": 5944,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動地點掃碼支付，參與機構單筆消費不限金額10%回饋現金或點數"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": 10,
+      "unit": "%",
+      "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡/帳戶、電子支付帳戶最高回饋新臺幣(以下同)1,000元等值點數或現金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市復興區標示TWQR店家",
+    "how": "掃碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限10萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限10萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

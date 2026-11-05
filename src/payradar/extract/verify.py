@@ -40,12 +40,20 @@ SOLD_OUT = re.compile(
     r"已[^。；;\n]{0,30}?(?:額滿|達[^。；;\n]{0,6}上限|贈完|送完|兌換完|發放完|領完|售完)"
     r"|(?:額滿|贈完|送完|領完)\s*[】\]］]"
 )
+# 參加前須主動完成的動作；條款完全沒有這些字樣時，判為不需登錄（不靠 LLM）
+_ACTION_WORDS = re.compile(r"登錄|登記|報名|領券|領取|代碼|序號|同意加入|切換|預約|兌換|開通")
+# 已額滿聲明裡的範圍字樣：LLM 沒給 scope_label 時由程式補，避免把「首週已額滿」當整檔額滿
+_SCOPE_WORDS = re.compile(
+    r"首[週周]|第[一二三四五六七八九十\d]+[波週周期梯]|早鳥|本[週周月]|\d{1,2}\s*/\s*\d{1,2}\s*[~～-]"
+    r"\s*\d{1,2}\s*/\s*\d{1,2}|\d{1,2}\s*月份?"
+)
 _MONTH_SCOPE = re.compile(r"(\d{1,2})\s*月份?")
 _NUMBER = re.compile(r"\d[\d,]*(?:\.\d+)?")
 _WAN = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*萬")
-_CN_COUNT = re.compile(r"([一兩二三四五六七八九十])\s*[張份次筆名個組人]")
+_CN_COUNT = re.compile(r"([一乙兩二三四五六七八九十])\s*[張份次筆名個組人]")
 _CN = {
     "一": 1,
+    "乙": 1,
     "兩": 2,
     "二": 2,
     "三": 3,
@@ -66,7 +74,7 @@ _REWARD_KINDS: tuple[RewardKind, ...] = (
     "gift",
     "other",
 )
-_UNITS: tuple[RewardUnit, ...] = ("%", "元", "點", "筆", "次", "份", "other")
+_UNITS: tuple[RewardUnit, ...] = ("%", "元", "點", "折", "筆", "次", "份", "other")
 _PERS: dict[str, Per] = {
     "txn": "txn",
     "day": "day",
@@ -197,6 +205,8 @@ def sold_out_from(
     label = (raw.get("scope_label") or "").strip()
     if label and not ctx.quote_ok(label):
         label = ""
+    if not label and (found := _SCOPE_WORDS.search(normalize(quote))):
+        label = found[0]
     start = _scope_day(raw.get("scope_start"), ctx, end=False)
     end = _scope_day(raw.get("scope_end"), ctx, end=True)
     nums = numbers(quote) | numbers(label)
@@ -313,7 +323,7 @@ def build_offers(output: dict[str, Any], ctx: Context) -> Built:
     registration: Registration
     if has_slots or claimed == "required":
         registration = "required"
-    elif claimed == "not_required":
+    elif claimed == "not_required" or not _ACTION_WORDS.search(normalize(ctx.text)):
         registration = "not_required"
     else:
         registration = "unknown"

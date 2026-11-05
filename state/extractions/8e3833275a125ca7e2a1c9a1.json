@@ -1,0 +1,257 @@
+{
+ "key": "8e3833275a125ca7e2a1c9a1",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:00:33+00:00",
+ "title": "TPASS 2.0+ 公共運輸常客優惠回饋",
+ "duration_ms": 20842,
+ "cost_usd": 0.0646612,
+ "usage": {
+  "input": 2,
+  "output": 2918,
+  "cache_creation": 8696,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可享有常客優惠回饋！"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "至 TPASS 2.0+ 公共運輸常客優惠回饋網頁 登錄卡號"
+  },
+  "subs": [
+   {
+    "name": "電子票證",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 15,
+      "unit": "%",
+      "quote": "2~3 次\n15%"
+     },
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "4次以上\n30%"
+     },
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "11 次以上\n2%"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "次",
+     "per": "month",
+     "quote": "搭乘公共運輸達 11 次以上"
+    },
+    "caps": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "month",
+      "quote": "每張卡每個月總回饋金上限:2,500 元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持一卡通電子票證（儲值卡）至一卡通公司網站完成記名",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "每人最多可同時登錄 5 張電子票證。"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "搭乘紀錄自完成登錄次日起算"
+    }
+   },
+   {
+    "name": "電子支付帳戶(使用iPASS MONEY乘車碼搭乘)",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 15,
+      "unit": "%",
+      "quote": "2~3 次\n15%"
+     },
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "4次以上\n30%"
+     },
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "11 次以上\n2%"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "次",
+     "per": "month",
+     "quote": "使用iPASS MONEY乘車碼搭乘公共運輸達11次以上"
+    },
+    "caps": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "month",
+      "quote": "每電支帳戶每個月總回饋金上限:2,500 元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "手機APP上進行電支帳號綁定TPASS 2.0+常客優惠",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "綁定成功後，次日生效開始累積"
+    }
+   },
+   {
+    "name": "早鳥專屬",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "符合早鳥資格\n再加碼10%"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "次",
+     "per": "month",
+     "quote": "搭乘公共運輸達 11 次以上"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "購買TPASS 2.0 票卡（常客）一卡通",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "並於 2025 年 3 月 31 日前完成登錄參與回饋",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": {
+       "year": 2025,
+       "month": 3,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "並於 2025 年 3 月 31 日前完成登錄參與回饋"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "搭乘紀錄自完成登錄次日起算"
+    }
+   },
+   {
+    "name": "【TPASS 2.0 票卡(常客)一卡通】記名完成可以領取 100 元嗎？",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "領取 100 元一卡通儲值金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限領一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "四大超商",
+    "how": "可於一卡通官網完成記名",
+    "limited": {
+     "value": "yes",
+     "quote": "僅限4萬張可領取，數量有限請盡速記名。"
+    },
+    "quota": {
+     "seats": 40000,
+     "quote": "僅限4萬張可領取"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "每人限領一次"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

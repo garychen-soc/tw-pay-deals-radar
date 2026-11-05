@@ -1,0 +1,71 @@
+{
+ "key": "e2a5e57acbc04564af3f7f8e",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:23+00:00",
+ "title": "第一銀行悠遊聯名卡 悠遊付享3%刷卡金活動",
+ "duration_ms": 3046,
+ "cost_usd": 0.0234312,
+ "usage": {
+  "input": 2,
+  "output": 491,
+  "cache_creation": 4456,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "登錄後於悠遊付綁定指定悠遊聯名卡之消費，享筆筆3%刷卡金回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "登錄後於悠遊付綁定指定悠遊聯名卡之消費"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 3,
+      "unit": "%",
+      "quote": "享筆筆3%刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每戶每期帳單回饋上限300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "悠遊付",
+    "how": "申辦第一銀行信用卡電子帳單或第一銀行帳戶自動扣繳信用卡帳單，登錄後於悠遊付綁定指定悠遊聯名卡之消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

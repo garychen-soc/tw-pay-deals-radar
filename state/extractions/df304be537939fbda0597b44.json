@@ -1,0 +1,116 @@
+{
+ "key": "df304be537939fbda0597b44",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:59:36+00:00",
+ "title": "【臺南消費抽大獎】於指定通路單筆消費滿 100 元，抽 iPhone 18 Pro Max！",
+ "duration_ms": 6808,
+ "cost_usd": 0.041517200000000004,
+ "usage": {
+  "input": 2,
+  "output": 836,
+  "cache_creation": 8115,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費金額滿 100 元（含）以上，即可獲得一次抽獎機會。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "須同意加入一卡通綠點始符合抽獎資格，請至遲於 11 月底 點此同意 快速加入一卡通綠點計畫"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "iPhone18ProMax（512GB）"
+     },
+     {
+      "kind": "points",
+      "value": 1000,
+      "unit": "點",
+      "quote": "一卡通綠點 1,000 點"
+     },
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "一卡通綠點 100 點"
+     },
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "一卡通綠點 50 點"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費金額滿 100 元（含）以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限中獎 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "臺南指定店家",
+    "how": "使用一卡通 iPASS MONEY 於臺南指定店家付款（含帳戶餘額或綁定信用卡付款）",
+    "limited": {
+     "value": "yes",
+     "quote": "iPhone18ProMax（512GB）\n1 名"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "一卡通綠點 1,000 點\n10 名"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請至遲於 11 月底 點此同意 快速加入一卡通綠點計畫",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": {
+       "year": null,
+       "month": 11,
+       "day": null,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "須同意加入一卡通綠點始符合抽獎資格"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

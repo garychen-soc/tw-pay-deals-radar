@@ -1,0 +1,76 @@
+{
+ "key": "fdb82b6dbfee994e9b70c24f",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:57+00:00",
+ "title": "(活動額滿)Focus百貨放鬆購 台灣Pay享20%回饋",
+ "duration_ms": 7437,
+ "cost_usd": 0.0348372,
+ "usage": {
+  "input": 2,
+  "output": 984,
+  "cache_creation": 6075,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費金額滿新臺幣(以下同)500元(含)以上可享20%現金回饋"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "可享20%現金回饋(非即時回饋，小數點後無條件捨去)"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費金額滿新臺幣(以下同)500元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 400,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易回饋金最高以400元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "Focus時尚流行館內受理「台灣Pay」之櫃位",
+    "how": "出示「台灣Pay」付款碼(金融卡/帳戶/信用卡)進行消費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額以55萬元為上限，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額以55萬元為上限"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

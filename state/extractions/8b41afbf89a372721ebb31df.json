@@ -1,0 +1,269 @@
+{
+ "key": "8b41afbf89a372721ebb31df",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:17:07+00:00",
+ "title": "【高雄巨蛋智慧杆】登錄活動-捷運巨蛋站進出站筆筆交易享 5 點回饋並加碼領最高 100 回饋",
+ "duration_ms": 13533,
+ "cost_usd": 0.0553232,
+ "usage": {
+  "input": 2,
+  "output": 2083,
+  "cache_creation": 8449,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "完成登錄領取 50 元優惠券！"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "掃描影片中 QR Code 完成活動登錄，享以下回饋"
+  },
+  "subs": [
+   {
+    "name": "活動一:完成登錄領取 50 元優惠券！",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "領取 iPASS MONEY 優惠券 50 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 100 元即可兌換優惠券"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "活動期間每人限領 1 份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高雄巨蛋周邊(含漢神巨蛋購物廣場、巨蛋市集及瑞豐夜市等)指定店家",
+    "how": "使用一卡通 iPASS MONEY APP 掃描「一卡通 TWQR 立牌」或開啟付款碼",
+    "limited": {
+     "value": "yes",
+     "quote": "總限量 2,000 份，數量有限送完為止"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "總限量 2,000 份"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請務必於消費前完成領券",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "兌換期限 2026/11/30前",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間每人限領 1 份"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動採「先領券、後消費」機制。請務必於消費前完成領券"
+    }
+   },
+   {
+    "name": "活動二:前一千名登錄者加贈一卡通綠點 50 點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "加贈一卡通綠點 50 點"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限領 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "須同意加入一卡通綠點回饋計畫方符合回饋資格",
+    "limited": {
+     "value": "yes",
+     "quote": "限前 1,000 名登錄者，額滿將公告於此活動頁"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "限前 1,000 名登錄者"
+    },
+    "sold_out": [
+     {
+      "quote": "本活動回饋上限已於 2026/10/8 16:00 額滿",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [
+     {
+      "quote": "請至遲於登錄當月底 點此同意 加入一卡通綠點計畫",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "每人限領 1 次"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三:搭乘捷運於巨蛋站進/出站，筆筆交易享一卡通綠點 5 點回饋，指定期間搭乘加碼贈 20 點回饋。",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "點",
+      "quote": "該趟搭乘即可獲贈一卡通綠點 5 點"
+     },
+     {
+      "kind": "points",
+      "value": 20,
+      "unit": "點",
+      "quote": "該趟搭乘加贈一卡通綠點 20 點"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高雄捷運「巨蛋站」進站或出站",
+    "how": "使用 iPASS MONEY 乘車碼或一卡通記名卡搭乘高雄捷運",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量 10 萬點，贈完為止，額滿將公告於此活動頁"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動總限量 10 萬點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "如 2026/09/15 搭乘大眾運輸，必須於 2026/09/15 當日前完成活動登錄，方可享有回饋",
+      "kind": "other",
+      "is_example": true,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [
+       {
+        "year": 2026,
+        "month": 9,
+        "day": 15,
+        "hour": null,
+        "minute": null
+       }
+      ],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "請至遲於登錄當月底 點此同意 加入一卡通綠點計畫",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "搭乘時需已完成活動頁登錄方可符合活動資格"
+    }
+   }
+  ]
+ }
+}

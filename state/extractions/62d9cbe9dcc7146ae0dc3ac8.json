@@ -1,0 +1,221 @@
+{
+ "key": "62d9cbe9dcc7146ae0dc3ac8",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:01:19+00:00",
+ "title": "月級挑戰-筆筆最高3%回饋",
+ "duration_ms": 15118,
+ "cost_usd": 0.0577632,
+ "usage": {
+  "input": 2,
+  "output": 2493,
+  "cache_creation": 8034,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "依會員等級每筆交易享最高3%悠遊付回饋金，並享最高免費提領次數10次"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊付消費之人，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "會員等級專屬優惠",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "依會員等級每筆交易享最高3%悠遊付回饋金"
+     },
+     {
+      "kind": "other",
+      "value": 10,
+      "unit": "次",
+      "quote": "最高免費提領次數10次"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶回饋上限/月"
+     },
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶回饋上限/月"
+     },
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶回饋上限/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款交易",
+    "limited": {
+     "value": "yes",
+     "quote": "先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月「會員等級專屬優惠」總回饋金額上限為460萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "會員任務活動:首次自動儲值送$50",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可獲得50元現金回饋券"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每會員限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "於當月開啟自動儲值功能且完成首次（該帳戶從未有自動儲值交易）不限金額之自動儲值交易",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月限量2,000名，依首次自動儲值成功時間排序，額滿為止"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "本活動每月限量2,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "金級會員專屬優惠:首次生活繳費送$50",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可獲得50元現金回饋券"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每會員限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "取前2,000名會員進行回饋，額滿為止"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "本活動每月限量2,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "白金級會員專屬交通回饋:停車/加油筆筆加碼3%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "享筆筆加碼3%悠遊付回饋金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月加碼回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定停車場、加油站",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款交易",
+    "limited": {
+     "value": "yes",
+     "quote": "先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "「白金級會員專屬交通回饋」每月總回饋金額上限17.5萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

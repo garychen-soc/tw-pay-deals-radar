@@ -1,0 +1,313 @@
+{
+ "key": "8f80c856d851b7ce9cf6e0b9",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:00:01+00:00",
+ "title": "【誠品生活】iPASS MONEY 最優惠，門市掃碼月月領 100 元優惠券！",
+ "duration_ms": 16328,
+ "cost_usd": 0.0613752,
+ "usage": {
+  "input": 2,
+  "output": 2773,
+  "cache_creation": 8237,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿額後即可兌換優惠券領取儲值金 100 元"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "先領券，再消費！單筆消費滿額，將於 5 分鐘後可進行兌換"
+  },
+  "subs": [
+   {
+    "name": "優惠一:月月領 100 元優惠券",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "單筆消費滿額後即可兌換優惠券領取儲值金 100 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 499,
+     "unit": "元",
+     "per": "txn",
+     "quote": "使用 iPASS MONEY 單筆消費滿 499 元方可兌換1張"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "month",
+      "quote": "活動期間每人每月限領 1 張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "誠品生活/誠品書店實體門市（百貨門市、官網不適用）",
+    "how": "結帳時使用 iPASS MONEY APP（含帳戶餘額或綁定信用卡付款）",
+    "limited": {
+     "value": "no",
+     "quote": "無總量限制"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/9/18 - 9/30",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 18,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 9,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "2026/10/1 - 10/31",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "2026/11/1 - 11/30",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動期間每人每月限領 1 張"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "先領券，再消費！"
+    }
+   },
+   {
+    "name": "綁定聯邦信用卡消費最高享10%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "綁定聯邦信用卡消費最高享10%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 50 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定聯邦信用卡消費",
+    "limited": {
+     "value": "yes",
+     "quote": "每月總回饋上限 25 萬點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月總回饋上限 25 萬點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "綁定玉山unicard消費最高享4.5%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.5,
+      "unit": "%",
+      "quote": "綁定玉山unicard消費最高享4.5%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定玉山unicard消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "綁定 LINE BANK 快點卡消費滿額最高享 4% 回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "綁定 LINE BANK 快點卡消費滿額最高享 4% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定 LINE BANK 快點卡消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "綁定王道簽帳金融卡新卡消費最高享 600 元回饋",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 600,
+      "unit": "元",
+      "quote": "綁定王道簽帳金融卡新卡消費最高享 600 元回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定王道簽帳金融卡新卡消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

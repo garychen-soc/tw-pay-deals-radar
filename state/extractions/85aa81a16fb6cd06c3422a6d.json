@@ -1,0 +1,468 @@
+{
+ "key": "85aa81a16fb6cd06c3422a6d",
+ "prompt_version": "2026-11-06.3",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:13:13+00:00",
+ "title": "嗶桃園市好運卡，享專屬藥妝通路加碼優惠",
+ "duration_ms": 21951,
+ "cost_usd": 0.059589199999999995,
+ "usage": {
+  "input": 2,
+  "output": 3714,
+  "cache_creation": 5438,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持好運卡不限金額消費即贈「BZU BZU 嬰兒超柔濕巾 10片」乙份"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "屈臣氏",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "即贈「BZU BZU 嬰兒超柔濕巾 10片」乙份"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "txn",
+      "quote": "單筆不累贈"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡不限金額消費",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "屈臣氏",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 88,
+      "unit": "元",
+      "quote": "現折$88"
+     }
+    ],
+    "min_spend": {
+     "amount": 988,
+     "unit": "元",
+     "per": "txn",
+     "quote": "消費滿$988(折扣後)"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡消費滿$988(折扣後)現折$88",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "寶雅",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "即享「新生祝福禮包」"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "加入POYA寶雅APP會員、使用悠遊卡功能消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "康是美",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "滿千折百優惠"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "滿千折百優惠"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "大樹",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 2,
+      "unit": "份",
+      "quote": "專屬滿千折百優惠券(2張)"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "加入大樹官方LINE帳號完成綁定",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "杏一",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 9,
+      "unit": "折",
+      "quote": "VIP會員全館9折優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "杏一",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "贈孕媽咪杏福禮乙份"
+     }
+    ],
+    "min_spend": {
+     "amount": 99,
+     "unit": "元",
+     "per": "txn",
+     "quote": "消費滿99元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "躍獅",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 85,
+      "unit": "折",
+      "quote": "享專屬優惠85折"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "佑全",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 95,
+      "unit": "折",
+      "quote": "享95折優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "佑全",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "送媽媽大禮包乙份"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "unclear",
+      "quote": "孕期限領乙份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "會員登錄預產期",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "丁丁",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "滿千折百優惠"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "滿千折百優惠"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市13行政區內指定藥妝活動通路",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

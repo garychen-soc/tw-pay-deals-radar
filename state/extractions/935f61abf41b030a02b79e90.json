@@ -1,0 +1,159 @@
+{
+ "key": "935f61abf41b030a02b79e90",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:04:15+00:00",
+ "title": "限定電商遊戲娛樂｜滿千最高8%回饋",
+ "duration_ms": 12946,
+ "cost_usd": 0.0488532,
+ "usage": {
+  "input": 2,
+  "output": 2018,
+  "cache_creation": 6994,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間使用悠遊付錢包或綁定銀行帳戶扣款支付，單筆滿1,000元以上，每筆扣款享3%悠遊付回饋金。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "悠遊付會員自10/27起於指定領券頁面點擊「立即領取」，即可獲得「500元先用先賺現金回饋券」1張。"
+  },
+  "subs": [
+   {
+    "name": "滿千最高8%現金回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "每筆扣款享3%悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿1,000元以上"
+    },
+    "caps": [
+     {
+      "amount": 120,
+      "unit": "元",
+      "per": "month",
+      "quote": "每會員最高回饋120元"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "活動期間於活動適用通路使用悠遊付消費之人，視同參加活動"
+    },
+    "where": "活動適用通路",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月依悠遊付交易扣款時間排序回饋，先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動總回饋上限:每月回饋上限新臺幣(下同)各5萬元。"
+    },
+    "sold_out": [
+     {
+      "quote": "活動一10月份回饋已於10/20晚上20:01額滿。",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": null,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": null,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "plus加碼｜雙11領券月曆｜$500先用先賺",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 500,
+      "unit": "元",
+      "quote": "「500元先用先賺現金回饋券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 5000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿5,000元以上可使用"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "悠遊付會員自10/27起於指定領券頁面點擊「立即領取」"
+    },
+    "where": "",
+    "how": "於指定領券頁面點擊「立即領取」",
+    "limited": {
+     "value": "yes",
+     "quote": "各用券日回饋名額限量"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各用券日回饋名額限量"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "悠遊付會員自10/27起於指定領券頁面點擊「立即領取」",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": null,
+       "month": 10,
+       "day": 27,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "點擊「立即領取」，即可獲得「500元先用先賺現金回饋券」1張。於指定用券日當天00:00~23:59單筆滿5,000元以上可使用"
+    }
+   }
+  ]
+ }
+}

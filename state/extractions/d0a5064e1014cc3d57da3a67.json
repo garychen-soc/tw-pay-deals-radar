@@ -1,0 +1,107 @@
+{
+ "key": "d0a5064e1014cc3d57da3a67",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:59:52+00:00",
+ "title": "【高雄流行音樂中心演唱會優惠券】憑演唱會門票可獲取 iPASS MONEY 優惠券！",
+ "duration_ms": 6457,
+ "cost_usd": 0.041739200000000004,
+ "usage": {
+  "input": 2,
+  "output": 843,
+  "cache_creation": 8153,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "掃描 「高流應援優惠券酷卡」上之優惠券 QR CODE 即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "欲領取「高流應援數位優惠券」須先取得「高流應援優惠券酷卡」並掃描酷卡上 QRcode 方可獲得「高流應援數位優惠券」"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
+     }
+    ],
+    "min_spend": {
+     "amount": 50,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 50 元後即可兌換 1 張"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "unclear",
+      "quote": "每場門票張數限領 1 張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高雄市指定店家",
+    "how": "使用 iPASS MONEY APP 掃描一卡通 TWQR 立牌付款",
+    "limited": {
+     "value": "yes",
+     "quote": "各場次數量有限，兌完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各場次數量有限，兌完為止"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "領取日起 ~ 2027/1/31",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "僅限場次當日至活動公告之指定地點兌換",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "各場次票券限兌換一次"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "適用交易區間 領券日起 ~ 2027/1/31"
+    }
+   }
+  ]
+ }
+}

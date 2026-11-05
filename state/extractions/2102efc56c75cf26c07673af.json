@@ -1,0 +1,71 @@
+{
+ "key": "2102efc56c75cf26c07673af",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:49+00:00",
+ "title": "三峽X八里攜手趴趴走 揪用台灣Pay享20%大回饋",
+ "duration_ms": 4662,
+ "cost_usd": 0.0295932,
+ "usage": {
+  "input": 2,
+  "output": 480,
+  "cache_creation": 6024,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%之現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%之現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡號/帳戶最高回饋以1,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "三峽老街商圈及八里渡船頭商圈指定店家",
+    "how": "使用「台灣Pay」QR Code掃碼進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限50萬元，如達回饋總金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限50萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

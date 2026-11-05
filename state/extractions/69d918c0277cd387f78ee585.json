@@ -1,0 +1,231 @@
+{
+ "key": "69d918c0277cd387f78ee585",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:21:35+00:00",
+ "title": "全支付旅遊專區｜不限消費金額、次數享1%全點回饋！新戶滿額再加碼3%",
+ "duration_ms": 14724,
+ "cost_usd": 0.051689200000000005,
+ "usage": {
+  "input": 2,
+  "output": 1612,
+  "cache_creation": 8718,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "選擇以全支付付款並完成訂單，可享以下回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參與"
+  },
+  "subs": [
+   {
+    "name": "主活動：消費不限金額1%回饋！最高100全點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1,
+      "unit": "%",
+      "quote": "消費不限金額、不限次數享1%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一全支付帳號每月最高享100全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於全支付APP全旅遊專區活動頁選購合作夥伴商品",
+    "how": "並使用全支付完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月預算 NT$65,000"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶活動：首購單筆消費滿$1000享3%回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "即享3%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "首筆消費滿$1,000完成付款"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "unclear",
+      "quote": "每一全支付帳號限取得一次回饋最高100點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "限過往從未註冊全支付會員"
+    },
+    "where": "於全支付App全旅遊專區首筆消費",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月預算 NT$10,000"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "加碼活動：週年慶期間旅遊專區不限消費金額，即可獲得一次抽獎機會，有機會抽中日本雙人來回機票；消費筆數越多，中獎機會越高",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "日本雙人來回機票兌換券(市值約新臺幣40,000元)，共1名"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參與"
+    },
+    "where": "於全支付APP旅遊專區活動頁選購合作夥伴商品",
+    "how": "不限付款方式",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": 1,
+     "quote": "共1名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "筆筆再享最高3%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

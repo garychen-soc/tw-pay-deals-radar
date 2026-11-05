@@ -1,0 +1,75 @@
+{
+ "key": "6dbc70ce9615415cc54ff15c",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:08+00:00",
+ "title": "跟Richart一起快樂悠遊付 完成指定任務享用戶禮回饋",
+ "duration_ms": 4741,
+ "cost_usd": 0.024171199999999997,
+ "usage": {
+  "input": 2,
+  "output": 529,
+  "cache_creation": 4546,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可獲得用戶禮NT$350悠遊付儲值金與Richart造型悠遊卡乙張"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 350,
+      "unit": "元",
+      "quote": "用戶禮NT$350悠遊付儲值金"
+     },
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "Richart造型悠遊卡乙張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "成功消費扣款一次(不限金額)"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "尚未申辦Richart數位存款帳戶且符合申辦資格及未曾成功參加任何Richart存款帳戶同期行銷推廣活動之本國自然人"
+    },
+    "where": "悠遊付",
+    "how": "完成於悠遊付綁定Richart存款帳戶且成功消費扣款一次(不限金額)",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

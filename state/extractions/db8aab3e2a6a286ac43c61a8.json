@@ -1,0 +1,71 @@
+{
+ "key": "db8aab3e2a6a286ac43c61a8",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:18+00:00",
+ "title": "It’s「米」Time！刷台灣Pay享20%回饋",
+ "duration_ms": 3364,
+ "cost_usd": 0.027957199999999998,
+ "usage": {
+  "input": 2,
+  "output": 494,
+  "cache_creation": 5580,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "用戶於活動地點單筆消費不限金額可享20%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每一金融卡/帳戶於活動期間內回饋最高以新臺幣(以下同)1,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "米炭火燒肉品牌受理「台灣Pay」之指定門市",
+    "how": "以「台灣 Pay」QR Code 掃碼進行支付(金融卡/帳戶)",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限60萬元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限60萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

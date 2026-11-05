@@ -1,0 +1,210 @@
+{
+ "key": "f7f16106026a9309a568f701",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:01+00:00",
+ "title": "用悠遊付搭乘雙北捷運公車 滿30趟最高送$100",
+ "duration_ms": 8145,
+ "cost_usd": 0.0378112,
+ "usage": {
+  "input": 2,
+  "output": 1469,
+  "cache_creation": 5606,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即贈20元悠遊付現金回饋券(限量3萬份)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "視同參加本活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "滿11趟(不含0元扣款)",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 20,
+      "unit": "元",
+      "quote": "即贈20元悠遊付現金回饋券(限量3萬份)"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "筆",
+     "per": "month",
+     "quote": "單月累計\n滿11趟(不含0元扣款)"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台北捷運(不含貓空纜車)、新北捷運環狀線、雙北聯營公車",
+    "how": "悠遊付乘車碼或嗶乘車",
+    "limited": {
+     "value": "yes",
+     "quote": "限量3萬份"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "限量3萬份"
+    },
+    "sold_out": [
+     {
+      "quote": "10月份活動已於2026/10/21 20:28額滿，感謝您的支持！",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "滿21趟(不含0元扣款)",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 30,
+      "unit": "元",
+      "quote": "即贈30元悠遊付現金回饋券(限量1.5萬份)"
+     }
+    ],
+    "min_spend": {
+     "amount": 21,
+     "unit": "筆",
+     "per": "month",
+     "quote": "滿21趟(不含0元扣款)，即贈30元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台北捷運(不含貓空纜車)、新北捷運環狀線、雙北聯營公車",
+    "how": "悠遊付乘車碼或嗶乘車",
+    "limited": {
+     "value": "yes",
+     "quote": "限量1.5萬份"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "限量1.5萬份"
+    },
+    "sold_out": [
+     {
+      "quote": "10月份活動已於2026/10/20 07:31額滿，感謝您的支持！",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "滿30趟(不含0元扣款)",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "再贈50元悠遊付現金回饋券(限量1.5萬份)"
+     }
+    ],
+    "min_spend": {
+     "amount": 30,
+     "unit": "筆",
+     "per": "month",
+     "quote": "滿30趟(不含0元扣款)，再贈50元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台北捷運(不含貓空纜車)、新北捷運環狀線、雙北聯營公車",
+    "how": "悠遊付乘車碼或嗶乘車",
+    "limited": {
+     "value": "yes",
+     "quote": "限量1.5萬份"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "限量1.5萬份"
+    },
+    "sold_out": [
+     {
+      "quote": "10月份活動已於2026/10/29 21:03額滿，感謝您的支持！",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

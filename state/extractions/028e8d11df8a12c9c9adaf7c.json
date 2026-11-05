@@ -1,0 +1,121 @@
+{
+ "key": "028e8d11df8a12c9c9adaf7c",
+ "prompt_version": "2026-11-06.2",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:08:22+00:00",
+ "title": "選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！",
+ "duration_ms": 8172,
+ "cost_usd": 0.0374634,
+ "usage": {
+  "input": 2,
+  "output": 838,
+  "cache_creation": 7097,
+  "cache_read": 3457
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享各項補助款項目之首筆補助金額回饋金10%，單筆最高回饋300元"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "活動期間請於指定補助款項申請表(或托育補助異動通報單)勾選以悠遊付領取補助款，並檢附悠遊付收款碼頁面截圖進行申請"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "享各項補助款項目之首筆補助金額回饋金10%"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆最高回饋300元"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每悠遊付用戶之每項補助期間內限各回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "活動一限活動期間首次申請(或異動)以悠遊付領取指定補助款之悠遊付用戶參加"
+    },
+    "where": "臺北市早期療育補助及托育補助",
+    "how": "以悠遊付領取指定補助款",
+    "limited": {
+     "value": "yes",
+     "quote": "金額有限，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動一回饋金總金額上限新台幣20萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 15,
+      "unit": "元",
+      "quote": "次月份加碼15元回饋金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每一悠遊付用戶限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "選用悠遊付領取補助款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

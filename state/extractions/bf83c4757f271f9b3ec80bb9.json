@@ -1,0 +1,234 @@
+{
+ "key": "bf83c4757f271f9b3ec80bb9",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:16:53+00:00",
+ "title": "【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！",
+ "duration_ms": 16629,
+ "cost_usd": 0.05686720000000001,
+ "usage": {
+  "input": 2,
+  "output": 2687,
+  "cache_creation": 7325,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "指定商品任選 4 件 75 折"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "結帳時出示 uniopen 會員條碼或報會員電話以獲得本活動優惠"
+  },
+  "subs": [
+   {
+    "name": "優惠一:指定商品任選 4 件 75 折",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 75,
+      "unit": "折",
+      "quote": "指定商品任選 4 件 75 折"
+     }
+    ],
+    "min_spend": {
+     "amount": 4,
+     "unit": "other",
+     "per": "txn",
+     "quote": "指定商品任選 4 件 75 折"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "優惠二:結帳金額單筆滿 1,111 元再現折 100 元",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "結帳金額單筆滿 1,111 元再現折 100 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "結帳金額單筆滿 1,111 元再現折 100 元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "單筆交易限折抵一次，不累折"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總折抵上限 3 萬筆，用完即止"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "本活動總折抵上限 3 萬筆，用完即止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "第一重:單筆滿 1,111 元最高抽 66 元購物金",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 66,
+      "unit": "元",
+      "quote": "單筆滿 1,111 元最高抽 66 元購物金"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "「UNIDESIGN新柔感抽取式衛生紙」(價值 109 元/串)"
+     },
+     {
+      "kind": "coupon",
+      "value": null,
+      "unit": "other",
+      "quote": "「中杯美式 2 杯」乙張免費兌換券"
+     },
+     {
+      "kind": "coupon",
+      "value": null,
+      "unit": "other",
+      "quote": "「福樂優格 2 個」乙張免費兌換券"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿 1,111 元最高抽 66 元購物金"
+    },
+    "caps": [
+     {
+      "amount": 5,
+      "unit": "other",
+      "per": "txn",
+      "quote": "單筆交易上限贈 5 張優惠券"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "第二重:單筆滿 1,711 元送贈品三選一兌換券一張",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "other",
+      "quote": "單筆滿 1,711 元送贈品三選一兌換券一張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1711,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿 1,711 元送贈品三選一兌換券一張"
+    },
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "每會員上限 3 張兌換券"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "數量有限，送完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "observed_at": "2026-11-06T07:05:15+08:00",
+ "llm_calls": 0,
+ "llm_failures": 0,
+ "llm_usage": {
+  "model": "sonnet",
+  "calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "total_tokens": 0,
+  "cost_usd": 0.0,
+  "llm_seconds": 0.0
+ },
+ "publishable": true,
+ "messages": [],
+ "sources": [
+  {
+   "provider_id": "pxpayplus",
+   "provider_name": "全支付",
+   "status": "ok",
+   "entry_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/1",
+   "stubs": 55,
+   "activities": 55,
+   "detail_failures": 0,
+   "message": "",
+   "carried": 0
+  },
+  {
+   "provider_id": "taiwanpay",
+   "provider_name": "台灣Pay",
+   "status": "ok",
+   "entry_url": "https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109",
+   "stubs": 52,
+   "activities": 51,
+   "detail_failures": 0,
+   "message": "",
+   "carried": 0
+  },
+  {
+   "provider_id": "ipassmoney",
+   "provider_name": "一卡通 iPASS MONEY",
+   "status": "ok",
+   "entry_url": "https://www.i-pass.com.tw/Preferential?type=0&page=1",
+   "stubs": 37,
+   "activities": 37,
+   "detail_failures": 0,
+   "message": "",
+   "carried": 0
+  },
+  {
+   "provider_id": "easywallet",
+   "provider_name": "悠遊付",
+   "status": "ok",
+   "entry_url": "https://easywallet.easycard.com.tw/benefit",
+   "stubs": 74,
+   "activities": 74,
+   "detail_failures": 0,
+   "message": "",
+   "carried": 0
+  }
+ ]
+}

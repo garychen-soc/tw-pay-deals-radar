@@ -1,0 +1,3573 @@
+[
+ {
+  "id": "ipassmoney-04213f6585",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "PayPay旅日神隊友經典優惠券領起來",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMYDMMYWGJ56F64zIBEa",
+  "period_start": "2024-12-31",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "image",
+  "external_url": "",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
+  ],
+  "content_hash": "0f1e880c0622372c",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-059d92efec",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【京站台北店/京站小碧潭店】用 iPASS MONEY 消費，滿額贈好禮！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMY5UQHAO64HZOTi",
+  "period_start": "2026-11-05",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "將於用戶符合資格後 5 分鐘內自動派送至用戶的一卡通 iPASS MONEY APP 中",
+  "offers": [
+   {
+    "name": "優惠一:累積消費每滿 500 元送 50 元優惠券，最高限得 2 張",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 5000,
+    "quota_quote": "活動總限量 5,000 張（2 店合併計算）",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "贈送 iPASS MONEY 優惠券 50 元 1 張"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "實際支付金額累積每滿 500 元"
+    },
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "活動期間每人限得 2 張"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "京站台北店/京站小碧潭店現場消費",
+    "how": "結帳時使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
+    "limited": "yes",
+    "limited_quote": "活動總限量 5,000 張（2 店合併計算），數量有限送完為止。",
+    "sold_out": []
+   },
+   {
+    "name": "優惠二:消費享一卡通綠點 10% 回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 30000000,
+    "quota_quote": "活動總限量 3,000 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "掃描任一 TWQR 立牌付款，或開啟付款碼於指定店家消費",
+    "how": "使用 iPASS MONEY 掃描任一 TWQR 立牌付款",
+    "limited": "yes",
+    "limited_quote": "活動總限量 3,000 萬點",
+    "sold_out": []
+   },
+   {
+    "name": "京站台北店Q卡友限定加碼:單筆消費滿 1,000 元贈造型一卡通",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 300,
+    "quota_quote": "活動總限量 300 份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1.0,
+      "unit": "other",
+      "quote": "兌換領取造型一卡通乙張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 1,000 元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限得 1 次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "京站台北店 B3 贈品台",
+    "how": "使用一卡通 iPASS MONEY APP 單筆消費滿 1,000 元",
+    "limited": "yes",
+    "limited_quote": "每人限得 1 次，活動總限量 300 份",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "1e933fa00c6e44fd",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-05d6afe0bf",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【2026 交通優惠】一卡通搭交通，優惠一路通！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTMNQWERQDL64mh9Ji",
+  "period_start": "2026-06-25",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "捷運優惠",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 15.0,
+      "unit": "%",
+      "quote": "當月搭乘享常客優惠最高 15% 現金回饋。"
+     },
+     {
+      "kind": "cash",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "累積滿 200 元可回饋 50 元現金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "month",
+     "quote": "當月搭乘票價累積滿 200 元"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "淡海、安坑輕軌",
+    "how": "",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "台鐵/高鐵",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20.0,
+      "unit": "%",
+      "quote": "臺鐵常客回饋活動最高可享20%現金回饋"
+     },
+     {
+      "kind": "discount",
+      "value": 97.0,
+      "unit": "折",
+      "quote": "搭乘自由座享對號座全票之 97 折優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "僅限電子票證可搭乘之車輛班次",
+    "how": "限聯名信用卡",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "公車/客運",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 5.0,
+      "unit": "元",
+      "quote": "提供雙向轉乘5元優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "用一卡通或使用iPASS MONEY搭乘市區公車，並於1小時內轉乘YouBike",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "公共自行車",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5.0,
+      "unit": "元",
+      "quote": "每次轉乘享iPASS MONEY帳戶儲值金 5 元回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "YouBike 2.0 APP 內綁定「iPASS MONEY」自動扣款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "高雄渡輪",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 30.0,
+      "unit": "元",
+      "quote": "行人享有 30 元全票優惠（原價 40 元）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "搭乘「鼓山 ⇄ 旗津」「前鎮 ⇄ 中州航線」「棧貳庫 ⇄ 旗津」航線",
+    "how": "使用 iPASS一卡通普通卡、iPASS MONEY 乘車碼",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "b8d2050c88fd4b7a",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-07e1abc234",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【誠品生活】iPASS MONEY 最優惠，門市掃碼月月領 100 元優惠券！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCMI7U7AVM64S5EQR",
+  "period_start": "2026-09-18",
+  "period_end": "2026-11-30",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "先領券，再消費！單筆消費滿額，將於 5 分鐘後可進行兌換",
+  "offers": [
+   {
+    "name": "優惠一:月月領 100 元優惠券",
+    "slots": [
+     {
+      "start": "2026-10-01T00:00:00+08:00",
+      "end": "2026-10-31T23:59:00+08:00",
+      "kind": "range",
+      "origin": "explicit",
+      "precision": "day",
+      "holiday_shifted": false,
+      "note": "",
+      "evidence": {
+       "quote": "2026/10/1 - 10/31",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCMI7U7AVM64S5EQR"
+      }
+     },
+     {
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-11-30T23:59:00+08:00",
+      "kind": "range",
+      "origin": "explicit",
+      "precision": "day",
+      "holiday_shifted": false,
+      "note": "",
+      "evidence": {
+       "quote": "2026/11/1 - 11/30",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCMI7U7AVM64S5EQR"
+      }
+     }
+    ],
+    "rules": [
+     "2026/9/18 - 9/30",
+     "2026/10/1 - 10/31",
+     "2026/11/1 - 11/30"
+    ],
+    "reregister": "each_period",
+    "reregister_quote": "活動期間每人每月限領 1 張",
+    "order": "register_before_spend",
+    "order_quote": "先領券，再消費！",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "單筆消費滿額後即可兌換優惠券領取儲值金 100 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 499,
+     "unit": "元",
+     "per": "txn",
+     "quote": "使用 iPASS MONEY 單筆消費滿 499 元方可兌換1張"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "month",
+      "quote": "活動期間每人每月限領 1 張"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "誠品生活/誠品書店實體門市（百貨門市、官網不適用）",
+    "how": "結帳時使用 iPASS MONEY APP（含帳戶餘額或綁定信用卡付款）",
+    "limited": "no",
+    "limited_quote": "無總量限制",
+    "sold_out": []
+   },
+   {
+    "name": "綁定聯邦信用卡消費最高享10%回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "每月總回饋上限 25 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "綁定聯邦信用卡消費最高享10%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 50 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定聯邦信用卡消費",
+    "limited": "yes",
+    "limited_quote": "每月總回饋上限 25 萬點",
+    "sold_out": []
+   },
+   {
+    "name": "綁定玉山unicard消費最高享4.5%回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.5,
+      "unit": "%",
+      "quote": "綁定玉山unicard消費最高享4.5%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定玉山unicard消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "綁定 LINE BANK 快點卡消費滿額最高享 4% 回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.0,
+      "unit": "%",
+      "quote": "綁定 LINE BANK 快點卡消費滿額最高享 4% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定 LINE BANK 快點卡消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "綁定王道簽帳金融卡新卡消費最高享 600 元回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 600.0,
+      "unit": "元",
+      "quote": "綁定王道簽帳金融卡新卡消費最高享 600 元回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定王道簽帳金融卡新卡消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "43c370d20c1b0464",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-0d1fae45e4",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【台新銀行】指定連結開立 Richart 數位存款帳戶，完成指定任務享 250 元回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDMMITD5KDA64Xu23W",
+  "period_start": "2026-01-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://richart.tw/TSDIB_RichartWeb/discount/discount-details?discount=307",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "cbb7bd3605af8155",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-1381b115d8",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【樂天銀行】iPASS MONEY 連接樂天銀行新戶，享一卡通綠點 800 點回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAOALJHZ7V64k0dNf",
+  "period_start": "2026-09-01",
+  "period_end": "2026-11-30",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶"
+    ],
+    "reregister": "once",
+    "reregister_quote": "每位新戶僅能輸入一次推薦序號，開戶後不可更換或補填推薦序號。",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "回饋名額無上限",
+    "review": [
+     "規則無法驗證（year=2026 在引句中找不到）：於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 800.0,
+      "unit": "點",
+      "quote": "回饋一卡通綠點 800 點"
+     }
+    ],
+    "min_spend": {
+     "amount": 3,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "使用 iPASS MONEY 成功付款 3 筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每名新戶限回饋 1 次"
+     }
+    ],
+    "new_users_only": "yes",
+    "new_users_quote": "樂天國際銀行「新戶」定義:於本活動起始日前從未成功於樂天國際銀行開立帳戶",
+    "where": "",
+    "how": "於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶",
+    "limited": "no",
+    "limited_quote": "回饋名額無上限",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "cc065afbfa989a20",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-21e68589bf",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【漢神百貨/漢神巨蛋購物廣場】週年慶暖身同狂歡！月月領 100 元優惠券！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMIXGEHTS64yy8Ve",
+  "period_start": "2026-10-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請於指定月份於一卡通 iPASS MONEY APP 輸入優惠券代碼【漢神超神券】，即可領取",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "領取區間\n2026/10/1 - 10/31\n2026/11/1 - 11/30\n2026/12/1 - 12/31",
+     "請於指定月份於一卡通 iPASS MONEY APP 輸入優惠券代碼【漢神超神券】"
+    ],
+    "reregister": "each_period",
+    "reregister_quote": "每月優惠券代碼皆相同，於指定期間輸入代碼即可領取該期間贈送的優惠券",
+    "order": "register_before_spend",
+    "order_quote": "本活動採「先領券、後消費」機制。請務必於消費前完成領券",
+    "quota": 20000,
+    "quota_quote": "活動總限量 20,000 張",
+    "review": [
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "即可領取漢神百貨/漢神巨蛋購物廣場兩館通用優惠券 100 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 888,
+     "unit": "元",
+     "per": "txn",
+     "quote": "領取後使用 iPASS MONEY 單筆消費滿 888 元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "活動期間每人每月限領 1 張"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "漢神百貨/漢神巨蛋購物廣場指定店鋪",
+    "how": "使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
+    "limited": "yes",
+    "limited_quote": "活動總限量 20,000 張，數量有限送完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "79750ad562c5d187",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-29e5831cf0",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【高雄流行音樂中心演唱會優惠券】憑演唱會門票可獲取 iPASS MONEY 優惠券！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMYE26FQ664OlUBX",
+  "period_start": "2026-08-28",
+  "period_end": "2027-01-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "欲領取「高流應援數位優惠券」須先取得「高流應援優惠券酷卡」並掃描酷卡上 QRcode 方可獲得「高流應援數位優惠券」",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "僅限場次當日至活動公告之指定地點兌換"
+    ],
+    "reregister": "once",
+    "reregister_quote": "各場次票券限兌換一次",
+    "order": "register_before_spend",
+    "order_quote": "適用交易區間 領券日起 ~ 2027/1/31",
+    "quota": null,
+    "quota_quote": "各場次數量有限，兌完為止",
+    "review": [
+     "引句不在原文中：領取日起 ~ 2027/1/31",
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
+     }
+    ],
+    "min_spend": {
+     "amount": 50,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 50 元後即可兌換 1 張"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "unknown",
+      "quote": "每場門票張數限領 1 張"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "高雄市指定店家",
+    "how": "使用 iPASS MONEY APP 掃描一卡通 TWQR 立牌付款",
+    "limited": "yes",
+    "limited_quote": "各場次數量有限，兌完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "05fe729871eaf25e",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-2db41874e4",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【元大銀行】輸入指定代碼領元大信用卡專屬優惠券 50 元！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGMQ6C6XSX64Wf1MT",
+  "period_start": "2026-10-08",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/in.do?id=6c8488f36d00000190e0",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "4cc21dff0966b6de",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-3470c69da6",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【旅電科技】使用 iPASS MONEY 付款樂享 10% 回饋，累積消費滿百再送 2 小時借電券！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNYDQKTX564d2xFQ",
+  "period_start": "2026-09-18",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請至遲於付款當月底前加入一卡通綠點。",
+  "offers": [
+   {
+    "name": "【優惠一】累積付款滿百送 2 小時借電券",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 2.0,
+      "unit": "other",
+      "quote": "每月累積付款金額每滿 100 元贈旅電科技 2 小時借電券一張"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "month",
+     "quote": "每月累積付款金額每滿 100 元贈旅電科技 2 小時借電券一張"
+    },
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每人每月限得 3 張"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "活動期間於旅電 APP 使用 iPASS MONEY 付款租借旅電科技行動電源",
+    "how": "使用 iPASS MONEY 付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "【優惠二】消費享一卡通綠點 10% 回饋",
+    "slots": [],
+    "rules": [
+     "請至遲於付款當月底前加入一卡通綠點。"
+    ],
+    "reregister": "once",
+    "reregister_quote": "同意加入一卡通綠點回饋",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於付款當月底前加入一卡通綠點。",
+    "quota": 30000000,
+    "quota_quote": "活動總限量 3,000 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "掃描任一 TWQR 立牌 或於指定店家付款",
+    "how": "使用一卡通 iPASS MONEY APP 掃描任一 TWQR 立牌",
+    "limited": "yes",
+    "limited_quote": "活動總限量 3,000 萬點",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "117c3bb24c2ad331",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-387a2665e6",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "搭乘公共運輸，省錢又減碳 TPASS 2.0 常客回饋再升級！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSOAMUKTSP64TBhdr",
+  "period_start": "2026-08-06",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "可下載 iPASS MONEY APP 完成註冊會員，並點選加入常客優惠及同意個資使用聲明後，即可符合常客回饋資格。",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "once",
+    "reregister_quote": "曾於票證公司完成 TPASS 2.0 記名登錄者，不需再登錄即可接續享有 TPASS 2.0+ 常客回饋資格。",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [
+     "回饋引句不在原文中：+3%"
+    ],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "第 1 波早鳥\n50 元\n首購回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "可下載 iPASS MONEY APP 完成註冊會員，並點選加入常客優惠及同意個資使用聲明後",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "需登錄或領券，但官方未寫時點"
+  ],
+  "content_hash": "da553799c09c896e",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-3ae8239923",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【玉山銀行】綁定玉山Unicard消費任 1 筆，享一卡通綠點 500 點回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNATUFDDM64G9CFS",
+  "period_start": "2026-09-16",
+  "period_end": "2026-11-30",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 2000,
+    "quota_quote": "限前 2,000 名",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 500.0,
+      "unit": "點",
+      "quote": "享一卡通綠點 500 點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "新增 1 筆一般消費"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限得1次"
+     }
+    ],
+    "new_users_only": "yes",
+    "new_users_quote": "僅限透過一卡通 iPASS MONEY APP 專屬連結（網址）首次申辦玉山Unicard正卡",
+    "where": "",
+    "how": "於一卡通 iPASS MONEY APP 綁定玉山Unicard新增 1 筆一般消費",
+    "limited": "yes",
+    "limited_quote": "限前 2,000 名",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "26224a0412c5e0d9",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-40b0db5bd9",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【 TWQR 掃碼繳稅】用 iPASS MONEY APP 繳地價稅即贈 50 元數位券",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGNQMTS7KZ64g6ApJ",
+  "period_start": "2026-10-27",
+  "period_end": "2026-12-03",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "本活動為回饋「數位券」，欲參加活動請先於 iPASS MONEY APP「開通」數位券錢包，若未開通數位券錢包將不符合活動資格。",
+  "offers": [
+   {
+    "name": "",
+    "slots": [
+     {
+      "start": "2026-10-27T00:00:00+08:00",
+      "end": "2026-12-03T23:59:00+08:00",
+      "kind": "range",
+      "origin": "explicit",
+      "precision": "minute",
+      "holiday_shifted": false,
+      "note": "",
+      "evidence": {
+       "quote": "活動日期:2026/10/27 00:00 - 2026/12/3 23:59",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGNQMTS7KZ64g6ApJ"
+      }
+     }
+    ],
+    "rules": [
+     "活動日期:2026/10/27 00:00 - 2026/12/3 23:59"
+    ],
+    "reregister": "once",
+    "reregister_quote": "活動前已開通之用戶亦適用",
+    "order": "register_before_spend",
+    "order_quote": "欲參加活動請先於 iPASS MONEY APP「開通」數位券錢包",
+    "quota": 25000,
+    "quota_quote": "本活動回饋數位券總限量 25,000 張",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "送「數位券」50 元 1張"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "每人限贈一張"
+     }
+    ],
+    "new_users_only": "no",
+    "new_users_quote": "活動前已開通之用戶亦適用",
+    "where": "於 iPASS MONEY APP 首頁 >開啟「掃碼支付」>掃描地價稅帳單上之 QR code >完成繳費。",
+    "how": "於一卡通 iPASS MONEY APP「開通」iPASS MONEY 數位券錢包",
+    "limited": "yes",
+    "limited_quote": "本活動回饋數位券總限量 25,000 張",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "9a6e9e22c7e4af3f",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-42fe204211",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【WeMo】綁定 iPASS MONEY 扣款送 50 元騎乘券！再享 10% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAMQVOGGMI64EFjxC",
+  "period_start": "2026-08-14",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "優惠一:綁定 iPASS MONEY 扣款任一筆，即享 WeMo 騎乘券 50 元",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "即享 WeMo 騎乘券 50 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "綁定 iPASS MONEY 扣款任一筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每人限得一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "WeMo App",
+    "how": "於 WeMo App 綁定 iPASS MONEY 扣款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "優惠二:用 iPASS MONEY 扣款享一卡通綠點 10% 回饋",
+    "slots": [],
+    "rules": [
+     "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "用 iPASS MONEY 扣款享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "WeMo App",
+    "how": "使用 iPASS MONEY 扣款租借 WeMo",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "a888df96cc130c71",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-47fc4784b0",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【王道銀行】指定連結開立王道帳戶，並符合條件享 600 元回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDONI3CBS27642MKg1",
+  "period_start": "2026-03-01",
+  "period_end": "2026-12-30",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 830,
+    "quota_quote": "本活動限前 830 名核卡之客戶參加",
+    "review": [
+     "子活動名稱不在原文中：活動1"
+    ],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 600.0,
+      "unit": "元",
+      "quote": "享 iPASS MONEY 儲值金 600 元回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 3,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "刷卡一般消費不限金額滿 3 筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一位一卡通 iPASS MONEY 會員限回饋乙次"
+     }
+    ],
+    "new_users_only": "yes",
+    "new_users_quote": "本活動僅適用於新戶，新戶係指未曾持有王道銀行任一存款帳戶者",
+    "where": "",
+    "how": "使用王道簽帳金融卡綁定一卡通 iPASS MONEY 刷卡一般消費",
+    "limited": "yes",
+    "limited_quote": "本活動限前 830 名核卡之客戶參加",
+    "sold_out": []
+   },
+   {
+    "name": "活動2:王道超給利（限時活動 2026/7/1 - 2026/10/31 開戶者）",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 300,
+    "quota_quote": "本活動限前 300 名客戶參與",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 388.0,
+      "unit": "元",
+      "quote": "再享新台幣 388 元現金回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 3000,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "刷卡消費累積滿新台幣 3,000 元"
+    },
+    "caps": [],
+    "new_users_only": "yes",
+    "new_users_quote": "本活動僅適用於新戶，新戶係指未曾持有王道銀行任一存款帳戶者",
+    "where": "",
+    "how": "使用一卡通 iPASS MONEY APP 綁定王道銀行簽帳金融卡",
+    "limited": "yes",
+    "limited_quote": "本活動限前 300 名客戶參與",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "e1fa2bf8a2e5114f",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-48b9168ec3",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【iPASS MONEY】連結銀行帳戶/信用卡享優惠！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj",
+  "period_start": "2021-11-18",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "綁定聯邦信用卡單筆消費滿 200 元，最高享 10% 回饋！",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "最高享 10% 回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 200 元"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定聯邦信用卡",
+    "limited": "yes",
+    "limited_quote": "11月份回饋上限已於2026/11/3 17:00 額滿",
+    "sold_out": [
+     {
+      "scope_label": "11月份",
+      "scope_start": "2026-11-01",
+      "scope_end": "2026-11-30",
+      "source": "terms",
+      "evidence": {
+       "quote": "11月份回饋上限已於2026/11/3 17:00 額滿",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj"
+      }
+     }
+    ]
+   },
+   {
+    "name": "指定連結開立 New New Bank 數位存款帳戶，完成指定任務最高享 150 元",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 150.0,
+      "unit": "元",
+      "quote": "完成指定任務最高享 150 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "指定連結開立 New New Bank 數位存款帳戶",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "指定連結開立 Richart 數位存款帳戶，完成指定任務享 250 元回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 250.0,
+      "unit": "元",
+      "quote": "完成指定任務享 250 元回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "指定連結開立 Richart 數位存款帳戶",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "樂天網銀新戶，用 iPASS MONEY 付款任 3 筆享 800 點回饋！",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 800.0,
+      "unit": "點",
+      "quote": "享 800 點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 3,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "付款任 3 筆"
+    },
+    "caps": [],
+    "new_users_only": "yes",
+    "new_users_quote": "樂天網銀新戶",
+    "where": "",
+    "how": "用 iPASS MONEY 付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "綁定王道Debit卡消費最高享 5% 回饋！",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5.0,
+      "unit": "%",
+      "quote": "最高享 5% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定王道Debit卡",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "指定連結開立王道帳戶，並符合條件享 600 元回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 600.0,
+      "unit": "元",
+      "quote": "享 600 元回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "指定連結開立王道帳戶",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "指定連結申辦玉山Unicard，並消費任 1 筆享 500 點回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 500.0,
+      "unit": "點",
+      "quote": "享 500 點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "消費任 1 筆"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "指定連結申辦玉山Unicard",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "綁定玉山 Unicard 消費，最高享 4.5% 回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.5,
+      "unit": "%",
+      "quote": "最高享 4.5% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定玉山 Unicard",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "輸入指定代碼領元大信用卡專屬優惠券 50 元",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "元大信用卡專屬優惠券 50 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "輸入指定代碼",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "綁定 LINE Bank 快點卡消費，符合條件最高享 4% 回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.0,
+      "unit": "%",
+      "quote": "最高享 4% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定 LINE Bank 快點卡",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "358fccdbcd991e00",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-48eb002a9d",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【好禮券】好禮入手、點數到手，使用 iPASS MONEY 付款，享一卡通綠點 10% 回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DAMADJE3436443FDm",
+  "period_start": "2026-08-14",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "優惠一:「好禮券」專區消費享 10% 回饋",
+    "slots": [],
+    "rules": [
+     "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+    "quota": null,
+    "quota_quote": "活動總回饋上限 1,000 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "消費總額享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "iPASS MONEY APP「好禮券」專區",
+    "how": "使用一卡通 iPASS MONEY APP 付款",
+    "limited": "yes",
+    "limited_quote": "活動總回饋上限 1,000 萬點",
+    "sold_out": []
+   },
+   {
+    "name": "綁定聯邦信用卡消費最高享10%回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "每月總回饋上限 25 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "綁定聯邦信用卡消費最高享10%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 50 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定聯邦信用卡消費",
+    "limited": "yes",
+    "limited_quote": "每月總回饋上限 25 萬點",
+    "sold_out": []
+   },
+   {
+    "name": "綁定玉山unicard消費最高享4.5%回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.5,
+      "unit": "%",
+      "quote": "綁定玉山unicard消費最高享4.5%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定玉山unicard消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "9/27前綁定 LINE BANK 快點卡消費滿額最高享4%回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4.0,
+      "unit": "%",
+      "quote": "9/27前綁定 LINE BANK 快點卡消費滿額最高享4%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "9/27前綁定 LINE BANK 快點卡消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "綁定王道簽帳金融卡新卡消費最高享600元回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 600.0,
+      "unit": "元",
+      "quote": "綁定王道簽帳金融卡新卡消費最高享600元回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定王道簽帳金融卡新卡消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "b90a12081f01b5f5",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-576960aa38",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【環保集點】點點成金！好康再升級！兌換一卡通綠點就送 50 元優惠券",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DENQ4PH4Z264I2izd",
+  "period_start": "2026-10-20",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "活動期間於環保集點平台，使用環保綠點兌換「一卡通綠點兌換碼」，並於一卡通 iPASS MONEY APP 完成 1 筆「一卡通綠點」兌領",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "each_period",
+    "reregister_quote": "活動回饋資格每月重新計算，用戶每月皆須於環保集點平台使用環保綠點，兌換「一卡通綠點兌換碼」",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 80000,
+    "quota_quote": "每月總限量 8 萬張",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "送 iPASS MONEY 優惠券 50 元 1 張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "month",
+     "quote": "並於一卡通 iPASS MONEY APP 完成 1 筆「一卡通綠點」兌領"
+    },
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "活動期間每人每月限得 3 張"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "可使用 iPASS MONEY APP 付款之通路均可使用",
+    "how": "使用環保綠點兌換「一卡通綠點兌換碼」",
+    "limited": "yes",
+    "limited_quote": "每月總限量 8 萬張，贈完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "需登錄或領券，但官方未寫時點"
+  ],
+  "content_hash": "22914747da20cb9e",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-6db4276fb9",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【高雄巨蛋智慧杆】登錄活動-捷運巨蛋站進出站筆筆交易享 5 點回饋並加碼領最高 100 回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG",
+  "period_start": "2026-09-18",
+  "period_end": "2026-11-30",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "掃描影片中 QR Code 完成活動登錄，享以下回饋",
+  "offers": [
+   {
+    "name": "活動一:完成登錄領取 50 元優惠券！",
+    "slots": [
+     {
+      "start": null,
+      "end": "2026-11-30T23:59:00+08:00",
+      "kind": "deadline",
+      "origin": "explicit",
+      "precision": "minute",
+      "holiday_shifted": false,
+      "note": "",
+      "evidence": {
+       "quote": "兌換期限 2026/11/30前",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG"
+      }
+     }
+    ],
+    "rules": [
+     "請務必於消費前完成領券",
+     "兌換期限 2026/11/30前"
+    ],
+    "reregister": "once",
+    "reregister_quote": "活動期間每人限領 1 份",
+    "order": "register_before_spend",
+    "order_quote": "本活動採「先領券、後消費」機制。請務必於消費前完成領券",
+    "quota": 2000,
+    "quota_quote": "總限量 2,000 份",
+    "review": [
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "領取 iPASS MONEY 優惠券 50 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 100 元即可兌換優惠券"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "活動期間每人限領 1 份"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "高雄巨蛋周邊(含漢神巨蛋購物廣場、巨蛋市集及瑞豐夜市等)指定店家",
+    "how": "使用一卡通 iPASS MONEY APP 掃描「一卡通 TWQR 立牌」或開啟付款碼",
+    "limited": "yes",
+    "limited_quote": "總限量 2,000 份，數量有限送完為止",
+    "sold_out": []
+   },
+   {
+    "name": "活動二:前一千名登錄者加贈一卡通綠點 50 點",
+    "slots": [],
+    "rules": [
+     "請至遲於登錄當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "每人限領 1 次",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 1000,
+    "quota_quote": "限前 1,000 名登錄者",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50.0,
+      "unit": "點",
+      "quote": "加贈一卡通綠點 50 點"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限領 1 次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "須同意加入一卡通綠點回饋計畫方符合回饋資格",
+    "limited": "yes",
+    "limited_quote": "限前 1,000 名登錄者，額滿將公告於此活動頁",
+    "sold_out": [
+     {
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null,
+      "source": "terms",
+      "evidence": {
+       "quote": "本活動回饋上限已於 2026/10/8 16:00 額滿",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG"
+      }
+     }
+    ]
+   },
+   {
+    "name": "活動三:搭乘捷運於巨蛋站進/出站，筆筆交易享一卡通綠點 5 點回饋，指定期間搭乘加碼贈 20 點回饋。",
+    "slots": [],
+    "rules": [
+     "請至遲於登錄當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "register_before_spend",
+    "order_quote": "搭乘時需已完成活動頁登錄方可符合活動資格",
+    "quota": null,
+    "quota_quote": "活動總限量 10 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5.0,
+      "unit": "點",
+      "quote": "該趟搭乘即可獲贈一卡通綠點 5 點"
+     },
+     {
+      "kind": "points",
+      "value": 20.0,
+      "unit": "點",
+      "quote": "該趟搭乘加贈一卡通綠點 20 點"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "高雄捷運「巨蛋站」進站或出站",
+    "how": "使用 iPASS MONEY 乘車碼或一卡通記名卡搭乘高雄捷運",
+    "limited": "yes",
+    "limited_quote": "活動總限量 10 萬點，贈完為止，額滿將公告於此活動頁",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "31adcf3bb31e8022",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-94c803f085",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【萊爾富】用 iPASS MONEY APP 綁定聯邦信用卡付款，樂享 10% 現折，滿額再享一卡通綠點 10% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTCOIEQHMYK64buVeG",
+  "period_start": "2026-04-30",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "參加本活動之優惠二前須先至一卡通 iPASS MONEY APP 首頁中的「一卡通綠點」專區中完成同意「一卡通綠點使用規則」",
+  "offers": [
+   {
+    "name": "優惠一:不限金額 10% 現折",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "天天不限金額享 10% 現折"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全台萊爾富實體門市",
+    "how": "使用一卡通 iPASS MONEY APP 綁定聯邦銀行信用卡並透過「付款碼」於萊爾富便利商店結帳付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "優惠二:滿額樂享一卡通綠點 10% 回饋",
+    "slots": [],
+    "rules": [
+     "至遲須於消費當月底前同意「一卡通綠點使用規則」"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "retroactive_ok",
+    "order_quote": "至遲須於消費當月底前同意「一卡通綠點使用規則」",
+    "quota": null,
+    "quota_quote": "每月總回饋上限 25 萬點",
+    "review": [
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿 200 元"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 50 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全台萊爾富實體門市",
+    "how": "使用一卡通 iPASS MONEY APP 綁定聯邦銀行信用卡並透過「付款碼」於萊爾富便利商店結帳付款",
+    "limited": "yes",
+    "limited_quote": "每月總回饋上限 25 萬點",
+    "sold_out": []
+   },
+   {
+    "name": "優惠三:首次消費最高享一卡通綠點 20% 回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20.0,
+      "unit": "%",
+      "quote": "當月消費總額最高享一卡通綠點 20% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "yes",
+    "new_users_quote": "首次使用 iPASS MONEY APP 付款",
+    "where": "全台萊爾富實體門市",
+    "how": "使用一卡通 iPASS MONEY APP 綁定聯邦銀行信用卡並透過「付款碼」於萊爾富便利商店結帳付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "16eb53e344db51af",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-9804812d7d",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DIMQ6R7A6Z647SEU8",
+  "period_start": "2026-11-04",
+  "period_end": "2026-11-09",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "結帳時出示 uniopen 會員條碼或報會員電話以獲得本活動優惠",
+  "offers": [
+   {
+    "name": "優惠一:指定商品任選 4 件 75 折",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 75.0,
+      "unit": "折",
+      "quote": "指定商品任選 4 件 75 折"
+     }
+    ],
+    "min_spend": {
+     "amount": 4,
+     "unit": "other",
+     "per": "txn",
+     "quote": "指定商品任選 4 件 75 折"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "優惠二:結帳金額單筆滿 1,111 元再現折 100 元",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 30000,
+    "quota_quote": "本活動總折抵上限 3 萬筆，用完即止",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "結帳金額單筆滿 1,111 元再現折 100 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "結帳金額單筆滿 1,111 元再現折 100 元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "單筆交易限折抵一次，不累折"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": "yes",
+    "limited_quote": "本活動總折抵上限 3 萬筆，用完即止",
+    "sold_out": []
+   },
+   {
+    "name": "第一重:單筆滿 1,111 元最高抽 66 元購物金",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 66.0,
+      "unit": "元",
+      "quote": "單筆滿 1,111 元最高抽 66 元購物金"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "「UNIDESIGN新柔感抽取式衛生紙」(價值 109 元/串)"
+     },
+     {
+      "kind": "coupon",
+      "value": null,
+      "unit": "other",
+      "quote": "「中杯美式 2 杯」乙張免費兌換券"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿 1,111 元最高抽 66 元購物金"
+    },
+    "caps": [
+     {
+      "amount": 5,
+      "unit": "other",
+      "per": "txn",
+      "quote": "單筆交易上限贈 5 張優惠券"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "第二重:單筆滿 1,711 元送贈品三選一兌換券一張",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "數量有限，送完為止",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1.0,
+      "unit": "other",
+      "quote": "單筆滿 1,711 元送贈品三選一兌換券一張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1711,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿 1,711 元送贈品三選一兌換券一張"
+    },
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "每會員上限 3 張兌換券"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全台 7-ELEVEN 便利商店實體通路",
+    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
+    "limited": "yes",
+    "limited_quote": "數量有限，送完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "c10d8a9ee56195a2",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-a44ccfca4a",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【王道銀行】綁王道卡消費，最高享 5% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE",
+  "period_start": "2026-08-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_3",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "c070cf2db0697e31",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-a6fff723dd",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【Readmoo 讀墨電子書】註冊讀墨新會員，並使用 iPASS MONEY 付款送一卡通綠點 150 點",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DIMANJH6GQ64CpRQD",
+  "period_start": "2026-11-02",
+  "period_end": "2026-12-01",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://moo.ink/9t6epj",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "1ae47bf74f776ee0",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-a83581e83c",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【SKM Park Outlets高雄草衙】使用 iPASS MONEY 當日累積消費滿 599 元抽造型一卡通！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGMIM77TDA641VFCA",
+  "period_start": "2026-11-02",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 1000,
+    "quota_quote": "活動期間共計抽出 1,000 名得獎者",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1.0,
+      "unit": "other",
+      "quote": "可獲得 1 次造型一卡通（市值 550 元）抽獎機會"
+     }
+    ],
+    "min_spend": {
+     "amount": 599,
+     "unit": "元",
+     "per": "day",
+     "quote": "當日累積消費滿 599 元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每帳號限中獎 1 次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "SKM Park Outlets 高雄草衙現場消費",
+    "how": "使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
+    "limited": "yes",
+    "limited_quote": "活動期間共計抽出 1,000 名得獎者",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "d938c85688c394c1",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-ab55c9e309",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【MeN Go/ TPASS 嘉南高屏定期票】用 iPASS MONEY APP 購票樂享雙重回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQOIXZZIFN645cRtj",
+  "period_start": "2026-08-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "【購買月票禮】當月購買月票樂享以下好禮雙重送",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10.0,
+      "unit": "元",
+      "quote": "好禮一:iPASS MONEY 儲值金 10 元"
+     },
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "好禮二:iPASS MONEY 四大超商優惠券 50 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每人每月限回饋一次。"
+     },
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "每人每月限得 1 份。"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "透過一卡通 iPASS MONEY APP 購買活動指定定期票且未退票",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "【購買季票禮】當月購買季票樂享以下好禮雙重送",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30.0,
+      "unit": "元",
+      "quote": "好禮一:iPASS MONEY 儲值金 30 元"
+     },
+     {
+      "kind": "coupon",
+      "value": 150.0,
+      "unit": "元",
+      "quote": "好禮二:iPASS MONEY 四大超商優惠券 150 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unknown",
+      "quote": "每人每季限回饋一次。"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "透過一卡通 iPASS MONEY APP 購買活動指定定期票且未退票",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "3b34222eaa6433ce",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-abdfc21336",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "TPASS 2.0+ 公共運輸常客優惠回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMYDOMA4GJKLI64IzNdo",
+  "period_start": "2025-01-14",
+  "period_end": "2028-01-01",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "至 TPASS 2.0+ 公共運輸常客優惠回饋網頁 登錄卡號",
+  "offers": [
+   {
+    "name": "電子票證",
+    "slots": [],
+    "rules": [],
+    "reregister": "once",
+    "reregister_quote": "每人最多可同時登錄 5 張電子票證。",
+    "order": "register_before_spend",
+    "order_quote": "搭乘紀錄自完成登錄次日起算",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 15.0,
+      "unit": "%",
+      "quote": "2~3 次\n15%"
+     },
+     {
+      "kind": "percent",
+      "value": 30.0,
+      "unit": "%",
+      "quote": "4次以上\n30%"
+     },
+     {
+      "kind": "percent",
+      "value": 2.0,
+      "unit": "%",
+      "quote": "11 次以上\n2%"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "次",
+     "per": "month",
+     "quote": "搭乘公共運輸達 11 次以上"
+    },
+    "caps": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "month",
+      "quote": "每張卡每個月總回饋金上限:2,500 元"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "持一卡通電子票證（儲值卡）至一卡通公司網站完成記名",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "電子支付帳戶(使用iPASS MONEY乘車碼搭乘)",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "register_before_spend",
+    "order_quote": "綁定成功後，次日生效開始累積",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 15.0,
+      "unit": "%",
+      "quote": "2~3 次\n15%"
+     },
+     {
+      "kind": "percent",
+      "value": 30.0,
+      "unit": "%",
+      "quote": "4次以上\n30%"
+     },
+     {
+      "kind": "percent",
+      "value": 2.0,
+      "unit": "%",
+      "quote": "11 次以上\n2%"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "次",
+     "per": "month",
+     "quote": "使用iPASS MONEY乘車碼搭乘公共運輸達11次以上"
+    },
+    "caps": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "month",
+      "quote": "每電支帳戶每個月總回饋金上限:2,500 元"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "手機APP上進行電支帳號綁定TPASS 2.0+常客優惠",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "早鳥專屬",
+    "slots": [],
+    "rules": [
+     "並於 2025 年 3 月 31 日前完成登錄參與回饋"
+    ],
+    "reregister": "once",
+    "reregister_quote": "並於 2025 年 3 月 31 日前完成登錄參與回饋",
+    "order": "register_before_spend",
+    "order_quote": "搭乘紀錄自完成登錄次日起算",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "符合早鳥資格\n再加碼10%"
+     }
+    ],
+    "min_spend": {
+     "amount": 11,
+     "unit": "次",
+     "per": "month",
+     "quote": "搭乘公共運輸達 11 次以上"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "購買TPASS 2.0 票卡（常客）一卡通",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   },
+   {
+    "name": "【TPASS 2.0 票卡(常客)一卡通】記名完成可以領取 100 元嗎？",
+    "slots": [],
+    "rules": [],
+    "reregister": "once",
+    "reregister_quote": "每人限領一次",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 40000,
+    "quota_quote": "僅限4萬張可領取",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "領取 100 元一卡通儲值金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限領一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "四大超商",
+    "how": "可於一卡通官網完成記名",
+    "limited": "yes",
+    "limited_quote": "僅限4萬張可領取，數量有限請盡速記名。",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "2edb6dd264d0073a",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-b7ebd207c8",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【Flexii】首次選擇 iPASS MONEY 提領薪資，最高享一卡通綠點 200 點回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNQN7O33S64Ef0dt",
+  "period_start": "2026-07-17",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請至遲於提領當月底 點此同意 加入一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "優惠一:iPASS MONEY 老朋友贈一卡通綠點 100 點",
+    "slots": [],
+    "rules": [
+     "請至遲於提領當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "請至遲於提領當月底 點此同意 加入一卡通綠點計畫",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於提領當月底 點此同意 加入一卡通綠點計畫",
+    "quota": null,
+    "quota_quote": "活動總回饋上限共 1,000 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100.0,
+      "unit": "點",
+      "quote": "享一卡通綠點 100 點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "成功提領薪資任 1 次"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "本活動每人限得 1 次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "Flexii APP 內",
+    "how": "iPASS MONEY 成功提領薪資",
+    "limited": "yes",
+    "limited_quote": "活動總回饋上限共 1,000 萬點",
+    "sold_out": []
+   },
+   {
+    "name": "優惠二:iPASS MONEY 新朋友贈一卡通綠點 200 點",
+    "slots": [],
+    "rules": [
+     "請至遲於提領當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "請至遲於提領當月底 點此同意 加入一卡通綠點計畫",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於提領當月底 點此同意 加入一卡通綠點計畫",
+    "quota": null,
+    "quota_quote": "活動總回饋上限共 1,000 萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 200.0,
+      "unit": "點",
+      "quote": "享一卡通綠點 200 點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "成功提領薪資任 1 次"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "本活動每人限得 1 次"
+     }
+    ],
+    "new_users_only": "yes",
+    "new_users_quote": "限於 2026/7/17 00:00 前從未註冊過 iPASS MONEY 帳號者",
+    "where": "Flexii APP 內",
+    "how": "iPASS MONEY 成功提領薪資",
+    "limited": "yes",
+    "limited_quote": "活動總回饋上限共 1,000 萬點",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "cdd85374e17871d4",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-bcbd563e55",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C",
+  "period_start": "2026-10-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "須同意加入一卡通綠點回饋後，方符合活動回饋資格",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "請至遲於當月底前加入一卡通綠點"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 30,
+    "quota_quote": "每月共抽出 30 名",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 168.0,
+      "unit": "點",
+      "quote": "即可獲得一卡通綠點 168 點抽獎機會"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每人限中獎 1 次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "透過 iPASS MONEY APP 內手機門號轉帳功能轉帳",
+    "how": "將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶",
+    "limited": "yes",
+    "limited_quote": "每月共抽出 30 名",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "114053b003acdcf0",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-c654559039",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【聯邦銀行】指定連結開立 New New Bank 數位存款帳戶，最高享 150 元",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONIJWBVR264oJzBi",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://newnewbank.com.tw/ipassGift2026.htm?openExternalBrowser=1",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "b2a18ddddcaf0c2d",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-d26569c5fd",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY",
+  "period_start": "2026-04-23",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請先同意加入 一卡通綠點回饋計畫 方可獲得活動回饋",
+  "offers": [
+   {
+    "name": "優惠一:掃「一卡通 TWQR 立牌」付款享 10% 回饋！",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "每月總回饋上限 16 萬元，2026 年 12 月回饋上限 23 萬",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "消費金額享 10% 現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "每人每帳戶每月回饋上限 200 元"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "高雄六合夜市與瑞豐夜市指定 TWQR 店家",
+    "how": "掃描「一卡通 TWQR 立牌」付款",
+    "limited": "yes",
+    "limited_quote": "每月總回饋上限 16 萬元，2026 年 12 月回饋上限 23 萬，每月贈完為止",
+    "sold_out": []
+   },
+   {
+    "name": "優惠二:iPASS MONEY 消費加碼享 5% 回饋",
+    "slots": [],
+    "rules": [
+     "至遲須於消費當月底前完成同意加入一卡通綠點回饋"
+    ],
+    "reregister": "once",
+    "reregister_quote": "請先同意加入 一卡通綠點回饋計畫 方可獲得活動回饋",
+    "order": "retroactive_ok",
+    "order_quote": "至遲須於消費當月底前完成同意加入一卡通綠點回饋",
+    "quota": null,
+    "quota_quote": "優惠二每月總回饋上限 2 萬點",
+    "review": [
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5.0,
+      "unit": "%",
+      "quote": "加碼享一卡通綠點 5% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 50 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "高雄六合夜市與瑞豐夜市指定店家",
+    "how": "使用 iPASS MONEY APP 掃描「一卡通 TWQR 立牌」付款",
+    "limited": "yes",
+    "limited_quote": "優惠二每月總回饋上限 2 萬點，每月贈完為止",
+    "sold_out": [
+     {
+      "scope_label": "10 月份",
+      "scope_start": "2026-10-01",
+      "scope_end": "2026-10-31",
+      "source": "terms",
+      "evidence": {
+       "quote": "本活動 10 月份回饋上限已於 2026/10/22 12:00 額滿",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY"
+      }
+     }
+    ]
+   },
+   {
+    "name": "優惠三:2026/6/1起，使用iPASS MONEY掃描任一TWQR立牌付款，或開啟付款碼於指定店家消費，享一卡通綠點10%回饋",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "活動總限量3,000萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "享一卡通綠點10%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限200點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "指定店家",
+    "how": "使用iPASS MONEY掃描任一TWQR立牌付款，或開啟付款碼",
+    "limited": "yes",
+    "limited_quote": "活動總限量3,000萬點",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [
+   {
+    "scope_label": "10 月份",
+    "scope_start": "2026-10-01",
+    "scope_end": "2026-10-31",
+    "source": "title",
+    "evidence": {
+     "quote": "[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋",
+     "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY"
+    }
+   }
+  ],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "a2f095c186657f50",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-d8add8880e",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "微風集團【 TWQR 限定 5% 超回饋】活動辦法",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTINYWBREUA64ayotP",
+  "period_start": "2026-06-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "符合活動資格之用戶將由系統將自動發送【100 元微風電子酬賓券】至用戶之會員中",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "即贈【100 元微風電子酬賓券】乙份(可累贈)"
+     }
+    ],
+    "min_spend": {
+     "amount": 2000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 2,000 元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 5,
+      "unit": "份",
+      "per": "txn",
+      "quote": "每筆交易回饋上限 5 份"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "每日每會員限回饋乙次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "微風南山、微風信義、微風廣場、微風南京、微風松高、微風臺大醫院、微風中研院受理「iPASS MONEY」及「台灣Pay」交易之櫃位",
+    "how": "出示「iPASS MONEY」或「台灣Pay」付款條碼進行支付",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "eef65a3256ec0e01",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-dc65a7e500",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "用 iPASS MONEY 消費，最高享 10% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTIMYKIEY7I64rUuoF",
+  "period_start": "2026-06-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "請至遲於消費當月底點此同意加入一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "請至遲於消費當月底點此同意加入一卡通綠點計畫"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於消費當月底點此同意加入一卡通綠點計畫",
+    "quota": null,
+    "quota_quote": "活動總限量3,000萬點",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限200點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "掃描任一 TWQR 立牌付款，或於適用清單內指定店家消費",
+    "how": "使用 iPASS MONEY 掃描任一 TWQR 立牌付款",
+    "limited": "yes",
+    "limited_quote": "活動總限量3,000萬點",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "e8d3464c2f0a6c2e",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-e16eafec87",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【臺南消費抽大獎】於指定通路單筆消費滿 100 元，抽 iPhone 18 Pro Max！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DGNA4TSTVF64S41Jz",
+  "period_start": "2026-10-01",
+  "period_end": "2026-11-30",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "須同意加入一卡通綠點始符合抽獎資格，請至遲於 11 月底 點此同意 快速加入一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "請至遲於 11 月底 點此同意 快速加入一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "須同意加入一卡通綠點始符合抽獎資格",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "一卡通綠點 1,000 點\n10 名",
+    "review": [
+     "規則無法驗證（沒有可用的日期）：請至遲於 11 月底 點此同意 快速加入一卡通綠點計畫",
+     "回饋數值 1 在引句中找不到：iPhone18ProMax（512GB）"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1000.0,
+      "unit": "點",
+      "quote": "一卡通綠點 1,000 點"
+     },
+     {
+      "kind": "points",
+      "value": 100.0,
+      "unit": "點",
+      "quote": "一卡通綠點 100 點"
+     },
+     {
+      "kind": "points",
+      "value": 50.0,
+      "unit": "點",
+      "quote": "一卡通綠點 50 點"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費金額滿 100 元（含）以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限中獎 1 次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "臺南指定店家",
+    "how": "使用一卡通 iPASS MONEY 於臺南指定店家付款（含帳戶餘額或綁定信用卡付款）",
+    "limited": "yes",
+    "limited_quote": "iPhone18ProMax（512GB）\n1 名",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "15ba49ff40bf41cc",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-ea2e3d9765",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【LINE Bank】綁定快點卡消費，符合條件最高享 4% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DEOIRXFMLO64l5AsX",
+  "period_start": "2026-09-28",
+  "period_end": "2026-12-27",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://lbtw.tw/ipassmoney251006",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "3c5bb52a59a3f9a4",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-ebc6c33382",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "[11月份回饋上限已於2026/11/3 17:00 額滿 ] 【聯邦銀行】綁定聯邦信用卡消費，最高享 10% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONQ2BJSWC64ic2dQ",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoney/index.htm",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [
+   {
+    "scope_label": "11月份",
+    "scope_start": "2026-11-01",
+    "scope_end": "2026-11-30",
+    "source": "title",
+    "evidence": {
+     "quote": "[11月份回饋上限已於2026/11/3 17:00 額滿 ] 【聯邦銀行】綁定聯邦信用卡消費，最高享 10% 回饋！",
+     "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTONQ2BJSWC64ic2dQ"
+    }
+   }
+  ],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "7c6dd74368ea108a",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-f360a7b3b5",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【捐款專區】透過 iPASS MONEY APP 捐款享 10% 回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTQNITHBGIV64hjluw",
+  "period_start": "2026-07-17",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點。",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "請至遲於捐款當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "retroactive_ok",
+    "order_quote": "請至遲於捐款當月底 點此同意 加入一卡通綠點計畫",
+    "quota": 1000000,
+    "quota_quote": "每月總限量上限 100 萬點",
+    "review": [
+     "規則無法驗證（沒有可用的日期）：請至遲於捐款當月底 點此同意 加入一卡通綠點計畫"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "捐款金額享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "iPASS MONEY APP 首頁「捐款專區」",
+    "how": "本活動可使用 iPASS MONEY 帳戶餘額與綁定信用卡進行捐款。",
+    "limited": "yes",
+    "limited_quote": "每月總限量上限 100 萬點",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "096edfc4971ffcaa",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-f4f10bc0bf",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【信用卡費】用 iPASS MONEY 繳聯邦信用卡費，月月最高享 200 點回饋！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTKMQM2CV7T646j9h1",
+  "period_start": "2026-06-17",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://activity.ubot.com.tw/aws_act/2026/2026ipassmoneybill/index.htm",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "8ba01e8feb247e8d",
+  "observed_at": "2026-11-06T07:05:15+08:00",
+  "stale": false
+ }
+]

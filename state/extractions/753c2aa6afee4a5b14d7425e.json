@@ -1,0 +1,756 @@
+{
+ "key": "753c2aa6afee4a5b14d7425e",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:01:46+00:00",
+ "title": "台湾でTWQR対応のお店でPayPayが使えます！ 「PayPay」でお支払い、または、「指定の悠遊カード」のご提示で、 対象店舗で特典GET！",
+ "duration_ms": 31972,
+ "cost_usd": 0.10093919999999999,
+ "usage": {
+  "input": 2,
+  "output": 6207,
+  "cache_creation": 9543,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "対象店舗で特典GET！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "お会計時に「PayPay」でお支払い、または「指定の悠遊カード」をご提示"
+  },
+  "subs": [
+   {
+    "name": "【本願豆花店 西門店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "700mlの豆乳を1本プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【本願豆花店 西門店】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【維記茶餐廳】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "ミルクティー（絲襪奶茶）1杯プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【維記茶餐廳】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【西門麺店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "名物おつまみ（小菜）1品プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【西門麺店】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【珍珠之王】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "もう1杯無料"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【珍珠之王】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【佳賓餅家 西門町店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "手作りヌガークラッカー1個プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【佳賓餅家 西門町店】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【小珍珠ベーカリー】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "手作りヌガークラッカー1個プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【小珍珠ベーカリー】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【佳賓餅家 東門店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "手作りヌガークラッカー1個プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【佳賓餅家 東門店】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【悄悄好食永康】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "ドリンク1杯プレゼント"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "200台湾ドル以上ご購入で"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【悄悄好食永康】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着50名様限定"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "先着50名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【巧克哈客チョコレート専門店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "オリジナル生チョコ1個プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【巧克哈客チョコレート専門店】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【空服員の手作りスイーツ 永康店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "フィナンシェ1個プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【空服員の手作りスイーツ 永康店】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着120名様限定"
+    },
+    "quota": {
+     "seats": 120,
+     "quote": "先着120名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【東門餃子館】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "小菜1皿プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【東門餃子館】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【松雪】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "シロップ豆花1杯プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【松雪】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【黒岩古早味黒砂糖かき氷】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "1つ買うと1つ無料"
+     }
+    ],
+    "min_spend": {
+     "amount": 60,
+     "unit": "元",
+     "per": "txn",
+     "quote": "60台湾ドル以上の豆花またはかき氷をご購入で"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【黒岩古早味黒砂糖かき氷】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【松江自助石頭火鍋城】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "ご購入で肉皿1皿プレゼント"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【松江自助石頭火鍋城】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着70名様限定"
+    },
+    "quota": {
+     "seats": 70,
+     "quote": "先着70名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【南機場夜市・龍山寺駅】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "エコカップスリーブ1個プレゼント"
+     }
+    ],
+    "min_spend": {
+     "amount": 250,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "累計250台湾ドルご購入ごとに"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【南機場夜市・龍山寺駅】",
+    "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着500名様/条件達成ごとに進呈"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "先着500名様/条件達成ごとに進呈"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【遠東Garden City・国父記念館駅】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "「秀泰シネマ50台湾ドル分のフード割引券」1枚をプレゼント"
+     },
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "SOGO商品券100台湾ドル分をプレゼント"
+     }
+    ],
+    "min_spend": {
+     "amount": 800,
+     "unit": "元",
+     "per": "txn",
+     "quote": "悠遊カードで1回800台湾ドル以上のお支払いで"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "お一人様/1カードにつき1回限り"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "お一人様1日1回"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【遠東Garden City・国父記念館駅】",
+    "how": "悠遊カードでのお支払い",
+    "limited": {
+     "value": "yes",
+     "quote": "先着4,000枚、なくなり次第終了"
+    },
+    "quota": {
+     "seats": 4000,
+     "quote": "先着4,000枚、なくなり次第終了"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【遠東SOGO 台北忠孝館・忠孝復興駅】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "other",
+      "quote": "「MIOPANE 塩クロワッサン（バターロール）引換券」1枚をプレゼント"
+     }
+    ],
+    "min_spend": {
+     "amount": 300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "お一人様1日1回"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "SOGO忠孝館B1フードコート",
+    "how": "悠遊カードでのお支払い",
+    "limited": {
+     "value": "yes",
+     "quote": "毎月先着500名様、期間合計1,500名様"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "毎月先着500名様、期間合計1,500名様"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【誠品生活 松菸店・市政府駅】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "other",
+      "quote": "「好丘 プレーンベーグル引換券」1枚をプレゼント"
+     }
+    ],
+    "min_spend": {
+     "amount": 300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "お一人様1日1回"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【誠品生活 松菸店・市政府駅】",
+    "how": "悠遊カードでのお支払い",
+    "limited": {
+     "value": "yes",
+     "quote": "毎月先着500名様、期間合計1,500名様"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "毎月先着500名様、期間合計1,500名様"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

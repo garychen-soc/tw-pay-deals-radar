@@ -57,6 +57,7 @@ def output(*subs: dict[str, Any], reg: str = "unclear", reg_quote: str = "") -> 
 def test_numbers_supports_commas_wan_and_cn_counts() -> None:
     assert {3000.0, 30_000_000.0} <= numbers("活動總限量3,000萬點")
     assert 1.0 in numbers("每人限贈一張")
+    assert 1.0 in numbers("每一全支付帳號限回饋乙次")
     assert 20_000.0 in numbers("每月限量2萬份")
     assert 0.5 in numbers("享0.5%回饋")
 
@@ -148,3 +149,14 @@ def test_title_sold_out_markers() -> None:
     month = title_sold_out("[11月份回饋上限已於2026/11/3 17:00 額滿 ]綁定聯邦信用卡", ctx())
     assert month[0].scope_start == date(2026, 11, 1) and month[0].scope_end == date(2026, 11, 30)
     assert title_sold_out("每月額滿為止，送完為止", ctx()) == []
+
+
+def test_sold_out_scope_label_inferred_from_quote() -> None:
+    text = "首週回饋限量10,000全點，贈完為止。(首週回饋已額滿)"
+    raw = sub(
+        sold_out=[
+            {"quote": "(首週回饋已額滿)", "scope_label": "", "scope_start": None, "scope_end": None}
+        ]
+    )
+    sold = build_offers(output(raw), ctx(text)).offers[0].sold_out[0]
+    assert sold.scope_label == "首週" and sold.scope_start is None

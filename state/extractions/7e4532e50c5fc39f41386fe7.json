@@ -1,0 +1,111 @@
+{
+ "key": "7e4532e50c5fc39f41386fe7",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:00:40+00:00",
+ "title": "7-ELEVEN DAY 悠遊付結帳滿額立折$100",
+ "duration_ms": 9191,
+ "cost_usd": 0.0409892,
+ "usage": {
+  "input": 2,
+  "output": 1244,
+  "cache_creation": 6963,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "指定商品單筆結帳金額滿1,111元享立折100元優惠"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊付於7-ELEVEN消費之人，視同參加本活動，為活動參加人。"
+  },
+  "subs": [
+   {
+    "name": "7-ELEVEN DAY 悠遊付結帳滿額立折$100",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "享立折100元優惠"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "指定商品單筆結帳金額滿1,111元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於7-ELEVEN門市",
+    "how": "持悠遊付",
+    "limited": {
+     "value": "yes",
+     "quote": "限量1萬筆，送完為止"
+    },
+    "quota": {
+     "seats": 10000,
+     "quote": "限量1萬筆"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定商品任選4件75折優惠",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 75,
+      "unit": "折",
+      "quote": "指定商品任選4件75折優惠"
+     }
+    ],
+    "min_spend": {
+     "amount": 4,
+     "unit": "other",
+     "per": "txn",
+     "quote": "指定商品任選4件75折優惠(限同類別商品"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

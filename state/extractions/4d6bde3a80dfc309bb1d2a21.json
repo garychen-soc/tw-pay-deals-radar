@@ -1,0 +1,133 @@
+{
+ "key": "4d6bde3a80dfc309bb1d2a21",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:59:59+00:00",
+ "title": "【MeN Go/ TPASS 嘉南高屏定期票】用 iPASS MONEY APP 購票樂享雙重回饋！",
+ "duration_ms": 5358,
+ "cost_usd": 0.0417232,
+ "usage": {
+  "input": 2,
+  "output": 867,
+  "cache_creation": 8089,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即享以下優惠:【購買月票禮】當月購買月票樂享以下好禮雙重送"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "【購買月票禮】當月購買月票樂享以下好禮雙重送",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "元",
+      "quote": "好禮一:iPASS MONEY 儲值金 10 元"
+     },
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "好禮二:iPASS MONEY 四大超商優惠券 50 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每人每月限回饋一次。"
+     },
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "每人每月限得 1 份。"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "透過一卡通 iPASS MONEY APP 購買活動指定定期票且未退票",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【購買季票禮】當月購買季票樂享以下好禮雙重送",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30,
+      "unit": "元",
+      "quote": "好禮一:iPASS MONEY 儲值金 30 元"
+     },
+     {
+      "kind": "coupon",
+      "value": 150,
+      "unit": "元",
+      "quote": "好禮二:iPASS MONEY 四大超商優惠券 150 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每人每季限回饋一次。"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "透過一卡通 iPASS MONEY APP 購買活動指定定期票且未退票",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

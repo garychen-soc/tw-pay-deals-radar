@@ -1,0 +1,224 @@
+{
+ "key": "01c24ea621f17d50793146f8",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:01:11+00:00",
+ "title": "基北北桃我的減碳存摺2.0",
+ "duration_ms": 16264,
+ "cost_usd": 0.0461152,
+ "usage": {
+  "input": 2,
+  "output": 2213,
+  "cache_creation": 5822,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "5/1~5/31累計基北北桃運具減碳量達20公斤，並完成步行減碳健康授權，即可獲得抽獎資格。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "需完成活動登錄與步行減碳健康授權"
+  },
+  "subs": [
+   {
+    "name": "全民一起走減碳20KG挑戰",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "即可獲得抽獎資格"
+     }
+    ],
+    "min_spend": {
+     "amount": 20,
+     "unit": "other",
+     "per": "campaign",
+     "quote": "5/1~5/31累計基北北桃運具減碳量達20公斤"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "持記名悠遊卡搭乘基北北桃都會通範圍之大眾運輸",
+    "how": "悠遊付APP首頁>我的減碳存摺>點選「活動登錄」完成登錄",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "基北北桃運具減碳月月兌",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "開放減碳量月滿 20 公斤者兌獎"
+     }
+    ],
+    "min_spend": {
+     "amount": 20,
+     "unit": "other",
+     "per": "month",
+     "quote": "每月 1 日至 3 日開放減碳量月滿 20 公斤者兌獎。"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "符合資格者每人每月僅能兌換 1 次。"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "持記名悠遊卡搭乘基北北桃都會通範圍之大眾運輸",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "步行減碳月月兌",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "可於次月 6 日進行兌獎"
+     }
+    ],
+    "min_spend": {
+     "amount": 15,
+     "unit": "other",
+     "per": "month",
+     "quote": "步行減碳量每月累計滿 15 公斤(含)以上可於次月 6 日進行兌獎。"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "加碼月月抽",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": 1,
+      "unit": "次",
+      "quote": "即可獲得1次當月抽獎機會"
+     }
+    ],
+    "min_spend": {
+     "amount": 4,
+     "unit": "次",
+     "per": "month",
+     "quote": "每月累積滿4次，即可獲得1次當月抽獎機會"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "基北北桃都會通範圍內運具",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "新登錄會員(限8/1後登錄)",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": null,
+       "month": 8,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

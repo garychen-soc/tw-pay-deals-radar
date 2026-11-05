@@ -1,0 +1,111 @@
+{
+ "key": "9b5fbec45634b9cacc88957a",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:01:13+00:00",
+ "title": "7-ELEVEN 寶可夢MEZASTAR消費刷悠遊卡/悠遊付滿1次 免費遊戲券送給你",
+ "duration_ms": 4955,
+ "cost_usd": 0.0357572,
+ "usage": {
+  "input": 2,
+  "output": 838,
+  "cache_creation": 6670,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "以悠遊卡功能不限金額扣款消費滿1次，贈「寶可夢MEZASTAR遊戲機遊戲券」1張"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "消費達指定門檻之人，視同參加本活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "【活動一】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "other",
+      "quote": "贈「寶可夢MEZASTAR遊戲機遊戲券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "以悠遊卡功能不限金額扣款消費滿1次"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "統一超商設置寶可夢MEZASTAR遊戲機台",
+    "how": "悠遊付會員持本人已記名悠遊卡或悠遊聯名卡",
+    "limited": {
+     "value": "yes",
+     "quote": "總回饋上限44,820張"
+    },
+    "quota": {
+     "seats": 44820,
+     "quote": "總回饋上限44,820張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【活動二】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "other",
+      "quote": "贈「寶可夢MEZASTAR遊戲機遊戲券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "不限金額扣款消費滿1次"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "統一超商設置寶可夢MEZASTAR遊戲機台",
+    "how": "使用悠遊付之信用卡、錢包或綁定之銀行帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "總回饋上限44,820張"
+    },
+    "quota": {
+     "seats": 44820,
+     "quote": "總回饋上限44,820張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

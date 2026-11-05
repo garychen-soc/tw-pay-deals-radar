@@ -1,0 +1,76 @@
+{
+ "key": "ed5b3d9f4aaac513fb6d8b9a",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:41+00:00",
+ "title": "悠遊付綁定元大信用卡消費單筆滿168元享5%刷卡金",
+ "duration_ms": 3627,
+ "cost_usd": 0.023551199999999998,
+ "usage": {
+  "input": 2,
+  "output": 501,
+  "cache_creation": 4461,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費金額達新臺幣168元以上，即可享該筆消費金額5%刷卡金回饋"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5,
+      "unit": "%",
+      "quote": "即可享該筆消費金額5%刷卡金回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 168,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費金額達新臺幣168元以上"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限新臺幣100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定元大銀行信用卡支付一般消費",
+    "limited": {
+     "value": "yes",
+     "quote": "每月活動回饋總額上限為新臺幣10萬元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月活動回饋總額上限為新臺幣10萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

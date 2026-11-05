@@ -1,0 +1,89 @@
+{
+ "key": "7f88fb3dcf2c2f00cc41ee7a",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:00:54+00:00",
+ "title": "(已額滿)南門週年感謝祭 悠遊付滿額最高享30%回饋",
+ "duration_ms": 5568,
+ "cost_usd": 0.0346872,
+ "usage": {
+  "input": 2,
+  "output": 665,
+  "cache_creation": 6835,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆滿200元享20%回饋，單筆回饋上限100元，每人回饋上限1,000元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於南門市場活動店家使用悠遊付掃描「悠遊付TWQR立牌」或「悠遊付立牌」消費完成指定金額扣款交易之人，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆滿200元享20%回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿200元享20%回饋"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆回饋上限100元"
+     },
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每人回饋上限1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於「南門市場」活動店家使用悠遊付消費",
+    "how": "使用悠遊付 APP，以「掃碼」或「付款碼」付款。",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋金總額上限45萬元，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋金總額上限45萬元，送完為止"
+    },
+    "sold_out": [
+     {
+      "quote": "「活動已於2026/10/25(日) 13:34額滿」",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

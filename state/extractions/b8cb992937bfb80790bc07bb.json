@@ -1,0 +1,71 @@
+{
+ "key": "b8cb992937bfb80790bc07bb",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:05+00:00",
+ "title": "悠遊付綁定永豐現金回饋Green卡最高享5%現金回饋",
+ "duration_ms": 3711,
+ "cost_usd": 0.0264332,
+ "usage": {
+  "input": 2,
+  "output": 416,
+  "cache_creation": 5394,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享精選國內綠色通路消費最高5%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "享精選國內綠色通路消費最高5%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每期帳單上限300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "精選國內綠色通路",
+    "how": "設定電子或行動帳單，且設定永豐/京城帳戶自動扣繳信用卡帳款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

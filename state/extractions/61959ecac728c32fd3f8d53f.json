@@ -1,0 +1,368 @@
+{
+ "key": "61959ecac728c32fd3f8d53f",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:01:48+00:00",
+ "title": "銀行帳戶連結悠遊付 享最高$2120元回饋",
+ "duration_ms": 22641,
+ "cost_usd": 0.06156319999999999,
+ "usage": {
+  "input": 2,
+  "output": 3879,
+  "cache_creation": 5519,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "以指定銀行之存款帳戶連結悠遊付參與以下活動，即可享加碼回饋~"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "【活動一】iLEO新戶最高回饋2,120元",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 120,
+      "unit": "元",
+      "quote": "享120元悠遊付回饋金"
+     },
+     {
+      "kind": "other",
+      "value": 2000,
+      "unit": "other",
+      "quote": "還可獲得2,000 mo幣(共2組)抽獎機會1次"
+     }
+    ],
+    "min_spend": {
+     "amount": 2,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "完成任2筆金額1元以上扣款"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "iLEO數位帳戶新戶禮每人限領取1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次申辦第一銀行iLEO數位帳戶"
+    },
+    "where": "",
+    "how": "使用悠遊付綁定該帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "限前5,000名"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "限前5,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【活動二】一銀綁定悠遊付週五5%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "單筆消費滿100元享5%悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿100元"
+    },
+    "caps": [
+     {
+      "amount": 20,
+      "unit": "元",
+      "per": "week",
+      "quote": "每悠遊付會員每週五回饋上限20元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定第一銀行新臺幣存款帳戶（含iLEO數位帳戶）直接扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週五回饋總金額上限2萬元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週五回饋總金額上限2萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "樂天銀行",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 1000,
+      "unit": "元",
+      "quote": "享新台幣1,000元現金回饋至樂天國際銀行帳戶"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "不限金額成功扣款滿1筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每悠遊付會員限回饋1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次成功開立樂天國際銀行帳戶"
+    },
+    "where": "",
+    "how": "使用悠遊付綁定該帳戶",
+    "limited": {
+     "value": "no",
+     "quote": "(回饋名額無上限)"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "(回饋名額無上限)"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "王道銀行",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "享新台幣500元現金回饋至王道銀行帳戶"
+     }
+    ],
+    "min_spend": {
+     "amount": 3,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "消費扣款不限金額滿3筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每悠遊付會員限回饋1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次透過悠遊付指定連結成功開立王道銀行帳戶"
+    },
+    "where": "",
+    "how": "使用悠遊付綁定該帳戶消費扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "限前850名"
+    },
+    "quota": {
+     "seats": 850,
+     "quote": "限前850名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "台新銀行",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 350,
+      "unit": "元",
+      "quote": "NT$350悠遊付儲值金"
+     },
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "Richart造型悠遊卡乙張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "成功消費扣款一次(不限金額)"
+    },
+    "caps": [
+     {
+      "amount": 350,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每戶回饋上限為NT$350悠遊付儲值金"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "RICHART新戶成功開戶"
+    },
+    "where": "",
+    "how": "完成於悠遊付綁定Richart存款帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "限量4500戶"
+    },
+    "quota": {
+     "seats": 4500,
+     "quote": "限量4500戶"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【數位存款帳戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 150,
+      "unit": "元",
+      "quote": "享150元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "直接扣款消費單筆200元(含)以上"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "悠遊付首次綁定台中銀行「Lolly Bank數位存款帳戶」"
+    },
+    "where": "",
+    "how": "悠遊付首次綁定台中銀行「Lolly Bank數位存款帳戶」",
+    "limited": {
+     "value": "yes",
+     "quote": "數位存款帳戶禮限額1,500名"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "數位存款帳戶禮限額1,500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【一般存款帳戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "享100元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "直接扣款消費單筆200元(含)以上"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "悠遊付首次綁定台中銀行「一般存款帳戶」"
+    },
+    "where": "",
+    "how": "悠遊付首次綁定台中銀行「一般存款帳戶」",
+    "limited": {
+     "value": "yes",
+     "quote": "一般存款帳戶禮限額1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "一般存款帳戶禮限額1,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

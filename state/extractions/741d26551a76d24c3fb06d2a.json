@@ -1,0 +1,70 @@
+{
+ "key": "741d26551a76d24c3fb06d2a",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:04:31+00:00",
+ "title": "嗶臺北市敬老卡可享扣抵點數泡溫泉!",
+ "duration_ms": 6311,
+ "cost_usd": 0.0306632,
+ "usage": {
+  "input": 2,
+  "output": 865,
+  "cache_creation": 5329,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間持臺北市敬老卡至北投地區內指定溫泉大眾浴池，可使用敬老點數60點扣抵，再享專屬加碼優惠"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 120,
+      "unit": "元",
+      "quote": "本館加碼優惠折抵 120元"
+     },
+     {
+      "kind": "discount",
+      "value": 60,
+      "unit": "元",
+      "quote": "本館加碼優惠折抵 60元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "北投地區內指定溫泉大眾浴池",
+    "how": "持臺北市敬老卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

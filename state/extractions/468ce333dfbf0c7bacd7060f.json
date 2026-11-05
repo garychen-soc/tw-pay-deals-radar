@@ -1,0 +1,190 @@
+{
+ "key": "468ce333dfbf0c7bacd7060f",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:02:59+00:00",
+ "title": "【第一銀行 X 悠遊付】跟著小粉獅「悠遊」享回饋",
+ "duration_ms": 17424,
+ "cost_usd": 0.0449992,
+ "usage": {
+  "input": 2,
+  "output": 2379,
+  "cache_creation": 5128,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享筆筆回饋5%悠遊付回饋金"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "並完成活動登錄後，於悠遊付綁定第一銀行指定悠遊聯名卡之消費"
+  },
+  "subs": [
+   {
+    "name": "【活動一】iLEO新戶最高回饋2,120元",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 120,
+      "unit": "元",
+      "quote": "即可獲得新戶禮120元悠遊付回饋金"
+     },
+     {
+      "kind": "other",
+      "value": 2000,
+      "unit": "other",
+      "quote": "還可獲得2,000 mo幣(共2組)抽獎機會1次"
+     }
+    ],
+    "min_spend": {
+     "amount": 2,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "直接扣款交易任2筆（金額新臺幣1元以上且成功扣款）"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次申辦第一銀行iLEO數位帳戶"
+    },
+    "where": "",
+    "how": "使用悠遊付綁定該數位帳戶並直接扣款交易任2筆",
+    "limited": {
+     "value": "yes",
+     "quote": "(回饋名額限前5,000名)"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "(回饋名額限前5,000名)"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【活動二】一銀綁定悠遊付週五最高10%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "享筆筆回饋5%悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費金額滿新臺幣100元（含）以上"
+    },
+    "caps": [
+     {
+      "amount": 20,
+      "unit": "元",
+      "per": "week",
+      "quote": "每一悠遊付會員每週五最高回饋20元悠遊付回饋金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定「第一銀行新臺幣存款帳戶(包含iLEO數位帳戶)」",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋金上限26萬元，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋金上限26萬元，贈完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【活動三】刷悠遊聯名卡筆筆3%刷卡金回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "享筆筆3%刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每戶每期帳單回饋上限新臺幣300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "於悠遊付綁定第一銀行指定悠遊聯名卡之消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026年12月31日前，申辦第一銀行信用卡電子帳單或設定第一銀行帳戶扣繳卡費，並完成活動登錄後",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "並完成活動登錄後，於悠遊付綁定第一銀行指定悠遊聯名卡之消費"
+    }
+   }
+  ]
+ }
+}

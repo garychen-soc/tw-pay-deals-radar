@@ -1,0 +1,76 @@
+{
+ "key": "fc552a97523e6b66261275ac",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:27+00:00",
+ "title": "【夢時代週四會員日】 悠遊付滿額回饋30",
+ "duration_ms": 3943,
+ "cost_usd": 0.0311392,
+ "usage": {
+  "input": 2,
+  "output": 535,
+  "cache_creation": 6273,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿600元贈30元悠遊付現金回饋券1份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內使用悠遊付於夢時代購物中心/統一時代百貨高雄店單筆消費滿額之人，視同參加本活動，亦為活動參加人。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 30,
+      "unit": "元",
+      "quote": "贈30元悠遊付現金回饋券1份"
+     }
+    ],
+    "min_spend": {
+     "amount": 600,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿600元"
+    },
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每悠遊付用戶每月回饋上限3份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "夢時代購物中心/統一時代百貨高雄店之指定店櫃",
+    "how": "使用悠遊付扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動回饋上限2,000份"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "活動回饋上限2,000份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

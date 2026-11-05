@@ -1,0 +1,76 @@
+{
+ "key": "cc04ba2f4ef0327380fd44ce",
+ "prompt_version": "2026-11-06.3",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:13:22+00:00",
+ "title": "【SKM Park Outlets高雄草衙】使用 iPASS MONEY 當日累積消費滿 599 元抽造型一卡通！",
+ "duration_ms": 6536,
+ "cost_usd": 0.0322372,
+ "usage": {
+  "input": 2,
+  "output": 524,
+  "cache_creation": 6575,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當日累積消費滿 599 元，可獲得 1 次造型一卡通（市值 550 元）抽獎機會"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "可獲得 1 次造型一卡通（市值 550 元）抽獎機會"
+     }
+    ],
+    "min_spend": {
+     "amount": 599,
+     "unit": "元",
+     "per": "day",
+     "quote": "當日累積消費滿 599 元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每帳號限中獎 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "SKM Park Outlets 高雄草衙現場消費",
+    "how": "使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動期間共計抽出 1,000 名得獎者"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "活動期間共計抽出 1,000 名得獎者"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

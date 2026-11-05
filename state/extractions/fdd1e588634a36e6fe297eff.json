@@ -1,0 +1,251 @@
+{
+ "key": "fdd1e588634a36e6fe297eff",
+ "prompt_version": "2026-11-06.3",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:14:41+00:00",
+ "title": "DK｜完成任務領8折購鞋券，滿額再送150全點回饋！百大品牌再加碼！",
+ "duration_ms": 11501,
+ "cost_usd": 0.0503532,
+ "usage": {
+  "input": 2,
+  "output": 1918,
+  "cache_creation": 7619,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間內，完成指定任務於「DK高博士」實體門市選擇全支付付款，可享以下回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動「任務一」需於消費前完成「活動登錄」始享活動行銷回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "【任務一｜DK高博士｜需登錄：單筆滿$6,800享150全點回饋（回饋限量，贈完為止）】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 150,
+      "unit": "點",
+      "quote": "單筆消費滿6,800元即可享150全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 6800,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿6,800元即可享150全點回饋"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一符合活動資格之全支付帳號，限享一次回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "DK高博士實體門市",
+    "how": "輸入優惠碼，輸入【DKBDAY】後送出完成登錄，並於DK高博士實體門市使用全支付完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋限量333名，以成功完成活動登錄後之消費優先順序計算，贈完為止。"
+    },
+    "quota": {
+     "seats": 333,
+     "quote": "本活動總回饋限量333名"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/10/27（二）00:00起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 27,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "每一符合活動資格之全支付帳號，限享一次回饋"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動「任務一」需於消費前完成「活動登錄」始享活動行銷回饋資格。"
+    }
+   },
+   {
+    "name": "【任務二｜DK高博士｜全支付/全聯會員獨享：8折購鞋券（限12/6前使用）】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 8,
+      "unit": "折",
+      "quote": "領取8 折購鞋優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每人限拿一張折抵一雙鞋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "限門市使用",
+    "how": "加入DK LINE@ 點擊領8折購鞋券，或於DK APP 輸入優惠碼【DKBDAY】領取",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "領券時間:2026/10/27（二）00:00~2026/11/29（日）23:59",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 27,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 29,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【加碼活動｜百大品牌｜需登錄：活動期間內，於百大品牌-品味饗樂之指定品牌，單筆消費滿額最高享150全點！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 150,
+      "unit": "點",
+      "quote": "單筆消費滿額最高享150全點"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "點",
+      "per": "txn",
+      "quote": "單筆消費滿額最高享150全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "百大品牌-品味饗樂之指定品牌",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【銀行/信用卡活動：活動期間內，使用全支付連結指定銀行帳戶、綁定信用卡付款最高享5%全點回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "綁定信用卡付款最高享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用全支付連結指定銀行帳戶、綁定信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

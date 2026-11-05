@@ -1,0 +1,76 @@
+{
+ "key": "0d396161f8fb19d631223fa0",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:56:30+00:00",
+ "title": "全支付會員專屬，申辦王道銀行新戶核卡並消費5筆享1,000全點回饋！",
+ "duration_ms": 4114,
+ "cost_usd": 0.0348612,
+ "usage": {
+  "input": 2,
+  "output": 570,
+  "cache_creation": 7116,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "於核卡後 30 天內使用王道銀行簽帳金融卡綁定全支付刷卡任意消費5筆，享1,000 全點回饋。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1000,
+      "unit": "點",
+      "quote": "不限金額消費滿5筆，享1,000全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 5,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "不限金額消費滿5筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付帳號於活動期間內限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "活動期間內透過全支付指定連結首次完成開立王道銀行帳戶"
+    },
+    "where": "",
+    "how": "消費使用全支付綁定之王道銀行簽帳金融卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限前600名核卡之客戶參與，額滿將於本活動頁面公告。"
+    },
+    "quota": {
+     "seats": 600,
+     "quote": "本活動限前600名核卡之客戶參與"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

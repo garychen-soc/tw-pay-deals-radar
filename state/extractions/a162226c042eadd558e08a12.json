@@ -1,0 +1,64 @@
+{
+ "key": "a162226c042eadd558e08a12",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:36+00:00",
+ "title": "福勝亭-卡滋豬排丼定食套餐特價295元",
+ "duration_ms": 2901,
+ "cost_usd": 0.0244152,
+ "usage": {
+  "input": 2,
+  "output": 363,
+  "cache_creation": 5022,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享特價295元(原價360元)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 295,
+      "unit": "元",
+      "quote": "享特價295元(原價360元)"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "至福勝亭購買卡滋豬排丼定食套餐",
+    "how": "活動期間持悠遊卡/悠遊聯名卡/悠遊付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

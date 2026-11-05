@@ -1,0 +1,78 @@
+{
+ "key": "a475577b314771f8bdf341fa",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:59:19+00:00",
+ "title": "(活動額滿)長春商圈X台灣Pay消費20%回饋",
+ "duration_ms": 8381,
+ "cost_usd": 0.033621200000000004,
+ "usage": {
+  "input": 2,
+  "output": 974,
+  "cache_creation": 5796,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆不限消費金額可享20%現金回饋"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆不限消費金額可享20%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "於活動期間每一金融卡號/帳戶最高回饋上限新臺幣(以下同)1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台北市長春市場及鄰近路、街、道受理「台灣Pay」交易支付之指定店家",
+    "how": "以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限47萬元，如達回饋總金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限47萬元"
+    },
+    "sold_out": [
+     {
+      "quote": "(活動額滿)",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

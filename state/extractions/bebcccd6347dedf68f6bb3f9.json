@@ -1,0 +1,76 @@
+{
+ "key": "bebcccd6347dedf68f6bb3f9",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:13+00:00",
+ "title": "台灣Pay x MyCard Pay 你一起玩遊戲，享最高 5% 回饋",
+ "duration_ms": 3884,
+ "cost_usd": 0.0289072,
+ "usage": {
+  "input": 2,
+  "output": 555,
+  "cache_creation": 5665,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上，可享5%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5,
+      "unit": "%",
+      "quote": "可享5%現金回饋(非即時回饋，小數點後四捨五入)"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡號/帳戶最高回饋50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "MyCard網站或MyCard APP。",
+    "how": "使用「台灣 Pay」(限金融卡/帳戶)付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動為限量回饋，將依用戶交易時序核算回饋資格"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限40萬元，如達回饋總金額上限，即停止回饋"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

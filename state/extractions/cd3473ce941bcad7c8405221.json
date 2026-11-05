@@ -1,0 +1,223 @@
+{
+ "key": "cd3473ce941bcad7c8405221",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:01:59+00:00",
+ "title": "玉山碳員專屬任務 抽悠遊付回饋金活動",
+ "duration_ms": 10064,
+ "cost_usd": 0.037245200000000006,
+ "usage": {
+  "input": 2,
+  "output": 1612,
+  "cache_creation": 5107,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "達成任務可抽50元悠遊付回饋金(抽1,000名)"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能。"
+  },
+  "subs": [
+   {
+    "name": "一、入門任務(適合剛成為新碳員的你 快來接下你的第一則任務)",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "達成任務可抽50元悠遊付回饋金(抽1,000名)"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "於活動期間搭乘1次"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
+    "limited": {
+     "value": "yes",
+     "quote": "抽1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "抽1,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "二、加值任務(自動加值讓搭乘體驗更順暢 適合進階碳員的你)",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "達成任務可抽100元悠遊付回饋金(抽500名)"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "次",
+     "per": "campaign",
+     "quote": "活動期間搭乘至少1次且使用自動加值"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
+    "limited": {
+     "value": "yes",
+     "quote": "抽500名"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "抽500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "三、常客任務(習慣是一天一天累積而成的 適合經常搭乘的你)",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "達成任務可抽500元悠遊付回饋金(抽350名)"
+     }
+    ],
+    "min_spend": {
+     "amount": 45,
+     "unit": "other",
+     "per": "campaign",
+     "quote": "活動期間搭乘天數達45天"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
+    "limited": {
+     "value": "yes",
+     "quote": "抽350名"
+    },
+    "quota": {
+     "seats": 350,
+     "quote": "抽350名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "四、達人任務(達人級別的困難任務 適合樂於搭乘不同大眾運具的你)",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 2500,
+      "unit": "元",
+      "quote": "達成任務可抽2,500元悠遊付回饋金(抽10名)"
+     }
+    ],
+    "min_spend": {
+     "amount": 5,
+     "unit": "other",
+     "per": "campaign",
+     "quote": "活動期間搭乘運具達5種"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
+    "limited": {
+     "value": "yes",
+     "quote": "抽10名"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "抽10名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

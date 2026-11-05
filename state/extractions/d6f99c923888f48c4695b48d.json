@@ -1,0 +1,199 @@
+{
+ "key": "d6f99c923888f48c4695b48d",
+ "prompt_version": "2026-11-06.3",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:12:50+00:00",
+ "title": "MyCard X 悠遊付 四重好康一次拿",
+ "duration_ms": 7668,
+ "cost_usd": 0.0331592,
+ "usage": {
+  "input": 2,
+  "output": 1297,
+  "cache_creation": 4873,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用悠遊付於MyCard購點可享以下活動一、活動二、活動三、活動四優惠！"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "活動一:最高8%悠遊付回饋金",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "每筆購點享最高8%悠遊付回饋金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "MyCard",
+    "how": "使用悠遊付錢包或綁定銀行帳戶購點",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:集次加碼最高領$200",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "回饋「100元指定遊戲電商專用現金回饋券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿500元以上訂單，每月累計滿3筆"
+    },
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "month",
+      "quote": "本活動每悠遊付會員每月回饋上限2張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "MyCard",
+    "how": "使用悠遊付錢包或綁定銀行帳戶購點",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三:MyCard x 悠遊付 獨家回饋活動",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 15,
+      "unit": "點",
+      "quote": "即可領取MyCard會員點數15點"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "點",
+     "per": "txn",
+     "quote": "使用悠遊付單筆購點達500點至MyCard會員帳號中"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一MyCard會員限領1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "MyCard",
+    "how": "使用悠遊付單筆購點",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，領完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "數量有限，領完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動四:MyCard x 悠遊付 專屬加碼抽獎",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "有機會抽中MyCard各項豪禮，最高萬元點數！"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "MyCard",
+    "how": "使用悠遊付購點達指定面額至MyCard會員帳號中",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

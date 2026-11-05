@@ -1,0 +1,77 @@
+{
+ "key": "8949ec62e68ae71e5416188b",
+ "prompt_version": "2026-11-06.3",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:14:48+00:00",
+ "title": "頂上加碼 掃 TWQR 享 10% 回饋",
+ "duration_ms": 4127,
+ "cost_usd": 0.0300292,
+ "usage": {
+  "input": 2,
+  "output": 524,
+  "cache_creation": 6023,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享 10% 回饋街口幣"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享 10% 回饋街口幣"
+     },
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "亦可享10%現金回饋或等值紅利點數"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每一帳戶於活動期間最高回饋等值新臺幣(以下同)500元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "中野安全帽（中野安全帽有限公司）全台實體門市。",
+    "how": "以QR Code掃碼支付成功",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限為30萬元整，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限為30萬元整，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

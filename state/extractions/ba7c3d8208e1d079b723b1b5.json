@@ -1,0 +1,189 @@
+{
+ "key": "ba7c3d8208e1d079b723b1b5",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:46+00:00",
+ "title": "指定電商｜雙11搶券月曆｜$500先用先賺",
+ "duration_ms": 8154,
+ "cost_usd": 0.0416912,
+ "usage": {
+  "input": 2,
+  "output": 1481,
+  "cache_creation": 6546,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用現金回饋券於適用通路單筆消費達指定門檻，完成付款後回饋500元悠遊付回饋金"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "悠遊付會員自10/27 00:00起可至各領券頁面點擊「立即領取」，即可獲得適用通路之「500元先用先賺現金回饋券」1張"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "完成付款後回饋500元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 0,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費達指定門檻"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "每一用券日每會員限領1張"
+     },
+     {
+      "amount": 7,
+      "unit": "次",
+      "per": "month",
+      "quote": "每會員於本月最高可領取7張"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "悠遊付會員自10/27 00:00起可至各領券頁面點擊「立即領取」"
+    },
+    "where": "momo購物網、PChome 24h購物、博客來、環球Online、東森購物、friDay購物、生活市集、悠遊付悠客券商城、美賣網紅電商平台、Pinkoi、讀冊生活、Readmoo讀墨電子書、毛寶兔宅配網、東稻家居官方網站、SuperBuy市集",
+    "how": "請於可使用悠遊付支付之該券適用通路",
+    "limited": {
+     "value": "yes",
+     "quote": "因活動名額有限"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "達可供回饋之份數上限即兌換額滿，活動即結束"
+    },
+    "sold_out": [
+     {
+      "quote": "11/1活動已於11/1 00:01額滿，感謝您的支持。",
+      "scope_label": "11/1活動",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "11/2活動已於11/2 00:01額滿，感謝您的支持。",
+      "scope_label": "11/2活動",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 2,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 2,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "11/3活動已於11/3 00:04額滿，感謝您的支持。",
+      "scope_label": "11/3活動",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 3,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 3,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [
+     {
+      "quote": "活動每張券自2026/10/27 00:00起開放領取，最晚可領至各用券日當天23:59。",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 27,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": {
+       "hour": 23,
+       "minute": 59
+      },
+      "end_of_month": false
+     },
+     {
+      "quote": "11/1之券，於10/27 00:00~11/1 23:59期間可領取",
+      "kind": "range",
+      "is_example": true,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 27,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "每一用券日每會員限領1張"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "悠遊付會員自10/27 00:00起可至各領券頁面點擊「立即領取」，即可獲得適用通路之「500元先用先賺現金回饋券」1張"
+    }
+   }
+  ]
+ }
+}

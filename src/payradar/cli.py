@@ -7,7 +7,7 @@
     payradar score                              以 golden 集評分目前 state
     payradar evaluate [--model sonnet]          只對 golden 頁面重跑抽取並評分
 
-退出碼：0 成功；2 參數錯誤；4 來源大量失敗、本輪不發布；6 claude CLI 登入失效。
+退出碼：0 成功；2 參數錯誤；4 來源大量失敗、本輪不發布；6 claude CLI 登入失效或額度用完。
 """
 
 from __future__ import annotations
@@ -142,7 +142,7 @@ def main(argv: list[str] | None = None) -> int:
             print(message)
         if not result.publishable:
             return 4
-        if any("登入失效" in m for m in result.messages):
+        if any("登入失效" in m or "額度已用完" in m for m in result.messages):
             return 6
         if ids and (pipeline.STATE / "run.json").exists():
             # 只跑部分服務時，其餘服務沿用 state，避免把它們從網站移除

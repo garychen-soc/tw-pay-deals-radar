@@ -1,0 +1,125 @@
+{
+ "key": "9fcb5e27a11f5b3034c9106b",
+ "prompt_version": "2026-11-06.2",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:09:19+00:00",
+ "title": "富邦產險單筆保費滿額享全點限量回饋！",
+ "duration_ms": 6140,
+ "cost_usd": 0.0405774,
+ "usage": {
+  "input": 2,
+  "output": 967,
+  "cache_creation": 7553,
+  "cache_read": 3457
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "投保並繳付旅平險單筆保費滿500元，即享10%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加。"
+  },
+  "subs": [
+   {
+    "name": "【富邦產險之旅平險】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "即享10%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "txn",
+     "quote": "投保旅平險單筆保費滿500元即可享10%全點回饋"
+    },
+    "caps": [
+     {
+      "amount": 80,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一全支付帳號於每月最高享80全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "於「富邦產險｜投保詳情」之專屬連結",
+    "how": "使用全支付(包括以連結任一合作銀行帳戶、信用卡或全支付帳戶付款)",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋限量20,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": 20000,
+     "quote": "每月回饋限量20,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【富邦產險之汽機車險】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "即享10%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "投保並繳付汽機車險單筆保費滿1,200元，即享10%全點回饋"
+    },
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一全支付帳號於每月最高享150全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "於「富邦產險｜投保詳情」之專屬連結",
+    "how": "使用全支付(包括以連結任一合作銀行帳戶、信用卡或全支付帳戶餘額付款)",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋限量5,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "每月回饋限量5,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

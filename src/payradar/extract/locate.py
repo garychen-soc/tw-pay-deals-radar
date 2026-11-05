@@ -30,7 +30,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-PROMPT_VERSION = "2026-11-06.2"
+PROMPT_VERSION = "2026-11-06.4"
 ROOT = Path(__file__).resolve().parents[3]
 CACHE_DIR = ROOT / "state" / "extractions"
 DEFAULT_MODEL = os.environ.get("PAYRADAR_LLM_MODEL", "sonnet")
@@ -173,7 +173,7 @@ _TRI = {
     "required": ["value", "quote"],
     "properties": {"value": {"enum": ["yes", "no", "unclear"]}, "quote": {"type": "string"}},
 }
-_UNIT = {"enum": ["%", "元", "點", "筆", "次", "份", "other"]}
+_UNIT = {"enum": ["%", "元", "點", "折", "筆", "次", "份", "other"]}
 _PER = {"enum": ["txn", "day", "week", "month", "campaign", "unclear"]}
 _AMOUNT = {
     "type": ["object", "null"],
@@ -284,15 +284,15 @@ INSTRUCTIONS = """你是台灣行動支付（電子支付）優惠活動條款�
 4. is_offer：這頁是不是給消費者的優惠活動（有回饋、折扣、贈品、抽獎等）。功能介紹、服務公告、使用教學、純新聞填 no；quote 取能支持判斷的一句。
 
 回饋條件：
-5. rewards：每種「消費者得到的」回饋一項；折抵比例上限、計算方式、手續費等規則不是回饋，不要放。kind：percent（%回饋）、cash（現金或回饋金固定金額）、points（點數）、coupon（優惠券、回饋券、數位券）、discount（現折、折抵、特價）、gift（贈品）、other。unit：%、元、點、other。「最高享10%」填 value=10。只寫「享回饋」沒寫多少填 value=null。
+5. rewards：每種「消費者得到的」回饋一項；折抵比例上限、計算方式、手續費等規則不是回饋，不要放。kind：percent（%回饋）、cash（現金或回饋金固定金額）、points（點數）、coupon（優惠券、回饋券、數位券）、discount（現折、折抵、特價）、gift（贈品）、other。unit：%、元、點、折（「85折」value=85、「8折」value=8）、other。「最高享10%」填 value=10。只寫「享回饋」沒寫多少填 value=null。
 6. min_spend：參加門檻（「單筆滿1,200元」amount=1200、unit=元、per=txn；「累計滿5,000元」per=campaign 或依原文的期間；「付款任3筆」amount=3、unit=筆）。沒有門檻填 null。
-7. caps：每人（每帳戶）回饋上限（「每人每月回饋上限200點」amount=200、unit=點、per=month；「每人限贈1份」amount=1、unit=份；「每月限回饋1次」unit=次）。同一上限只填一次。活動總預算（「回饋總金額上限5萬元」）不是每人上限，不要放這裡，放 quota。
+7. caps：每人（每帳戶）回饋上限，含單筆上限（「每人每月回饋上限200點」amount=200、unit=點、per=month；「單筆最高可得25全點」per=txn；「每人限贈1份」amount=1、unit=份；「每月限回饋1次」unit=次）。同一上限只填一次。抽獎機會的次數上限不是回饋上限，不要放；「最高享150全點」「最高享10%」是回饋數值，放 rewards，不是上限。活動總預算（「回饋總金額上限5萬元」）不是每人上限，不要放這裡，放 quota。
 8. new_users_only：限新戶／首次綁定／新註冊會員才有填 yes；明寫全體會員皆可填 no；沒寫 unclear。
 9. where：適用通路或店家的原文（例如「全臺「全聯福利中心」實體門市」）；how：付款方式或綁定條件的原文（例如「綁定台新銀行信用卡付款」「掃描TWQR」）。沒寫填空字串。
 
 名額與額滿：
 10. limited：原文寫「限量」「送完為止」「額滿為止」「名額有限」、或寫了總名額／總預算填 yes；沒寫 unclear。quota.seats：總名額或總份數（「限量1,000名」填 1000；「每月限量2萬份」填 20000 並以引句佐證「2萬」）；只有金額預算時填 null 但 quote 仍放那句。
-11. sold_out：只放官方「已經」額滿／已達上限／已贈完的聲明（例如「【已於10/28(三)00:03額滿】」「11月份回饋上限已於2026/11/3 17:00 額滿」）。「額滿為止」「名額額滿將於…公告」「如額滿」「額滿後」是條件句，不是已額滿，絕不放這裡。scope_label 取原文的範圍字樣（「11月份」「早鳥滿額贈」，整檔活動填空字串）；scope_start/scope_end 是這句額滿涵蓋的期間（「11月份」→ 11/1~11/30；只寫月份時 day 填該月首日／末日；整檔填 null）。
+11. sold_out：只放官方「已經」額滿／已達上限／已贈完的聲明（例如「【已於10/28(三)00:03額滿】」「11月份回饋上限已於2026/11/3 17:00 額滿」）。「額滿為止」「名額額滿將於…公告」「如額滿」「額滿後」是條件句，不是已額滿，絕不放這裡。scope_label 取原文的範圍字樣（「11月份」「早鳥滿額贈」「首週」，只有確定是整檔活動才填空字串）；scope_start/scope_end 是這句額滿涵蓋的期間（「11月份」→ 11/1~11/30；只寫月份時 day 填該月首日／末日；整檔填 null）。
 
 登錄／領券時點（與信用卡登錄同一套規則）：
 12. registration.value：參加前須主動完成的動作（登錄、報名、領券、加入點數計畫、切換權益、輸入代碼）是否必要：required、not_required、unclear，附 quote。單純「綁定付款工具」或「下載APP」不算登錄。
@@ -307,6 +307,14 @@ class LocateError(RuntimeError):
 
 class AuthExpired(LocateError):
     """claude CLI 的登入過期。整輪都會失敗，呼叫端應停止並通知使用者重新登入。"""
+
+
+class LimitReached(AuthExpired):
+    """訂閱用量額度用完（「You've hit your … limit」）。同樣整輪停止，等額度重置。
+
+    2026-11-06 實測：沒有這個判斷時，額度用完後 pipeline 仍把剩下 146 頁逐一送出，
+    全部失敗；應在第一次就停。
+    """
 
 
 @dataclass(frozen=True)
@@ -396,6 +404,8 @@ def locate(
             int(envelope.get("duration_ms") or 0),
         )
     reason = str(envelope.get("result") or "")
+    if "hit your" in reason and "limit" in reason:
+        raise LimitReached(f"claude 用量額度已用完：{reason[:200]}")
     if "authenticate" in reason or "OAuth" in reason or "/login" in reason:
         raise AuthExpired(f"claude CLI 登入失效：{reason[:200]}（請執行 claude auth login）")
     output = envelope.get("structured_output")

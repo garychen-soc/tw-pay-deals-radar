@@ -1,0 +1,221 @@
+{
+ "key": "5bfa22e778098af27250e0c5",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:52+00:00",
+ "title": "什麼？手機可以感應悠遊卡，隨時幫卡片加值？",
+ "duration_ms": 15082,
+ "cost_usd": 0.0471672,
+ "usage": {
+  "input": 2,
+  "output": 2361,
+  "cache_creation": 5715,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "還沒註冊？現在加入悠遊付，立即領$50新會員好禮！"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "還沒註冊？現在加入悠遊付，立即領$50新會員好禮！",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "完成註冊即可獲得$50新會員禮包"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "2026/10/1~12/31期間加入悠遊付，完成註冊即可獲得$50新會員禮包"
+    },
+    "where": "",
+    "how": "下載註冊EasyWallet APP悠遊付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/10/1~12/31期間加入悠遊付，完成註冊即可獲得$50新會員禮包",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "完成註冊即可獲得$50新會員禮包"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "已經是會員？月月都有最高5%現金回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "月月都有最高5%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "最高5%現金回饋拿不夠？這些活動再疊加！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "生活繳費逢1加碼2%"
+     },
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "筆筆加碼4%"
+     },
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "滿百加碼3%"
+     },
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "滿千加碼3%"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "momo購物網、PChome、博客來",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "活動期間、詳情與限制見悠遊卡官網，每月限量。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月限量"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "習慣嗶悠遊卡買東西？到超市最高8%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "最高獲得8%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "活動超市通路",
+    "how": "持悠遊卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

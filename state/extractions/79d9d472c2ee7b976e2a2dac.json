@@ -1,0 +1,71 @@
+{
+ "key": "79d9d472c2ee7b976e2a2dac",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:56:17+00:00",
+ "title": "連結將來帳戶於全臺「全聯福利中心」實體門市消費(儲值不適用)筆筆享回饋",
+ "duration_ms": 3410,
+ "cost_usd": 0.047473999999999995,
+ "usage": {
+  "input": 2,
+  "output": 499,
+  "cache_creation": 10620,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全支付連結將來銀行帳戶，消費不限金額，筆筆消費最高享2%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 2,
+      "unit": "%",
+      "quote": "筆筆消費最高享2%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 20,
+      "unit": "點",
+      "per": "week",
+      "quote": "每一全支付帳號每週最高享20全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "全臺全聯福利中心實體門市消費(儲值不適用)",
+    "how": "使用全支付連結之將來銀行帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量23,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量23,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "key": "52784053f8d2cf51e5373579",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:03:51+00:00",
+ "title": "friDay購物｜狂購節來襲最高回饋$2,800",
+ "duration_ms": 4152,
+ "cost_usd": 0.0307212,
+ "usage": {
+  "input": 2,
+  "output": 550,
+  "cache_creation": 6131,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆實際以悠遊付支付滿35,000元（含）以上，回饋2,800元禮包一份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 500,
+      "unit": "元",
+      "quote": "「500元friDay購物專用現金回饋券」5張"
+     },
+     {
+      "kind": "coupon",
+      "value": 300,
+      "unit": "元",
+      "quote": "「300元friDay購物專用現金回饋券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 35000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆實際以悠遊付支付滿35,000元（含）以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每悠遊付會員於活動期間限贈1份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "活動期間於friDay購物使用悠遊付錢包",
+    "how": "使用悠遊付錢包、綁定銀行帳戶或綁定信用卡扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "限量350份"
+    },
+    "quota": {
+     "seats": 350,
+     "quote": "限量350份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

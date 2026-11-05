@@ -1,0 +1,145 @@
+{
+ "key": "4c00537892ff2545f22cdc0b",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:17:31+00:00",
+ "title": "十大商圈掃全支付TWQR｜單筆不限金額享10%回饋！",
+ "duration_ms": 14874,
+ "cost_usd": 0.0507412,
+ "usage": {
+  "input": 2,
+  "output": 2064,
+  "cache_creation": 7351,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額，筆筆享10%全點回饋"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "主活動｜十大商圈：單筆不限金額享10%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額，筆筆享10%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一符合活動資格之全支付帳戶於活動期間之每月最高回饋50全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於十大商圈（九份老街、基隆廟口、淡水老街、士林夜市、迪化街、西門町、永康商圈、羅東夜市、一中街夜市、逢甲夜市）之全支付TWQR合作指定店家",
+    "how": "以全支付APP「掃描條碼」功能或指定電子支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動為限量回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "總回饋限量總計為300萬元（4月:20萬、5-12月:每月各35萬）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "筆筆再享最高3%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "key": "e47fa066203930f0aa755a23",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:20:46+00:00",
+ "title": "iGO機場接送｜單筆滿$599享10%全點回饋",
+ "duration_ms": 10650,
+ "cost_usd": 0.0440552,
+ "usage": {
+  "input": 2,
+  "output": 1637,
+  "cache_creation": 6747,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿＄599可享10％全點回饋"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "主活動：消費滿額滿享10%回饋！最高100全點",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費滿$599享10%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 599,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿$599享10%全點回饋"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "txn",
+      "quote": "本活動單筆訂單最高回饋100全點"
+     },
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "本活動期間內每一會員最高可享200全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參與"
+    },
+    "where": "本活動限於iGO機場接送線上官方通路消費",
+    "how": "使用全支付完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋限量5萬全點，以消費優先順序計算，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "筆筆再享最高3%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

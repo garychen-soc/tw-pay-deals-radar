@@ -1,0 +1,71 @@
+{
+ "key": "9db7f56d18edeadd8ef3009d",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:30+00:00",
+ "title": "(活動額滿)CITYLINK消費購划算，台灣Pay享20%回饋",
+ "duration_ms": 4704,
+ "cost_usd": 0.0309072,
+ "usage": {
+  "input": 2,
+  "output": 609,
+  "cache_creation": 6030,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享20%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額享20%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每一信用卡/金融卡/帳戶於活動期間最高回饋新臺幣(以下同) 1,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "CITYLINK南港店、松山壹號店、內湖店、三重店內受理「台灣Pay」之櫃位",
+    "how": "出示「台灣Pay」付款碼(信用卡/金融卡/帳戶)進行支付(即被掃交易)",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限57.5萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限57.5萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

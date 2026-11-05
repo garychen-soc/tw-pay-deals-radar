@@ -1,0 +1,178 @@
+{
+ "key": "873002d9522dc19b0310bed9",
+ "prompt_version": "2026-11-06.2",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:09:46+00:00",
+ "title": "台灣大車隊｜搭車趟趟贈10%全點回饋，指定銀行付款再加碼最高5%回饋",
+ "duration_ms": 14057,
+ "cost_usd": 0.0502174,
+ "usage": {
+  "input": 2,
+  "output": 1979,
+  "cache_creation": 7433,
+  "cache_read": 3457
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "搭乘「台灣大車隊」選擇全支付掃描條碼付款並完成訂單，可享以下回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動主活動需於消費前完成各波段「活動登錄」始享活動行銷回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "主活動：先登錄搭乘不限金額享10%全點回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆不限金額即可享10%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 25,
+      "unit": "點",
+      "per": "txn",
+      "quote": "單筆最高可得25全點"
+     },
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "unclear",
+      "quote": "每一波段每一符合活動資格之全支付帳號最高可得100全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "搭乘「台灣大車隊」",
+    "how": "選擇全支付掃描條碼付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋限量50萬4千全點，每一波段限量16萬8千全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "第一波段: 2026/09/29 00:00起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "第二波段: 2026/10/30 00:00起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "第三波段: 2026/11/29 00:00起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "完成「台灣大車隊|消費回饋活動」各波段活動登錄後"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動主活動需於消費前完成各波段「活動登錄」始享活動行銷回饋資格。"
+    }
+   },
+   {
+    "name": "銀行/信用卡活動：指定銀行付款最高享5%全點回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "綁定信用卡付款最高享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用全支付連結指定銀行帳戶、綁定信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

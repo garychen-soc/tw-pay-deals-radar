@@ -1,0 +1,271 @@
+{
+ "key": "97fcb9e21cb073eb3acd8489",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:57:17+00:00",
+ "title": "AsiaYo旅展開跑｜海陸旅遊最高20%全點回饋，再抽999全點！",
+ "duration_ms": 20514,
+ "cost_usd": 0.06546519999999999,
+ "usage": {
+  "input": 2,
+  "output": 3230,
+  "cache_creation": 8117,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "可享以下回饋（請按「+」了解優惠細節及規定）"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動之主活動需於消費前完成「活動登錄」始享行銷活動回饋資格"
+  },
+  "subs": [
+   {
+    "name": "主活動｜需登錄：使用全支付單筆滿額為高享20%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "滿$3,000可得20%全點回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "滿$20,000可得10%全點回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 6,
+      "unit": "%",
+      "quote": "滿50,000可得6%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 3000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿$3,000可得20%全點回饋"
+    },
+    "caps": [
+     {
+      "amount": 3000,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號回饋上限3,000全點"
+     },
+     {
+      "amount": 600,
+      "unit": "點",
+      "per": "txn",
+      "quote": "回饋上限600全點"
+     },
+     {
+      "amount": 2000,
+      "unit": "點",
+      "per": "txn",
+      "quote": "回饋上限2000全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於AsiaYo官方網站消費",
+    "how": "選擇以全支付付款成功",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "第一波總回饋限量10萬全點，第二波總回饋數量20萬全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "第一波登錄時間: 2026/10/14(三) 00:00起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 14,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "第二波登錄時間: 2026/11/04(三) 00:00起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 4,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "本活動將於2026/10/12 (一) 00:00起開放第一波登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 12,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "2026/11/02(一) 00:00起開放第二波登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 2,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "第二波登錄時間: 2026/11/04(三) 00:00起開放登錄"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "請務必於消費前完成登錄，以保障您的活動回饋權益"
+    }
+   },
+   {
+    "name": "加碼活動：消費不限金額抽999全點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 999,
+      "unit": "點",
+      "quote": "有機會抽999全點"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "每一全支付會員於活動期間至AsiaYo合作品牌使用全支付付款"
+    },
+    "where": "AsiaYo合作品牌",
+    "how": "不限付款方式",
+    "limited": {
+     "value": "yes",
+     "quote": "第一波｜2026/10/15(四) 00:00~ 2026/11/05(四) 23:59，999全點:共10組"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "第二波｜2026/11/06(五) 00:00~ 2026/11/10(二) 23:59，999全點:共20組"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶活動：使用全支付單筆消費滿1,000享50全點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "即贈全點50點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "首筆消費滿$1,000"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付帳號限取得一次回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "限過往從未註冊全支付會員"
+    },
+    "where": "AsiaYo官方網站",
+    "how": "以全支付進行付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋限量10,000 全點，以消費優先順序發送，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋限量10,000 全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

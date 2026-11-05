@@ -1,0 +1,118 @@
+{
+ "key": "cc34172f34abb83393fd2fcf",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T23:04:19+00:00",
+ "title": "指定遊戲電商｜滿千最高8%回饋｜最高再加碼拿$200",
+ "duration_ms": 5432,
+ "cost_usd": 0.0360532,
+ "usage": {
+  "input": 2,
+  "output": 922,
+  "cache_creation": 6534,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間使用悠遊付錢包或綁定銀行帳戶扣款支付，疊加滿千最高8%回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於活動指定遊戲電商使用悠遊付消費之人，視同參加活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "活動一:滿千最高8%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "疊加滿千最高8%回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿千加碼3%回饋"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "星城、MyCard、老子有錢、王牌俱樂部、角子共玩，限可使用悠遊付支付之訂單適用。",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:最高再加碼拿$200現金回饋券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "回饋「100元指定遊戲電商專用現金回饋券」1張"
+     }
+    ],
+    "min_spend": {
+     "amount": 3,
+     "unit": "筆",
+     "per": "month",
+     "quote": "單筆滿500元以上訂單，每月累計滿3筆"
+    },
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "month",
+      "quote": "本活動每悠遊付會員每月回饋上限2張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "星城、MyCard、老子有錢、王牌俱樂部、角子共玩，限可使用悠遊付支付之訂單適用。",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "每月活動限量500張，若額滿則活動提前結束"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "每月活動限量500張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

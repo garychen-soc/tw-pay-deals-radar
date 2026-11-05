@@ -1,0 +1,199 @@
+{
+ "key": "5cd0f434675f9f3df908f0c3",
+ "prompt_version": "2026-11-06.2",
+ "model": "sonnet",
+ "created_at": "2026-11-05T19:07:53+00:00",
+ "title": "元大銀行悠遊聯名卡暨悠遊付活動專區",
+ "duration_ms": 13176,
+ "cost_usd": 0.04055940000000001,
+ "usage": {
+  "input": 2,
+  "output": 2132,
+  "cache_creation": 4636,
+  "cache_read": 3457
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "元大悠遊聯名卡首次自動加值最高享10%刷卡金。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動需登錄[需登錄請點此]"
+  },
+  "subs": [
+   {
+    "name": "元大悠遊聯名卡首次自動加值最高享10%刷卡金",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "元大悠遊聯名卡首次自動加值最高享10%刷卡金。"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每位上限50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "元大悠遊聯名卡首次自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限量15,000卡"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "本活動限量15,000卡"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "本活動需登錄[需登錄請點此]",
+    "rewards": [],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每位上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限量5,000卡"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "本活動限量5,000卡"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "悠遊付綁定元大銀行信用卡支付一般消費，單筆消費達168元以上，享5%刷卡金回饋。",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "享5%刷卡金回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 168,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費達168元以上"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "悠遊付綁定元大銀行信用卡支付一般消費",
+    "limited": {
+     "value": "yes",
+     "quote": "每月活動回饋總額上限10萬元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月活動回饋總額上限10萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "元大悠遊聯名卡於全聯福利中心，以悠遊卡功能扣款單筆消費滿300元贈200點福利點。",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 200,
+      "unit": "點",
+      "quote": "贈200點福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿300元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "元大悠遊聯名卡於全聯福利中心",
+    "how": "以悠遊卡功能扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限量15,000份"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "本活動限量15,000份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

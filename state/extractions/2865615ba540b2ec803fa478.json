@@ -1,0 +1,129 @@
+{
+ "key": "2865615ba540b2ec803fa478",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:35+00:00",
+ "title": "(活動額滿)台灣Pay購新機 STUDIO A最高享10%",
+ "duration_ms": 10199,
+ "cost_usd": 0.041255200000000006,
+ "usage": {
+  "input": 2,
+  "output": 1549,
+  "cache_creation": 6267,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享10%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間內每一信用卡/金融卡/帳戶回饋金上限新臺幣(以下同)1000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "STUDIO A、Straight A受理「台灣Pay」之指定門市",
+    "how": "出示「台灣Pay」付款條碼(即被掃交易，金融卡/帳戶/信用卡)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止"
+    },
+    "sold_out": [
+     {
+      "quote": "(活動額滿)",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間內每一信用卡/金融卡/帳戶回饋金上限新臺幣(以下同)1000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "STUDIO A官方網站(https://www.studioa.com.tw)、Straight A官方網站(https://www.straighta.com.tw)",
+    "how": "使用「台灣Pay」(即主掃交易，金融卡/帳戶/信用卡)以QR Code掃碼進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止"
+    },
+    "sold_out": [
+     {
+      "quote": "(活動額滿)",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

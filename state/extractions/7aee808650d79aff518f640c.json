@@ -1,0 +1,82 @@
+{
+ "key": "7aee808650d79aff518f640c",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:25+00:00",
+ "title": "傑昇愛用台灣Pay 獨享10%回饋",
+ "duration_ms": 6099,
+ "cost_usd": 0.0321892,
+ "usage": {
+  "input": 2,
+  "output": 884,
+  "cache_creation": 5663,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上，即享現折100元優惠"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上，即享現折100元優惠"
+     },
+     {
+      "kind": "discount",
+      "value": 200,
+      "unit": "元",
+      "quote": "滿2,000元(含)以上，即享現折200元優惠"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆現折最高以1,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "傑昇通信受理「台灣 Pay」之指定實體門市",
+    "how": "出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限125萬元整，如達該總金額上限即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限125萬元整"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

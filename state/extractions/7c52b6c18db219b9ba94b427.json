@@ -1,0 +1,71 @@
+{
+ "key": "7c52b6c18db219b9ba94b427",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:31+00:00",
+ "title": "迺延三夜市就用TWQR「台灣Pay」樂享20%回饋",
+ "duration_ms": 3999,
+ "cost_usd": 0.028895199999999996,
+ "usage": {
+  "input": 2,
+  "output": 489,
+  "cache_creation": 5827,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%之現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%之現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間內每金融卡/帳戶最高回饋以500元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "大橋頭延三商圈受理「台灣Pay」交易之店家",
+    "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限30萬元，如達回饋總金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限30萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

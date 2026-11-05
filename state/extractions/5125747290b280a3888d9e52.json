@@ -1,0 +1,76 @@
+{
+ "key": "5125747290b280a3888d9e52",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:58:17+00:00",
+ "title": "漢神巨蛋就愛台灣Pay 滿2000送200元漢神巨蛋商品券",
+ "duration_ms": 4561,
+ "cost_usd": 0.0308992,
+ "usage": {
+  "input": 2,
+  "output": 635,
+  "cache_creation": 5963,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當日消費單筆滿新臺幣(以下同)2,000元(含)以上者，即可憑漢神APP會員條碼、當日發票及交易明細至「贈品處」兌換「200元漢神巨蛋商品券」乙份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 200,
+      "unit": "元",
+      "quote": "兌換「200元漢神巨蛋商品券」乙份"
+     }
+    ],
+    "min_spend": {
+     "amount": 2000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "當日消費單筆滿新臺幣(以下同)2,000元(含)以上者"
+    },
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "活動期間每一會員限兌換「200元漢神巨蛋商品券」2份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "漢神巨蛋購物廣場(高雄市左營區博愛二路777號)",
+    "how": "使用「台灣Pay」(透過參與金融機構「行動銀行」APP 或「台灣行動支付」APP )於活動地點消費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動之商品券回饋上限為5,750份，如達回饋上限，即停止兌換"
+    },
+    "quota": {
+     "seats": 5750,
+     "quote": "本活動之商品券回饋上限為5,750份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

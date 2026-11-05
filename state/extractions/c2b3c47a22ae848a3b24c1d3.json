@@ -1,0 +1,71 @@
+{
+ "key": "c2b3c47a22ae848a3b24c1d3",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:57:50+00:00",
+ "title": "新社大安TWQR消費趣 10%回饋很給利",
+ "duration_ms": 3094,
+ "cost_usd": 0.0286792,
+ "usage": {
+  "input": 2,
+  "output": 495,
+  "cache_creation": 5758,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "參與機構支付採單筆消費不限金額10%回饋現金或點數"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額10%回饋現金或點數"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡/帳戶、電子支付帳戶最高回饋新台幣(以下同)1,000元等值點數或現金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台中市新社區、大安區標示TWQR店家",
+    "how": "進行掃碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限5萬元，額滿為止，並公告於第一銀行官網"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限5萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

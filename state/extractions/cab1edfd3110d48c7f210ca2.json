@@ -1,0 +1,269 @@
+{
+ "key": "cab1edfd3110d48c7f210ca2",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-05T22:56:43+00:00",
+ "title": "全支付樂遊韓國｜筆筆享3.5%全點回饋！指定付款方式最高享15%全點",
+ "duration_ms": 10932,
+ "cost_usd": 0.0597692,
+ "usage": {
+  "input": 2,
+  "output": 2160,
+  "cache_creation": 9368,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全支付「掃描條碼」或出示「付款碼」付款，可享以下回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加"
+  },
+  "subs": [
+   {
+    "name": "【主活動：使用全支付消費不限金額，筆筆享3.5%全點回饋！單筆回饋最高350全點，數量有限送完為止！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3.5,
+      "unit": "%",
+      "quote": "筆筆享3.5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 350,
+      "unit": "點",
+      "per": "txn",
+      "quote": "單筆最高350全點回饋"
+     },
+     {
+      "amount": 1000,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一全支付帳號每月最高享1,000全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於韓國境內使用全支付帳戶或使用全支付連結合作銀行帳戶付款",
+    "how": "使用全支付帳戶或使用全支付連結合作銀行帳戶付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月總回饋限量35萬全點，數量有限贈完為止"
+    },
+    "quota": {
+     "seats": 350000,
+     "quote": "每月總回饋限量35萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【加碼活動一：使用全支付單筆消費滿新臺幣10,000加碼5%全點回饋！單筆回饋上限850全點，數量有限送完為止！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "加碼5%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 10000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿新臺幣10,000"
+    },
+    "caps": [
+     {
+      "amount": 850,
+      "unit": "點",
+      "per": "txn",
+      "quote": "單筆回饋上限850全點"
+     },
+     {
+      "amount": 1000,
+      "unit": "點",
+      "per": "month",
+      "quote": "活動期間內每一全支付帳號每月最高享1,000全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於於韓國境內使用全支付結帳",
+    "how": "使用全支付結帳",
+    "limited": {
+     "value": "yes",
+     "quote": "每月總回饋限量35萬全點，數量有限贈完為止"
+    },
+    "quota": {
+     "seats": 350000,
+     "quote": "每月總回饋限量35萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【新戶活動：註冊當月新戶，消費加碼享5%全點回饋！回饋上限100全點，數量有限送完為止！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "消費加碼享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "unclear",
+      "quote": "最高回饋上限為100點"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動限從過未註冊全支付，於活動期間內完成註冊之新會員"
+    },
+    "where": "韓國ZeroPay / HIVEX識別 （實際由ICB營運）之收款系統合作商店實體門市",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月總回饋限量3萬點，數量有限贈完為止"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "本活動每月總回饋限量3萬點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【銀行帳戶付款活動：連結「指定銀行帳戶」於韓國跨境消費付款，再加碼筆筆5%回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆享5%全點回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "week",
+      "quote": "每一全支付帳號每週最高享100全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "韓國ZeroPay / HIVEX識別 （實際由ICB營運）之收款系統合作夥伴實體通路",
+    "how": "消費使用全支付連結指定銀行帳戶付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【信用卡付款活動：綁定「國泰世華信用卡」跨境消費付款，單筆消費滿千享5%全點回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "跨境單筆消費滿新臺幣1,000元享5%全點回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "跨境單筆消費滿新臺幣1,000元"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號每一波區間內最高享100全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "",
+    "how": "使用全支付綁定國泰世華信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "以成功綁定並消費後之優先順序計算，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
