@@ -1,0 +1,229 @@
+{
+ "key": "51c83eaddb32869e1d5cfc10",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:07:55+00:00",
+ "title": "街口新戶專屬優惠，領券消費現折50元！",
+ "duration_ms": 17115,
+ "cost_usd": 0.07313320000000001,
+ "usage": {
+  "input": 2,
+  "output": 2728,
+  "cache_creation": 11289,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "註冊街口支付，完成實名認證或身份認證後，並綁定支付工具後，即可領取並使用專屬 $50 街口券"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "即可領取並使用專屬 $50 街口券"
+  },
+  "subs": [
+   {
+    "name": "新戶好禮，即刻領取",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取並使用專屬 $50 街口券，不限金額皆可折抵"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "且每人以該張為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "註冊街口支付，完成實名認證或身份認證後"
+    },
+    "where": "於指定通路，憑券消費不限金額皆可折抵",
+    "how": "註冊街口支付，完成實名認證或身份認證後，並綁定支付工具後",
+    "limited": {
+     "value": "yes",
+     "quote": "如街口券名額尚未額滿，系統將自動套用街口券折抵"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "如街口券名額尚未額滿，系統將自動套用街口券折抵"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "且每人以該張為限"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "首購好禮加碼",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": null,
+      "unit": "other",
+      "quote": "CITY CAFE 經典美式買一送一 & 單杯（風味飲品）優惠 $49 優惠券各乙張"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "unclear",
+      "quote": "CITY CAFE 經典美式買一送一 & 單杯（風味飲品）優惠 $49 優惠券各乙張"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "未曾使用街口支付完成任一筆交易之會員皆符合資格"
+    },
+    "where": "",
+    "how": "活動時間內使用街口支付完成不限金額生涯首購",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限前 10,000 名完成首購可收到"
+    },
+    "quota": {
+     "seats": 10000,
+     "quote": "每月限前 10,000 名完成首購可收到"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "5 號會員日 登記搶 $50 街口幣",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每人最高拿 $50 街口幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "where": "至指定通路單筆消費滿 $100",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "登記時間:2026/8/1 - 12/5",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定付款｜最高享 10%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "最高享 10%回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "享全通路筆筆 10% 街口幣回饋",
+    "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

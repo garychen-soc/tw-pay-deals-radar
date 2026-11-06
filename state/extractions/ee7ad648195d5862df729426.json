@@ -1,0 +1,120 @@
+{
+ "key": "ee7ad648195d5862df729426",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:08:11+00:00",
+ "title": "歐付寶悠遊聯名卡把回饋變日常！APP綁定交易最高13%回饋",
+ "duration_ms": 5226,
+ "cost_usd": 0.0333592,
+ "usage": {
+  "input": 2,
+  "output": 951,
+  "cache_creation": 5788,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "新戶首刷100%回饋，刷卡最高回饋13%"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "活動一:你刷卡我回饋，首筆消費回饋 100% 歐付寶紅利",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "%",
+      "quote": "第一筆消費交易，將100%回饋歐付寶紅利點數 (上限333點)"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 333,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每位正卡持卡人限回饋乙次，歐付寶紅利回饋上限為333點"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次申辦本聯名卡，核卡後第一筆消費交易"
+    },
+    "where": "",
+    "how": "活動一及活動二持卡人需於回饋日前，將歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:新戶最高享 13% 回饋，每月最高 550 點",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 13,
+      "unit": "%",
+      "quote": "新戶最高享 13% 回饋，每月最高 550 點"
+     }
+    ],
+    "min_spend": {
+     "amount": 2000,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "最近一期帳單本卡新增一般消費滿2千元，筆筆享有 2% 回饋"
+    },
+    "caps": [
+     {
+      "amount": 550,
+      "unit": "點",
+      "per": "month",
+      "quote": "新戶最高享 13% 回饋，每月最高 550 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "新戶且申請使用電子帳單，核卡後12個月再加碼 10% 回饋"
+    },
+    "where": "『歐付寶行動支付 APP 刷卡消費或網路購物』",
+    "how": "活動一及活動二持卡人需於回饋日前，將歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

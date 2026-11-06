@@ -35,7 +35,8 @@ state/  唯一正本（進版控）→ emit → web/（Astro）＋ 行事曆
       一卡通 37＋外部 8／悠遊付 74，2026-11-06 實測）
 - [x] Phase 2：LLM 定位 schema、程式驗證、golden 集（36 頁；精確率 98.7%／召回率 90.5%，
       已額滿 100%／100%；首次全量 217 筆、LLM 約 US$7.4）
-- [ ] Phase 3：長尾服務擷取器
+- [x] Phase 3：長尾 7 家擷取器（街口 36／歐付寶 11／icash 11／Pi 7／全盈 13／橘子 4／全聯 6）；
+      golden 擴至 57 頁，精確率 98.9%／召回率 87.8%；缺口見 `docs/coverage.md`
 - [ ] Phase 4：Astro 前端、行事曆、PTT 社群區
 - [ ] 切換：merge main、launchd、停用舊例行任務
 

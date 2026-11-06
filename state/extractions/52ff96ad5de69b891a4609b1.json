@@ -1,0 +1,57 @@
+{
+ "key": "52ff96ad5de69b891a4609b1",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:06:13+00:00",
+ "title": "街口捐款，即時送暖",
+ "duration_ms": 3551,
+ "cost_usd": 0.0345592,
+ "usage": {
+  "input": 2,
+  "output": 349,
+  "cache_creation": 7593,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "no",
+   "quote": "單次捐款、定期定額、商品義賣等多項功能於新後台上"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "key": "2f467aabeb8fd42c062e26d3",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:51:10+00:00",
+ "title": "綁定永豐指定信用卡達成任務享回饋",
+ "duration_ms": 4617,
+ "cost_usd": 0.0335172,
+ "usage": {
+  "input": 2,
+  "output": 722,
+  "cache_creation": 6400,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享永豐MITSUI OUTLET PARK聯名卡當期帳單符合一般消費之「館外餐飲/全盈+PAY」7%刷卡金回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "成功設定【永豐銀行/京城銀行帳戶自動扣繳永豐信用卡帳款】持卡人需於帳單結帳日前，完成設定正卡持卡人本人之永豐銀行/京城銀行新臺幣帳戶自動扣繳永豐信用卡帳單且扣款成功"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 7,
+      "unit": "%",
+      "quote": "「館外餐飲/全盈+PAY」7%刷卡金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每期帳單回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「館外餐飲/全盈+PAY」",
+    "how": "永豐MITSUI OUTLET PARK聯名卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "持卡人需於帳單結帳日前，完成設定正卡持卡人本人之永豐銀行/京城銀行新臺幣帳戶自動扣繳永豐信用卡帳單且扣款成功",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

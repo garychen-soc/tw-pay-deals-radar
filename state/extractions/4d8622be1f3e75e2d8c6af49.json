@@ -1,0 +1,162 @@
+{
+ "key": "4d8622be1f3e75e2d8c6af49",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:05:18+00:00",
+ "title": "門市限定最高享 20.5%",
+ "duration_ms": 6213,
+ "cost_usd": 0.0438772,
+ "usage": {
+  "input": 2,
+  "output": 1126,
+  "cache_creation": 7980,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」單筆消費滿 $666 即可折抵 $66！"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」單筆消費滿 $666 即可折抵 $66"
+  },
+  "subs": [
+   {
+    "name": "領$66街口券",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 66,
+      "unit": "元",
+      "quote": "單筆消費滿 $666 即可折抵 $66"
+     }
+    ],
+    "min_spend": {
+     "amount": 666,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 $666 即可折抵 $66"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限折抵1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「康是美適用實體門市」",
+    "how": "使用「街口支付」",
+    "limited": {
+     "value": "yes",
+     "quote": "先折先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」"
+    }
+   },
+   {
+    "name": "最高7%街口幣再加碼",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 7,
+      "unit": "%",
+      "quote": "消費不限金額可享加碼 7% 街口幣回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 65,
+      "unit": "元",
+      "per": "day",
+      "quote": "每人每日上限 $65"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「康是美適用實體門市」",
+    "how": "使用街口支付結帳",
+    "limited": {
+     "value": "yes",
+     "quote": "每日預算用完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每日預算用完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "抽 $66 OPENPOINT 5,000點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5000,
+      "unit": "點",
+      "quote": "「OPENPOINT點數5,000點」抽獎資格，共抽10名"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "使用街口支付完成任一筆消費"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「康是美適用實體門市」",
+    "how": "使用街口支付",
+    "limited": {
+     "value": "yes",
+     "quote": "共抽10名，合計共5萬點"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "共抽10名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

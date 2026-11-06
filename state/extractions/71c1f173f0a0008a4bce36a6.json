@@ -1,0 +1,71 @@
+{
+ "key": "71c1f173f0a0008a4bce36a6",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:08:11+00:00",
+ "title": "歐付寶TWQR今夜留給我，高雄夜市筆筆消費回饋10%",
+ "duration_ms": 2841,
+ "cost_usd": 0.0282312,
+ "usage": {
+  "input": 2,
+  "output": 465,
+  "cache_creation": 5721,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "高雄兩大夜市消費享10%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "消費金額享10% 現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "每人每帳戶每月回饋上限200元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高雄六合夜市與瑞豐夜市指定TWQR店家消費",
+    "how": "使用歐付寶APP掃描「指定TWQR立牌」付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "2026年5月至2026年11月期間，每月總回饋上限16萬元，2026年12月回饋上限23萬"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

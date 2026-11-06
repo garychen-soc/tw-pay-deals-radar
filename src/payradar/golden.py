@@ -170,10 +170,12 @@ def _compare(
 
 def _finder(pools: dict[str, list[Activity]]) -> Callable[[dict[str, Any]], Activity | None]:
     def find(entry: dict[str, Any]) -> Activity | None:
-        for activity in pools.get(str(entry["provider"]), []):
-            if activity.url == entry["url"]:
-                return activity
-        return None
+        # icash Pay、街口外部連結等多筆共用列表網址：網址相同時再以標題區分
+        hits = [a for a in pools.get(str(entry["provider"]), []) if a.url == entry["url"]]
+        if len(hits) > 1:
+            title = str(entry.get("title") or "")
+            hits = [a for a in hits if a.title == title or title in a.aliases]
+        return hits[0] if len(hits) == 1 else None
 
     return find
 

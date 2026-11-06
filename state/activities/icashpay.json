@@ -1,0 +1,627 @@
+[
+ {
+  "id": "icashpay-17ba079149",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "聖娜",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "專屬優惠價",
+  "terms_source": "image",
+  "external_url": "",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [
+   "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
+  ],
+  "content_hash": "4fc82b26aecb47d2",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-1ea51bf324",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "21PLUS",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "專屬優惠價",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "＊結帳代碼[2244]",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 199.0,
+      "unit": "元",
+      "quote": "香草烤半雞＋蜂蜜綠茶(M)套餐優惠價 $199（原價 $320）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "＊結帳代碼[2244]",
+    "limited": "yes",
+    "limited_quote": "販售品項依門市現場為主，售完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "323783be9a53a31e",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-28a5c28185",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "夢時代",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "生日禮",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [
+     "子活動名稱不在原文中：生日禮"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 55.0,
+      "unit": "點",
+      "quote": "贈55點OPENPOINT"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "unknown",
+     "quote": "發票金額累計滿1000元"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "指定店櫃",
+    "how": "持icash Pay消費並完成同APP會員卡號集點",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "d06f86f90a9d64b3",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-3ea6c91e24",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "康是美網購",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "折抵優惠券",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "次月贈 50 元折價券 1 張"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "元",
+     "per": "txn",
+     "quote": "結帳消費(1元以上，不限金額)"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "(每月限贈1張)"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "康是美網購",
+    "how": "使用 icash Pay 結帳消費",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "0b8efa5a3bf10441",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-4b581cdce6",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "Mister Donut",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "專屬優惠價",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1.0,
+      "unit": "other",
+      "quote": "甜甜圈/點心/現做飲品買4送1"
+     }
+    ],
+    "min_spend": {
+     "amount": 4,
+     "unit": "份",
+     "per": "txn",
+     "quote": "甜甜圈/點心/現做飲品買4送1"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "僅適用於全台Mister Donut門市",
+    "how": "以icash Pay結帳方可享有優惠",
+    "limited": "yes",
+    "limited_quote": "商品種類數量以各門市實際可販售情形為準，售完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "a25e0a4c6aea5a1d",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-798f861ee7",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "博客來",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "折抵優惠券",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 5000,
+    "quota_quote": "每月限量 5000 份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "次月贈 50 元 E-Coupon"
+     }
+    ],
+    "min_spend": {
+     "amount": 2,
+     "unit": "次",
+     "per": "month",
+     "quote": "當月於博客來使用 icash Pay 消費達 2 次（含）以上"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "使用 icash Pay 消費",
+    "limited": "yes",
+    "limited_quote": "每月限量 5000 份",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "6cd5b6e51936a442",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-7b52009b64",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "foodomo",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "折抵優惠券",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "輸入指定優惠碼單筆支付滿 $199 享 95 折（最高折 $100）",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "優惠碼每月1日於icash Pay App推播公告"
+    ],
+    "reregister": "each_period",
+    "reregister_quote": "優惠碼每月1日於icash Pay App推播公告",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 1500,
+    "quota_quote": "每月限量1500組優惠碼",
+    "review": [
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 95.0,
+      "unit": "折",
+      "quote": "使用優惠碼滿 199 元享 95 折"
+     }
+    ],
+    "min_spend": {
+     "amount": 199,
+     "unit": "元",
+     "per": "txn",
+     "quote": "輸入指定優惠碼單筆支付滿 $199 享 95 折"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "最高折抵 100 元"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "輸入指定優惠碼",
+    "limited": "yes",
+    "limited_quote": "每月限量1500組優惠碼",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "6b51d431df5d7f14",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-b1d5781111",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "COLD STONE",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "專屬優惠價",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 9.0,
+      "unit": "折",
+      "quote": "享小杯自創冰淇淋/切片蛋糕9折優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "限COLD STONE酷聖石冰淇淋直營門市使用",
+    "how": "持icash2.0/icash Pay全額支付",
+    "limited": "yes",
+    "limited_quote": "數量有限售完為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "87c0e9531513da7a",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-bcac9d1d8e",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "康是美門市",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "折抵優惠券",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "結帳金額滿$500元可折抵$50元"
+     }
+    ],
+    "min_spend": {
+     "amount": 500,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費扣除不抵用品項後，結帳金額滿$500元可折抵$50元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "單筆發票限折乙次"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "本券限使用乙次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "本券僅限康是美實體門市使用",
+    "how": "須全額使用icash Pay付款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "61a86454245f0180",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-bd307a3ec3",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "BEING spa",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "折抵優惠券",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1000.0,
+      "unit": "元",
+      "quote": "可享1,000元SPA課程電子抵用券乙張"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "txn",
+      "quote": "每次僅限使用一張"
+     }
+    ],
+    "new_users_only": "yes",
+    "new_users_quote": "BEING spa新戶使用icash Pay可享1,000元SPA課程電子抵用券乙張",
+    "where": "可於BEING spa各門市使用",
+    "how": "使用icash Pay",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "468e341315de18e1",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "icashpay-ddfe163345",
+  "provider_id": "icashpay",
+  "provider_name": "icash Pay",
+  "title": "統一超商",
+  "aliases": [],
+  "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "period_start": "2026-07-01",
+  "period_end": "2026-12-31",
+  "category": "點數回饋",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 0.5,
+      "unit": "%",
+      "quote": "使用 icash Pay 結帳享 0.5% OPENPOINT 回饋（含基本點 0.33%）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "統一超商",
+    "how": "使用 icash Pay 結帳",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.icashpay.com.tw/event/memberbenefits/",
+  "review": [],
+  "content_hash": "938db8c9f82c8cb5",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ }
+]

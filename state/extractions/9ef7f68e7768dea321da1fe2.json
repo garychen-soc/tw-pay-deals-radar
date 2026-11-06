@@ -1,0 +1,64 @@
+{
+ "key": "9ef7f68e7768dea321da1fe2",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:08:23+00:00",
+ "title": "21PLUS",
+ "duration_ms": 2834,
+ "cost_usd": 0.0224312,
+ "usage": {
+  "input": 2,
+  "output": 411,
+  "cache_creation": 4406,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "香草烤半雞＋蜂蜜綠茶(M)套餐優惠價 $199（原價 $320）"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "＊結帳代碼[2244]"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 199,
+      "unit": "元",
+      "quote": "香草烤半雞＋蜂蜜綠茶(M)套餐優惠價 $199（原價 $320）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "＊結帳代碼[2244]",
+    "limited": {
+     "value": "yes",
+     "quote": "販售品項依門市現場為主，售完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "key": "1348c46b704f7642a724b036",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:07:56+00:00",
+ "title": "歐付寶TWQR消費趣，台中新社大安兩區筆筆消費回饋10%！",
+ "duration_ms": 3613,
+ "cost_usd": 0.027569200000000002,
+ "usage": {
+  "input": 2,
+  "output": 506,
+  "cache_creation": 5453,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享10%現金回饋(非即時回饋，小數點後四捨五入)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%現金回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一帳戶最高回饋新台幣1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台中市新社區、大安區標示TWQR店家",
+    "how": "掃描TWQR",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限5萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限5萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

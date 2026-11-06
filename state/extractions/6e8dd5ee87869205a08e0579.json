@@ -1,0 +1,64 @@
+{
+ "key": "6e8dd5ee87869205a08e0579",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:51:24+00:00",
+ "title": "台中「AVI無紙化綁定自動扣繳」活動",
+ "duration_ms": 3199,
+ "cost_usd": 0.0226452,
+ "usage": {
+  "input": 2,
+  "output": 396,
+  "cache_creation": 4497,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "提前綁定「電子支付自動代扣繳」，還可享最高6折停車優惠喔。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 6,
+      "unit": "折",
+      "quote": "還可享最高6折停車優惠喔"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "西區「國立臺灣美術館」周邊之五權西路、五權西三街、五權西四街等3條路段",
+    "how": "提前綁定「電子支付自動代扣繳」",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

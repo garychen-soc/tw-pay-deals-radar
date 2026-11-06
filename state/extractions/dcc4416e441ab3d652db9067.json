@@ -1,0 +1,180 @@
+{
+ "key": "dcc4416e441ab3d652db9067",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:51:29+00:00",
+ "title": "口袋盈家，好禮開戶送☕",
+ "duration_ms": 20132,
+ "cost_usd": 0.0722526,
+ "usage": {
+  "input": 4,
+  "output": 3370,
+  "cache_creation": 8981,
+  "cache_read": 13103
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "開戶完成送200元全家虛擬禮物卡"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "新戶禮-200元全家虛擬禮物卡:",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 200,
+      "unit": "元",
+      "quote": "開戶完成送200元全家虛擬禮物卡"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "口袋證券「新戶」定義"
+    },
+    "where": "",
+    "how": "透過連結線上開立口袋證券帳戶",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶享首月入金跨轉免手續費:",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "由全盈+PAY入金至口袋錢包，免跨轉手續費"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "口袋證券「新戶」定義"
+    },
+    "where": "",
+    "how": "設定全盈+PAY作為入金帳戶",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶禮交易禮全家大杯經典拿鐵x3杯:",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 3,
+      "unit": "other",
+      "quote": "送全家大杯經典拿鐵3杯"
+     }
+    ],
+    "min_spend": {
+     "amount": 1,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "綁定全盈+PAY並交易一筆"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "口袋證券「新戶」定義"
+    },
+    "where": "",
+    "how": "綁定全盈+PAY",
+    "limited": {
+     "value": "yes",
+     "quote": "限量250名"
+    },
+    "quota": {
+     "seats": 250,
+     "quote": "限量250名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "首次交易美股送300元超商購物金（每月限量1,000名）",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 300,
+      "unit": "元",
+      "quote": "首次交易美股送300元超商購物金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "口袋證券「新戶」定義"
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "每月限量1,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

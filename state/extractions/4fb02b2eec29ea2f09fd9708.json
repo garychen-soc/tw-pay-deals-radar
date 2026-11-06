@@ -1,0 +1,212 @@
+{
+ "key": "4fb02b2eec29ea2f09fd9708",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:07:41+00:00",
+ "title": "用街口支付，Apple 服務輕鬆付！",
+ "duration_ms": 16742,
+ "cost_usd": 0.07166520000000001,
+ "usage": {
+  "input": 2,
+  "output": 2788,
+  "cache_creation": 10772,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額即可享有 10% 折抵，每人每券折抵上限 $150 元"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "獎勵需「手動領取」，每門檻均須領取 1 次，每人每獎勵限領 1 次。"
+  },
+  "subs": [
+   {
+    "name": "領券專區｜最高現折 $150",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額即可享有 10% 折抵"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每人每券折抵上限 $150 元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於「Apple 服務」付款（含 App Store 購買、iCloud、Apple Music 等服務）",
+    "how": "需綁定街口支付至 Apple 帳戶成為預設付款方式",
+    "limited": {
+     "value": "yes",
+     "quote": "如街口券名額尚未額滿，系統將自動套用街口券折抵"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "滿額最高領 $100",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30,
+      "unit": "元",
+      "quote": "$30 街口幣"
+     },
+     {
+      "kind": "cash",
+      "value": 70,
+      "unit": "元",
+      "quote": "$70 街口幣"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "滿 $1,000"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人每獎勵限領 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於「Apple 服務」付款（含 App Store 遊戲儲值）",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "（名額有限，先領先贏）"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "限量 2,500 名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "首綁抽 $5,000 街口幣",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5000,
+      "unit": "元",
+      "quote": "每名可獲得街口幣 $5,000"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次於 Apple 帳號綁定街口支付 App，即可獲得當月抽獎資格"
+    },
+    "where": "",
+    "how": "首次於 Apple 帳號綁定街口支付 App",
+    "limited": {
+     "value": "yes",
+     "quote": "次月將抽出 10 名中獎者"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "次月將抽出 10 名中獎者"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定付款最高 10%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "享全通路筆筆 10% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 2.5,
+      "unit": "%",
+      "quote": "享最高 2.5% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 1,
+      "unit": "%",
+      "quote": "筆筆享 1% 街口幣回饋無上限"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "若選擇使用「華南銀行帳戶」 付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

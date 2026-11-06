@@ -1,0 +1,104 @@
+{
+ "key": "18be14ec3721e5913b2b75c0",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:51:36+00:00",
+ "title": "2026 全聯 週三 玉山日",
+ "duration_ms": 4286,
+ "cost_usd": 0.0298392,
+ "usage": {
+  "input": 2,
+  "output": 711,
+  "cache_creation": 5508,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "領券享100點玉山e point回饋! （每歸戶每週三回饋上限100點）"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "玉山Unicard正卡持卡人於活動期間內至玉山Wallet「我的>玉山Unicard-我的方案」領取專屬優惠"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "領券享100點玉山e point回饋!"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿1,000元"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "week",
+      "quote": "每歸戶每週三回饋上限100點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全聯福利中心/大全聯實體門市",
+    "how": "使用玉山Unicard綁定全支付(PXPay Plus)或PXPay",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "玉山Unicard正卡持卡人於活動期間內至玉山Wallet「我的>玉山Unicard-我的方案」領取專屬優惠",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間僅需領券一次"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

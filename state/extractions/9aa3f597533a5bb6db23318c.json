@@ -1,0 +1,369 @@
+{
+ "key": "9aa3f597533a5bb6db23318c",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:50:38+00:00",
+ "title": "酷澎週四品牌日",
+ "duration_ms": 26793,
+ "cost_usd": 0.091818,
+ "usage": {
+  "input": 2,
+  "output": 4273,
+  "cache_creation": 12271,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆實際支付金額滿 $1,000 享 8% 即時回饋，最高可回饋 $200 街口幣"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "需先至「街口支付」活動頁登記參與回饋活動，付款時才得獲得回饋。"
+  },
+  "subs": [
+   {
+    "name": "週週買酷澎享8%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "享 8% 即時回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆實際支付金額滿 $1,000"
+    },
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "最高可回饋 $200 街口幣"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "week",
+      "quote": "每人每週限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「酷澎 APP」",
+    "how": "使用街口支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動採限量名額，額滿將於本活動頁公告"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋金額 $80,000"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/11/1 - 12/31 每月 1 號開放登記當月回饋",
+      "kind": "monthly",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [
+       1
+      ],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "每月 1 號開放登記當月回饋"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需先至「街口支付」活動頁登記參與回饋活動，付款時才得獲得回饋。"
+    }
+   },
+   {
+    "name": "週四限定！滿額就送街口幣",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "$100 街口幣"
+     },
+     {
+      "kind": "cash",
+      "value": 150,
+      "unit": "元",
+      "quote": "$150 街口幣"
+     }
+    ],
+    "min_spend": {
+     "amount": 1500,
+     "unit": "元",
+     "per": "week",
+     "quote": "$1,500"
+    },
+    "caps": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "day",
+      "quote": "單日最高累積共可領取 $250 街口幣"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每門檻限領取一次獎勵"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「酷澎 APP」",
+    "how": "使用街口付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，先領先贏，領完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週 205 名"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "當週四 00:00 至下週三 23:59",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定付款｜最高享10%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "享全通路筆筆 10% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 2.5,
+      "unit": "%",
+      "quote": "享最高 2.5% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 1,
+      "unit": "%",
+      "quote": "筆筆享 1% 街口幣回饋無上限"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "選擇使用「華南銀行帳戶」 付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "5 號會員日 登記搶 $50 街口幣",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "享 30% 街口幣回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 $100"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每人最高拿 $50 街口幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "where": "指定通路",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "登記時間:2026/8/1 - 12/5",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動",
+      "kind": "monthly",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [
+       1
+      ],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶限定｜送$50街口券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取專屬$50街口券"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "「首次註冊」街口支付"
+    },
+    "where": "指定通路",
+    "how": "綁定支付工具",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

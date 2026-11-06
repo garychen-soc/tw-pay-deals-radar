@@ -1,0 +1,76 @@
+{
+ "key": "3339c58e37b0b9ecf2213b1b",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:50:55+00:00",
+ "title": "東南亞好物一站購足🛒",
+ "duration_ms": 3988,
+ "cost_usd": 0.0331392,
+ "usage": {
+  "input": 2,
+  "output": 507,
+  "cache_creation": 6843,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新台幣200元(含)以上贈新台幣50元全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "單筆消費滿新台幣200元(含)以上贈新台幣50元全盈儲值金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿新台幣200元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每一全盈支付會員每月限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "此活動合作通路僅限於EEC中山店實體門市",
+    "how": "使用全盈+PAY「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總量上限200份"
+    },
+    "quota": {
+     "seats": 200,
+     "quote": "本活動每月回饋總量上限200份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -8,7 +8,7 @@ from collections.abc import Iterator
 from contextlib import contextmanager
 
 from . import providers
-from .providers.base import Adapter
+from .providers.base import Adapter, ExternalTerms, NotActivity
 from .transport import Fetcher
 
 
@@ -35,9 +35,13 @@ def probe(provider_id: str, *, details: int = 2) -> dict[str, object]:
     with open_adapter(provider_id) as adapter:
         stubs = adapter.discover()
         keys = [s.key for s in stubs]
-        sample = []
+        sample: list[dict[str, object]] = []
         for stub in stubs[:details]:
-            terms = adapter.terms(stub) if stub.detail_text is None else None
+            try:
+                terms = adapter.terms(stub) if stub.detail_text is None else None
+            except (ExternalTerms, NotActivity) as exc:
+                sample.append({"title": stub.title, "url": stub.url, "result": str(exc)})
+                continue
             text = stub.detail_text if terms is None else terms.text
             sample.append(
                 {

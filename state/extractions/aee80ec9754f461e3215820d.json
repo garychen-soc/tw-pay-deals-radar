@@ -1,0 +1,203 @@
+{
+ "key": "aee80ec9754f461e3215820d",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:50:53+00:00",
+ "title": "Pi拍錢包X新安東京海上產險〡十一月車險加碼！早鳥投保車險最高領600P幣，月月加碼抽1000P幣",
+ "duration_ms": 13257,
+ "cost_usd": 0.0588712,
+ "usage": {
+  "input": 2,
+  "output": 2229,
+  "cache_creation": 8971,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "輸入活動代碼PIAPP並響應環保選擇電子保單，完成登錄即可獲得500P幣"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "輸入活動代碼PIAPP並響應環保選擇電子保單，完成登錄即可獲得100P幣"
+  },
+  "subs": [
+   {
+    "name": "獎項一:《旅平險早鳥禮》",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "獎項:100P幣，每月共100名"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "活動期間內每筆投保訂單僅限領取一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "網路投保指定險種",
+    "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
+    "limited": {
+     "value": "yes",
+     "quote": "每月前100名網路投保指定險種"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "每月共100名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "獎項二:《汽車險早鳥禮》",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 600,
+      "unit": "點",
+      "quote": "500P幣（11/1-11/30加碼至600P幣）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "活動期間內每筆投保訂單僅限領取一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "網路投保指定險種",
+    "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
+    "limited": {
+     "value": "yes",
+     "quote": "每個月前50名網路投保指定險種"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "每月共50名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "獎項三:《機車險早鳥禮》",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 150,
+      "unit": "點",
+      "quote": "100P幣（11/1-11/30加碼至150P幣）"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "活動期間內每筆投保訂單僅限領取一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "網路投保指定險種",
+    "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
+    "limited": {
+     "value": "yes",
+     "quote": "每個月前50名網路投保指定險種"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "每月共50名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "獎項四:《月月加碼抽》",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1000,
+      "unit": "點",
+      "quote": "獎項:1000P幣，每月共10名"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "活動期間內每筆投保訂單僅限領取一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "網路投保指定險種",
+    "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
+    "limited": {
+     "value": "yes",
+     "quote": "每月共10名"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "每月共10名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

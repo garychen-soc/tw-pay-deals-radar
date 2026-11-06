@@ -1,0 +1,1062 @@
+[
+ {
+  "id": "pxmart-05efd724f6",
+  "provider_id": "pxmart",
+  "provider_name": "全聯 PX Pay",
+  "title": "202611 PX Pay 發票記帳加碼獎",
+  "aliases": [],
+  "url": "https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E",
+  "period_start": "2026-11-25",
+  "period_end": "2026-11-25",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)",
+  "offers": [
+   {
+    "name": "",
+    "slots": [
+     {
+      "start": null,
+      "end": "2026-11-24T23:59:00+08:00",
+      "kind": "deadline",
+      "origin": "explicit",
+      "precision": "minute",
+      "holiday_shifted": false,
+      "note": "",
+      "evidence": {
+       "quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)",
+       "url": "https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E"
+      }
+     }
+    ],
+    "rules": [
+     "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)"
+    ],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "retroactive_ok",
+    "order_quote": "2026/9/1-2026/10/30無論全聯店內外發票，皆符合PX Pay 發票記帳加碼獎對獎資格",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "現金抵用券100元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "無論全聯店內外發票",
+    "how": "發票記帳功能綁定手機條碼(共通性載具)",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
+  "review": [],
+  "content_hash": "0fd6e8ed9ebf4dfd",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "pxmart-2625c34715",
+  "provider_id": "pxmart",
+  "provider_name": "全聯 PX Pay",
+  "title": "2026 全聯 週三 玉山日",
+  "aliases": [],
+  "url": "https://www.pxmart.com.tw/campaign/pxpay-card/2026%20%20%E5%85%A8%E8%81%AF%20%E9%80%B1%E4%B8%89%20%E7%8E%89%E5%B1%B1%E6%97%A5",
+  "period_start": "2026-09-01",
+  "period_end": "2026-12-31",
+  "category": "玉山銀行",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "玉山Unicard正卡持卡人於活動期間內至玉山Wallet「我的>玉山Unicard-我的方案」領取專屬優惠",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "玉山Unicard正卡持卡人於活動期間內至玉山Wallet「我的>玉山Unicard-我的方案」領取專屬優惠"
+    ],
+    "reregister": "once",
+    "reregister_quote": "活動期間僅需領券一次",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [
+     "規則無法驗證（year=2026 在引句中找不到）：玉山Unicard正卡持卡人於活動期間內至玉山Wallet「我的>玉山Unica"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100.0,
+      "unit": "點",
+      "quote": "領券享100點玉山e point回饋!"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿1,000元"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "week",
+      "quote": "每歸戶每週三回饋上限100點"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "全聯福利中心/大全聯實體門市",
+    "how": "使用玉山Unicard綁定全支付(PXPay Plus)或PXPay",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
+  "review": [],
+  "content_hash": "75f153a39b5abd88",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "pxmart-6bbf183b16",
+  "provider_id": "pxmart",
+  "provider_name": "全聯 PX Pay",
+  "title": "20261002-1231 一卡通卡友日",
+  "aliases": [],
+  "url": "https://www.pxmart.com.tw/campaign/pxpay-card/20261002-1231%20%E4%B8%80%E5%8D%A1%E9%80%9A%E5%8D%A1%E5%8F%8B%E6%97%A5",
+  "period_start": "2026-10-02",
+  "period_end": "2026-12-31",
+  "category": "一卡通",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "平日限量14,000份，假日限量8,500份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100.0,
+      "unit": "點",
+      "quote": "平日(每週一~五)單筆消費滿300元贈100福利點"
+     },
+     {
+      "kind": "points",
+      "value": 300.0,
+      "unit": "點",
+      "quote": "假日(每週六、日)單筆消費滿300元贈300福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿300元贈100福利點"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "每福利卡會員每銀行方案每日限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "天天使用星展銀行一卡通聯名卡，以一卡通票證功能扣款",
+    "limited": "yes",
+    "limited_quote": "平日限量14,000份，假日限量8,500份",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
+  "review": [],
+  "content_hash": "de2e759f3c2823de",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "pxmart-85559d5d79",
+  "provider_id": "pxmart",
+  "provider_name": "全聯 PX Pay",
+  "title": "2026Q4週年慶加碼實體信用卡 週六日消費最高6%活動",
+  "aliases": [],
+  "url": "https://www.pxmart.com.tw/campaign/pxpay-card/2026Q4%E9%80%B1%E5%B9%B4%E6%85%B6%E5%8A%A0%E7%A2%BC%E5%AF%A6%E9%AB%94%E4%BF%A1%E7%94%A8%E5%8D%A1%20%E9%80%B1%E5%85%AD%E6%97%A5%E6%B6%88%E8%B2%BB%E6%9C%80%E9%AB%986%25%E6%B4%BB%E5%8B%95",
+  "period_start": "2026-10-30",
+  "period_end": "2026-12-03",
+  "category": "信用卡",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "國泰世華",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 3000,
+    "quota_quote": "活動期間限量3,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每福利卡會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯店內信用卡支付",
+    "how": "信用卡支付",
+    "limited": "yes",
+    "limited_quote": "活動期間限量3,000份",
+    "sold_out": []
+   },
+   {
+    "name": "玉山銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 5000,
+    "quota_quote": "活動期間限量5,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每福利卡會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯店內信用卡支付",
+    "how": "信用卡支付",
+    "limited": "yes",
+    "limited_quote": "活動期間限量5,000份",
+    "sold_out": []
+   },
+   {
+    "name": "中國信託",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 6000,
+    "quota_quote": "活動限量6,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每福利卡會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯店內信用卡支付",
+    "how": "信用卡支付",
+    "limited": "yes",
+    "limited_quote": "活動限量6,000份",
+    "sold_out": []
+   },
+   {
+    "name": "台北富邦",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 3000,
+    "quota_quote": "活動期間限量3,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每福利卡會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯店內信用卡支付",
+    "how": "信用卡支付",
+    "limited": "yes",
+    "limited_quote": "活動期間限量3,000份",
+    "sold_out": []
+   },
+   {
+    "name": "聯邦銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 4500,
+    "quota_quote": "活動期間限量4,500份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每福利卡會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯店內信用卡支付",
+    "how": "信用卡支付",
+    "limited": "yes",
+    "limited_quote": "活動期間限量4,500份",
+    "sold_out": []
+   },
+   {
+    "name": "第一銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 500,
+    "quota_quote": "活動期間限量500份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每福利卡會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯店內信用卡支付",
+    "how": "信用卡支付",
+    "limited": "yes",
+    "limited_quote": "活動期間限量500份",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
+  "review": [],
+  "content_hash": "f13a53baae477381",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "pxmart-8971fcbfcf",
+  "provider_id": "pxmart",
+  "provider_name": "全聯 PX Pay",
+  "title": "悠遊卡卡友日_2026Q4",
+  "aliases": [],
+  "url": "https://www.pxmart.com.tw/campaign/pxpay-card/%E6%82%A0%E9%81%8A%E5%8D%A1%E5%8D%A1%E5%8F%8B%E6%97%A5_2026Q4",
+  "period_start": "2026-10-02",
+  "period_end": "2026-12-31",
+  "category": "悠遊卡",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 20000,
+    "quota_quote": "限量20,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 200.0,
+      "unit": "點",
+      "quote": "玉山悠遊聯名卡單筆滿300送200點福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿300送200點福利點"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "day",
+      "quote": "每福利卡每日限贈1份"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "於全聯以悠遊卡功能支付消費款項者",
+    "how": "限持玉山/元大悠遊聯名卡",
+    "limited": "yes",
+    "limited_quote": "限量20,000份",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
+  "review": [],
+  "content_hash": "cd91f016d56cbf75",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "pxmart-97300f5f71",
+  "provider_id": "pxmart",
+  "provider_name": "全聯 PX Pay",
+  "title": "2026Q4週年慶加碼 PX Pay.全支付 週六日消費最高6%活動",
+  "aliases": [],
+  "url": "https://www.pxmart.com.tw/campaign/pxpay-card/2026Q4%E9%80%B1%E5%B9%B4%E6%85%B6%E5%8A%A0%E7%A2%BC%20PX%20Pay.%E5%85%A8%E6%94%AF%E4%BB%98%20%E9%80%B1%E5%85%AD%E6%97%A5%E6%B6%88%E8%B2%BB%E6%9C%80%E9%AB%986%25%E6%B4%BB%E5%8B%95",
+  "period_start": "2026-10-30",
+  "period_end": "2026-12-03",
+  "category": "PX Pay",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "國泰世華",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 6000,
+    "quota_quote": "限量6,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1,300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量6,000份",
+    "sold_out": []
+   },
+   {
+    "name": "玉山銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 15000,
+    "quota_quote": "限量15,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量15,000份",
+    "sold_out": []
+   },
+   {
+    "name": "中國信託",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 1000,
+    "quota_quote": "限量1,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費滿1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量1,000份",
+    "sold_out": []
+   },
+   {
+    "name": "台新銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 2500,
+    "quota_quote": "限2,500份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "台新Pay共享活動份數，限2,500份",
+    "sold_out": []
+   },
+   {
+    "name": "台新銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "限量份數詳見全支付官網",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 78.0,
+      "unit": "點",
+      "quote": "贈全點78點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日全支付單筆消費滿1,300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每全支付會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量份數詳見全支付官網",
+    "sold_out": []
+   },
+   {
+    "name": "永豐銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 6000,
+    "quota_quote": "限量6,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "活動期間限量6,000份",
+    "sold_out": []
+   },
+   {
+    "name": "聯邦銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 11000,
+    "quota_quote": "限量11,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "活動期間限量11,000份",
+    "sold_out": []
+   },
+   {
+    "name": "台北富邦",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 3000,
+    "quota_quote": "限量3,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "活動期間限量3,000份",
+    "sold_out": []
+   },
+   {
+    "name": "第一銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 3000,
+    "quota_quote": "限量3,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量3,000份",
+    "sold_out": []
+   },
+   {
+    "name": "彰化銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 3000,
+    "quota_quote": "限量3,000份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量3,000份",
+    "sold_out": []
+   },
+   {
+    "name": "凱基銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 900,
+    "quota_quote": "限量900份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "活動限量900份",
+    "sold_out": []
+   },
+   {
+    "name": "星展銀行",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 1200,
+    "quota_quote": "限量1,200份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 780.0,
+      "unit": "點",
+      "quote": "贈780福利點"
+     }
+    ],
+    "min_spend": {
+     "amount": 1300,
+     "unit": "元",
+     "per": "txn",
+     "quote": "週六日單筆消費達1300元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間全聯APP會員限贈一次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於全聯行動APP_PX Pay/全支付綁定指定銀行信用卡",
+    "limited": "yes",
+    "limited_quote": "限量1,200份",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
+  "review": [],
+  "content_hash": "39cec3f5773b1ea9",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ }
+]

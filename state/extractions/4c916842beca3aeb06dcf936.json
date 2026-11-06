@@ -1,0 +1,113 @@
+{
+ "key": "4c916842beca3aeb06dcf936",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T11:50:23+00:00",
+ "title": "7-ELEVEN | 711 Day購物節🎊Pi 拍錢包消費滿$1,111立折$100",
+ "duration_ms": 5683,
+ "cost_usd": 0.0323412,
+ "usage": {
+  "input": 2,
+  "output": 804,
+  "cache_creation": 5901,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持 Pi 拍錢包至 7-ELEVEN 單筆實付滿 1,111 元現折 100 元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "活動一:使用 Pi 拍錢包單筆實付滿 1,111 元現折 100 元",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "單筆實付滿 1,111 元現折 100 元"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆實付滿 1,111 元現折 100 元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "持 Pi 拍錢包至 7-ELEVEN",
+    "how": "持 Pi 拍錢包",
+    "limited": {
+     "value": "yes",
+     "quote": "限量前 1.5 萬筆訂單，單筆不可累折，總預算 150 萬元"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "限量前 1.5 萬筆訂單"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:綁定中信 ALL ME 卡享最高 3% 回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "Pi 拍錢包綁定中信ALL ME卡付款享最高 3% 點數回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "點",
+      "per": "month",
+      "quote": "每戶每月回饋上限 300 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "Pi 拍錢包綁定中信ALL ME卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

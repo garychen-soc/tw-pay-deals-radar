@@ -1,0 +1,283 @@
+{
+ "key": "381bc7d3bd1df86e7df1aeb2",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:06:33+00:00",
+ "title": "2026/10/6-12/31 週一飲料主題日，最高享 40%",
+ "duration_ms": 19730,
+ "cost_usd": 0.061639200000000005,
+ "usage": {
+  "input": 2,
+  "output": 3071,
+  "cache_creation": 7558,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆實際支付金額滿 $50 享 30% 即時回饋，最高可回饋 $15 街口幣。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "需先至「街口支付」活動頁登記參與回饋活動，付款時才得獲得回饋。"
+  },
+  "subs": [
+   {
+    "name": "週週喝飲料享30%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "單筆實際支付金額滿 $50 享 30% 即時回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 50,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆實際支付金額滿 $50"
+    },
+    "caps": [
+     {
+      "amount": 15,
+      "unit": "元",
+      "per": "txn",
+      "quote": "最高可回饋 $15 街口幣"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "week",
+      "quote": "每人每週限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定飲料/咖啡店家",
+    "how": "使用街口支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動採限量名額，額滿將於本活動頁公告"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "(每週回饋金額 $6,900，每人每週限回饋一次，先回饋先贏)"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/10/1 - 12/31 每月 1 號開放登記當月回饋",
+      "kind": "monthly",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [
+       1
+      ],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "每月 1 號開放登記當月回饋"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需先至「街口支付」活動頁登記參與回饋活動，付款時才得獲得回饋。"
+    }
+   },
+   {
+    "name": "指定付款最高10%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "享全通路筆筆 10% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 3.5,
+      "unit": "%",
+      "quote": "於精選通路消費最高享 3.5% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 2.5,
+      "unit": "%",
+      "quote": "享最高 2.5% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 1,
+      "unit": "%",
+      "quote": "筆筆享 1% 街口幣回饋無上限"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "5 號會員日 登記搶 $50 街口幣",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿 $100"
+    },
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每人最高拿 $50 街口幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "where": "指定通路",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動",
+      "kind": "monthly",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [
+       1
+      ],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶限定｜送$50街口券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取專屬$50街口券"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "活動期間內「首次註冊」街口支付"
+    },
+    "where": "指定通路",
+    "how": "完成「實名認證或身份認證」，並綁定支付工具後",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間內「首次註冊」街口支付"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

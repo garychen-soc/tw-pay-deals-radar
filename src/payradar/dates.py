@@ -57,3 +57,19 @@ def parse_period(text: str) -> tuple[date | None, date | None]:
     if match:
         return None, _mk(int(match["by"]), int(match["bm"]), int(match["bd"]))
     return None, None
+
+
+_PERIOD_LABEL = re.compile(r"活動(?:期間|時間|日期)\s*[:：]?")
+
+
+def period_from_terms(text: str) -> tuple[date | None, date | None]:
+    """從條款的「活動期間／活動時間／活動日期」那一行取期間；沒有標籤或沒寫年份就不猜。
+
+    給列表沒有日期的來源（歐付寶 banner、街口隱藏活動頁）判斷是否已過期用。
+    """
+    value = normalize(text)
+    for match in _PERIOD_LABEL.finditer(value):
+        start, end = parse_period(value[match.end() : match.end() + 80])
+        if end is not None:
+            return start, end
+    return None, None

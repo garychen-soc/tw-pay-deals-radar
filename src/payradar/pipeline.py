@@ -20,6 +20,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from . import providers
+from .dates import period_from_terms
 from .extract.locate import (
     DEFAULT_MODEL,
     AuthExpired,
@@ -90,7 +91,7 @@ def fetch_provider(provider_id: str) -> Fetched:
             failures = len(adapter.failures)
             for stub in stubs:
                 if stub.detail_text is not None:
-                    out.pages.append(Page(stub, stub.detail_text))
+                    out.pages.append(Page(_with_period(stub, stub.detail_text), stub.detail_text))
                     continue
                 try:
                     terms = adapter.terms(stub)
@@ -108,7 +109,7 @@ def fetch_provider(provider_id: str) -> Fetched:
                     stub = stub.model_copy(
                         update={"period_start": terms.period_start, "period_end": terms.period_end}
                     )
-                out.pages.append(Page(stub, terms.text))
+                out.pages.append(Page(_with_period(stub, terms.text), terms.text))
             out.skipped.extend(adapter.skipped)
             health.detail_failures = failures
             if stubs and failures > len(stubs) * 0.2:
@@ -122,6 +123,16 @@ def fetch_provider(provider_id: str) -> Fetched:
     except Exception as exc:
         health.status, health.message = "failed", f"{type(exc).__name__}: {exc}"[:200]
     return out
+
+
+def _with_period(stub: Stub, text: str) -> Stub:
+    """列表與明細都沒給期間時，從條款「活動期間」那一行補（有寫年份才採用）。"""
+    if stub.period_end is not None:
+        return stub
+    start, end = period_from_terms(text)
+    if end is None:
+        return stub
+    return stub.model_copy(update={"period_start": stub.period_start or start, "period_end": end})
 
 
 def save_docs(item: Fetched) -> None:

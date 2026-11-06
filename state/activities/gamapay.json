@@ -1,0 +1,212 @@
+[
+ {
+  "id": "gamapay-5ea4cdaef6",
+  "provider_id": "gamapay",
+  "provider_name": "橘子支付",
+  "title": "【7-ELEVEN x 橘子支付】 歡慶 7-ELEVEN DAY 🎉 2026/11/4~11/9 單筆滿$1111，立折$100！",
+  "aliases": [],
+  "url": "https://www.gamapay.com.tw/news.html?id=4991",
+  "period_start": "2026-11-04",
+  "period_end": "2026-11-09",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 30000,
+    "quota_quote": "回饋總筆數3萬筆",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100.0,
+      "unit": "元",
+      "quote": "單筆滿$1111，立折$100！"
+     }
+    ],
+    "min_spend": {
+     "amount": 1111,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆滿$1111，立折$100！"
+    },
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "7-ELEVEN",
+    "how": "使用🍊橘子支付消費",
+    "limited": "yes",
+    "limited_quote": "※回饋總筆數3萬筆，額滿為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.gamapay.com.tw/news_list.html",
+  "review": [],
+  "content_hash": "7873367a09cf9a53",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "gamapay-af35f31db4",
+  "provider_id": "gamapay",
+  "provider_name": "橘子支付",
+  "title": "台中「AVI無紙化綁定自動扣繳」活動",
+  "aliases": [],
+  "url": "https://www.gamapay.com.tw/news.html?id=4936",
+  "period_start": null,
+  "period_end": null,
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 6.0,
+      "unit": "折",
+      "quote": "還可享最高6折停車優惠喔"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "西區「國立臺灣美術館」周邊之五權西路、五權西三街、五權西四街等3條路段",
+    "how": "提前綁定「電子支付自動代扣繳」",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.gamapay.com.tw/news_list.html",
+  "review": [],
+  "content_hash": "0fdebca88b57d3f8",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "gamapay-ba0075e70e",
+  "provider_id": "gamapay",
+  "provider_name": "橘子支付",
+  "title": "📢 台中市 | 智慧停車無紙化，綁定橘子支付繳費享6折優惠 🚗",
+  "aliases": [],
+  "url": "https://www.gamapay.com.tw/news.html?id=4977",
+  "period_start": null,
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 6.0,
+      "unit": "折",
+      "quote": "每筆享6折優惠"
+     }
+    ],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "綁定橘子支付並設定自動代扣款",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.gamapay.com.tw/news_list.html",
+  "review": [],
+  "content_hash": "f45b5e9825514020",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ },
+ {
+  "id": "gamapay-ea61903885",
+  "provider_id": "gamapay",
+  "provider_name": "橘子支付",
+  "title": "【TWQR x 橘子支付】 逛越多，即可享不同回饋！",
+  "aliases": [],
+  "url": "https://www.gamapay.com.tw/news.html?id=4909",
+  "period_start": null,
+  "period_end": null,
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "unknown",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [],
+    "rewards": [],
+    "min_spend": null,
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.gamapay.com.tw/news_list.html",
+  "review": [],
+  "content_hash": "c5e0562a087a92f6",
+  "observed_at": "2026-11-06T19:49:52+08:00",
+  "stale": false
+ }
+]

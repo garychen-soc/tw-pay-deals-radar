@@ -1,0 +1,69 @@
+{
+ "key": "1b820453868e51ead73a3054",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-06T03:08:23+00:00",
+ "title": "夢時代",
+ "duration_ms": 2736,
+ "cost_usd": 0.0225792,
+ "usage": {
+  "input": 2,
+  "output": 413,
+  "cache_creation": 4438,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "夢時代APP會員生日當月於指定店櫃消費發票金額累計滿1000元贈55點OPENPOINT"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "生日禮",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 55,
+      "unit": "點",
+      "quote": "贈55點OPENPOINT"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "發票金額累計滿1000元"
+    },
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定店櫃",
+    "how": "持icash Pay消費並完成同APP會員卡號集點",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

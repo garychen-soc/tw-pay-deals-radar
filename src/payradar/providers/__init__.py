@@ -11,7 +11,16 @@ MODULES = (
     "taiwanpay",
     "ipassmoney",
     "easywallet",
+    "jkopay",
+    "opay",
+    "icashpay",
+    "pipay",
+    "pluspay",
+    "gamapay",
+    "pxmart",
 )
+# openpoint（OPEN 錢包）擷取器已寫好但不註冊：2026-11 實測 3 筆全是 icash Pay 活動、
+# 條款連到 icash 網站，與 icashpay 重複。列為涵蓋缺口（見 docs/coverage.md）。
 
 
 def load(provider_id: str) -> type[Adapter]:
