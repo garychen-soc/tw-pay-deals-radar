@@ -37,8 +37,16 @@ state/  唯一正本（進版控）→ emit → web/（Astro）＋ 行事曆
       已額滿 100%／100%；首次全量 217 筆、LLM 約 US$7.4）
 - [x] Phase 3：長尾 7 家擷取器（街口 36／歐付寶 11／icash 11／Pi 7／全盈 13／橘子 4／全聯 6）；
       golden 擴至 57 頁，精確率 98.9%／召回率 87.8%；缺口見 `docs/coverage.md`
-- [ ] Phase 4：Astro 前端、行事曆、PTT 社群區
+- [x] Phase 4：Astro 前端（優惠／登錄時程／社群／來源四分頁，手機與深淺色走查）、
+      行事曆 `calendar/deals.ics`、PTT 社群區、deploy／verify workflow、`ops/run_local.sh`＋launchd plist（未安裝）
 - [ ] 切換：merge main、launchd、停用舊例行任務
+
+## 切換上線（需 Gary 同意，尚未執行）
+
+1. GitHub repo 設定 → Pages → Source 改為「GitHub Actions」（舊版是直接從 main 根目錄提供）。
+2. `v2` merge 進 `main`（`git merge -s ours` 保留舊歷史後以 v2 內容為準），push。
+3. 確認 deploy workflow 成功、站上資料正確後，安裝 `ops/com.garychen.tw-pay-radar.plist`。
+4. 停用 Claude 例行任務 `tw-pay-promo-monitor`；舊目錄 `~/Documents/Claude/tw-pay-deals-radar` 保留觀察。
 
 ## 開發
 
@@ -47,6 +55,7 @@ python3 -m venv .venv && .venv/bin/pip install -e '.[dev]'
 .venv/bin/python -m pytest -q
 .venv/bin/ruff check src tests && .venv/bin/mypy
 .venv/bin/payradar probe pxpayplus      # 單一服務擷取體檢（會連官網）
+.venv/bin/payradar emit && npm --prefix web run build   # 從 state 重產網站並建置
 ```
 
 ## 安全邊界

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  安裝（切換上線時、經 Gary 同意後才執行）：
+    mkdir -p ~/Library/Logs/tw-pay-radar
+    cp ops/com.garychen.tw-pay-radar.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.garychen.tw-pay-radar.plist
+  每日 08:50 一次：與刷卡登錄雷達（08:20）錯開，兩者共用同一個 claude 訂閱額度；
+  避開整點與深夜（Mac 睡眠是排程最大的失敗源，睡眠中錯過的時段在喚醒後補跑一次）。
+  repo 必須在 ~/Projects：launchd 啟動的 bash 讀 ~/Documents 會被 TCC 擋。
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.garychen.tw-pay-radar</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/chenzhiming/Projects/tw-pay-deals-radar/ops/run_local.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>50</integer></dict>
+  <key>StandardOutPath</key>
+  <string>/Users/chenzhiming/Library/Logs/tw-pay-radar/launchd.out</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/chenzhiming/Library/Logs/tw-pay-radar/launchd.err</string>
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>

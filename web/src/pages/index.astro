@@ -1,0 +1,90 @@
+---
+import "../styles/global.css";
+
+const base = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>台灣支付優惠雷達</title>
+    <meta
+      name="description"
+      content="台灣行動支付官方優惠：回饋多少、門檻與每人上限、是否已額滿、要不要先登錄或領券 —— 每一項都附官方原文。"
+    />
+    <meta property="og:title" content="台灣支付優惠雷達" />
+    <meta property="og:description" content="全支付、台灣Pay、街口、悠遊付、一卡通…官方優惠一頁看完，額滿與條件都附原文。" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem("payradar.v2.theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+  </head>
+  <body data-base={base}>
+    <a class="skip" href="#view">跳到主要內容</a>
+    <div class="shell">
+      <header class="site">
+        <div class="title-row">
+          <h1>台灣支付優惠雷達</h1>
+          <button class="btn" id="theme" type="button" aria-label="切換深淺色">深淺色</button>
+        </div>
+        <p class="lede">
+          台灣行動支付的官方優惠。回饋、門檻、每人上限、<strong>是否已額滿</strong>、要不要先登錄或領券，
+          每一項都由程式比對官方原文才列出；「10 月份已額滿」不會被當成現在額滿。
+        </p>
+        <p id="updated" class="muted"></p>
+        <p id="staleness" class="banner" hidden></p>
+        <div class="stats" id="stats"></div>
+
+        <details class="subscribe">
+          <summary>訂閱行事曆（登錄／領券開放前 10 分鐘提醒＋各優惠截止日）</summary>
+          <div class="sub-row">
+            <span class="sub-label">iPhone／iPad／Mac</span>
+            <a class="btn" id="sub-apple" href="#">一鍵訂閱</a>
+          </div>
+          <div class="sub-row">
+            <span class="sub-label">Google 日曆（含 Android）</span>
+            <a class="btn" id="sub-google" href="#" target="_blank" rel="noopener">用瀏覽器加入</a>
+          </div>
+          <div class="sub-row">
+            <span class="sub-label">Outlook／其他</span>
+            <input id="sub-url" readonly aria-label="行事曆訂閱網址" />
+            <button class="btn" id="sub-copy" type="button">複製網址</button>
+          </div>
+        </details>
+      </header>
+
+      <nav class="tabs" aria-label="檢視">
+        <button type="button" data-tab="deals" aria-selected="true">優惠</button>
+        <button type="button" data-tab="timeline">登錄時程</button>
+        <button type="button" data-tab="ptt">社群</button>
+        <button type="button" data-tab="sources">來源</button>
+      </nav>
+
+      <div class="filters" id="filters">
+        <div class="chips" id="cats" role="group" aria-label="分類"></div>
+        <input id="q" type="search" placeholder="搜尋活動、支付、通路" aria-label="搜尋" />
+        <select id="provider" aria-label="支付服務"><option value="">全部支付</option></select>
+        <label class="check"><input id="reg-only" type="checkbox" />只看需登錄／領券</label>
+        <label class="check"><input id="show-notice" type="checkbox" />顯示非優惠公告</label>
+      </div>
+
+      <main id="view" aria-live="polite"><p class="muted">載入中…</p></main>
+
+      <footer class="foot">
+        <p>
+          資料取自各支付服務官方公開頁面，每日於本機更新。回饋、上限與額滿由程式比對官方原文產生，
+          實際名額、資格與回饋一律以官方公告為準。社群情報來自 PTT，未經官方確認。
+        </p>
+      </footer>
+    </div>
+    <script>
+      import "../lib/app.ts";
+    </script>
+  </body>
+</html>

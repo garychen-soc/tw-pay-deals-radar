@@ -4,6 +4,8 @@
     payradar probe <provider> [--details N]     單一服務擷取體檢
     payradar sample <provider> [--limit N]      以 var/docs 原文抽取前 N 筆並印出（不寫 state）
     payradar usage [--days 30]                  每輪 LLM token 用量統計
+    payradar emit                               只從 state 重產網站資料與行事曆
+    payradar ptt                                更新 PTT 社群情報（失敗沿用上一份）
     payradar score                              以 golden 集評分目前 state
     payradar evaluate [--model sonnet]          只對 golden 頁面重跑抽取並評分
 
@@ -19,6 +21,7 @@ import sys
 from datetime import datetime, timedelta
 
 from . import pipeline
+from .emit import write
 from .extract.locate import DEFAULT_MODEL, locate
 from .models import Activity, SourceHealth
 
@@ -114,6 +117,8 @@ def main(argv: list[str] | None = None) -> int:
     sample.add_argument("--model", default=DEFAULT_MODEL)
     usage = sub.add_parser("usage", help="每輪 LLM token 用量（var/usage.jsonl）")
     usage.add_argument("--days", type=int, default=30)
+    sub.add_parser("emit")
+    sub.add_parser("ptt")
     sub.add_parser("score")
     evaluate = sub.add_parser("evaluate")
     evaluate.add_argument("--model", default=DEFAULT_MODEL)
@@ -152,6 +157,18 @@ def main(argv: list[str] | None = None) -> int:
             merged.update({h.provider_id: h for h in result.health})
             result.activities, result.health = activities, list(merged.values())
         pipeline.save(result)
+        print(
+            json.dumps(write(result.activities, result.health, result.observed), ensure_ascii=False)
+        )
+        return 0
+    if args.command == "emit":
+        activities, health, generated = _load_state()
+        print(json.dumps(write(activities, health, generated), ensure_ascii=False))
+        return 0
+    if args.command == "ptt":
+        from .ptt import write as write_ptt
+
+        print(json.dumps(write_ptt(), ensure_ascii=False))
         return 0
     if args.command == "probe":
         from .sources import probe as run_probe
