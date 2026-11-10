@@ -4,6 +4,1154 @@
 # 本批原文抓取日 2026-11-06（台北）；四大宗 36 筆＋長尾 7 家 21 筆。content_hash 不同（官方頁改版）的筆數評分時列為 stale、不計分。
 # 由兩個獨立標註者依原文建立，評分 diff 一律回原文仲裁後才改 golden 或改程式。
 
+- id: easywallet-01
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1764668818
+  title: 【誠品生活5號會員日】悠遊付滿額最高享8%
+  content_hash: 45cd3b2fff5b15f9
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 元
+    value: 50
+  - unit: 元
+    value: 100
+  - unit: '%'
+    value: 8
+  min_spend:
+  - amount: 888
+    unit: 元
+  - amount: 3000
+    unit: 元
+  caps:
+  - amount: 3
+    unit: 份
+  sold_out:
+  - scope_start: '2026-04-05'
+    scope_end: '2026-04-05'
+    quote: 4月5號會員日滿888元贈50元券活動，限量500份於4/5(日)19:47已額滿
+  - scope_start: '2026-06-05'
+    scope_end: '2026-06-05'
+    quote: 6月5號會員日滿888元贈50元券活動，限量500份於6/5(五)21:10已額滿
+  - scope_start: '2026-07-05'
+    scope_end: '2026-07-05'
+    quote: 7月5號會員日滿888元贈50元券活動，限量500份於7/5(日)21:39已額滿
+  - scope_start: '2026-09-05'
+    scope_end: '2026-09-05'
+    quote: 9月5號會員日滿888元贈50元券活動，限量500份於9/5(六)19:37已額滿
+  quotes:
+  - 單筆滿888元贈50元悠遊付現金回饋券1份，單筆可累贈，每戶每月回饋上限3份，每月回饋上限500份
+  - 單筆滿3,000元加贈100元悠遊付現金回饋券1份
+  - 享最高8%回饋
+  note: 活動僅每月5號，額滿各限當月5號(單日)，故 scope 取該日。8% 為標題宣稱最高回饋率。每月500/100份為總量不入caps。
+- id: easywallet-02
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1782278283
+  title: 「減塑 Easy Life｜集集樂挑戰賽」
+  content_hash: 9b00ffd8d1e9541a
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 元
+    value: 50
+  - unit: 元
+    value: 20
+  - unit: 元
+    value: 5
+  - unit: other
+    value: null
+  min_spend:
+  - amount: 1
+    unit: 次
+  - amount: 5
+    unit: 次
+  - amount: 10
+    unit: 次
+  - amount: 15
+    unit: 次
+  - amount: 20
+    unit: 次
+  caps:
+  - amount: 1
+    unit: 份
+  sold_out: []
+  quotes:
+  - 完成減塑Easy Life活動登錄且於登錄當月集集樂集滿1次者
+  - 每人限領一份，數量有限，贈完即止
+  - 登錄方式:悠遊付APP首頁>減塑Easy Life>點選「我要登錄」
+  - 活動期間累積達指定次數即可兌換相對應之回饋
+  - 前100名者，加碼再送悠遊卡1張(不挑款)
+  note: 門檻有累計次數與減廢重量(kg不在單位清單，未記)。悠遊卡贈品用 other。各項限量為總量不入caps；每人限領一份記 1 份。
+- id: easywallet-03
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1737338924
+  title: 嗶桃園市好運卡，享專屬藥妝通路加碼優惠
+  content_hash: 17a895fd73c96655
+  is_offer: 'yes'
+  registration: unknown
+  rewards:
+  - unit: 元
+    value: 88
+  - unit: 元
+    value: 100
+  - unit: other
+    value: null
+  min_spend:
+  - amount: 988
+    unit: 元
+  - amount: 1000
+    unit: 元
+  - amount: 99
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 份
+  sold_out: []
+  quotes:
+  - 持好運卡消費滿$988(折扣後)現折$88
+  - 持好運卡扣款消費享滿千折百優惠
+  - 消費滿99元即享贈孕媽咪杏福禮乙份
+  - (孕期限領乙份)
+  note: 多通路各自優惠(折數/贈品用 other)；部分通路須加入會員/LINE，部分不用→unknown。滿千折百記 100 元/1000 元。
+- id: easywallet-04
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1774403633
+  title: 選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！
+  content_hash: 01ee32d815976f88
+  is_offer: 'yes'
+  registration: unknown
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: 元
+    value: 15
+  min_spend: []
+  caps:
+  - amount: 300
+    unit: 元
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 享各項補助款項目之首筆補助金額回饋金10%，單筆最高回饋300元
+  - 次月份加碼15元回饋金(不累加，每一悠遊付用戶限回饋一次)
+  - 請於指定補助款項申請表(或托育補助異動通報單)勾選以悠遊付領取補助款
+  - 每悠遊付用戶之每項補助期間內限各回饋一次
+  note: 須於申請表勾選以悠遊付領款→required。活動一回饋總金額上限20萬為總預算不入caps；活動二15元每人限一次未另記。；11-06 仲裁：單筆／每次上限納入 caps（每悠遊付用戶之每項補助期間內限各回饋一次）；11-06 仲裁：「首次申請以悠遊付領取補助款」是參加資格不是活動登錄，是否算登錄有爭議，改 unknown 不計分
+- id: easywallet-05
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1782459664
+  title: 元大銀行悠遊聯名卡暨悠遊付活動專區
+  content_hash: f375f636c63a3dfc
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 5
+  - unit: 點
+    value: 200
+  min_spend:
+  - amount: 168
+    unit: 元
+  - amount: 300
+    unit: 元
+  caps:
+  - amount: 50
+    unit: 元
+  - amount: 100
+    unit: 元
+  sold_out: []
+  quotes:
+  - 元大悠遊聯名卡首次自動加值最高享10%刷卡金。
+  - 單筆消費達168元以上，享5%刷卡金回饋。
+  - 單筆消費滿300元贈200點福利點。
+  - 每位上限50元
+  - 每位上限100元
+  - 每戶每月回饋上限100元
+  note: 總覽頁，僅其中一項註明『需登錄』→混合 unknown。100元上限出現兩次(每位/每戶每月)合記一筆。限量15,000卡等為總量不入caps。'<贈送/額滿情況>'僅為連結文字，無額滿聲明。；11-06 仲裁：整頁 registration＝任一子活動需登錄即 required
+- id: easywallet-06
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1788682579
+  title: 7-ELEVEN 嗶悠遊卡結帳滿$500現折$50
+  content_hash: 0317470caf20544c
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 元
+    value: 50
+  min_spend:
+  - amount: 500
+    unit: 元
+  caps: []
+  sold_out:
+  - scope_start: '2026-10-01'
+    scope_end: '2026-10-31'
+    quote: 本活動10月份限量回饋2萬份於10/29(四)18:00已額滿
+  quotes:
+  - 單筆結帳金額滿500元享現折50元優惠(單筆不累折)。每月限量2萬份，送完為止。
+  - '#本活動10月份限量回饋2萬份於10/29(四)18:00已額滿'
+  note: 10月份額滿→2026-10-01~2026-10-31(活動日10/23-10/31)。每月2萬份為總量不入caps。
+- id: easywallet-07
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1789526598
+  title: 【指定餐廳】 悠遊付週週領券最高回饋13%
+  content_hash: 06e1a0647f218e87
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 8
+  - unit: '%'
+    value: 3
+  - unit: '%'
+    value: 2
+  - unit: '%'
+    value: 13
+  min_spend:
+  - amount: 100
+    unit: 元
+  - amount: 1000
+    unit: 元
+  caps:
+  - amount: 15
+    unit: 元
+  - amount: 150
+    unit: 元
+  - amount: 1
+    unit: 份
+  sold_out: []
+  quotes:
+  - 悠遊付會員於指定領券頁面可領取下列主題之現金回饋券
+  - 至指定日常餐飲品牌單筆滿百元可抵用1張主題券，每券回饋上限15元
+  - 至指定聚餐品牌單筆滿千元可抵用1張主題券，每券回饋上限150元
+  - 疊加優惠最高享13%回饋
+  - 活動期間每主題券每會員每週限領取1張
+  note: 需領券→required。3%/2%/13% 為疊加他活動與標題宣稱；15/150元為每券上限(每週每人限領1張)，歸為 caps 略不確定。每週用券上限3,500/200張為總量。；11-06 仲裁補記：活動期間每主題券每會員每週限領取1張
+- id: easywallet-08
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1789555490
+  title: MyCard X 悠遊付 四重好康一次拿
+  content_hash: 44ac91f9b3fe17f8
+  is_offer: 'yes'
+  registration: unknown
+  rewards:
+  - unit: '%'
+    value: 8
+  - unit: 元
+    value: 100
+  - unit: 點
+    value: 15
+  - unit: other
+    value: null
+  min_spend:
+  - amount: 1000
+    unit: 元
+  - amount: 500
+    unit: 元
+  - amount: 3
+    unit: 筆
+  - amount: 500
+    unit: 點
+  caps:
+  - amount: 2
+    unit: 份
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 滿千最高8%回饋｜集次加碼$200｜享MyCard點數｜再享豪禮抽獎
+  - 單筆滿500元以上訂單，每月累計滿3筆，回饋「100元指定遊戲電商專用現金回饋券」1張。本活動每悠遊付會員每月回饋上限2張
+  - 單筆購點達500點至MyCard會員帳號中，即可領取MyCard會員點數15點，每一MyCard會員限領1次
+  note: 摘要頁，細節在各[活動詳情]連結，登錄與否原文未寫→unknown。抽獎獎項用 other。
+- id: easywallet-09
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1790172504
+  title: 悠遊付新會員註冊立即領$50禮包
+  content_hash: a9032829f5155f89
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 元
+    value: 50
+  - unit: 元
+    value: 10
+  - unit: 元
+    value: 20
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - 活動期間新會員完成註冊悠遊付立即獲得50元禮包乙份，禮包含10元全通路券、20元飲料券、20元超商券各1張，每月回饋上限計54,000份，活動全期回饋共計162,000份。
+  - 活動期間註冊悠遊付視同參加活動，為活動參加人
+  note: 新會員註冊即得，註冊本身視同參加，判 not_required(略不確定)。禮包整體記 50 元。每月54,000份為總量。額滿為條件句。；11-06 仲裁：50元禮包內含 10元全通路券、20元飲料券、20元超商券，逐項也算回饋
+- id: gamapay-01
+  provider: gamapay
+  url: https://www.gamapay.com.tw/news.html?id=4909
+  title: 【TWQR x 橘子支付】 逛越多，即可享不同回饋！
+  content_hash: c5e0562a087a92f6
+  is_offer: 'yes'
+  registration: unknown
+  rewards: []
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - '各活動詳情，請見TWQR官方活動網頁:'
+  note: 原文僅標題『逛越多，即可享不同回饋』與外部連結，無任何數值/條件，故僅記is_offer=yes，其餘留空。
+- id: gamapay-02
+  provider: gamapay
+  url: https://www.gamapay.com.tw/news.html?id=4977
+  title: 📢 台中市 | 智慧停車無紙化，綁定橘子支付繳費享6折優惠 🚗
+  content_hash: f45b5e9825514020
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 折
+    value: 6
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - 綁定橘子支付並設定自動代扣款，每筆享6折優惠！
+  note: 綁定+設定自動代扣款視為付款工具設定，不算登錄；原文極短，registration 有些不確定。
+- id: icashpay-01
+  provider: icashpay
+  url: https://www.icashpay.com.tw/event/memberbenefits/
+  title: 統一超商
+  content_hash: 938db8c9f82c8cb5
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: '%'
+    value: 0.5
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - 使用 icash Pay 結帳享 0.5% OPENPOINT 回饋（含基本點 0.33%）。
+  note: 0.33%為含在0.5%內之基本點，不另記。
+- id: icashpay-02
+  provider: icashpay
+  url: https://www.icashpay.com.tw/event/memberbenefits/
+  title: 博客來
+  content_hash: 6cd5b6e51936a442
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 元
+    value: 50
+  min_spend:
+  - amount: 2
+    unit: 次
+  - amount: 499
+    unit: 元
+  caps: []
+  sold_out: []
+  quotes:
+  - 當月於博客來使用 icash Pay 消費達 2 次（含）以上，次月贈 50 元 E-Coupon；滿 $499 可折抵、使用效期自發送日起至次月月底截止，每月限量 5000 份。
+  note: 2次為參加門檻(單位次)；499元為券的折抵門檻，一併記入min_spend，若評分認為只算參加門檻則此項可能多記；每月限量5000份為總名額非caps。
+- id: icashpay-03
+  provider: icashpay
+  url: https://www.icashpay.com.tw/event/memberbenefits/
+  title: Mister Donut
+  content_hash: a25e0a4c6aea5a1d
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: other
+    value: null
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - 平日週一至週五，甜甜圈/點心/現做飲品買4送1
+  - 以icash Pay結帳方可享有優惠，不得與其他優惠合併使用。
+  note: 買4送1為贈品記other；「買4」不是金額/筆數門檻，不記min_spend。
+- id: ipassmoney-01
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: 元
+    value: 150
+  - unit: 元
+    value: 250
+  - unit: 點
+    value: 800
+  - unit: '%'
+    value: 5
+  - unit: 元
+    value: 600
+  - unit: 點
+    value: 500
+  - unit: '%'
+    value: 4.5
+  - unit: 元
+    value: 50
+  - unit: '%'
+    value: 4
+  min_spend:
+  - amount: 200
+    unit: 元
+  - amount: 3
+    unit: 筆
+  - amount: 1
+    unit: 筆
+  caps: []
+  sold_out:
+  - scope_label: 聯邦信用卡11月份
+    scope_start: '2026-11-01'
+    scope_end: '2026-11-30'
+    quote: '[11月份回饋上限已於 2026/11/3 17:00 額滿 ]綁定聯邦信用卡單筆消費滿 200 元，最高享 10% 回饋！'
+  - scope_label: 王道Debit卡11月份
+    scope_start: '2026-11-01'
+    scope_end: '2026-11-30'
+    quote: '[11月份回饋上限已於 2026/11/9 額滿 ]綁定王道Debit卡消費最高享 5% 回饋！'
+  quotes:
+  - '[11月份回饋上限已於 2026/11/3 17:00 額滿 ]綁定聯邦信用卡單筆消費滿 200 元，最高享 10% 回饋！'
+  - 指定連結開立 New New Bank 數位存款帳戶，完成指定任務最高享 150 元
+  - 指定連結開立 Richart 數位存款帳戶，完成指定任務享 250 元回饋
+  - 樂天網銀新戶，用 iPASS MONEY 付款任 3 筆享 800 點回饋！
+  - '[11月份回饋上限已於 2026/11/9 額滿 ]綁定王道Debit卡消費最高享 5% 回饋！'
+  - 指定連結開立王道帳戶，並符合條件享 600 元回饋
+  - 指定連結申辦玉山Unicard，並消費任 1 筆享 500 點回饋
+  - 綁定玉山 Unicard 消費，最高享 4.5% 回饋
+  - 輸入指定代碼領元大信用卡專屬優惠券 50 元
+  - 綁定 LINE Bank 快點卡消費，符合條件最高享 4% 回饋
+  note: 2026-11-10 換新（官方新增王道Debit卡11月份額滿聲明）。彙整頁列 10 個子活動，回饋逐項記；元大子活動須「輸入指定代碼領」優惠券，依 SPEC 輸入代碼屬主動動作→required（舊版記 unknown）。指定連結開戶/申辦不算登錄。兩則額滿皆為已發生聲明且自帶「11月份」→ 11/1~11/30。頁面無每人上限數字，caps 空。
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj
+  title: 【iPASS MONEY】連結銀行帳戶/信用卡享優惠！
+  content_hash: ddb2d70de6ad6959
+- id: ipassmoney-02
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAMADJE3436443FDm
+  title: 【好禮券】好禮入手、點數到手，使用 iPASS MONEY 付款，享一卡通綠點 10% 回饋
+  content_hash: b90a12081f01b5f5
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 4.5
+  - unit: '%'
+    value: 4
+  - unit: 元
+    value: 600
+  min_spend: []
+  caps:
+  - amount: 200
+    unit: 點
+  - amount: 50
+    unit: 點
+  sold_out: []
+  quotes:
+  - 消費總額享一卡通綠點 10% 回饋。每人每月回饋上限 200 點，活動總回饋上限 1,000 萬點
+  - 綁定聯邦信用卡消費最高享10%回饋（每人每月回饋上限 50 點，每月總回饋上限 25 萬點
+  - 須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點。
+  - 綁定王道簽帳金融卡新卡消費最高享600元回饋
+  note: 須同意加入一卡通綠點計畫才有回饋→required。總回饋1,000萬點/25萬點為總預算不入caps。額滿為條件句(如遇提前額滿)，無已發生聲明。
+- id: ipassmoney-03
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAOALJHZ7V64k0dNf
+  title: 【樂天銀行】iPASS MONEY 連接樂天銀行新戶，享一卡通綠點 800 點回饋
+  content_hash: cc065afbfa989a20
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 點
+    value: 800
+  min_spend:
+  - amount: 3
+    unit: 筆
+  caps:
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶，並於開戶次月 10 號前使用 iPASS MONEY 成功付款 3 筆，回饋一卡通綠點 800 點，每名新戶限回饋 1 次（回饋名額無上限
+  - 須先同意加入一卡通綠點計畫後，方可開始累積及獲得一卡通綠點。
+  note: 輸入推薦序號+加入綠點計畫。caps 取『每名新戶限回饋1次』=1次。
+- id: ipassmoney-04
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG
+  title: 【高雄巨蛋智慧杆】登錄活動-捷運巨蛋站進出站筆筆交易享 5 點回饋並加碼領最高 100 回饋
+  content_hash: 31adcf3bb31e8022
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 元
+    value: 50
+  - unit: 點
+    value: 50
+  - unit: 點
+    value: 5
+  - unit: 點
+    value: 20
+  min_spend:
+  - amount: 100
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 份
+  - amount: 1
+    unit: 次
+  - amount: 200
+    unit: 點
+  sold_out:
+  - scope_start: null
+    scope_end: null
+    quote: 活動二:前一千名登錄者加贈一卡通綠點 50 點 [本活動回饋上限已於 2026/10/8 16:00 額滿]
+  quotes:
+  - '活動期間內於高雄巨蛋智慧杆觀看一卡通 TWQR 影片，並掃描影片中 QR Code 完成活動登錄，享以下回饋:'
+  - 活動期間每人限領 1 份，總限量 2,000 份
+  - 每人限領 1 次，限前 1,000 名登錄者
+  - 每人每月回饋上限 200 點，活動總限量 10 萬點
+  note: 額滿聲明僅涵蓋活動二(前1000名加贈50點)，其餘活動一/三未額滿；scope 依整個『活動二』記 null/null。總限量2,000份/1,000名/10萬點不入caps。
+- id: ipassmoney-05
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C
+  title: 【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！
+  content_hash: 114053b003acdcf0
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 點
+    value: 168
+  min_spend:
+  - amount: 100
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶，且完成任一筆手機門號轉帳，即可獲得一卡通綠點 168 點抽獎機會(每月共抽出 30 名，活動期間每人限中獎 1 次)
+  - 累積消費滿 100 元即享 1 次額外抽獎機會
+  - 須同意加入一卡通綠點回饋後，方符合活動回饋資格。
+  note: 抽獎。caps 取每人限中獎1次；『每人每月轉帳抽獎次數上限20次』是抽獎機會數非回饋上限，未記。min_spend 取消費加碼門檻100元；轉帳資格為任一筆不限金額未記。
+- id: ipassmoney-06
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DGMIM77TDA641VFCA
+  title: 【SKM Park Outlets高雄草衙】使用 iPASS MONEY 當日累積消費滿 599 元抽造型一卡通！
+  content_hash: d938c85688c394c1
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: other
+    value: null
+  min_spend:
+  - amount: 599
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 當日累積消費滿 599 元，可獲得 1 次造型一卡通（市值 550 元）抽獎機會。（每帳號限 1 次抽獎機會，無法累贈）
+  - 活動期間共計抽出 1,000 名得獎者，每帳號限中獎 1 次。
+  note: 獎品為造型一卡通(實物)→other。須為新光三越會員，但非登錄步驟，判 not_required(略不確定)。獎項贈送完畢為條件句。
+- id: ipassmoney-08
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY
+  title: '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋'
+  content_hash: a2f095c186657f50
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 5
+  - unit: '%'
+    value: 10
+  min_spend: []
+  caps:
+  - amount: 200
+    unit: 元
+  - amount: 50
+    unit: 點
+  - amount: 200
+    unit: 點
+  sold_out:
+  - scope_start: '2026-10-01'
+    scope_end: '2026-10-31'
+    quote: '[本活動 10 月份回饋上限已於 2026/10/22 12:00 額滿]'
+  quotes:
+  - 消費金額享 10% 現金回饋。
+  - 每人每月回饋上限 50 點
+  - 享一卡通綠點10%回饋（每人每月回饋上限200點，活動總限量3,000萬點）
+  - '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ]'
+  note: 額滿僅涵蓋優惠二10月份。優惠二須同意加入綠點計畫、優惠一不用→混合 unknown。每月總回饋上限不入caps。；11-06 仲裁：整頁 registration＝任一子活動需登錄即 required
+- id: ipassmoney-09
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GMZTINYWBREUA64ayotP
+  title: 微風集團【 TWQR 限定 5% 超回饋】活動辦法
+  content_hash: eef65a3256ec0e01
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 元
+    value: 100
+  min_spend:
+  - amount: 2000
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 份
+  - amount: 5
+    unit: 份
+  sold_out: []
+  quotes:
+  - 單筆消費滿 2,000 元(含)以上即贈【100 元微風電子酬賓券】乙份(可累贈)，每筆交易回饋上限 5 份，每日每會員限回饋乙次
+  - 每位微風會員每日限獲得乙份【100 元微風電子酬賓券】
+  - 每筆交易回饋上限5份
+  note: 100元電子酬賓券記 100 元。caps=每日每會員1份(單筆5份為每筆上限未記)。需微風會員/APP但非登錄，not_required。；11-06 仲裁補記：每筆交易回饋上限5份
+- id: ipassmoney-10
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 元
+    value: 50
+  min_spend:
+  - amount: 1
+    unit: 筆
+  caps:
+  - amount: 1
+    unit: 份
+  sold_out: []
+  quotes:
+  - 繳納任一筆地價稅，送「數位券」50 元 1張（每人限贈一張，限前 25, 000 名）
+  - 欲參加活動請先於 iPASS MONEY APP「開通」數位券錢包，若未開通數位券錢包將不符合活動資格
+  - 本活動回饋數位券總限量 25,000 張，額滿將公告於此活動網頁
+  note: 2026-11-10 新增（取代下架的 ipassmoney-07）。須先主動「開通」數位券錢包才有資格，屬參加前的主動開通動作（非單純綁定付款工具/下載 APP）→ required，此判讀無前例、略不確定。「繳納任一筆」記門檻 1 筆；「每人限贈一張」記 caps 1 份（張→份）。總限量 25,000 張/前 25,000 名為總名額非 caps。條款「例如本活動於 2026/11/5
+    15:00 提前額滿」是假設舉例，「額滿將公告」是條件句，皆不算 sold_out。
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DGNQMTS7KZ64g6ApJ
+  title: 【 TWQR 掃碼繳稅】用 iPASS MONEY APP 繳地價稅即贈 50 元數位券
+  content_hash: 9a6e9e22c7e4af3f
+- id: jkopay-01
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: 元
+    value: 30
+  - unit: 元
+    value: 70
+  - unit: 元
+    value: 5000
+  - unit: '%'
+    value: 2.5
+  - unit: '%'
+    value: 1
+  - unit: '%'
+    value: 3
+  min_spend:
+  - amount: 1000
+    unit: 元
+  - amount: 2000
+    unit: 元
+  caps:
+  - amount: 150
+    unit: 元
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 單筆消費不限金額即可享有 10% 折抵，每人每券折抵上限 $150 元
+  - 獎勵需「手動領取」，每門檻均須領取 1 次，每人每獎勵限領 1 次。
+  - 若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記，享全通路筆筆 10% 街口幣回饋！
+  - 首次於 Apple 帳號綁定街口支付 App，即可獲得當月抽獎資格。次月將抽出 10 名中獎者，每名可獲得街口幣 $5,000。
+  - 若選擇使用「街利存帳戶」 付款，享最高 2.5% 街口幣回饋
+  - 若選擇使用「台新街口豬富卡」付款，筆筆享 1% 街口幣回饋無上限！
+  - 台新＠GoGo卡最高 3% 台新 Point
+  - 若無法領取則表示已額滿
+  - 滿 $1,000
+  - 滿 $2,000
+  note: 2026-11-10 換新（整筆重標）。華南帳戶須「於活動頁面進行登記」、滿額獎勵須「手動領取」→ required。Apple 服務 10% 折抵記 %；滿 $1,000/$2,000 領 $30/$70 街口幣；首綁抽獎 $5,000 記元。中獎名單列 $6,666/$7,777 為過往名單，與本月抽獎金額不一致，不記。100%全額折抵街口幣、免 1.5% 海外手續費非回饋不記；街口帳戶
+    1% 與豬富卡 1% 同值記一次。限量 2,500/400 名、抽 10 名為總名額非 caps。額滿字句「若無法領取則表示已額滿」為條件句，sold_out 空。
+  provider: jkopay
+  url: https://mkt.jkopay.com/zh-TW/campaign/appleservice
+  title: 用街口支付，Apple 服務輕鬆付！
+  content_hash: 8f677f1fb63ec809
+- id: jkopay-02
+  provider: jkopay
+  url: https://mkt.jkopay.com/zh-TW/campaign/jkodrink
+  title: 2026/10/6-12/31 週一飲料主題日，最高享 40%
+  content_hash: d6517dead6690b29
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 30
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 3.5
+  - unit: '%'
+    value: 2.5
+  - unit: '%'
+    value: 1
+  - unit: 元
+    value: 50
+  min_spend:
+  - amount: 50
+    unit: 元
+  - amount: 100
+    unit: 元
+  caps:
+  - amount: 15
+    unit: 元
+  - amount: 50
+    unit: 元
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 於街口支付 App 活動頁登記「週一飲料日 30% 回饋」，並於「指定飲料/咖啡店家」使用街口支付付款，單筆實際支付金額滿 $50 享 30% 即時回饋，最高可回饋 $15 街口幣。
+  - (每週回饋金額 $6,900，每人每週限回饋一次，先回饋先贏)
+  - （每人最高拿 $50 街口幣，回饋金額有限，先拿先贏）
+  - 活動期間內「首次註冊」街口支付，完成「實名認證或身份認證」，並綁定支付工具後，即可領取專屬$50街口券。
+  note: 標題稱最高40%但內文無40%，不記；週回饋金額$6,900為總預算非caps；額滿皆條件句。1次 caps 為「每人每週限回饋一次」。
+- id: jkopay-03
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 2
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 0.15
+  - unit: '%'
+    value: 3
+  - unit: 元
+    value: 50
+  - unit: 折
+    value: 6
+  min_spend:
+  - amount: 1000
+    unit: 元
+  caps:
+  - amount: 20
+    unit: 元
+  - amount: 30
+    unit: 元
+  - amount: 200
+    unit: 元
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 當月於街口 APP「繳費專區」，繳費滿 $1,000，享 2% 回饋（每月每人上限一張 $20 街口券），本回饋需「手動領取」。
+  - 所有付款工具合併計算，每人限領一次
+  - 當月於活動頁面登記後，於街口支付 App 繳費專區，使用華南銀行帳戶繳費付款，享 10% 街口幣回饋，單筆最高上限$30，每人每月上限$200。
+  - 若綁定台新街口豬富卡，於指定繳費項目付款，享 0.15% 街口幣回饋無上限
+  - 享繳費通路筆筆 3% 回饋，每人回饋上限 $200 街口幣回饋
+  - 即可領取並使用專屬 $50 街口券
+  - 綁定街口支付 APP，並設定自動代扣款成功，可享最高 6 折優惠！
+  - 每月限量 55,000 名，名額判別依系統「領取」時間為準，若無法領取則表示已額滿（先領先贏）
+  note: 2026-11-10 換新（整筆重標）。華南帳戶「當月於活動頁面登記」、2% 券需「手動領取」→ required。標題「最高 12%」與「累積最高 2.15%」為加總不記。caps：$20 券為每月每人上限、華南單筆 $30／每月 $200、街利存新戶 $200（同值記一次）、每人限領一次。每月限量 55,000 名為總名額非 caps；12 月券補發 20 元券屬既有券的效期補償、尊爵會員手續費抵用券非本頁活動回饋，皆不記。額滿皆條件句。
+  provider: jkopay
+  url: https://mkt.jkopay.com/zh-TW/campaign/jkopayebill
+  title: 地價稅開徵囉！
+  content_hash: 63eacb7dfd9a84ec
+- id: jkopay-04
+  provider: jkopay
+  url: https://mkt.jkopay.com/zh-TW/campaign/mcdonalds
+  title: 週四、五吃麥當勞賺回饋
+  content_hash: c35a6058f0e7d9bd
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 8
+  - unit: '%'
+    value: 5
+  - unit: '%'
+    value: 30
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 2.5
+  - unit: '%'
+    value: 1
+  - unit: 元
+    value: 50
+  min_spend:
+  - amount: 200
+    unit: 元
+  - amount: 100
+    unit: 元
+  caps:
+  - amount: 20
+    unit: 元
+  - amount: 10
+    unit: 元
+  - amount: 50
+    unit: 元
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 單筆消費滿 $200 享 8% 街口幣回饋，最高回饋$20。(每人每天限回饋一次，每日限量555名，先用先贏)
+  - 單筆消費滿 $200 享 5% 街口幣回饋，最高回饋$10。(每人每天限回饋一次，每日限量 1,111名，先用先贏)
+  - 當月 1 號起不分會員等級可登記會員日街口幣回饋活動，當月 5 號 10:00 - 23:59 至指定通路單筆消費滿 $100 享 30% 街口幣回饋！（每人最高拿 $50 街口幣，回饋金額有限，先拿先贏）
+  - 活動期間內，「首次註冊」街口支付，完成「實名認證或身份認證」，並綁定支付工具後，即可領取專屬$50街口券。
+  note: 會員日子活動需登記→required。每日限量為總名額非caps；條款另有「每人每週限回饋一次」與每天一次並存，caps 的 1 次為每天一次；額滿皆條件句。
+- id: opay-01
+  provider: opay
+  url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=2334
+  title: 【動物園行動支付上線】歐付寶Pay Taipei 暢遊動物園
+  content_hash: a92757e98baead7a
+  is_offer: 'no'
+  registration: not_required
+  rewards: []
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - 即日起，購買臺北市立動物園門票可以使用行動支付APP囉！
+  note: 僅為動物園購票可用行動支付的通知，無回饋/折扣/贈品，非優惠；registration 因非優惠填 not_required。
+- id: opay-02
+  provider: opay
+  url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=4470
+  title: 歐付寶TWQR十大商圈消費10%紅利回饋
+  content_hash: 7cc8e5e49761bf8e
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: '%'
+    value: 10
+  min_spend: []
+  caps:
+  - amount: 50
+    unit: 點
+  sold_out: []
+  quotes:
+  - 於活動期間持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付，單筆消費不限金額10%回饋紅利點數(非即時回饋，小數點後四捨五入)，活動期間每月每帳戶合計最高回饋50點紅利。
+  note: 回饋總計300萬元/每月預算為總預算非caps；如達上限即停止為條件句，無已額滿聲明。
+- id: opay-03
+  provider: opay
+  url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=4570
+  title: 歐付寶漫遊宜蘭員山，TWQR輕鬆付享10%回饋
+  content_hash: affd4995eab45fdd
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: '%'
+    value: 10
+  min_spend: []
+  caps:
+  - amount: 500
+    unit: 元
+  sold_out: []
+  quotes:
+  - 用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋(非即時回饋，小數點後四捨五入)。
+  - ※ 活動期間每一帳戶最高回饋新台幣500元。本活動回饋總金額上限5萬元，額滿為止，並公告於兆豐銀行官網，恕不另行通知。
+  note: 總上限5萬元為總預算非caps；額滿為止為條件句。
+- id: pipay-01
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 點
+    value: 500
+  - unit: 點
+    value: 1800
+  - unit: '%'
+    value: 5
+  - unit: '%'
+    value: 1
+  - unit: '%'
+    value: 4
+  - unit: '%'
+    value: 0.8
+  - unit: '%'
+    value: 2
+  - unit: '%'
+    value: 10
+  - unit: other
+    value: null
+  min_spend:
+  - amount: 15000
+    unit: 元
+  - amount: 36000
+    unit: 元
+  - amount: 499
+    unit: 元
+  - amount: 10000
+    unit: 元
+  - amount: 30000
+    unit: 元
+  - amount: 100000
+    unit: 元
+  caps:
+  - amount: 300
+    unit: 點
+  - amount: 3000
+    unit: 點
+  - amount: 150
+    unit: 點
+  - amount: 1
+    unit: 次
+  sold_out:
+  - scope_label: 活動一第一波
+    scope_start: '2026-11-01'
+    scope_end: '2026-11-08'
+    quote: (11/1-11/8活動一預算已於11/1 晚上 23:00額滿)
+  - scope_label: 活動二第一波
+    scope_start: '2026-11-01'
+    scope_end: '2026-11-08'
+    quote: (11/1-11/8活動二預算已於11/1 下午18:50額滿)
+  - scope_label: 活動二第二波
+    scope_start: '2026-11-09'
+    scope_end: '2026-11-11'
+    quote: (11/9-11/11活動二預算已於11/10 下午17:00額滿)
+  quotes:
+  - 活動一、單筆滿 $15,000 贈 500 P
+  - 活動二、單筆滿 $36,000 贈 1,800 P
+  - 於 Pi 拍錢包通路一般消費單筆滿 499 元，登錄享最高 5% P幣回饋 (每月每歸戶上限 300 P幣)
+  - ＊最高 5% P幣 = 基本權益 1% 無上限 + 單筆滿 499 元加碼 4% (每月每歸戶加碼 4% 回饋上限 300 P幣)。
+  - 門檻 1:累積滿 10,000 元，享加碼 0.8% P幣回饋
+  - 門檻 2:累積滿 30,000 元，享加碼 2% P幣回饋
+  - ＊門檻 1、2 擇優回饋，每月每歸戶最高回饋 3,000 P幣。
+  - 新戶首三月加碼 5% (每歸戶每月上限 150 P幣)
+  - 60 天內一般消費累積 100,000 元 (含) 以上，滿額贈「AirPods 4 等值之 Studio A 禮券」。
+  - 全活動期間 (11/1~11/11) 每人限回饋一次。
+  - ＊本活動需登錄，活動期間僅需登錄 1 次即可參加每月加碼活動
+  note: 2026-11-10 換新（官方新增活動二第二波額滿聲明）。P幣以「點」記（1 P幣=1元）；5%（登錄加碼總計）與新戶加碼 5% 同值記一次；Studio A 禮券記 other。三則額滿皆為已發生聲明且原文自帶波段日期；活動一第二波未見額滿聲明。活動總預算/各波段預算不記 caps；每歸戶限回饋 1 次與每人限回饋一次同為 1 次。
+  provider: pipay
+  url: https://web.piapp.com.tw/2611p24/
+  title: PChome 24h購物🔥1111超狂回饋🎁滿額最高贈1800 P幣
+  content_hash: fe8f8a8d3d9f3505
+- id: pipay-02
+  provider: pipay
+  url: https://web.piapp.com.tw/261112bonus/
+  title: Pi 拍錢包🎉11-12月指定通路🛒單筆滿額最高贈611 P幣
+  content_hash: a5909648ed722acd
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 點
+    value: 311
+  - unit: 點
+    value: 611
+  - unit: '%'
+    value: 5
+  - unit: '%'
+    value: 1
+  - unit: '%'
+    value: 4
+  - unit: '%'
+    value: 0.8
+  - unit: '%'
+    value: 2
+  - unit: '%'
+    value: 10
+  - unit: other
+    value: null
+  min_spend:
+  - amount: 6000
+    unit: 元
+  - amount: 12000
+    unit: 元
+  - amount: 499
+    unit: 元
+  - amount: 10000
+    unit: 元
+  - amount: 30000
+    unit: 元
+  - amount: 100000
+    unit: 元
+  caps:
+  - amount: 311
+    unit: 點
+  - amount: 611
+    unit: 點
+  - amount: 300
+    unit: 點
+  - amount: 3000
+    unit: 點
+  - amount: 150
+    unit: 點
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 1. 活動一每人每月僅給點一次，上限 311 P幣。
+  - 1. 活動二每人每月僅給點一次，上限 611 P幣。
+  - 🌟綁定玉山 Pi 拍錢包信用卡支付，單筆滿 499 元登錄享最高 5% P幣回饋 (需登錄)
+  - 活動一回饋總預算 124,400 元，11 月及 12 月各 62,200 元為限，額滿為止，並公告於 Pi 拍錢包官網之活動網頁。
+  note: 全文無任何已發生的額滿聲明(皆為預算額滿為止條件句)。
+- id: pipay-03
+  provider: pipay
+  url: https://web.piapp.com.tw/allme-202605/
+  title: Pi 拍錢包綁定中信 ALL ME 卡💰四大超商及指定通路最高享 3% 回饋！
+  content_hash: a30dd3b348ab14cd
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: '%'
+    value: 3
+  - unit: '%'
+    value: 1
+  - unit: '%'
+    value: 2
+  min_spend: []
+  caps:
+  - amount: 300
+    unit: 點
+  sold_out: []
+  quotes:
+  - 活動期間內，持 Pi 拍錢包綁定中信ALL ME卡，於指定四大超商、超市、交通運輸、美食等通路付款，享最高3%點數回饋。
+  - 核發點數為ALL ME點，1ALL ME點=新臺幣1元=1 P幣，每戶每月回饋上限300點，所有指定合作商店及更多詳情請見中國信託ALL ME卡官網。
+  note: 全文未提登錄；綁定付款工具不算。1%基本+2%加碼(四大超商3%加碼)；通路加碼3%與總3%同值。
+- id: pluspay-01
+  provider: pluspay
+  url: https://www.pluspay.com.tw/Campaign/Promotion/202607Events
+  title: 兆豐銀行 首次綁定消費筆筆享20%回饋
+  content_hash: f4a9d9f82701fb5b
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: '%'
+    value: 20
+  min_spend: []
+  caps:
+  - amount: 100
+    unit: 元
+  sold_out: []
+  quotes:
+  - 首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶於全盈+PAY合作通路（不包含全家便利商店)，筆筆消費不限金額享20%全盈儲值金回饋。
+  - 每會員活動期間信用卡(含VISA金融卡)/帳戶限回饋上限100元全盈儲值金
+  note: 首次綁定屬綁定付款工具，不算登錄；額滿僅條件句。
+- id: pluspay-02
+  provider: pluspay
+  url: https://www.pluspay.com.tw/Campaign/Promotion/202605Events
+  title: TWQR今夜留給我，高雄兩大夜市消費最高享15%回饋
+  content_hash: 4d0e0ef660b0a5d4
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 10
+  - unit: '%'
+    value: 5
+  min_spend: []
+  caps:
+  - amount: 200
+    unit: 元
+  - amount: 50
+    unit: 點
+  sold_out: []
+  quotes:
+  - 活動期間於高雄六合夜市與瑞豐夜市指定TWQR店家消費，使用支援TWQR交易之金融機構支付工具，包含「台灣Pay」(行動銀行/台灣行動支付APP) (限金融卡/帳戶)、電子支付機構APP(下稱指定電支機構APP)掃描「一卡通TWQR立牌」付款，消費金額享10% 現金回饋。
+  - (一)每人每帳戶每月回饋上限200元
+  - 一卡通綠點1點價值新台幣1元，每人每月回饋上限50點
+  - 請先同意加入一卡通綠點回饋計畫方可獲得活動回饋。
+  note: 優惠二須先同意加入一卡通綠點回饋計畫→required。總回饋上限為預算非caps；5月20日提前額滿僅為舉例。
+- id: pluspay-03
+  provider: pluspay
+  url: https://www.pluspay.com.tw/Campaign/Promotion/202609Events
+  title: 全盈+PAY綁定國泰世華信用卡💳小樹點(信用卡)帳單折抵，最高8%回饋
+  content_hash: 7a90030f23db631c
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: '%'
+    value: 4
+  - unit: 點
+    value: 100
+  min_spend:
+  - amount: 99
+    unit: 元
+  caps:
+  - amount: 100
+    unit: 點
+  - amount: 400
+    unit: 點
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 活動期間於國泰世華CUBE APP領取【全家折抵加碼】優惠券，於全家便利商店實體門市使用全盈+PAY綁定國泰世華CUBE信用卡付款，且當筆刷卡消費須開啟『小樹點(信用卡)折抵』服務，該筆消費始可享加碼4%小樹點(信用卡)回饋
+  - 單筆信用卡帳單實際請款金額滿99元(含)以上，加贈小樹點(信用卡)100點
+  - 整檔活動(2026/9/1~2026/12/31)合計最高每人可獲得400點小樹點(信用卡)。
+  - 每正卡戶限回饋乙次
+  note: 標題/文中『最高8%』為4%+100點的換算加總，不記；領券→required。
+- id: pxmart-01
+  provider: pxmart
+  url: https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E
+  title: 202611 PX Pay 發票記帳加碼獎
+  content_hash: 0fd6e8ed9ebf4dfd
+  is_offer: 'yes'
+  registration: required
+  rewards:
+  - unit: 元
+    value: 100
+  min_spend: []
+  caps: []
+  sold_out: []
+  quotes:
+  - 於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)
+  - 活動獎勵:全聯店內外發票，對中全聯加碼獎號，現金抵用券100元。
+  note: 需於發票記帳功能綁定手機條碼才有對獎資格，視為報名類動作記required，但有些不確定(也可視為綁定載具)。
+- id: pxmart-02
+  provider: pxmart
+  url: https://www.pxmart.com.tw/campaign/pxpay-card/20261002-1231%20%E4%B8%80%E5%8D%A1%E9%80%9A%E5%8D%A1%E5%8F%8B%E6%97%A5
+  title: 20261002-1231 一卡通卡友日
+  content_hash: de2e759f3c2823de
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 點
+    value: 100
+  - unit: 點
+    value: 300
+  min_spend:
+  - amount: 300
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 活動辦法:天天使用星展銀行一卡通聯名卡，平日(每週一~五)以一卡通功能扣款單筆消費滿300元贈100福利點，假日(每週六、日)以一卡通功能扣款單筆消費滿300元贈300福利點(每福利卡會員每銀行方案每日限贈一次，平日限量14,000份，假日限量8,500份)。
+  note: 注意事項5範例『加贈150點』與100/300不一致，不記；限量份數為總名額非caps；每日限贈一次記1次。
+- id: pxmart-03
+  provider: pxmart
+  url: https://www.pxmart.com.tw/campaign/pxpay-card/2026Q4%E9%80%B1%E5%B9%B4%E6%85%B6%E5%8A%A0%E7%A2%BC%20PX%20Pay.%E5%85%A8%E6%94%AF%E4%BB%98%20%E9%80%B1%E5%85%AD%E6%97%A5%E6%B6%88%E8%B2%BB%E6%9C%80%E9%AB%986%25%E6%B4%BB%E5%8B%95
+  title: 2026Q4週年慶加碼 PX Pay.全支付 週六日消費最高6%活動
+  content_hash: 39cec3f5773b1ea9
+  is_offer: 'yes'
+  registration: not_required
+  rewards:
+  - unit: 點
+    value: 780
+  - unit: 點
+    value: 78
+  - unit: '%'
+    value: 2
+  - unit: '%'
+    value: 5
+  min_spend:
+  - amount: 1300
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - ◎國泰世華-週六日單筆消費達1,300元贈780福利點(活動期間全聯APP會員限贈一次，限量6,000份)。立即辦卡
+  - 週六日全支付單筆消費滿1,300元贈全點78點(活動期間每全支付會員限贈一次，限量份數詳見全支付官網)。
+  - '*即日起-2026/12/31全聯實體門市刷國泰世華CUBE卡(含PX Pay交易)，享2%小樹點回饋立即辦卡 合併優惠最高享5%回饋'
+  note: 標題『最高6%』為換算，不記；多家銀行回饋同額(780點)；各行限量為總名額非caps；額滿情形指向即時網頁，無已額滿聲明。
 - id: pxpayplus-01
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=129
@@ -416,1135 +1564,3 @@
   quotes:
   - 每一金融卡/帳戶/信用卡回饋上限新臺幣(以下同)1,000元，本活動回饋總金額上限110萬元整
   note: 15%現金回饋，每卡/帳戶上限1,000元；總上限110萬元不記。1.5%紅利點數是他活動提醒，不記。
-- id: ipassmoney-01
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj
-  title: 【iPASS MONEY】連結銀行帳戶/信用卡享優惠！
-  content_hash: 358fccdbcd991e00
-  is_offer: 'yes'
-  registration: unknown
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: 元
-    value: 150
-  - unit: 元
-    value: 250
-  - unit: 點
-    value: 800
-  - unit: '%'
-    value: 5
-  - unit: 元
-    value: 600
-  - unit: 點
-    value: 500
-  - unit: '%'
-    value: 4.5
-  - unit: 元
-    value: 50
-  - unit: '%'
-    value: 4
-  min_spend:
-  - amount: 200
-    unit: 元
-  - amount: 3
-    unit: 筆
-  - amount: 1
-    unit: 筆
-  caps: []
-  sold_out:
-  - scope_start: '2026-11-01'
-    scope_end: '2026-11-30'
-    quote: '[11月份回饋上限已於2026/11/3 17:00 額滿 ]綁定聯邦信用卡單筆消費滿 200 元，最高享 10% 回饋！'
-  quotes:
-  - 綁定聯邦信用卡單筆消費滿 200 元，最高享 10% 回饋！
-  - 樂天網銀新戶，用 iPASS MONEY 付款任 3 筆享 800 點回饋！
-  - 輸入指定代碼領元大信用卡專屬優惠券 50 元
-  - 指定連結申辦玉山Unicard，並消費任 1 筆享 500 點回饋
-  note: 優惠總覽頁。登錄別家不同(元大須輸入代碼、開戶類須申辦)，混合故 unknown。聯邦額滿僅涵蓋11月份。
-- id: ipassmoney-02
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAMADJE3436443FDm
-  title: 【好禮券】好禮入手、點數到手，使用 iPASS MONEY 付款，享一卡通綠點 10% 回饋
-  content_hash: b90a12081f01b5f5
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 4.5
-  - unit: '%'
-    value: 4
-  - unit: 元
-    value: 600
-  min_spend: []
-  caps:
-  - amount: 200
-    unit: 點
-  - amount: 50
-    unit: 點
-  sold_out: []
-  quotes:
-  - 消費總額享一卡通綠點 10% 回饋。每人每月回饋上限 200 點，活動總回饋上限 1,000 萬點
-  - 綁定聯邦信用卡消費最高享10%回饋（每人每月回饋上限 50 點，每月總回饋上限 25 萬點
-  - 須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點。
-  - 綁定王道簽帳金融卡新卡消費最高享600元回饋
-  note: 須同意加入一卡通綠點計畫才有回饋→required。總回饋1,000萬點/25萬點為總預算不入caps。額滿為條件句(如遇提前額滿)，無已發生聲明。
-- id: ipassmoney-03
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAOALJHZ7V64k0dNf
-  title: 【樂天銀行】iPASS MONEY 連接樂天銀行新戶，享一卡通綠點 800 點回饋
-  content_hash: cc065afbfa989a20
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 點
-    value: 800
-  min_spend:
-  - amount: 3
-    unit: 筆
-  caps:
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶，並於開戶次月 10 號前使用 iPASS MONEY 成功付款 3 筆，回饋一卡通綠點 800 點，每名新戶限回饋 1 次（回饋名額無上限
-  - 須先同意加入一卡通綠點計畫後，方可開始累積及獲得一卡通綠點。
-  note: 輸入推薦序號+加入綠點計畫。caps 取『每名新戶限回饋1次』=1次。
-- id: ipassmoney-04
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG
-  title: 【高雄巨蛋智慧杆】登錄活動-捷運巨蛋站進出站筆筆交易享 5 點回饋並加碼領最高 100 回饋
-  content_hash: 31adcf3bb31e8022
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 元
-    value: 50
-  - unit: 點
-    value: 50
-  - unit: 點
-    value: 5
-  - unit: 點
-    value: 20
-  min_spend:
-  - amount: 100
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 份
-  - amount: 1
-    unit: 次
-  - amount: 200
-    unit: 點
-  sold_out:
-  - scope_start: null
-    scope_end: null
-    quote: 活動二:前一千名登錄者加贈一卡通綠點 50 點 [本活動回饋上限已於 2026/10/8 16:00 額滿]
-  quotes:
-  - '活動期間內於高雄巨蛋智慧杆觀看一卡通 TWQR 影片，並掃描影片中 QR Code 完成活動登錄，享以下回饋:'
-  - 活動期間每人限領 1 份，總限量 2,000 份
-  - 每人限領 1 次，限前 1,000 名登錄者
-  - 每人每月回饋上限 200 點，活動總限量 10 萬點
-  note: 額滿聲明僅涵蓋活動二(前1000名加贈50點)，其餘活動一/三未額滿；scope 依整個『活動二』記 null/null。總限量2,000份/1,000名/10萬點不入caps。
-- id: ipassmoney-05
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C
-  title: 【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！
-  content_hash: 114053b003acdcf0
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 點
-    value: 168
-  min_spend:
-  - amount: 100
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶，且完成任一筆手機門號轉帳，即可獲得一卡通綠點 168 點抽獎機會(每月共抽出 30 名，活動期間每人限中獎 1 次)
-  - 累積消費滿 100 元即享 1 次額外抽獎機會
-  - 須同意加入一卡通綠點回饋後，方符合活動回饋資格。
-  note: 抽獎。caps 取每人限中獎1次；『每人每月轉帳抽獎次數上限20次』是抽獎機會數非回饋上限，未記。min_spend 取消費加碼門檻100元；轉帳資格為任一筆不限金額未記。
-- id: ipassmoney-06
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DGMIM77TDA641VFCA
-  title: 【SKM Park Outlets高雄草衙】使用 iPASS MONEY 當日累積消費滿 599 元抽造型一卡通！
-  content_hash: d938c85688c394c1
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 599
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 當日累積消費滿 599 元，可獲得 1 次造型一卡通（市值 550 元）抽獎機會。（每帳號限 1 次抽獎機會，無法累贈）
-  - 活動期間共計抽出 1,000 名得獎者，每帳號限中獎 1 次。
-  note: 獎品為造型一卡通(實物)→other。須為新光三越會員，但非登錄步驟，判 not_required(略不確定)。獎項贈送完畢為條件句。
-- id: ipassmoney-07
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DIMQ6R7A6Z647SEU8
-  title: 【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！
-  content_hash: c10d8a9ee56195a2
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 元
-    value: 100
-  - unit: 元
-    value: 66
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 1111
-    unit: 元
-  - amount: 1711
-    unit: 元
-  - amount: 4
-    unit: 筆
-  caps:
-  - amount: 3
-    unit: 份
-  - amount: 5
-    unit: 份
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 優惠一:指定商品任選 4 件 75 折
-  - 優惠二:結帳金額單筆滿 1,111 元再現折 100 元
-  - 單筆滿 1,111 元最高抽 66 元購物金
-  - 單筆滿 1,711 元送贈品三選一兌換券一張
-  - 每會員上限 3 張兌換券
-  - 單筆交易上限贈 5 張優惠券
-  - 指定商品任選 4 件 75 折
-  - 單筆交易限折抵一次
-  note: 75折與贈品/券用 other。『任選4件』門檻單位不在清單未記。須 uniopen 會員(可報電話/出示條碼)判 not_required，略不確定。3份=第二重兌換券每會員上限；總折抵3萬筆為總量。；11-06 仲裁補記：單筆交易上限贈 5 張優惠券；11-06 仲裁補記：指定商品任選 4 件 75 折；11-06 仲裁補記：單筆交易限折抵一次
-- id: ipassmoney-08
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY
-  title: '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋'
-  content_hash: a2f095c186657f50
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 5
-  - unit: '%'
-    value: 10
-  min_spend: []
-  caps:
-  - amount: 200
-    unit: 元
-  - amount: 50
-    unit: 點
-  - amount: 200
-    unit: 點
-  sold_out:
-  - scope_start: '2026-10-01'
-    scope_end: '2026-10-31'
-    quote: '[本活動 10 月份回饋上限已於 2026/10/22 12:00 額滿]'
-  quotes:
-  - 消費金額享 10% 現金回饋。
-  - 每人每月回饋上限 50 點
-  - 享一卡通綠點10%回饋（每人每月回饋上限200點，活動總限量3,000萬點）
-  - '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ]'
-  note: 額滿僅涵蓋優惠二10月份。優惠二須同意加入綠點計畫、優惠一不用→混合 unknown。每月總回饋上限不入caps。；11-06 仲裁：整頁 registration＝任一子活動需登錄即 required
-- id: ipassmoney-09
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GMZTINYWBREUA64ayotP
-  title: 微風集團【 TWQR 限定 5% 超回饋】活動辦法
-  content_hash: eef65a3256ec0e01
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 元
-    value: 100
-  min_spend:
-  - amount: 2000
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 份
-  - amount: 5
-    unit: 份
-  sold_out: []
-  quotes:
-  - 單筆消費滿 2,000 元(含)以上即贈【100 元微風電子酬賓券】乙份(可累贈)，每筆交易回饋上限 5 份，每日每會員限回饋乙次
-  - 每位微風會員每日限獲得乙份【100 元微風電子酬賓券】
-  - 每筆交易回饋上限5份
-  note: 100元電子酬賓券記 100 元。caps=每日每會員1份(單筆5份為每筆上限未記)。需微風會員/APP但非登錄，not_required。；11-06 仲裁補記：每筆交易回饋上限5份
-- id: easywallet-01
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1764668818
-  title: 【誠品生活5號會員日】悠遊付滿額最高享8%
-  content_hash: 45cd3b2fff5b15f9
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 元
-    value: 50
-  - unit: 元
-    value: 100
-  - unit: '%'
-    value: 8
-  min_spend:
-  - amount: 888
-    unit: 元
-  - amount: 3000
-    unit: 元
-  caps:
-  - amount: 3
-    unit: 份
-  sold_out:
-  - scope_start: '2026-04-05'
-    scope_end: '2026-04-05'
-    quote: 4月5號會員日滿888元贈50元券活動，限量500份於4/5(日)19:47已額滿
-  - scope_start: '2026-06-05'
-    scope_end: '2026-06-05'
-    quote: 6月5號會員日滿888元贈50元券活動，限量500份於6/5(五)21:10已額滿
-  - scope_start: '2026-07-05'
-    scope_end: '2026-07-05'
-    quote: 7月5號會員日滿888元贈50元券活動，限量500份於7/5(日)21:39已額滿
-  - scope_start: '2026-09-05'
-    scope_end: '2026-09-05'
-    quote: 9月5號會員日滿888元贈50元券活動，限量500份於9/5(六)19:37已額滿
-  quotes:
-  - 單筆滿888元贈50元悠遊付現金回饋券1份，單筆可累贈，每戶每月回饋上限3份，每月回饋上限500份
-  - 單筆滿3,000元加贈100元悠遊付現金回饋券1份
-  - 享最高8%回饋
-  note: 活動僅每月5號，額滿各限當月5號(單日)，故 scope 取該日。8% 為標題宣稱最高回饋率。每月500/100份為總量不入caps。
-- id: easywallet-02
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1782278283
-  title: 「減塑 Easy Life｜集集樂挑戰賽」
-  content_hash: 9b00ffd8d1e9541a
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 元
-    value: 50
-  - unit: 元
-    value: 20
-  - unit: 元
-    value: 5
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 1
-    unit: 次
-  - amount: 5
-    unit: 次
-  - amount: 10
-    unit: 次
-  - amount: 15
-    unit: 次
-  - amount: 20
-    unit: 次
-  caps:
-  - amount: 1
-    unit: 份
-  sold_out: []
-  quotes:
-  - 完成減塑Easy Life活動登錄且於登錄當月集集樂集滿1次者
-  - 每人限領一份，數量有限，贈完即止
-  - 登錄方式:悠遊付APP首頁>減塑Easy Life>點選「我要登錄」
-  - 活動期間累積達指定次數即可兌換相對應之回饋
-  - 前100名者，加碼再送悠遊卡1張(不挑款)
-  note: 門檻有累計次數與減廢重量(kg不在單位清單，未記)。悠遊卡贈品用 other。各項限量為總量不入caps；每人限領一份記 1 份。
-- id: easywallet-03
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1737338924
-  title: 嗶桃園市好運卡，享專屬藥妝通路加碼優惠
-  content_hash: 17a895fd73c96655
-  is_offer: 'yes'
-  registration: unknown
-  rewards:
-  - unit: 元
-    value: 88
-  - unit: 元
-    value: 100
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 988
-    unit: 元
-  - amount: 1000
-    unit: 元
-  - amount: 99
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 份
-  sold_out: []
-  quotes:
-  - 持好運卡消費滿$988(折扣後)現折$88
-  - 持好運卡扣款消費享滿千折百優惠
-  - 消費滿99元即享贈孕媽咪杏福禮乙份
-  - (孕期限領乙份)
-  note: 多通路各自優惠(折數/贈品用 other)；部分通路須加入會員/LINE，部分不用→unknown。滿千折百記 100 元/1000 元。
-- id: easywallet-04
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1774403633
-  title: 選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！
-  content_hash: 01ee32d815976f88
-  is_offer: 'yes'
-  registration: unknown
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: 元
-    value: 15
-  min_spend: []
-  caps:
-  - amount: 300
-    unit: 元
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 享各項補助款項目之首筆補助金額回饋金10%，單筆最高回饋300元
-  - 次月份加碼15元回饋金(不累加，每一悠遊付用戶限回饋一次)
-  - 請於指定補助款項申請表(或托育補助異動通報單)勾選以悠遊付領取補助款
-  - 每悠遊付用戶之每項補助期間內限各回饋一次
-  note: 須於申請表勾選以悠遊付領款→required。活動一回饋總金額上限20萬為總預算不入caps；活動二15元每人限一次未另記。；11-06 仲裁：單筆／每次上限納入 caps（每悠遊付用戶之每項補助期間內限各回饋一次）；11-06 仲裁：「首次申請以悠遊付領取補助款」是參加資格不是活動登錄，是否算登錄有爭議，改 unknown 不計分
-- id: easywallet-05
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1782459664
-  title: 元大銀行悠遊聯名卡暨悠遊付活動專區
-  content_hash: f375f636c63a3dfc
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 5
-  - unit: 點
-    value: 200
-  min_spend:
-  - amount: 168
-    unit: 元
-  - amount: 300
-    unit: 元
-  caps:
-  - amount: 50
-    unit: 元
-  - amount: 100
-    unit: 元
-  sold_out: []
-  quotes:
-  - 元大悠遊聯名卡首次自動加值最高享10%刷卡金。
-  - 單筆消費達168元以上，享5%刷卡金回饋。
-  - 單筆消費滿300元贈200點福利點。
-  - 每位上限50元
-  - 每位上限100元
-  - 每戶每月回饋上限100元
-  note: 總覽頁，僅其中一項註明『需登錄』→混合 unknown。100元上限出現兩次(每位/每戶每月)合記一筆。限量15,000卡等為總量不入caps。'<贈送/額滿情況>'僅為連結文字，無額滿聲明。；11-06 仲裁：整頁 registration＝任一子活動需登錄即 required
-- id: easywallet-06
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1788682579
-  title: 7-ELEVEN 嗶悠遊卡結帳滿$500現折$50
-  content_hash: 0317470caf20544c
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 元
-    value: 50
-  min_spend:
-  - amount: 500
-    unit: 元
-  caps: []
-  sold_out:
-  - scope_start: '2026-10-01'
-    scope_end: '2026-10-31'
-    quote: 本活動10月份限量回饋2萬份於10/29(四)18:00已額滿
-  quotes:
-  - 單筆結帳金額滿500元享現折50元優惠(單筆不累折)。每月限量2萬份，送完為止。
-  - '#本活動10月份限量回饋2萬份於10/29(四)18:00已額滿'
-  note: 10月份額滿→2026-10-01~2026-10-31(活動日10/23-10/31)。每月2萬份為總量不入caps。
-- id: easywallet-07
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1789526598
-  title: 【指定餐廳】 悠遊付週週領券最高回饋13%
-  content_hash: 06e1a0647f218e87
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 8
-  - unit: '%'
-    value: 3
-  - unit: '%'
-    value: 2
-  - unit: '%'
-    value: 13
-  min_spend:
-  - amount: 100
-    unit: 元
-  - amount: 1000
-    unit: 元
-  caps:
-  - amount: 15
-    unit: 元
-  - amount: 150
-    unit: 元
-  - amount: 1
-    unit: 份
-  sold_out: []
-  quotes:
-  - 悠遊付會員於指定領券頁面可領取下列主題之現金回饋券
-  - 至指定日常餐飲品牌單筆滿百元可抵用1張主題券，每券回饋上限15元
-  - 至指定聚餐品牌單筆滿千元可抵用1張主題券，每券回饋上限150元
-  - 疊加優惠最高享13%回饋
-  - 活動期間每主題券每會員每週限領取1張
-  note: 需領券→required。3%/2%/13% 為疊加他活動與標題宣稱；15/150元為每券上限(每週每人限領1張)，歸為 caps 略不確定。每週用券上限3,500/200張為總量。；11-06 仲裁補記：活動期間每主題券每會員每週限領取1張
-- id: easywallet-08
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1789555490
-  title: MyCard X 悠遊付 四重好康一次拿
-  content_hash: 44ac91f9b3fe17f8
-  is_offer: 'yes'
-  registration: unknown
-  rewards:
-  - unit: '%'
-    value: 8
-  - unit: 元
-    value: 100
-  - unit: 點
-    value: 15
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 1000
-    unit: 元
-  - amount: 500
-    unit: 元
-  - amount: 3
-    unit: 筆
-  - amount: 500
-    unit: 點
-  caps:
-  - amount: 2
-    unit: 份
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 滿千最高8%回饋｜集次加碼$200｜享MyCard點數｜再享豪禮抽獎
-  - 單筆滿500元以上訂單，每月累計滿3筆，回饋「100元指定遊戲電商專用現金回饋券」1張。本活動每悠遊付會員每月回饋上限2張
-  - 單筆購點達500點至MyCard會員帳號中，即可領取MyCard會員點數15點，每一MyCard會員限領1次
-  note: 摘要頁，細節在各[活動詳情]連結，登錄與否原文未寫→unknown。抽獎獎項用 other。
-- id: easywallet-09
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1790172504
-  title: 悠遊付新會員註冊立即領$50禮包
-  content_hash: a9032829f5155f89
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 元
-    value: 50
-  - unit: 元
-    value: 10
-  - unit: 元
-    value: 20
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - 活動期間新會員完成註冊悠遊付立即獲得50元禮包乙份，禮包含10元全通路券、20元飲料券、20元超商券各1張，每月回饋上限計54,000份，活動全期回饋共計162,000份。
-  - 活動期間註冊悠遊付視同參加活動，為活動參加人
-  note: 新會員註冊即得，註冊本身視同參加，判 not_required(略不確定)。禮包整體記 50 元。每月54,000份為總量。額滿為條件句。；11-06 仲裁：50元禮包內含 10元全通路券、20元飲料券、20元超商券，逐項也算回饋
-- id: jkopay-01
-  provider: jkopay
-  url: https://mkt.jkopay.com/zh-TW/campaign/appleservice
-  title: 用街口支付，Apple 服務輕鬆付！
-  content_hash: fa257ea619af9732
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: 元
-    value: 30
-  - unit: 元
-    value: 70
-  - unit: 元
-    value: 5000
-  - unit: '%'
-    value: 2.5
-  - unit: '%'
-    value: 1
-  - unit: '%'
-    value: 3
-  min_spend:
-  - amount: 1000
-    unit: 元
-  - amount: 2000
-    unit: 元
-  caps:
-  - amount: 150
-    unit: 元
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 單筆消費不限金額即可享有 10% 折抵，每人每券折抵上限 $150 元（可多次折抵，折完為止）。
-  - 獎勵需「手動領取」，每門檻均須領取 1 次，每人每獎勵限領 1 次。
-  - 若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記，享全通路筆筆 10% 街口幣回饋！（查看說明）
-  - 首次於 Apple 帳號綁定街口支付 App，即可獲得當月抽獎資格。次月將抽出 10 名中獎者，每名可獲得街口幣 $5,000。
-  note: 額滿字句皆為條件句(若無法領取則表示已額滿)故 sold_out 空。首綁中獎名單列 $7,777/$6,666 與抽獎 $5,000 不一致，不記；100%全額折抵街口幣與免1.5%海外手續費非回饋不記；台新GoGo 3%台新Point 記 3%。限量2,500/400名為總名額非caps。
-- id: jkopay-02
-  provider: jkopay
-  url: https://mkt.jkopay.com/zh-TW/campaign/jkodrink
-  title: 2026/10/6-12/31 週一飲料主題日，最高享 40%
-  content_hash: d6517dead6690b29
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 30
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 3.5
-  - unit: '%'
-    value: 2.5
-  - unit: '%'
-    value: 1
-  - unit: 元
-    value: 50
-  min_spend:
-  - amount: 50
-    unit: 元
-  - amount: 100
-    unit: 元
-  caps:
-  - amount: 15
-    unit: 元
-  - amount: 50
-    unit: 元
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 於街口支付 App 活動頁登記「週一飲料日 30% 回饋」，並於「指定飲料/咖啡店家」使用街口支付付款，單筆實際支付金額滿 $50 享 30% 即時回饋，最高可回饋 $15 街口幣。
-  - (每週回饋金額 $6,900，每人每週限回饋一次，先回饋先贏)
-  - （每人最高拿 $50 街口幣，回饋金額有限，先拿先贏）
-  - 活動期間內「首次註冊」街口支付，完成「實名認證或身份認證」，並綁定支付工具後，即可領取專屬$50街口券。
-  note: 標題稱最高40%但內文無40%，不記；週回饋金額$6,900為總預算非caps；額滿皆條件句。1次 caps 為「每人每週限回饋一次」。
-- id: jkopay-03
-  provider: jkopay
-  url: https://mkt.jkopay.com/zh-TW/campaign/jkopayebill
-  title: 地價稅開徵囉！
-  content_hash: d2bf04f53e32f44a
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 2
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 0.15
-  - unit: '%'
-    value: 3
-  - unit: 元
-    value: 50
-  - unit: 折
-    value: 6
-  min_spend:
-  - amount: 1000
-    unit: 元
-  caps:
-  - amount: 20
-    unit: 元
-  - amount: 30
-    unit: 元
-  - amount: 200
-    unit: 元
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 當月於街口 APP 繳費交易滿 $1,000，享 2% 回饋（每月每人上限一張 $20 街口券），本回饋需「手動領取」。
-  - 當月於活動頁面登記後，於街口支付 App 繳費專區，使用華南銀行帳戶繳費付款，享 10% 街口幣回饋，單筆最高上限$30，每人每月上限$200。
-  - 若綁定台新街口豬富卡，於指定繳費項目付款，享 0.15% 街口幣回饋無上限，綜上所述，累積最高可享 2.15% 回饋。
-  - 享繳費通路筆筆 3% 回饋，每人回饋上限 $200 街口幣回饋
-  - 綁定街口支付 APP，並設定自動代扣款成功，可享最高 6 折優惠！
-  note: 每月限量55,000名為總名額非caps；2.15%/累積為加總不記；補發20元券、手續費抵用券不記；額滿皆條件句。
-- id: jkopay-04
-  provider: jkopay
-  url: https://mkt.jkopay.com/zh-TW/campaign/mcdonalds
-  title: 週四、五吃麥當勞賺回饋
-  content_hash: c35a6058f0e7d9bd
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 8
-  - unit: '%'
-    value: 5
-  - unit: '%'
-    value: 30
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 2.5
-  - unit: '%'
-    value: 1
-  - unit: 元
-    value: 50
-  min_spend:
-  - amount: 200
-    unit: 元
-  - amount: 100
-    unit: 元
-  caps:
-  - amount: 20
-    unit: 元
-  - amount: 10
-    unit: 元
-  - amount: 50
-    unit: 元
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 單筆消費滿 $200 享 8% 街口幣回饋，最高回饋$20。(每人每天限回饋一次，每日限量555名，先用先贏)
-  - 單筆消費滿 $200 享 5% 街口幣回饋，最高回饋$10。(每人每天限回饋一次，每日限量 1,111名，先用先贏)
-  - 當月 1 號起不分會員等級可登記會員日街口幣回饋活動，當月 5 號 10:00 - 23:59 至指定通路單筆消費滿 $100 享 30% 街口幣回饋！（每人最高拿 $50 街口幣，回饋金額有限，先拿先贏）
-  - 活動期間內，「首次註冊」街口支付，完成「實名認證或身份認證」，並綁定支付工具後，即可領取專屬$50街口券。
-  note: 會員日子活動需登記→required。每日限量為總名額非caps；條款另有「每人每週限回饋一次」與每天一次並存，caps 的 1 次為每天一次；額滿皆條件句。
-- id: opay-01
-  provider: opay
-  url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=2334
-  title: 【動物園行動支付上線】歐付寶Pay Taipei 暢遊動物園
-  content_hash: a92757e98baead7a
-  is_offer: 'no'
-  registration: not_required
-  rewards: []
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - 即日起，購買臺北市立動物園門票可以使用行動支付APP囉！
-  note: 僅為動物園購票可用行動支付的通知，無回饋/折扣/贈品，非優惠；registration 因非優惠填 not_required。
-- id: opay-02
-  provider: opay
-  url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=4470
-  title: 歐付寶TWQR十大商圈消費10%紅利回饋
-  content_hash: 7cc8e5e49761bf8e
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: '%'
-    value: 10
-  min_spend: []
-  caps:
-  - amount: 50
-    unit: 點
-  sold_out: []
-  quotes:
-  - 於活動期間持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付，單筆消費不限金額10%回饋紅利點數(非即時回饋，小數點後四捨五入)，活動期間每月每帳戶合計最高回饋50點紅利。
-  note: 回饋總計300萬元/每月預算為總預算非caps；如達上限即停止為條件句，無已額滿聲明。
-- id: opay-03
-  provider: opay
-  url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=4570
-  title: 歐付寶漫遊宜蘭員山，TWQR輕鬆付享10%回饋
-  content_hash: affd4995eab45fdd
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: '%'
-    value: 10
-  min_spend: []
-  caps:
-  - amount: 500
-    unit: 元
-  sold_out: []
-  quotes:
-  - 用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋(非即時回饋，小數點後四捨五入)。
-  - ※ 活動期間每一帳戶最高回饋新台幣500元。本活動回饋總金額上限5萬元，額滿為止，並公告於兆豐銀行官網，恕不另行通知。
-  note: 總上限5萬元為總預算非caps；額滿為止為條件句。
-- id: icashpay-01
-  provider: icashpay
-  url: https://www.icashpay.com.tw/event/memberbenefits/
-  title: 統一超商
-  content_hash: 938db8c9f82c8cb5
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: '%'
-    value: 0.5
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - 使用 icash Pay 結帳享 0.5% OPENPOINT 回饋（含基本點 0.33%）。
-  note: 0.33%為含在0.5%內之基本點，不另記。
-- id: icashpay-02
-  provider: icashpay
-  url: https://www.icashpay.com.tw/event/memberbenefits/
-  title: 博客來
-  content_hash: 6cd5b6e51936a442
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 元
-    value: 50
-  min_spend:
-  - amount: 2
-    unit: 次
-  - amount: 499
-    unit: 元
-  caps: []
-  sold_out: []
-  quotes:
-  - 當月於博客來使用 icash Pay 消費達 2 次（含）以上，次月贈 50 元 E-Coupon；滿 $499 可折抵、使用效期自發送日起至次月月底截止，每月限量 5000 份。
-  note: 2次為參加門檻(單位次)；499元為券的折抵門檻，一併記入min_spend，若評分認為只算參加門檻則此項可能多記；每月限量5000份為總名額非caps。
-- id: icashpay-03
-  provider: icashpay
-  url: https://www.icashpay.com.tw/event/memberbenefits/
-  title: Mister Donut
-  content_hash: a25e0a4c6aea5a1d
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: other
-    value: null
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - 平日週一至週五，甜甜圈/點心/現做飲品買4送1
-  - 以icash Pay結帳方可享有優惠，不得與其他優惠合併使用。
-  note: 買4送1為贈品記other；「買4」不是金額/筆數門檻，不記min_spend。
-- id: pipay-01
-  provider: pipay
-  url: https://web.piapp.com.tw/2611p24/
-  title: PChome 24h購物🔥1111超狂回饋🎁滿額最高贈1800 P幣
-  content_hash: a044a535f7c9918b
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 點
-    value: 500
-  - unit: 點
-    value: 1800
-  - unit: '%'
-    value: 5
-  - unit: '%'
-    value: 1
-  - unit: '%'
-    value: 4
-  - unit: '%'
-    value: 0.8
-  - unit: '%'
-    value: 2
-  - unit: '%'
-    value: 10
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 15000
-    unit: 元
-  - amount: 36000
-    unit: 元
-  - amount: 499
-    unit: 元
-  - amount: 10000
-    unit: 元
-  - amount: 30000
-    unit: 元
-  - amount: 100000
-    unit: 元
-  caps:
-  - amount: 300
-    unit: 點
-  - amount: 3000
-    unit: 點
-  - amount: 150
-    unit: 點
-  - amount: 1
-    unit: 次
-  sold_out:
-  - scope_label: 活動一第一波
-    scope_start: '2026-11-01'
-    scope_end: '2026-11-08'
-    quote: (11/1-11/8活動一預算已於11/1 晚上 23:00額滿)
-  - scope_label: 活動二第一波
-    scope_start: '2026-11-01'
-    scope_end: '2026-11-08'
-    quote: (11/1-11/8活動二預算已於11/1 下午18:50額滿)
-  quotes:
-  - 活動期間內，使用 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡，於 PChome 24h 購物單筆消費滿 NT$15,000 (含) 以上贈 500 P幣。
-  - 活動期間內，使用 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡，於 PChome 24h 購物單筆消費滿 NT$36,000 (含) 以上贈 1,800 P幣。
-  - 🌟綁定玉山 Pi 拍錢包信用卡支付，單筆滿 499 元登錄享最高 5% P幣回饋 (需登錄)
-  - 全活動期間 (11/1~11/11) 每人限回饋一次。
-  note: P幣以『點』記(1 P幣=1元)；需登錄的子活動→required。額滿聲明範圍為第一波11/1~11/8(原文自帶日期)。Studio A 禮券記other。總預算不記caps。
-- id: pipay-02
-  provider: pipay
-  url: https://web.piapp.com.tw/261112bonus/
-  title: Pi 拍錢包🎉11-12月指定通路🛒單筆滿額最高贈611 P幣
-  content_hash: a5909648ed722acd
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 點
-    value: 311
-  - unit: 點
-    value: 611
-  - unit: '%'
-    value: 5
-  - unit: '%'
-    value: 1
-  - unit: '%'
-    value: 4
-  - unit: '%'
-    value: 0.8
-  - unit: '%'
-    value: 2
-  - unit: '%'
-    value: 10
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 6000
-    unit: 元
-  - amount: 12000
-    unit: 元
-  - amount: 499
-    unit: 元
-  - amount: 10000
-    unit: 元
-  - amount: 30000
-    unit: 元
-  - amount: 100000
-    unit: 元
-  caps:
-  - amount: 311
-    unit: 點
-  - amount: 611
-    unit: 點
-  - amount: 300
-    unit: 點
-  - amount: 3000
-    unit: 點
-  - amount: 150
-    unit: 點
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 1. 活動一每人每月僅給點一次，上限 311 P幣。
-  - 1. 活動二每人每月僅給點一次，上限 611 P幣。
-  - 🌟綁定玉山 Pi 拍錢包信用卡支付，單筆滿 499 元登錄享最高 5% P幣回饋 (需登錄)
-  - 活動一回饋總預算 124,400 元，11 月及 12 月各 62,200 元為限，額滿為止，並公告於 Pi 拍錢包官網之活動網頁。
-  note: 全文無任何已發生的額滿聲明(皆為預算額滿為止條件句)。
-- id: pipay-03
-  provider: pipay
-  url: https://web.piapp.com.tw/allme-202605/
-  title: Pi 拍錢包綁定中信 ALL ME 卡💰四大超商及指定通路最高享 3% 回饋！
-  content_hash: a30dd3b348ab14cd
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: '%'
-    value: 3
-  - unit: '%'
-    value: 1
-  - unit: '%'
-    value: 2
-  min_spend: []
-  caps:
-  - amount: 300
-    unit: 點
-  sold_out: []
-  quotes:
-  - 活動期間內，持 Pi 拍錢包綁定中信ALL ME卡，於指定四大超商、超市、交通運輸、美食等通路付款，享最高3%點數回饋。
-  - 核發點數為ALL ME點，1ALL ME點=新臺幣1元=1 P幣，每戶每月回饋上限300點，所有指定合作商店及更多詳情請見中國信託ALL ME卡官網。
-  note: 全文未提登錄；綁定付款工具不算。1%基本+2%加碼(四大超商3%加碼)；通路加碼3%與總3%同值。
-- id: pluspay-01
-  provider: pluspay
-  url: https://www.pluspay.com.tw/Campaign/Promotion/202607Events
-  title: 兆豐銀行 首次綁定消費筆筆享20%回饋
-  content_hash: f4a9d9f82701fb5b
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: '%'
-    value: 20
-  min_spend: []
-  caps:
-  - amount: 100
-    unit: 元
-  sold_out: []
-  quotes:
-  - 首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶於全盈+PAY合作通路（不包含全家便利商店)，筆筆消費不限金額享20%全盈儲值金回饋。
-  - 每會員活動期間信用卡(含VISA金融卡)/帳戶限回饋上限100元全盈儲值金
-  note: 首次綁定屬綁定付款工具，不算登錄；額滿僅條件句。
-- id: pluspay-02
-  provider: pluspay
-  url: https://www.pluspay.com.tw/Campaign/Promotion/202605Events
-  title: TWQR今夜留給我，高雄兩大夜市消費最高享15%回饋
-  content_hash: 4d0e0ef660b0a5d4
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 10
-  - unit: '%'
-    value: 5
-  min_spend: []
-  caps:
-  - amount: 200
-    unit: 元
-  - amount: 50
-    unit: 點
-  sold_out: []
-  quotes:
-  - 活動期間於高雄六合夜市與瑞豐夜市指定TWQR店家消費，使用支援TWQR交易之金融機構支付工具，包含「台灣Pay」(行動銀行/台灣行動支付APP) (限金融卡/帳戶)、電子支付機構APP(下稱指定電支機構APP)掃描「一卡通TWQR立牌」付款，消費金額享10% 現金回饋。
-  - (一)每人每帳戶每月回饋上限200元
-  - 一卡通綠點1點價值新台幣1元，每人每月回饋上限50點
-  - 請先同意加入一卡通綠點回饋計畫方可獲得活動回饋。
-  note: 優惠二須先同意加入一卡通綠點回饋計畫→required。總回饋上限為預算非caps；5月20日提前額滿僅為舉例。
-- id: pluspay-03
-  provider: pluspay
-  url: https://www.pluspay.com.tw/Campaign/Promotion/202609Events
-  title: 全盈+PAY綁定國泰世華信用卡💳小樹點(信用卡)帳單折抵，最高8%回饋
-  content_hash: 7a90030f23db631c
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: '%'
-    value: 4
-  - unit: 點
-    value: 100
-  min_spend:
-  - amount: 99
-    unit: 元
-  caps:
-  - amount: 100
-    unit: 點
-  - amount: 400
-    unit: 點
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 活動期間於國泰世華CUBE APP領取【全家折抵加碼】優惠券，於全家便利商店實體門市使用全盈+PAY綁定國泰世華CUBE信用卡付款，且當筆刷卡消費須開啟『小樹點(信用卡)折抵』服務，該筆消費始可享加碼4%小樹點(信用卡)回饋
-  - 單筆信用卡帳單實際請款金額滿99元(含)以上，加贈小樹點(信用卡)100點
-  - 整檔活動(2026/9/1~2026/12/31)合計最高每人可獲得400點小樹點(信用卡)。
-  - 每正卡戶限回饋乙次
-  note: 標題/文中『最高8%』為4%+100點的換算加總，不記；領券→required。
-- id: gamapay-01
-  provider: gamapay
-  url: https://www.gamapay.com.tw/news.html?id=4909
-  title: 【TWQR x 橘子支付】 逛越多，即可享不同回饋！
-  content_hash: c5e0562a087a92f6
-  is_offer: 'yes'
-  registration: unknown
-  rewards: []
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - '各活動詳情，請見TWQR官方活動網頁:'
-  note: 原文僅標題『逛越多，即可享不同回饋』與外部連結，無任何數值/條件，故僅記is_offer=yes，其餘留空。
-- id: gamapay-02
-  provider: gamapay
-  url: https://www.gamapay.com.tw/news.html?id=4977
-  title: 📢 台中市 | 智慧停車無紙化，綁定橘子支付繳費享6折優惠 🚗
-  content_hash: f45b5e9825514020
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 折
-    value: 6
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - 綁定橘子支付並設定自動代扣款，每筆享6折優惠！
-  note: 綁定+設定自動代扣款視為付款工具設定，不算登錄；原文極短，registration 有些不確定。
-- id: pxmart-01
-  provider: pxmart
-  url: https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E
-  title: 202611 PX Pay 發票記帳加碼獎
-  content_hash: 0fd6e8ed9ebf4dfd
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 元
-    value: 100
-  min_spend: []
-  caps: []
-  sold_out: []
-  quotes:
-  - 於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)
-  - 活動獎勵:全聯店內外發票，對中全聯加碼獎號，現金抵用券100元。
-  note: 需於發票記帳功能綁定手機條碼才有對獎資格，視為報名類動作記required，但有些不確定(也可視為綁定載具)。
-- id: pxmart-02
-  provider: pxmart
-  url: https://www.pxmart.com.tw/campaign/pxpay-card/20261002-1231%20%E4%B8%80%E5%8D%A1%E9%80%9A%E5%8D%A1%E5%8F%8B%E6%97%A5
-  title: 20261002-1231 一卡通卡友日
-  content_hash: de2e759f3c2823de
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 點
-    value: 100
-  - unit: 點
-    value: 300
-  min_spend:
-  - amount: 300
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - 活動辦法:天天使用星展銀行一卡通聯名卡，平日(每週一~五)以一卡通功能扣款單筆消費滿300元贈100福利點，假日(每週六、日)以一卡通功能扣款單筆消費滿300元贈300福利點(每福利卡會員每銀行方案每日限贈一次，平日限量14,000份，假日限量8,500份)。
-  note: 注意事項5範例『加贈150點』與100/300不一致，不記；限量份數為總名額非caps；每日限贈一次記1次。
-- id: pxmart-03
-  provider: pxmart
-  url: https://www.pxmart.com.tw/campaign/pxpay-card/2026Q4%E9%80%B1%E5%B9%B4%E6%85%B6%E5%8A%A0%E7%A2%BC%20PX%20Pay.%E5%85%A8%E6%94%AF%E4%BB%98%20%E9%80%B1%E5%85%AD%E6%97%A5%E6%B6%88%E8%B2%BB%E6%9C%80%E9%AB%986%25%E6%B4%BB%E5%8B%95
-  title: 2026Q4週年慶加碼 PX Pay.全支付 週六日消費最高6%活動
-  content_hash: 39cec3f5773b1ea9
-  is_offer: 'yes'
-  registration: not_required
-  rewards:
-  - unit: 點
-    value: 780
-  - unit: 點
-    value: 78
-  - unit: '%'
-    value: 2
-  - unit: '%'
-    value: 5
-  min_spend:
-  - amount: 1300
-    unit: 元
-  caps:
-  - amount: 1
-    unit: 次
-  sold_out: []
-  quotes:
-  - ◎國泰世華-週六日單筆消費達1,300元贈780福利點(活動期間全聯APP會員限贈一次，限量6,000份)。立即辦卡
-  - 週六日全支付單筆消費滿1,300元贈全點78點(活動期間每全支付會員限贈一次，限量份數詳見全支付官網)。
-  - '*即日起-2026/12/31全聯實體門市刷國泰世華CUBE卡(含PX Pay交易)，享2%小樹點回饋立即辦卡 合併優惠最高享5%回饋'
-  note: 標題『最高6%』為換算，不記；多家銀行回饋同額(780點)；各行限量為總名額非caps；額滿情形指向即時網頁，無已額滿聲明。
