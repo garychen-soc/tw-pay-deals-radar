@@ -88,3 +88,6 @@ def test_write_outputs_facts_only(tmp_path: Path) -> None:
     assert "content_hash" not in row and "observed_at" not in row
     assert not {"lifecycle", "is_high_return", "quota_status"} & set(row)
     assert (tmp_path / "calendar" / "deals.ics").read_text("utf-8").startswith("BEGIN:VCALENDAR")
+    assert (tmp_path / "calendar.ics").read_text("utf-8") == (
+        tmp_path / "calendar" / "deals.ics"
+    ).read_text("utf-8"), "v1 舊訂閱網址要同步"

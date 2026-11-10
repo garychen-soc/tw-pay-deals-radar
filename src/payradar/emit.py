@@ -3,7 +3,7 @@
 ``web/public/data/index.json``
     全部活動（精簡欄位）、來源健康、涵蓋缺口、登錄／領券時點。前端以「今天」計算
     進行中、即將開始、即將截止、高回饋、現在是否額滿。
-``web/public/calendar/deals.ics``
+``web/public/calendar/deals.ics``（另存一份到 v1 舊網址 ``calendar.ics``）
     可訂閱的行事曆：登錄／領券開放時點（精確到分鐘、開放前 10 分鐘提醒）＋
     各優惠的截止日（全天事件，不提醒）。
 
@@ -131,9 +131,10 @@ def write(
     (out / "data").mkdir(parents=True, exist_ok=True)
     _dump(out / "data" / "index.json", index)
     (out / "calendar").mkdir(parents=True, exist_ok=True)
-    (out / "calendar" / "deals.ics").write_text(
-        ics(rows, every, generated), encoding="utf-8", newline=""
-    )
+    calendar = ics(rows, every, generated)
+    (out / "calendar" / "deals.ics").write_text(calendar, encoding="utf-8", newline="")
+    # v1 的訂閱網址是根目錄 calendar.ics：同步輸出一份，已訂閱的人不會在切換後斷掉
+    (out / "calendar.ics").write_text(calendar, encoding="utf-8", newline="")
     return index["counts"]  # type: ignore[return-value]
 
 
