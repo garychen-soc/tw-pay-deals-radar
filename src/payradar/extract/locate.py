@@ -30,7 +30,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-PROMPT_VERSION = "2026-11-06.4"
+PROMPT_VERSION = "2026-11-10.2"
 ROOT = Path(__file__).resolve().parents[3]
 CACHE_DIR = ROOT / "state" / "extractions"
 DEFAULT_MODEL = os.environ.get("PAYRADAR_LLM_MODEL", "sonnet")
@@ -212,7 +212,7 @@ SCHEMA: dict[str, Any] = {
                 "required": [
                     "name",
                     "rewards",
-                    "min_spend",
+                    "min_spends",
                     "caps",
                     "new_users_only",
                     "where",
@@ -250,7 +250,7 @@ SCHEMA: dict[str, Any] = {
                             },
                         },
                     },
-                    "min_spend": _AMOUNT,
+                    "min_spends": {"type": "array", "items": _AMOUNT},
                     "caps": {"type": "array", "items": _AMOUNT},
                     "new_users_only": _TRI,
                     "where": {"type": "string"},
@@ -284,8 +284,8 @@ INSTRUCTIONS = """你是台灣行動支付（電子支付）優惠活動條款�
 4. is_offer：這頁是不是給消費者的優惠活動（有回饋、折扣、贈品、抽獎等）。功能介紹、服務公告、使用教學、純新聞填 no；quote 取能支持判斷的一句。
 
 回饋條件：
-5. rewards：每種「消費者得到的」回饋一項；折抵比例上限、計算方式、手續費等規則不是回饋，不要放。kind：percent（%回饋）、cash（現金或回饋金固定金額）、points（點數）、coupon（優惠券、回饋券、數位券）、discount（現折、折抵、特價）、gift（贈品）、other。unit：%、元、點、折（「85折」value=85、「8折」value=8）、other。「最高享10%」填 value=10。只寫「享回饋」沒寫多少填 value=null。
-6. min_spend：參加門檻（「單筆滿1,200元」amount=1200、unit=元、per=txn；「累計滿5,000元」per=campaign 或依原文的期間；「付款任3筆」amount=3、unit=筆）。沒有門檻填 null。
+5. rewards：每種「消費者得到的」回饋一項，包括頁面列出的銀行、信用卡、帳戶或付款方式的加碼回饋（「綁定華南帳戶加碼2.5%」「指定付款方式最高享5%」）與階梯式的每一階；折抵比例上限、計算方式、手續費等規則不是回饋，不要放。標題上把多項加總起來的宣稱值（「累積最高13%」）不要另外記。條款順帶提到的「另一個活動」（例如「參加台灣Pay每筆消費再享1.5%等值紅利點數回饋活動之使用金融機構限…」只是說明那個活動限哪些銀行）不是本活動的回饋，不要放。kind：percent（%回饋）、cash（現金或回饋金固定金額）、points（點數）、coupon（優惠券、回饋券、數位券）、discount（現折、折抵、特價）、gift（贈品）、other。unit：%、元、點、折（「85折」value=85、「8折」value=8）、other。「最高享10%」填 value=10。只寫「享回饋」沒寫多少填 value=null。
+6. min_spends：參加門檻，每個門檻一項（「單筆滿1,200元」amount=1200、unit=元、per=txn；「累計滿5,000元」per=campaign 或依原文的期間；「付款任3筆」amount=3、unit=筆）。階梯式回饋（「滿1,000送30、滿2,000送70」「滿30,000贈1%、滿100,000贈4%」）每一階的門檻都要列，對應的回饋也都要列進 rewards。沒有門檻填空陣列。
 7. caps：每人（每帳戶）回饋上限，含單筆上限（「每人每月回饋上限200點」amount=200、unit=點、per=month；「單筆最高可得25全點」per=txn；「每人限贈1份」amount=1、unit=份；「每月限回饋1次」unit=次）。同一上限只填一次。抽獎機會的次數上限不是回饋上限，不要放；「最高享150全點」「最高享10%」是回饋數值，放 rewards，不是上限。活動總預算（「回饋總金額上限5萬元」）不是每人上限，不要放這裡，放 quota。
 8. new_users_only：限新戶／首次綁定／新註冊會員才有填 yes；明寫全體會員皆可填 no；沒寫 unclear。
 9. where：適用通路或店家的原文（例如「全臺「全聯福利中心」實體門市」）；how：付款方式或綁定條件的原文（例如「綁定台新銀行信用卡付款」「掃描TWQR」）。沒寫填空字串。
@@ -295,7 +295,7 @@ INSTRUCTIONS = """你是台灣行動支付（電子支付）優惠活動條款�
 11. sold_out：只放官方「已經」額滿／已達上限／已贈完的聲明（例如「【已於10/28(三)00:03額滿】」「11月份回饋上限已於2026/11/3 17:00 額滿」）。「額滿為止」「名額額滿將於…公告」「如額滿」「額滿後」是條件句，不是已額滿，絕不放這裡。scope_label 取原文的範圍字樣（「11月份」「早鳥滿額贈」「首週」，只有確定是整檔活動才填空字串）；scope_start/scope_end 是這句額滿涵蓋的期間（「11月份」→ 11/1~11/30；只寫月份時 day 填該月首日／末日；整檔填 null）。
 
 登錄／領券時點（與信用卡登錄同一套規則）：
-12. registration.value：參加前須主動完成的動作（登錄、報名、領券、加入點數計畫、切換權益、輸入代碼）是否必要：required、not_required、unclear，附 quote。單純「綁定付款工具」或「下載APP」不算登錄。
+12. registration.value：參加前須主動完成的動作（登錄、報名、領券、加入點數計畫、切換權益、輸入代碼、開通券包）是否必要：required、not_required、unclear，附 quote。單純「綁定付款工具」「下載APP」「註冊會員」不算登錄。頁面有多個子活動時，任一子活動需要就填 required。條款描述了參加方式、卻沒有任何這類主動動作時，填 not_required，quote 取描述參加方式或消費即回饋的那一句（例如「於活動期間使用台灣Pay消費即享回饋」）；只有條款語焉不詳、無法判斷時才填 unclear。
 13. rules：只標登錄／領券的時點。活動期間、消費期間、回饋入帳時間都不是登錄時點。is_example=true 只用在舉例情境句。kind：range（明寫起訖）、opens_at（明寫開始未寫截止）、deadline（只寫截止）、monthly（每月第幾日固定時刻開放，時刻放 open_time）、monthly_nth_weekday（weekday 1=週一…7=週日）、enumerated（列舉多個日期，放 dates）、other（如「消費後 7 日內」）。沒寫年份 year=null；「中午12:00」hour=12；「下午3點」hour=15；「24:00」填 hour=23、minute=59；沒寫時刻 hour/minute=null。holiday：寫「遇假日順延」填 next_business_day；「提前至前一營業日」填 previous_business_day；沒寫填 none。close_time：同一天內的截止時刻。end_of_month：「至月底」「當月內完成」填 true。
 14. reregister.value：each_period（每月／每期須重新登錄或領券）、once、unclear。order.value：register_before_spend（須先登錄或領券再消費）、retroactive_ok（活動期間內完成即可）、unclear。unclear 時 quote=""。
 15. 不需登錄時 rules 為空陣列。不知道就留空或 unclear，絕不推測。"""

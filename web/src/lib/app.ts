@@ -262,7 +262,7 @@ function offerBlock(o: Offer, index: number, multi: boolean): HTMLElement {
     box.append(chips);
   }
   const terms: string[] = [];
-  if (o.min_spend) terms.push(minText(o.min_spend));
+  for (const m of o.min_spends) terms.push(minText(m));
   for (const c of o.caps) terms.push(capText(c));
   if (o.new_users_only === "yes") terms.push("限新戶");
   if (o.limited === "yes") terms.push(o.quota ? `限量 ${num.format(o.quota)}` : "限量");
@@ -316,7 +316,7 @@ function activityCard(a: Activity): HTMLElement {
   } else if (a.terms_source === "image") {
     card.append(el("p", "note warn", "官方條款是圖片，未自動整理；請點活動頁確認條件。"));
   }
-  const offers = a.offers.filter((o) => o.rewards.length || o.min_spend || o.caps.length || o.sold_out.length || o.slots.length || o.rules.length);
+  const offers = a.offers.filter((o) => o.rewards.length || o.min_spends.length || o.caps.length || o.sold_out.length || o.slots.length || o.rules.length);
   offers.forEach((o, i) => card.append(offerBlock(o, i, offers.length > 1)));
 
   const review = [...a.review, ...a.offers.flatMap((o) => o.review)];

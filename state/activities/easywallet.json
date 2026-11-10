@@ -40,12 +40,6 @@
       "quote": "Richart造型悠遊卡乙張"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "成功消費扣款一次(不限金額)"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "尚未申辦Richart數位存款帳戶且符合申辦資格及未曾成功參加任何Richart存款帳戶同期行銷推廣活動之本國自然人",
@@ -53,7 +47,15 @@
     "how": "完成於悠遊付綁定Richart存款帳戶且成功消費扣款一次(不限金額)",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "成功消費扣款一次(不限金額)"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -100,12 +102,6 @@
       "quote": "送50元萬家福折價券一份"
      }
     ],
-    "min_spend": {
-     "amount": 599,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿599元(含)以上者"
-    },
     "caps": [
      {
       "amount": 100,
@@ -120,7 +116,15 @@
     "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本指定通路優惠總限量5,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿599元(含)以上者"
+     }
+    ]
    },
    {
     "name": "樂家康/Mia Cbon",
@@ -141,12 +145,6 @@
       "quote": "送24元樂家康/Mia Cbon折價券一份"
      }
     ],
-    "min_spend": {
-     "amount": 299,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿299元(含)以上者"
-    },
     "caps": [
      {
       "amount": 48,
@@ -161,7 +159,15 @@
     "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本指定通路優惠總限量10,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元(含)以上者"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -208,12 +214,6 @@
       "quote": "享汽油每公升降價0.5元優惠"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "other",
-     "per": "txn",
-     "quote": "汽油每次加滿1公升以上"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -221,7 +221,15 @@
     "how": "以悠遊卡、悠遊聯名卡（含悠遊Debit卡）之悠遊卡功能扣款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "txn",
+      "quote": "汽油每次加滿1公升以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -266,7 +274,6 @@
       "quote": "700mlの豆乳を1本プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -274,7 +281,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【維記茶餐廳】",
@@ -295,7 +303,6 @@
       "quote": "ミルクティー（絲襪奶茶）1杯プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -303,7 +310,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【西門麺店】",
@@ -324,7 +332,6 @@
       "quote": "名物おつまみ（小菜）1品プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -332,7 +339,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【珍珠之王】",
@@ -353,7 +361,6 @@
       "quote": "もう1杯無料"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -361,7 +368,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【佳賓餅家 西門町店】",
@@ -382,7 +390,6 @@
       "quote": "手作りヌガークラッカー1個プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -390,7 +397,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【小珍珠ベーカリー】",
@@ -411,7 +419,6 @@
       "quote": "手作りヌガークラッカー1個プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -419,7 +426,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【佳賓餅家 東門店】",
@@ -440,7 +448,6 @@
       "quote": "手作りヌガークラッカー1個プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -448,7 +455,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【悄悄好食永康】",
@@ -469,12 +477,6 @@
       "quote": "ドリンク1杯プレゼント"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "200台湾ドル以上ご購入で"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -482,7 +484,15 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着50名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "200台湾ドル以上ご購入で"
+     }
+    ]
    },
    {
     "name": "【巧克哈客チョコレート専門店】",
@@ -503,7 +513,6 @@
       "quote": "オリジナル生チョコ1個プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -511,7 +520,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【空服員の手作りスイーツ 永康店】",
@@ -532,7 +542,6 @@
       "quote": "フィナンシェ1個プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -540,7 +549,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着120名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【東門餃子館】",
@@ -561,7 +571,6 @@
       "quote": "小菜1皿プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -569,7 +578,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【松雪】",
@@ -590,7 +600,6 @@
       "quote": "シロップ豆花1杯プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -598,7 +607,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【黒岩古早味黒砂糖かき氷】",
@@ -619,12 +629,6 @@
       "quote": "1つ買うと1つ無料"
      }
     ],
-    "min_spend": {
-     "amount": 60,
-     "unit": "元",
-     "per": "txn",
-     "quote": "60台湾ドル以上の豆花またはかき氷をご購入で"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -632,7 +636,15 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着100名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 60,
+      "unit": "元",
+      "per": "txn",
+      "quote": "60台湾ドル以上の豆花またはかき氷をご購入で"
+     }
+    ]
    },
    {
     "name": "【松江自助石頭火鍋城】",
@@ -653,7 +665,6 @@
       "quote": "ご購入で肉皿1皿プレゼント"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -661,7 +672,8 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着70名様限定",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【南機場夜市・龍山寺駅】",
@@ -682,12 +694,6 @@
       "quote": "エコカップスリーブ1個プレゼント"
      }
     ],
-    "min_spend": {
-     "amount": 250,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "累計250台湾ドルご購入ごとに"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -695,7 +701,15 @@
     "how": "「PayPay」でお支払い、または「指定の悠遊カード」をご提示",
     "limited": "yes",
     "limited_quote": "先着500名様/条件達成ごとに進呈",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "累計250台湾ドルご購入ごとに"
+     }
+    ]
    },
    {
     "name": "【遠東Garden City・国父記念館駅】",
@@ -722,12 +736,6 @@
       "quote": "SOGO商品券100台湾ドル分をプレゼント"
      }
     ],
-    "min_spend": {
-     "amount": 800,
-     "unit": "元",
-     "per": "txn",
-     "quote": "悠遊カードで1回800台湾ドル以上のお支払いで"
-    },
     "caps": [
      {
       "amount": 1,
@@ -748,7 +756,15 @@
     "how": "悠遊カードでのお支払い",
     "limited": "yes",
     "limited_quote": "先着4,000枚、なくなり次第終了",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "悠遊カードで1回800台湾ドル以上のお支払いで"
+     }
+    ]
    },
    {
     "name": "【遠東SOGO 台北忠孝館・忠孝復興駅】",
@@ -769,12 +785,6 @@
       "quote": "「MIOPANE 塩クロワッサン（バターロール）引換券」1枚をプレゼント"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
-    },
     "caps": [
      {
       "amount": 1,
@@ -789,7 +799,15 @@
     "how": "悠遊カードでのお支払い",
     "limited": "yes",
     "limited_quote": "毎月先着500名様、期間合計1,500名様",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
+     }
+    ]
    },
    {
     "name": "【誠品生活 松菸店・市政府駅】",
@@ -810,12 +828,6 @@
       "quote": "「好丘 プレーンベーグル引換券」1枚をプレゼント"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
-    },
     "caps": [
      {
       "amount": 1,
@@ -830,7 +842,15 @@
     "how": "悠遊カードでのお支払い",
     "limited": "yes",
     "limited_quote": "毎月先着500名様、期間合計1,500名様",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -875,7 +895,6 @@
       "quote": "享特價295元(原價360元)"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -883,7 +902,8 @@
     "how": "活動期間持悠遊卡/悠遊聯名卡/悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -928,12 +948,6 @@
       "quote": "即可獲得100元悠遊付現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 1800,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "活動期間於環球Online使用悠遊付消費累計滿1,800元以上"
-    },
     "caps": [
      {
       "amount": 5,
@@ -948,7 +962,15 @@
     "how": "使用悠遊付",
     "limited": "yes",
     "limited_quote": "活動限量1,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1800,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間於環球Online使用悠遊付消費累計滿1,800元以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -995,7 +1017,6 @@
       "quote": "贈NT$50全家超商即享券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -1010,7 +1031,8 @@
     "how": "單月以兆豐信用卡綁悠遊付消費累積",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "悠遊付既有戶",
@@ -1031,12 +1053,6 @@
       "quote": "贈NT$50全家超商即享券"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "month",
-     "quote": "悠遊付既有戶:達NT$1,000贈NT$50全家超商即享券。"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1051,7 +1067,15 @@
     "how": "單月以兆豐信用卡綁悠遊付消費累積",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "month",
+      "quote": "悠遊付既有戶:達NT$1,000贈NT$50全家超商即享券。"
+     }
+    ]
    },
    {
     "name": "利多御璽卡",
@@ -1072,12 +1096,6 @@
       "quote": "再贈NT$300全家超商即享券"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "利多御璽卡:滿NT$5,000再贈NT$300全家超商即享券"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1085,7 +1103,15 @@
     "how": "綁指定卡刷悠遊付",
     "limited": "yes",
     "limited_quote": "限量需登錄",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "利多御璽卡:滿NT$5,000再贈NT$300全家超商即享券"
+     }
+    ]
    },
    {
     "name": "Mega One、BT21系列卡優惠自由選",
@@ -1106,7 +1132,6 @@
       "quote": "最高1%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1114,7 +1139,8 @@
     "how": "綁指定卡刷悠遊付",
     "limited": "yes",
     "limited_quote": "(限量)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1161,12 +1187,6 @@
       "quote": "贈「寶可夢MEZASTAR遊戲機遊戲券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "以悠遊卡功能不限金額扣款消費滿1次"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1174,7 +1194,15 @@
     "how": "悠遊付會員持本人已記名悠遊卡或悠遊聯名卡",
     "limited": "yes",
     "limited_quote": "總回饋上限44,820張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "以悠遊卡功能不限金額扣款消費滿1次"
+     }
+    ]
    },
    {
     "name": "【活動二】",
@@ -1195,12 +1223,6 @@
       "quote": "贈「寶可夢MEZASTAR遊戲機遊戲券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "不限金額扣款消費滿1次"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1208,7 +1230,15 @@
     "how": "使用悠遊付之信用卡、錢包或綁定之銀行帳戶",
     "limited": "yes",
     "limited_quote": "總回饋上限44,820張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "不限金額扣款消費滿1次"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1259,12 +1289,6 @@
       "quote": "還可獲得2,000 mo幣(共2組)抽獎機會1次"
      }
     ],
-    "min_spend": {
-     "amount": 2,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "完成任2筆金額1元以上扣款"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1279,7 +1303,15 @@
     "how": "使用悠遊付綁定該帳戶",
     "limited": "yes",
     "limited_quote": "限前5,000名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "完成任2筆金額1元以上扣款"
+     }
+    ]
    },
    {
     "name": "【活動二】一銀綁定悠遊付週五5%回饋",
@@ -1300,12 +1332,6 @@
       "quote": "單筆消費滿100元享5%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿100元"
-    },
     "caps": [
      {
       "amount": 20,
@@ -1320,7 +1346,15 @@
     "how": "使用悠遊付綁定第一銀行新臺幣存款帳戶（含iLEO數位帳戶）直接扣款",
     "limited": "yes",
     "limited_quote": "每週五回饋總金額上限2萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿100元"
+     }
+    ]
    },
    {
     "name": "樂天銀行",
@@ -1341,12 +1375,6 @@
       "quote": "享新台幣1,000元現金回饋至樂天國際銀行帳戶"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "不限金額成功扣款滿1筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1361,7 +1389,15 @@
     "how": "使用悠遊付綁定該帳戶",
     "limited": "no",
     "limited_quote": "(回饋名額無上限)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "不限金額成功扣款滿1筆"
+     }
+    ]
    },
    {
     "name": "王道銀行",
@@ -1382,12 +1418,6 @@
       "quote": "享新台幣500元現金回饋至王道銀行帳戶"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "消費扣款不限金額滿3筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1402,7 +1432,15 @@
     "how": "使用悠遊付綁定該帳戶消費扣款",
     "limited": "yes",
     "limited_quote": "限前850名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "消費扣款不限金額滿3筆"
+     }
+    ]
    },
    {
     "name": "台新銀行",
@@ -1429,12 +1467,6 @@
       "quote": "Richart造型悠遊卡乙張"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "成功消費扣款一次(不限金額)"
-    },
     "caps": [
      {
       "amount": 350,
@@ -1449,7 +1481,15 @@
     "how": "完成於悠遊付綁定Richart存款帳戶",
     "limited": "yes",
     "limited_quote": "限量4500戶",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "成功消費扣款一次(不限金額)"
+     }
+    ]
    },
    {
     "name": "【數位存款帳戶禮】",
@@ -1470,12 +1510,6 @@
       "quote": "享150元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "直接扣款消費單筆200元(含)以上"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "悠遊付首次綁定台中銀行「Lolly Bank數位存款帳戶」",
@@ -1483,7 +1517,15 @@
     "how": "悠遊付首次綁定台中銀行「Lolly Bank數位存款帳戶」",
     "limited": "yes",
     "limited_quote": "數位存款帳戶禮限額1,500名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "直接扣款消費單筆200元(含)以上"
+     }
+    ]
    },
    {
     "name": "【一般存款帳戶禮】",
@@ -1504,12 +1546,6 @@
       "quote": "享100元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "直接扣款消費單筆200元(含)以上"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "悠遊付首次綁定台中銀行「一般存款帳戶」",
@@ -1517,7 +1553,15 @@
     "how": "悠遊付首次綁定台中銀行「一般存款帳戶」",
     "limited": "yes",
     "limited_quote": "一般存款帳戶禮限額1,000名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "直接扣款消費單筆200元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1562,12 +1606,6 @@
       "quote": "贈300元悠遊付現金回饋券1份(100元面額*3張)"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "使用悠遊付扣款單筆消費滿300元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1582,7 +1620,15 @@
     "how": "使用悠遊付扣款",
     "limited": "yes",
     "limited_quote": "每月回饋上限500份。單一月份總回饋份數如達上限，則該月活動提前結束",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "使用悠遊付扣款單筆消費滿300元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1627,12 +1673,6 @@
       "quote": "單筆結帳金額滿500元享現折50元優惠"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆結帳金額滿500元享現折50元優惠"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1650,6 +1690,14 @@
        "quote": "本活動10月份限量回饋2萬份於10/29(四)18:00已額滿",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1788682579"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆結帳金額滿500元享現折50元優惠"
      }
     ]
    }
@@ -1696,7 +1744,6 @@
       "quote": "享筆筆12%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -1728,7 +1775,8 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1788932829"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "【11/1-12/31加碼抽捷運點】",
@@ -1749,12 +1797,6 @@
       "quote": "1000點"
      }
     ],
-    "min_spend": {
-     "amount": 15,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "於活動期間至「捷客指定店家」消費累積15次"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1762,7 +1804,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "總點數發出上限為39,000點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 15,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "於活動期間至「捷客指定店家」消費累積15次"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1807,12 +1857,6 @@
       "quote": "「100元91APP先用先賺現金回饋券」1份"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,000元以上可使用"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1827,7 +1871,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "兌換券數每月限量，依會員使用現金回饋券之交易時間排序，先用先得回饋，數量有限用完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上可使用"
+     }
+    ]
    },
    {
     "name": "活動二:拿下筆$100",
@@ -1848,12 +1900,6 @@
       "quote": "回饋「100元91APP專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,000元以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1868,7 +1914,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "指定期間及限量張數:2026/10/9~10/11期間800張、11/10~11/13期間1,500張、12/10~12/13期間1,200張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上"
+     }
+    ]
    },
    {
     "name": "活動三:筆筆最高5%現金回饋",
@@ -1895,7 +1949,6 @@
       "quote": "週五會員日筆筆2%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1903,7 +1956,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "PLUS: 同期品牌獨家再加碼",
@@ -1930,7 +1984,6 @@
       "quote": "寶雅線上買滿500再加碼$100"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1938,7 +1991,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1985,12 +2039,6 @@
       "quote": "贈50元悠遊付現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 888,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿888元"
-    },
     "caps": [
      {
       "amount": 3,
@@ -2046,6 +2094,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1764668818"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 888,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿888元"
+     }
     ]
    },
    {
@@ -2067,12 +2123,6 @@
       "quote": "加贈100元悠遊付現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿3,000元"
-    },
     "caps": [
      {
       "amount": 3,
@@ -2087,7 +2137,15 @@
     "how": "使用悠遊付綁定凱基信用卡",
     "limited": "yes",
     "limited_quote": "每月回饋上限100份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿3,000元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2132,12 +2190,6 @@
       "quote": "享150元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "消費單筆新臺幣(以下同)200元(含)以上"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2145,7 +2197,15 @@
     "how": "使用悠遊付綁定台中銀行「Lolly Bank數位存款帳戶」，並以該帳戶直接扣款",
     "limited": "yes",
     "limited_quote": "(限額1,500名，額滿為止)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "消費單筆新臺幣(以下同)200元(含)以上"
+     }
+    ]
    },
    {
     "name": "【一般存款帳戶禮】",
@@ -2166,12 +2226,6 @@
       "quote": "享100元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "直接扣款消費單筆200元(含)以上"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2179,7 +2233,15 @@
     "how": "使用悠遊付綁定台中銀行「一般存款帳戶」，並以該帳戶直接扣款",
     "limited": "yes",
     "limited_quote": "(限額1,000名，額滿為止)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "直接扣款消費單筆200元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2224,7 +2286,6 @@
       "quote": "川‧板腱牛肉麵+醋溜雲耳+純釀烏梅汁，特價289元(原價350元)"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2232,7 +2293,8 @@
     "how": "持悠遊卡/悠遊聯名卡/悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2277,12 +2339,6 @@
       "quote": "達成任務可抽50元悠遊付回饋金(抽1,000名)"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "於活動期間搭乘1次"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2297,7 +2353,15 @@
     "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
     "limited": "yes",
     "limited_quote": "抽1,000名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "於活動期間搭乘1次"
+     }
+    ]
    },
    {
     "name": "二、加值任務(自動加值讓搭乘體驗更順暢 適合進階碳員的你)",
@@ -2318,12 +2382,6 @@
       "quote": "達成任務可抽100元悠遊付回饋金(抽500名)"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "活動期間搭乘至少1次且使用自動加值"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2338,7 +2396,15 @@
     "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
     "limited": "yes",
     "limited_quote": "抽500名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間搭乘至少1次且使用自動加值"
+     }
+    ]
    },
    {
     "name": "三、常客任務(習慣是一天一天累積而成的 適合經常搭乘的你)",
@@ -2359,12 +2425,6 @@
       "quote": "達成任務可抽500元悠遊付回饋金(抽350名)"
      }
     ],
-    "min_spend": {
-     "amount": 45,
-     "unit": "other",
-     "per": "campaign",
-     "quote": "活動期間搭乘天數達45天"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2379,7 +2439,15 @@
     "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
     "limited": "yes",
     "limited_quote": "抽350名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 45,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "活動期間搭乘天數達45天"
+     }
+    ]
    },
    {
     "name": "四、達人任務(達人級別的困難任務 適合樂於搭乘不同大眾運具的你)",
@@ -2400,12 +2468,6 @@
       "quote": "達成任務可抽2,500元悠遊付回饋金(抽10名)"
      }
     ],
-    "min_spend": {
-     "amount": 5,
-     "unit": "other",
-     "per": "campaign",
-     "quote": "活動期間搭乘運具達5種"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2420,7 +2482,15 @@
     "how": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能",
     "limited": "yes",
     "limited_quote": "抽10名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "活動期間搭乘運具達5種"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2489,7 +2559,6 @@
       "quote": "20 元飲料券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "完成悠遊付註冊及身分驗證的新會員",
@@ -2497,7 +2566,8 @@
     "how": "完成悠遊付註冊及身分驗證",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2542,12 +2612,6 @@
       "quote": "送「康是美30元現金折價券」"
      }
     ],
-    "min_spend": {
-     "amount": 299,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿299元(含)以上"
-    },
     "caps": [
      {
       "amount": 2,
@@ -2568,7 +2632,15 @@
     "how": "持悠遊卡/悠遊聯名卡，以悠遊卡功能扣款",
     "limited": "yes",
     "limited_quote": "總回饋限量5,000張，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2617,12 +2689,6 @@
       "quote": "發送回饋金100元至使用者悠遊付帳戶"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿100元以上且使用該券"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2637,7 +2703,15 @@
     "how": "單筆消費滿100元以上且使用該券",
     "limited": "yes",
     "limited_quote": "數量有限，發完即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿100元以上且使用該券"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2682,12 +2756,6 @@
       "quote": "即可獲得抽獎資格"
      }
     ],
-    "min_spend": {
-     "amount": 20,
-     "unit": "other",
-     "per": "campaign",
-     "quote": "5/1~5/31累計基北北桃運具減碳量達20公斤"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2695,7 +2763,15 @@
     "how": "悠遊付APP首頁>我的減碳存摺>點選「活動登錄」完成登錄",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 20,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "5/1~5/31累計基北北桃運具減碳量達20公斤"
+     }
+    ]
    },
    {
     "name": "基北北桃運具減碳月月兌",
@@ -2716,12 +2792,6 @@
       "quote": "開放減碳量月滿 20 公斤者兌獎"
      }
     ],
-    "min_spend": {
-     "amount": 20,
-     "unit": "other",
-     "per": "month",
-     "quote": "每月 1 日至 3 日開放減碳量月滿 20 公斤者兌獎。"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2736,7 +2806,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 20,
+      "unit": "other",
+      "per": "month",
+      "quote": "每月 1 日至 3 日開放減碳量月滿 20 公斤者兌獎。"
+     }
+    ]
    },
    {
     "name": "步行減碳月月兌",
@@ -2757,12 +2835,6 @@
       "quote": "可於次月 6 日進行兌獎"
      }
     ],
-    "min_spend": {
-     "amount": 15,
-     "unit": "other",
-     "per": "month",
-     "quote": "步行減碳量每月累計滿 15 公斤(含)以上可於次月 6 日進行兌獎。"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2770,7 +2842,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 15,
+      "unit": "other",
+      "per": "month",
+      "quote": "步行減碳量每月累計滿 15 公斤(含)以上可於次月 6 日進行兌獎。"
+     }
+    ]
    },
    {
     "name": "加碼月月抽",
@@ -2793,12 +2873,6 @@
       "quote": "即可獲得1次當月抽獎機會"
      }
     ],
-    "min_spend": {
-     "amount": 4,
-     "unit": "次",
-     "per": "month",
-     "quote": "每月累積滿4次，即可獲得1次當月抽獎機會"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2806,7 +2880,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 4,
+      "unit": "次",
+      "per": "month",
+      "quote": "每月累積滿4次，即可獲得1次當月抽獎機會"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2857,12 +2939,6 @@
       "quote": "以悠遊付消費達門檻享8%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿百元可抵用1張主題券"
-    },
     "caps": [
      {
       "amount": 15,
@@ -2877,7 +2953,15 @@
     "how": "以悠遊付消費",
     "limited": "yes",
     "limited_quote": "各主題券每週限量用完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿百元可抵用1張主題券"
+     }
+    ]
    },
    {
     "name": "聚餐狂歡券",
@@ -2904,12 +2988,6 @@
       "quote": "以悠遊付消費達門檻享8%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿千元可抵用1張主題券"
-    },
     "caps": [
      {
       "amount": 150,
@@ -2924,7 +3002,15 @@
     "how": "以悠遊付消費",
     "limited": "yes",
     "limited_quote": "各主題券每週限量用完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿千元可抵用1張主題券"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2969,12 +3055,6 @@
       "quote": "贈30元悠遊付現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 600,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿600元"
-    },
     "caps": [
      {
       "amount": 3,
@@ -2989,7 +3069,15 @@
     "how": "使用悠遊付扣款",
     "limited": "yes",
     "limited_quote": "活動回饋上限2,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿600元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3034,7 +3122,6 @@
       "quote": "特價299元(原價410元)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3049,7 +3136,8 @@
     "how": "持悠遊卡/悠遊聯名卡/悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3099,7 +3187,6 @@
       "quote": "享各項補助款項目之首筆補助金額回饋金10%"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -3120,7 +3207,8 @@
     "how": "活動期間首次申請(或異動)以悠遊付領取指定補助款",
     "limited": "yes",
     "limited_quote": "金額有限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -3146,7 +3234,6 @@
       "quote": "次月份加碼15元回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3161,7 +3248,8 @@
     "how": "活動期間選用悠遊付領取補助款之悠遊付用戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3206,7 +3294,6 @@
       "quote": "享優惠價180元(原價242元)"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3214,7 +3301,8 @@
     "how": "使用悠遊卡/悠遊聯名卡/悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3259,12 +3347,6 @@
       "quote": "單筆滿200元享20%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿200元享20%回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -3295,6 +3377,14 @@
        "quote": "「活動已於2026/10/25(日) 13:34額滿」",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1791172316"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿200元享20%回饋"
      }
     ]
    }
@@ -3354,7 +3444,6 @@
       "quote": "即贈悠遊付500元現金回饋券1張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3369,7 +3458,8 @@
     "how": "使用悠遊付",
     "limited": "yes",
     "limited_quote": "限量100張，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3418,12 +3508,6 @@
       "quote": "輕鬆領新臺幣(下同)100元現金回饋券一張"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際以悠遊付消費扣款滿100元(含)以上即可使用"
-    },
     "caps": [
      {
       "amount": 1,
@@ -3438,7 +3522,15 @@
     "how": "使用悠遊付 APP，以「掃碼」付款",
     "limited": "yes",
     "limited_quote": "活動總限量2,000張，先用先贏。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際以悠遊付消費扣款滿100元(含)以上即可使用"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3483,7 +3575,6 @@
       "quote": "享筆筆4%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 40,
@@ -3498,7 +3589,8 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款",
     "limited": "yes",
     "limited_quote": "每月回饋總金額30,000元，先扣款先得回饋，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3543,7 +3635,6 @@
       "quote": "享筆筆3%刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -3558,7 +3649,8 @@
     "how": "申辦第一銀行信用卡電子帳單或第一銀行帳戶自動扣繳信用卡帳單，登錄後於悠遊付綁定指定悠遊聯名卡之消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3605,12 +3697,6 @@
       "quote": "每筆扣款享3%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,000元以上"
-    },
     "caps": [
      {
       "amount": 120,
@@ -3625,7 +3711,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "額滿即止，額滿於悠遊付APP本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上"
+     }
+    ]
    },
    {
     "name": "活動二:雙11搶券月曆｜$500先用先賺",
@@ -3668,12 +3762,6 @@
       "quote": "使用後回饋500元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿5,000元以上可使用"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3681,7 +3769,15 @@
     "how": "於指定領券頁面點擊「立即領取」",
     "limited": "yes",
     "limited_quote": "各用券日回饋名額限量",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿5,000元以上可使用"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3726,12 +3822,6 @@
       "quote": "享新台幣1,000元現金回饋至樂天國際銀行帳戶"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "使用悠遊付綁定該帳戶不限金額成功扣款滿1筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -3746,7 +3836,15 @@
     "how": "使用悠遊付綁定該帳戶不限金額成功扣款滿1筆",
     "limited": "no",
     "limited_quote": "回饋名額無上限",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "使用悠遊付綁定該帳戶不限金額成功扣款滿1筆"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3799,7 +3897,6 @@
       "quote": "合併筆筆最高12%"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 600,
@@ -3814,7 +3911,8 @@
     "how": "使用悠遊付付款碼功能，並以悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "各項活動均有限額，詳見下方說明，限額額滿則活動提前結束。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "100元韓國樂天免稅店現金回饋券",
@@ -3835,7 +3933,6 @@
       "quote": "100元韓國樂天免稅店現金回饋券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3871,7 +3968,8 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1786529493"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "悠遊返台10%現金回饋券",
@@ -3892,7 +3990,6 @@
       "quote": "悠遊返台10%現金回饋券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3907,7 +4004,8 @@
     "how": "使用悠遊付付款碼功能，並以悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "每月總限量3,000張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3952,7 +4050,6 @@
       "quote": "元大悠遊聯名卡首次自動加值最高享10%刷卡金。"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -3967,7 +4064,8 @@
     "how": "元大悠遊聯名卡首次自動加值",
     "limited": "yes",
     "limited_quote": "本活動限量15,000卡",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "本活動需登錄[需登錄請點此]",
@@ -3981,7 +4079,6 @@
     "quota_quote": "本活動限量5,000卡",
     "review": [],
     "rewards": [],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -3996,7 +4093,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動限量5,000卡",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "悠遊付綁定元大銀行信用卡支付一般消費，單筆消費達168元以上，享5%刷卡金回饋。",
@@ -4017,12 +4115,6 @@
       "quote": "享5%刷卡金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 168,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費達168元以上"
-    },
     "caps": [
      {
       "amount": 100,
@@ -4037,7 +4129,15 @@
     "how": "悠遊付綁定元大銀行信用卡支付一般消費",
     "limited": "yes",
     "limited_quote": "每月活動回饋總額上限10萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 168,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費達168元以上"
+     }
+    ]
    },
    {
     "name": "元大悠遊聯名卡於全聯福利中心，以悠遊卡功能扣款單筆消費滿300元贈200點福利點。",
@@ -4058,12 +4158,6 @@
       "quote": "贈200點福利點"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4071,7 +4165,15 @@
     "how": "以悠遊卡功能扣款",
     "limited": "yes",
     "limited_quote": "本活動限量15,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4118,12 +4220,6 @@
       "quote": "即贈20元悠遊付現金回饋券(限量3萬份)"
      }
     ],
-    "min_spend": {
-     "amount": 11,
-     "unit": "筆",
-     "per": "month",
-     "quote": "單月累計\n滿11趟(不含0元扣款)"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4141,6 +4237,14 @@
        "quote": "10月份活動已於2026/10/21 20:28額滿，感謝您的支持！",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 11,
+      "unit": "筆",
+      "per": "month",
+      "quote": "單月累計\n滿11趟(不含0元扣款)"
      }
     ]
    },
@@ -4163,12 +4267,6 @@
       "quote": "即贈30元悠遊付現金回饋券(限量1.5萬份)"
      }
     ],
-    "min_spend": {
-     "amount": 21,
-     "unit": "筆",
-     "per": "month",
-     "quote": "滿21趟(不含0元扣款)，即贈30元"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4186,6 +4284,14 @@
        "quote": "10月份活動已於2026/10/20 07:31額滿，感謝您的支持！",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 21,
+      "unit": "筆",
+      "per": "month",
+      "quote": "滿21趟(不含0元扣款)，即贈30元"
      }
     ]
    },
@@ -4208,12 +4314,6 @@
       "quote": "再贈50元悠遊付現金回饋券(限量1.5萬份)"
      }
     ],
-    "min_spend": {
-     "amount": 30,
-     "unit": "筆",
-     "per": "month",
-     "quote": "滿30趟(不含0元扣款)，再贈50元"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4231,6 +4331,14 @@
        "quote": "10月份活動已於2026/10/29 21:03額滿，感謝您的支持！",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 30,
+      "unit": "筆",
+      "per": "month",
+      "quote": "滿30趟(不含0元扣款)，再贈50元"
      }
     ]
    }
@@ -4293,7 +4401,6 @@
       "quote": "完成註冊即可獲得$50新會員禮包"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "2026/10/1~12/31期間加入悠遊付，完成註冊即可獲得$50新會員禮包",
@@ -4301,7 +4408,8 @@
     "how": "下載註冊EasyWallet APP悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "已經是會員？月月都有最高5%現金回饋！",
@@ -4322,7 +4430,6 @@
       "quote": "月月都有最高5%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4330,7 +4437,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "最高5%現金回饋拿不夠？這些活動再疊加！",
@@ -4363,7 +4471,6 @@
       "quote": "滿百加碼3%"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4371,7 +4478,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "活動期間、詳情與限制見悠遊卡官網，每月限量。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "習慣嗶悠遊卡買東西？到超市最高8%",
@@ -4392,7 +4500,6 @@
       "quote": "最高獲得8%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4400,7 +4507,8 @@
     "how": "持悠遊卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4445,7 +4553,6 @@
       "quote": "即享30元加購蒜味時蔬(原價45元)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -4460,7 +4567,8 @@
     "how": "持悠遊卡/悠遊聯名卡/悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4523,7 +4631,6 @@
       "quote": "完成付款後回饋500元悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -4585,7 +4692,8 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1791888619"
       }
      }
-    ]
+    ],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4630,7 +4738,6 @@
       "quote": "筆筆享票價30%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -4645,7 +4752,8 @@
     "how": "使用悠遊付乘車碼",
     "limited": "yes",
     "limited_quote": "每月活動總回饋金上限5萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4692,12 +4800,6 @@
       "quote": "即贈送悠遊付40元現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "消費單筆滿500元(含)以上"
-    },
     "caps": [
      {
       "amount": 3,
@@ -4712,7 +4814,15 @@
     "how": "使用悠遊付",
     "limited": "yes",
     "limited_quote": "每月限量1,000份，總回饋限量3,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "消費單筆滿500元(含)以上"
+     }
+    ]
    },
    {
     "name": "新會員輸入專屬推薦碼註冊悠遊付 最高領100元",
@@ -4737,7 +4847,6 @@
       "quote": "「50元喜美現金回饋券」1份"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -4752,7 +4861,8 @@
     "how": "註冊時填寫推薦碼【CIVIL2026】",
     "limited": "yes",
     "limited_quote": "每月回饋上限500份，活動全期回饋共計1,500份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4797,12 +4907,6 @@
       "quote": "每筆扣款享5%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 599,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿新臺幣（下同）599元(含)以上者"
-    },
     "caps": [
      {
       "amount": 100,
@@ -4817,7 +4921,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶消費購物",
     "limited": "yes",
     "limited_quote": "每月總回饋金額5萬元，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿新臺幣（下同）599元(含)以上者"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4862,12 +4974,6 @@
       "quote": "持元大悠遊聯名卡首次自動加值享10%刷卡金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "透過設備自動加值新台幣500元或其倍數之一定金額到元大悠遊聯名卡悠遊卡內"
-    },
     "caps": [
      {
       "amount": 50,
@@ -4888,7 +4994,15 @@
     "how": "持已記名且尚未動用悠遊卡自動加值功能之元大悠遊聯名卡",
     "limited": "yes",
     "limited_quote": "限量15,000卡",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "透過設備自動加值新台幣500元或其倍數之一定金額到元大悠遊聯名卡悠遊卡內"
+     }
+    ]
    },
    {
     "name": "★自動加值享 10% 刷卡金★",
@@ -4913,7 +5027,6 @@
       "quote": "自動加值享10%刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -4928,7 +5041,8 @@
     "how": "活動期間內申辦元大銀行悠遊聯名卡，並於指定時間內完成登錄",
     "limited": "yes",
     "limited_quote": "限量5,000名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4975,12 +5089,6 @@
       "quote": "贈100元現金回饋券1張"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "累積扣款滿500元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -4995,7 +5103,15 @@
     "how": "使用悠遊付或記名悠遊卡",
     "limited": "yes",
     "limited_quote": "悠遊付每月上限1,200張、悠遊卡每月上限800張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "累積扣款滿500元"
+     }
+    ]
    },
    {
     "name": "",
@@ -5018,7 +5134,6 @@
       "quote": "贈50元現金回饋券1張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5033,7 +5148,8 @@
     "how": "使用悠遊付",
     "limited": "yes",
     "limited_quote": "每悠遊付會員限贈1張，每月上限2,000張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5094,12 +5210,6 @@
       "quote": "贈「悠遊付50元現金回饋券」一份"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "month",
-     "quote": "於登錄當月集集樂集滿1次者"
-    },
     "caps": [
      {
       "amount": 1,
@@ -5114,7 +5224,15 @@
     "how": "悠遊付APP首頁>減塑Easy Life>點選「我要登錄」",
     "limited": "yes",
     "limited_quote": "活動全期總限量10,000份，每人限領一份，數量有限，贈完即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "於登錄當月集集樂集滿1次者"
+     }
+    ]
    },
    {
     "name": "挑戰2｜集次數",
@@ -5134,7 +5252,6 @@
      "門檻 5 在引句中找不到：活動期間累積達指定次數即可兌換相對應之回饋"
     ],
     "rewards": [],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5149,7 +5266,8 @@
     "how": "悠遊付APP「減塑Easy Life」>點擊「查看回饋資格」>減塑好康回饋頁面，進行「手動領取」",
     "limited": "yes",
     "limited_quote": "回饋份數限量，先領先得，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "挑戰3｜集重量",
@@ -5168,7 +5286,6 @@
      "回饋引句不在原文中：20元"
     ],
     "rewards": [],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5183,7 +5300,8 @@
     "how": "悠遊付APP「減塑Easy Life」>點擊「查看回饋資格」>減塑好康回饋頁面，進行「手動領取」",
     "limited": "yes",
     "limited_quote": "回饋份數限量，先領先得，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "挑戰4｜解任務",
@@ -5219,7 +5337,6 @@
       "quote": "加碼再送悠遊卡1張(不挑款)"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "完成減塑Easy Life活動登錄(限8/1起新登錄)",
@@ -5227,7 +5344,8 @@
     "how": "攜帶環保杯+本人記名遊卡於現場攤位完成嗶卡",
     "limited": "yes",
     "limited_quote": "活動限量1,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5278,12 +5396,6 @@
       "quote": "還可獲得2,000 mo幣(共2組)抽獎機會1次"
      }
     ],
-    "min_spend": {
-     "amount": 2,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "直接扣款交易任2筆（金額新臺幣1元以上且成功扣款）"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次申辦第一銀行iLEO數位帳戶",
@@ -5291,7 +5403,15 @@
     "how": "使用悠遊付綁定該數位帳戶並直接扣款交易任2筆",
     "limited": "yes",
     "limited_quote": "(回饋名額限前5,000名)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "直接扣款交易任2筆（金額新臺幣1元以上且成功扣款）"
+     }
+    ]
    },
    {
     "name": "【活動二】一銀綁定悠遊付週五最高10%回饋",
@@ -5312,12 +5432,6 @@
       "quote": "享筆筆回饋5%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額滿新臺幣100元（含）以上"
-    },
     "caps": [
      {
       "amount": 20,
@@ -5332,7 +5446,15 @@
     "how": "使用悠遊付綁定「第一銀行新臺幣存款帳戶(包含iLEO數位帳戶)」",
     "limited": "yes",
     "limited_quote": "本活動總回饋金上限26萬元，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿新臺幣100元（含）以上"
+     }
+    ]
    },
    {
     "name": "【活動三】刷悠遊聯名卡筆筆3%刷卡金回饋",
@@ -5369,7 +5491,6 @@
       "quote": "享筆筆3%刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -5384,7 +5505,8 @@
     "how": "於悠遊付綁定第一銀行指定悠遊聯名卡之消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5435,12 +5557,6 @@
       "quote": "最高回饋10%"
      }
     ],
-    "min_spend": {
-     "amount": 150,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿150元(含)以上"
-    },
     "caps": [
      {
       "amount": 3,
@@ -5455,7 +5571,15 @@
     "how": "以悠遊卡功能單筆消費",
     "limited": "yes",
     "limited_quote": "優惠總限量30,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿150元(含)以上"
+     }
+    ]
    },
    {
     "name": "於活動期間內註冊成為悠遊付新會員",
@@ -5476,7 +5600,6 @@
       "quote": "「50元美廉社現金回饋券」1張"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "於活動期間內註冊成為悠遊付新會員",
@@ -5484,7 +5607,8 @@
     "how": "並於註冊時填寫推薦碼【SIMPLE】",
     "limited": "yes",
     "limited_quote": "每月回饋上限計1,000份，活動全期回饋共計3,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5535,7 +5659,6 @@
       "quote": "本館加碼優惠折抵 60元"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5543,7 +5666,8 @@
     "how": "持臺北市敬老卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5594,7 +5718,6 @@
       "quote": "20元飲料券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5609,7 +5732,8 @@
     "how": "請於支付時選擇使用現金回饋券",
     "limited": "yes",
     "limited_quote": "數量有限發完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5656,7 +5780,6 @@
       "quote": "筆筆享10%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -5671,7 +5794,8 @@
     "how": "使用悠遊付 APP，以「掃碼」或「付款碼」付款。",
     "limited": "yes",
     "limited_quote": "本活動回饋金總額上限10萬元，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【活動二】月級挑戰筆筆最高回饋3%",
@@ -5692,7 +5816,6 @@
       "quote": "最高享13%悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5700,7 +5823,8 @@
     "how": "使用悠遊付 APP，以「掃碼」或「付款碼」付款。",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【活動三】首次註冊會員領$50現金回饋券",
@@ -5721,12 +5845,6 @@
       "quote": "輕鬆領新臺幣(下同)50元現金回饋券1張"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際以悠遊付消費滿100元(含)以上即可使用"
-    },
     "caps": [
      {
       "amount": 1,
@@ -5741,7 +5859,15 @@
     "how": "掃描QR Code領券",
     "limited": "yes",
     "limited_quote": "活動總限量1,000張，先用先得回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際以悠遊付消費滿100元(含)以上即可使用"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -5788,12 +5914,6 @@
       "quote": "享5%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "消費滿100元"
-    },
     "caps": [
      {
       "amount": 100,
@@ -5819,6 +5939,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1792653371"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "消費滿100元"
+     }
     ]
    },
    {
@@ -5840,12 +5968,6 @@
       "quote": "加贈50元悠遊付現金回饋券"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額滿1,000元（含）以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -5871,6 +5993,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1792653371"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿1,000元（含）以上"
+     }
     ]
    },
    {
@@ -5892,12 +6022,6 @@
       "quote": "即享中油10元悠遊付現金回饋券1張"
      }
     ],
-    "min_spend": {
-     "amount": 120,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆扣款消費滿120元(含)以上"
-    },
     "caps": [
      {
       "amount": 5,
@@ -5912,7 +6036,15 @@
     "how": "悠遊付會員持記名悠遊卡或悠遊聯名卡",
     "limited": "yes",
     "limited_quote": "回饋券總限量30,000張，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 120,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆扣款消費滿120元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -5969,12 +6101,6 @@
       "quote": "筆筆最高5%現金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿千最高25%回饋"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5982,7 +6108,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿千最高25%回饋"
+     }
+    ]
    },
    {
     "name": "活動二:康是美網購獨享$200",
@@ -6003,12 +6137,6 @@
       "quote": "回饋「200元91APP專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,000元以上回饋「200元91APP專用現金回饋券」1張"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6023,7 +6151,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "活動10月及12月各限量1,000張，11月限量1,200張，若額滿則活動提前結束",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上回饋「200元91APP專用現金回饋券」1張"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -6072,12 +6208,6 @@
       "quote": "享指定通路(美廉社)15元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 150,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣(下同)150元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6092,7 +6222,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量30,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(下同)150元(含)以上者"
+     }
+    ]
    },
    {
     "name": "國軍福利站",
@@ -6113,12 +6251,6 @@
       "quote": "享全通路24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6133,7 +6265,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量1,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "",
@@ -6156,12 +6296,6 @@
       "quote": "享指定通路(棉花田)24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6176,7 +6310,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量1,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "楓康超市",
@@ -6197,12 +6339,6 @@
       "quote": "享指定通路(楓康超市)24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6217,7 +6353,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量1,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "",
@@ -6240,12 +6384,6 @@
       "quote": "享指定通路(新東陽)24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6260,7 +6398,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量1,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "",
@@ -6283,12 +6429,6 @@
       "quote": "享指定通路(喜互惠生鮮超市)24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6303,7 +6443,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠限量1,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "喜美超市",
@@ -6324,12 +6472,6 @@
       "quote": "享指定通路(喜美超市)24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6344,7 +6486,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量1,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "小北百貨",
@@ -6365,12 +6515,6 @@
       "quote": "享全通路24元悠遊付現金回饋券一份"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元(含)以上者"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6385,7 +6529,15 @@
     "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量3,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ]
    },
    {
     "name": "",
@@ -6408,12 +6560,6 @@
       "quote": "送義美紅利點數80點"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿500元(含)以上者"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6428,7 +6574,15 @@
     "how": "「義美會員」持悠遊卡、悠遊聯名卡、Debit卡、敬老卡、愛心卡",
     "limited": "yes",
     "limited_quote": "本通路優惠總限量7,500份，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿500元(含)以上者"
+     }
+    ]
    },
    {
     "name": "",
@@ -6451,12 +6605,6 @@
       "quote": "送50元萬家福折價券一份"
      }
     ],
-    "min_spend": {
-     "amount": 599,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿599元(含)以上者"
-    },
     "caps": [
      {
       "amount": 100,
@@ -6471,7 +6619,15 @@
     "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本指定通路優惠總限量5,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿599元(含)以上者"
+     }
+    ]
    },
    {
     "name": "樂家康/Mia Cbon",
@@ -6492,12 +6648,6 @@
       "quote": "送24元樂家康/Mia Cbon折價券一份"
      }
     ],
-    "min_spend": {
-     "amount": 299,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿299元(含)以上者"
-    },
     "caps": [
      {
       "amount": 48,
@@ -6512,7 +6662,15 @@
     "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
     "limited_quote": "本指定通路優惠總限量10,000份/月，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元(含)以上者"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -6557,12 +6715,6 @@
       "quote": "每筆扣款享3%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "活動期間單筆滿1,000元以上"
-    },
     "caps": [
      {
       "amount": 120,
@@ -6588,6 +6740,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1792032189"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "活動期間單筆滿1,000元以上"
+     }
     ]
    },
    {
@@ -6609,12 +6769,6 @@
       "quote": "回饋1,200元禮包一份，內含「600元momo購物網專用現金回饋券」2張"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿10,000元以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6629,7 +6783,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "活動限量800份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿10,000元以上"
+     }
+    ]
    },
    {
     "name": "活動三:雙11搶券月曆｜$500先用先賺",
@@ -6666,12 +6828,6 @@
       "quote": "使用後回饋500元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿5,000元以上可使用"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6686,7 +6842,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "各用券日回饋名額限量",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿5,000元以上可使用"
+     }
+    ]
    },
    {
     "name": "活動四:累積最高加碼$300",
@@ -6707,12 +6871,6 @@
       "quote": "回饋「100元momo購物網專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,500元以上"
-    },
     "caps": [
      {
       "amount": 3,
@@ -6733,7 +6891,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "活動總限量3,800張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,500元以上"
+     }
+    ]
    },
    {
     "name": "活動五:指定週五再加碼$300",
@@ -6754,12 +6920,6 @@
       "quote": "回饋「300元momo購物網專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "指定週五當天單筆滿5,000元以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6774,7 +6934,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "每指定週五各限量150張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "指定週五當天單筆滿5,000元以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -6819,12 +6987,6 @@
       "quote": "享新台幣500元現金回饋至王道銀行帳戶"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "消費扣款不限金額滿3筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6839,7 +7001,15 @@
     "how": "使用悠遊付綁定該帳戶消費扣款",
     "limited": "yes",
     "limited_quote": "本活動限前850名帳戶啟用之客戶參加",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "消費扣款不限金額滿3筆"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -6887,7 +7057,6 @@
       "quote": "持好運卡不限金額消費即贈「BZU BZU 嬰兒超柔濕巾 10片」乙份"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6895,7 +7064,8 @@
     "how": "持好運卡",
     "limited": "yes",
     "limited_quote": "數量有限，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -6918,12 +7088,6 @@
       "quote": "現折$88"
      }
     ],
-    "min_spend": {
-     "amount": 988,
-     "unit": "元",
-     "per": "txn",
-     "quote": "持好運卡消費滿$988(折扣後)"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6931,7 +7095,15 @@
     "how": "持好運卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 988,
+      "unit": "元",
+      "per": "txn",
+      "quote": "持好運卡消費滿$988(折扣後)"
+     }
+    ]
    },
    {
     "name": "",
@@ -6948,7 +7120,6 @@
      "回饋數值 1 在引句中找不到：「新生祝福禮包」"
     ],
     "rewards": [],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6956,7 +7127,8 @@
     "how": "加入POYA寶雅APP會員、使用悠遊卡功能消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -6979,12 +7151,6 @@
       "quote": "滿千折百優惠"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "滿千折百優惠"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6992,7 +7158,15 @@
     "how": "持好運卡扣款消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "滿千折百優惠"
+     }
+    ]
    },
    {
     "name": "",
@@ -7015,7 +7189,6 @@
       "quote": "專屬滿千折百優惠券(2張)"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7023,7 +7196,8 @@
     "how": "加入大樹官方LINE帳號完成綁定",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -7052,12 +7226,6 @@
       "quote": "贈孕媽咪杏福禮乙份"
      }
     ],
-    "min_spend": {
-     "amount": 99,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "消費滿99元即享贈孕媽咪杏福禮乙份"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7065,7 +7233,15 @@
     "how": "持好運卡扣款消費",
     "limited": "yes",
     "limited_quote": "數量有限，送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "消費滿99元即享贈孕媽咪杏福禮乙份"
+     }
+    ]
    },
    {
     "name": "",
@@ -7088,7 +7264,6 @@
       "quote": "享專屬優惠85折"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7096,7 +7271,8 @@
     "how": "持好運卡扣款消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -7125,7 +7301,6 @@
       "quote": "送媽媽大禮包乙份"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -7140,7 +7315,8 @@
     "how": "持好運卡扣款消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -7163,12 +7339,6 @@
       "quote": "滿千折百優惠"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "滿千折百優惠"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7176,7 +7346,15 @@
     "how": "持好運卡扣款消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "滿千折百優惠"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7233,12 +7411,6 @@
       "quote": "筆筆最高5%現金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿千最高25%回饋"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7246,7 +7418,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿千最高25%回饋"
+     }
+    ]
    },
    {
     "name": "活動二:寶雅線上買獨享$100",
@@ -7267,12 +7447,6 @@
       "quote": "回饋「100元91APP專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "支付單筆滿500元以上回饋「100元91APP專用現金回饋券」1張"
-    },
     "caps": [
      {
       "amount": 1,
@@ -7297,6 +7471,14 @@
        "quote": "活動二10月份回饋已於10/16早上09:55額滿",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789361414"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "支付單筆滿500元以上回饋「100元91APP專用現金回饋券」1張"
      }
     ]
    }
@@ -7351,12 +7533,6 @@
       "quote": "「300元friDay購物專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 35000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際以悠遊付支付滿35,000元（含）以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -7371,7 +7547,15 @@
     "how": "使用悠遊付錢包、綁定銀行帳戶或綁定信用卡扣款",
     "limited": "yes",
     "limited_quote": "限量350份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 35000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際以悠遊付支付滿35,000元（含）以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7416,7 +7600,6 @@
       "quote": "JCB 悠遊聯名卡自動加值享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -7437,7 +7620,8 @@
     "how": "JCB 悠遊聯名卡自動加值",
     "limited": "yes",
     "limited_quote": "每月限量37,500卡",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "悠遊聯名卡",
@@ -7458,7 +7642,6 @@
       "quote": "贈50元悠遊付現金回饋券組乙份"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -7473,7 +7656,8 @@
     "how": "持已記名之悠遊聯名卡(不含悠遊Debit卡/悠遊金融卡)",
     "limited": "yes",
     "limited_quote": "每月限量2萬份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "元大銀行",
@@ -7494,7 +7678,6 @@
       "quote": "元大悠遊聯名卡自動加值享 10% 刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -7509,7 +7692,8 @@
     "how": "元大悠遊聯名卡自動加值",
     "limited": "yes",
     "limited_quote": "限量5,000卡",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "悠遊卡再加碼:",
@@ -7530,7 +7714,6 @@
       "quote": "首次自動加值享10% 刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -7551,7 +7734,8 @@
     "how": "元大悠遊聯名卡首次自動加值",
     "limited": "yes",
     "limited_quote": "限量15,000卡",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "玉山銀行",
@@ -7572,12 +7756,6 @@
       "quote": "贈100元悠遊付現金回饋券"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "次",
-     "per": "month",
-     "quote": "同一卡片於當月自動加值達3次（含）以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -7592,7 +7770,15 @@
     "how": "需使用本人名下之玉山悠遊聯名卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "次",
+      "per": "month",
+      "quote": "同一卡片於當月自動加值達3次（含）以上"
+     }
+    ]
    },
    {
     "name": "玉山Unicard卡",
@@ -7613,7 +7799,6 @@
       "quote": "獲得「500元悠遊付現金回饋券」"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -7634,7 +7819,8 @@
     "how": "透過悠遊付專屬連結首次申辦玉山Unicard正卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "momo悠遊聯名卡",
@@ -7655,7 +7841,6 @@
       "quote": "首次自動加值享20%刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -7670,7 +7855,8 @@
     "how": "新申辦momo悠遊聯名卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "中國信託銀行卡",
@@ -7691,12 +7877,6 @@
       "quote": "自動加值滿500元享10%中信點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "自動加值滿500元"
-    },
     "caps": [
      {
       "amount": 50,
@@ -7711,7 +7891,15 @@
     "how": "中國信託銀行卡之悠遊卡功能自動加值",
     "limited": "yes",
     "limited_quote": "每月限量900名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "自動加值滿500元"
+     }
+    ]
    },
    {
     "name": "漢神聯名卡",
@@ -7732,12 +7920,6 @@
       "quote": "自動加值滿500元享10%刷卡金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "自動加值滿500元"
-    },
     "caps": [
      {
       "amount": 50,
@@ -7752,7 +7934,15 @@
     "how": "漢神卡之悠遊卡功能自動加值",
     "limited": "yes",
     "limited_quote": "每月限量800名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "自動加值滿500元"
+     }
+    ]
    },
    {
     "name": "幸福M悠遊聯名卡",
@@ -7773,7 +7963,6 @@
       "quote": "每筆5元刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -7788,7 +7977,8 @@
     "how": "申辦電子化帳單享幸福M卡之悠遊卡功能自動加值",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "DAWHO悠遊聯名卡",
@@ -7815,7 +8005,6 @@
       "quote": "大戶等級享悠遊卡自動加值3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -7836,7 +8025,8 @@
     "how": "完成指定任務之客戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "現金回饋Green卡",
@@ -7857,7 +8047,6 @@
       "quote": "享悠遊卡自動加值消費4%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -7872,7 +8061,8 @@
     "how": "設定永豐/京城帳戶自動扣繳永豐信用卡帳款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綠活悠遊聯名卡",
@@ -7893,12 +8083,6 @@
       "quote": "享最高5%現金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "一般消費單筆滿1,000元(含)以上"
-    },
     "caps": [
      {
       "amount": 200,
@@ -7913,7 +8097,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "一般消費單筆滿1,000元(含)以上"
+     }
+    ]
    },
    {
     "name": "遠東快樂信用卡",
@@ -7934,7 +8126,6 @@
       "quote": "悠遊卡自動加值最高5%刷卡金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -7949,7 +8140,8 @@
     "how": "悠遊卡自動加值",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -7972,7 +8164,6 @@
       "quote": "皆可以獲得 5% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -7987,7 +8178,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "i運動卡",
@@ -8008,12 +8200,6 @@
       "quote": "享綠色交通(含悠遊卡自動加值)5%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 2999,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "新增一般消費達 2999元(含)以上"
-    },
     "caps": [
      {
       "amount": 100,
@@ -8028,7 +8214,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2999,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "新增一般消費達 2999元(含)以上"
+     }
+    ]
    },
    {
     "name": "",
@@ -8051,7 +8245,6 @@
       "quote": "悠遊卡自動加值 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -8066,7 +8259,8 @@
     "how": "悠遊卡自動加值",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -8089,7 +8283,6 @@
       "quote": "悠遊卡自動加值 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -8104,7 +8297,8 @@
     "how": "悠遊卡自動加值",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "My Sense悠遊御璽卡",
@@ -8125,12 +8319,6 @@
       "quote": "享指定通路(含全聯悠遊卡自動加值)最高10%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "當期帳單新增一般消費達2,000元(含)以上"
-    },
     "caps": [
      {
       "amount": 300,
@@ -8145,7 +8333,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "當期帳單新增一般消費達2,000元(含)以上"
+     }
+    ]
    },
    {
     "name": "大甲媽祖認同卡",
@@ -8166,7 +8362,6 @@
       "quote": "每25元享1點紅利點數回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 3000,
@@ -8181,7 +8376,8 @@
     "how": "大甲媽祖認同卡自動加值",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -8228,7 +8424,6 @@
       "quote": "每筆交易享2%回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -8243,7 +8438,8 @@
     "how": "使用悠遊付錢包、綁定銀行帳戶或綁定信用卡扣款交易",
     "limited": "yes",
     "limited_quote": "每日回饋總金額55萬元，先扣款先得回饋，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定銀行加碼回饋:",
@@ -8264,12 +8460,6 @@
       "quote": "單筆消費金額滿100元(含)以上享回饋5%回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額滿100元(含)以上"
-    },
     "caps": [
      {
       "amount": 20,
@@ -8284,7 +8474,15 @@
     "how": "使用悠遊付綁定第一銀行新臺幣存款帳戶(含iLEO數位帳戶)",
     "limited": "yes",
     "limited_quote": "每週五回饋總金額上限2萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿100元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -8329,7 +8527,6 @@
       "quote": "每筆購點享最高8%悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -8337,7 +8534,8 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶購點",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "活動二:集次加碼最高領$200",
@@ -8358,12 +8556,6 @@
       "quote": "回饋「100元指定遊戲電商專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "month",
-     "quote": "單筆滿500元以上訂單，每月累計滿3筆"
-    },
     "caps": [
      {
       "amount": 2,
@@ -8378,7 +8570,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶購點",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "month",
+      "quote": "單筆滿500元以上訂單，每月累計滿3筆"
+     }
+    ]
    },
    {
     "name": "活動三:MyCard x 悠遊付 獨家回饋活動",
@@ -8399,12 +8599,6 @@
       "quote": "即可領取MyCard會員點數15點"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "點",
-     "per": "txn",
-     "quote": "使用悠遊付單筆購點達500點至MyCard會員帳號中"
-    },
     "caps": [
      {
       "amount": 1,
@@ -8419,7 +8613,15 @@
     "how": "使用悠遊付單筆購點",
     "limited": "yes",
     "limited_quote": "數量有限，領完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "點",
+      "per": "txn",
+      "quote": "使用悠遊付單筆購點達500點至MyCard會員帳號中"
+     }
+    ]
    },
    {
     "name": "活動四:MyCard x 悠遊付 專屬加碼抽獎",
@@ -8440,7 +8642,6 @@
       "quote": "有機會抽中MyCard各項豪禮，最高萬元點數！"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -8448,7 +8649,8 @@
     "how": "使用悠遊付購點達指定面額至MyCard會員帳號中",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -8509,7 +8711,6 @@
       "quote": "登錄最高享0.2% e point點數回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -8524,7 +8725,8 @@
     "how": "使用悠遊付綁定玉山信用卡繳納地價稅",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "首綁新戶繳納地價稅累計滿10,000元，再贈50點玉山e point",
@@ -8561,12 +8763,6 @@
       "quote": "再贈50點玉山e point"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "首綁新戶繳納地價稅累計滿10,000元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首綁新戶繳納地價稅累計滿10,000元",
@@ -8574,7 +8770,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "首綁新戶繳納地價稅累計滿10,000元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -8619,7 +8823,6 @@
       "quote": "即享每筆加碼2%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -8634,7 +8837,8 @@
     "how": "生活繳費適用悠遊付錢包或悠遊付綁定之銀行帳戶、綁定玉山/台新信用卡支付",
     "limited": "yes",
     "limited_quote": "每日回饋總金額上限7萬元，先扣款先得回饋，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -8679,12 +8883,6 @@
       "quote": "每筆扣款享3%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,000元以上"
-    },
     "caps": [
      {
       "amount": 120,
@@ -8710,6 +8908,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789388498"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上"
+     }
     ]
    },
    {
@@ -8731,12 +8937,6 @@
       "quote": "回饋「400元PChome專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿5,000元以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -8761,6 +8961,14 @@
        "quote": "活動二10月份回饋已於10/10下午17:21額滿",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789388498"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿5,000元以上"
      }
     ]
    },
@@ -8805,7 +9013,6 @@
       "quote": "使用後回饋500元悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -8813,7 +9020,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "各用券日回饋名額限量",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -8858,12 +9066,6 @@
       "quote": "單筆扣款滿100元享3%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆扣款滿100元享3%悠遊付回饋金"
-    },
     "caps": [
      {
       "amount": 300,
@@ -8878,7 +9080,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶",
     "limited": "yes",
     "limited_quote": "回饋總金額50萬元，先扣款先得回饋，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆扣款滿100元享3%悠遊付回饋金"
+     }
+    ]
    },
    {
     "name": "活動二: 週一至週五 消費滿500元加贈40元現金回饋券",
@@ -8899,12 +9109,6 @@
       "quote": "即加贈40元悠遊付現金回饋券1張"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆扣款滿500元，即加贈40元悠遊付現金回饋券1張"
-    },
     "caps": [
      {
       "amount": 1,
@@ -8919,7 +9123,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶",
     "limited": "yes",
     "limited_quote": "每週限量1,000張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆扣款滿500元，即加贈40元悠遊付現金回饋券1張"
+     }
+    ]
    },
    {
     "name": "活動三: 首次消費即贈20%回饋券",
@@ -8940,7 +9152,6 @@
       "quote": "首次全家便利商店消費即贈20%悠遊付現金回饋券1張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -8961,7 +9172,8 @@
     "how": "使用悠遊付",
     "limited": "yes",
     "limited_quote": "每月限量6,000份，3個月回饋總限量18,000份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -9006,12 +9218,6 @@
       "quote": "贈總價值100元悠遊付現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "10/28~10/31期間使用悠遊付繳納地價稅累計滿5,000元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9037,6 +9243,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784184075"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "10/28~10/31期間使用悠遊付繳納地價稅累計滿5,000元"
+     }
     ]
    },
    {
@@ -9058,7 +9272,6 @@
       "quote": "每筆扣款享3%悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -9094,7 +9307,8 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784184075"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "滿額回饋禮",
@@ -9115,12 +9329,6 @@
       "quote": "贈總價值600元悠遊付現金回饋券1份"
      }
     ],
-    "min_spend": {
-     "amount": 12000,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "活動期間使用悠遊付繳納地價稅累計滿12,000元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9146,6 +9354,14 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1784184075"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 12000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間使用悠遊付繳納地價稅累計滿12,000元"
+     }
     ]
    },
    {
@@ -9167,12 +9383,6 @@
       "quote": "再加贈200元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 50000,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "累計滿5萬元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9187,7 +9397,15 @@
     "how": "使用悠遊付繳地價稅",
     "limited": "yes",
     "limited_quote": "限量1,500名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 50000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "累計滿5萬元"
+     }
+    ]
    },
    {
     "name": "【信用卡繳稅禮】",
@@ -9208,7 +9426,6 @@
       "quote": "登錄享0.2% 玉山e point點數回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -9223,7 +9440,8 @@
     "how": "使用悠遊付綁定玉山信用卡繳地價稅",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【首綁新戶禮】",
@@ -9244,12 +9462,6 @@
       "quote": "再加贈50點e point點數"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "首綁新戶繳納地價稅累計滿1萬元(含)以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9264,7 +9476,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "首綁新戶繳納地價稅累計滿1萬元(含)以上"
+     }
+    ]
    },
    {
     "name": "【數位存款帳戶禮】",
@@ -9285,12 +9505,6 @@
       "quote": "享150元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "直接扣款消費單筆金額滿200元(含)以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9305,7 +9519,15 @@
     "how": "使用悠遊付綁定台中銀行Lolly Bank數位存款帳戶",
     "limited": "yes",
     "limited_quote": "活動期間限額1,500名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "直接扣款消費單筆金額滿200元(含)以上"
+     }
+    ]
    },
    {
     "name": "【一般存款帳戶禮】",
@@ -9326,12 +9548,6 @@
       "quote": "享100元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "直接扣款消費單筆金額滿200元(含)以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9346,7 +9562,15 @@
     "how": "使用悠遊付綁定台中銀行存款帳戶",
     "limited": "yes",
     "limited_quote": "活動期間限額1,000名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "直接扣款消費單筆金額滿200元(含)以上"
+     }
+    ]
    },
    {
     "name": "【iLEO數位帳戶新戶禮】",
@@ -9367,12 +9591,6 @@
       "quote": "享120元悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 2,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "直接扣款交易任2筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -9387,7 +9605,15 @@
     "how": "使用悠遊付綁定該數位帳戶直接扣款交易",
     "limited": "yes",
     "limited_quote": "活動期間限額5,000名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "直接扣款交易任2筆"
+     }
+    ]
    },
    {
     "name": "【週五5%回饋】",
@@ -9408,12 +9634,6 @@
       "quote": "享筆筆回饋5%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "直接扣款消費單筆金額滿100元(含)以上"
-    },
     "caps": [
      {
       "amount": 20,
@@ -9428,7 +9648,15 @@
     "how": "使用悠遊付綁定第一銀行新臺幣存款帳戶(含iLEO數位帳戶)",
     "limited": "yes",
     "limited_quote": "每週五回饋總上限為2萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "直接扣款消費單筆金額滿100元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -9485,7 +9713,6 @@
       "quote": "最高免費提領次數10次"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -9493,7 +9720,8 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款交易",
     "limited": "yes",
     "limited_quote": "先扣款先得回饋，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "會員任務活動:首次自動儲值送$50",
@@ -9514,7 +9742,6 @@
       "quote": "即可獲得50元現金回饋券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -9529,7 +9756,8 @@
     "how": "於當月開啟自動儲值功能且完成首次（該帳戶從未有自動儲值交易）不限金額之自動儲值交易",
     "limited": "yes",
     "limited_quote": "本活動每月限量2,000名，依首次自動儲值成功時間排序，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "金級會員專屬優惠:首次生活繳費送$50",
@@ -9550,7 +9778,6 @@
       "quote": "即可獲得50元現金回饋券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -9565,7 +9792,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "取前2,000名會員進行回饋，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "白金級會員專屬交通回饋:停車/加油筆筆加碼3%",
@@ -9586,7 +9814,6 @@
       "quote": "享筆筆加碼3%悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -9601,7 +9828,8 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款交易",
     "limited": "yes",
     "limited_quote": "先扣款先得回饋，額滿即止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -9646,7 +9874,6 @@
       "quote": "即享30元加購現燙青菜(原價45元)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -9661,7 +9888,8 @@
     "how": "活動期間持悠遊卡/悠遊聯名卡/悠遊付於三商巧福購買指定套餐",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -9706,7 +9934,6 @@
       "quote": "享精選國內綠色通路消費最高5%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -9721,7 +9948,8 @@
     "how": "設定電子或行動帳單，且設定永豐/京城帳戶自動扣繳信用卡帳款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -9766,7 +9994,6 @@
       "quote": "購買2塊炸雞+迷你瓶飲料，特價119元(原價159元)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -9781,7 +10008,8 @@
     "how": "持悠遊卡/悠遊聯名卡/悠遊付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -9826,12 +10054,6 @@
       "quote": "疊加滿千最高8%回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿千加碼3%回饋"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -9839,7 +10061,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿千加碼3%回饋"
+     }
+    ]
    },
    {
     "name": "活動二:最高再加碼拿$200現金回饋券",
@@ -9860,12 +10090,6 @@
       "quote": "回饋「100元指定遊戲電商專用現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "month",
-     "quote": "單筆滿500元以上訂單，每月累計滿3筆"
-    },
     "caps": [
      {
       "amount": 2,
@@ -9880,7 +10104,15 @@
     "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
     "limited": "yes",
     "limited_quote": "每月活動限量500張，若額滿則活動提前結束",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "month",
+      "quote": "單筆滿500元以上訂單，每月累計滿3筆"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -9925,12 +10157,6 @@
       "quote": "每筆扣款享3%悠遊付回饋金"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿1,000元以上"
-    },
     "caps": [
      {
       "amount": 120,
@@ -9955,6 +10181,14 @@
        "quote": "活動一10月份回饋已於10/20晚上20:01額滿。",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1789386225"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上"
      }
     ]
    },
@@ -9993,12 +10227,6 @@
       "quote": "「500元先用先賺現金回饋券」1張"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿5,000元以上可使用"
-    },
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "悠遊付會員自10/27起於指定領券頁面點擊「立即領取」",
@@ -10006,7 +10234,15 @@
     "how": "於指定領券頁面點擊「立即領取」",
     "limited": "yes",
     "limited_quote": "各用券日回饋名額限量",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿5,000元以上可使用"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -10051,12 +10287,6 @@
       "quote": "即可享該筆消費金額5%刷卡金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 168,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額達新臺幣168元以上"
-    },
     "caps": [
      {
       "amount": 100,
@@ -10071,7 +10301,15 @@
     "how": "使用悠遊付綁定元大銀行信用卡支付一般消費",
     "limited": "yes",
     "limited_quote": "每月活動回饋總額上限為新臺幣10萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 168,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額達新臺幣168元以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -10122,7 +10360,6 @@
       "quote": "筆筆最高享23%悠遊付回饋金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -10137,7 +10374,8 @@
     "how": "使用悠遊付「掃碼」或「付款碼」扣款支付",
     "limited": "yes",
     "limited_quote": "本活動每月回饋金總額以25萬元為上限，送完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

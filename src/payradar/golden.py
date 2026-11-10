@@ -76,8 +76,7 @@ def facts_of(activity: Activity) -> set[Fact]:
         out.add(("reg", activity.registration))
     for offer in activity.offers:
         out |= {_reward(r.unit, r.value) for r in offer.rewards}
-        if offer.min_spend:
-            out.add(_amount("min", offer.min_spend.amount, offer.min_spend.unit))
+        out |= {_amount("min", m.amount, m.unit) for m in offer.min_spends}
         out |= {_amount("cap", c.amount, c.unit) for c in offer.caps}
         out |= {_sold(s.scope_start, s.scope_end, s.scope_label) for s in offer.sold_out}
     out |= {_sold(s.scope_start, s.scope_end, s.scope_label) for s in activity.title_sold_out}

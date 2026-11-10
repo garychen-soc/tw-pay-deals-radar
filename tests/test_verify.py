@@ -31,7 +31,7 @@ def sub(**fields: Any) -> dict[str, Any]:
     base: dict[str, Any] = {
         "name": "",
         "rewards": [],
-        "min_spend": None,
+        "min_spends": [],
         "caps": [],
         "new_users_only": {"value": "unclear", "quote": ""},
         "where": "",
@@ -83,7 +83,10 @@ def test_build_offers_verifies_quotes_and_numbers() -> None:
             {"kind": "percent", "value": 5, "unit": "%", "quote": "每筆扣款享3%悠遊付回饋金"},
             {"kind": "cash", "value": 9, "unit": "元", "quote": "這句不在原文裡"},
         ],
-        min_spend={"amount": 5000, "unit": "元", "per": "campaign", "quote": "累計滿5,000元"},
+        min_spends=[
+            {"amount": 5000, "unit": "元", "per": "campaign", "quote": "累計滿5,000元"},
+            {"amount": 5000, "unit": "元", "per": "campaign", "quote": "累計滿5,000元"},
+        ],
         caps=[
             {"amount": 1, "unit": "份", "per": "campaign", "quote": "每戶限贈1份"},
             {"amount": 1, "unit": "份", "per": "campaign", "quote": "每戶限贈1份"},
@@ -107,7 +110,7 @@ def test_build_offers_verifies_quotes_and_numbers() -> None:
     built = build_offers(output(raw), ctx())
     offer = built.offers[0]
     assert [(r.unit, r.value) for r in offer.rewards] == [("元", 100.0)]
-    assert offer.min_spend is not None and offer.min_spend.amount == 5000
+    assert [m.amount for m in offer.min_spends] == [5000], "重複的門檻只留一個"
     assert [(c.amount, c.unit) for c in offer.caps] == [(1, "份")], "重複的上限只留一個"
     assert offer.quota == 1000 and offer.limited == "yes"
     assert len(offer.sold_out) == 1 and offer.sold_out[0].scope_start is None

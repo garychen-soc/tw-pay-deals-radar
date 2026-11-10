@@ -288,6 +288,13 @@ def build_offers(output: dict[str, Any], ctx: Context) -> Built:
             for s in (sold_out_from(r, ctx, sub_review) for r in raw.get("sold_out") or [])
             if s is not None
         ]
+        mins: list[Amount] = []
+        for min_raw in raw.get("min_spends") or []:
+            item = _amount(min_raw, ctx, "門檻", sub_review)
+            if item and all(
+                (m.amount, m.unit, m.per) != (item.amount, item.unit, item.per) for m in mins
+            ):
+                mins.append(item)
         caps: list[Amount] = []
         for cap_raw in raw.get("caps") or []:
             cap = _amount(cap_raw, ctx, "上限", sub_review)
@@ -304,7 +311,7 @@ def build_offers(output: dict[str, Any], ctx: Context) -> Built:
                     "quota_quote": seats_quote,
                 },
                 rewards=_rewards(raw.get("rewards") or [], ctx, sub_review),
-                min_spend=_amount(raw.get("min_spend"), ctx, "門檻", sub_review),
+                min_spends=mins,
                 caps=caps,
                 new_users_only=new_users,
                 new_users_quote=new_users_quote,

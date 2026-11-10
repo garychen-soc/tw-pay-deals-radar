@@ -38,7 +38,7 @@ export interface Offer {
   quota_quote: string;
   review: string[];
   rewards: Reward[];
-  min_spend: Amount | null;
+  min_spends: Amount[];
   caps: Amount[];
   new_users_only: Tri;
   where: string;

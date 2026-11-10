@@ -34,7 +34,6 @@
       "quote": "還可享最高6折停車優惠喔"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -42,7 +41,8 @@
     "how": "提前綁定「電子支付自動代扣繳」",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -87,7 +87,6 @@
       "quote": "每筆享6折優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -95,7 +94,8 @@
     "how": "綁定橘子支付並設定自動代扣款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -133,7 +133,6 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -141,7 +140,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

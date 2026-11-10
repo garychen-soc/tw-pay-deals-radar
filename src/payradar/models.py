@@ -157,7 +157,9 @@ class Offer(SubActivity):
     """頁面上的一個子活動：登錄規則＋回饋條件＋名額。"""
 
     rewards: list[Reward] = Field(default_factory=list)
-    min_spend: Amount | None = None
+    min_spends: list[Amount] = Field(
+        default_factory=list, description="參加門檻；階梯式（滿 1,000／滿 2,000）每階一項"
+    )
     caps: list[Amount] = Field(default_factory=list, description="每人回饋上限")
     new_users_only: Tri = "unknown"
     new_users_quote: str = ""

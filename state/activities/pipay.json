@@ -34,7 +34,6 @@
       "quote": "享最高3%點數回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -49,7 +48,8 @@
     "how": "持 Pi 拍錢包綁定中信ALL ME卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -94,12 +94,6 @@
       "quote": "單筆實付滿 5,000 元 (含) 以上贈 100 P幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實付滿 5,000 元 (含) 以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -114,7 +108,15 @@
     "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
     "limited_quote": "活動回饋總預算 8.5 萬元，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實付滿 5,000 元 (含) 以上"
+     }
+    ]
    },
    {
     "name": "🔥 活動二:持玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包於主婦聯盟合作社預購指定年菜年貨，單筆滿 10,000 元贈 300 P幣",
@@ -135,12 +137,6 @@
       "quote": "單筆實付滿 10,000 元 (含) 以上贈 300 P幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實付滿 10,000 元 (含) 以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -155,7 +151,15 @@
     "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
     "limited_quote": "活動回饋總預算 8.5 萬元，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實付滿 10,000 元 (含) 以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -200,12 +204,6 @@
       "quote": "贈 500 P幣"
      }
     ],
-    "min_spend": {
-     "amount": 15000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 NT$15,000 (含) 以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -231,6 +229,14 @@
        "url": "https://web.piapp.com.tw/2611p24/"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 15000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 NT$15,000 (含) 以上"
+     }
     ]
    },
    {
@@ -252,12 +258,6 @@
       "quote": "贈 1,800 P幣"
      }
     ],
-    "min_spend": {
-     "amount": 36000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 NT$36,000 (含) 以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -293,6 +293,14 @@
        "url": "https://web.piapp.com.tw/2611p24/"
       }
      }
+    ],
+    "min_spends": [
+     {
+      "amount": 36000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 NT$36,000 (含) 以上"
+     }
     ]
    },
    {
@@ -314,12 +322,6 @@
       "quote": "登錄享最高 5% P幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 499,
-     "unit": "元",
-     "per": "txn",
-     "quote": "於 Pi 拍錢包通路一般消費單筆滿 499 元"
-    },
     "caps": [
      {
       "amount": 300,
@@ -334,7 +336,15 @@
     "how": "持玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包 APP",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 499,
+      "unit": "元",
+      "per": "txn",
+      "quote": "於 Pi 拍錢包通路一般消費單筆滿 499 元"
+     }
+    ]
    },
    {
     "name": "持玉山 Pi 拍錢包信用卡消費累積滿額享加碼回饋，最高回饋 3,000 P幣 (需登錄)",
@@ -361,12 +371,6 @@
       "quote": "累積滿 30,000 元，享加碼 2% P幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "month",
-     "quote": "門檻 1:累積滿 10,000 元"
-    },
     "caps": [
      {
       "amount": 3000,
@@ -381,7 +385,15 @@
     "how": "使用玉山 Pi 拍錢包信用卡消費 (含綁定 Pi 拍錢包支付)",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "month",
+      "quote": "門檻 1:累積滿 10,000 元"
+     }
+    ]
    },
    {
     "name": "新申辦「玉山 Pi 拍錢包信用卡」享最高 10% P幣",
@@ -408,12 +420,6 @@
       "quote": "滿額贈「AirPods 4 等值之 Studio A 禮券」"
      }
     ],
-    "min_spend": {
-     "amount": 100000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "60 天內一般消費累積 100,000 元 (含) 以上"
-    },
     "caps": [
      {
       "amount": 150,
@@ -434,7 +440,15 @@
     "how": "新戶首次申辦玉山 Pi 拍錢包信用卡正卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "60 天內一般消費累積 100,000 元 (含) 以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -507,7 +521,6 @@
       "quote": "價值新臺幣 100 元好禮即享券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -522,7 +535,8 @@
     "how": "活動期間內於活動網頁完成登記以及相關個人資料告知及同意程序",
     "limited": "yes",
     "limited_quote": "活動總名額",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -567,12 +581,6 @@
       "quote": "完成登錄即可獲得100P幣"
      }
     ],
-    "min_spend": {
-     "amount": 5,
-     "unit": "other",
-     "per": "txn",
-     "quote": "國內/國外旅平險 (投保天數5天(含)以上)"
-    },
     "caps": [
      {
       "amount": 1,
@@ -587,7 +595,15 @@
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
     "limited_quote": "每月共100名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5,
+      "unit": "other",
+      "per": "txn",
+      "quote": "國內/國外旅平險 (投保天數5天(含)以上)"
+     }
+    ]
    },
    {
     "name": "獎項二:《汽車險早鳥禮》",
@@ -614,7 +630,6 @@
       "quote": "11/1-11/30加碼至600P幣"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -629,7 +644,8 @@
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
     "limited_quote": "每月共50名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "獎項三:《機車險早鳥禮》",
@@ -656,7 +672,6 @@
       "quote": "11/1-11/30加碼至150P幣"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -671,7 +686,8 @@
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
     "limited_quote": "每月共50名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "獎項四:《月月加碼抽》",
@@ -692,7 +708,6 @@
       "quote": "獎項:1000P幣，每月共10名"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -707,7 +722,8 @@
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
     "limited_quote": "每月共10名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -754,12 +770,6 @@
       "quote": "單筆實付滿 6,000 元 (含) 以上贈 311 P幣"
      }
     ],
-    "min_spend": {
-     "amount": 6000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實付滿 6,000 元 (含) 以上贈 311 P幣"
-    },
     "caps": [
      {
       "amount": 311,
@@ -780,7 +790,15 @@
     "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
     "limited_quote": "活動一回饋總預算 124,400 元，11 月及 12 月各 62,200 元為限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 6000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實付滿 6,000 元 (含) 以上贈 311 P幣"
+     }
+    ]
    },
    {
     "name": "活動二:比比昂、神腦數位、全國電子 單筆實付滿 12,000 元贈 611 P幣",
@@ -801,12 +819,6 @@
       "quote": "單筆實付滿 12,000 元 (含) 以上贈 611 P幣"
      }
     ],
-    "min_spend": {
-     "amount": 12000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實付滿 12,000 元 (含) 以上贈 611 P幣"
-    },
     "caps": [
      {
       "amount": 611,
@@ -827,7 +839,15 @@
     "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
     "limited_quote": "活動二回饋總預算 366,600 元，11 月及 12 月各 183,300 元為限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 12000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實付滿 12,000 元 (含) 以上贈 611 P幣"
+     }
+    ]
    },
    {
     "name": "綁定玉山 Pi 拍錢包信用卡支付，單筆滿 499 元登錄享最高 5% P幣回饋 (需登錄)",
@@ -848,12 +868,6 @@
       "quote": "登錄享最高 5% P幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 499,
-     "unit": "元",
-     "per": "txn",
-     "quote": "於 Pi 拍錢包通路一般消費單筆滿 499 元"
-    },
     "caps": [
      {
       "amount": 300,
@@ -868,7 +882,15 @@
     "how": "玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包 APP",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 499,
+      "unit": "元",
+      "per": "txn",
+      "quote": "於 Pi 拍錢包通路一般消費單筆滿 499 元"
+     }
+    ]
    },
    {
     "name": "持玉山 Pi 拍錢包信用卡消費累積滿額享加碼回饋，最高回饋 3,000 P幣 (需登錄)",
@@ -895,12 +917,6 @@
       "quote": "累積滿 30,000 元，享加碼 2% P幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "month",
-     "quote": "門檻 1:累積滿 10,000 元，享加碼 0.8% P幣回饋"
-    },
     "caps": [
      {
       "amount": 3000,
@@ -915,7 +931,15 @@
     "how": "使用玉山 Pi 拍錢包信用卡消費 (含綁定 Pi 拍錢包支付)，正卡人完成活動登錄",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "month",
+      "quote": "門檻 1:累積滿 10,000 元，享加碼 0.8% P幣回饋"
+     }
+    ]
    },
    {
     "name": "新申辦「玉山 Pi 拍錢包信用卡」享最高 10% P幣",
@@ -944,7 +968,6 @@
       "quote": "最高享 10% P幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 150,
@@ -965,7 +988,8 @@
     "how": "新戶首次申辦玉山 Pi 拍錢包信用卡正卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

@@ -34,12 +34,6 @@
       "quote": "筆筆享8%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 800,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣800元"
-    },
     "caps": [
      {
       "amount": 80,
@@ -60,7 +54,15 @@
     "how": "使用全支付連結國泰世華新臺幣活期存款帳戶",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量30,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣800元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -136,7 +138,6 @@
       "quote": "筆筆消費不限金額，享 1% 全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -144,7 +145,8 @@
     "how": "結帳時選擇以「全支付」付款，並綁定「銀行帳戶」或「全支付帳戶」",
     "limited": "yes",
     "limited_quote": "每一波段活動總回饋限量 1,000,000 全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "週五加碼活動｜需登錄：連結銀行帳戶或全支付帳戶，每週五消費不限金額，加碼 4% 全點回饋（每週回饋限量 2 萬，贈完為止）",
@@ -196,7 +198,6 @@
       "quote": "每週五消費不限金額，加碼 4% 全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 25,
@@ -211,7 +212,8 @@
     "how": "結帳時選擇以「全支付」付款，並綁定「銀行帳戶」或「全支付帳戶」",
     "limited": "yes",
     "limited_quote": "單日限量 20,000 全點，以成功完成活動登錄後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -256,7 +258,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -271,7 +272,8 @@
     "how": "使用全支付連結國泰世華新臺幣活期存款帳戶",
     "limited": "yes",
     "limited_quote": "每週回饋限量10,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【將來銀行】優惠",
@@ -292,7 +294,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -313,7 +314,8 @@
     "how": "使用全支付連結將來銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "每週回饋限量2,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -358,7 +360,6 @@
       "quote": "筆筆消費最高享2%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 20,
@@ -373,7 +374,8 @@
     "how": "使用全支付連結之將來銀行帳戶",
     "limited": "yes",
     "limited_quote": "每週回饋限量23,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -424,7 +426,6 @@
       "quote": "可享消費5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 3,
@@ -445,7 +446,8 @@
     "how": "使用全支付跨境於日本/韓國實體合作通路消費",
     "limited": "yes",
     "limited_quote": "數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "銀行/信用卡活動：指定付款方式最高享5%回饋",
@@ -466,7 +468,6 @@
       "quote": "指定付款方式最高享5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -474,7 +475,8 @@
     "how": "指定付款方式",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -535,12 +537,6 @@
       "quote": "單筆消費滿6,800元即可享150全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 6800,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿6,800元即可享150全點回饋"
-    },
     "caps": [
      {
       "amount": 1,
@@ -555,7 +551,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量333名，以成功完成活動登錄後之消費優先順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 6800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿6,800元即可享150全點回饋"
+     }
+    ]
    },
    {
     "name": "【任務二｜DK高博士｜全支付/全聯會員獨享：8折購鞋券（限12/6前使用）】",
@@ -592,7 +596,6 @@
       "quote": "領8折購鞋券"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -607,7 +610,8 @@
     "how": "加入DK LINE@ 點擊領8折購鞋券，或於DK APP 輸入優惠碼【DKBDAY】領取",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【加碼活動｜百大品牌｜需登錄：活動期間內，於百大品牌-品味饗樂之指定品牌，單筆消費滿額最高享150全點！】",
@@ -628,7 +632,6 @@
       "quote": "單筆消費滿額最高享150全點"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -636,7 +639,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【銀行/信用卡活動：活動期間內，使用全支付連結指定銀行帳戶、綁定信用卡付款最高享5%全點回饋！】",
@@ -657,7 +661,6 @@
       "quote": "最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -665,7 +668,8 @@
     "how": "使用全支付連結指定銀行帳戶、綁定信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -744,12 +748,6 @@
       "quote": "單筆消費滿$100（含）元，可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$100（含）元"
-    },
     "caps": [
      {
       "amount": 50,
@@ -764,7 +762,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量19萬全點，以成功完成活動登錄後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$100（含）元"
+     }
+    ]
    },
    {
     "name": "【帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！】",
@@ -785,7 +791,6 @@
       "quote": "使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -793,7 +798,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！】",
@@ -814,7 +820,6 @@
       "quote": "使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -822,7 +827,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【全支付新戶於「全聯生活圈」之品牌通路消費滿$100享加碼新戶禮：回饋全點50點！】",
@@ -843,12 +849,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 $100(含)元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -863,7 +863,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 2萬全點，依於指定時間內成功註冊後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $100(含)元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -942,12 +950,6 @@
       "quote": "單筆消費滿$3,000（含）元，可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$3,000（含）元"
-    },
     "caps": [
      {
       "amount": 200,
@@ -962,7 +964,15 @@
     "how": "(a)使用全支付「付款碼」；(b)使用「掃描條碼」功能付款者，需掃描「全支付QR Code」或「全支付TWQR」立牌",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量10萬全點，以成功完成活動登錄後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$3,000（含）元"
+     }
+    ]
    },
    {
     "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
@@ -983,7 +993,6 @@
       "quote": "筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -991,7 +1000,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
@@ -1012,7 +1022,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1020,7 +1029,8 @@
     "how": "綁定「指定信用卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶於「旅遊假期」之品牌通路消費滿$3000享加碼新戶禮：回饋全點50點！",
@@ -1041,12 +1051,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 $3,000(含)元，即符合本優惠回饋資格"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1061,7 +1065,15 @@
     "how": "(a)使用全支付「付款碼」；(b)使用「掃描條碼」功能付款者，需掃描「全支付QR Code」或「全支付TWQR」立牌",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 6 萬全點，依於指定時間內成功註冊後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $3,000(含)元，即符合本優惠回饋資格"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1176,12 +1188,6 @@
       "quote": "滿50,000可得6%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$3,000可得20%全點回饋"
-    },
     "caps": [
      {
       "amount": 3000,
@@ -1208,7 +1214,15 @@
     "how": "選擇以全支付付款成功",
     "limited": "yes",
     "limited_quote": "數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$3,000可得20%全點回饋"
+     }
+    ]
    },
    {
     "name": "加碼活動：消費不限金額抽999全點",
@@ -1229,7 +1243,6 @@
       "quote": "有機會抽999全點"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "每一全支付會員於活動期間至AsiaYo合作品牌使用全支付付款",
@@ -1237,7 +1250,8 @@
     "how": "不限付款方式",
     "limited": "yes",
     "limited_quote": "第一波｜2026/10/15(四) 00:00~ 2026/11/05(四) 23:59，999全點:共10組",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "新戶活動：使用全支付單筆消費滿1,000享50全點",
@@ -1258,12 +1272,6 @@
       "quote": "即贈全點50點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "首筆消費滿$1,000"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1278,7 +1286,15 @@
     "how": "以全支付進行付款",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量10,000 全點，以消費優先順序發送，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "首筆消費滿$1,000"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1323,12 +1339,6 @@
       "quote": "單筆消費滿1,300元，即享65全點"
      }
     ],
-    "min_spend": {
-     "amount": 1300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿1,300元"
-    },
     "caps": [
      {
       "amount": 65,
@@ -1343,7 +1353,15 @@
     "how": "使用全支付綁定之台新銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "第一波活動期間回饋限量195,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿1,300元"
+     }
+    ]
    },
    {
     "name": "全聯實體店面消費回饋第二波",
@@ -1364,12 +1382,6 @@
       "quote": "單筆消費滿1,300元，即享78全點"
      }
     ],
-    "min_spend": {
-     "amount": 1300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿1,300元"
-    },
     "caps": [
      {
       "amount": 78,
@@ -1384,7 +1396,15 @@
     "how": "使用全支付綁定之台新銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "第二波活動期間每週回饋限量78,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿1,300元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1477,7 +1497,6 @@
       "quote": "滿800享5%回饋(上限40全點)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -1498,7 +1517,8 @@
     "how": "使用Samsung Wallet綁定全支付進行付款",
     "limited": "yes",
     "limited_quote": "數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "加碼活動｜抽獎：不限金額消費抽摺疊手機大獎",
@@ -1519,7 +1539,6 @@
       "quote": "Galaxy Z Fold8 (256 GB) (市值約新臺幣59,900元)，共10名"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1527,7 +1546,8 @@
     "how": "使用Samsung Wallet綁定全支付付款",
     "limited": "yes",
     "limited_quote": "共10名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1588,12 +1608,6 @@
       "quote": "單筆消費滿 $490 享 5% 全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 490,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $490 享 5% 全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -1608,7 +1622,15 @@
     "how": "消費時須以「授權扣款」方式連結「全支付帳戶」或「合作銀行帳戶」完成付款",
     "limited": "yes",
     "limited_quote": "活動總回饋限量 250,000 全點，以成功完成活動登錄後之消費優先順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 490,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $490 享 5% 全點回饋"
+     }
+    ]
    },
    {
     "name": "銀行帳戶付款活動：連結「華泰銀行帳戶」付款即可最高再享3%回饋",
@@ -1629,7 +1651,6 @@
       "quote": "連結「華泰銀行帳戶」付款即可最高再享3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1637,7 +1658,8 @@
     "how": "連結「華泰銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶活動：完成首筆消費不限金額，享新戶禮50全點！",
@@ -1658,7 +1680,6 @@
       "quote": "首筆消費不限金額，即贈 50 全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -1673,7 +1694,8 @@
     "how": "以全支付付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "愛奇藝雙11活動：購買指定年卡5折起！",
@@ -1694,7 +1716,6 @@
       "quote": "購買指定年卡5折起"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1702,7 +1723,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1747,7 +1769,6 @@
       "quote": "筆筆消費最高享3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -1762,7 +1783,8 @@
     "how": "使用華泰銀行新臺幣存款帳戶",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量10,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1809,7 +1831,6 @@
       "quote": "不限金額即可享3.5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 35,
@@ -1830,7 +1851,8 @@
     "how": "使用全支付帳戶或透過全支付 APP連結合作銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量170萬全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "新戶活動",
@@ -1851,7 +1873,6 @@
       "quote": "消費加碼享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -1866,7 +1887,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動每月總回饋限量9萬點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "加碼活動｜需登錄",
@@ -1892,12 +1914,6 @@
       "quote": "單筆消費滿3,000，即可享4%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿3,000，即可享4%全點回饋"
-    },
     "caps": [
      {
       "amount": 120,
@@ -1912,7 +1928,15 @@
     "how": "完成活動登錄後，於活動時間內使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "回饋每月限量16萬全點，以成功登錄後之消費優先順序計算，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿3,000，即可享4%全點回饋"
+     }
+    ]
    },
    {
     "name": "加碼活動二",
@@ -1939,7 +1963,6 @@
       "quote": "可享消費5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 3,
@@ -1960,7 +1983,8 @@
     "how": "使用全支付消費",
     "limited": "yes",
     "limited_quote": "本活動每月總回饋限量27萬點，以成功完成消費優先順序計算，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "銀行帳戶付款活動",
@@ -1981,7 +2005,6 @@
       "quote": "筆筆享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -1996,7 +2019,8 @@
     "how": "連結指定銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡付款活動",
@@ -2017,12 +2041,6 @@
       "quote": "單筆消費滿千享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "跨境單筆消費滿新臺幣1,000元享5%全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -2037,7 +2055,15 @@
     "how": "使用全支付綁定國泰世華信用卡付款",
     "limited": "yes",
     "limited_quote": "以成功綁定並消費後之優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "跨境單筆消費滿新臺幣1,000元享5%全點回饋"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2116,12 +2142,6 @@
       "quote": "可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$1,500（含）元"
-    },
     "caps": [
      {
       "amount": 150,
@@ -2136,7 +2156,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量40萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$1,500（含）元"
+     }
+    ]
    },
    {
     "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
@@ -2157,7 +2185,6 @@
       "quote": "筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2165,7 +2192,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！",
@@ -2186,7 +2214,6 @@
       "quote": "即可最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2194,7 +2221,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶於「品味饗樂」之品牌通路消費滿$1500享加碼新戶禮：回饋全點50點！",
@@ -2215,12 +2243,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 $1,500(含)元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2235,7 +2257,15 @@
     "how": "首次使用全支付於本活動之「品味饗樂」之品牌通路付款",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 12 萬全點，依於指定時間內成功註冊後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $1,500(含)元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2314,7 +2344,6 @@
       "quote": "可享1%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -2329,7 +2358,8 @@
     "how": "使用全支付帳戶或使用全支付連結合作銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "加碼｜生活樂購券：全支付APP繳費入口，送5%回饋樂購券",
@@ -2350,7 +2380,6 @@
       "quote": "成功完成繳費將收到全通路5%生活樂購券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2358,7 +2387,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2425,12 +2455,6 @@
       "quote": "滿$16,000即可享800全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 6000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$6,000即可享300全點回饋"
-    },
     "caps": [
      {
       "amount": 800,
@@ -2445,7 +2469,15 @@
     "how": "使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 6000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$6,000即可享300全點回饋"
+     }
+    ]
    },
    {
     "name": "暖身加碼抽獎",
@@ -2466,12 +2498,6 @@
       "quote": "即獲得【日本雙人來回機票兌換券(市值約新臺幣40,000元)】抽獎機會一次，總計抽出 1 名"
      }
     ],
-    "min_spend": {
-     "amount": 6000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "消費滿$6,000，即獲得【日本雙人來回機票兌換券"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2479,7 +2505,15 @@
     "how": "使用全支付付款，不限付款方式",
     "limited": "yes",
     "limited_quote": "總計抽出 1 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 6000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "消費滿$6,000，即獲得【日本雙人來回機票兌換券"
+     }
+    ]
    },
    {
     "name": "主活動｜需登錄：指定線上品牌單筆消費滿$1,000享3%全點回饋，滿$2,000享5%全點回饋，每人最高可享100全點回饋，數量有限送完為止！",
@@ -2522,12 +2556,6 @@
       "quote": "滿$2,000即可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$1,000即可享3%全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -2542,7 +2570,15 @@
     "how": "使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$1,000即可享3%全點回饋"
+     }
+    ]
    },
    {
     "name": "單日加碼活動：雙11, 雙12透過全支付付款，單筆消費滿＄2,000享100全點回饋，滿＄3,000享300全點回饋！數量有限送完為止！",
@@ -2599,12 +2635,6 @@
       "quote": "滿$3,000回饋300全點"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿＄2,000享100全點回饋"
-    },
     "caps": [
      {
       "amount": 300,
@@ -2619,7 +2649,15 @@
     "how": "使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "本活動單日預算6萬全點，以消費優先順序計算，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿＄2,000享100全點回饋"
+     }
+    ]
    },
    {
     "name": "銀行/信用卡付款活動：指定付款方式，筆筆再享最高5%全點回饋！",
@@ -2640,7 +2678,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2648,7 +2685,8 @@
     "how": "指定付款方式",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "新戶活動：於指定活動期間內註冊全支付會員，使用全支付完成首筆消費，即享新戶禮50全點！",
@@ -2669,7 +2707,6 @@
       "quote": "即享新戶禮50全點"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "於指定活動期間內註冊全支付會員，使用全支付完成首筆消費",
@@ -2677,7 +2714,8 @@
     "how": "使用全支付完成首筆消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2734,12 +2772,6 @@
       "quote": "單筆消費滿$999享130全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 249,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$249享30全點回饋"
-    },
     "caps": [
      {
       "amount": 130,
@@ -2754,7 +2786,15 @@
     "how": "使用全支付完成付款",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量8萬全點，以消費優先順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 249,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$249享30全點回饋"
+     }
+    ]
    },
    {
     "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
@@ -2775,7 +2815,6 @@
       "quote": "連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2783,7 +2822,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
@@ -2804,7 +2844,6 @@
       "quote": "綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2812,7 +2851,8 @@
     "how": "綁定「指定信用卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2873,12 +2913,6 @@
       "quote": "單筆滿$600，享10%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 600,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿$600，享10%全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -2899,7 +2933,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量144,000全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿$600，享10%全點回饋"
+     }
+    ]
    },
    {
     "name": "國泰世華帳戶加碼",
@@ -2920,7 +2962,6 @@
       "quote": "連結帳戶，享10%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2928,7 +2969,8 @@
     "how": "連結國泰世華銀行帳戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2973,7 +3015,6 @@
       "quote": "虎利應援周邊禮盒（總計抽10位）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -2981,7 +3022,8 @@
     "how": "使用全支付付款",
     "limited": "yes",
     "limited_quote": "虎利應援周邊禮盒（總計抽10位）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定場域二｜乘車碼",
@@ -3002,7 +3044,6 @@
       "quote": "虎利應援周邊禮盒（總計抽10位）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3010,7 +3051,8 @@
     "how": "使用全支付「乘車碼」付款完成搭車",
     "limited": "yes",
     "limited_quote": "虎利應援周邊禮盒（總計抽10位）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定場域三｜繳費",
@@ -3031,7 +3073,6 @@
       "quote": "虎利應援周邊禮盒（總計抽10位）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3039,7 +3080,8 @@
     "how": "使用全支付付款完成繳費",
     "limited": "yes",
     "limited_quote": "虎利應援周邊禮盒（總計抽10位）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定場域四｜日本PayPay",
@@ -3060,7 +3102,6 @@
       "quote": "虎利應援周邊禮盒（總計抽10位）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3068,7 +3109,8 @@
     "how": "使用全支付付款完成消費",
     "limited": "yes",
     "limited_quote": "虎利應援周邊禮盒（總計抽10位）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定場域五｜韓國ZeroPay / HIVEX",
@@ -3089,7 +3131,6 @@
       "quote": "虎利應援周邊禮盒（總計抽10位）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3097,7 +3138,8 @@
     "how": "使用全支付付款完成消費",
     "limited": "yes",
     "limited_quote": "虎利應援周邊禮盒（總計抽10位）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3174,12 +3216,6 @@
       "quote": "單筆消費滿 $199 享 3% 全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 199,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $199 享 3% 全點回饋"
-    },
     "caps": [
      {
       "amount": 15,
@@ -3200,7 +3236,15 @@
     "how": "綁定國泰世華銀行信用卡",
     "limited": "yes",
     "limited_quote": "每一波段活動總回饋限量 100,000 全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 199,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $199 享 3% 全點回饋"
+     }
+    ]
    },
    {
     "name": "指定場域消費活動：綁定國泰世華信用卡，週週限量享5%全點",
@@ -3221,7 +3265,6 @@
       "quote": "最高享 5% 全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -3236,7 +3279,8 @@
     "how": "使用全支付綁定國泰世華銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "（每週回饋限量，贈完為止）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡權益活動：綁定國泰世華CUBE信用卡，享2%小樹點",
@@ -3257,7 +3301,6 @@
       "quote": "享 2% 小樹點（信用卡）回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3265,7 +3308,8 @@
     "how": "至CUBE App切換【全支付】權益方案",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "首綁消費活動：首次綁定國泰世華信用卡當月消費享30全點",
@@ -3286,7 +3330,6 @@
       "quote": "單筆消費不限金額享 30 全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3301,7 +3344,8 @@
     "how": "首次綁定國泰世華銀行信用卡",
     "limited": "yes",
     "limited_quote": "每一波段活動總回饋限量 45,000 全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3350,7 +3394,6 @@
       "quote": "享2%小樹點（信用卡）回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3358,7 +3401,8 @@
     "how": "綁定國泰世華CUBE信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【國泰世華銀行】優惠：全支付APP綁卡消費小樹點（信用卡）可折抵信用卡消費帳款",
@@ -3372,7 +3416,6 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3380,7 +3423,8 @@
     "how": "於全支付App綁定CUBE信用卡後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3425,7 +3469,6 @@
       "quote": "最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3433,7 +3476,8 @@
     "how": "使用全支付乘車碼搭乘",
     "limited": "yes",
     "limited_quote": "本活動全點回饋為即時贈點，且為限量回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "返台樂購券",
@@ -3454,7 +3498,6 @@
       "quote": "最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3462,7 +3505,8 @@
     "how": "使用全支付於日本/韓國實體合作通路消費",
     "limited": "yes",
     "limited_quote": "本活動全點回饋為即時贈點，且為限量回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "生活樂購券",
@@ -3483,7 +3527,6 @@
       "quote": "最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -3491,7 +3534,8 @@
     "how": "使用全支付APP繳費",
     "limited": "yes",
     "limited_quote": "本活動全點回饋為即時贈點，且為限量回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3536,7 +3580,6 @@
       "quote": "即贈全點50點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3551,7 +3594,8 @@
     "how": "(a)使用全支付「付款碼」；(b)使用「掃描條碼」功能付款者，需掃描「全支付QR Code」或「全支付TWQR」立牌",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量2,250,000全點，以消費優先順序發送，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！】",
@@ -3572,7 +3616,6 @@
       "quote": "筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3580,7 +3623,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！】",
@@ -3601,7 +3645,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3609,7 +3652,8 @@
     "how": "綁定「指定信用卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3654,12 +3698,6 @@
       "quote": "即可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$1,000（含）元"
-    },
     "caps": [
      {
       "amount": 100,
@@ -3674,7 +3712,15 @@
     "how": "透過全支付入口「付款碼」付款",
     "limited": "yes",
     "limited_quote": "本活動每月回饋限量10萬全點，總回饋限量60萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$1,000（含）元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3719,12 +3765,6 @@
       "quote": "單筆消費滿$599享10%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 599,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$599享10%全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -3745,7 +3785,15 @@
     "how": "使用全支付完成付款",
     "limited": "yes",
     "limited_quote": "數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$599享10%全點回饋"
+     }
+    ]
    },
    {
     "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
@@ -3766,7 +3814,6 @@
       "quote": "筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3774,7 +3821,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
@@ -3795,7 +3843,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3803,7 +3850,8 @@
     "how": "綁定「指定信用卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3848,12 +3896,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 250,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿250元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定臺灣企銀信用卡",
@@ -3861,7 +3903,15 @@
     "how": "使用全支付首次綁定之臺灣企銀信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿250元"
+     }
+    ]
    },
    {
     "name": "【星展銀行】優惠",
@@ -3882,12 +3932,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿300元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定星展銀行信用卡",
@@ -3895,7 +3939,15 @@
     "how": "使用全支付首次綁定之星展銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元"
+     }
+    ]
    },
    {
     "name": "【王道銀行】優惠",
@@ -3916,12 +3968,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿200元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定王道銀行簽帳卡",
@@ -3939,6 +3985,14 @@
        "quote": "(首週回饋已額滿)",
        "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=129"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿200元"
      }
     ]
    },
@@ -3961,12 +4015,6 @@
       "quote": "享88全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 388,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿388元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定玉山信用卡",
@@ -3974,7 +4022,15 @@
     "how": "使用全支付首次綁定之玉山銀行信用卡完成付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 388,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿388元"
+     }
+    ]
    },
    {
     "name": "【台北富邦銀行】優惠",
@@ -3995,12 +4051,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿200元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定台北富邦銀行信用卡",
@@ -4008,7 +4058,15 @@
     "how": "使用全支付首次綁定之台北富邦銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿200元"
+     }
+    ]
    },
    {
     "name": "【聯邦銀行】優惠",
@@ -4029,12 +4087,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿200元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定聯邦銀行信用卡",
@@ -4042,7 +4094,15 @@
     "how": "使用全支付首次綁定之聯邦銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿200元"
+     }
+    ]
    },
    {
     "name": "【華南銀行】優惠",
@@ -4063,12 +4123,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 250,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿250元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定華南銀行信用卡",
@@ -4076,7 +4130,15 @@
     "how": "使用全支付首次綁定之華南銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿250元"
+     }
+    ]
    },
    {
     "name": "【台新銀行】優惠",
@@ -4097,12 +4159,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 299,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿299元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定台新銀行信用卡",
@@ -4110,7 +4166,15 @@
     "how": "使用全支付綁定之台新銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元"
+     }
+    ]
    },
    {
     "name": "【元大銀行】優惠",
@@ -4131,12 +4195,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 299,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿299元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定元大銀行信用卡",
@@ -4144,7 +4202,15 @@
     "how": "使用全支付首次綁定之元大銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元"
+     }
+    ]
    },
    {
     "name": "【上海商銀】優惠",
@@ -4165,12 +4231,6 @@
       "quote": "享50全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 299,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿299元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次綁定上海商銀信用卡",
@@ -4178,7 +4238,15 @@
     "how": "使用全支付首次綁定之上海商銀信用卡付款",
     "limited": "yes",
     "limited_quote": "贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4228,12 +4296,6 @@
       "quote": "單筆消費滿$800享12%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 800,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$800享12%全點回饋"
-    },
     "caps": [
      {
       "amount": 120,
@@ -4254,7 +4316,15 @@
     "how": "使用全支付出示「付款碼」或「掃描條碼」功能付款",
     "limited": "yes",
     "limited_quote": "活動期間總回饋限量45萬全點，以成功完成登錄並消費後之優先順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$800享12%全點回饋"
+     }
+    ]
    },
    {
     "name": "【國泰世華銀行帳戶加碼活動：連結國泰世華銀行帳戶付款，單筆消費滿$800享8%全點回饋（每週回饋限量，贈完為止）。】",
@@ -4275,12 +4345,6 @@
       "quote": "單筆消費滿$800享8%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 800,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$800享8%全點回饋"
-    },
     "caps": [
      {
       "amount": 80,
@@ -4301,7 +4365,15 @@
     "how": "成功連結國泰世華銀行帳戶",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量30,000全點，以成功完成連結並消費後之優先順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$800享8%全點回饋"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4346,12 +4418,6 @@
       "quote": "單筆金額滿500元，享3%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆金額滿500元，享3%全點回饋"
-    },
     "caps": [
      {
       "amount": 30,
@@ -4366,7 +4432,15 @@
     "how": "使用全支付綁定之玉山銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "每週回饋限量60,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆金額滿500元，享3%全點回饋"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4411,7 +4485,6 @@
       "quote": "筆筆享3.5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 350,
@@ -4432,7 +4505,8 @@
     "how": "使用全支付帳戶或使用全支付連結合作銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "每月總回饋限量35萬全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【加碼活動一：使用全支付單筆消費滿新臺幣10,000加碼5%全點回饋！單筆回饋上限850全點，數量有限送完為止！】",
@@ -4453,12 +4527,6 @@
       "quote": "加碼5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣10,000"
-    },
     "caps": [
      {
       "amount": 850,
@@ -4479,7 +4547,15 @@
     "how": "使用全支付結帳",
     "limited": "yes",
     "limited_quote": "每月總回饋限量35萬全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣10,000"
+     }
+    ]
    },
    {
     "name": "【新戶活動：註冊當月新戶，消費加碼享5%全點回饋！回饋上限100全點，數量有限送完為止！】",
@@ -4500,7 +4576,6 @@
       "quote": "消費加碼享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -4515,7 +4590,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動每月總回饋限量3萬點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【銀行帳戶付款活動：連結「指定銀行帳戶」於韓國跨境消費付款，再加碼筆筆5%回饋！】",
@@ -4536,7 +4612,6 @@
       "quote": "筆筆享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -4551,7 +4626,8 @@
     "how": "消費使用全支付連結指定銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【信用卡付款活動：綁定「國泰世華信用卡」跨境消費付款，單筆消費滿千享5%全點回饋！】",
@@ -4572,12 +4648,6 @@
       "quote": "跨境單筆消費滿新臺幣1,000元享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "跨境單筆消費滿新臺幣1,000元"
-    },
     "caps": [
      {
       "amount": 100,
@@ -4592,7 +4662,15 @@
     "how": "使用全支付綁定國泰世華信用卡付款",
     "limited": "yes",
     "limited_quote": "以成功綁定並消費後之優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "跨境單筆消費滿新臺幣1,000元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4639,7 +4717,6 @@
       "quote": "可得前100筆全額手續費獎勵折抵"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4647,7 +4724,8 @@
     "how": "成功申請註冊並開通使用全支付代理收付實質交易款項服務",
     "limited": "yes",
     "limited_quote": "本活動限量100名未開通店家",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "10月開店平台電商獨家｜行銷回饋活動",
@@ -4676,7 +4754,6 @@
       "quote": "單筆消費滿額即可享全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4684,7 +4761,8 @@
     "how": "使用全支付進行付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4801,7 +4879,6 @@
       "quote": "不限金額，可享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 125,
@@ -4816,7 +4893,8 @@
     "how": "使用全支付帳戶或使用全支付連結合作銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "各波活動回饋依成功完成活動登錄後之符合資格交易先後順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "滿額活動｜需登錄：活動期間內，連結「全支付帳戶」或「任一銀行帳戶」繳納地價稅，單筆滿$2,500元，即可加碼1%全點回饋！",
@@ -4909,12 +4987,6 @@
       "quote": "可享加碼1%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 2500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿$2,500元"
-    },
     "caps": [
      {
       "amount": 25,
@@ -4929,7 +5001,15 @@
     "how": "使用全支付帳戶或使用全支付連結合作銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "各波活動回饋依成功完成活動登錄後之符合資格交易先後順序計算，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿$2,500元"
+     }
+    ]
    },
    {
     "name": "新戶活動｜限定：活動期間內，註冊成為全支付會員，完成首筆交易(不含儲值至全支付帳戶)，不限金額即享新戶禮50全點！",
@@ -4950,7 +5030,6 @@
       "quote": "不限金額即享新戶禮50全點"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "註冊成為全支付會員，完成首筆交易",
@@ -4958,7 +5037,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "週一繳費｜需登錄：週一繳費日，活動期間連結「全支付帳戶」或「任一銀行帳戶」繳費，即可享筆筆1%全點回饋！",
@@ -4979,7 +5059,6 @@
       "quote": "即可享筆筆1%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -4987,7 +5066,8 @@
     "how": "連結「全支付帳戶」或「任一銀行帳戶」繳費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "生活樂購券｜繳費贈：使用全支付APP繳費，成功完成付款將收到全通路5%生活樂購券，持該券至指定場域消費，最高享5%全點回饋！",
@@ -5008,7 +5088,6 @@
       "quote": "成功完成付款將收到全通路5%生活樂購券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -5016,7 +5095,8 @@
     "how": "使用全支付APP繳費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5061,12 +5141,6 @@
       "quote": "單筆消費滿新臺幣600元，筆筆享10%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 600,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣600元"
-    },
     "caps": [
      {
       "amount": 100,
@@ -5087,7 +5161,15 @@
     "how": "使用全支付連結國泰世華新臺幣活期存款帳戶",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量10,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣600元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -5148,12 +5230,6 @@
       "quote": "單筆消費滿$1300(含)元，即可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1300,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$1300(含)元"
-    },
     "caps": [
      {
       "amount": 150,
@@ -5174,7 +5250,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "本活動總回饋限量105,750全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$1300(含)元"
+     }
+    ]
    },
    {
     "name": "國泰世華銀行：連結國泰世華帳戶於「王品集團指定餐廳」消費滿額享10%全點回饋",
@@ -5195,7 +5279,6 @@
       "quote": "連結國泰世華帳戶，最高享10%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5203,7 +5286,8 @@
     "how": "連結國泰世華帳戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡加碼活動：活動期間內使用全支付連結指定合作銀行信用卡付款即可最高享筆筆5%回饋",
@@ -5224,7 +5308,6 @@
       "quote": "最高享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5232,7 +5315,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "帳戶加碼活動：活動期間內使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋",
@@ -5253,7 +5337,6 @@
       "quote": "最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5261,7 +5344,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5306,7 +5390,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5321,7 +5404,8 @@
     "how": "使用國泰世華信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量100,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【星展銀行】",
@@ -5342,7 +5426,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 20,
@@ -5357,7 +5440,8 @@
     "how": "使用星展銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量20,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【王道銀行】",
@@ -5378,7 +5462,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5393,7 +5476,8 @@
     "how": "使用王道銀行簽帳卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量5,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【元大銀行】",
@@ -5414,7 +5498,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5429,7 +5512,8 @@
     "how": "使用元大銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量25,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【上海商銀】",
@@ -5450,7 +5534,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5465,7 +5548,8 @@
     "how": "使用上海商銀信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量8,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【華泰銀行】",
@@ -5486,7 +5570,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5501,7 +5584,8 @@
     "how": "使用華泰銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量4,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【玉山銀行】",
@@ -5522,7 +5606,6 @@
       "quote": "筆筆消費最高享3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5537,7 +5620,8 @@
     "how": "使用玉山銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量80,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【聯邦銀行】",
@@ -5558,7 +5642,6 @@
       "quote": "筆筆消費最高享3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 20,
@@ -5573,7 +5656,8 @@
     "how": "使用聯邦銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量45,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【華南銀行】",
@@ -5594,7 +5678,6 @@
       "quote": "筆筆消費最高享3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5609,7 +5692,8 @@
     "how": "使用華南銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量10,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【台新銀行】",
@@ -5630,7 +5714,6 @@
       "quote": "筆筆消費最高享2%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -5645,7 +5728,8 @@
     "how": "使用台新銀行信用卡",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量100,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5724,7 +5808,6 @@
       "quote": "可享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -5739,7 +5822,8 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量5萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！",
@@ -5760,7 +5844,6 @@
       "quote": "最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5768,7 +5851,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！",
@@ -5789,7 +5873,6 @@
       "quote": "最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5797,7 +5880,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶於「精選市場」之實體通路消費不限金額享加碼新戶禮：回饋全點50點！",
@@ -5818,7 +5902,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5833,7 +5916,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 3 萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5912,7 +5996,6 @@
       "quote": "單筆消費不限金額，可享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -5927,7 +6010,8 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量5萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！】",
@@ -5948,7 +6032,6 @@
       "quote": "最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5956,7 +6039,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！】",
@@ -5977,7 +6061,6 @@
       "quote": "最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5985,7 +6068,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【全支付新戶於「精選夜市」之通路消費不限金額享加碼新戶禮：回饋全點50點！】",
@@ -6006,7 +6090,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -6021,7 +6104,8 @@
     "how": "首次使用全支付於本活動之「精選夜市」之品牌通路付款",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 3 萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6066,7 +6150,6 @@
       "quote": "首購不限消費金額享25全點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -6092,7 +6175,8 @@
        "url": "https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=84"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "全電商新戶活動：不限消費金額享250福利點（=$25）",
@@ -6113,7 +6197,6 @@
       "quote": "不限消費金額享250福利點（=$25）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "本活動限活動期間註冊加入全聯全電商之新會員",
@@ -6121,7 +6204,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6174,12 +6258,6 @@
       "quote": "單筆消費滿$30,000送800全點"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$10,000送500全點"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6194,7 +6272,15 @@
     "how": "結帳時選擇以「全支付」付款",
     "limited": "yes",
     "limited_quote": "活動總回饋限量100,000全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$10,000送500全點"
+     }
+    ]
    },
    {
     "name": "ITF旅展聯合活動",
@@ -6237,12 +6323,6 @@
       "quote": "單筆消費滿$16,000送800全點"
      }
     ],
-    "min_spend": {
-     "amount": 6000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$6,000送300全點"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6257,7 +6337,15 @@
     "how": "結帳時選擇以「全支付」付款",
     "limited": "yes",
     "limited_quote": "活動總回饋限量200,000全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 6000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$6,000送300全點"
+     }
+    ]
    },
    {
     "name": "雄獅專屬折扣碼",
@@ -6278,12 +6366,6 @@
       "quote": "單筆滿$30,000折$500"
      }
     ],
-    "min_spend": {
-     "amount": 30000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿$30,000折$500"
-    },
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參加",
@@ -6291,7 +6373,15 @@
     "how": "下單時輸入「ITFPX500」折扣碼",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 30000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿$30,000折$500"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -6336,7 +6426,6 @@
       "quote": "至指定場域消費，最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 15,
@@ -6351,7 +6440,8 @@
     "how": "使用全支付乘車碼搭乘大眾運輸（不含輕軌）",
     "limited": "yes",
     "limited_quote": "活動總回饋限量總計為180萬全點，每月預算30萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6418,12 +6508,6 @@
       "quote": "滿$16,000享800全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 6000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$6,000享300全點回饋"
-    },
     "caps": [
      {
       "amount": 800,
@@ -6438,7 +6522,15 @@
     "how": "使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "總活動回饋限量240,000全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 6000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$6,000享300全點回饋"
+     }
+    ]
    },
    {
     "name": "主活動｜需登錄：指定線上品牌單筆消費滿$1,000享3%全點回饋，滿$2,000享5%全點回饋，不限消費次數，每人最高可享100全點回饋，數量有限送完為止！",
@@ -6481,12 +6573,6 @@
       "quote": "滿$2,000享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$1,000享3%全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -6501,7 +6587,15 @@
     "how": "使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "總活動回饋限量300,000全點，數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$1,000享3%全點回饋"
+     }
+    ]
    },
    {
     "name": "單日加碼活動：雙11、雙12透過全支付付款，單筆消費滿$2,000享100全點回饋，滿$3,000享300全點回饋，數量有限送完為止！",
@@ -6557,12 +6651,6 @@
       "quote": "滿$3,000回饋300全點"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$2,000享100全點回饋"
-    },
     "caps": [
      {
       "amount": 300,
@@ -6583,7 +6671,15 @@
     "how": "使用全支付進行付款",
     "limited": "yes",
     "limited_quote": "本活動單日預算6萬全點，以消費優先順序計算，數量有限贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$2,000享100全點回饋"
+     }
+    ]
    },
    {
     "name": "銀行/信用卡付款活動：指定付款方式，筆筆再享最高5%全點回饋！",
@@ -6604,7 +6700,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6612,7 +6707,8 @@
     "how": "指定付款方式",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6657,7 +6753,6 @@
       "quote": "單筆消費不限金額，筆筆享10%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -6672,7 +6767,8 @@
     "how": "以全支付APP「掃描條碼」功能或指定電子支付付款",
     "limited": "yes",
     "limited_quote": "本活動為限量回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
@@ -6693,7 +6789,6 @@
       "quote": "筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6701,7 +6796,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
@@ -6722,7 +6818,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6730,7 +6825,8 @@
     "how": "綁定「指定信用卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6775,12 +6871,6 @@
       "quote": "不限金額消費滿5筆，享1,000全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 5,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "不限金額消費滿5筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6795,7 +6885,15 @@
     "how": "消費使用全支付綁定之王道銀行簽帳金融卡付款",
     "limited": "yes",
     "limited_quote": "本活動限前600名核卡之客戶參與，額滿將於本活動頁面公告。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "不限金額消費滿5筆"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -6874,12 +6972,6 @@
       "quote": "單筆消費滿$200（含）元，可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$200（含）元"
-    },
     "caps": [
      {
       "amount": 50,
@@ -6894,7 +6986,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量45萬全點，以成功完成活動登錄後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$200（含）元"
+     }
+    ]
    },
    {
     "name": "帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！",
@@ -6915,7 +7015,6 @@
       "quote": "最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6923,7 +7022,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！",
@@ -6944,7 +7044,6 @@
       "quote": "最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6952,7 +7051,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶於「風味美食」之品牌通路消費滿$200享加碼新戶禮: 回饋全點50點!",
@@ -6973,12 +7073,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 $200(含)元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -6993,7 +7087,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 15 萬全點，依於指定時間內成功註冊後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $200(含)元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7072,12 +7174,6 @@
       "quote": "單筆消費滿$500（含）元，可享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$500（含）元"
-    },
     "caps": [
      {
       "amount": 80,
@@ -7092,7 +7188,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量10萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$500（含）元"
+     }
+    ]
    },
    {
     "name": "帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！",
@@ -7113,7 +7217,6 @@
       "quote": "最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7121,7 +7224,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！",
@@ -7142,7 +7246,6 @@
       "quote": "最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7150,7 +7253,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶於「生活育樂」之品牌通路消費滿$500享加碼新戶禮：回饋全點50點！",
@@ -7171,12 +7275,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 $500(含)元，即符合本優惠回饋資格"
-    },
     "caps": [
      {
       "amount": 1,
@@ -7191,7 +7289,15 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 3 萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $500(含)元，即符合本優惠回饋資格"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7236,12 +7342,6 @@
       "quote": "即享10%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "投保並繳付旅平險單筆保費滿500元"
-    },
     "caps": [
      {
       "amount": 80,
@@ -7256,7 +7356,15 @@
     "how": "使用全支付(包括以連結任一合作銀行帳戶、信用卡或全支付帳戶付款)",
     "limited": "yes",
     "limited_quote": "每月回饋限量20,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "投保並繳付旅平險單筆保費滿500元"
+     }
+    ]
    },
    {
     "name": "【富邦產險之汽機車險】",
@@ -7277,12 +7385,6 @@
       "quote": "即享10%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "投保並繳付汽機車險單筆保費滿1,200元"
-    },
     "caps": [
      {
       "amount": 150,
@@ -7297,7 +7399,15 @@
     "how": "使用全支付(包括以連結任一合作銀行帳戶、信用卡或全支付帳戶餘額付款)",
     "limited": "yes",
     "limited_quote": "每月回饋限量5,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "投保並繳付汽機車險單筆保費滿1,200元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7342,7 +7452,6 @@
       "quote": "可享消費5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 15,
@@ -7357,7 +7466,8 @@
     "how": "使用全支付APP繳費",
     "limited": "yes",
     "limited_quote": "本活動為限量回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "需登錄｜帳戶繳費",
@@ -7378,7 +7488,6 @@
       "quote": "即可享筆筆1%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -7393,7 +7502,8 @@
     "how": "連結「全支付帳戶」或「任一銀行帳戶」繳費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "加碼｜玉山信用卡",
@@ -7414,12 +7524,6 @@
       "quote": "享3%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆金額滿500元"
-    },
     "caps": [
      {
       "amount": 30,
@@ -7434,7 +7538,15 @@
     "how": "使用玉山銀行信用卡，於全支付APP線上繳費（稅）",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆金額滿500元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7510,7 +7622,6 @@
       "quote": "單筆不限金額即可享10%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 25,
@@ -7531,7 +7642,8 @@
     "how": "選擇全支付掃描條碼付款",
     "limited": "yes",
     "limited_quote": "數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "銀行/信用卡活動：指定銀行付款最高享5%全點回饋",
@@ -7552,7 +7664,6 @@
       "quote": "綁定信用卡付款最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7560,7 +7671,8 @@
     "how": "使用全支付連結指定銀行帳戶、綁定信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -7605,12 +7717,6 @@
       "quote": "單筆消費滿新臺幣1,000元享5%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣1,000元享5%全點回饋"
-    },
     "caps": [
      {
       "amount": 100,
@@ -7625,7 +7731,15 @@
     "how": "使用國泰世華信用卡付款",
     "limited": "yes",
     "limited_quote": "每週回饋限量45,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣1,000元享5%全點回饋"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -7670,7 +7784,6 @@
       "quote": "享2%小樹點（信用卡）回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7678,7 +7791,8 @@
     "how": "使用全支付並綁定國泰世華CUBE信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【國泰世華銀行】優惠：全支付APP綁卡消費小樹點（信用卡）可折抵信用卡消費帳款",
@@ -7699,7 +7813,6 @@
       "quote": "即可參加小樹點（信用卡）折抵信用卡消費帳款活動"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7707,7 +7820,8 @@
     "how": "於全支付App綁定CUBE信用卡後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【國泰世華銀行】優惠：使用國泰世華銀行信用卡，消費不限金額，筆筆消費最高享5%全點回饋，回饋之全點以四捨五入計算至個位，每一全支付帳號每週最高享30全點回饋。",
@@ -7728,7 +7842,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -7743,7 +7856,8 @@
     "how": "消費使用全支付綁定之國泰世華銀行信用卡付款",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量100,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -7824,7 +7938,6 @@
       "quote": "單筆消費不限金額，可享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -7839,7 +7952,8 @@
     "how": "使用全支付「付款碼」",
     "limited": "yes",
     "limited_quote": "各活動期間回饋限量16萬全點，以成功完成活動登錄後之消費優先順序計算，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！",
@@ -7860,7 +7974,6 @@
       "quote": "最高再享筆筆3%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7868,7 +7981,8 @@
     "how": "使用全支付連結指定合作銀行帳戶付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！",
@@ -7889,7 +8003,6 @@
       "quote": "最高再享筆筆5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -7897,7 +8010,8 @@
     "how": "使用全支付連結指定合作銀行信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "全支付新戶於「日常百選」之品牌通路消費不限金額享加碼新戶禮：回饋全點50點！",
@@ -7918,7 +8032,6 @@
       "quote": "回饋全點50點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -7933,7 +8046,8 @@
     "how": "首次使用全支付於本活動之「日常百選」之品牌通路付款",
     "limited": "yes",
     "limited_quote": "各波段回饋限量 15 萬全點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -7978,7 +8092,6 @@
       "quote": "消費不限金額、不限次數享1%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -7993,7 +8106,8 @@
     "how": "並使用全支付完成付款",
     "limited": "yes",
     "limited_quote": "數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "新戶活動：首購單筆消費滿$1000享3%回饋",
@@ -8014,12 +8128,6 @@
       "quote": "即享3%全點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "首筆消費滿$1,000完成付款"
-    },
     "caps": [
      {
       "amount": 100,
@@ -8034,7 +8142,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "數量有限贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "首筆消費滿$1,000完成付款"
+     }
+    ]
    },
    {
     "name": "加碼活動：週年慶期間旅遊專區不限消費金額，即可獲得一次抽獎機會，有機會抽中日本雙人來回機票；消費筆數越多，中獎機會越高",
@@ -8055,7 +8171,6 @@
       "quote": "日本雙人來回機票兌換券(市值約新臺幣40,000元)，共1名"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "本活動全支付會員皆可參與",
@@ -8063,7 +8178,8 @@
     "how": "不限付款方式",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
@@ -8084,7 +8200,6 @@
       "quote": "筆筆再享最高5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -8092,7 +8207,8 @@
     "how": "綁定「指定信用卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
@@ -8113,7 +8229,6 @@
       "quote": "筆筆再享最高3%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -8121,7 +8236,8 @@
     "how": "連結「指定銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -8166,7 +8282,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -8187,7 +8302,8 @@
     "how": "使用全支付連結之國泰世華銀行新臺幣活期存款帳戶",
     "limited": "yes",
     "limited_quote": "每週回饋限量80,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【將來銀行】優惠",
@@ -8208,7 +8324,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -8229,7 +8344,8 @@
     "how": "使用全支付連結之將來銀行帳戶付款",
     "limited": "yes",
     "limited_quote": "每週回饋限量20,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -8274,7 +8390,6 @@
       "quote": "筆筆消費最高享5%全點回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -8289,7 +8404,8 @@
     "how": "使用該合作銀行信用卡於全支付「合作通路」，使用全支付「付款碼」或掃描「全支付QR Code立牌」或「全支付TWQR立牌」完成消費",
     "limited": "yes",
     "limited_quote": "本活動每週回饋限量5,000全點，贈完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

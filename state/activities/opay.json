@@ -27,7 +27,6 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -35,7 +34,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -80,7 +80,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -95,7 +94,8 @@
     "how": "掃描TWQR支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -140,12 +140,6 @@
       "quote": "單筆消費滿150元可享10%紅利回饋(小數點後四捨五入)"
      }
     ],
-    "min_spend": {
-     "amount": 150,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿150元可享10%紅利回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -160,7 +154,15 @@
     "how": "使用歐付寶APP進行支付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿150元可享10%紅利回饋"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -200,7 +202,6 @@
      "回饋 100% 不合理，多半是比例規則而非回饋：第一筆消費交易，將100%回饋歐付寶紅利點數 (上限333點"
     ],
     "rewards": [],
-    "min_spend": null,
     "caps": [
      {
       "amount": 333,
@@ -215,7 +216,8 @@
     "how": "活動一及活動二持卡人需於回饋日前，將歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "活動二:新戶最高享 13% 回饋，每月最高 550 點",
@@ -238,7 +240,6 @@
       "quote": "新戶最高享 13% 回饋，每月最高 550 點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 550,
@@ -253,7 +254,8 @@
     "how": "活動一及活動二持卡人需於回饋日前，將歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -298,7 +300,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -313,7 +314,8 @@
     "how": "掃描TWQR支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -358,7 +360,6 @@
       "quote": "消費金額享10% 現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -373,7 +374,8 @@
     "how": "使用歐付寶APP掃描「指定TWQR立牌」付款",
     "limited": "yes",
     "limited_quote": "每月贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -418,7 +420,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -433,7 +434,8 @@
     "how": "掃描TWQR支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -478,7 +480,6 @@
       "quote": "單筆消費不限金額10%回饋紅利點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -493,7 +494,8 @@
     "how": "持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付",
     "limited": "yes",
     "limited_quote": "每期活動預算金額有限，如達每月活動預算金額上限即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -538,7 +540,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -553,7 +554,8 @@
     "how": "掃描TWQR",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -591,7 +593,6 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -599,7 +600,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -644,7 +646,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -659,7 +660,8 @@
     "how": "掃描TWQR",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

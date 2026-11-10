@@ -59,12 +59,6 @@
       "quote": "贈送 iPASS MONEY 優惠券 50 元 1 張"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "實際支付金額累積每滿 500 元"
-    },
     "caps": [
      {
       "amount": 2,
@@ -79,7 +73,15 @@
     "how": "結帳時使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
     "limited": "yes",
     "limited_quote": "活動總限量 5,000 張（2 店合併計算），數量有限送完為止。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "實際支付金額累積每滿 500 元"
+     }
+    ]
    },
    {
     "name": "優惠二:消費享一卡通綠點 10% 回饋",
@@ -100,7 +102,6 @@
       "quote": "享一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -115,7 +116,8 @@
     "how": "使用 iPASS MONEY 掃描任一 TWQR 立牌付款",
     "limited": "yes",
     "limited_quote": "活動總限量 3,000 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "京站台北店Q卡友限定加碼:單筆消費滿 1,000 元贈造型一卡通",
@@ -136,12 +138,6 @@
       "quote": "兌換領取造型一卡通乙張"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 1,000 元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -156,7 +152,15 @@
     "how": "使用一卡通 iPASS MONEY APP 單筆消費滿 1,000 元",
     "limited": "yes",
     "limited_quote": "每人限得 1 次，活動總限量 300 份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 1,000 元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -207,12 +211,6 @@
       "quote": "累積滿 200 元可回饋 50 元現金"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "month",
-     "quote": "當月搭乘票價累積滿 200 元"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -220,7 +218,15 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "當月搭乘票價累積滿 200 元"
+     }
+    ]
    },
    {
     "name": "台鐵/高鐵",
@@ -247,7 +253,6 @@
       "quote": "搭乘自由座享對號座全票之 97 折優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -255,7 +260,8 @@
     "how": "限聯名信用卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "公車/客運",
@@ -276,7 +282,6 @@
       "quote": "提供雙向轉乘5元優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -284,7 +289,8 @@
     "how": "用一卡通或使用iPASS MONEY搭乘市區公車，並於1小時內轉乘YouBike",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "公共自行車",
@@ -305,7 +311,6 @@
       "quote": "每次轉乘享iPASS MONEY帳戶儲值金 5 元回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -313,7 +318,8 @@
     "how": "YouBike 2.0 APP 內綁定「iPASS MONEY」自動扣款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "高雄渡輪",
@@ -334,7 +340,6 @@
       "quote": "行人享有 30 元全票優惠（原價 40 元）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -342,7 +347,8 @@
     "how": "使用 iPASS一卡通普通卡、iPASS MONEY 乘車碼",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -443,12 +449,6 @@
       "quote": "單筆消費滿額後即可兌換優惠券領取儲值金 100 元"
      }
     ],
-    "min_spend": {
-     "amount": 499,
-     "unit": "元",
-     "per": "txn",
-     "quote": "使用 iPASS MONEY 單筆消費滿 499 元方可兌換1張"
-    },
     "caps": [
      {
       "amount": 1,
@@ -463,7 +463,15 @@
     "how": "結帳時使用 iPASS MONEY APP（含帳戶餘額或綁定信用卡付款）",
     "limited": "no",
     "limited_quote": "無總量限制",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 499,
+      "unit": "元",
+      "per": "txn",
+      "quote": "使用 iPASS MONEY 單筆消費滿 499 元方可兌換1張"
+     }
+    ]
    },
    {
     "name": "綁定聯邦信用卡消費最高享10%回饋",
@@ -484,7 +492,6 @@
       "quote": "綁定聯邦信用卡消費最高享10%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -499,7 +506,8 @@
     "how": "綁定聯邦信用卡消費",
     "limited": "yes",
     "limited_quote": "每月總回饋上限 25 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定玉山unicard消費最高享4.5%回饋",
@@ -520,7 +528,6 @@
       "quote": "綁定玉山unicard消費最高享4.5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -528,7 +535,8 @@
     "how": "綁定玉山unicard消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定 LINE BANK 快點卡消費滿額最高享 4% 回饋",
@@ -549,7 +557,6 @@
       "quote": "綁定 LINE BANK 快點卡消費滿額最高享 4% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -557,7 +564,8 @@
     "how": "綁定 LINE BANK 快點卡消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定王道簽帳金融卡新卡消費最高享 600 元回饋",
@@ -578,7 +586,6 @@
       "quote": "綁定王道簽帳金融卡新卡消費最高享 600 元回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -586,7 +593,8 @@
     "how": "綁定王道簽帳金融卡新卡消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -660,12 +668,6 @@
       "quote": "回饋一卡通綠點 800 點"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "使用 iPASS MONEY 成功付款 3 筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -680,7 +682,15 @@
     "how": "於活動期間輸入推薦序號「IPASS」首次成功開立樂天國際銀行帳戶",
     "limited": "no",
     "limited_quote": "回饋名額無上限",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "使用 iPASS MONEY 成功付款 3 筆"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -730,12 +740,6 @@
       "quote": "即可領取漢神百貨/漢神巨蛋購物廣場兩館通用優惠券 100 元"
      }
     ],
-    "min_spend": {
-     "amount": 888,
-     "unit": "元",
-     "per": "txn",
-     "quote": "領取後使用 iPASS MONEY 單筆消費滿 888 元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -750,7 +754,15 @@
     "how": "使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
     "limited": "yes",
     "limited_quote": "活動總限量 20,000 張，數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 888,
+      "unit": "元",
+      "per": "txn",
+      "quote": "領取後使用 iPASS MONEY 單筆消費滿 888 元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -800,12 +812,6 @@
       "quote": "即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
      }
     ],
-    "min_spend": {
-     "amount": 50,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 50 元後即可兌換 1 張"
-    },
     "caps": [
      {
       "amount": 1,
@@ -820,7 +826,15 @@
     "how": "使用 iPASS MONEY APP 掃描一卡通 TWQR 立牌付款",
     "limited": "yes",
     "limited_quote": "各場次數量有限，兌完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 50 元後即可兌換 1 張"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -890,12 +904,6 @@
       "quote": "每月累積付款金額每滿 100 元贈旅電科技 2 小時借電券一張"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "month",
-     "quote": "每月累積付款金額每滿 100 元贈旅電科技 2 小時借電券一張"
-    },
     "caps": [
      {
       "amount": 3,
@@ -910,7 +918,15 @@
     "how": "使用 iPASS MONEY 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月累積付款金額每滿 100 元贈旅電科技 2 小時借電券一張"
+     }
+    ]
    },
    {
     "name": "【優惠二】消費享一卡通綠點 10% 回饋",
@@ -933,7 +949,6 @@
       "quote": "享一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -948,7 +963,8 @@
     "how": "使用一卡通 iPASS MONEY APP 掃描任一 TWQR 立牌",
     "limited": "yes",
     "limited_quote": "活動總限量 3,000 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -995,7 +1011,6 @@
       "quote": "第 1 波早鳥\n50 元\n首購回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1003,7 +1018,8 @@
     "how": "可下載 iPASS MONEY APP 完成註冊會員，並點選加入常客優惠及同意個資使用聲明後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1052,12 +1068,6 @@
       "quote": "享一卡通綠點 500 點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "新增 1 筆一般消費"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1072,7 +1082,15 @@
     "how": "於一卡通 iPASS MONEY APP 綁定玉山Unicard新增 1 筆一般消費",
     "limited": "yes",
     "limited_quote": "限前 2,000 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "新增 1 筆一般消費"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1133,7 +1151,6 @@
       "quote": "送「數位券」50 元 1張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -1148,7 +1165,8 @@
     "how": "於一卡通 iPASS MONEY APP「開通」iPASS MONEY 數位券錢包",
     "limited": "yes",
     "limited_quote": "本活動回饋數位券總限量 25,000 張",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1193,12 +1211,6 @@
       "quote": "即享 WeMo 騎乘券 50 元"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "綁定 iPASS MONEY 扣款任一筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1213,7 +1225,15 @@
     "how": "於 WeMo App 綁定 iPASS MONEY 扣款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "綁定 iPASS MONEY 扣款任一筆"
+     }
+    ]
    },
    {
     "name": "優惠二:用 iPASS MONEY 扣款享一卡通綠點 10% 回饋",
@@ -1236,7 +1256,6 @@
       "quote": "用 iPASS MONEY 扣款享一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1244,7 +1263,8 @@
     "how": "使用 iPASS MONEY 扣款租借 WeMo",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1291,12 +1311,6 @@
       "quote": "享 iPASS MONEY 儲值金 600 元回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "刷卡一般消費不限金額滿 3 筆"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1311,7 +1325,15 @@
     "how": "使用王道簽帳金融卡綁定一卡通 iPASS MONEY 刷卡一般消費",
     "limited": "yes",
     "limited_quote": "本活動限前 830 名核卡之客戶參加",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "刷卡一般消費不限金額滿 3 筆"
+     }
+    ]
    },
    {
     "name": "活動2:王道超給利（限時活動 2026/7/1 - 2026/10/31 開戶者）",
@@ -1332,12 +1354,6 @@
       "quote": "再享新台幣 388 元現金回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "刷卡消費累積滿新台幣 3,000 元"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "本活動僅適用於新戶，新戶係指未曾持有王道銀行任一存款帳戶者",
@@ -1345,7 +1361,15 @@
     "how": "使用一卡通 iPASS MONEY APP 綁定王道銀行簽帳金融卡",
     "limited": "yes",
     "limited_quote": "本活動限前 300 名客戶參與",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "刷卡消費累積滿新台幣 3,000 元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1390,12 +1414,6 @@
       "quote": "最高享 10% 回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 200 元"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1413,6 +1431,14 @@
        "quote": "11月份回饋上限已於 2026/11/3 17:00 額滿",
        "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj"
       }
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 200 元"
      }
     ]
    },
@@ -1435,7 +1461,6 @@
       "quote": "最高享 150 元"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1443,7 +1468,8 @@
     "how": "指定連結開立 New New Bank 數位存款帳戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定連結開立 Richart 數位存款帳戶，完成指定任務享 250 元回饋",
@@ -1464,7 +1490,6 @@
       "quote": "享 250 元回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1472,7 +1497,8 @@
     "how": "指定連結開立 Richart 數位存款帳戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "樂天網銀新戶，用 iPASS MONEY 付款任 3 筆享 800 點回饋！",
@@ -1493,12 +1519,6 @@
       "quote": "享 800 點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "付款任 3 筆"
-    },
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "樂天網銀新戶",
@@ -1506,7 +1526,15 @@
     "how": "用 iPASS MONEY 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "付款任 3 筆"
+     }
+    ]
    },
    {
     "name": "綁定王道Debit卡消費最高享 5% 回饋！",
@@ -1527,7 +1555,6 @@
       "quote": "最高享 5% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1546,7 +1573,8 @@
        "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "指定連結開立王道帳戶，並符合條件享 600 元回饋",
@@ -1567,7 +1595,6 @@
       "quote": "享 600 元回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1575,7 +1602,8 @@
     "how": "指定連結開立王道帳戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定連結申辦玉山Unicard，並消費任 1 筆享 500 點回饋",
@@ -1596,12 +1624,6 @@
       "quote": "享 500 點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "消費任 1 筆"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1609,7 +1631,15 @@
     "how": "指定連結申辦玉山Unicard",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "消費任 1 筆"
+     }
+    ]
    },
    {
     "name": "綁定玉山 Unicard 消費，最高享 4.5% 回饋",
@@ -1630,7 +1660,6 @@
       "quote": "最高享 4.5% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1638,7 +1667,8 @@
     "how": "綁定玉山 Unicard",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "輸入指定代碼領元大信用卡專屬優惠券 50 元",
@@ -1659,7 +1689,6 @@
       "quote": "元大信用卡專屬優惠券 50 元"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1667,7 +1696,8 @@
     "how": "輸入指定代碼",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定 LINE Bank 快點卡消費，符合條件最高享 4% 回饋",
@@ -1688,7 +1718,6 @@
       "quote": "最高享 4% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1696,7 +1725,8 @@
     "how": "綁定 LINE Bank 快點卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1743,7 +1773,6 @@
       "quote": "消費總額享一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -1758,7 +1787,8 @@
     "how": "使用一卡通 iPASS MONEY APP 付款",
     "limited": "yes",
     "limited_quote": "活動總回饋上限 1,000 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定聯邦信用卡消費最高享10%回饋",
@@ -1779,7 +1809,6 @@
       "quote": "綁定聯邦信用卡消費最高享10%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -1794,7 +1823,8 @@
     "how": "綁定聯邦信用卡消費",
     "limited": "yes",
     "limited_quote": "每月總回饋上限 25 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定玉山unicard消費最高享4.5%回饋",
@@ -1815,7 +1845,6 @@
       "quote": "綁定玉山unicard消費最高享4.5%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1823,7 +1852,8 @@
     "how": "綁定玉山unicard消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "9/27前綁定 LINE BANK 快點卡消費滿額最高享4%回饋",
@@ -1844,7 +1874,6 @@
       "quote": "9/27前綁定 LINE BANK 快點卡消費滿額最高享4%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1852,7 +1881,8 @@
     "how": "9/27前綁定 LINE BANK 快點卡消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "綁定王道簽帳金融卡新卡消費最高享600元回饋",
@@ -1873,7 +1903,6 @@
       "quote": "綁定王道簽帳金融卡新卡消費最高享600元回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1881,7 +1910,8 @@
     "how": "綁定王道簽帳金融卡新卡消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1926,12 +1956,6 @@
       "quote": "送 iPASS MONEY 優惠券 50 元 1 張"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "month",
-     "quote": "並於一卡通 iPASS MONEY APP 完成 1 筆「一卡通綠點」兌領"
-    },
     "caps": [
      {
       "amount": 3,
@@ -1946,7 +1970,15 @@
     "how": "使用環保綠點兌換「一卡通綠點兌換碼」",
     "limited": "yes",
     "limited_quote": "每月總限量 8 萬張，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "month",
+      "quote": "並於一卡通 iPASS MONEY APP 完成 1 筆「一卡通綠點」兌領"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2012,12 +2044,6 @@
       "quote": "領取 iPASS MONEY 優惠券 50 元"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 100 元即可兌換優惠券"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2032,7 +2058,15 @@
     "how": "使用一卡通 iPASS MONEY APP 掃描「一卡通 TWQR 立牌」或開啟付款碼",
     "limited": "yes",
     "limited_quote": "總限量 2,000 份，數量有限送完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 100 元即可兌換優惠券"
+     }
+    ]
    },
    {
     "name": "活動二:前一千名登錄者加贈一卡通綠點 50 點",
@@ -2055,7 +2089,6 @@
       "quote": "加贈一卡通綠點 50 點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2081,7 +2114,8 @@
        "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "活動三:搭乘捷運於巨蛋站進/出站，筆筆交易享一卡通綠點 5 點回饋，指定期間搭乘加碼贈 20 點回饋。",
@@ -2110,7 +2144,6 @@
       "quote": "該趟搭乘加贈一卡通綠點 20 點"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -2125,7 +2158,8 @@
     "how": "使用 iPASS MONEY 乘車碼或一卡通記名卡搭乘高雄捷運",
     "limited": "yes",
     "limited_quote": "活動總限量 10 萬點，贈完為止，額滿將公告於此活動頁",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2170,7 +2204,6 @@
       "quote": "天天不限金額享 10% 現折"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2178,7 +2211,8 @@
     "how": "使用一卡通 iPASS MONEY APP 綁定聯邦銀行信用卡並透過「付款碼」於萊爾富便利商店結帳付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "優惠二:滿額樂享一卡通綠點 10% 回饋",
@@ -2203,12 +2237,6 @@
       "quote": "一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 200 元"
-    },
     "caps": [
      {
       "amount": 50,
@@ -2223,7 +2251,15 @@
     "how": "使用一卡通 iPASS MONEY APP 綁定聯邦銀行信用卡並透過「付款碼」於萊爾富便利商店結帳付款",
     "limited": "yes",
     "limited_quote": "每月總回饋上限 25 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 200 元"
+     }
+    ]
    },
    {
     "name": "優惠三:首次消費最高享一卡通綠點 20% 回饋",
@@ -2244,7 +2280,6 @@
       "quote": "當月消費總額最高享一卡通綠點 20% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次使用 iPASS MONEY APP 付款",
@@ -2252,7 +2287,8 @@
     "how": "使用一卡通 iPASS MONEY APP 綁定聯邦銀行信用卡並透過「付款碼」於萊爾富便利商店結帳付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2358,12 +2394,6 @@
       "quote": "可獲得 1 次造型一卡通（市值 550 元）抽獎機會"
      }
     ],
-    "min_spend": {
-     "amount": 599,
-     "unit": "元",
-     "per": "day",
-     "quote": "當日累積消費滿 599 元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2378,7 +2408,15 @@
     "how": "使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
     "limited": "yes",
     "limited_quote": "活動期間共計抽出 1,000 名得獎者",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "day",
+      "quote": "當日累積消費滿 599 元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2429,7 +2467,6 @@
       "quote": "好禮二:iPASS MONEY 四大超商優惠券 50 元"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2450,7 +2487,8 @@
     "how": "透過一卡通 iPASS MONEY APP 購買活動指定定期票且未退票",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "【購買季票禮】當月購買季票樂享以下好禮雙重送",
@@ -2477,7 +2515,6 @@
       "quote": "好禮二:iPASS MONEY 四大超商優惠券 150 元"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2492,7 +2529,8 @@
     "how": "透過一卡通 iPASS MONEY APP 購買活動指定定期票且未退票",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2549,12 +2587,6 @@
       "quote": "11 次以上\n2%"
      }
     ],
-    "min_spend": {
-     "amount": 11,
-     "unit": "次",
-     "per": "month",
-     "quote": "搭乘公共運輸達 11 次以上"
-    },
     "caps": [
      {
       "amount": 2500,
@@ -2569,7 +2601,15 @@
     "how": "持一卡通電子票證（儲值卡）至一卡通公司網站完成記名",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 11,
+      "unit": "次",
+      "per": "month",
+      "quote": "搭乘公共運輸達 11 次以上"
+     }
+    ]
    },
    {
     "name": "電子支付帳戶(使用iPASS MONEY乘車碼搭乘)",
@@ -2602,12 +2642,6 @@
       "quote": "11 次以上\n2%"
      }
     ],
-    "min_spend": {
-     "amount": 11,
-     "unit": "次",
-     "per": "month",
-     "quote": "使用iPASS MONEY乘車碼搭乘公共運輸達11次以上"
-    },
     "caps": [
      {
       "amount": 2500,
@@ -2622,7 +2656,15 @@
     "how": "手機APP上進行電支帳號綁定TPASS 2.0+常客優惠",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 11,
+      "unit": "次",
+      "per": "month",
+      "quote": "使用iPASS MONEY乘車碼搭乘公共運輸達11次以上"
+     }
+    ]
    },
    {
     "name": "早鳥專屬",
@@ -2645,12 +2687,6 @@
       "quote": "符合早鳥資格\n再加碼10%"
      }
     ],
-    "min_spend": {
-     "amount": 11,
-     "unit": "次",
-     "per": "month",
-     "quote": "搭乘公共運輸達 11 次以上"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2658,7 +2694,15 @@
     "how": "購買TPASS 2.0 票卡（常客）一卡通",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 11,
+      "unit": "次",
+      "per": "month",
+      "quote": "搭乘公共運輸達 11 次以上"
+     }
+    ]
    },
    {
     "name": "【TPASS 2.0 票卡(常客)一卡通】記名完成可以領取 100 元嗎？",
@@ -2679,7 +2723,6 @@
       "quote": "領取 100 元一卡通儲值金"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2694,7 +2737,8 @@
     "how": "可於一卡通官網完成記名",
     "limited": "yes",
     "limited_quote": "僅限4萬張可領取，數量有限請盡速記名。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2741,12 +2785,6 @@
       "quote": "享一卡通綠點 100 點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "成功提領薪資任 1 次"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2761,7 +2799,15 @@
     "how": "iPASS MONEY 成功提領薪資",
     "limited": "yes",
     "limited_quote": "活動總回饋上限共 1,000 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "成功提領薪資任 1 次"
+     }
+    ]
    },
    {
     "name": "優惠二:iPASS MONEY 新朋友贈一卡通綠點 200 點",
@@ -2784,12 +2830,6 @@
       "quote": "享一卡通綠點 200 點回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "次",
-     "per": "campaign",
-     "quote": "成功提領薪資任 1 次"
-    },
     "caps": [
      {
       "amount": 1,
@@ -2804,7 +2844,15 @@
     "how": "iPASS MONEY 成功提領薪資",
     "limited": "yes",
     "limited_quote": "活動總回饋上限共 1,000 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "成功提領薪資任 1 次"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2851,7 +2899,6 @@
       "quote": "即可獲得一卡通綠點 168 點抽獎機會"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2866,7 +2913,8 @@
     "how": "將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶",
     "limited": "yes",
     "limited_quote": "每月共抽出 30 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2936,7 +2984,6 @@
       "quote": "消費金額享 10% 現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -2951,7 +2998,8 @@
     "how": "掃描「一卡通 TWQR 立牌」付款",
     "limited": "yes",
     "limited_quote": "每月總回饋上限 16 萬元，2026 年 12 月回饋上限 23 萬，每月贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "優惠二:iPASS MONEY 消費加碼享 5% 回饋",
@@ -2976,7 +3024,6 @@
       "quote": "加碼享一卡通綠點 5% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -3002,7 +3049,8 @@
        "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY"
       }
      }
-    ]
+    ],
+    "min_spends": []
    },
    {
     "name": "優惠三:2026/6/1起，使用iPASS MONEY掃描任一TWQR立牌付款，或開啟付款碼於指定店家消費，享一卡通綠點10%回饋",
@@ -3023,7 +3071,6 @@
       "quote": "享一卡通綠點10%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -3038,7 +3085,8 @@
     "how": "使用iPASS MONEY掃描任一TWQR立牌付款，或開啟付款碼",
     "limited": "yes",
     "limited_quote": "活動總限量3,000萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -3094,12 +3142,6 @@
       "quote": "即贈【100 元微風電子酬賓券】乙份(可累贈)"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 2,000 元(含)以上"
-    },
     "caps": [
      {
       "amount": 5,
@@ -3120,7 +3162,15 @@
     "how": "出示「iPASS MONEY」或「台灣Pay」付款條碼進行支付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 2,000 元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3167,7 +3217,6 @@
       "quote": "享一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -3182,7 +3231,8 @@
     "how": "使用 iPASS MONEY 掃描任一 TWQR 立牌付款",
     "limited": "yes",
     "limited_quote": "活動總限量3,000萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3244,12 +3294,6 @@
       "quote": "一卡通綠點 50 點"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額滿 100 元（含）以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -3264,7 +3308,15 @@
     "how": "使用一卡通 iPASS MONEY 於臺南指定店家付款（含帳戶餘額或綁定信用卡付款）",
     "limited": "yes",
     "limited_quote": "iPhone18ProMax（512GB）\n1 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿 100 元（含）以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3370,7 +3422,6 @@
       "quote": "回饋 iPASS MONEY 儲值金 20 元"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3385,7 +3436,8 @@
     "how": "以 iPASS MONEY「首次連結」土地銀行帳戶",
     "limited": "yes",
     "limited_quote": "限量前 500 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "活動二:消費滿額禮",
@@ -3406,12 +3458,6 @@
       "quote": "享 iPASS MONEY 儲值金 30 元回饋"
      }
     ],
-    "min_spend": {
-     "amount": 150,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣(以下同) 150 元（含）以上"
-    },
     "caps": [
      {
       "amount": 1,
@@ -3426,7 +3472,15 @@
     "how": "將上述帳戶設定為「自動儲值」或「同意自動儲值交易差額」帳戶（擇一即可）",
     "limited": "yes",
     "limited_quote": "限量前 3000 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同) 150 元（含）以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3475,7 +3529,6 @@
       "quote": "捐款金額享一卡通綠點 10% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -3490,7 +3543,8 @@
     "how": "本活動可使用 iPASS MONEY 帳戶餘額與綁定信用卡進行捐款。",
     "limited": "yes",
     "limited_quote": "每月總限量上限 100 萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

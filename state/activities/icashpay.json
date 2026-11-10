@@ -59,7 +59,6 @@
       "quote": "香草烤半雞＋蜂蜜綠茶(M)套餐優惠價 $199（原價 $320）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -67,7 +66,8 @@
     "how": "＊結帳代碼[2244]",
     "limited": "yes",
     "limited_quote": "販售品項依門市現場為主，售完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -114,12 +114,6 @@
       "quote": "贈55點OPENPOINT"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "發票金額累計滿1000元"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -127,7 +121,15 @@
     "how": "持icash Pay消費並完成同APP會員卡號集點",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "發票金額累計滿1000元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -172,12 +174,6 @@
       "quote": "次月贈 50 元折價券 1 張"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "元",
-     "per": "txn",
-     "quote": "結帳消費(1元以上，不限金額)"
-    },
     "caps": [
      {
       "amount": 1,
@@ -192,7 +188,15 @@
     "how": "使用 icash Pay 結帳消費",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "元",
+      "per": "txn",
+      "quote": "結帳消費(1元以上，不限金額)"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -237,12 +241,6 @@
       "quote": "甜甜圈/點心/現做飲品買4送1"
      }
     ],
-    "min_spend": {
-     "amount": 4,
-     "unit": "份",
-     "per": "txn",
-     "quote": "甜甜圈/點心/現做飲品買4送1"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -250,7 +248,15 @@
     "how": "以icash Pay結帳方可享有優惠",
     "limited": "yes",
     "limited_quote": "商品種類數量以各門市實際可販售情形為準，售完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 4,
+      "unit": "份",
+      "per": "txn",
+      "quote": "甜甜圈/點心/現做飲品買4送1"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -295,12 +301,6 @@
       "quote": "次月贈 50 元 E-Coupon"
      }
     ],
-    "min_spend": {
-     "amount": 2,
-     "unit": "次",
-     "per": "month",
-     "quote": "當月於博客來使用 icash Pay 消費達 2 次（含）以上"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -308,7 +308,15 @@
     "how": "使用 icash Pay 消費",
     "limited": "yes",
     "limited_quote": "每月限量 5000 份",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2,
+      "unit": "次",
+      "per": "month",
+      "quote": "當月於博客來使用 icash Pay 消費達 2 次（含）以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -357,12 +365,6 @@
       "quote": "使用優惠碼滿 199 元享 95 折"
      }
     ],
-    "min_spend": {
-     "amount": 199,
-     "unit": "元",
-     "per": "txn",
-     "quote": "輸入指定優惠碼單筆支付滿 $199 享 95 折"
-    },
     "caps": [
      {
       "amount": 100,
@@ -377,7 +379,15 @@
     "how": "輸入指定優惠碼",
     "limited": "yes",
     "limited_quote": "每月限量1500組優惠碼",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 199,
+      "unit": "元",
+      "per": "txn",
+      "quote": "輸入指定優惠碼單筆支付滿 $199 享 95 折"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -422,7 +432,6 @@
       "quote": "享小杯自創冰淇淋/切片蛋糕9折優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -430,7 +439,8 @@
     "how": "持icash2.0/icash Pay全額支付",
     "limited": "yes",
     "limited_quote": "數量有限售完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -475,12 +485,6 @@
       "quote": "結帳金額滿$500元可折抵$50元"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費扣除不抵用品項後，結帳金額滿$500元可折抵$50元"
-    },
     "caps": [
      {
       "amount": 1,
@@ -501,7 +505,15 @@
     "how": "須全額使用icash Pay付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費扣除不抵用品項後，結帳金額滿$500元可折抵$50元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -546,7 +558,6 @@
       "quote": "可享1,000元SPA課程電子抵用券乙張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -561,7 +572,8 @@
     "how": "使用icash Pay",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -606,7 +618,6 @@
       "quote": "使用 icash Pay 結帳享 0.5% OPENPOINT 回饋（含基本點 0.33%）"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -614,7 +625,8 @@
     "how": "使用 icash Pay 結帳",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],

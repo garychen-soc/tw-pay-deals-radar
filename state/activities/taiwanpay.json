@@ -34,7 +34,6 @@
       "quote": "以「台灣Pay」QR Code掃碼進行轉帳，享免手續費"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -42,7 +41,8 @@
     "how": "以「台灣Pay」QR Code掃碼進行轉帳",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -87,12 +87,6 @@
       "quote": "即享結帳金額現折200元"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)"
-    },
     "caps": [
      {
       "amount": 600,
@@ -107,7 +101,15 @@
     "how": "出示「台灣Pay」付款條碼（金融卡 /帳戶/信用卡）進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限共110萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -152,7 +154,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -167,7 +168,8 @@
     "how": "使用「台灣Pay」QR Code掃碼進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -212,7 +214,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -227,7 +228,8 @@
     "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50 萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -272,7 +274,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -287,7 +288,8 @@
     "how": "使用「台灣 Pay」QR Code (金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限55萬元，如達本活動回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -332,7 +334,6 @@
       "quote": "單筆消費不限金額可享10%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -347,7 +348,8 @@
     "how": "使用「台灣 Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限37萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -392,12 +394,6 @@
       "quote": "1,500元以上(含)送300元"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
-    },
     "caps": [
      {
       "amount": 900,
@@ -412,7 +408,15 @@
     "how": "出示「台灣Pay」付款條碼進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限55萬元，如達本活動回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -460,7 +464,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -475,7 +478,8 @@
     "how": "出示「台灣Pay」付款條碼(即被掃交易，金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -499,7 +503,6 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -514,7 +517,8 @@
     "how": "使用「台灣Pay」(即主掃交易，金融卡/帳戶/信用卡)以QR Code掃碼進行支付",
     "limited": "yes",
     "limited_quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -576,12 +580,6 @@
       "quote": "滿2,000元(含)以上，即享現折200元優惠"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上"
-    },
     "caps": [
      {
       "amount": 1000,
@@ -596,7 +594,15 @@
     "how": "出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限125萬元整，如達該總金額上限即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -641,7 +647,6 @@
       "quote": "單筆結帳不限金額享20%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -656,7 +661,8 @@
     "how": "出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "回饋總金額上限110萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -701,12 +707,6 @@
       "quote": "享10%現金回饋(非即時回饋，小數點後四捨五入)"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額達新臺幣(以下同)200元(含)以上者"
-    },
     "caps": [
      {
       "amount": 100,
@@ -721,7 +721,15 @@
     "how": "出示「台灣Pay」付款條碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限為110萬元，如達回饋總金額上限，即提前停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額達新臺幣(以下同)200元(含)以上者"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -772,7 +780,6 @@
       "quote": "亦可享10%現金回饋或等值紅利點數(非即時回饋，小數點後四捨五入)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -787,7 +794,8 @@
     "how": "使用台灣 Pay 以QR Code掃碼支付成功（限金融卡/帳戶)或電子支付機構APP以QR Code掃碼支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限為30萬元整，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -832,7 +840,6 @@
       "quote": "單筆消費不限金額10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -847,7 +854,8 @@
     "how": "進行掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -905,7 +913,6 @@
       "quote": "單筆消費不限金額享10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -926,7 +933,8 @@
     "how": "以QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -982,7 +990,6 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -1003,7 +1010,8 @@
     "how": "使用「台灣 Pay」(限金融卡/帳戶)以QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1048,7 +1056,6 @@
       "quote": "可享20%現金回饋(非即時回饋，小數點後四捨五入)"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -1063,7 +1070,8 @@
     "how": "以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，額滿為止，並公告於華南銀行官網",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -1119,7 +1127,6 @@
       "quote": "單筆消費不限金額可享20%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -1140,7 +1147,8 @@
     "how": "使用「台灣 Pay」(限金融卡/帳戶)，以 QR Code 掃碼進行支付",
     "limited": "yes",
     "limited_quote": "本活動總回饋金額以47萬元為上限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1185,12 +1193,6 @@
       "quote": "即可獲得「200元漢神洲際電子商品券」乙份"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿新臺幣（以下同）2,000元（含）以上"
-    },
     "caps": [
      {
       "amount": 2,
@@ -1205,7 +1207,15 @@
     "how": "使用台灣Pay付款條碼支付",
     "limited": "yes",
     "limited_quote": "本活動限量5,750份，贈完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿新臺幣（以下同）2,000元（含）以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1250,7 +1260,6 @@
       "quote": "單筆消費不限金額享20%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 800,
@@ -1265,7 +1274,8 @@
     "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限110萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1310,7 +1320,6 @@
       "quote": "可享20%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -1325,7 +1334,8 @@
     "how": "使用「台灣Pay」(透過參與金融機構「行動銀行」APP或「台灣行動支付」APP) 至活動地點掃碼「TWQR」Code進行支付",
     "limited": "yes",
     "limited_quote": "回饋總金額上限60萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1372,7 +1382,6 @@
       "quote": "單筆不限消費金額可享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -1387,7 +1396,8 @@
     "how": "以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -1468,7 +1478,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -1483,7 +1492,8 @@
     "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1528,7 +1538,6 @@
       "quote": "單筆消費不限金額可享10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -1543,7 +1552,8 @@
     "how": "使用掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -1599,7 +1609,6 @@
       "quote": "單筆消費不限金額可享10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -1614,7 +1623,8 @@
     "how": "使用掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限10萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -1670,7 +1680,6 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -1685,7 +1694,8 @@
     "how": "使用「台灣Pay」(限金融卡/帳戶)以QR Code掃碼支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額47萬元為上限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1730,7 +1740,6 @@
       "quote": "單筆消費不限金額享10%現金回饋或點數回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -1745,7 +1754,8 @@
     "how": "掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -1801,7 +1811,6 @@
       "quote": "單筆消費不限金額可享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -1816,7 +1825,8 @@
     "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限55萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1861,7 +1871,6 @@
       "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -1876,7 +1885,8 @@
     "how": "掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限10萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1923,12 +1933,6 @@
       "quote": "可享回饋100 PChome P幣(下稱P幣)"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
-    },
     "caps": [
      {
       "amount": 300,
@@ -1943,7 +1947,15 @@
     "how": "使用「台灣Pay」(限金融卡/帳戶)成功付款",
     "limited": "yes",
     "limited_quote": "本活動回饋總P幣數量上限 72 萬P幣，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -1988,7 +2000,6 @@
       "quote": "單筆消費不限金額享10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -2009,7 +2020,8 @@
     "how": "以QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -2090,7 +2102,6 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -2105,7 +2116,8 @@
     "how": "使用「台灣Pay」(限金融卡/帳戶/信用卡)進行消費",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額55萬元為上限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2150,7 +2162,6 @@
       "quote": "單筆消費不限金額可享10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -2165,7 +2176,8 @@
     "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，如達回饋金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2210,7 +2222,6 @@
       "quote": "單筆消費不限金額10%回饋現金或點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -2225,7 +2236,8 @@
     "how": "於活動地點消費，進行掃碼支付之用戶",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限15萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2270,7 +2282,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -2285,7 +2296,8 @@
     "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2330,12 +2342,6 @@
       "quote": "即贈【100元微風電子酬賓券】乙份(可累贈)"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣(以下同)2,000元(含)以上"
-    },
     "caps": [
      {
       "amount": 5,
@@ -2356,7 +2362,15 @@
     "how": "出示「iPASS MONEY」或「台灣Pay」付款條碼進行支付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同)2,000元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -2401,7 +2415,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -2416,7 +2429,8 @@
     "how": "以「台灣Pay」QR Code掃碼進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2461,7 +2475,6 @@
       "quote": "可享單筆交易不限金額10%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 500,
@@ -2476,7 +2489,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2521,7 +2535,6 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -2536,7 +2549,8 @@
     "how": "出示「台灣Pay」付款碼(信用卡/金融卡/帳戶)進行支付(即被掃交易)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限57.5萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -2592,7 +2606,6 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -2613,7 +2626,8 @@
     "how": "以「台灣Pay」QR Code掃碼進行支付 (限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2658,7 +2672,6 @@
       "quote": "單筆消費不限金額可享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 300,
@@ -2673,7 +2686,8 @@
     "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限435,000元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2720,7 +2734,6 @@
       "quote": "單筆消費不限金額享10%之現金回饋或點數回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -2735,7 +2748,8 @@
     "how": "進行掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限60萬元，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -2791,7 +2805,6 @@
       "quote": "立即享88折結帳金額優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2799,7 +2812,8 @@
     "how": "使用「台灣Pay」(限金融卡/帳戶) 進行支付",
     "limited": "yes",
     "limited_quote": "活動一回饋總金額新臺幣(以下同)40萬元，如達本項活動總金額上限，活動即停止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "活動二、會員全加碼",
@@ -2820,7 +2834,6 @@
       "quote": "每筆成功交易不限金額即加碼贈送88元金幣"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2828,7 +2841,8 @@
     "how": "「南農電舖會員」以「台灣Pay」(限金融卡/帳戶)進行支付者",
     "limited": "yes",
     "limited_quote": "活動二回饋總金額40萬元，如達本項活動總金額上限，活動即停止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2873,7 +2887,6 @@
       "quote": "單筆消費不限金額10%回饋現金或等值點數"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -2888,7 +2901,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限300萬元(4月:20萬、5-12月:每月各35萬)，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2933,7 +2947,6 @@
       "quote": "單筆消費不限金額可享20%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -2948,7 +2961,8 @@
     "how": "以「台灣 Pay」QR Code 掃碼進行支付(金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限60萬元",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2993,12 +3007,6 @@
       "quote": "兌換「200元漢神巨蛋商品券」乙份"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "當日消費單筆滿新臺幣(以下同)2,000元(含)以上者"
-    },
     "caps": [
      {
       "amount": 2,
@@ -3013,7 +3021,15 @@
     "how": "使用「台灣Pay」(透過參與金融機構「行動銀行」APP 或「台灣行動支付」APP )於活動地點消費",
     "limited": "yes",
     "limited_quote": "本活動之商品券回饋上限為5,750份，如達回饋上限，即停止兌換",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "當日消費單筆滿新臺幣(以下同)2,000元(含)以上者"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3058,7 +3074,6 @@
       "quote": "單筆消費不限金額可享15%現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -3073,7 +3088,8 @@
     "how": "使用「台灣Pay」QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限110萬元整，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3118,7 +3134,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -3133,7 +3148,8 @@
     "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3178,7 +3194,6 @@
       "quote": "單筆消費不限金額可享20%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -3199,7 +3214,8 @@
     "how": "以「台灣Pay」QR Code掃碼進行支付 (限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動總回饋金額以47萬元為上限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [
@@ -3255,12 +3271,6 @@
       "quote": "可享5%現金回饋(非即時回饋，小數點後四捨五入)"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
-    },
     "caps": [
      {
       "amount": 50,
@@ -3275,7 +3285,15 @@
     "how": "使用「台灣 Pay」(限金融卡/帳戶)付款",
     "limited": "yes",
     "limited_quote": "本活動為限量回饋，將依用戶交易時序核算回饋資格",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -3320,7 +3338,6 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -3335,7 +3352,8 @@
     "how": "出示「台灣Pay」付款條碼(信用卡/金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限110萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3380,12 +3398,6 @@
       "quote": "可享20%現金回饋(非即時回饋，小數點後無條件捨去)"
      }
     ],
-    "min_spend": {
-     "amount": 500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額滿新臺幣(以下同)500元(含)以上"
-    },
     "caps": [
      {
       "amount": 400,
@@ -3400,7 +3412,15 @@
     "how": "出示「台灣Pay」付款碼(金融卡/帳戶/信用卡)進行消費",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額以55萬元為上限，額滿為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿新臺幣(以下同)500元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [
@@ -3456,12 +3476,6 @@
       "quote": "即享現折300元優惠"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費金額滿新臺幣（以下同）1,500元(含)以上"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3469,7 +3483,15 @@
     "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限55萬元，如達該總額上限即終止回饋",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿新臺幣（以下同）1,500元(含)以上"
+     }
+    ]
    }
   ],
   "title_sold_out": [],

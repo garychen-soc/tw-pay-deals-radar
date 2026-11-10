@@ -34,7 +34,6 @@
       "quote": "CITY CAFE 特選美式買一送一優惠券乙張。"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -49,7 +48,8 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "前500名完成任意一筆交易會員",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定百貨通路任務",
@@ -70,7 +70,6 @@
       "quote": "CITY CAFE 特選美式買一送一優惠券乙張。"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -85,7 +84,8 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "指定百貨通路前28,500名完成任意一筆交易會員可獲得",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "完成繳費拿好禮",
@@ -108,7 +108,6 @@
       "quote": "單杯(風味飲品)優惠 49 元優惠券各乙張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -123,7 +122,8 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "每月限量前 30,000 名完成繳費會員可獲得",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "完成街口首購拿好禮",
@@ -146,7 +146,6 @@
       "quote": "單杯(風味飲品)優惠 49 元優惠券各乙張"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "未曾使用街口支付完成任一筆交易之會員皆符合資格",
@@ -154,7 +153,8 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "每月限量前 10,000 名完成首購會員可獲得",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "華南銀行",
@@ -175,7 +175,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -183,7 +182,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -206,7 +206,6 @@
       "quote": "於精選通路消費最高享 3.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -214,7 +213,8 @@
     "how": "若選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -237,7 +237,6 @@
       "quote": "享最高 2.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -245,7 +244,8 @@
     "how": "若選擇使用「街利存帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街口帳戶",
@@ -266,7 +266,6 @@
       "quote": "銀牌會員以上，筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "銀牌會員以上，筆筆享 1% 街口幣回饋無上限",
@@ -274,7 +273,8 @@
     "how": "若選擇使用「街口帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -311,12 +311,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -331,7 +325,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送 $50 街口券",
@@ -352,7 +354,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -360,7 +361,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -471,12 +473,6 @@
       "quote": "單筆消費滿 $2,000 現享 9 折優惠"
      }
     ],
-    "min_spend": {
-     "amount": 2000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $2,000 現享 9 折優惠"
-    },
     "caps": [
      {
       "amount": 200,
@@ -497,7 +493,15 @@
     "how": "使用街口支付消費付款",
     "limited": "yes",
     "limited_quote": "數量有限，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $2,000 現享 9 折優惠"
+     }
+    ]
    },
    {
     "name": "百貨週年慶｜加碼 10% 回饋",
@@ -534,12 +538,6 @@
       "quote": "享 10% 街口幣即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 3000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $3,000"
-    },
     "caps": [
      {
       "amount": 300,
@@ -554,7 +552,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $3,000"
+     }
+    ]
    },
    {
     "name": "指定付款最高10%回饋",
@@ -575,7 +581,6 @@
       "quote": "筆筆享 10% 即時回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -590,7 +595,8 @@
     "how": "綁定「陽信銀行存款帳戶」付款",
     "limited": "yes",
     "limited_quote": "設有總預算上限，若預算使用完畢則將提早結束",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -615,12 +621,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -635,7 +635,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -656,7 +664,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -664,7 +671,8 @@
     "how": "綁定支付工具",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -738,12 +746,6 @@
       "quote": "單筆消費滿 $100 享 8 折，最高可折 $30"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 8 折"
-    },
     "caps": [
      {
       "amount": 30,
@@ -764,7 +766,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "每週限量 700 名，每人每券限使用一次，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 8 折"
+     }
+    ]
    },
    {
     "name": "尊爵會員限定30%回饋",
@@ -814,12 +824,6 @@
       "quote": "享 30% 即時回饋，最高可回饋 $50 街口幣"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $100 享 30% 即時回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -840,7 +844,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $100 享 30% 即時回饋"
+     }
+    ]
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -893,12 +905,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -913,7 +919,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -934,7 +948,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -942,7 +955,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1016,12 +1030,6 @@
       "quote": "單筆實際支付金額滿 $1,000 享 8% 即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $1,000"
-    },
     "caps": [
      {
       "amount": 200,
@@ -1042,7 +1050,15 @@
     "how": "於街口支付 App 活動頁登記「週四酷澎日 8%」",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $1,000"
+     }
+    ]
    },
    {
     "name": "週四限定！滿額就送街口幣",
@@ -1074,7 +1090,6 @@
       "quote": "$150 街口幣"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 250,
@@ -1089,7 +1104,8 @@
     "how": "於「酷澎 APP」使用街口付款",
     "limited": "yes",
     "limited_quote": "數量有限，先領先贏，領完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定付款｜最高享10%回饋",
@@ -1122,7 +1138,6 @@
       "quote": "最高1%"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1130,7 +1145,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -1155,12 +1171,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -1175,7 +1185,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -1196,7 +1214,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -1204,7 +1221,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1265,7 +1283,6 @@
       "quote": "享 1.5% 加碼街口幣回饋！"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1273,7 +1290,8 @@
     "how": "使用「街口帳戶」消費付款",
     "limited": "yes",
     "limited_quote": "（數量有限，先享先贏）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "11.11 大促｜優惠限定",
@@ -1294,7 +1312,6 @@
       "quote": "結帳可享限量免手續費優惠"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -1315,7 +1332,8 @@
     "how": "使用「街口支付-帳戶」（包含街口帳戶、街利存帳戶、銀行帳戶），或者「街口支付-信用卡」付款消費",
     "limited": "yes",
     "limited_quote": "名額有限，先用先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "11.11 大促｜優惠限定",
@@ -1352,12 +1370,6 @@
       "quote": "可享滿 $1,000 折 $100！"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "可享滿 $1,000 折 $100！"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1365,7 +1377,15 @@
     "how": "領券完畢用街口支付 APP 結帳",
     "limited": "yes",
     "limited_quote": "名額有限，先領先贏。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "可享滿 $1,000 折 $100！"
+     }
+    ]
    },
    {
     "name": "11.11 大促｜優惠限定",
@@ -1386,12 +1406,6 @@
       "quote": "消費滿 ¥99 現折 ¥10"
      }
     ],
-    "min_spend": {
-     "amount": 99,
-     "unit": "other",
-     "per": "txn",
-     "quote": "消費滿 ¥99 現折 ¥10"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1399,7 +1413,15 @@
     "how": "結帳時輸入折扣碼「JKOPD1110」",
     "limited": "yes",
     "limited_quote": "數量有限，先折先贏！",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "other",
+      "per": "txn",
+      "quote": "消費滿 ¥99 現折 ¥10"
+     }
+    ]
    },
    {
     "name": "華南銀行",
@@ -1420,7 +1442,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋！"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1428,7 +1449,8 @@
     "how": "選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -1451,7 +1473,6 @@
       "quote": "享最高 2.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1459,7 +1480,8 @@
     "how": "選擇使用「街利存帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -1482,7 +1504,6 @@
       "quote": "享最高 1% 街口幣回饋無上限！"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1490,7 +1511,8 @@
     "how": "選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -1515,12 +1537,6 @@
       "quote": "享 30% 街口幣回饋！"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -1535,7 +1551,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "街口新戶加碼｜最高送 $100 街口券",
@@ -1556,7 +1580,6 @@
       "quote": "1 張淘寶專屬 $50 街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "於活動期間內「首次註冊」街口支付",
@@ -1564,7 +1587,8 @@
     "how": "使用街口支付帳戶付款，包含街口帳戶、街利存帳戶、銀行帳戶",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1613,12 +1637,6 @@
       "quote": "繳費滿 $1,000，享 2% 回饋（每月每人上限一張 $20 街口券）"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "month",
-     "quote": "當月於街口 APP「繳費專區」，繳費滿 $1,000，享 2% 回饋"
-    },
     "caps": [
      {
       "amount": 1,
@@ -1633,7 +1651,15 @@
     "how": "所有付款工具合併計算，每人限領一次",
     "limited": "yes",
     "limited_quote": "每月限量 55,000 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "month",
+      "quote": "當月於街口 APP「繳費專區」，繳費滿 $1,000，享 2% 回饋"
+     }
+    ]
    },
    {
     "name": "",
@@ -1658,7 +1684,6 @@
       "quote": "享 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 30,
@@ -1679,7 +1704,8 @@
     "how": "使用華南銀行帳戶繳費付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -1700,7 +1726,6 @@
       "quote": "享 0.15% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1708,7 +1733,8 @@
     "how": "若綁定台新街口豬富卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街利存新戶繳費加碼3%",
@@ -1729,7 +1755,6 @@
       "quote": "享繳費通路筆筆 3% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -1744,7 +1769,8 @@
     "how": "透過街口支付APP指定連結成功新開立Richart帳戶及街利存帳戶者，並首次登入Richart APP",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街口新戶註冊再送$50券",
@@ -1765,7 +1791,6 @@
       "quote": "即可領取並使用專屬 $50 街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -1773,7 +1798,8 @@
     "how": "完成「實名認證或身份認證」後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "台中市路邊智慧停車無紙化",
@@ -1794,7 +1820,6 @@
       "quote": "可享最高 6 折優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -1802,7 +1827,8 @@
     "how": "綁定街口支付 APP，並設定自動代扣款成功",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -1847,7 +1873,6 @@
       "quote": "機票一口價 $999"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 2,
@@ -1862,7 +1887,8 @@
     "how": "限定使用街口支付完成付款並以新台幣結帳",
     "limited": "yes",
     "limited_quote": "優惠名額有限，先搶先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "預訂飯店最高享 21%",
@@ -1887,7 +1913,6 @@
       "quote": "單筆不限消費金額享 21%"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1600,
@@ -1908,7 +1933,8 @@
     "how": "使用「街口支付」付款時輸入指定優惠代碼",
     "limited": "yes",
     "limited_quote": "限量優惠，先結帳先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "機票/飯店最高現折 $1,000",
@@ -1935,12 +1961,6 @@
       "quote": "現折 $400"
      }
     ],
-    "min_spend": {
-     "amount": 4000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $4,000"
-    },
     "caps": [
      {
       "amount": 3,
@@ -1955,7 +1975,15 @@
     "how": "使用街口支付結帳輸入指定優惠代碼",
     "limited": "yes",
     "limited_quote": "數量有限，採先結帳先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 4000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $4,000"
+     }
+    ]
    },
    {
     "name": "Trip.com新戶獨家最高 15%",
@@ -1976,7 +2004,6 @@
       "quote": "Trip.com新戶獨家最高 15%"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "Trip.com新戶獨家最高 15%",
@@ -1984,7 +2011,8 @@
     "how": "登入 Trip.com App，點選畫面右下角「帳號」，再選擇「歡迎禮包」",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -2009,12 +2037,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -2029,7 +2051,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "街口新戶註冊 再送$50券",
@@ -2050,7 +2080,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -2058,7 +2087,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2132,12 +2162,6 @@
       "quote": "單筆消費滿 $250 享 9 折，最高可折 $25。"
      }
     ],
-    "min_spend": {
-     "amount": 250,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $250 享 9 折"
-    },
     "caps": [
      {
       "amount": 25,
@@ -2158,7 +2182,15 @@
     "how": "使用街口支付消費付款",
     "limited": "yes",
     "limited_quote": "數量有限，先折先贏。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $250 享 9 折"
+     }
+    ]
    },
    {
     "name": "採買登記享10%",
@@ -2195,12 +2227,6 @@
       "quote": "享 10% 街口幣即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 600,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $600"
-    },
     "caps": [
      {
       "amount": 60,
@@ -2215,7 +2241,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $600"
+     }
+    ]
    },
    {
     "name": "指定付款最高10%回饋",
@@ -2236,7 +2270,6 @@
       "quote": "筆筆享 5% 即時回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -2251,7 +2284,8 @@
     "how": "使用街口支付綁定「王道銀行簽帳金融卡」付款",
     "limited": "yes",
     "limited_quote": "設有總預算上限，若預算使用完畢則活動將提早結束。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -2288,12 +2322,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -2308,7 +2336,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -2329,7 +2365,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -2337,7 +2372,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2417,7 +2453,6 @@
       "quote": "每週四至週六淘寶街口帳戶付款 1.5% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2425,7 +2460,8 @@
     "how": "使用街口支付單筆消費",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定付款最高10%回饋",
@@ -2464,7 +2500,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -2479,7 +2514,8 @@
     "how": "使用街口支付綁定「將來銀行簽帳金融卡」付款",
     "limited": "yes",
     "limited_quote": "設有總預算上限，若預算使用完畢則活動將提早結束",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -2504,12 +2540,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -2524,7 +2554,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -2545,7 +2583,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -2553,7 +2590,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "電商隱藏折扣碼",
@@ -2574,7 +2612,6 @@
       "quote": "電商隱藏折扣碼"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2582,7 +2619,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "折扣碼限量1,000組。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2645,7 +2683,6 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2653,7 +2690,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -2745,7 +2783,6 @@
       "quote": "電商通用 3% 回饋限白金會員或以上適用"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2760,7 +2797,8 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "回饋金額有限、每人每登記項目限回饋一次，先回饋先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -2797,7 +2835,6 @@
       "quote": "單筆實際支付金額滿額即可享 11% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -2812,7 +2849,8 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "回饋金額有限、每人每登記項目限回饋一次，先回饋先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -2849,7 +2887,6 @@
       "quote": "單筆消費滿額即可享 89 折，最高可現折 $1,111"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1111,
@@ -2870,7 +2907,8 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "名額有限，每人每券限使用一次，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -2891,12 +2929,6 @@
       "quote": "滿 $10,000 享 8% 回饋"
      }
     ],
-    "min_spend": {
-     "amount": 10000,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "滿 $10,000 享 8% 回饋"
-    },
     "caps": [
      {
       "amount": 1000,
@@ -2917,7 +2949,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "總回饋上限 $20,000",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "滿 $10,000 享 8% 回饋"
+     }
+    ]
    },
    {
     "name": "",
@@ -2938,7 +2978,6 @@
       "quote": "下單送小蘇打洗衣球 5 入 (不挑款)"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2946,7 +2985,8 @@
     "how": "結帳輸入 JK555",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -2967,12 +3007,6 @@
       "quote": "全站消費滿 $4,800 現折 $400"
      }
     ],
-    "min_spend": {
-     "amount": 4800,
-     "unit": "元",
-     "per": "unknown",
-     "quote": "全站消費滿 $4,800 現折 $400"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -2980,7 +3014,15 @@
     "how": "街口專屬折扣碼 KCJKO2611",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 4800,
+      "unit": "元",
+      "per": "unknown",
+      "quote": "全站消費滿 $4,800 現折 $400"
+     }
+    ]
    },
    {
     "name": "華南銀行",
@@ -3001,7 +3043,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3009,7 +3050,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -3032,7 +3074,6 @@
       "quote": "享最高 2.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3040,7 +3081,8 @@
     "how": "若選擇使用「街利存帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -3063,7 +3105,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3071,7 +3112,8 @@
     "how": "若選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街口帳戶",
@@ -3092,7 +3134,6 @@
       "quote": "銀牌會員以上，筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "no",
     "new_users_quote": "銀牌會員以上，筆筆享 1% 街口幣回饋無上限",
@@ -3100,7 +3141,8 @@
     "how": "若選擇使用「街口帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -3121,7 +3163,6 @@
       "quote": "即可獲得 $30 街口幣"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "於活動期間「首次註冊」街口支付",
@@ -3129,7 +3170,8 @@
     "how": "新用戶輸入推薦碼 JKO261111 同時完成註冊及實名認證",
     "limited": "yes",
     "limited_quote": "(限量 100 名)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -3150,7 +3192,6 @@
       "quote": "即可領取並使用專屬 街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付，並完成「實名認證或身份認證」後",
@@ -3158,7 +3199,8 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3228,7 +3270,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋！"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3236,7 +3277,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -3259,7 +3301,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限！"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3267,7 +3308,8 @@
     "how": "若選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3366,7 +3408,6 @@
       "quote": "單筆實際支付金額滿額即可享最高 20% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -3381,7 +3422,8 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "AIRSIM 最高$200儲值金",
@@ -3402,12 +3444,6 @@
       "quote": "即可獲得「AIRSIM 儲值 $100 券」"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $1,000"
-    },
     "caps": [
      {
       "amount": 1,
@@ -3422,7 +3458,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "每月限量 1,000 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $1,000"
+     }
+    ]
    },
    {
     "name": "AIRSIM 最高$200儲值金",
@@ -3443,7 +3487,6 @@
       "quote": "可立即領取 $100 儲值金"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "新戶於 AIRSIM APP 註冊會員",
@@ -3451,7 +3494,8 @@
     "how": "輸入街口支付用戶專屬邀請碼 JKOPAY100",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "iGO 機場接送優惠",
@@ -3472,12 +3516,6 @@
       "quote": "「iGO 機場接送 93 折券」"
      }
     ],
-    "min_spend": {
-     "amount": 600,
-     "unit": "元",
-     "per": "txn",
-     "quote": "於「iGO 機場接送」單筆消費滿 $600 享 93 折"
-    },
     "caps": [
      {
       "amount": 100,
@@ -3498,7 +3536,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "每月限量 50 名，名額有限，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "於「iGO 機場接送」單筆消費滿 $600 享 93 折"
+     }
+    ]
    },
    {
     "name": "參與資格:每月完成於 iGO 預訂來回機場接送服務",
@@ -3519,7 +3565,6 @@
       "quote": "即可獲得抽「全台機場東方宇逸貴賓室 Oriental Club Lounge 之免費使用資格」機會一次"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3527,7 +3572,8 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "每月限量 5 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "品牌加碼優惠",
@@ -3560,7 +3606,6 @@
       "quote": "日本商品 滿 $2,500 折 $150"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 2,
@@ -3575,7 +3620,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "限量 100 名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "旅遊服務即享券",
@@ -3610,7 +3656,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3618,7 +3663,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -3643,12 +3689,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -3663,7 +3703,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -3684,7 +3732,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "活動期間內「首次註冊」街口支付",
@@ -3692,7 +3739,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -3766,12 +3814,6 @@
       "quote": "單筆消費滿 $800 享 88折 優惠"
      }
     ],
-    "min_spend": {
-     "amount": 800,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $800 享 88折 優惠"
-    },
     "caps": [
      {
       "amount": 100,
@@ -3792,7 +3834,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "每週名額有限，每人每券限使用一次，先折先贏。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $800 享 88折 優惠"
+     }
+    ]
    },
    {
     "name": "91APP精選品牌｜登記享 10%",
@@ -3842,12 +3892,6 @@
       "quote": "享 10% 街口幣即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $1,500 享 10% 街口幣即時回饋"
-    },
     "caps": [
      {
       "amount": 150,
@@ -3868,7 +3912,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告。",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $1,500 享 10% 街口幣即時回饋"
+     }
+    ]
    },
    {
     "name": "指定付款｜最高 10% 回饋",
@@ -3889,7 +3941,6 @@
       "quote": "筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -3897,7 +3948,8 @@
     "how": "選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -3950,12 +4002,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -3970,7 +4016,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -3991,7 +4045,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -3999,7 +4052,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4056,12 +4110,6 @@
       "quote": "集滿 8 點，可再領取 30 元街口幣"
      }
     ],
-    "min_spend": {
-     "amount": 50,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付滿 $50 才算完成"
-    },
     "caps": [
      {
       "amount": 60,
@@ -4076,7 +4124,15 @@
     "how": "使用街口支付 APP",
     "limited": "yes",
     "limited_quote": "獎勵名額有限，先領先得",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付滿 $50 才算完成"
+     }
+    ]
    },
    {
     "name": "指定付款｜最高享10%回饋",
@@ -4115,7 +4171,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4123,7 +4178,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -4148,12 +4204,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -4168,7 +4218,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -4189,7 +4247,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -4197,7 +4254,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4242,7 +4300,6 @@
       "quote": "單筆消費不限金額即可享有 10% 折抵"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 150,
@@ -4257,7 +4314,8 @@
     "how": "需綁定街口支付至 Apple 帳戶成為預設付款方式",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "滿額最高領 $100",
@@ -4284,12 +4342,6 @@
       "quote": "$70 街口幣"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "campaign",
-     "quote": "滿 $1,000"
-    },
     "caps": [
      {
       "amount": 1,
@@ -4304,7 +4356,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "（名額有限，先領先贏）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "滿 $1,000"
+     }
+    ]
    },
    {
     "name": "首綁抽 $5,000 街口幣",
@@ -4325,7 +4385,6 @@
       "quote": "每名可獲得街口幣 $5,000"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "首次於 Apple 帳號綁定街口支付 App，即可獲得當月抽獎資格",
@@ -4333,7 +4392,8 @@
     "how": "首次於 Apple 帳號綁定街口支付 App",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定付款最高 10%",
@@ -4354,7 +4414,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4362,7 +4421,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4409,12 +4469,6 @@
       "quote": "單筆消費滿 $666 即可折抵 $66"
      }
     ],
-    "min_spend": {
-     "amount": 666,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $666 即可折抵 $66"
-    },
     "caps": [
      {
       "amount": 1,
@@ -4429,7 +4483,15 @@
     "how": "使用「街口支付」",
     "limited": "yes",
     "limited_quote": "先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 666,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $666 即可折抵 $66"
+     }
+    ]
    },
    {
     "name": "最高7%街口幣再加碼",
@@ -4450,7 +4512,6 @@
       "quote": "消費不限金額可享加碼 7% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 65,
@@ -4465,7 +4526,8 @@
     "how": "使用街口支付結帳",
     "limited": "yes",
     "limited_quote": "每日預算用完為止",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "抽 $66 OPENPOINT 5,000點",
@@ -4486,12 +4548,6 @@
       "quote": "「OPENPOINT點數5,000點」抽獎資格，共抽10名"
      }
     ],
-    "min_spend": {
-     "amount": 1,
-     "unit": "筆",
-     "per": "campaign",
-     "quote": "使用街口支付完成任一筆消費"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4499,7 +4555,15 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "共抽10名，合計共5萬點",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "使用街口支付完成任一筆消費"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4589,12 +4653,6 @@
       "quote": "可獲得 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -4615,7 +4673,15 @@
     "how": "使用街口支付",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付滿 $100"
+     }
+    ]
    }
   ],
   "title_sold_out": [],
@@ -4685,12 +4751,6 @@
       "quote": "有機會抽中 $100 街口幣"
      }
     ],
-    "min_spend": {
-     "amount": 5000,
-     "unit": "元",
-     "per": "month",
-     "quote": "單一月份累積消費金額滿新台幣 $5,000"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4698,7 +4758,15 @@
     "how": "透過 PayPay 使用街口支付付款",
     "limited": "yes",
     "limited_quote": "（每月抽出 500 名）",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "month",
+      "quote": "單一月份累積消費金額滿新台幣 $5,000"
+     }
+    ]
    },
    {
     "name": "日本精選店家加碼",
@@ -4725,7 +4793,6 @@
       "quote": "免海外手續費 1.5% + 最高 8% 優惠"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4733,7 +4800,8 @@
     "how": "依指示使用街口支付 APP 並「出示 PayPay 付款碼」結帳",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -4758,12 +4826,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -4778,7 +4840,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "華南銀行",
@@ -4799,7 +4869,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4807,7 +4876,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -4877,12 +4947,6 @@
       "quote": "每人集滿 8 點最高可以領 $60 街口幣。"
      }
     ],
-    "min_spend": {
-     "amount": 50,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $50"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -4890,7 +4954,15 @@
     "how": "使用街口支付 APP",
     "limited": "yes",
     "limited_quote": "獎勵名額有限，先領先得",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $50"
+     }
+    ]
    },
    {
     "name": "2小時免費借電券*3",
@@ -4927,7 +4999,6 @@
       "quote": "2小時免費借電券*3"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -4942,7 +5013,8 @@
     "how": "複製上方優惠碼並至旅電 APP 進行兌換",
     "limited": "yes",
     "limited_quote": "限量 50,000組",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "Autopass One 3 個月免費體驗",
@@ -4979,7 +5051,6 @@
       "quote": "Autopass One 3 個月免費體驗"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -4994,7 +5065,8 @@
     "how": "輸入兌換序號以及信用卡資訊完成會籍兌換",
     "limited": "yes",
     "limited_quote": "限量 500組，先換先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "尊爵會員午餐加碼 30% 回饋",
@@ -5031,12 +5103,6 @@
       "quote": "享 30% 街口幣即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -5057,7 +5123,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $100"
+     }
+    ]
    },
    {
     "name": "尊爵專屬 繳費手續費減免券",
@@ -5078,7 +5152,6 @@
       "quote": "全額折抵手續費金額"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5086,7 +5159,8 @@
     "how": "使用街口 APP 繳納",
     "limited": "no",
     "limited_quote": "總折抵名額不限量",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "環亞機場貴賓室",
@@ -5111,7 +5185,6 @@
       "quote": "免費使用資格 1 次"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5126,7 +5199,8 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "每月數量有限，先申請先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "華南銀行",
@@ -5147,7 +5221,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5155,7 +5228,8 @@
     "how": "若選擇使用「華南銀行帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -5178,7 +5252,6 @@
       "quote": "最高享 3.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5186,7 +5259,8 @@
     "how": "若選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -5209,7 +5283,6 @@
       "quote": "最高 2.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5217,7 +5290,8 @@
     "how": "若選擇使用「街利存帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街口帳戶",
@@ -5238,7 +5312,6 @@
       "quote": "筆筆享 1% 無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5246,7 +5319,8 @@
     "how": "若選擇使用「街口帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -5271,12 +5345,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -5291,7 +5359,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "「首次註冊」街口支付",
@@ -5312,7 +5388,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -5320,7 +5395,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5367,7 +5443,6 @@
       "quote": "即可領取並使用專屬 $50 街口券，不限金額皆可折抵"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "註冊街口支付，完成實名認證或身份認證後",
@@ -5375,7 +5450,8 @@
     "how": "註冊街口支付，完成實名認證或身份認證後，並綁定支付工具後",
     "limited": "yes",
     "limited_quote": "如街口券名額尚未額滿，系統將自動套用街口券折抵",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "首購好禮加碼",
@@ -5396,7 +5472,6 @@
       "quote": "CITY CAFE 經典美式買一送一 & 單杯（風味飲品）優惠 $49 優惠券各乙張"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1,
@@ -5411,7 +5486,8 @@
     "how": "活動時間內使用街口支付完成不限金額生涯首購",
     "limited": "yes",
     "limited_quote": "每月限前 10,000 名完成首購可收到",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -5448,12 +5524,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -5468,7 +5538,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "指定付款｜最高享 10%回饋",
@@ -5489,7 +5567,6 @@
       "quote": "最高享 10%回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5497,7 +5574,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5566,7 +5644,6 @@
      "回饋數值 9 在引句中找不到：肯德基專屬街口券 消費享九折"
     ],
     "rewards": [],
-    "min_spend": null,
     "caps": [
      {
       "amount": 50,
@@ -5587,7 +5664,8 @@
     "how": "消費使用街口支付",
     "limited": "yes",
     "limited_quote": "限量 每人每週限抵 1 次，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "必勝客專屬券",
@@ -5632,7 +5710,6 @@
      "回饋數值 9 在引句中找不到：必勝客專屬街口券 消費享九折"
     ],
     "rewards": [],
-    "min_spend": null,
     "caps": [
      {
       "amount": 80,
@@ -5653,7 +5730,8 @@
     "how": "消費使用街口支付",
     "limited": "yes",
     "limited_quote": "限量 每人每週限抵 1 次，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "華南銀行",
@@ -5674,7 +5752,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5682,7 +5759,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -5705,7 +5783,6 @@
       "quote": "最高 2.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5713,7 +5790,8 @@
     "how": "若選擇使用「街利存帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -5736,7 +5814,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5744,7 +5821,8 @@
     "how": "若選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街口帳戶",
@@ -5765,7 +5843,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -5773,7 +5850,8 @@
     "how": "若選擇使用「街口帳戶」 付款，銀牌會員以上",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -5798,12 +5876,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -5818,7 +5890,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "街口新戶註冊再送$50券",
@@ -5839,7 +5919,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -5847,7 +5926,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -5892,12 +5972,6 @@
       "quote": "單筆消費滿 $200 享 8% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $200"
-    },
     "caps": [
      {
       "amount": 20,
@@ -5924,7 +5998,15 @@
     "how": "使用「街口支付」付款",
     "limited": "yes",
     "limited_quote": "每日限量555名，先用先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $200"
+     }
+    ]
    },
    {
     "name": "門市、自助點餐機｜最高拿5%",
@@ -5945,12 +6027,6 @@
       "quote": "單筆消費滿 $200 享 5% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 200,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $200"
-    },
     "caps": [
      {
       "amount": 10,
@@ -5977,7 +6053,15 @@
     "how": "使用「街口支付」付款",
     "limited": "yes",
     "limited_quote": "每日限量 1,111名，先用先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $200"
+     }
+    ]
    },
    {
     "name": "指定付款｜最高10%回饋",
@@ -6010,7 +6094,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6018,7 +6101,8 @@
     "how": "使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -6043,12 +6127,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -6063,7 +6141,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送 $50 街口券",
@@ -6084,7 +6170,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -6092,7 +6177,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6162,12 +6248,6 @@
       "quote": "單筆消費滿 $2,500 享 7% 即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 2500,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $2,500 享 7% 即時回饋"
-    },
     "caps": [
      {
       "amount": 175,
@@ -6188,7 +6268,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $2,500 享 7% 即時回饋"
+     }
+    ]
    },
    {
     "name": "期間限定加碼最高7.5%",
@@ -6209,7 +6297,6 @@
       "quote": "單筆消費滿額享最高 7.5% 回饋"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 750,
@@ -6224,7 +6311,8 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "週日全球一日遊92折",
@@ -6245,7 +6333,6 @@
       "quote": "即享 92 折"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 200,
@@ -6260,7 +6347,8 @@
     "how": "使用「每週日街口專屬優惠碼序號」",
     "limited": "yes",
     "limited_quote": "(每週限量 100 組)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "Klook 優惠再加碼",
@@ -6281,7 +6369,6 @@
       "quote": "即享 95 折"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 1000,
@@ -6296,7 +6383,8 @@
     "how": "使用「街口專屬優惠碼序號」",
     "limited": "yes",
     "limited_quote": "(每月折抵上限 $50,000)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "Klook 優惠再加碼",
@@ -6317,7 +6405,6 @@
       "quote": "即享 96 折"
      }
     ],
-    "min_spend": null,
     "caps": [
      {
       "amount": 100,
@@ -6332,7 +6419,8 @@
     "how": "使用街口支付並全額付款",
     "limited": "yes",
     "limited_quote": "(總共 500 組)",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "指定付款｜最高10%回饋",
@@ -6371,7 +6459,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6379,7 +6466,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -6404,12 +6492,6 @@
       "quote": "享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -6424,7 +6506,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -6445,7 +6535,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "活動期間內「首次註冊」街口支付",
@@ -6453,7 +6542,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6527,12 +6617,6 @@
       "quote": "單筆實際支付金額滿 $50 享 30% 即時回饋"
      }
     ],
-    "min_spend": {
-     "amount": 50,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實際支付金額滿 $50"
-    },
     "caps": [
      {
       "amount": 15,
@@ -6553,7 +6637,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際支付金額滿 $50"
+     }
+    ]
    },
    {
     "name": "指定付款最高10%回饋",
@@ -6592,7 +6684,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6600,7 +6691,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -6625,12 +6717,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100"
-    },
     "caps": [
      {
       "amount": 50,
@@ -6645,7 +6731,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -6666,7 +6760,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "活動期間內「首次註冊」街口支付",
@@ -6674,7 +6767,8 @@
     "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
@@ -6762,12 +6856,6 @@
       "quote": "單筆消費滿 $600 享 8% 優惠"
      }
     ],
-    "min_spend": {
-     "amount": 600,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $600 享 8% 優惠"
-    },
     "caps": [
      {
       "amount": 50,
@@ -6788,7 +6876,15 @@
     "how": "消費使用街口支付",
     "limited": "yes",
     "limited_quote": "每週限量折抵 860名",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $600 享 8% 優惠"
+     }
+    ]
    },
    {
     "name": "電商、旅遊消費滿額，送$20街口券",
@@ -6809,12 +6905,6 @@
       "quote": "「萬家福、樂家康 $20 折抵券」 一張"
      }
     ],
-    "min_spend": {
-     "amount": 1000,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿$1,000之消費門檻"
-    },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6822,7 +6912,15 @@
     "how": "使用街口支付付款",
     "limited": "yes",
     "limited_quote": "每券限量 4500 名，每券限使用一次，名額有限，先折先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$1,000之消費門檻"
+     }
+    ]
    },
    {
     "name": "華南銀行",
@@ -6843,7 +6941,6 @@
       "quote": "享全通路筆筆 10% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6851,7 +6948,8 @@
     "how": "若選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -6874,7 +6972,6 @@
       "quote": "享最高 2.5% 街口幣回饋"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6882,7 +6979,8 @@
     "how": "若選擇使用「街利存帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "",
@@ -6905,7 +7003,6 @@
       "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6913,7 +7010,8 @@
     "how": "若選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "街口帳戶",
@@ -6934,7 +7032,6 @@
       "quote": "銀牌會員以上，筆筆享 1% 街口幣回饋無上限"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -6942,7 +7039,8 @@
     "how": "若選擇使用「街口帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
@@ -7006,12 +7104,6 @@
       "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
      }
     ],
-    "min_spend": {
-     "amount": 100,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
-    },
     "caps": [
      {
       "amount": 50,
@@ -7026,7 +7118,15 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ]
    },
    {
     "name": "新戶限定｜送$50街口券",
@@ -7047,7 +7147,6 @@
       "quote": "即可領取專屬$50街口券"
      }
     ],
-    "min_spend": null,
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
@@ -7055,7 +7154,8 @@
     "how": "並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": []
+    "sold_out": [],
+    "min_spends": []
    }
   ],
   "title_sold_out": [],
