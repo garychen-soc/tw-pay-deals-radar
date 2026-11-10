@@ -21,7 +21,7 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "0f1e880c0622372c",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -163,7 +163,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "1e933fa00c6e44fd",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -349,7 +349,32 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b8d2050c88fd4b7a",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-06b741fed1",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【CashBack】單筆滿 $1111，送 $111 獎勵金！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DINQN5HBHH64UdIED",
+  "period_start": "2026-11-06",
+  "period_end": "2026-11-30",
+  "category": "",
+  "terms_source": "external",
+  "external_url": "https://cashback.tw/雙11賺20回饋",
+  "is_offer": "unknown",
+  "registration": "unknown",
+  "registration_quote": "",
+  "offers": [],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [
+   "條款在合作方網站，未抽取，請點官方頁確認"
+  ],
+  "content_hash": "b369c901374a3bbd",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -568,7 +593,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "43c370d20c1b0464",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -593,7 +618,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "cbb7bd3605af8155",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -662,7 +687,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "cc065afbfa989a20",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -732,7 +757,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "79750ad562c5d187",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -802,7 +827,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "05fe729871eaf25e",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -827,7 +852,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "4cc21dff0966b6de",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -930,7 +955,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "117c3bb24c2ad331",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -987,7 +1012,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "da553799c09c896e",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1054,7 +1079,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "26224a0412c5e0d9",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1130,7 +1155,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "9a6e9e22c7e4af3f",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1226,7 +1251,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "a888df96cc130c71",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1327,7 +1352,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "e1fa2bf8a2e5114f",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1377,7 +1402,7 @@
     "where": "",
     "how": "綁定聯邦信用卡",
     "limited": "yes",
-    "limited_quote": "11月份回饋上限已於2026/11/3 17:00 額滿",
+    "limited_quote": "11月份回饋上限已於 2026/11/3 17:00 額滿",
     "sold_out": [
      {
       "scope_label": "11月份",
@@ -1385,7 +1410,7 @@
       "scope_end": "2026-11-30",
       "source": "terms",
       "evidence": {
-       "quote": "11月份回饋上限已於2026/11/3 17:00 額滿",
+       "quote": "11月份回饋上限已於 2026/11/3 17:00 額滿",
        "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj"
       }
      }
@@ -1407,7 +1432,7 @@
       "kind": "cash",
       "value": 150.0,
       "unit": "元",
-      "quote": "完成指定任務最高享 150 元"
+      "quote": "最高享 150 元"
      }
     ],
     "min_spend": null,
@@ -1436,7 +1461,7 @@
       "kind": "cash",
       "value": 250.0,
       "unit": "元",
-      "quote": "完成指定任務享 250 元回饋"
+      "quote": "享 250 元回饋"
      }
     ],
     "min_spend": null,
@@ -1508,9 +1533,20 @@
     "new_users_quote": "",
     "where": "",
     "how": "綁定王道Debit卡",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
+    "limited": "yes",
+    "limited_quote": "11月份回饋上限已於 2026/11/9 額滿",
+    "sold_out": [
+     {
+      "scope_label": "11月份",
+      "scope_start": "2026-11-01",
+      "scope_end": "2026-11-30",
+      "source": "terms",
+      "evidence": {
+       "quote": "11月份回饋上限已於 2026/11/9 額滿",
+       "url": "https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj"
+      }
+     }
+    ]
    },
    {
     "name": "指定連結開立王道帳戶，並符合條件享 600 元回饋",
@@ -1666,8 +1702,8 @@
   "title_sold_out": [],
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
-  "content_hash": "358fccdbcd991e00",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "content_hash": "ddb2d70de6ad6959",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1852,7 +1888,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b90a12081f01b5f5",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1919,7 +1955,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "22914747da20cb9e",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2096,7 +2132,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "31adcf3bb31e8022",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2223,207 +2259,14 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "16eb53e344db51af",
-  "observed_at": "2026-11-06T07:05:15+08:00",
-  "stale": false
- },
- {
-  "id": "ipassmoney-9804812d7d",
-  "provider_id": "ipassmoney",
-  "provider_name": "一卡通 iPASS MONEY",
-  "title": "【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！",
-  "aliases": [],
-  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DIMQ6R7A6Z647SEU8",
-  "period_start": "2026-11-04",
-  "period_end": "2026-11-09",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "not_required",
-  "registration_quote": "結帳時出示 uniopen 會員條碼或報會員電話以獲得本活動優惠",
-  "offers": [
-   {
-    "name": "優惠一:指定商品任選 4 件 75 折",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "discount",
-      "value": 75.0,
-      "unit": "折",
-      "quote": "指定商品任選 4 件 75 折"
-     }
-    ],
-    "min_spend": {
-     "amount": 4,
-     "unit": "other",
-     "per": "txn",
-     "quote": "指定商品任選 4 件 75 折"
-    },
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "全台 7-ELEVEN 便利商店實體通路",
-    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   },
-   {
-    "name": "優惠二:結帳金額單筆滿 1,111 元再現折 100 元",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 30000,
-    "quota_quote": "本活動總折抵上限 3 萬筆，用完即止",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "discount",
-      "value": 100.0,
-      "unit": "元",
-      "quote": "結帳金額單筆滿 1,111 元再現折 100 元"
-     }
-    ],
-    "min_spend": {
-     "amount": 1111,
-     "unit": "元",
-     "per": "txn",
-     "quote": "結帳金額單筆滿 1,111 元再現折 100 元"
-    },
-    "caps": [
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "txn",
-      "quote": "單筆交易限折抵一次，不累折"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "全台 7-ELEVEN 便利商店實體通路",
-    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
-    "limited": "yes",
-    "limited_quote": "本活動總折抵上限 3 萬筆，用完即止",
-    "sold_out": []
-   },
-   {
-    "name": "第一重:單筆滿 1,111 元最高抽 66 元購物金",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "cash",
-      "value": 66.0,
-      "unit": "元",
-      "quote": "單筆滿 1,111 元最高抽 66 元購物金"
-     },
-     {
-      "kind": "gift",
-      "value": null,
-      "unit": "other",
-      "quote": "「UNIDESIGN新柔感抽取式衛生紙」(價值 109 元/串)"
-     },
-     {
-      "kind": "coupon",
-      "value": null,
-      "unit": "other",
-      "quote": "「中杯美式 2 杯」乙張免費兌換券"
-     }
-    ],
-    "min_spend": {
-     "amount": 1111,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 1,111 元最高抽 66 元購物金"
-    },
-    "caps": [
-     {
-      "amount": 5,
-      "unit": "other",
-      "per": "txn",
-      "quote": "單筆交易上限贈 5 張優惠券"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "全台 7-ELEVEN 便利商店實體通路",
-    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   },
-   {
-    "name": "第二重:單筆滿 1,711 元送贈品三選一兌換券一張",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "數量有限，送完為止",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 1.0,
-      "unit": "other",
-      "quote": "單筆滿 1,711 元送贈品三選一兌換券一張"
-     }
-    ],
-    "min_spend": {
-     "amount": 1711,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿 1,711 元送贈品三選一兌換券一張"
-    },
-    "caps": [
-     {
-      "amount": 3,
-      "unit": "other",
-      "per": "campaign",
-      "quote": "每會員上限 3 張兌換券"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "全台 7-ELEVEN 便利商店實體通路",
-    "how": "結帳時開啟 iPASS MONEY APP「付款碼」完成付款",
-    "limited": "yes",
-    "limited_quote": "數量有限，送完為止",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
-  "review": [],
-  "content_hash": "c10d8a9ee56195a2",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
   "id": "ipassmoney-a44ccfca4a",
   "provider_id": "ipassmoney",
   "provider_name": "一卡通 iPASS MONEY",
-  "title": "【王道銀行】綁王道卡消費，最高享 5% 回饋！",
+  "title": "[11月份回饋上限已於 2026/11/9 額滿 ]【王道銀行】綁王道卡消費，最高享 5% 回饋！",
   "aliases": [],
   "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE",
   "period_start": "2026-08-01",
@@ -2435,13 +2278,24 @@
   "registration": "unknown",
   "registration_quote": "",
   "offers": [],
-  "title_sold_out": [],
+  "title_sold_out": [
+   {
+    "scope_label": "11月份",
+    "scope_start": "2026-11-01",
+    "scope_end": "2026-11-30",
+    "source": "title",
+    "evidence": {
+     "quote": "[11月份回饋上限已於 2026/11/9 額滿 ]【王道銀行】綁王道卡消費，最高享 5% 回饋！",
+     "url": "https://www.i-pass.com.tw/Preferential/Detail/GMZTSMIHZAX2I64Cw4rE"
+    }
+   }
+  ],
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "c070cf2db0697e31",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2466,7 +2320,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "1ae47bf74f776ee0",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2531,7 +2385,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "d938c85688c394c1",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2645,7 +2499,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "3b34222eaa6433ce",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2847,7 +2701,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "2edb6dd264d0073a",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2957,7 +2811,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "cdd85374e17871d4",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3019,7 +2873,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "114053b003acdcf0",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3044,7 +2898,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "b2a18ddddcaf0c2d",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3202,7 +3056,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "a2f095c186657f50",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3273,7 +3127,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "eef65a3256ec0e01",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3335,7 +3189,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "e8d3464c2f0a6c2e",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3417,7 +3271,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "15ba49ff40bf41cc",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3442,7 +3296,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "3c5bb52a59a3f9a4",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3478,7 +3332,108 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "7c6dd74368ea108a",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-efd4a7f657",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【土地銀行】iPASS MONEY 連結土地銀行帳戶，完成任務最高享 50 元！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DINIKFTAWL64pmokA",
+  "period_start": "2026-11-10",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "",
+  "offers": [
+   {
+    "name": "活動一:首次連結加碼禮",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 500,
+    "quota_quote": "限量前 500 名",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20.0,
+      "unit": "元",
+      "quote": "回饋 iPASS MONEY 儲值金 20 元"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限回饋乙次"
+     }
+    ],
+    "new_users_only": "yes",
+    "new_users_quote": "限於 2026/11/10 00:00 前從未使用過 iPASS MONEY 連結土地銀行帳戶之用戶，即符合活動一「首次連結」資格",
+    "where": "",
+    "how": "以 iPASS MONEY「首次連結」土地銀行帳戶",
+    "limited": "yes",
+    "limited_quote": "限量前 500 名",
+    "sold_out": []
+   },
+   {
+    "name": "活動二:消費滿額禮",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 3000,
+    "quota_quote": "限量前 3000 名",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30.0,
+      "unit": "元",
+      "quote": "享 iPASS MONEY 儲值金 30 元回饋"
+     }
+    ],
+    "min_spend": {
+     "amount": 150,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿新臺幣(以下同) 150 元（含）以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限回饋乙次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "將上述帳戶設定為「自動儲值」或「同意自動儲值交易差額」帳戶（擇一即可）",
+    "limited": "yes",
+    "limited_quote": "限量前 3000 名",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "5795a5d35a018901",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3542,7 +3497,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "096edfc4971ffcaa",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3567,7 +3522,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "8ba01e8feb247e8d",
-  "observed_at": "2026-11-06T07:05:15+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  }
 ]

@@ -1,0 +1,564 @@
+{
+ "key": "873bdfa64d3eacccb8fd1d3e",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:22:31+00:00",
+ "title": "悠遊付繳地價稅筆筆3% 滿額最高回饋7%",
+ "duration_ms": 26846,
+ "cost_usd": 0.0841252,
+ "usage": {
+  "input": 2,
+  "output": 4750,
+  "cache_creation": 8982,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用悠遊付繳納地價稅每筆扣款享3%悠遊付回饋金"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "活動需登錄，登錄名額無上限。"
+  },
+  "subs": [
+   {
+    "name": "早鳥滿額贈",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "贈總價值100元悠遊付現金回饋券1份"
+     }
+    ],
+    "min_spend": {
+     "amount": 5000,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "10/28~10/31期間使用悠遊付繳納地價稅累計滿5,000元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每戶限贈1份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付繳納地價稅",
+    "limited": {
+     "value": "yes",
+     "quote": "限量1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "限量1,000名"
+    },
+    "sold_out": [
+     {
+      "quote": "【已於10/28(三)00:03額滿】",
+      "scope_label": "早鳥滿額贈",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "筆筆3%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "每筆扣款享3%悠遊付回饋金"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "10/28~10/31每戶回饋上限50元"
+     },
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "11/1~11/30每戶回饋上限50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付繳納地價稅",
+    "limited": {
+     "value": "yes",
+     "quote": "先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋總金額90萬元"
+    },
+    "sold_out": [
+     {
+      "quote": "【10/28~10/31筆筆回饋已於10/28(三)20:14額滿】",
+      "scope_label": "10/28~10/31",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 28,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "【11/1~11/30筆筆回饋已於11/6(五)14:49額滿】",
+      "scope_label": "11/1~11/30",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "滿額回饋禮",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 600,
+      "unit": "元",
+      "quote": "贈總價值600元悠遊付現金回饋券1份"
+     }
+    ],
+    "min_spend": {
+     "amount": 12000,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "活動期間使用悠遊付繳納地價稅累計滿12,000元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每戶限贈1份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付繳納地價稅",
+    "limited": {
+     "value": "yes",
+     "quote": "限量1,500名"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "限量1,500名"
+    },
+    "sold_out": [
+     {
+      "quote": "【已於10/28(三)15:38額滿】",
+      "scope_label": "滿額回饋禮",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "高額加碼禮",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 200,
+      "unit": "元",
+      "quote": "再加贈200元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 50000,
+     "unit": "元",
+     "per": "campaign",
+     "quote": "累計滿5萬元"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每戶限贈1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付繳地價稅",
+    "limited": {
+     "value": "yes",
+     "quote": "限量1,500名"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "限量1,500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【信用卡繳稅禮】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 0.2,
+      "unit": "%",
+      "quote": "登錄享0.2% 玉山e point點數回饋"
+     }
+    ],
+    "min_spend": null,
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "unclear",
+      "quote": "每歸戶回饋上限50點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定玉山信用卡繳地價稅",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【首綁新戶禮】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "再加贈50點e point點數"
+     }
+    ],
+    "min_spend": {
+     "amount": 10000,
+     "unit": "元",
+     "per": "unclear",
+     "quote": "首綁新戶繳納地價稅累計滿1萬元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每歸戶回饋上限1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首綁新戶繳納地價稅累計滿1萬元(含)以上"
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【數位存款帳戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 150,
+      "unit": "元",
+      "quote": "享150元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "直接扣款消費單筆金額滿200元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "台中銀行活動每歸戶回饋上限1次並限擇一領取"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定台中銀行Lolly Bank數位存款帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "活動期間限額1,500名"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "活動期間限額1,500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【一般存款帳戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "享100元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 200,
+     "unit": "元",
+     "per": "txn",
+     "quote": "直接扣款消費單筆金額滿200元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "台中銀行活動每歸戶回饋上限1次並限擇一領取"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定台中銀行存款帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "活動期間限額1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "活動期間限額1,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【iLEO數位帳戶新戶禮】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 120,
+      "unit": "元",
+      "quote": "享120元悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 2,
+     "unit": "筆",
+     "per": "campaign",
+     "quote": "直接扣款交易任2筆"
+    },
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶回饋上限1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次申辦第一銀行iLEO數位帳戶"
+    },
+    "where": "",
+    "how": "使用悠遊付綁定該數位帳戶直接扣款交易",
+    "limited": {
+     "value": "yes",
+     "quote": "活動期間限額5,000名"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "活動期間限額5,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【週五5%回饋】",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5,
+      "unit": "%",
+      "quote": "享筆筆回饋5%悠遊付回饋金"
+     }
+    ],
+    "min_spend": {
+     "amount": 100,
+     "unit": "元",
+     "per": "txn",
+     "quote": "直接扣款消費單筆金額滿100元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 20,
+      "unit": "元",
+      "per": "week",
+      "quote": "每悠遊付會員每週五回饋上限20元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定第一銀行新臺幣存款帳戶(含iLEO數位帳戶)",
+    "limited": {
+     "value": "yes",
+     "quote": "每週五回饋總上限為2萬元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週五回饋總上限為2萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -56,7 +56,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "a30dd3b348ab14cd",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -162,7 +162,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "ae349e7a94978c6e",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -178,8 +178,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "required",
-  "registration_quote": "本活動需登錄，活動期間僅需登錄 1 次即可參加每月加碼活動",
+  "registration": "unknown",
+  "registration_quote": "",
   "offers": [
    {
     "name": "活動一、單筆滿 $15,000 贈 500 P",
@@ -197,7 +197,7 @@
       "kind": "points",
       "value": 500.0,
       "unit": "點",
-      "quote": "單筆消費滿 NT$15,000 (含) 以上贈 500 P幣"
+      "quote": "贈 500 P幣"
      }
     ],
     "min_spend": {
@@ -219,10 +219,10 @@
     "where": "PChome 24h 購物",
     "how": "使用 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
-    "limited_quote": "活動一回饋總預算 125,000 元，分兩波段開放預算，各波段額滿為止",
+    "limited_quote": "活動一回饋總預算 125,000 元，分兩波段開放預算，各波段額滿為止。",
     "sold_out": [
      {
-      "scope_label": "第一波 (11/1~11/8)",
+      "scope_label": "11/1-11/8活動一預算",
       "scope_start": "2026-11-01",
       "scope_end": "2026-11-08",
       "source": "terms",
@@ -249,7 +249,7 @@
       "kind": "points",
       "value": 1800.0,
       "unit": "點",
-      "quote": "單筆消費滿 NT$36,000 (含) 以上贈 1,800 P幣"
+      "quote": "贈 1,800 P幣"
      }
     ],
     "min_spend": {
@@ -271,15 +271,25 @@
     "where": "PChome 24h 購物",
     "how": "使用 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
-    "limited_quote": "活動二回饋總預算 279,000 元，分兩波段開放預算，各波段額滿為止",
+    "limited_quote": "活動二回饋總預算 279,000 元，分兩波段開放預算，各波段額滿為止。",
     "sold_out": [
      {
-      "scope_label": "第一波 (11/1~11/8)",
+      "scope_label": "11/1-11/8活動二預算",
       "scope_start": "2026-11-01",
       "scope_end": "2026-11-08",
       "source": "terms",
       "evidence": {
        "quote": "11/1-11/8活動二預算已於11/1 下午18:50額滿",
+       "url": "https://web.piapp.com.tw/2611p24/"
+      }
+     },
+     {
+      "scope_label": "11/9-11/11活動二預算",
+      "scope_start": "2026-11-09",
+      "scope_end": "2026-11-11",
+      "source": "terms",
+      "evidence": {
+       "quote": "11/9-11/11活動二預算已於11/10 下午17:00額滿",
        "url": "https://web.piapp.com.tw/2611p24/"
       }
      }
@@ -291,8 +301,8 @@
     "rules": [],
     "reregister": "once",
     "reregister_quote": "活動期間僅需登錄 1 次即可參加每月加碼活動",
-    "order": "unknown",
-    "order_quote": "",
+    "order": "register_before_spend",
+    "order_quote": "自登錄當月始計算每月消費金額，不溯及既往",
     "quota": null,
     "quota_quote": "",
     "review": [],
@@ -331,9 +341,9 @@
     "slots": [],
     "rules": [],
     "reregister": "once",
-    "reregister_quote": "2026/2/28~2026/8/31 已登錄者，無須再次登錄。",
-    "order": "unknown",
-    "order_quote": "",
+    "reregister_quote": "活動期間僅需登錄 1 次即可參加每月刷卡活動",
+    "order": "register_before_spend",
+    "order_quote": "自登錄當月始計算當月國內一般消費累積金額，不溯及既往",
     "quota": null,
     "quota_quote": "",
     "review": [],
@@ -368,7 +378,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "使用玉山 Pi 拍錢包信用卡消費 (含綁定 Pi 拍錢包支付)，正卡人完成活動登錄",
+    "how": "使用玉山 Pi 拍錢包信用卡消費 (含綁定 Pi 拍錢包支付)",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -383,15 +393,19 @@
     "order_quote": "",
     "quota": null,
     "quota_quote": "",
-    "review": [
-     "回饋數值 1 在引句中找不到：滿額贈「AirPods 4 等值之 Studio A 禮券」"
-    ],
+    "review": [],
     "rewards": [
      {
       "kind": "percent",
-      "value": 5.0,
+      "value": 10.0,
       "unit": "%",
-      "quote": "核卡後 3 個月內享一般消費加碼 5% P幣"
+      "quote": "最高享 10% P幣回饋"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "滿額贈「AirPods 4 等值之 Studio A 禮券」"
      }
     ],
     "min_spend": {
@@ -405,7 +419,7 @@
       "amount": 150,
       "unit": "點",
       "per": "month",
-      "quote": "新戶首三月加碼 5% (每歸戶每月上限 150 P幣)"
+      "quote": "每歸戶每月上限 150 P幣"
      },
      {
       "amount": 1,
@@ -425,11 +439,9 @@
   ],
   "title_sold_out": [],
   "portal_url": "https://web.piapp.com.tw/events/",
-  "review": [
-   "需登錄或領券，但官方未寫時點"
-  ],
-  "content_hash": "a044a535f7c9918b",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "review": [],
+  "content_hash": "fe8f8a8d3d9f3505",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -517,101 +529,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "edf697a8eeff516e",
-  "observed_at": "2026-11-06T19:49:52+08:00",
-  "stale": false
- },
- {
-  "id": "pipay-bff0772086",
-  "provider_id": "pipay",
-  "provider_name": "Pi 拍錢包",
-  "title": "7-ELEVEN | 711 Day購物節🎊Pi 拍錢包消費滿$1,111立折$100",
-  "aliases": [],
-  "url": "https://web.piapp.com.tw/events-7-eleven-202611/",
-  "period_start": "2026-11-04",
-  "period_end": "2026-11-09",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
-  "offers": [
-   {
-    "name": "活動一:使用 Pi 拍錢包單筆實付滿 1,111 元現折 100 元",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 15000,
-    "quota_quote": "限量前 1.5 萬筆訂單",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "discount",
-      "value": 100.0,
-      "unit": "元",
-      "quote": "單筆實付滿 1,111 元現折 100 元"
-     }
-    ],
-    "min_spend": {
-     "amount": 1111,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆實付滿 1,111 元現折 100 元"
-    },
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "持 Pi 拍錢包至 7-ELEVEN",
-    "how": "持 Pi 拍錢包",
-    "limited": "yes",
-    "limited_quote": "限量前 1.5 萬筆訂單，單筆不可累折，總預算 150 萬元",
-    "sold_out": []
-   },
-   {
-    "name": "活動二:綁定中信 ALL ME 卡享最高 3% 回饋",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "points",
-      "value": 3.0,
-      "unit": "%",
-      "quote": "Pi 拍錢包綁定中信ALL ME卡付款享最高 3% 點數回饋"
-     }
-    ],
-    "min_spend": null,
-    "caps": [
-     {
-      "amount": 300,
-      "unit": "點",
-      "per": "month",
-      "quote": "每戶每月回饋上限 300 點"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "",
-    "how": "Pi 拍錢包綁定中信ALL ME卡付款",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://web.piapp.com.tw/events/",
-  "review": [],
-  "content_hash": "6c5c370995b99164",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -634,8 +552,8 @@
     "name": "獎項一:《旅平險早鳥禮》",
     "slots": [],
     "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
+    "reregister": "each_period",
+    "reregister_quote": "每月前100名網路投保指定險種",
     "order": "unknown",
     "order_quote": "",
     "quota": 100,
@@ -646,10 +564,15 @@
       "kind": "points",
       "value": 100.0,
       "unit": "點",
-      "quote": "獎項:100P幣，每月共100名"
+      "quote": "完成登錄即可獲得100P幣"
      }
     ],
-    "min_spend": null,
+    "min_spend": {
+     "amount": 5,
+     "unit": "other",
+     "per": "txn",
+     "quote": "國內/國外旅平險 (投保天數5天(含)以上)"
+    },
     "caps": [
      {
       "amount": 1,
@@ -663,15 +586,15 @@
     "where": "網路投保指定險種",
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
-    "limited_quote": "每月前100名網路投保指定險種",
+    "limited_quote": "每月共100名",
     "sold_out": []
    },
    {
     "name": "獎項二:《汽車險早鳥禮》",
     "slots": [],
     "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
+    "reregister": "each_period",
+    "reregister_quote": "每個月前50名網路投保指定險種",
     "order": "unknown",
     "order_quote": "",
     "quota": 50,
@@ -680,9 +603,15 @@
     "rewards": [
      {
       "kind": "points",
-      "value": 600.0,
+      "value": 500.0,
       "unit": "點",
       "quote": "500P幣（11/1-11/30加碼至600P幣）"
+     },
+     {
+      "kind": "points",
+      "value": 600.0,
+      "unit": "點",
+      "quote": "11/1-11/30加碼至600P幣"
      }
     ],
     "min_spend": null,
@@ -699,15 +628,15 @@
     "where": "網路投保指定險種",
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
-    "limited_quote": "每個月前50名網路投保指定險種",
+    "limited_quote": "每月共50名",
     "sold_out": []
    },
    {
     "name": "獎項三:《機車險早鳥禮》",
     "slots": [],
     "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
+    "reregister": "each_period",
+    "reregister_quote": "每個月前50名網路投保指定險種",
     "order": "unknown",
     "order_quote": "",
     "quota": 50,
@@ -716,9 +645,15 @@
     "rewards": [
      {
       "kind": "points",
-      "value": 150.0,
+      "value": 100.0,
       "unit": "點",
       "quote": "100P幣（11/1-11/30加碼至150P幣）"
+     },
+     {
+      "kind": "points",
+      "value": 150.0,
+      "unit": "點",
+      "quote": "11/1-11/30加碼至150P幣"
      }
     ],
     "min_spend": null,
@@ -735,7 +670,7 @@
     "where": "網路投保指定險種",
     "how": "輸入活動代碼PIAPP並響應環保選擇電子保單",
     "limited": "yes",
-    "limited_quote": "每個月前50名網路投保指定險種",
+    "limited_quote": "每月共50名",
     "sold_out": []
    },
    {
@@ -780,8 +715,8 @@
   "review": [
    "需登錄或領券，但官方未寫時點"
   ],
-  "content_hash": "f100c8258e5c54c7",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "content_hash": "733992b0dcaa58aa",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1039,7 +974,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "a5909648ed722acd",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  }
 ]

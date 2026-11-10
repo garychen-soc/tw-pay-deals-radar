@@ -1,0 +1,76 @@
+{
+ "key": "a99b9a4558df0bc776c63b39",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:21:41+00:00",
+ "title": "來摩曼頓升級運動Pay備，立享折扣好優惠！",
+ "duration_ms": 4462,
+ "cost_usd": 0.041058,
+ "usage": {
+  "input": 2,
+  "output": 553,
+  "cache_creation": 8881,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)，即享結帳金額現折200元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 200,
+      "unit": "元",
+      "quote": "即享結帳金額現折200元"
+     }
+    ],
+    "min_spend": {
+     "amount": 2000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)"
+    },
+    "caps": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每筆交易折扣上限600元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "摩曼頓全臺指定門市【僅限街邊店，不適用百貨公司及賣場門市(詳活動辦法附表)】",
+    "how": "出示「台灣Pay」付款條碼（金融卡 /帳戶/信用卡）進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限共110萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限共110萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

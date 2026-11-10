@@ -367,7 +367,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "2ccef62d638c6dee",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -392,7 +392,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "4be8f0876616ffd1",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -417,7 +417,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "7c6dcff9b50b225b",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -671,7 +671,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "41e5c39f162c7b56",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -949,7 +949,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "110f5fbcbb077de1",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1013,7 +1013,7 @@
       "kind": "percent",
       "value": 8.0,
       "unit": "%",
-      "quote": "享 8% 即時回饋"
+      "quote": "單筆實際支付金額滿 $1,000 享 8% 即時回饋"
      }
     ],
     "min_spend": {
@@ -1038,8 +1038,8 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "「酷澎 APP」",
-    "how": "使用街口支付付款",
+    "where": "於「酷澎 APP」使用街口支付付款",
+    "how": "於街口支付 App 活動頁登記「週四酷澎日 8%」",
     "limited": "yes",
     "limited_quote": "活動採限量名額，額滿將於本活動頁公告",
     "sold_out": []
@@ -1052,12 +1052,13 @@
     ],
     "reregister": "unknown",
     "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
+    "order": "retroactive_ok",
+    "order_quote": "領取時間為 11/5 (四) 累積消費滿額當下至 11/11 (三) 23:59 皆可領取",
     "quota": null,
     "quota_quote": "每週 205 名",
     "review": [
-     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點",
+     "門檻 1500 在引句中找不到：不限消費筆數當日累積付款金額達指定門檻"
     ],
     "rewards": [
      {
@@ -1073,30 +1074,19 @@
       "quote": "$150 街口幣"
      }
     ],
-    "min_spend": {
-     "amount": 1500,
-     "unit": "元",
-     "per": "week",
-     "quote": "$1,500"
-    },
+    "min_spend": null,
     "caps": [
      {
       "amount": 250,
       "unit": "元",
       "per": "day",
       "quote": "單日最高累積共可領取 $250 街口幣"
-     },
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "unknown",
-      "quote": "每門檻限領取一次獎勵"
      }
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "「酷澎 APP」",
-    "how": "使用街口付款",
+    "where": "於「酷澎 APP」使用街口付款",
+    "how": "於「酷澎 APP」使用街口付款",
     "limited": "yes",
     "limited_quote": "數量有限，先領先贏，領完為止",
     "sold_out": []
@@ -1117,67 +1107,39 @@
       "kind": "percent",
       "value": 10.0,
       "unit": "%",
-      "quote": "享全通路筆筆 10% 街口幣回饋"
+      "quote": "最高10%"
      },
      {
       "kind": "percent",
       "value": 2.5,
       "unit": "%",
-      "quote": "享最高 2.5% 街口幣回饋"
+      "quote": "最高2.5%"
      },
      {
       "kind": "percent",
       "value": 1.0,
       "unit": "%",
-      "quote": "筆筆享 1% 街口幣回饋無上限"
+      "quote": "最高1%"
      }
     ],
     "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "",
-    "how": "選擇使用「華南銀行帳戶」 付款",
+    "where": "享全通路筆筆 10% 街口幣回饋",
+    "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
    },
    {
     "name": "5 號會員日 登記搶 $50 街口幣",
-    "slots": [
-     {
-      "start": "2026-11-01T00:00:00+08:00",
-      "end": null,
-      "kind": "opens_at",
-      "origin": "rule",
-      "precision": "day",
-      "holiday_shifted": false,
-      "note": "",
-      "evidence": {
-       "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動",
-       "url": "https://mkt.jkopay.com/zh-TW/campaign/coupang"
-      }
-     },
-     {
-      "start": "2026-12-01T00:00:00+08:00",
-      "end": null,
-      "kind": "opens_at",
-      "origin": "rule",
-      "precision": "day",
-      "holiday_shifted": false,
-      "note": "",
-      "evidence": {
-       "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動",
-       "url": "https://mkt.jkopay.com/zh-TW/campaign/coupang"
-      }
-     }
-    ],
+    "slots": [],
     "rules": [
-     "登記時間:2026/8/1 - 12/5",
-     "當月 1 號起不分會員等級可登記會員日街口幣回饋活動"
+     "登記時間:2026/8/1 - 12/5"
     ],
-    "reregister": "each_period",
-    "reregister_quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動",
+    "reregister": "unknown",
+    "reregister_quote": "",
     "order": "unknown",
     "order_quote": "",
     "quota": null,
@@ -1209,7 +1171,7 @@
     ],
     "new_users_only": "no",
     "new_users_quote": "不分會員等級可登記會員日街口幣回饋活動",
-    "where": "指定通路",
+    "where": "至指定通路單筆消費滿 $100",
     "how": "",
     "limited": "yes",
     "limited_quote": "回饋金額有限，先拿先贏",
@@ -1238,8 +1200,8 @@
     "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "「首次註冊」街口支付",
-    "where": "指定通路",
-    "how": "綁定支付工具",
+    "where": "於指定通路憑券消費不限金額皆可折抵",
+    "how": "完成「實名認證或身份認證」，並綁定支付工具後",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -1248,8 +1210,8 @@
   "title_sold_out": [],
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
-  "content_hash": "1bfbc4b0b40f58b3",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "content_hash": "57cc105a39f9796d",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1266,7 +1228,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "required",
-  "registration_quote": "需指定「登記時間」內，先至「街口支付」活動頁進行付款加碼回饋登記",
+  "registration_quote": "登記時間內於本頁面完成登記",
   "offers": [
    {
     "name": "每週四至六｜加碼1.5%",
@@ -1300,15 +1262,15 @@
       "kind": "percent",
       "value": 1.5,
       "unit": "%",
-      "quote": "享 1.5% 加碼街口幣回饋"
+      "quote": "享 1.5% 加碼街口幣回饋！"
      }
     ],
     "min_spend": null,
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "「淘寶」",
-    "how": "「街口帳戶」",
+    "where": "",
+    "how": "使用「街口帳戶」消費付款",
     "limited": "yes",
     "limited_quote": "（數量有限，先享先贏）",
     "sold_out": []
@@ -1350,7 +1312,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "限「淘寶 App」購買結帳",
-    "how": "「街口支付-帳戶」、「街口支付-信用卡」付款消費",
+    "how": "使用「街口支付-帳戶」（包含街口帳戶、街利存帳戶、銀行帳戶），或者「街口支付-信用卡」付款消費",
     "limited": "yes",
     "limited_quote": "名額有限，先用先贏",
     "sold_out": []
@@ -1384,25 +1346,25 @@
     "review": [],
     "rewards": [
      {
-      "kind": "coupon",
+      "kind": "discount",
       "value": 100.0,
       "unit": "元",
-      "quote": "可享滿 $1,000 折 $100"
+      "quote": "可享滿 $1,000 折 $100！"
      }
     ],
     "min_spend": {
      "amount": 1000,
      "unit": "元",
      "per": "txn",
-     "quote": "可享滿 $1,000 折 $100"
+     "quote": "可享滿 $1,000 折 $100！"
     },
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "「淘寶 App 銀行會場（淘寶首頁-支付優惠）領取」",
+    "where": "淘寶 App 銀行會場（淘寶首頁-支付優惠）",
     "how": "領券完畢用街口支付 APP 結帳",
     "limited": "yes",
-    "limited_quote": "名額有限，先領先贏",
+    "limited_quote": "名額有限，先領先贏。",
     "sold_out": []
    },
    {
@@ -1455,7 +1417,7 @@
       "kind": "percent",
       "value": 10.0,
       "unit": "%",
-      "quote": "享全通路筆筆 10% 街口幣回饋"
+      "quote": "享全通路筆筆 10% 街口幣回饋！"
      }
     ],
     "min_spend": null,
@@ -1463,7 +1425,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "若選擇使用「華南銀行帳戶」 付款",
+    "how": "選擇使用「華南銀行帳戶」 付款",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -1494,7 +1456,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "若選擇使用「街利存帳戶」付款",
+    "how": "選擇使用「街利存帳戶」付款",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -1517,7 +1479,7 @@
       "kind": "percent",
       "value": 1.0,
       "unit": "%",
-      "quote": "享最高 1% 街口幣回饋無上限"
+      "quote": "享最高 1% 街口幣回饋無上限！"
      }
     ],
     "min_spend": null,
@@ -1525,7 +1487,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "若選擇使用「台新街口豬富卡」付款",
+    "how": "選擇使用「台新街口豬富卡」付款",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -1541,7 +1503,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "回饋金額有限，先拿先贏",
+    "quota_quote": "",
     "review": [
      "登錄時點 2026/08/01 遠早於活動開始日"
     ],
@@ -1550,14 +1512,14 @@
       "kind": "percent",
       "value": 30.0,
       "unit": "%",
-      "quote": "享 30% 街口幣回饋"
+      "quote": "享 30% 街口幣回饋！"
      }
     ],
     "min_spend": {
      "amount": 100,
      "unit": "元",
      "per": "txn",
-     "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     "quote": "單筆消費滿 $100"
     },
     "caps": [
      {
@@ -1595,14 +1557,7 @@
      }
     ],
     "min_spend": null,
-    "caps": [
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "unknown",
-      "quote": "每人每券限折一次"
-     }
-    ],
+    "caps": [],
     "new_users_only": "yes",
     "new_users_quote": "於活動期間內「首次註冊」街口支付",
     "where": "限「淘寶App」結帳",
@@ -1615,8 +1570,8 @@
   "title_sold_out": [],
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
-  "content_hash": "cb2191a9f7aa9acf",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "content_hash": "fd8a9ccc7d623836",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -1639,7 +1594,7 @@
     "name": "立即領 2% 繳費加碼回饋",
     "slots": [],
     "rules": [
-     "已達成領取資格者，未於活動時間結束前領取街口券，則自動視為放棄活動資格，無法回溯領取。"
+     "當月消費達檻，即可至街口 APP「首頁」>「繳費」內，點選專區上方圖示進入本活動網頁手動領取街口券。"
     ],
     "reregister": "each_period",
     "reregister_quote": "每月限量 55,000 名",
@@ -1648,43 +1603,43 @@
     "quota": 55000,
     "quota_quote": "每月限量 55,000 名",
     "review": [
-     "規則無法驗證（year=2026 在引句中找不到）：已達成領取資格者，未於活動時間結束前領取街口券，則自動視為放棄活動資格，無法回溯"
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
     ],
     "rewards": [
      {
       "kind": "coupon",
       "value": 2.0,
       "unit": "%",
-      "quote": "享 2% 回饋（每月每人上限一張 $20 街口券）"
+      "quote": "繳費滿 $1,000，享 2% 回饋（每月每人上限一張 $20 街口券）"
      }
     ],
     "min_spend": {
      "amount": 1000,
      "unit": "元",
      "per": "month",
-     "quote": "當月於街口 APP 繳費交易滿 $1,000"
+     "quote": "當月於街口 APP「繳費專區」，繳費滿 $1,000，享 2% 回饋"
     },
     "caps": [
      {
-      "amount": 20,
-      "unit": "元",
+      "amount": 1,
+      "unit": "份",
       "per": "month",
       "quote": "每月每人上限一張 $20 街口券"
      }
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "街口 APP",
-    "how": "所有付款工具合併計算",
+    "where": "當月於街口 APP「繳費專區」",
+    "how": "所有付款工具合併計算，每人限領一次",
     "limited": "yes",
     "limited_quote": "每月限量 55,000 名",
     "sold_out": []
    },
    {
-    "name": "華南銀行回饋適用項目",
+    "name": "",
     "slots": [],
     "rules": [
-     "當月於活動頁面登記後"
+     "當月於活動頁面登記後，於街口支付 App 繳費專區，使用華南銀行帳戶繳費付款"
     ],
     "reregister": "each_period",
     "reregister_quote": "當月於活動頁面登記後",
@@ -1697,7 +1652,7 @@
     ],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "other",
       "value": 10.0,
       "unit": "%",
       "quote": "享 10% 街口幣回饋"
@@ -1720,14 +1675,14 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "街口支付 App 繳費專區",
+    "where": "於街口支付 App 繳費專區",
     "how": "使用華南銀行帳戶繳費付款",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
    },
    {
-    "name": "豬富卡街口幣回饋適用項目",
+    "name": "",
     "slots": [],
     "rules": [],
     "reregister": "unknown",
@@ -1739,7 +1694,7 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "other",
       "value": 0.15,
       "unit": "%",
       "quote": "享 0.15% 街口幣回饋無上限"
@@ -1749,8 +1704,8 @@
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "指定繳費項目",
-    "how": "若綁定台新街口豬富卡，於指定繳費項目付款",
+    "where": "於指定繳費項目付款",
+    "how": "若綁定台新街口豬富卡",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -1768,7 +1723,7 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "other",
       "value": 3.0,
       "unit": "%",
       "quote": "享繳費通路筆筆 3% 回饋"
@@ -1795,8 +1750,8 @@
     "name": "街口新戶註冊再送$50券",
     "slots": [],
     "rules": [],
-    "reregister": "once",
-    "reregister_quote": "「首次註冊」街口支付",
+    "reregister": "unknown",
+    "reregister_quote": "",
     "order": "unknown",
     "order_quote": "",
     "quota": null,
@@ -1843,7 +1798,7 @@
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "台中市路邊智慧停車",
+    "where": "",
     "how": "綁定街口支付 APP，並設定自動代扣款成功",
     "limited": "unknown",
     "limited_quote": "",
@@ -1853,8 +1808,8 @@
   "title_sold_out": [],
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
-  "content_hash": "d2bf04f53e32f44a",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "content_hash": "63eacb7dfd9a84ec",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2110,7 +2065,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "727c0d5969474bc4",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2389,7 +2344,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "1c5f9e75887f14cb",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2634,7 +2589,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "013442e12bc4d9c9",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2659,7 +2614,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "1934a2d18605ed24",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2705,7 +2660,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "22710f53f37ee5f1",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -2730,7 +2685,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "66f3e06d593e747c",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3210,7 +3165,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "4ecc738aa13f729d",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3235,7 +3190,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "d23577bf0c00fcbf",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3319,32 +3274,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "3cc9facdc9710699",
-  "observed_at": "2026-11-06T19:49:52+08:00",
-  "stale": false
- },
- {
-  "id": "jkopay-7e8296a524",
-  "provider_id": "jkopay",
-  "provider_name": "街口支付",
-  "title": "7-ELEVEN 用街口",
-  "aliases": [],
-  "url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "period_start": "2026-11-04",
-  "period_end": "2026-11-09",
-  "category": "",
-  "terms_source": "external",
-  "external_url": "https://www.7-11.com.tw/special/article_new.aspx?item=Event_E038",
-  "is_offer": "unknown",
-  "registration": "unknown",
-  "registration_quote": "",
-  "offers": [],
-  "title_sold_out": [],
-  "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "review": [
-   "條款在合作方網站，未抽取，請點官方頁確認"
-  ],
-  "content_hash": "0bb7f27a00179d77",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3369,7 +3299,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "518e2774536b335b",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -3769,7 +3699,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "462dee309d167f65",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4076,7 +4006,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "5628c1e6394d3805",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4274,7 +4204,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "859708239b4698cd",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4325,8 +4255,8 @@
     "new_users_quote": "",
     "where": "於「Apple 服務」付款（含 App Store 購買、iCloud、Apple Music 等服務）",
     "how": "需綁定街口支付至 Apple 帳戶成為預設付款方式",
-    "limited": "yes",
-    "limited_quote": "如街口券名額尚未額滿，系統將自動套用街口券折抵",
+    "limited": "unknown",
+    "limited_quote": "",
     "sold_out": []
    },
    {
@@ -4384,8 +4314,8 @@
     "reregister_quote": "",
     "order": "unknown",
     "order_quote": "",
-    "quota": 10,
-    "quota_quote": "次月將抽出 10 名中獎者",
+    "quota": null,
+    "quota_quote": "",
     "review": [],
     "rewards": [
      {
@@ -4401,8 +4331,8 @@
     "new_users_quote": "首次於 Apple 帳號綁定街口支付 App，即可獲得當月抽獎資格",
     "where": "",
     "how": "首次於 Apple 帳號綁定街口支付 App",
-    "limited": "yes",
-    "limited_quote": "次月將抽出 10 名中獎者",
+    "limited": "unknown",
+    "limited_quote": "",
     "sold_out": []
    },
    {
@@ -4418,22 +4348,10 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "points",
       "value": 10.0,
       "unit": "%",
       "quote": "享全通路筆筆 10% 街口幣回饋"
-     },
-     {
-      "kind": "percent",
-      "value": 2.5,
-      "unit": "%",
-      "quote": "享最高 2.5% 街口幣回饋"
-     },
-     {
-      "kind": "percent",
-      "value": 1.0,
-      "unit": "%",
-      "quote": "筆筆享 1% 街口幣回饋無上限"
      }
     ],
     "min_spend": null,
@@ -4452,8 +4370,8 @@
   "review": [
    "需登錄或領券，但官方未寫時點"
   ],
-  "content_hash": "fa257ea619af9732",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "content_hash": "8f677f1fb63ec809",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4590,7 +4508,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "e0cb5fc765b75de1",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4704,7 +4622,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "a40be072017fb81f",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4729,7 +4647,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "caa64783e39dc5ed",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4896,7 +4814,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "edd5b2c07fba74f4",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -4921,7 +4839,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "dabf27f70fd32972",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -5409,7 +5327,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "38a20d08b649af3e",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -5586,7 +5504,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "f2b7319e36555e81",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -5936,7 +5854,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "de8504db4f835ac4",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -6181,7 +6099,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "c35a6058f0e7d9bd",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -6206,7 +6124,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "599cb53f064c6a0f",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -6542,7 +6460,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "a047e1d35490a176",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -6763,7 +6681,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "d6517dead6690b29",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -7144,7 +7062,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "d73c467575edfe64",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  }
 ]

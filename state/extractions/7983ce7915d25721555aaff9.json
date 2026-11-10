@@ -1,0 +1,82 @@
+{
+ "key": "7983ce7915d25721555aaff9",
+ "prompt_version": "2026-11-06.4",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:21:50+00:00",
+ "title": "台灣Pay × PChome 24h購物．最高享10%P幣歡樂送",
+ "duration_ms": 4881,
+ "cost_usd": 0.0300972,
+ "usage": {
+  "input": 2,
+  "output": 628,
+  "cache_creation": 5780,
+  "cache_read": 3466
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上（如遇商品折扣，以最終折扣後結帳金額為準，以下簡稱活動門檻）可享回饋100 PChome P幣"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "可享回饋100 PChome P幣(下稱P幣)"
+     }
+    ],
+    "min_spend": {
+     "amount": 1000,
+     "unit": "元",
+     "per": "txn",
+     "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
+    },
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一PChome帳戶月最高回饋100P幣為限"
+     },
+     {
+      "amount": 300,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "活動期間最高回饋300P幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "PChome24h購物網站或PChome24h購物APP。",
+    "how": "使用「台灣Pay」(限金融卡/帳戶)成功付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總P幣數量上限 72 萬P幣，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總P幣數量上限 72 萬P幣，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

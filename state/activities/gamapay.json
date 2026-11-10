@@ -1,63 +1,5 @@
 [
  {
-  "id": "gamapay-5ea4cdaef6",
-  "provider_id": "gamapay",
-  "provider_name": "橘子支付",
-  "title": "【7-ELEVEN x 橘子支付】 歡慶 7-ELEVEN DAY 🎉 2026/11/4~11/9 單筆滿$1111，立折$100！",
-  "aliases": [],
-  "url": "https://www.gamapay.com.tw/news.html?id=4991",
-  "period_start": "2026-11-04",
-  "period_end": "2026-11-09",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "not_required",
-  "registration_quote": "",
-  "offers": [
-   {
-    "name": "",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 30000,
-    "quota_quote": "回饋總筆數3萬筆",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "discount",
-      "value": 100.0,
-      "unit": "元",
-      "quote": "單筆滿$1111，立折$100！"
-     }
-    ],
-    "min_spend": {
-     "amount": 1111,
-     "unit": "元",
-     "per": "txn",
-     "quote": "單筆滿$1111，立折$100！"
-    },
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "7-ELEVEN",
-    "how": "使用🍊橘子支付消費",
-    "limited": "yes",
-    "limited_quote": "※回饋總筆數3萬筆，額滿為止",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://www.gamapay.com.tw/news_list.html",
-  "review": [],
-  "content_hash": "7873367a09cf9a53",
-  "observed_at": "2026-11-06T19:49:52+08:00",
-  "stale": false
- },
- {
   "id": "gamapay-af35f31db4",
   "provider_id": "gamapay",
   "provider_name": "橘子支付",
@@ -107,7 +49,7 @@
   "portal_url": "https://www.gamapay.com.tw/news_list.html",
   "review": [],
   "content_hash": "0fdebca88b57d3f8",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -160,7 +102,7 @@
   "portal_url": "https://www.gamapay.com.tw/news_list.html",
   "review": [],
   "content_hash": "f45b5e9825514020",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  },
  {
@@ -206,7 +148,7 @@
   "portal_url": "https://www.gamapay.com.tw/news_list.html",
   "review": [],
   "content_hash": "c5e0562a087a92f6",
-  "observed_at": "2026-11-06T19:49:52+08:00",
+  "observed_at": "2026-11-10T22:20:35+08:00",
   "stale": false
  }
 ]
