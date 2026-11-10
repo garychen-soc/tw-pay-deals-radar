@@ -39,14 +39,14 @@ state/  唯一正本（進版控）→ emit → web/（Astro）＋ 行事曆
       golden 擴至 57 頁，精確率 98.9%／召回率 87.8%；缺口見 `docs/coverage.md`
 - [x] Phase 4：Astro 前端（優惠／登錄時程／社群／來源四分頁，手機與深淺色走查）、
       行事曆 `calendar/deals.ics`、PTT 社群區、deploy／verify workflow、`ops/run_local.sh`＋launchd plist（未安裝）
-- [ ] 切換：merge main、launchd、停用舊例行任務
+- [x] 切換上線（2026-11-10）
 
-## 切換上線（需 Gary 同意，尚未執行）
+## 上線狀態（2026-11-10 切換）
 
-1. GitHub repo 設定 → Pages → Source 改為「GitHub Actions」（舊版是直接從 main 根目錄提供）。
-2. `v2` merge 進 `main`（`git merge -s ours` 保留舊歷史後以 v2 內容為準），push。
-3. 確認 deploy workflow 成功、站上資料正確後，安裝 `ops/com.garychen.tw-pay-radar.plist`。
-4. 停用 Claude 例行任務 `tw-pay-promo-monitor`；舊目錄 `~/Documents/Claude/tw-pay-deals-radar` 保留觀察。
+- GitHub Pages 來源＝GitHub Actions（`deploy.yml`），v1 的根目錄 `calendar.ics` 仍同步輸出。
+- 本機 launchd `com.garychen.tw-pay-radar` 每日 08:50（`ops/run_local.sh`），log 在
+  `~/Library/Logs/tw-pay-radar/`；首次試跑 3 分鐘、LLM 17 次約 US$1。
+- 舊的 Claude 例行任務 `tw-pay-promo-monitor` 已停用。
 
 ## 開發
 
