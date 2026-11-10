@@ -7,6 +7,7 @@
 - id: pxpayplus-01
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=129
+  title: 首次綁定指定信用卡，最高88全點限量回饋！
   content_hash: e29850733bf3e8a4
   is_offer: 'yes'
   registration: not_required
@@ -47,6 +48,7 @@
 - id: pxpayplus-02
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=37
+  title: 十大商圈掃全支付TWQR｜單筆不限金額享10%回饋！
   content_hash: 87ee06b6f96676f4
   is_offer: 'yes'
   registration: not_required
@@ -73,6 +75,7 @@
 - id: pxpayplus-03
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=101
+  title: 富邦產險單筆保費滿額享全點限量回饋！
   content_hash: 8182c20a235512ca
   is_offer: 'yes'
   registration: not_required
@@ -97,6 +100,7 @@
 - id: pxpayplus-04
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=113
+  title: 選【全支付】權益｜綁定國泰CUBE信用卡於指定場域消費最高享7%回饋！
   content_hash: 84066fb025ea6871
   is_offer: 'yes'
   registration: required
@@ -117,6 +121,7 @@
 - id: pxpayplus-05
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=124
+  title: 連結指定銀行帳戶，日本跨境消費享最高5%全點限量回饋！
   content_hash: 0dae270f8dff2e07
   is_offer: 'yes'
   registration: not_required
@@ -135,6 +140,7 @@
 - id: pxpayplus-06
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=130
+  title: 綁定台新卡至全聯實體門市消費，單筆滿額享全點回饋！
   content_hash: 42378ce0e8650cbf
   is_offer: 'yes'
   registration: not_required
@@ -159,6 +165,7 @@
 - id: pxpayplus-07
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=137
+  title: 台灣大車隊｜搭車趟趟贈10%全點回饋，指定銀行付款再加碼最高5%回饋
   content_hash: b0dba425bcd99e0a
   is_offer: 'yes'
   registration: required
@@ -185,6 +192,7 @@
 - id: pxpayplus-08
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=144
+  title: 全支付新戶限時加碼｜完成首筆消費不限金額送50全點！
   content_hash: cac12d3cec8f78cb
   is_offer: 'yes'
   registration: not_required
@@ -209,6 +217,7 @@
 - id: pxpayplus-09
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=150
+  title: DK｜完成任務領8折購鞋券，滿額再送150全點回饋！百大品牌再加碼！
   content_hash: 8098547f4031819d
   is_offer: 'yes'
   registration: required
@@ -239,6 +248,7 @@
 - id: taiwanpay-01
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01K0BVJNBDJ2BGK3EN32KHH68W
+  title: 泳渡日月潭就用台灣Pay 筆筆20%回饋最挺你
   content_hash: 98664840ae44b7c1
   is_offer: 'yes'
   registration: not_required
@@ -256,6 +266,7 @@
 - id: taiwanpay-02
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KFN1089QDKBZFN388KPDWVSW
+  title: 大稻埕迪化商圈 Pay你吃喝玩樂 享20%回饋
   content_hash: f426d0681b5e75f0
   is_offer: 'yes'
   registration: not_required
@@ -273,6 +284,7 @@
 - id: taiwanpay-03
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KTBDSM6DXNFC5Q2GET6PM705
+  title: 艋舺夜市超給利 台灣Pay單筆享20%現金回饋
   content_hash: 1be8cc8f72652647
   is_offer: 'yes'
   registration: not_required
@@ -293,6 +305,7 @@
 - id: taiwanpay-04
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KVZ2VVMHRVYN8583BTGMHTWB
+  title: Autopass麻吉神助攻 用台灣Pay加油停車享20%回饋
   content_hash: cb2fcd2fdb0c539d
   is_offer: 'yes'
   registration: not_required
@@ -311,6 +324,7 @@
 - id: taiwanpay-05
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4NQPPYJ1E4RWTHGQ1V1EH3
+  title: 台灣Pay在漢神洲際強棒出擊滿2000送200元電子商品券！
   content_hash: 26485bca7b522c20
   is_offer: 'yes'
   registration: not_required
@@ -330,6 +344,7 @@
 - id: taiwanpay-06
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KY4P2NSY924DGFRPK4AS6GGR
+  title: (活動額滿)暢遊馬祖享回饋，TWQR馬上Pay
   content_hash: c58d04455a94459a
   is_offer: 'yes'
   registration: not_required
@@ -350,6 +365,7 @@
 - id: taiwanpay-07
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DACEE89W46XVEVBD8YVBN
+  title: 藝遊三鶯，台灣Pay暢享20%回饋
   content_hash: 85b2db36b720ec13
   is_offer: 'yes'
   registration: not_required
@@ -367,6 +383,7 @@
 - id: taiwanpay-08
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M3RQRFNF47TZRD8068R819G2
+  title: 頂上加碼 掃 TWQR 享 10% 回饋
   content_hash: 46788654e49b4a21
   is_offer: 'yes'
   registration: not_required
@@ -384,6 +401,7 @@
 - id: taiwanpay-09
   provider: taiwanpay
   url: https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M63DDBGY0P3HK98RVSXNG6DQ
+  title: 阿爾法集美味 台灣Pay享15%回饋
   content_hash: e8eeeb46f614fa4d
   is_offer: 'yes'
   registration: not_required
@@ -401,6 +419,7 @@
 - id: ipassmoney-01
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj
+  title: 【iPASS MONEY】連結銀行帳戶/信用卡享優惠！
   content_hash: 358fccdbcd991e00
   is_offer: 'yes'
   registration: unknown
@@ -446,6 +465,7 @@
 - id: ipassmoney-02
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAMADJE3436443FDm
+  title: 【好禮券】好禮入手、點數到手，使用 iPASS MONEY 付款，享一卡通綠點 10% 回饋
   content_hash: b90a12081f01b5f5
   is_offer: 'yes'
   registration: required
@@ -474,6 +494,7 @@
 - id: ipassmoney-03
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAOALJHZ7V64k0dNf
+  title: 【樂天銀行】iPASS MONEY 連接樂天銀行新戶，享一卡通綠點 800 點回饋
   content_hash: cc065afbfa989a20
   is_offer: 'yes'
   registration: required
@@ -494,6 +515,7 @@
 - id: ipassmoney-04
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DCNIY373GB64XdhwG
+  title: 【高雄巨蛋智慧杆】登錄活動-捷運巨蛋站進出站筆筆交易享 5 點回饋並加碼領最高 100 回饋
   content_hash: 31adcf3bb31e8022
   is_offer: 'yes'
   registration: required
@@ -529,6 +551,7 @@
 - id: ipassmoney-05
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C
+  title: 【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！
   content_hash: 114053b003acdcf0
   is_offer: 'yes'
   registration: required
@@ -550,6 +573,7 @@
 - id: ipassmoney-06
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DGMIM77TDA641VFCA
+  title: 【SKM Park Outlets高雄草衙】使用 iPASS MONEY 當日累積消費滿 599 元抽造型一卡通！
   content_hash: d938c85688c394c1
   is_offer: 'yes'
   registration: not_required
@@ -570,6 +594,7 @@
 - id: ipassmoney-07
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DIMQ6R7A6Z647SEU8
+  title: 【7-ELEVEN】用 iPASS MONEY APP 付款，樂享多重回饋！
   content_hash: c10d8a9ee56195a2
   is_offer: 'yes'
   registration: not_required
@@ -608,6 +633,7 @@
 - id: ipassmoney-08
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY
+  title: '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋'
   content_hash: a2f095c186657f50
   is_offer: 'yes'
   registration: required
@@ -639,6 +665,7 @@
 - id: ipassmoney-09
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GMZTINYWBREUA64ayotP
+  title: 微風集團【 TWQR 限定 5% 超回饋】活動辦法
   content_hash: eef65a3256ec0e01
   is_offer: 'yes'
   registration: not_required
@@ -662,6 +689,7 @@
 - id: easywallet-01
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1764668818
+  title: 【誠品生活5號會員日】悠遊付滿額最高享8%
   content_hash: 45cd3b2fff5b15f9
   is_offer: 'yes'
   registration: not_required
@@ -701,6 +729,7 @@
 - id: easywallet-02
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1782278283
+  title: 「減塑 Easy Life｜集集樂挑戰賽」
   content_hash: 9b00ffd8d1e9541a
   is_offer: 'yes'
   registration: required
@@ -738,6 +767,7 @@
 - id: easywallet-03
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1737338924
+  title: 嗶桃園市好運卡，享專屬藥妝通路加碼優惠
   content_hash: 17a895fd73c96655
   is_offer: 'yes'
   registration: unknown
@@ -768,6 +798,7 @@
 - id: easywallet-04
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1774403633
+  title: 選用悠遊付領臺北市補助款 首筆加發補助金10%！最高回饋300元！
   content_hash: 01ee32d815976f88
   is_offer: 'yes'
   registration: unknown
@@ -792,6 +823,7 @@
 - id: easywallet-05
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1782459664
+  title: 元大銀行悠遊聯名卡暨悠遊付活動專區
   content_hash: f375f636c63a3dfc
   is_offer: 'yes'
   registration: required
@@ -824,6 +856,7 @@
 - id: easywallet-06
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1788682579
+  title: 7-ELEVEN 嗶悠遊卡結帳滿$500現折$50
   content_hash: 0317470caf20544c
   is_offer: 'yes'
   registration: not_required
@@ -845,6 +878,7 @@
 - id: easywallet-07
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1789526598
+  title: 【指定餐廳】 悠遊付週週領券最高回饋13%
   content_hash: 06e1a0647f218e87
   is_offer: 'yes'
   registration: required
@@ -880,6 +914,7 @@
 - id: easywallet-08
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1789555490
+  title: MyCard X 悠遊付 四重好康一次拿
   content_hash: 44ac91f9b3fe17f8
   is_offer: 'yes'
   registration: unknown
@@ -915,6 +950,7 @@
 - id: easywallet-09
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1790172504
+  title: 悠遊付新會員註冊立即領$50禮包
   content_hash: a9032829f5155f89
   is_offer: 'yes'
   registration: not_required
@@ -934,8 +970,8 @@
   note: 新會員註冊即得，註冊本身視同參加，判 not_required(略不確定)。禮包整體記 50 元。每月54,000份為總量。額滿為條件句。；11-06 仲裁：50元禮包內含 10元全通路券、20元飲料券、20元超商券，逐項也算回饋
 - id: jkopay-01
   provider: jkopay
-  title: 用街口支付，Apple 服務輕鬆付！
   url: https://mkt.jkopay.com/zh-TW/campaign/appleservice
+  title: 用街口支付，Apple 服務輕鬆付！
   content_hash: fa257ea619af9732
   is_offer: 'yes'
   registration: required
@@ -973,8 +1009,8 @@
   note: 額滿字句皆為條件句(若無法領取則表示已額滿)故 sold_out 空。首綁中獎名單列 $7,777/$6,666 與抽獎 $5,000 不一致，不記；100%全額折抵街口幣與免1.5%海外手續費非回饋不記；台新GoGo 3%台新Point 記 3%。限量2,500/400名為總名額非caps。
 - id: jkopay-02
   provider: jkopay
-  title: 2026/10/6-12/31 週一飲料主題日，最高享 40%
   url: https://mkt.jkopay.com/zh-TW/campaign/jkodrink
+  title: 2026/10/6-12/31 週一飲料主題日，最高享 40%
   content_hash: d6517dead6690b29
   is_offer: 'yes'
   registration: required
@@ -1012,8 +1048,8 @@
   note: 標題稱最高40%但內文無40%，不記；週回饋金額$6,900為總預算非caps；額滿皆條件句。1次 caps 為「每人每週限回饋一次」。
 - id: jkopay-03
   provider: jkopay
-  title: 地價稅開徵囉！
   url: https://mkt.jkopay.com/zh-TW/campaign/jkopayebill
+  title: 地價稅開徵囉！
   content_hash: d2bf04f53e32f44a
   is_offer: 'yes'
   registration: required
@@ -1052,8 +1088,8 @@
   note: 每月限量55,000名為總名額非caps；2.15%/累積為加總不記；補發20元券、手續費抵用券不記；額滿皆條件句。
 - id: jkopay-04
   provider: jkopay
-  title: 週四、五吃麥當勞賺回饋
   url: https://mkt.jkopay.com/zh-TW/campaign/mcdonalds
+  title: 週四、五吃麥當勞賺回饋
   content_hash: c35a6058f0e7d9bd
   is_offer: 'yes'
   registration: required
@@ -1095,8 +1131,8 @@
   note: 會員日子活動需登記→required。每日限量為總名額非caps；條款另有「每人每週限回饋一次」與每天一次並存，caps 的 1 次為每天一次；額滿皆條件句。
 - id: opay-01
   provider: opay
-  title: 【動物園行動支付上線】歐付寶Pay Taipei 暢遊動物園
   url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=2334
+  title: 【動物園行動支付上線】歐付寶Pay Taipei 暢遊動物園
   content_hash: a92757e98baead7a
   is_offer: 'no'
   registration: not_required
@@ -1109,8 +1145,8 @@
   note: 僅為動物園購票可用行動支付的通知，無回饋/折扣/贈品，非優惠；registration 因非優惠填 not_required。
 - id: opay-02
   provider: opay
-  title: 歐付寶TWQR十大商圈消費10%紅利回饋
   url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=4470
+  title: 歐付寶TWQR十大商圈消費10%紅利回饋
   content_hash: 7cc8e5e49761bf8e
   is_offer: 'yes'
   registration: not_required
@@ -1127,8 +1163,8 @@
   note: 回饋總計300萬元/每月預算為總預算非caps；如達上限即停止為條件句，無已額滿聲明。
 - id: opay-03
   provider: opay
-  title: 歐付寶漫遊宜蘭員山，TWQR輕鬆付享10%回饋
   url: https://www.opay.tw/Announcement/DetailAnnouncement?nID=4570
+  title: 歐付寶漫遊宜蘭員山，TWQR輕鬆付享10%回饋
   content_hash: affd4995eab45fdd
   is_offer: 'yes'
   registration: not_required
@@ -1146,8 +1182,8 @@
   note: 總上限5萬元為總預算非caps；額滿為止為條件句。
 - id: icashpay-01
   provider: icashpay
-  title: 統一超商
   url: https://www.icashpay.com.tw/event/memberbenefits/
+  title: 統一超商
   content_hash: 938db8c9f82c8cb5
   is_offer: 'yes'
   registration: not_required
@@ -1162,8 +1198,8 @@
   note: 0.33%為含在0.5%內之基本點，不另記。
 - id: icashpay-02
   provider: icashpay
-  title: 博客來
   url: https://www.icashpay.com.tw/event/memberbenefits/
+  title: 博客來
   content_hash: 6cd5b6e51936a442
   is_offer: 'yes'
   registration: not_required
@@ -1182,8 +1218,8 @@
   note: 2次為參加門檻(單位次)；499元為券的折抵門檻，一併記入min_spend，若評分認為只算參加門檻則此項可能多記；每月限量5000份為總名額非caps。
 - id: icashpay-03
   provider: icashpay
-  title: Mister Donut
   url: https://www.icashpay.com.tw/event/memberbenefits/
+  title: Mister Donut
   content_hash: a25e0a4c6aea5a1d
   is_offer: 'yes'
   registration: not_required
@@ -1199,8 +1235,8 @@
   note: 買4送1為贈品記other；「買4」不是金額/筆數門檻，不記min_spend。
 - id: pipay-01
   provider: pipay
-  title: PChome 24h購物🔥1111超狂回饋🎁滿額最高贈1800 P幣
   url: https://web.piapp.com.tw/2611p24/
+  title: PChome 24h購物🔥1111超狂回饋🎁滿額最高贈1800 P幣
   content_hash: a044a535f7c9918b
   is_offer: 'yes'
   registration: required
@@ -1262,8 +1298,8 @@
   note: P幣以『點』記(1 P幣=1元)；需登錄的子活動→required。額滿聲明範圍為第一波11/1~11/8(原文自帶日期)。Studio A 禮券記other。總預算不記caps。
 - id: pipay-02
   provider: pipay
-  title: Pi 拍錢包🎉11-12月指定通路🛒單筆滿額最高贈611 P幣
   url: https://web.piapp.com.tw/261112bonus/
+  title: Pi 拍錢包🎉11-12月指定通路🛒單筆滿額最高贈611 P幣
   content_hash: a5909648ed722acd
   is_offer: 'yes'
   registration: required
@@ -1321,8 +1357,8 @@
   note: 全文無任何已發生的額滿聲明(皆為預算額滿為止條件句)。
 - id: pipay-03
   provider: pipay
-  title: Pi 拍錢包綁定中信 ALL ME 卡💰四大超商及指定通路最高享 3% 回饋！
   url: https://web.piapp.com.tw/allme-202605/
+  title: Pi 拍錢包綁定中信 ALL ME 卡💰四大超商及指定通路最高享 3% 回饋！
   content_hash: a30dd3b348ab14cd
   is_offer: 'yes'
   registration: not_required
@@ -1344,8 +1380,8 @@
   note: 全文未提登錄；綁定付款工具不算。1%基本+2%加碼(四大超商3%加碼)；通路加碼3%與總3%同值。
 - id: pluspay-01
   provider: pluspay
-  title: 兆豐銀行 首次綁定消費筆筆享20%回饋
   url: https://www.pluspay.com.tw/Campaign/Promotion/202607Events
+  title: 兆豐銀行 首次綁定消費筆筆享20%回饋
   content_hash: f4a9d9f82701fb5b
   is_offer: 'yes'
   registration: not_required
@@ -1363,8 +1399,8 @@
   note: 首次綁定屬綁定付款工具，不算登錄；額滿僅條件句。
 - id: pluspay-02
   provider: pluspay
-  title: TWQR今夜留給我，高雄兩大夜市消費最高享15%回饋
   url: https://www.pluspay.com.tw/Campaign/Promotion/202605Events
+  title: TWQR今夜留給我，高雄兩大夜市消費最高享15%回饋
   content_hash: 4d0e0ef660b0a5d4
   is_offer: 'yes'
   registration: required
@@ -1388,8 +1424,8 @@
   note: 優惠二須先同意加入一卡通綠點回饋計畫→required。總回饋上限為預算非caps；5月20日提前額滿僅為舉例。
 - id: pluspay-03
   provider: pluspay
-  title: 全盈+PAY綁定國泰世華信用卡💳小樹點(信用卡)帳單折抵，最高8%回饋
   url: https://www.pluspay.com.tw/Campaign/Promotion/202609Events
+  title: 全盈+PAY綁定國泰世華信用卡💳小樹點(信用卡)帳單折抵，最高8%回饋
   content_hash: 7a90030f23db631c
   is_offer: 'yes'
   registration: required
@@ -1417,8 +1453,8 @@
   note: 標題/文中『最高8%』為4%+100點的換算加總，不記；領券→required。
 - id: gamapay-01
   provider: gamapay
-  title: 【TWQR x 橘子支付】 逛越多，即可享不同回饋！
   url: https://www.gamapay.com.tw/news.html?id=4909
+  title: 【TWQR x 橘子支付】 逛越多，即可享不同回饋！
   content_hash: c5e0562a087a92f6
   is_offer: 'yes'
   registration: unknown
@@ -1431,8 +1467,8 @@
   note: 原文僅標題『逛越多，即可享不同回饋』與外部連結，無任何數值/條件，故僅記is_offer=yes，其餘留空。
 - id: gamapay-02
   provider: gamapay
-  title: 📢 台中市 | 智慧停車無紙化，綁定橘子支付繳費享6折優惠 🚗
   url: https://www.gamapay.com.tw/news.html?id=4977
+  title: 📢 台中市 | 智慧停車無紙化，綁定橘子支付繳費享6折優惠 🚗
   content_hash: f45b5e9825514020
   is_offer: 'yes'
   registration: not_required
@@ -1447,8 +1483,8 @@
   note: 綁定+設定自動代扣款視為付款工具設定，不算登錄；原文極短，registration 有些不確定。
 - id: pxmart-01
   provider: pxmart
-  title: 202611 PX Pay 發票記帳加碼獎
   url: https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E
+  title: 202611 PX Pay 發票記帳加碼獎
   content_hash: 0fd6e8ed9ebf4dfd
   is_offer: 'yes'
   registration: required
@@ -1464,8 +1500,8 @@
   note: 需於發票記帳功能綁定手機條碼才有對獎資格，視為報名類動作記required，但有些不確定(也可視為綁定載具)。
 - id: pxmart-02
   provider: pxmart
-  title: 20261002-1231 一卡通卡友日
   url: https://www.pxmart.com.tw/campaign/pxpay-card/20261002-1231%20%E4%B8%80%E5%8D%A1%E9%80%9A%E5%8D%A1%E5%8F%8B%E6%97%A5
+  title: 20261002-1231 一卡通卡友日
   content_hash: de2e759f3c2823de
   is_offer: 'yes'
   registration: not_required
@@ -1486,8 +1522,8 @@
   note: 注意事項5範例『加贈150點』與100/300不一致，不記；限量份數為總名額非caps；每日限贈一次記1次。
 - id: pxmart-03
   provider: pxmart
-  title: 2026Q4週年慶加碼 PX Pay.全支付 週六日消費最高6%活動
   url: https://www.pxmart.com.tw/campaign/pxpay-card/2026Q4%E9%80%B1%E5%B9%B4%E6%85%B6%E5%8A%A0%E7%A2%BC%20PX%20Pay.%E5%85%A8%E6%94%AF%E4%BB%98%20%E9%80%B1%E5%85%AD%E6%97%A5%E6%B6%88%E8%B2%BB%E6%9C%80%E9%AB%986%25%E6%B4%BB%E5%8B%95
+  title: 2026Q4週年慶加碼 PX Pay.全支付 週六日消費最高6%活動
   content_hash: 39cec3f5773b1ea9
   is_offer: 'yes'
   registration: not_required

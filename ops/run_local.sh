@@ -53,8 +53,14 @@ fi
 .venv/bin/payradar ptt || echo "ptt failed (ignored)"
 
 .venv/bin/python -m pytest -q
-precision="$(.venv/bin/payradar score | .venv/bin/python -c 'import json,sys; print(json.load(sys.stdin)["precision"])')"
-echo "golden precision=$precision"
+score_json="$(.venv/bin/payradar score)"
+precision="$(echo "$score_json" | .venv/bin/python -c 'import json,sys; print(json.load(sys.stdin)["precision"])')"
+scored="$(echo "$score_json" | .venv/bin/python -c 'import json,sys; print(json.load(sys.stdin)["scored"])')"
+echo "golden precision=$precision scored=$scored"
+# 官方頁改版會讓 golden 條目失效（不計分）；有效筆數太少時精確率不可靠，提醒換新
+if [ "$scored" -lt "${PAYRADAR_MIN_SCORED:-45}" ]; then
+  notify "golden 只剩 $scored 筆有效，請執行換新（golden/RENEWAL.md）"
+fi
 if ! .venv/bin/python -c "import sys; sys.exit(0 if float('$precision') >= float('$WARN_PRECISION') else 1)"; then
   notify "golden 精確率 $precision，請檢查是否有官方頁換了內容（照常發布）"
 fi
