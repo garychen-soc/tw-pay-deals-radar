@@ -262,7 +262,8 @@ function offerBlock(o: Offer, index: number, multi: boolean): HTMLElement {
     box.append(chips);
   }
   const terms: string[] = [];
-  for (const m of o.min_spends) terms.push(minText(m));
+  // 階梯門檻由小到大，讀起來才像「滿 4,800／滿 10,000」
+  for (const m of [...o.min_spends].sort((a, b) => a.amount - b.amount)) terms.push(minText(m));
   for (const c of o.caps) terms.push(capText(c));
   if (o.new_users_only === "yes") terms.push("限新戶");
   if (o.limited === "yes") terms.push(o.quota ? `限量 ${num.format(o.quota)}` : "限量");
