@@ -516,15 +516,22 @@ function syncControls(): void {
   filters.classList.toggle("timeline-mode", state.tab === "timeline");
 }
 
+let renderSeq = 0;
+
 async function render(): Promise<void> {
-  const root = document.getElementById("view")!;
+  const view = document.getElementById("view")!;
   const data = state.data;
   if (!data) return;
-  root.replaceChildren();
+  // 先畫在獨立容器裡：社群分頁要等 ptt.json 載入，期間使用者可能已換到別的分頁；
+  // 只有最新一次的渲染能換上畫面，避免舊分頁的內容被附加到新分頁底下。
+  const seq = ++renderSeq;
+  const root = document.createElement("div");
   if (state.tab === "deals") renderDeals(root, data);
   else if (state.tab === "timeline") renderTimeline(root, data);
   else if (state.tab === "ptt") await renderPtt(root);
   else renderSources(root, data);
+  if (seq !== renderSeq) return;
+  view.replaceChildren(...root.childNodes);
 }
 
 function wire(data: IndexData): void {
