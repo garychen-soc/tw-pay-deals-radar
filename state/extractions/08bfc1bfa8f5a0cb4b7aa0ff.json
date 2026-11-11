@@ -1,0 +1,71 @@
+{
+ "key": "08bfc1bfa8f5a0cb4b7aa0ff",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:52+00:00",
+ "title": "Apple Rewards Store Pay你換新機 享10%回饋",
+ "duration_ms": 3564,
+ "cost_usd": 0.0312896,
+ "usage": {
+  "input": 2,
+  "output": 551,
+  "cache_creation": 6270,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "可享單筆交易不限金額10%現金回饋（非即時回饋，小數點後四捨五入），每帳戶回饋上限新臺幣500元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間用戶至Apple Rewards Store電商平台以「台灣 Pay」（限金融卡/帳戶）進行消費，可享單筆交易不限金額10%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "可享單筆交易不限金額10%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每帳戶回饋上限新臺幣500元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "Apple Rewards Store電商平台",
+    "how": "「台灣 Pay」（限金融卡/帳戶）",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限30萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限30萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

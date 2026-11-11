@@ -1,0 +1,71 @@
+{
+ "key": "6b8e316383d35cc4c74123df",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:08+00:00",
+ "title": "(活動額滿)永康國際商圈X台灣Pay消費拿回饋20%",
+ "duration_ms": 3618,
+ "cost_usd": 0.0314956,
+ "usage": {
+  "input": 2,
+  "output": 594,
+  "cache_creation": 6214,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "可享20%現金回饋(非即時回饋，小數點後四捨五入)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點消費，以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)，單筆不限消費金額，可享20%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "可享20%現金回饋(非即時回饋，小數點後四捨五入)"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "於活動期間每一金融卡號/帳戶最高回饋上限新臺幣(以下同)1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台北市大安區永康街及鄰近路、街、道受理「台灣Pay」之指定店家",
+    "how": "以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限47萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限47萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

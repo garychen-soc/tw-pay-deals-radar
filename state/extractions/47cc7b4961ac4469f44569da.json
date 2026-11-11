@@ -1,0 +1,174 @@
+{
+ "key": "47cc7b4961ac4469f44569da",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:44+00:00",
+ "title": "TPASS 2.0+ 公共運輸常客優惠回饋",
+ "duration_ms": 11785,
+ "cost_usd": 0.055453600000000006,
+ "usage": {
+  "input": 2,
+  "output": 1829,
+  "cache_creation": 9116,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "搭乘公共運輸達 11 次以上，即可享有常客優惠回饋！"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "且至 TPASS 2.0+ 公共運輸常客優惠回饋網頁 登錄卡號，"
+  },
+  "subs": [
+   {
+    "name": "TPASS 2.0+ 公共運輸常客優惠回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 15,
+      "unit": "%",
+      "quote": "2~3 次\n15%"
+     },
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "4次以上\n30%"
+     },
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "11 次以上\n2%"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 2,
+      "unit": "次",
+      "per": "month",
+      "quote": "2~3 次"
+     },
+     {
+      "amount": 4,
+      "unit": "次",
+      "per": "month",
+      "quote": "4次以上"
+     },
+     {
+      "amount": 11,
+      "unit": "次",
+      "per": "month",
+      "quote": "11~30次"
+     },
+     {
+      "amount": 31,
+      "unit": "次",
+      "per": "month",
+      "quote": "31次以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "month",
+      "quote": "每張卡每個月總回饋金上限:2,500 元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "中長途公路運輸",
+    "how": "持一卡通電子票證（儲值卡）至一卡通公司網站完成記名，",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "2025年2月1日起登錄，次日開始計算"
+    }
+   },
+   {
+    "name": "早鳥專屬",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "加碼10%"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 11,
+      "unit": "次",
+      "per": "month",
+      "quote": "搭乘公共運輸工具11次以上"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "購買TPASS 2.0 票卡（常客）一卡通",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "並於 2025 年 3 月 31 日前完成登錄參與回饋",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": {
+       "year": 2025,
+       "month": 3,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

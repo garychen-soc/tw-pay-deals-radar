@@ -1,0 +1,77 @@
+{
+ "key": "d763206d701391b0a31e64e9",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:10+00:00",
+ "title": "(活動額滿)前進仁愛鄉TWQR輕鬆付享10%回饋",
+ "duration_ms": 3888,
+ "cost_usd": 0.031169600000000002,
+ "usage": {
+  "input": 2,
+  "output": 563,
+  "cache_creation": 6210,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享10%回饋現金或點數"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點以QR Code掃碼支付成功，單筆消費不限金額享10%回饋現金或點數"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%回饋現金或點數"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易回饋金上限新臺幣(以下同)500元"
+     },
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "month",
+      "quote": "活動期間每月每帳戶合計最高回饋500元現金或等值點數"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "南投縣仁愛鄉標示TWQR之店家。",
+    "how": "以QR Code掃碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限5萬元，額滿為止，並公告於兆豐銀行官網"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限5萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

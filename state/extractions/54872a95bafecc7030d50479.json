@@ -1,0 +1,71 @@
+{
+ "key": "54872a95bafecc7030d50479",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:54:59+00:00",
+ "title": "台亞加油站人工加油-悠遊付錢包/銀行帳戶最高回饋7%",
+ "duration_ms": 5310,
+ "cost_usd": 0.0313716,
+ "usage": {
+  "input": 2,
+  "output": 608,
+  "cache_creation": 6148,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用悠遊付錢包或綁定銀行帳戶扣款，享筆筆4%回饋，每月每戶回饋上限40元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於台亞加油站之「人工加油島」加油，並使用悠遊付錢包或綁定銀行帳戶消費之人，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "享筆筆4%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 40,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月每戶回饋上限40元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "台亞加油站之「人工加油島」",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋總金額30,000元，先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月回饋總金額30,000元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

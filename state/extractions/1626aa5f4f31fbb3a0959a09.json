@@ -1,0 +1,71 @@
+{
+ "key": "1626aa5f4f31fbb3a0959a09",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:50:33+00:00",
+ "title": "歐付寶漫遊宜蘭員山，TWQR輕鬆付享10%回饋",
+ "duration_ms": 3280,
+ "cost_usd": 0.0289636,
+ "usage": {
+  "input": 2,
+  "output": 494,
+  "cache_creation": 5831,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享10%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一帳戶最高回饋新台幣500元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "宜蘭縣員山鄉標示 TWQR 之店家",
+    "how": "掃描TWQR支付成功",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限5萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限5萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "key": "ebd2e77877e4ea2f2ef9ef99",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:53:13+00:00",
+ "title": "悠遊付新會員註冊立即領$50禮包",
+ "duration_ms": 3715,
+ "cost_usd": 0.0318576,
+ "usage": {
+  "input": 2,
+  "output": 571,
+  "cache_creation": 6362,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間新會員完成註冊悠遊付立即獲得50元禮包乙份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間註冊悠遊付視同參加活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "活動期間新會員完成註冊悠遊付立即獲得50元禮包乙份"
+     },
+     {
+      "kind": "coupon",
+      "value": 10,
+      "unit": "元",
+      "quote": "10元全通路券、20元飲料券、20元超商券各1張"
+     },
+     {
+      "kind": "coupon",
+      "value": 20,
+      "unit": "元",
+      "quote": "10元全通路券、20元飲料券、20元超商券各1張"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "活動期間新會員完成註冊悠遊付立即獲得50元禮包乙份"
+    },
+    "where": "",
+    "how": "完成註冊及身分驗證",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限發完為止，額滿將於悠遊付APP及悠遊卡官網本活動頁面公告"
+    },
+    "quota": {
+     "seats": 162000,
+     "quote": "活動全期回饋共計162,000份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -13,7 +13,7 @@
   "external_url": "",
   "is_offer": "no",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "只要成為歐付寶會員，即可使用歐付寶行動支付 app ，掃描稅單 QR code",
   "offers": [
    {
     "name": "",
@@ -27,22 +27,22 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "",
+    "how": "掃描稅單 QR code ，並選擇銀行快付或帳戶餘額申報繳稅",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "4e1180bbcb3c0cd5",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -80,6 +80,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -91,18 +92,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "南投縣仁愛鄉標示 TWQR 之店家。",
-    "how": "掃描TWQR支付成功",
+    "how": "掃描TWQR",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "2f22cc1905aa92fc",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -118,8 +118,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "活動期間於萊爾富使用歐付寶APP進行支付，單筆消費滿150元可享10%紅利回饋(小數點後四捨五入)",
   "offers": [
    {
     "name": "",
@@ -137,7 +137,15 @@
       "kind": "points",
       "value": 10.0,
       "unit": "%",
-      "quote": "單筆消費滿150元可享10%紅利回饋(小數點後四捨五入)"
+      "quote": "單筆消費滿150元可享10%紅利回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿150元可享10%紅利回饋"
      }
     ],
     "caps": [
@@ -154,22 +162,14 @@
     "how": "使用歐付寶APP進行支付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 150,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿150元可享10%紅利回饋"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "4eae827f0c6e4919",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -185,8 +185,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "首次申辦本聯名卡，核卡後第一筆消費交易，將100%回饋歐付寶紅利點數 (上限333點)。",
   "offers": [
    {
     "name": "活動一:你刷卡我回饋，首筆消費回饋 100% 歐付寶紅利",
@@ -199,25 +199,31 @@
     "quota": null,
     "quota_quote": "",
     "review": [
-     "回饋 100% 不合理，多半是比例規則而非回饋：第一筆消費交易，將100%回饋歐付寶紅利點數 (上限333點"
+     "回饋 100% 不合理，多半是比例規則而非回饋：第一筆消費交易，將100%回饋歐付寶紅利點數"
     ],
     "rewards": [],
+    "min_spends": [],
     "caps": [
      {
       "amount": 333,
       "unit": "點",
       "per": "campaign",
-      "quote": "每位正卡持卡人限回饋乙次，歐付寶紅利回饋上限為333點"
+      "quote": "每位正卡持卡人限回饋乙次，歐付寶紅利回饋上限為333點。"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每位正卡持卡人限回饋乙次"
      }
     ],
     "new_users_only": "yes",
     "new_users_quote": "首次申辦本聯名卡，核卡後第一筆消費交易",
     "where": "",
-    "how": "活動一及活動二持卡人需於回饋日前，將歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
+    "how": "首次申辦本聯名卡，核卡後第一筆消費交易",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    },
    {
     "name": "活動二:新戶最高享 13% 回饋，每月最高 550 點",
@@ -235,34 +241,70 @@
     "rewards": [
      {
       "kind": "percent",
-      "value": 13.0,
+      "value": 10.0,
       "unit": "%",
-      "quote": "新戶最高享 13% 回饋，每月最高 550 點"
+      "quote": "核卡後12個月再加碼 10% 回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 2.0,
+      "unit": "%",
+      "quote": "筆筆享有 2% 回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 1.0,
+      "unit": "%",
+      "quote": "再加碼 1% 回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 1.5,
+      "unit": "%",
+      "quote": "非網購之海外消費，筆筆回饋 1.5% 回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 0.5,
+      "unit": "%",
+      "quote": "筆筆回饋 0.5% 回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
-      "amount": 550,
+      "amount": 100,
       "unit": "點",
       "per": "month",
-      "quote": "新戶最高享 13% 回饋，每月最高 550 點"
+      "quote": "每月回饋上限100點"
+     },
+     {
+      "amount": 250,
+      "unit": "點",
+      "per": "month",
+      "quote": "每月回饋上限250點"
+     },
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每月回饋上限200點"
      }
     ],
-    "new_users_only": "yes",
-    "new_users_quote": "新戶且申請使用電子帳單，核卡後12個月再加碼 10% 回饋",
+    "new_users_only": "unknown",
+    "new_users_quote": "",
     "where": "『歐付寶行動支付 APP 刷卡消費或網路購物』",
-    "how": "活動一及活動二持卡人需於回饋日前，將歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
+    "how": "歐付寶悠遊聯名卡與歐付寶行動支付 APP 進行綁定",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "fd118dc06fe3bfe5",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -279,7 +321,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋",
   "offers": [
    {
     "name": "",
@@ -290,7 +332,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限5萬元，額滿為止",
+    "quota_quote": "本活動回饋總金額上限5萬元",
     "review": [],
     "rewards": [
      {
@@ -300,6 +342,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -311,18 +354,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "宜蘭縣員山鄉標示 TWQR 之店家。",
-    "how": "掃描TWQR支付成功",
+    "how": "掃描TWQR",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "affd4995eab45fdd",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -339,7 +381,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間於高雄六合夜市與瑞豐夜市指定TWQR店家消費，使用歐付寶APP掃描「指定TWQR立牌」付款，消費金額享10% 現金回饋。",
   "offers": [
    {
     "name": "",
@@ -360,6 +402,7 @@
       "quote": "消費金額享10% 現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 200,
@@ -374,15 +417,14 @@
     "how": "使用歐付寶APP掃描「指定TWQR立牌」付款",
     "limited": "yes",
     "limited_quote": "每月贈完為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "808837e78fc1a721",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -420,6 +462,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -431,18 +474,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "連江縣(馬祖)地區標示TWQR店家",
-    "how": "掃描TWQR支付成功",
+    "how": "掃描TWQR",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "7f7143137a54a4e2",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -459,7 +501,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "於活動期間持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付，單筆消費不限金額10%回饋紅利點數",
   "offers": [
    {
     "name": "",
@@ -480,6 +522,7 @@
       "quote": "單筆消費不限金額10%回饋紅利點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 50,
@@ -494,15 +537,14 @@
     "how": "持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付",
     "limited": "yes",
     "limited_quote": "每期活動預算金額有限，如達每月活動預算金額上限即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "7cc8e5e49761bf8e",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -519,7 +561,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋",
   "offers": [
    {
     "name": "",
@@ -530,7 +572,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限30萬元，額滿為止",
+    "quota_quote": "本活動回饋總金額上限30萬元",
     "review": [],
     "rewards": [
      {
@@ -540,6 +582,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -551,18 +594,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "中野安全帽（中野安全帽有限公司）全台實體門市",
-    "how": "掃描TWQR",
+    "how": "掃描TWQR支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "db16b7813853c5d5",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -578,8 +620,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "no",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "您可透過 一、自動購票機或人工售票口掃碼付款",
   "offers": [
    {
     "name": "",
@@ -593,22 +635,22 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "",
-    "how": "",
+    "where": "臺北市立動物園",
+    "how": "自動購票機或人工售票口掃碼付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "a92757e98baead7a",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -646,6 +688,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -660,15 +703,14 @@
     "how": "掃描TWQR",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.opay.tw/Banner/Event",
   "review": [],
   "content_hash": "42755d504495ce67",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  }
 ]

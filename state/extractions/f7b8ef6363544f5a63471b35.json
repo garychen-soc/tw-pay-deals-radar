@@ -1,0 +1,122 @@
+{
+ "key": "f7b8ef6363544f5a63471b35",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:54+00:00",
+ "title": "【王道銀行】指定連結開立王道帳戶，並符合條件享 600 元回饋",
+ "duration_ms": 5934,
+ "cost_usd": 0.0477796,
+ "usage": {
+  "input": 2,
+  "output": 1056,
+  "cache_creation": 9130,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享 iPASS MONEY 儲值金 600 元回饋（每一位一卡通 iPASS MONEY 會員限回饋乙次）"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "首次透過一卡通 iPASS MONEY 指定連結成功開立王道帳戶，並於核卡後 30 天內使用王道簽帳金融卡綁定一卡通 iPASS MONEY 刷卡一般消費不限金額滿 3 筆"
+  },
+  "subs": [
+   {
+    "name": "活動1",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 600,
+      "unit": "元",
+      "quote": "享 iPASS MONEY 儲值金 600 元回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "刷卡一般消費不限金額滿 3 筆"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一位一卡通 iPASS MONEY 會員限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動僅適用於新戶，新戶係指未曾持有王道銀行任一存款帳戶者"
+    },
+    "where": "",
+    "how": "使用王道簽帳金融卡綁定一卡通 iPASS MONEY",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限前 830 名核卡之客戶參加，額滿將於王道銀行官網公告。"
+    },
+    "quota": {
+     "seats": 830,
+     "quote": "本活動限前 830 名核卡之客戶參加"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動2:王道超給利（限時活動 2026/7/1 - 2026/10/31 開戶者）",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 388,
+      "unit": "元",
+      "quote": "再享新台幣 388 元現金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "刷卡消費累積滿新台幣 3,000 元"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動僅適用於新戶，新戶係指未曾持有王道銀行任一存款帳戶者"
+    },
+    "where": "",
+    "how": "使用一卡通 iPASS MONEY APP 綁定王道銀行簽帳金融卡",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限前 300 名客戶參與，額滿將於活動網頁公告。"
+    },
+    "quota": {
+     "seats": 300,
+     "quote": "本活動限前 300 名客戶參與"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

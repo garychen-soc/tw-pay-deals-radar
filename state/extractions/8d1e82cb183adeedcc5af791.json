@@ -1,0 +1,140 @@
+{
+ "key": "8d1e82cb183adeedcc5af791",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:09:37+00:00",
+ "title": "2026悠遊捷客年末感謝祭 筆筆最高享15%回饋!!",
+ "duration_ms": 10675,
+ "cost_usd": 0.048763600000000004,
+ "usage": {
+  "input": 2,
+  "output": 1716,
+  "cache_creation": 7726,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間於「悠遊捷客指定店家」使用悠遊付消費完成，不限金額，享筆筆12%回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "(活動期間於悠遊捷客指定店家使用悠遊付掃描「悠遊付TWQR立牌」或「悠遊付立牌」消費之人，視同參加本活動，為活動參加人。)"
+  },
+  "subs": [
+   {
+    "name": "2026悠遊捷客年末感謝祭 筆筆最高享15%回饋!!",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 12,
+      "unit": "%",
+      "quote": "享筆筆12%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆上限50元"
+     },
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月每戶回饋上限100元悠遊付回饋金"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "活動期間於悠遊捷客指定店家使用悠遊付掃描「悠遊付TWQR立牌」或「悠遊付立牌」消費之人，視同參加本活動，為活動參加人。"
+    },
+    "where": "悠遊捷客指定店家",
+    "how": "使用悠遊付 APP，以「掃碼」或「付款碼」付款。",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋金總額上限30萬元 (2026/10月回饋金總額為10萬)，送完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月回饋金總額上限30萬元 (2026/10月回饋金總額為10萬)，送完為止。"
+    },
+    "sold_out": [
+     {
+      "quote": "10月活動已於 2026/10/22 08:26額滿",
+      "scope_label": "10月",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【11/1-12/31加碼抽捷運點】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1000,
+      "unit": "點",
+      "quote": "1000點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 15,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "於活動期間至「捷客指定店家」消費累積15次"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "悠遊付會員於活動期間至「捷客指定店家」消費累積15次，即可參加抽獎。"
+    },
+    "where": "捷客指定店家",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "總點數發出上限為39,000點"
+    },
+    "quota": {
+     "seats": 39,
+     "quote": "39名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

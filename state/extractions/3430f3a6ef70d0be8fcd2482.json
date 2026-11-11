@@ -1,0 +1,71 @@
+{
+ "key": "3430f3a6ef70d0be8fcd2482",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:05:26+00:00",
+ "title": "綁定指定信用卡(臺灣企銀)，最高5%全點限量回饋！",
+ "duration_ms": 3599,
+ "cost_usd": 0.0377756,
+ "usage": {
+  "input": 2,
+  "output": 576,
+  "cache_creation": 7829,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用臺灣企銀信用卡，消費不限金額，筆筆消費最高享5%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "使用該合作銀行信用卡於全支付「合作通路」，使用全支付「付款碼」或掃描「全支付QR Code立牌」或「全支付TWQR立牌」完成消費，可享以下回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆消費最高享5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "點",
+      "per": "week",
+      "quote": "每一全支付帳號每週最高享30全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "全支付「合作通路」",
+    "how": "使用全支付「付款碼」或掃描「全支付QR Code立牌」或「全支付TWQR立牌」完成消費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每週回饋限量5,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "本活動每週回饋限量5,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

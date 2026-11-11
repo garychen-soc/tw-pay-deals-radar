@@ -1,0 +1,156 @@
+{
+ "key": "496e9516f825350eee4e254d",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:51:04+00:00",
+ "title": "全盈+PAY綁定國泰世華信用卡💳小樹點(信用卡)帳單折抵，最高8%回饋",
+ "duration_ms": 13807,
+ "cost_usd": 0.0597336,
+ "usage": {
+  "input": 2,
+  "output": 2265,
+  "cache_creation": 9096,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "加碼4%小樹點(信用卡)回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "領券折抵享4%回饋活動需先登入國泰世華CUBE App領取全家折抵加碼優惠券"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "該筆消費始可享加碼4%小樹點(信用卡)回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月最高回饋100點"
+     },
+     {
+      "amount": 400,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "整檔活動(2026/9/1~2026/12/31)合計最高每人可獲得400點小樹點(信用卡)"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全家便利商店實體門市",
+    "how": "使用全盈+PAY綁定國泰世華CUBE信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "活動期間於國泰世華CUBE APP領取【全家折抵加碼】優惠券",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "每月活動皆須領券"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "回饋計算將於當月領取日後(含當日)符合本活動規範之當月新增消費方計入回饋計算"
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "加贈小樹點(信用卡)100點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆信用卡帳單實際請款金額滿99元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每正卡戶限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "使用全盈+PAY首次綁定國泰世華信用卡"
+    },
+    "where": "全家便利商店實體門市",
+    "how": "使用全盈+PAY首次綁定國泰世華信用卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "key": "f0922db53c43e2c53e167b07",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:09:56+00:00",
+ "title": "悠遊付綁玉山信用卡繳地價稅，登錄享0.2%玉山e point回饋！",
+ "duration_ms": 9742,
+ "cost_usd": 0.0404916,
+ "usage": {
+  "input": 2,
+  "output": 1622,
+  "cache_creation": 5893,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "登錄最高享0.2% e point點數回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動需登錄 (僅限正卡持卡人登錄參加)"
+  },
+  "subs": [
+   {
+    "name": "一、使用悠遊付綁定玉山信用卡繳納地價稅",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 0.2,
+      "unit": "%",
+      "quote": "登錄最高享0.2% e point點數回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "活動期間每歸戶回饋上限50點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用悠遊付綁定玉山信用卡繳納地價稅",
+    "limited": {
+     "value": "no",
+     "quote": "登錄名額無上限"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "將於2026/10/28 00:00至2026/11/30 23:59統一開放正卡人於玉山銀行官網登錄",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 28,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間登錄一次即可，無須重複登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "二、首綁新戶繳納地價稅累計滿10,000元",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "再贈50點玉山e point"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "首綁新戶繳納地價稅累計滿10,000元"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首綁新戶繳納地價稅累計滿10,000元"
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "將於2026/10/28 00:00至2026/11/30 23:59統一開放正卡人於玉山銀行官網登錄",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 28,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間登錄一次即可，無須重複登錄"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "key": "fd0321694fb85871f06f9e3b",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:03:56+00:00",
+ "title": "iGO機場接送｜單筆滿$599享10%全點回饋",
+ "duration_ms": 10220,
+ "cost_usd": 0.0462276,
+ "usage": {
+  "input": 2,
+  "output": 1686,
+  "cache_creation": 7167,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間內，使用全支付付款，單筆消費滿＄599可享10％全點回饋！數量有限送完為止！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內，於iGO官方網站結帳時，使用全支付完成付款，可享以下回饋"
+  },
+  "subs": [
+   {
+    "name": "主活動",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費滿$599享10%全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$599享10%全點回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "txn",
+      "quote": "本活動單筆訂單最高回饋100全點"
+     },
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "本活動期間內每一會員最高可享200全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參與"
+    },
+    "where": "本活動限於iGO機場接送線上官方通路消費",
+    "how": "使用全支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋限量5萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行帳戶付款活動",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "本活動限於iGO機場接送線上官方通路消費",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡付款活動",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "本活動限於iGO機場接送線上官方通路消費",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

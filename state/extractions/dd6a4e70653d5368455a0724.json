@@ -1,0 +1,71 @@
+{
+ "key": "dd6a4e70653d5368455a0724",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:55:18+00:00",
+ "title": "三商炸雞-炸雞獨享餐特價119元",
+ "duration_ms": 4860,
+ "cost_usd": 0.026399600000000002,
+ "usage": {
+  "input": 2,
+  "output": 504,
+  "cache_creation": 5165,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持悠遊卡/悠遊聯名卡/悠遊付至三商炸雞購買2塊炸雞+迷你瓶飲料，特價119元(原價159元)。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間持悠遊卡/悠遊聯名卡/悠遊付至三商炸雞購買2塊炸雞+迷你瓶飲料，特價119元(原價159元)。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 119,
+      "unit": "元",
+      "quote": "特價119元(原價159元)"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "txn",
+      "quote": "本優惠每筆結帳限購乙組優惠"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "三商炸雞門市",
+    "how": "持悠遊卡/悠遊聯名卡/悠遊付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

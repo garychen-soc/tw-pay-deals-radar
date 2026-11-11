@@ -1,0 +1,71 @@
+{
+ "key": "205550a1252403d33d078b60",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:45+00:00",
+ "title": "相揪汐止買菜趣 TWQR獨享20%回饋",
+ "duration_ms": 3926,
+ "cost_usd": 0.0318376,
+ "usage": {
+  "input": 2,
+  "output": 595,
+  "cache_creation": 6297,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%現金回饋(非即時回饋，小數點後四捨五入)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間至活動地點以「台灣Pay」QR Code掃碼支付，單筆消費不限金額可享20%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每一金融卡號/帳戶活動期間最高回饋新臺幣(以下同)300元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "新北市汐止區秀豐市場、金龍市場、厚德市場、林森市場、汐止觀光夜市，及汐止區農會受理已加入「TWQR」之指定店家",
+    "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限435,000元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限435,000元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

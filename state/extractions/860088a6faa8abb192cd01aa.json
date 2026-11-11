@@ -1,0 +1,71 @@
+{
+ "key": "860088a6faa8abb192cd01aa",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:28+00:00",
+ "title": "拿坡里-Mini雙享餐 特價299元",
+ "duration_ms": 5555,
+ "cost_usd": 0.0272056,
+ "usage": {
+  "input": 2,
+  "output": 561,
+  "cache_creation": 5224,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "至拿坡里購買Mini雙享餐 (Mini披薩2個+薯條+2塊炸雞+2瓶迷你瓶飲料(350ml)，特價299元(原價410元)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間持悠遊卡/悠遊聯名卡/悠遊付至拿坡里購買Mini雙享餐"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 299,
+      "unit": "元",
+      "quote": "特價299元(原價410元)"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "txn",
+      "quote": "本優惠每筆結帳限購乙組優惠"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "本優惠僅限可使用悠遊付或悠遊卡/悠遊聯名卡悠遊卡功能付款之拿坡里門市使用，西湖店不適用",
+    "how": "活動期間持悠遊卡/悠遊聯名卡/悠遊付至拿坡里購買Mini雙享餐",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

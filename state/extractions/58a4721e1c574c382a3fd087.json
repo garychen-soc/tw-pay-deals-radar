@@ -1,0 +1,78 @@
+{
+ "key": "58a4721e1c574c382a3fd087",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:53:29+00:00",
+ "title": "【大立百貨】用 iPASS MONEY 當日累積消費滿 999 贈造型一卡通！",
+ "duration_ms": 4718,
+ "cost_usd": 0.045848,
+ "usage": {
+  "input": 2,
+  "output": 568,
+  "cache_creation": 10041,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當日累積消費滿 999 元，可獲得造型一卡通乙份(市值 450 元)。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間大立百貨A館/B館現場消費，使用一卡通 iPASS MONEY APP 開啟「付款碼」付款，當日累積消費滿 999 元，可獲得造型一卡通乙份"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "可獲得造型一卡通乙份(市值 450 元)"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 999,
+      "unit": "元",
+      "per": "day",
+      "quote": "當日累積消費滿 999 元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "活動期間每人限領一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "大立百貨( A 館/B 館)",
+    "how": "使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
+    "limited": {
+     "value": "yes",
+     "quote": "總限量 300 份，數量有限，兌完為止。"
+    },
+    "quota": {
+     "seats": 300,
+     "quote": "總限量 300 份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

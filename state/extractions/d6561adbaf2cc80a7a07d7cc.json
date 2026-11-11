@@ -1,0 +1,264 @@
+{
+ "key": "d6561adbaf2cc80a7a07d7cc",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:09:26+00:00",
+ "title": "基北北桃我的減碳存摺2.0",
+ "duration_ms": 16121,
+ "cost_usd": 0.0526036,
+ "usage": {
+  "input": 2,
+  "output": 2696,
+  "cache_creation": 6236,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "累計基北北桃運具減碳量達20公斤，並完成步行減碳健康授權，即可獲得抽獎資格。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "需完成活動登錄與步行減碳健康授權"
+  },
+  "subs": [
+   {
+    "name": "全民一起走減碳20KG挑戰",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "頭獎｜Apple MacBook Air 13 M5 (不挑顏色):3名"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "二獎｜SAMSUNG Galaxy S25 Ultra 256G (不挑顏色):3名"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "三獎｜PS5 SLIM輕薄型主機:4名"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "五獎｜Samsung Galaxy Watch8(不挑顏色) :5名"
+     },
+     {
+      "kind": "cash",
+      "value": 10000,
+      "unit": "元",
+      "quote": "六獎｜悠遊付儲值金10,000元:7名"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "八獎｜Apple AirPods Pro3:5名"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "特別獎｜臺北捷運年票:2名"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 20,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "5/1~5/31累計基北北桃運具減碳量達20公斤"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持記名悠遊卡搭乘基北北桃都會通範圍之大眾運輸",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "基北北桃運具減碳月月兌",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "每月 1 日至 3 日開放減碳量月滿 20 公斤者兌獎。"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 20,
+      "unit": "other",
+      "per": "month",
+      "quote": "每月 1 日至 3 日開放減碳量月滿 20 公斤者兌獎。"
+     },
+     {
+      "amount": 5,
+      "unit": "other",
+      "per": "month",
+      "quote": "每月 4 日至 5 日開放減碳量月滿 5 公斤者兌獎。"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "符合資格者每人每月僅能兌換 1 次。"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持記名悠遊卡搭乘基北北桃都會通範圍之大眾運輸",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "步行減碳月月兌",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "可於次月 6 日進行兌獎"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 15,
+      "unit": "other",
+      "per": "month",
+      "quote": "步行減碳量每月累計滿 15 公斤(含)以上"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "開啟「允許悠遊付 APP 存取健康資料」",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "加碼月月抽",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "中華航空亞洲線不限航點經濟艙來回機票"
+     },
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "Lenovo V14 筆記型電腦"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "week",
+      "quote": "活動期間內每週五須搭(騎)乘1次大眾運輸"
+     },
+     {
+      "amount": 4,
+      "unit": "次",
+      "per": "month",
+      "quote": "每月累積滿4次，即可獲得1次當月抽獎機會"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "基北北桃都會通範圍內運具",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

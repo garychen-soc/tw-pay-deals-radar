@@ -1,0 +1,64 @@
+{
+ "key": "15ba3e8f93bc4b884e768116",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:23+00:00",
+ "title": "品川蘭-指定套餐特價289元",
+ "duration_ms": 3954,
+ "cost_usd": 0.0255516,
+ "usage": {
+  "input": 2,
+  "output": 420,
+  "cache_creation": 5163,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "特價289元(原價350元)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間持悠遊卡/悠遊聯名卡/悠遊付至品川蘭購買 川‧板腱牛肉麵+醋溜雲耳+純釀烏梅汁，特價289元(原價350元)。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 289,
+      "unit": "元",
+      "quote": "特價289元(原價350元)"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "品川蘭",
+    "how": "持悠遊卡/悠遊聯名卡/悠遊付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

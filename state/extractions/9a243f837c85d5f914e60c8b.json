@@ -1,0 +1,166 @@
+{
+ "key": "9a243f837c85d5f914e60c8b",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:56:14+00:00",
+ "title": "選【全支付】權益｜綁定國泰CUBE信用卡於指定場域消費最高享7%回饋！",
+ "duration_ms": 14254,
+ "cost_usd": 0.0622216,
+ "usage": {
+  "input": 2,
+  "output": 2385,
+  "cache_creation": 9418,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享最高2%小樹點(信用卡)回饋，全支付綁定國泰世華信用卡於指定場域消費享最高5%全點回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "於活動期間至CUBE App切換【全支付】權益方案"
+  },
+  "subs": [
+   {
+    "name": "【國泰世華銀行】優惠：切換全支付權益，以全支付綁定並刷CUBE信用卡享2%小樹點（信用卡）回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 2,
+      "unit": "%",
+      "quote": "享2%小樹點（信用卡）回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全支付國內合作店家",
+    "how": "使用全支付並綁定國泰世華CUBE信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "於活動期間至CUBE App切換【全支付】權益方案",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 4,
+       "day": 22,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "方案設定自當日零時起之消費即依當次變更後之方案計算回饋"
+    }
+   },
+   {
+    "name": "【國泰世華銀行】優惠：全支付APP綁卡消費小樹點（信用卡）可折抵信用卡消費帳款",
+    "rewards": [],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "可接受全支付交易付款之指定通路",
+    "how": "於全支付App綁定CUBE信用卡後",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【國泰世華銀行】優惠：使用國泰世華銀行信用卡，消費不限金額，筆筆消費最高享5%全點回饋，回饋之全點以四捨五入計算至個位，每一全支付帳號每週最高享30全點回饋。",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆消費最高享5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "點",
+      "per": "week",
+      "quote": "每一全支付帳號每週最高享30全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "全點回饋活動全支付會員皆可參加。"
+    },
+    "where": "全支付綁國泰世華信用卡於指定場域消費",
+    "how": "消費使用全支付綁定之國泰世華銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每週回饋限量100,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": 100000,
+     "quote": "本活動每週回饋限量100,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

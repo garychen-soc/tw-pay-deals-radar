@@ -1,0 +1,322 @@
+{
+ "key": "e2deb7219cdd335e1ec3eab5",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:55:51+00:00",
+ "title": "momo購物網雙11狂歡購｜滿千最高8%｜滿額再加碼最高$1,700回饋",
+ "duration_ms": 23139,
+ "cost_usd": 0.102661,
+ "usage": {
+  "input": 4,
+  "output": 4731,
+  "cache_creation": 13067,
+  "cache_read": 15375
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間單筆滿1,000元以上，每筆扣款享3%悠遊付回饋金。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "悠遊付會員自10/27起於指定領券頁面點擊「立即領取」，即可獲得「500元先用先賺現金回饋券」1張"
+  },
+  "subs": [
+   {
+    "name": "活動一:滿千最高8%回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "每筆扣款享3%悠遊付回饋金"
+     },
+     {
+      "kind": "other",
+      "value": 3,
+      "unit": "%",
+      "quote": "月級挑戰最高3%回饋。"
+     },
+     {
+      "kind": "other",
+      "value": 2,
+      "unit": "%",
+      "quote": "週五會員日筆筆2%回饋。"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "活動期間單筆滿1,000元以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 120,
+      "unit": "元",
+      "per": "month",
+      "quote": "每會員最高回饋120元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於momo購物網",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動總回饋上限:11月回饋上限新臺幣(下同)40萬元。"
+    },
+    "sold_out": [
+     {
+      "quote": "活動一回饋已於11/6下午16:09額滿。",
+      "scope_label": "活動一",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:滿1萬加碼$1,200現金回饋券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1200,
+      "unit": "元",
+      "quote": "回饋1,200元禮包一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿10,000元以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每悠遊付會員限贈1份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "momo購物網",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動限量800份"
+    },
+    "quota": {
+     "seats": 800,
+     "quote": "活動限量800份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三:雙11搶券月曆｜$500先用先賺",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "使用後回饋500元悠遊付回饋金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿5,000元以上可使用"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "momo購物網",
+    "how": "於指定領券頁面點擊「立即領取」",
+    "limited": {
+     "value": "yes",
+     "quote": "各用券日回饋名額限量"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各用券日回饋名額限量"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "悠遊付會員自10/27起於指定領券頁面點擊「立即領取」",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": null,
+       "month": 10,
+       "day": 27,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "於指定用券日當天00:00~23:59單筆滿5,000元以上可使用"
+    }
+   },
+   {
+    "name": "活動四:累積最高加碼$300",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "回饋「100元momo購物網專用現金回饋券」1張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,500元以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "other",
+      "per": "txn",
+      "quote": "每訂單回饋上限3張"
+     },
+     {
+      "amount": 3,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "每悠遊付會員回饋上限3張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "momo購物網",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量3,800張"
+    },
+    "quota": {
+     "seats": 3800,
+     "quote": "活動總限量3,800張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動五:指定週五再加碼$300",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 300,
+      "unit": "元",
+      "quote": "回饋「300元momo購物網專用現金回饋券」1張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "指定週五當天單筆滿5,000元以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "day",
+      "quote": "每悠遊付會員於每個指定週五回饋上限1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "momo購物網",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "每指定週五各限量150張"
+    },
+    "quota": {
+     "seats": 150,
+     "quote": "每指定週五各限量150張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

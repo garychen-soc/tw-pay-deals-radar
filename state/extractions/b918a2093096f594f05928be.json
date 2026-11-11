@@ -1,0 +1,71 @@
+{
+ "key": "b918a2093096f594f05928be",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:16+00:00",
+ "title": "耐斯購物Pay你享回饋",
+ "duration_ms": 3766,
+ "cost_usd": 0.0322936,
+ "usage": {
+  "input": 2,
+  "output": 601,
+  "cache_creation": 6396,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%之現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點消費，並出示「台灣Pay」付款條碼(信用卡/金融卡/帳戶)進行支付，單筆消費不限金額可享20%之現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%之現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每信用卡/金融卡/帳戶於活動期間以1,000元為回饋上限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "耐斯廣場購物中心與耐斯王子大飯店受理「台灣Pay」之指定櫃位(嘉義市東區忠孝路600號)",
+    "how": "出示「台灣Pay」付款條碼(信用卡/金融卡/帳戶)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限110萬元，如達回饋總金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限110萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "2e19f5e46790b2bad007bc1f",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T01:00:10+00:00",
+ "title": "綁定上海商銀指定信用卡達成任務享回饋",
+ "duration_ms": 5334,
+ "cost_usd": 0.032139600000000004,
+ "usage": {
+  "input": 2,
+  "output": 684,
+  "cache_creation": 6150,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全盈+PAY 綁定上海商業銀行指定信用卡於全家店舖任一筆不限金額消費，並完成指定任務最高享5%現金回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本行信用卡正卡持卡人(下稱持卡人)須至本行網站完成登錄"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 5,
+      "unit": "%",
+      "quote": "並完成指定任務最高享5%現金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "month",
+      "quote": "當月一般消費累計達5,000元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "每月每歸戶回饋上限200元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於全家店舖任一筆不限金額消費",
+    "how": "使用全盈+PAY 綁定上海商業銀行指定信用卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "須於當月月底前完成登錄，始可參加當月及後續月份回饋活動",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間僅需登錄一次"
+    },
+    "order": {
+     "value": "retroactive_ok",
+     "quote": "須於當月月底前完成登錄，始可參加當月及後續月份回饋活動"
+    }
+   }
+  ]
+ }
+}

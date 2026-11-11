@@ -1,0 +1,100 @@
+{
+ "key": "48c689c9e91e78a44aec5c92",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:13+00:00",
+ "title": "嗶臺北市敬老卡可享扣抵點數泡溫泉!",
+ "duration_ms": 4629,
+ "cost_usd": 0.0298816,
+ "usage": {
+  "input": 2,
+  "output": 697,
+  "cache_creation": 5553,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間持臺北市敬老卡至北投地區內指定溫泉大眾浴池，可使用敬老點數60點扣抵，再享專屬加碼優惠"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間持臺北市敬老卡至北投地區內指定溫泉大眾浴池，可使用敬老點數60點扣抵，再享專屬加碼優惠"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 60,
+      "unit": "點",
+      "quote": "可使用敬老點數60點扣抵"
+     },
+     {
+      "kind": "discount",
+      "value": 120,
+      "unit": "元",
+      "quote": "本館加碼優惠折抵 120元"
+     },
+     {
+      "kind": "discount",
+      "value": 180,
+      "unit": "元",
+      "quote": "總優惠金額共折抵180元"
+     },
+     {
+      "kind": "discount",
+      "value": 488,
+      "unit": "元",
+      "quote": "本館優惠價488元/位(原價$800元)"
+     },
+     {
+      "kind": "discount",
+      "value": 150,
+      "unit": "元",
+      "quote": "敬老卡優惠: 不限平假日:$150/人"
+     },
+     {
+      "kind": "discount",
+      "value": 60,
+      "unit": "元",
+      "quote": "本館加碼優惠折抵 60元"
+     },
+     {
+      "kind": "discount",
+      "value": 120,
+      "unit": "元",
+      "quote": "總優惠金額共折抵120元"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "北投地區內指定溫泉大眾浴池",
+    "how": "持臺北市敬老卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

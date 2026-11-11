@@ -1,0 +1,78 @@
+{
+ "key": "b0aeaa51e9ced5a1b519f41d",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:53:46+00:00",
+ "title": "康是美門市",
+ "duration_ms": 3073,
+ "cost_usd": 0.025353599999999997,
+ "usage": {
+  "input": 2,
+  "output": 443,
+  "cache_creation": 5056,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆滿 $500 立折 $50門市購物抵用券"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 50,
+      "unit": "元",
+      "quote": "結帳金額滿$500元可折抵$50元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "結帳金額滿$500元可折抵$50元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "本券限使用乙次，使用過後即失效"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "本券僅限康是美實體門市使用",
+    "how": "須全額使用icash Pay付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

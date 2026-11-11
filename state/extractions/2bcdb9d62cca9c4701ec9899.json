@@ -1,0 +1,78 @@
+{
+ "key": "2bcdb9d62cca9c4701ec9899",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:55+00:00",
+ "title": "綁定國泰世華銀行信用卡，於日韓跨境消費滿額享限量全點回饋！",
+ "duration_ms": 4026,
+ "cost_usd": 0.0404496,
+ "usage": {
+  "input": 2,
+  "output": 641,
+  "cache_creation": 8335,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新臺幣1,000元享5%全點回饋，每一全支付帳號每一波區間內最高享100全點回饋！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "使用全支付綁定國泰世華信用卡付款，單筆消費滿新臺幣1,000元享5%全點回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "單筆消費滿新臺幣1,000元享5%全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣1,000元享5%全點回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號每一波區間內最高享100全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "日本PayPay合作夥伴實體通路消費或韓國Zero Pay / HIVEX 識別（由ICB實際營運）之合作夥伴實體通路消費",
+    "how": "使用全支付綁定國泰世華信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量45,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量45,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

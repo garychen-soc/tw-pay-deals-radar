@@ -1,0 +1,71 @@
+{
+ "key": "86e170bdbd3493436dd27c18",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:42+00:00",
+ "title": "連結指定銀行帳戶，最高3%全點限量回饋！",
+ "duration_ms": 3384,
+ "cost_usd": 0.036633599999999995,
+ "usage": {
+  "input": 2,
+  "output": 489,
+  "cache_creation": 7761,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "筆筆消費最高享3%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "使用該合作銀行帳戶消費，可享以下回饋"
+  },
+  "subs": [
+   {
+    "name": "銀行帳戶活動：指定付款享3%全點回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "筆筆消費最高享3%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "點",
+      "per": "week",
+      "quote": "每一全支付帳號每週最高享30點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "",
+    "how": "使用華泰銀行新臺幣存款帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每週回饋限量10,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": 10000,
+     "quote": "本活動每週回饋限量10,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

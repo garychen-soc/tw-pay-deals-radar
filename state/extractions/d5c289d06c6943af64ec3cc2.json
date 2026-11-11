@@ -1,0 +1,514 @@
+{
+ "key": "d5c289d06c6943af64ec3cc2",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:46+00:00",
+ "title": "街口X淘寶 11.11 火熱開跑",
+ "duration_ms": 17305,
+ "cost_usd": 0.0640936,
+ "usage": {
+  "input": 2,
+  "output": 3433,
+  "cache_creation": 7266,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享 1.5% 加碼街口幣回饋！（數量有限，先享先贏）"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "登記時間內於本頁面完成登記，並於每週四 00:00 起至「淘寶」使用「街口帳戶」消費付款"
+  },
+  "subs": [
+   {
+    "name": "每週四至六｜加碼1.5%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 1.5,
+      "unit": "%",
+      "quote": "享 1.5% 加碼街口幣回饋！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "至「淘寶」使用「街口帳戶」消費付款",
+    "how": "使用「街口帳戶」消費付款",
+    "limited": {
+     "value": "yes",
+     "quote": "（數量有限，先享先贏）"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "登記時間:2026/11/1 00:00 - 11/26 23:59。",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 26,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "登記確認成功後，於指定「回饋時間」內方可獲得加碼回饋"
+    }
+   },
+   {
+    "name": "11.11 大促｜優惠限定",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": null,
+      "unit": "other",
+      "quote": "結帳可享限量免手續費優惠"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單次手續費折抵上限 $50"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "每人每日限使用一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "限「淘寶 App」購買結帳",
+    "how": "使用「街口支付-帳戶」、「街口支付-信用卡」付款消費",
+    "limited": {
+     "value": "yes",
+     "quote": "名額有限，先用先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "免手續費數為每日限量"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "可享滿 $1,000 折 $100！"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "可享滿 $1,000 折 $100"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "請至「淘寶 App 銀行會場（淘寶首頁-支付優惠）領取」領券",
+    "how": "領券完畢用街口支付 APP 結帳",
+    "limited": {
+     "value": "yes",
+     "quote": "名額有限，先領先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/11/2 00:00 - 2026/11/10 23:59，每天 00:00 起開放領券",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 2,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 10,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "領券完畢用街口支付 APP 結帳"
+    }
+   },
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 10,
+      "unit": "other",
+      "quote": "消費滿 ¥99 現折 ¥10"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "other",
+      "per": "txn",
+      "quote": "消費滿 ¥99 現折 ¥10"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "結帳時輸入折扣碼「JKOPD1110」",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，先折先贏！"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "華南銀行",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "享全通路筆筆 10% 街口幣回饋！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "若選擇使用「華南銀行帳戶」 付款，於活動頁面進行登記",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "街利存",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 2.5,
+      "unit": "%",
+      "quote": "享最高 2.5% 街口幣回饋 (次月即時回饋)！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "若選擇使用「街利存帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "豬富卡",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 1,
+      "unit": "%",
+      "quote": "享最高 1% 街口幣回饋無上限！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "若選擇使用「台新街口豬富卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "5 號會員日 登記搶 $50 街口幣",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "享 30% 街口幣回饋！"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100 享 30% 街口幣回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每人最高拿 $50 街口幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "where": "指定通路",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "登記時間:2026/8/1 - 12/5",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動，當月 5 號 10:00 - 23:59 至指定通路單筆消費"
+    }
+   },
+   {
+    "name": "街口新戶加碼｜最高送 $100 街口券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "1 張淘寶專屬 $50 街口券"
+     },
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "1 張街口 $50 新戶禮"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "共可領取 2 張"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "於活動期間內「首次註冊」街口支付"
+    },
+    "where": "限「淘寶App」結帳",
+    "how": "使用街口支付帳戶付款，包含街口帳戶、街利存帳戶、銀行帳戶",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "需先領券，消費結帳跳轉至「街口支付」付款頁面時",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "每人每券限折一次"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需先領券，消費結帳跳轉至「街口支付」付款頁面時"
+    }
+   }
+  ]
+ }
+}

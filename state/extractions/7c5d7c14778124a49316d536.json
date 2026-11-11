@@ -1,0 +1,149 @@
+{
+ "key": "7c5d7c14778124a49316d536",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:50:09+00:00",
+ "title": "【好禮券】好禮入手、點數到手，使用 iPASS MONEY 付款，享一卡通綠點 10% 回饋",
+ "duration_ms": 14953,
+ "cost_usd": 0.0561816,
+ "usage": {
+  "input": 2,
+  "output": 2433,
+  "cache_creation": 7788,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當月於 iPASS MONEY APP「好禮券」專區消費，消費總額享一卡通綠點 10% 回饋。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點。"
+  },
+  "subs": [
+   {
+    "name": "優惠一:「好禮券」專區消費享 10% 回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "消費總額享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "iPASS MONEY APP「好禮券」專區",
+    "how": "使用一卡通 iPASS MONEY APP 付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總回饋上限 1,000 萬點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動總回饋上限 1,000 萬點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "retroactive_ok",
+     "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+    }
+   },
+   {
+    "name": "優惠二:指定信用卡加碼最高享 10% 回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "綁定聯邦信用卡消費最高享10%回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 4.5,
+      "unit": "%",
+      "quote": "綁定玉山unicard消費最高享4.5%回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "9/27前綁定 LINE BANK 快點卡消費滿額最高享4%回饋"
+     },
+     {
+      "kind": "cash",
+      "value": 600,
+      "unit": "元",
+      "quote": "綁定王道簽帳金融卡新卡消費最高享600元回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 50 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定聯邦信用卡消費最高享10%回饋",
+    "limited": {
+     "value": "yes",
+     "quote": "每月總回饋上限 25 萬點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月總回饋上限 25 萬點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

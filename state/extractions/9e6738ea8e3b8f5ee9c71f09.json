@@ -1,0 +1,330 @@
+{
+ "key": "9e6738ea8e3b8f5ee9c71f09",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:03:13+00:00",
+ "title": "百大品牌旅遊假期｜單筆滿$3000享5%回饋！新戶首筆滿額加碼50全點",
+ "duration_ms": 13609,
+ "cost_usd": 0.0653016,
+ "usage": {
+  "input": 2,
+  "output": 2717,
+  "cache_creation": 9358,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿$3,000（含）元，可享5%全點回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動＼優惠1/需於消費前完成「活動登錄」始享活動行銷回饋資格"
+  },
+  "subs": [
+   {
+    "name": "【主活動｜月月需登錄：「旅遊假期」之品牌通路消費滿$3,000享5%全點回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "單筆消費滿$3,000（含）元，可享5%全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$3,000（含）元，可享5%全點回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "最高可得200全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於指定「旅遊假期」之品牌通路結帳時",
+    "how": "使用全支付「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "各活動期間回饋限量10萬全點，以成功完成活動登錄後之消費優先順序計算，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各活動期間回饋限量10萬全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "① 2026/07/01(三)00:00 ~ 2026/07/31(五)23:59 ｜於2026/06/29(一)00:00始開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 6,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "② 2026/08/01(六)00:00 ~ 2026/08/31(一)23:59 ｜於2026/07/30(四)00:00始開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 7,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "③ 2026/09/01(二)00:00 ~ 2026/09/30(三)23:59 ｜於2026/08/30(日)00:00始開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "④ 2026/10/01(四)00:00 ~ 2026/10/31(六)23:59 ｜於2026/09/29(二)00:00始開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "⑤ 2026/11/01(日)00:00 ~ 2026/11/30(一)23:59 ｜於2026/10/30(五)00:00始開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "⑥ 2026/12/01(二)00:00 ~ 2026/12/31(四)23:59 ｜於2026/11/29(日)00:00始開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "於①、②、③、④、⑤、⑥個別活動期間內，每一全支付帳號於全支付首頁活動登錄頁面，完成「旅遊假期 | 消費回饋活動」活動登錄後"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需於消費前完成「活動登錄」始享活動行銷回饋資格"
+    }
+   },
+   {
+    "name": "【銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【全支付新戶於「旅遊假期」之品牌通路消費滿$3000享加碼新戶禮：回饋全點50點！】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "回饋全點50點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $3,000(含)元，即符合本優惠回饋資格"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付帳號活動期間限享1次回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本優惠限2026/06/30(含)以前從未註冊為全支付會員者適用"
+    },
+    "where": "「旅遊假期」之品牌通路",
+    "how": "使用全支付於本活動之「旅遊假期」之品牌通路付款",
+    "limited": {
+     "value": "yes",
+     "quote": "各波段回饋限量 6 萬全點，依於指定時間內成功註冊後之消費優先順序計算，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各波段回饋限量 6 萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

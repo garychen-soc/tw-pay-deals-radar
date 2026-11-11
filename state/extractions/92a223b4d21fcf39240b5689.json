@@ -1,0 +1,126 @@
+{
+ "key": "92a223b4d21fcf39240b5689",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:07+00:00",
+ "title": "跨境日韓｜不限消費方式與金額，送全通路返台樂購券！",
+ "duration_ms": 11569,
+ "cost_usd": 0.0486576,
+ "usage": {
+  "input": 2,
+  "output": 1709,
+  "cache_creation": 7717,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全支付跨境於日本/韓國實體合作通路消費，成功付款將收到全通路5%返台樂購券，至指定場域消費，最高享5%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動無需進行活動登錄，惟需使用全支付在日本/韓國跨境完成付款，即可符合回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "主活動：日韓消費就送5%返台樂購券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 5,
+      "unit": "%",
+      "quote": "成功付款將收到全通路5%返台樂購券"
+     },
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "可享消費5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 15,
+      "unit": "點",
+      "per": "txn",
+      "quote": "每一符合活動資格之全支付帳號單筆回饋上限15全點"
+     },
+     {
+      "amount": 3,
+      "unit": "other",
+      "per": "month",
+      "quote": "每一全支付帳號每月最多可領取3張"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參與"
+    },
+    "where": "日本/韓國實體合作通路",
+    "how": "使用全支付跨境",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月總回饋限量27萬點，以成功完成消費優先順序計算，數量有限贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月總回饋限量27萬點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行/信用卡活動：指定付款方式最高享5%回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋"
+     },
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

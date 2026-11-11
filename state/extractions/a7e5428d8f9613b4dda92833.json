@@ -1,0 +1,258 @@
+{
+ "key": "a7e5428d8f9613b4dda92833",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:54+00:00",
+ "title": "門市限定最高享 20.5%",
+ "duration_ms": 14360,
+ "cost_usd": 0.057783600000000004,
+ "usage": {
+  "input": 2,
+  "output": 2428,
+  "cache_creation": 8201,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用「街口支付」單筆消費滿 $666 即可折抵 $66！"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」"
+  },
+  "subs": [
+   {
+    "name": "領$66街口券",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 66,
+      "unit": "元",
+      "quote": "單筆消費滿 $666 即可折抵 $66"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 666,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $666 即可折抵 $66"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限折抵1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "康是美適用實體門市",
+    "how": "使用「街口支付」",
+    "limited": {
+     "value": "yes",
+     "quote": "先折先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」"
+    }
+   },
+   {
+    "name": "最高7%街口幣再加碼",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 7,
+      "unit": "%",
+      "quote": "可享加碼 7% 街口幣回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 65,
+      "unit": "元",
+      "per": "day",
+      "quote": "每人每日上限 $65"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "康是美適用實體門市",
+    "how": "使用街口支付結帳",
+    "limited": {
+     "value": "yes",
+     "quote": "每日預算用完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "抽 $66 OPENPOINT 5,000點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5000,
+      "unit": "點",
+      "quote": "OPENPOINT點數5,000點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "使用街口支付完成任一筆消費"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "康是美適用實體門市",
+    "how": "使用街口支付",
+    "limited": {
+     "value": "yes",
+     "quote": "共抽10名"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "共抽10名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "眾多付款優惠｜最高 10% 回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "筆筆 10% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 3.5,
+      "unit": "%",
+      "quote": "最高享 3.5% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 2.5,
+      "unit": "%",
+      "quote": "最高 2.5% 街口幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 1,
+      "unit": "%",
+      "quote": "筆筆享 1% 街口幣回饋無上限"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "若選擇使用「華南銀行帳戶」 付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新戶限定｜送 $50 街口券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取專屬$50街口券"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "「首次註冊」街口支付"
+    },
+    "where": "指定通路",
+    "how": "完成「實名認證或身份認證」，並綁定支付工具後",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

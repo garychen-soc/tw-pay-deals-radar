@@ -1,0 +1,71 @@
+{
+ "key": "8e6a4f68817d709edd5187a5",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:50:36+00:00",
+ "title": "歐付寶TWQR十大商圈消費10%紅利回饋",
+ "duration_ms": 3851,
+ "cost_usd": 0.031557600000000005,
+ "usage": {
+  "input": 2,
+  "output": 625,
+  "cache_creation": 6152,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "歐付寶TWQR單筆不限金額享10%回饋！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付，單筆消費不限金額10%回饋紅利點數"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額10%回饋紅利點數"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "month",
+      "quote": "活動期間每月每帳戶合計最高回饋50點紅利"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全台十大指定商圈（西門町、永康商圈、淡水老街、士林夜市、逢甲夜市、基隆廟口、迪化街、一中街夜市、羅東夜市、九份老街）標示下圖付款碼之全支付TWQR店家",
+    "how": "持歐付寶 APP 至標示 TWQR 之指定地點，掃描全支付TWQR碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "每期活動預算金額有限，如達每月活動預算金額上限即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "四月:20萬；五月~十二月:每月各35萬"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

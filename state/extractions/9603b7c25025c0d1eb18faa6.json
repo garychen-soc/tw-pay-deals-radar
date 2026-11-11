@@ -1,0 +1,414 @@
+{
+ "key": "9603b7c25025c0d1eb18faa6",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T01:00:05+00:00",
+ "title": "PChome 24h購物🔥1111超狂回饋🎁滿額最高贈1800 P幣",
+ "duration_ms": 27014,
+ "cost_usd": 0.0993676,
+ "usage": {
+  "input": 2,
+  "output": 4668,
+  "cache_creation": 12997,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "於 PChome 24h 購物單筆消費滿 NT$15,000 (含) 以上贈 500 P幣。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動需登錄，活動期間僅需登錄 1 次即可參加每月加碼活動"
+  },
+  "subs": [
+   {
+    "name": "活動一、單筆滿 $15,000 贈 500 P",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 500,
+      "unit": "點",
+      "quote": "單筆消費滿 NT$15,000 (含) 以上贈 500 P幣"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 15000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 NT$15,000 (含) 以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "全活動期間 (11/1~11/11) 每人限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "PChome 24h 購物",
+    "how": "使用 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
+    "limited": {
+     "value": "yes",
+     "quote": "活動一回饋總預算 125,000 元，分兩波段開放預算，各波段額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動一回饋總預算 125,000 元"
+    },
+    "sold_out": [
+     {
+      "quote": "(11/1-11/8活動一預算已於11/1 晚上 23:00額滿)",
+      "scope_label": "11/1-11/8活動一預算",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 8,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "(11/9-11/11活動一預算已於11/11 凌晨 00:05額滿)",
+      "scope_label": "11/9-11/11活動一預算",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 9,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 11,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二、單筆滿 $36,000 贈 1,800 P",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1800,
+      "unit": "點",
+      "quote": "單筆消費滿 NT$36,000 (含) 以上贈 1,800 P幣"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 36000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 NT$36,000 (含) 以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "全活動期間 (11/1~11/11) 每人限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "PChome 24h 購物",
+    "how": "使用 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
+    "limited": {
+     "value": "yes",
+     "quote": "活動二回饋總預算 279,000 元，分兩波段開放預算，各波段額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動二回饋總預算 279,000 元"
+    },
+    "sold_out": [
+     {
+      "quote": "(11/1-11/8活動二預算已於11/1 下午18:50額滿)",
+      "scope_label": "11/1-11/8活動二預算",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 8,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "(11/9-11/11活動二預算已於11/10 下午17:00額滿)",
+      "scope_label": "11/9-11/11活動二預算",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 9,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 11,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "🌟綁定玉山 Pi 拍錢包信用卡支付，單筆滿 499 元登錄享最高 5% P幣回饋 (需登錄)",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "登錄享最高 5% P幣回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 499,
+      "unit": "元",
+      "per": "txn",
+      "quote": "於 Pi 拍錢包通路一般消費單筆滿 499 元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "點",
+      "per": "month",
+      "quote": "每月每歸戶上限 300 P幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "Pi 拍錢包通路",
+    "how": "持玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包 APP",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間僅需登錄 1 次即可參加每月加碼活動"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "☝️持玉山 Pi 拍錢包信用卡消費累積滿額享加碼回饋，最高回饋 3,000 P幣 (需登錄)",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 0.8,
+      "unit": "%",
+      "quote": "累積滿 10,000 元，享加碼 0.8% P幣回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "累積滿 30,000 元，享加碼 2% P幣回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "month",
+      "quote": "門檻 1:累積滿 10,000 元"
+     },
+     {
+      "amount": 30000,
+      "unit": "元",
+      "per": "month",
+      "quote": "門檻 2:累積滿 30,000 元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3000,
+      "unit": "點",
+      "per": "month",
+      "quote": "每月每歸戶最高回饋 3,000 P幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用玉山 Pi 拍錢包信用卡消費 (含綁定 Pi 拍錢包支付)",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/9/1~2027/2/28 使用玉山 Pi 拍錢包信用卡消費 (含綁定 Pi 拍錢包支付)，正卡人完成活動登錄",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2027,
+       "month": 2,
+       "day": 28,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "活動期間僅需登錄 1 次即可參加每月刷卡活動"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "💳新申辦「玉山 Pi 拍錢包信用卡」享最高 10% P幣",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "核卡後 3 個月內享一般消費加碼 5% P幣"
+     },
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "最高享 10% P幣回饋"
+     },
+     {
+      "kind": "coupon",
+      "value": null,
+      "unit": "other",
+      "quote": "滿額贈「AirPods 4 等值之 Studio A 禮券」"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100000,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "60 天內一般消費累積 100,000 元 (含) 以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "點",
+      "per": "month",
+      "quote": "每歸戶每月上限 150 P幣"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶於活動期間內限回饋 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "限新戶首次申辦玉山 Pi 拍錢包信用卡正卡參加"
+    },
+    "where": "",
+    "how": "新戶首次申辦玉山 Pi 拍錢包信用卡正卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

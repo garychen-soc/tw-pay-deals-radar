@@ -1,0 +1,129 @@
+{
+ "key": "fa4630c29323ecd6e9ff832d",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:59:45+00:00",
+ "title": "主婦聯盟生活消費合作社｜ 2027年貨年菜預購滿額最高加碼贈300 P幣",
+ "duration_ms": 7449,
+ "cost_usd": 0.0385936,
+ "usage": {
+  "input": 2,
+  "output": 1147,
+  "cache_creation": 6606,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆實付滿 5,000 元 (含) 以上贈 100 P幣回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內，持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡於主婦聯盟生活消費合作社門市或線上商城，預購指定年菜年貨"
+  },
+  "subs": [
+   {
+    "name": "活動一:持玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包於主婦聯盟合作社預購指定年菜年貨，單筆滿 5,000 元贈 100 P幣",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "單筆實付滿 5,000 元 (含) 以上贈 100 P幣回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實付滿 5,000 元 (含) 以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人僅贈點一次，不重複回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "主婦聯盟生活消費合作社門市或線上商城",
+    "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
+    "limited": {
+     "value": "yes",
+     "quote": "活動回饋總預算 8.5 萬元，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動回饋總預算 8.5 萬元，贈完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:持玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包於主婦聯盟合作社預購指定年菜年貨，單筆滿 10,000 元贈 300 P幣",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 300,
+      "unit": "點",
+      "quote": "單筆實付滿 10,000 元 (含) 以上贈 300 P幣回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實付滿 10,000 元 (含) 以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人僅贈點一次，不重複回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "主婦聯盟生活消費合作社門市或線上商城",
+    "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
+    "limited": {
+     "value": "yes",
+     "quote": "活動回饋總預算 8.5 萬元，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動回饋總預算 8.5 萬元，贈完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "key": "214dd6fddc47b043b53e5bc0",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:10:09+00:00",
+ "title": "玉山碳員專屬任務 抽悠遊付回饋金活動",
+ "duration_ms": 11283,
+ "cost_usd": 0.0418796,
+ "usage": {
+  "input": 2,
+  "output": 1904,
+  "cache_creation": 5535,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "達成任務可抽50元悠遊付回饋金(抽1,000名)"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "每戶須為悠遊付會員且已開通玉山支付碳帳戶【大眾運具減碳】功能"
+  },
+  "subs": [
+   {
+    "name": "入門任務",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "達成任務可抽50元悠遊付回饋金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "於活動期間搭乘1次"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "抽1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "抽1,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "加值任務",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "達成任務可抽100元悠遊付回饋金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間搭乘至少1次"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用自動加值",
+    "limited": {
+     "value": "yes",
+     "quote": "抽500名"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "抽500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "常客任務",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "達成任務可抽500元悠遊付回饋金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 45,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "活動期間搭乘天數達45天"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "抽350名"
+    },
+    "quota": {
+     "seats": 350,
+     "quote": "抽350名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "達人任務",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 2500,
+      "unit": "元",
+      "quote": "達成任務可抽2,500元悠遊付回饋金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "活動期間搭乘運具達5種"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每歸戶僅限中獎1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "抽10名"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "抽10名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

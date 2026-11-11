@@ -1,0 +1,84 @@
+{
+ "key": "357dbffae45fe0cd1d24b6f4",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:51:25+00:00",
+ "title": "20261002-1231 一卡通卡友日",
+ "duration_ms": 3922,
+ "cost_usd": 0.0306816,
+ "usage": {
+  "input": 2,
+  "output": 637,
+  "cache_creation": 5903,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "平日(每週一~五)單筆消費滿300元贈100福利點，假日(每週六、日)單筆消費滿300元贈300福利點"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "天天使用星展銀行一卡通聯名卡，以一卡通票證功能扣款平日(每週一~五)單筆消費滿300元贈100福利點"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "平日(每週一~五)單筆消費滿300元贈100福利點"
+     },
+     {
+      "kind": "points",
+      "value": 300,
+      "unit": "點",
+      "quote": "假日(每週六、日)單筆消費滿300元贈300福利點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "平日(每週一~五)單筆消費滿300元贈100福利點"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "每福利卡會員每銀行方案每日限贈一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全聯福利卡",
+    "how": "天天使用星展銀行一卡通聯名卡，以一卡通票證功能扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "平日限量14,000份，假日限量8,500份"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "平日限量14,000份，假日限量8,500份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

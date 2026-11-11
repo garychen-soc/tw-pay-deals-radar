@@ -1,0 +1,84 @@
+{
+ "key": "e339e5093db52eb23a0e8e8e",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:21+00:00",
+ "title": "孕媽咪專屬悠遊付新會員贈$100優惠！",
+ "duration_ms": 4649,
+ "cost_usd": 0.031895599999999996,
+ "usage": {
+  "input": 2,
+  "output": 616,
+  "cache_creation": 6259,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "註冊悠遊付成為新會員，將於完成註冊次月月底前獲贈「新會員專屬100元現金回饋券」1張"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間已申請桃園市好運卡、南投縣好孕卡之孕媽咪註冊悠遊付成為新會員，將於完成註冊次月月底前獲贈「新會員專屬100元現金回饋券」1張"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "獲贈「新會員專屬100元現金回饋券」1張"
+     },
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "發送回饋金100元至使用者悠遊付帳戶"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿100元以上且使用該券"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "限得券一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "註冊悠遊付成為新會員"
+    },
+    "where": "於可使用悠遊付之全通路",
+    "how": "單筆消費滿100元以上且使用該券",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，發完即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

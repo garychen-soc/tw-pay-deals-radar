@@ -34,6 +34,7 @@
       "quote": "還可享最高6折停車優惠喔"
      }
     ],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -41,15 +42,14 @@
     "how": "提前綁定「電子支付自動代扣繳」",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.gamapay.com.tw/news_list.html",
   "review": [],
   "content_hash": "0fdebca88b57d3f8",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -66,7 +66,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "綁定橘子支付並設定自動代扣款，每筆享6折優惠！",
   "offers": [
    {
     "name": "",
@@ -87,6 +87,7 @@
       "quote": "每筆享6折優惠"
      }
     ],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -94,15 +95,14 @@
     "how": "綁定橘子支付並設定自動代扣款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.gamapay.com.tw/news_list.html",
   "review": [],
   "content_hash": "f45b5e9825514020",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -133,6 +133,7 @@
     "quota_quote": "",
     "review": [],
     "rewards": [],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -140,15 +141,14 @@
     "how": "",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.gamapay.com.tw/news_list.html",
   "review": [],
   "content_hash": "c5e0562a087a92f6",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  }
 ]

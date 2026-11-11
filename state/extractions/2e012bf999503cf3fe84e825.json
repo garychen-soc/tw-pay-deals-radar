@@ -1,0 +1,78 @@
+{
+ "key": "2e012bf999503cf3fe84e825",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:54:13+00:00",
+ "title": "王道新戶綁悠遊付消費扣款3筆送500元 指定行動支付最高12.8%現金回饋",
+ "duration_ms": 5661,
+ "cost_usd": 0.0267196,
+ "usage": {
+  "input": 2,
+  "output": 610,
+  "cache_creation": 4980,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享新台幣500元現金回饋至王道銀行帳戶，每一悠遊付會員限回饋乙次"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "首次透過悠遊付指定連結成功開立王道銀行帳戶，並於帳戶啟用後30天內使用悠遊付綁定該帳戶消費扣款不限金額滿3筆"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "享新台幣500元現金回饋至王道銀行帳戶"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "消費扣款不限金額滿3筆"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一悠遊付會員限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次透過悠遊付指定連結成功開立王道銀行帳戶"
+    },
+    "where": "",
+    "how": "使用悠遊付綁定該帳戶消費扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限前850名帳戶啟用之客戶參加，額滿將於王道銀行官網公告"
+    },
+    "quota": {
+     "seats": 850,
+     "quote": "本活動限前850名帳戶啟用之客戶參加"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "key": "8581fd36bead07ea77157981",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:09:30+00:00",
+ "title": "月級挑戰-筆筆最高3%回饋",
+ "duration_ms": 16318,
+ "cost_usd": 0.0633656,
+ "usage": {
+  "input": 2,
+  "output": 2887,
+  "cache_creation": 8449,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "依會員等級每筆交易享最高3%悠遊付回饋金，並享最高免費提領次數10次"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "當月會員等級存續期間使用悠遊付錢包或綁定銀行帳戶扣款交易，依會員等級每筆交易享最高3%悠遊付回饋金"
+  },
+  "subs": [
+   {
+    "name": "會員等級專屬優惠",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "筆筆回饋2%"
+     },
+     {
+      "kind": "percent",
+      "value": 2.5,
+      "unit": "%",
+      "quote": "筆筆回饋2.5%"
+     },
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "筆筆回饋3%"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3,
+      "unit": "筆",
+      "per": "month",
+      "quote": "累計3筆(含)以上"
+     },
+     {
+      "amount": 10,
+      "unit": "筆",
+      "per": "month",
+      "quote": "累計10筆(含)以上"
+     },
+     {
+      "amount": 20,
+      "unit": "筆",
+      "per": "month",
+      "quote": "累計20筆(含)以上"
+     },
+     {
+      "amount": 1,
+      "unit": "元",
+      "per": "month",
+      "quote": "累計1元(含)以上"
+     },
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "month",
+      "quote": "累計5,000元(含)"
+     },
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "month",
+      "quote": "累計10,000元(含)"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶回饋上限/月"
+     },
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "200元"
+     },
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "month",
+      "quote": "300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "依據每會員前月交易筆數與金額，判定當月會員等級"
+    },
+    "where": "",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款交易",
+    "limited": {
+     "value": "yes",
+     "quote": "各活動每月依悠遊付交易扣款時間排序限量回饋，先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月「會員等級專屬優惠」總回饋金額上限為460萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "會員任務活動:首次自動儲值送$50",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可獲得50元現金回饋券"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每會員限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "並於當月開啟自動儲值功能",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月限量2,000名，依首次自動儲值成功時間排序，額滿為止"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "本活動每月限量2,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "金級會員專屬優惠:首次生活繳費送$50",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可獲得50元現金回饋券"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每會員限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月限量2,000名，依符合資格之生活繳費交易成功時間排序，取前2,000名會員進行回饋，額滿為止"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "本活動每月限量2,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "白金級會員專屬交通回饋:停車/加油筆筆加碼3%",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "享筆筆加碼3%悠遊付回饋金"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每戶每月加碼回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "凡當月符合白金級會員資格"
+    },
+    "where": "指定停車場、加油站",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款交易",
+    "limited": {
+     "value": "yes",
+     "quote": "各活動每月依悠遊付交易扣款時間排序限量回饋，先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "「白金級會員專屬交通回饋」每月總回饋金額上限17.5萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "key": "13189a8512c0b297a82139a9",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:49:36+00:00",
+ "title": "COLD STONE",
+ "duration_ms": 3414,
+ "cost_usd": 0.024707600000000003,
+ "usage": {
+  "input": 2,
+  "output": 476,
+  "cache_creation": 4812,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持icash2.0/icash Pay全額支付，享小杯自創冰淇淋/切片蛋糕9折優惠"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "持icash2.0/icash Pay全額支付，享小杯自創冰淇淋/切片蛋糕9折優惠"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 9,
+      "unit": "折",
+      "quote": "享小杯自創冰淇淋/切片蛋糕9折優惠"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "限COLD STONE酷聖石冰淇淋直營門市使用，不適用外送平台與酷聖石複合店",
+    "how": "持icash2.0/icash Pay全額支付",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限售完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "數量有限售完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "key": "c2e0db4d8c922a8937742554",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:55:25+00:00",
+ "title": "全盈+PAY首綁國泰卡 全家消費滿額享回饋",
+ "duration_ms": 3741,
+ "cost_usd": 0.0325276,
+ "usage": {
+  "input": 2,
+  "output": 600,
+  "cache_creation": 6457,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿99元(含)以上(點數折抵後實際消費金額)，加贈小樹點(信用卡)100點。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用全盈+Pay首次綁定國泰世華信用卡於全家便利商店實體門市付款，單筆消費滿99元(含)以上"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "加贈小樹點(信用卡)100點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿99元(含)以上(點數折抵後實際消費金額)"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每正卡戶最高回饋上限100點小樹點(信用卡)"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每正卡戶限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動限首綁新戶"
+    },
+    "where": "全家便利商店實體門市",
+    "how": "使用全盈+Pay首次綁定國泰世華信用卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

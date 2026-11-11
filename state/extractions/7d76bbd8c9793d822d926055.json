@@ -1,0 +1,96 @@
+{
+ "key": "7d76bbd8c9793d822d926055",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:54:04+00:00",
+ "title": "foodomo",
+ "duration_ms": 7018,
+ "cost_usd": 0.0296776,
+ "usage": {
+  "input": 2,
+  "output": 993,
+  "cache_creation": 4762,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "輸入指定優惠碼單筆支付滿 $199 享 95 折（最高折 $100）"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "輸入指定優惠碼單筆支付滿 $199 享 95 折（最高折 $100）"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 95,
+      "unit": "折",
+      "quote": "使用優惠碼滿 199 元享 95 折"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 199,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆支付滿 $199"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "最高折抵 100 元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "輸入指定優惠碼",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量1500組優惠碼"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "每月限量1500組優惠碼"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "優惠碼每月1日於icash Pay App推播公告",
+      "kind": "monthly",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [
+       1
+      ],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "優惠碼每月1日於icash Pay App推播公告"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

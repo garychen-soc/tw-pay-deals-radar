@@ -1,0 +1,57 @@
+{
+ "key": "360948cd621640d81d05fc55",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:59:32+00:00",
+ "title": "繳稅功能正式上路！繳納國稅、地方稅攏a通！",
+ "duration_ms": 3282,
+ "cost_usd": 0.0272176,
+ "usage": {
+  "input": 2,
+  "output": 411,
+  "cache_creation": 5602,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "no",
+   "quote": "即日起，只要成為歐付寶會員，即可使用歐付寶行動支付 app ，掃描稅單 QR code ，並選擇銀行快付或帳戶餘額申報繳稅囉！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "只要成為歐付寶會員，即可使用歐付寶行動支付 app ，掃描稅單 QR code"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "掃描稅單 QR code ，並選擇銀行快付或帳戶餘額申報繳稅",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

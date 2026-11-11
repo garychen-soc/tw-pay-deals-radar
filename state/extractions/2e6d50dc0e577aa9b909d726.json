@@ -1,0 +1,71 @@
+{
+ "key": "2e6d50dc0e577aa9b909d726",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:55:24+00:00",
+ "title": "三商巧福-點購指定套餐享加價購",
+ "duration_ms": 4106,
+ "cost_usd": 0.026603599999999998,
+ "usage": {
+  "input": 2,
+  "output": 460,
+  "cache_creation": 5326,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即享30元加購現燙青菜(原價45元)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間持悠遊卡/悠遊聯名卡/悠遊付於三商巧福購買指定套餐，即享30元加購現燙青菜(原價45元)。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 30,
+      "unit": "元",
+      "quote": "即享30元加購現燙青菜(原價45元)"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "每單筆扣款支付套餐限加購一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "三商巧福",
+    "how": "持悠遊卡/悠遊聯名卡/悠遊付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

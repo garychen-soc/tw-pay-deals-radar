@@ -1,0 +1,177 @@
+{
+ "key": "e8dd1f76d4fe098155e560eb",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:10:17+00:00",
+ "title": "韓國旅遊｜悠遊付現金回饋最高12%",
+ "duration_ms": 16024,
+ "cost_usd": 0.0635936,
+ "usage": {
+  "input": 2,
+  "output": 2583,
+  "cache_creation": 9266,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "每筆交易享10.5%悠遊付回饋金。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "使用悠遊付付款碼功能消費之人，並以悠遊付錢包或綁定銀行帳戶扣款支付，視同參加活動"
+  },
+  "subs": [
+   {
+    "name": "活動一:筆筆最高12%回饋",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.5,
+      "unit": "%",
+      "quote": "每筆交易享10.5%悠遊付回饋金。"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每會員每階段回饋上限600元悠遊付回饋金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "韓國貼有TWQR標誌之特約店家",
+    "how": "使用悠遊付付款碼功能，並以悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "各項活動均有限額，詳見下方說明，限額額滿則活動提前結束。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動一總回饋金上限為:主活動每階段回饋上限新臺幣(下同)各40萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:遊韓再送雙重禮",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "100元韓國樂天免稅店現金回饋券"
+     },
+     {
+      "kind": "coupon",
+      "value": 10,
+      "unit": "%",
+      "quote": "悠遊返台10%現金回饋券"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆金額滿新臺幣100元以上，可獲100元悠遊付回饋金"
+     },
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆金額滿新臺幣50元以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "每會員每月限贈1張"
+     },
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "可獲訂單金額10%之悠遊付回饋金，上限50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "韓國貼有TWQR標誌之特約店家",
+    "how": "使用悠遊付付款碼功能，並以悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限發完為止"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "每月總限量2,000張"
+    },
+    "sold_out": [
+     {
+      "quote": "活動二9月份「100元韓國樂天免稅店現金回饋券」已於9/26 17:05額滿。",
+      "scope_label": "9月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 9,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 9,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "活動二10月份「100元韓國樂天免稅店現金回饋券」已於10/26 23:16額滿。",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

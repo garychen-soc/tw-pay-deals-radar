@@ -1,0 +1,115 @@
+{
+ "key": "37e1d22044732ba4b11e0d13",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:04+00:00",
+ "title": "全電商新會員活動｜首購使用全支付最高享價值50元回饋！",
+ "duration_ms": 9542,
+ "cost_usd": 0.0456256,
+ "usage": {
+  "input": 2,
+  "output": 1429,
+  "cache_creation": 7659,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "選擇以全支付付款並完成訂單，可享以下回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間內註冊成為全電商新會員，在全電商首次購物使用全支付進行付款，不限消費金額可得25全點回饋。"
+  },
+  "subs": [
+   {
+    "name": "全電商用全支付",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 25,
+      "unit": "點",
+      "quote": "首購不限消費金額享25全點（後給點）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付會員限享一次回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動限活動期間註冊加入全聯全電商之新會員"
+    },
+    "where": "本活動僅限於「全電商平台」",
+    "how": "選擇以全支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "總回饋限量30萬全點"
+    },
+    "sold_out": [
+     {
+      "quote": "活動於2026/10/25已額滿",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "全電商新戶活動",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 250,
+      "unit": "點",
+      "quote": "不限消費金額享250福利點（=$25）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動限活動期間註冊加入全聯全電商之新會員"
+    },
+    "where": "本活動僅限於「全電商平台」",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

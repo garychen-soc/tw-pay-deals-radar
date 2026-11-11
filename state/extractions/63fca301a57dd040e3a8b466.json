@@ -1,0 +1,78 @@
+{
+ "key": "63fca301a57dd040e3a8b466",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:57+00:00",
+ "title": "2026悠遊付掃碼領100元金門暢遊券",
+ "duration_ms": 7854,
+ "cost_usd": 0.0405156,
+ "usage": {
+  "input": 2,
+  "output": 1166,
+  "cache_creation": 7039,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "輕鬆領新臺幣(下同)100元現金回饋券一張，每人/戶限領一次，活動總限量2,000張"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "悠遊付會員至「2026金門暢遊券指定店家」掃描QR Code領券活動"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "輕鬆領新臺幣(下同)100元現金回饋券一張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆實際以悠遊付消費扣款滿100元(含)以上即可使用"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每人/戶限領一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "2026金門暢遊券指定店家",
+    "how": "使用悠遊付 APP，以「掃碼」付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量2,000張，先用先贏"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "活動總限量2,000張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "once",
+     "quote": "每人/戶限領一次"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "現金回饋券於領券成功後，可於悠遊付APP首頁點選「優惠券」進入票夾查詢"
+    }
+   }
+  ]
+ }
+}

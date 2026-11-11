@@ -1,0 +1,71 @@
+{
+ "key": "79871bbc8dc4488eb85be7a5",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:44+00:00",
+ "title": "仁愛市場用台灣Pay 樂享20%回饋",
+ "duration_ms": 3639,
+ "cost_usd": 0.0310936,
+ "usage": {
+  "input": 2,
+  "output": 541,
+  "cache_creation": 6246,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%之現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點消費，使用「台灣Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%之現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間內每金融卡/帳戶最高回饋以1,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "基隆仁愛市場受理「台灣Pay」交易之店家",
+    "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限50 萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限50 萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

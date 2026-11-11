@@ -1,0 +1,71 @@
+{
+ "key": "2488a76fafbbe8c139e19731",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:55:12+00:00",
+ "title": "Pi 拍錢包綁定中信 ALL ME 卡💰四大超商及指定通路最高享 3% 回饋！",
+ "duration_ms": 6311,
+ "cost_usd": 0.0404676,
+ "usage": {
+  "input": 2,
+  "output": 938,
+  "cache_creation": 7597,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間內，持 Pi 拍錢包綁定中信ALL ME卡，於指定四大超商、超市、交通運輸、美食等通路付款，享最高3%點數回饋。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內，持 Pi 拍錢包綁定中信ALL ME卡，於指定四大超商、超市、交通運輸、美食等通路付款，享最高3%點數回饋。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "享最高3%點數回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "點",
+      "per": "month",
+      "quote": "每戶每月回饋上限300點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定四大超商、超市、交通運輸、美食等通路",
+    "how": "持 Pi 拍錢包綁定中信ALL ME卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

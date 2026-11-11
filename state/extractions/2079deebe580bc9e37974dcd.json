@@ -1,0 +1,94 @@
+{
+ "key": "2079deebe580bc9e37974dcd",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:15+00:00",
+ "title": "【玉山銀行】綁定玉山Unicard消費任 1 筆，享一卡通綠點 500 點回饋",
+ "duration_ms": 7868,
+ "cost_usd": 0.0431476,
+ "usage": {
+  "input": 2,
+  "output": 1226,
+  "cache_creation": 7547,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享一卡通綠點 500 點回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 500,
+      "unit": "點",
+      "quote": "享一卡通綠點 500 點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "unclear",
+      "quote": "綁定玉山Unicard新增 1 筆一般消費"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限得1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次申辦玉山Unicard正卡"
+    },
+    "where": "",
+    "how": "於一卡通 iPASS MONEY APP 綁定玉山Unicard",
+    "limited": {
+     "value": "yes",
+     "quote": "限前 2,000 名"
+    },
+    "quota": {
+     "seats": 2000,
+     "quote": "限前 2,000 名"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "retroactive_ok",
+     "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+    }
+   }
+  ]
+ }
+}

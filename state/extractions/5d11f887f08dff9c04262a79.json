@@ -1,0 +1,77 @@
+{
+ "key": "5d11f887f08dff9c04262a79",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:31+00:00",
+ "title": "十大商圈掃全支付TWQR單筆不限金額享10%回饋！",
+ "duration_ms": 4223,
+ "cost_usd": 0.0338176,
+ "usage": {
+  "input": 2,
+  "output": 703,
+  "cache_creation": 6522,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "用戶於活動地點掃碼支付，除全支付可享單筆消費不限金額10%全點回饋外，其他參與機構支付採單筆消費不限金額10%回饋現金或等值點數"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動地點掃碼支付，除全支付可享單筆消費不限金額10%全點回饋外"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "全支付可享單筆消費不限金額10%全點回饋"
+     },
+     {
+      "kind": "other",
+      "value": 10,
+      "unit": "%",
+      "quote": "其他參與機構支付採單筆消費不限金額10%回饋現金或等值點數"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "活動期間每月每帳戶合計最高回饋新臺幣(以下同)50元現金或等值點數"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "10大指定商圈(西門町、永康商圈、淡水老街、士林夜市、逢甲夜市、基隆廟口、迪化街、一中街夜市、羅東夜市、九份老街)全支付標示TWQR之指定店家",
+    "how": "掃碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限300萬元(4月:20萬、5-12月:每月各35萬)，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限300萬元(4月:20萬、5-12月:每月各35萬)"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

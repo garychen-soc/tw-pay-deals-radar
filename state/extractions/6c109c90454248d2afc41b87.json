@@ -1,0 +1,389 @@
+{
+ "key": "6c109c90454248d2afc41b87",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:53:46+00:00",
+ "title": "嗶桃園市好運卡，享專屬藥妝通路加碼優惠",
+ "duration_ms": 17388,
+ "cost_usd": 0.0542816,
+ "usage": {
+  "input": 2,
+  "output": 3001,
+  "cache_creation": 5893,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持好運卡不限金額消費即贈「BZU BZU 嬰兒超柔濕巾 10片」乙份"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "會員登錄預產期，不限金額消費，送媽媽大禮包乙份"
+  },
+  "subs": [
+   {
+    "name": "屈臣氏",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "「BZU BZU 嬰兒超柔濕巾 10片」乙份"
+     },
+     {
+      "kind": "discount",
+      "value": 88,
+      "unit": "元",
+      "quote": "消費滿$988(折扣後)現折$88"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 988,
+      "unit": "元",
+      "per": "txn",
+      "quote": "消費滿$988(折扣後)現折$88"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持好運卡",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "數量有限，送完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "寶雅",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "「新生祝福禮包」"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "加入POYA寶雅APP會員、使用悠遊卡功能消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "康是美",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "滿千折百優惠"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "滿千折百優惠"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "大樹",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "滿千折百優惠券(2張)"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "滿千折百優惠券(2張)"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "加入大樹官方LINE帳號完成綁定",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "杏一",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 9,
+      "unit": "折",
+      "quote": "VIP會員全館9折優惠"
+     },
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "贈孕媽咪杏福禮乙份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "消費滿99元即享贈孕媽咪杏福禮乙份"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "數量有限，送完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "躍獅",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": null,
+      "unit": "other",
+      "quote": "即享會員價優惠"
+     },
+     {
+      "kind": "discount",
+      "value": 85,
+      "unit": "折",
+      "quote": "享專屬優惠85折"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "佑全",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 95,
+      "unit": "折",
+      "quote": "享95折優惠"
+     },
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "送媽媽大禮包乙份"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "unclear",
+      "quote": "孕期限領乙份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "丁丁",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "元",
+      "quote": "滿千折百優惠"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "滿千折百優惠"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "持好運卡扣款消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

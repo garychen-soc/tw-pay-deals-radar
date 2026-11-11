@@ -1,0 +1,140 @@
+{
+ "key": "c5d064473d43876e4314b374",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:18+00:00",
+ "title": "康是美網購eShop｜最高45%回饋 接力再升級！",
+ "duration_ms": 11068,
+ "cost_usd": 0.043893600000000005,
+ "usage": {
+  "input": 2,
+  "output": 1579,
+  "cache_creation": 6851,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆滿千回饋100元回饋金"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "點我先領券再消費，單筆滿千回饋100元回饋金。"
+  },
+  "subs": [
+   {
+    "name": "活動一:滿千最高25%回饋",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "單筆滿千回饋100元回饋金"
+     },
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "每月指定期間滿千回饋100元現金券"
+     },
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "筆筆最高5%現金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿千回饋100元回饋金"
+     },
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每月指定期間滿千回饋100元現金券"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "點我先領券再消費"
+    }
+   },
+   {
+    "name": "活動二:康是美網購獨享$200",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 200,
+      "unit": "元",
+      "quote": "回饋「200元91APP專用現金回饋券」1張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿1,000元以上回饋「200元91APP專用現金回饋券」1張"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "每悠遊付會員限贈1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「康是美網購eShop」(WEB/APP)",
+    "how": "使用悠遊付錢包或綁定銀行帳戶扣款支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動10月及12月各限量1,000張，11月限量1,200張，若額滿則活動提前結束。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動10月及12月各限量1,000張，11月限量1,200張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "key": "2b30c124136712b0df616f67",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:42+00:00",
+ "title": "GREEN & SAFE真食物專賣店，用台灣Pay享優惠",
+ "duration_ms": 3890,
+ "cost_usd": 0.0311216,
+ "usage": {
+  "input": 2,
+  "output": 555,
+  "cache_creation": 6218,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費金額滿新臺幣（以下同）1,500元(含)以上，即享現折300元優惠"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間至活動地點消費，出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 300,
+      "unit": "元",
+      "quote": "即享現折300元優惠"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿新臺幣（以下同）1,500元(含)以上"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "GREEN & SAFE永豐餘生技受理「台灣Pay」之指定實體門市",
+    "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限55萬元，如達該總額上限即終止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限55萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

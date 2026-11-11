@@ -1,0 +1,78 @@
+{
+ "key": "6dc884b49aec83147717b185",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:59:15+00:00",
+ "title": "2026/10/1~2026/12/31持歐付寶至萊爾富消費滿150元回饋紅利10%",
+ "duration_ms": 4844,
+ "cost_usd": 0.0315296,
+ "usage": {
+  "input": 2,
+  "output": 517,
+  "cache_creation": 6415,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿150元可享10%紅利回饋(小數點後四捨五入)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於萊爾富使用歐付寶APP進行支付，單筆消費滿150元可享10%紅利回饋(小數點後四捨五入)"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費滿150元可享10%紅利回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿150元可享10%紅利回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每人每帳戶活動期間最高回饋 50 點為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全台灣萊爾富實體店舖。",
+    "how": "使用歐付寶APP進行支付",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

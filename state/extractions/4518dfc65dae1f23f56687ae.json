@@ -1,0 +1,411 @@
+{
+ "key": "4518dfc65dae1f23f56687ae",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:47+00:00",
+ "title": "Trip.com 11.11 線上旅展",
+ "duration_ms": 14618,
+ "cost_usd": 0.0638256,
+ "usage": {
+  "input": 2,
+  "output": 2809,
+  "cache_creation": 8759,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "預訂飯店最高享 21%"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "2026/11/11 - 11/14 於「街口支付 x Trip.com 專屬活動頁」領取當日優惠代碼"
+  },
+  "subs": [
+   {
+    "name": "機票一口價 $999",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 999,
+      "unit": "元",
+      "quote": "機票一口價 $999"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限使用 2 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "適用對象:Trip.com 會員。"
+    },
+    "where": "Trip.com 繁體中文台灣站或 Trip.com App",
+    "how": "限定使用街口支付完成付款並以新台幣結帳",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，先折先贏"
+    },
+    "quota": {
+     "seats": 55,
+     "quote": "總計 55 組"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "預訂飯店最高享 21%",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 21,
+      "unit": "%",
+      "quote": "單筆不限消費金額享 21%"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "最高可折 $1,600"
+     },
+     {
+      "amount": 2,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限使用 2 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "用戶須於活動期間透過活動平台登入為會員"
+    },
+    "where": "Trip.com 繁體中文台灣站或 Trip.com App",
+    "how": "使用「街口支付」付款時輸入指定優惠代碼",
+    "limited": {
+     "value": "yes",
+     "quote": "限量優惠，先結帳先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/11/11 00:00 起開放領取當日優惠代碼",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 11,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "領取當日優惠代碼"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "領取當日優惠代碼，並至「Trip.com 繁體中文台灣站或 Trip.com App」使用「街口支付」付款時輸入指定優惠代碼"
+    }
+   },
+   {
+    "name": "機票/飯店最高現折 $1,000",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 1000,
+      "unit": "元",
+      "quote": "現折 $1,000"
+     },
+     {
+      "kind": "discount",
+      "value": 400,
+      "unit": "元",
+      "quote": "現折 $400"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 8000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $8,000"
+     },
+     {
+      "amount": 4000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $4,000"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每組優惠代碼每人限使用 3 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "Trip.com 繁體中文台灣站或 Trip.com App",
+    "how": "使用街口支付結帳輸入指定優惠代碼",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限，採先結帳先贏"
+    },
+    "quota": {
+     "seats": 40,
+     "quote": "每週各 40 名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "Trip.com新戶獨家最高 15%",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 300,
+      "unit": "元",
+      "quote": "最高 TWD 300"
+     },
+     {
+      "kind": "discount",
+      "value": 10,
+      "unit": "%",
+      "quote": "10% OFF"
+     },
+     {
+      "kind": "discount",
+      "value": 5,
+      "unit": "%",
+      "quote": "5% OFF"
+     },
+     {
+      "kind": "discount",
+      "value": 8,
+      "unit": "%",
+      "quote": "8% OFF"
+     },
+     {
+      "kind": "discount",
+      "value": 15,
+      "unit": "%",
+      "quote": "15% OFF"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "Trip.com新戶獨家最高 15%"
+    },
+    "where": "",
+    "how": "登入 Trip.com App，點選畫面右下角「帳號」，再選擇「歡迎禮包」",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/1/1 - 12/31",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 1,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "點擊領取即可獲得新戶優惠券"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "「Trip.com 新戶獨家優惠代碼」需至 Trip.com 站內領取。"
+    }
+   },
+   {
+    "name": "5 號會員日 登記搶 $50 街口幣",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 30,
+      "unit": "%",
+      "quote": "享 30% 街口幣回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $100"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "month",
+      "quote": "每人最高拿 $50 街口幣"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "where": "指定通路",
+    "how": "",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋金額有限，先拿先贏"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "登記時間:2026/8/1 - 12/5",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "當月 1 號起不分會員等級可登記會員日街口幣回饋活動，當月 5 號 10:00 - 23:59 至指定通路單筆消費"
+    }
+   },
+   {
+    "name": "街口新戶註冊 再送$50券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取專屬$50街口券"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "「首次註冊」街口支付"
+    },
+    "where": "指定通路",
+    "how": "完成「實名認證或身份認證」，並綁定支付工具後",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

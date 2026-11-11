@@ -1,0 +1,71 @@
+{
+ "key": "e207d6784bc949069953e2d9",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:49:37+00:00",
+ "title": "BEING spa",
+ "duration_ms": 3057,
+ "cost_usd": 0.0244176,
+ "usage": {
+  "input": 2,
+  "output": 453,
+  "cache_creation": 4797,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "BEING spa新戶使用icash Pay可享1,000元SPA課程電子抵用券乙張。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "BEING spa新戶使用icash Pay可享1,000元SPA課程電子抵用券乙張。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1000,
+      "unit": "元",
+      "quote": "1,000元SPA課程電子抵用券乙張"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "txn",
+      "quote": "每次僅限使用一張"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "限首次到BEING spa之新客使用"
+    },
+    "where": "可於BEING spa各門市使用",
+    "how": "使用icash Pay",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

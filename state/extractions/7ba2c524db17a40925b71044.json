@@ -1,0 +1,71 @@
+{
+ "key": "7ba2c524db17a40925b71044",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:23+00:00",
+ "title": "來逛樂華夜市樂享10%回饋",
+ "duration_ms": 3375,
+ "cost_usd": 0.0306116,
+ "usage": {
+  "input": 2,
+  "output": 552,
+  "cache_creation": 6098,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享10%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間於活動地點消費，以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)，單筆消費不限金額可享10%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享10%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費回饋上限新台幣(以下同)300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "新北市「樂華夜市商圈」受理「台灣Pay」交易之指定店家",
+    "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限30萬元，如達回饋金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限30萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

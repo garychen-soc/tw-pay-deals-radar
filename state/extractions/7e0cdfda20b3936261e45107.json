@@ -1,0 +1,89 @@
+{
+ "key": "7e0cdfda20b3936261e45107",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:55:41+00:00",
+ "title": "口袋盈家，好禮開戶送☕",
+ "duration_ms": 8025,
+ "cost_usd": 0.0388776,
+ "usage": {
+  "input": 2,
+  "output": 1181,
+  "cache_creation": 6592,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "開戶完成送200元全家虛擬禮物卡"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間內以指定連結新開立之證券新戶綁定全盈支付完成一筆口袋證券的台股或美股交易即可獲得"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 200,
+      "unit": "元",
+      "quote": "開戶完成送200元全家虛擬禮物卡"
+     },
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "由全盈+PAY入金至口袋錢包，免跨轉手續費"
+     },
+     {
+      "kind": "gift",
+      "value": 3,
+      "unit": "other",
+      "quote": "送全家大杯經典拿鐵3杯"
+     },
+     {
+      "kind": "coupon",
+      "value": 300,
+      "unit": "元",
+      "quote": "首次交易美股送300元超商購物金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "綁定全盈+PAY並交易一筆"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "口袋證券「新戶」定義:2026/07/01~2026/12/31（含）首次成功開立之18歲以上成年人"
+    },
+    "where": "",
+    "how": "綁定全盈+PAY並交易一筆",
+    "limited": {
+     "value": "yes",
+     "quote": "於限量筆數名額內，先交易達成者先享回饋，額滿為止"
+    },
+    "quota": {
+     "seats": 250,
+     "quote": "（限量250名）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

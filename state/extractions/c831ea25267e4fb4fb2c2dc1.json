@@ -1,0 +1,71 @@
+{
+ "key": "c831ea25267e4fb4fb2c2dc1",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:36+00:00",
+ "title": "花蓮縣秀林鄉、萬榮鄉及卓溪鄉 TWQR 10% 任一Pay回饋",
+ "duration_ms": 3477,
+ "cost_usd": 0.0318656,
+ "usage": {
+  "input": 2,
+  "output": 555,
+  "cache_creation": 6404,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動地點掃碼支付，參與機構單筆消費不限金額10%回饋現金或點數"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": 10,
+      "unit": "%",
+      "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡/帳戶、電子支付帳戶最高回饋新臺幣(以下同)1,000元等值點數或現金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "花蓮縣秀林鄉、萬榮鄉及卓溪鄉地區標示TWQR店家",
+    "how": "於活動地點消費，進行掃碼支付之用戶",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限15萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限15萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

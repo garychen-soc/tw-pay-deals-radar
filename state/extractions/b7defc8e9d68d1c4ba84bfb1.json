@@ -1,0 +1,71 @@
+{
+ "key": "b7defc8e9d68d1c4ba84bfb1",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:31+00:00",
+ "title": "東森購物刷台灣Pay回饋加倍享20%",
+ "duration_ms": 3641,
+ "cost_usd": 0.031251600000000004,
+ "usage": {
+  "input": 2,
+  "output": 532,
+  "cache_creation": 6308,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享20%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間至活動地點使用「台灣Pay」(限金融卡/帳戶/信用卡)進行消費，單筆消費不限金額享20%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額享20%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易最高回饋新臺幣(以下同)1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "東森購物網(https://www.etmall.com.tw)及東森購物APP",
+    "how": "使用「台灣Pay」(限金融卡/帳戶/信用卡)進行消費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額55萬元為上限，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額55萬元為上限"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

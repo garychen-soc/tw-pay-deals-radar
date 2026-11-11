@@ -1,0 +1,57 @@
+{
+ "key": "c6476be4dba8e2e880add360",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:53:41+00:00",
+ "title": "【TWQR x 橘子支付】 逛越多，即可享不同回饋！",
+ "duration_ms": 2252,
+ "cost_usd": 0.0226516,
+ "usage": {
+  "input": 2,
+  "output": 288,
+  "cache_creation": 4768,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "unclear",
+   "quote": "各活動詳情，請見TWQR官方活動網頁:"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

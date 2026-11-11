@@ -1,0 +1,78 @@
+{
+ "key": "8e7e4a1ce7d43145b8bc9780",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:54:46+00:00",
+ "title": "【環球Online】雙11購物節 悠遊付滿額最高回饋20%",
+ "duration_ms": 4080,
+ "cost_usd": 0.0316556,
+ "usage": {
+  "input": 2,
+  "output": 510,
+  "cache_creation": 6464,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間於環球Online使用悠遊付消費累計滿1,800元以上，即可獲得100元悠遊付現金回饋券1份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於環球Online使用悠遊付消費滿額之人，視同參加本活動，為活動參加人。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "即可獲得100元悠遊付現金回饋券1份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1800,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "消費累計滿1,800元以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 5,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每戶回饋上限5份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "環球Online",
+    "how": "使用悠遊付消費",
+    "limited": {
+     "value": "yes",
+     "quote": "活動限量1,000份"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "活動限量1,000份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

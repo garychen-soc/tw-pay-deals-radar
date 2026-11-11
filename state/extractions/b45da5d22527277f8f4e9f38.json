@@ -1,0 +1,86 @@
+{
+ "key": "b45da5d22527277f8f4e9f38",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:51:30+00:00",
+ "title": "202611 PX Pay 發票記帳加碼獎",
+ "duration_ms": 7226,
+ "cost_usd": 0.0358256,
+ "usage": {
+  "input": 2,
+  "output": 1077,
+  "cache_creation": 6089,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "全聯店內外發票，對中全聯加碼獎號，現金抵用券100元。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "現金抵用券100元"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全聯店內外發票",
+    "how": "發票記帳功能綁定手機條碼(共通性載具)",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 24,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)"
+    },
+    "order": {
+     "value": "retroactive_ok",
+     "quote": "2026/9/1-2026/10/30無論全聯店內外發票，皆符合PX Pay 發票記帳加碼獎對獎資格"
+    }
+   }
+  ]
+ }
+}

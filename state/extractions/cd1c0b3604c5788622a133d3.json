@@ -1,0 +1,64 @@
+{
+ "key": "cd1c0b3604c5788622a133d3",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:49:16+00:00",
+ "title": "📢 台中市 | 智慧停車無紙化，綁定橘子支付繳費享6折優惠 🚗",
+ "duration_ms": 3195,
+ "cost_usd": 0.0232736,
+ "usage": {
+  "input": 2,
+  "output": 375,
+  "cache_creation": 4706,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "綁定橘子支付並設定自動代扣款，每筆享6折優惠！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "綁定橘子支付並設定自動代扣款，每筆享6折優惠！"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 6,
+      "unit": "折",
+      "quote": "每筆享6折優惠"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定橘子支付並設定自動代扣款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

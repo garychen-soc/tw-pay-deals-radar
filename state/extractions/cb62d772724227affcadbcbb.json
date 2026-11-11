@@ -1,0 +1,588 @@
+{
+ "key": "cb62d772724227affcadbcbb",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:54:01+00:00",
+ "title": "悠遊卡生活購物嗶計畫 消費滿額享最高回饋8%",
+ "duration_ms": 27584,
+ "cost_usd": 0.0869656,
+ "usage": {
+  "input": 2,
+  "output": 5275,
+  "cache_creation": 8379,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿額，享最高8%回饋，單筆不累贈*，優惠數量有限，送完為止。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "需先至「萬家福APP」啟用電子券，付款過刷會員方得以參加活動"
+  },
+  "subs": [
+   {
+    "name": "美廉社",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 15,
+      "unit": "元",
+      "quote": "享指定通路(美廉社)15元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(下同)150元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(美廉社)",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量30,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "本通路優惠總限量30,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "國軍福利站",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享全通路24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量1,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "本通路優惠總限量1,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "棉花田",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享指定通路(棉花田)24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(棉花田)",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量1,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "本通路優惠總限量1,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "楓康超市",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享指定通路(楓康超市)24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(楓康超市)",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量1,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "本通路優惠總限量1,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "新東陽",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享指定通路(新東陽)24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(新東陽)",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量1,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "本通路優惠總限量1,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "喜互惠生鮮超市",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享指定通路(喜互惠生鮮超市)24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(喜互惠生鮮超市)",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠限量1,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "本通路優惠限量1,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "喜美超市",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享指定通路(喜美超市)24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定通路(喜美超市)",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量1,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "本通路優惠總限量1,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "小北百貨",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "享全通路24元悠遊付現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每一悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "悠遊付會員持記名悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量3,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 3000,
+     "quote": "本通路優惠總限量3,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "義美",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 80,
+      "unit": "點",
+      "quote": "送義美紅利點數80點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿500元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "day",
+      "quote": "每一義美會員每日限贈一份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "義美門市",
+    "how": "「義美會員」持悠遊卡、悠遊聯名卡、Debit卡、敬老卡、愛心卡",
+    "limited": {
+     "value": "yes",
+     "quote": "本通路優惠總限量7,500份，送完為止"
+    },
+    "quota": {
+     "seats": 7500,
+     "quote": "本通路優惠總限量7,500份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "萬家福",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "送50元萬家福折價券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿599元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "week",
+      "quote": "每週每一uniopen 會員回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "萬家福(量販店型)",
+    "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)至萬家福(量販店型)",
+    "limited": {
+     "value": "yes",
+     "quote": "本指定通路優惠總限量5,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "本指定通路優惠總限量5,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需先至「萬家福APP」啟用電子券，付款過刷會員方得以參加活動"
+    }
+   },
+   {
+    "name": "樂家康/Mia Cbon",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "送24元樂家康/Mia Cbon折價券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 48,
+      "unit": "元",
+      "per": "week",
+      "quote": "每週每一uniopen 會員回饋上限48元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "樂家康/Mia Cbon(超市店型)",
+    "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)至樂家康/Mia Cbon(超市店型)",
+    "limited": {
+     "value": "yes",
+     "quote": "本指定通路優惠總限量10,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 10000,
+     "quote": "本指定通路優惠總限量10,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需先至「萬家福APP」啟用電子券，付款過刷會員方得以參加活動"
+    }
+   }
+  ]
+ }
+}

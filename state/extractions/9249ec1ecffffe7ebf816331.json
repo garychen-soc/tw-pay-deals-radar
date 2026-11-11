@@ -1,0 +1,157 @@
+{
+ "key": "9249ec1ecffffe7ebf816331",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:48+00:00",
+ "title": "【2026 交通優惠】一卡通搭交通，優惠一路通！",
+ "duration_ms": 9502,
+ "cost_usd": 0.0603136,
+ "usage": {
+  "input": 2,
+  "output": 1523,
+  "cache_creation": 11096,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當月搭乘享常客優惠最高 15% 現金回饋。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "當月搭乘享常客優惠最高 15% 現金回饋。"
+  },
+  "subs": [
+   {
+    "name": "捷運優惠",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 15,
+      "unit": "%",
+      "quote": "當月搭乘享常客優惠最高 15% 現金回饋。"
+     },
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "累積滿 200 元可回饋 50 元現金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "淡海、安坑輕軌當月搭乘票價累積滿 200 元"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "臺北捷運 ⇄ 臺北市/新北市公車、新北輕軌享轉乘優惠。",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "台鐵/高鐵",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 97,
+      "unit": "折",
+      "quote": "搭乘自由座享對號座全票之 97 折優惠（限聯名信用卡）。"
+     },
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "臺鐵常客回饋活動最高可享20%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "僅限電子票證可搭乘之車輛班次",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "高雄渡輪",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 30,
+      "unit": "元",
+      "quote": "行人享有 30 元全票優惠（原價 40 元）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "搭乘「鼓山 ⇄ 旗津」「前鎮 ⇄ 中州航線」「棧貳庫 ⇄ 旗津」航線",
+    "how": "使用 iPASS一卡通普通卡、iPASS MONEY 乘車碼同享現金優惠如下:",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

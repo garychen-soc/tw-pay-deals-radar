@@ -1,0 +1,64 @@
+{
+ "key": "6c2210cd8b33a9a6222194b1",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:47+00:00",
+ "title": "台灣Pay跨行轉帳免手續費",
+ "duration_ms": 3272,
+ "cost_usd": 0.0255836,
+ "usage": {
+  "input": 2,
+  "output": 498,
+  "cache_creation": 4976,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間透過參與金融機構「行動銀行」APP或「台灣行動支付」APP以「台灣Pay」QR Code掃碼進行轉帳，享免手續費。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間透過參與金融機構「行動銀行」APP或「台灣行動支付」APP以「台灣Pay」QR Code掃碼進行轉帳，享免手續費。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "以「台灣Pay」QR Code掃碼進行轉帳，享免手續費。"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "參與金融機構「行動銀行」APP或「台灣行動支付」APP",
+    "how": "以「台灣Pay」QR Code掃碼進行轉帳",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "key": "519ca170cb814e57d3bc773b",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:53:32+00:00",
+ "title": "【誠品生活5號會員日】悠遊付滿額最高享8%",
+ "duration_ms": 11331,
+ "cost_usd": 0.0488736,
+ "usage": {
+  "input": 2,
+  "output": 1917,
+  "cache_creation": 7251,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "於指定誠品生活門市使用悠遊付消費單筆滿888元贈50元悠遊付現金回饋券1份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於誠品生活使用悠遊付消費滿額之人，視同參加本活動，為活動參加人。"
+  },
+  "subs": [
+   {
+    "name": "消費滿額送券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "贈50元悠遊付現金回饋券1份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 888,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿888元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每戶每月回饋上限3份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定誠品生活門市",
+    "how": "使用悠遊付消費",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋上限500份"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "每月回饋上限500份"
+    },
+    "sold_out": [
+     {
+      "quote": "4月5號會員日滿888元贈50元券活動，限量500份於4/5(日)19:47已額滿",
+      "scope_label": "4月5號會員日",
+      "scope_start": {
+       "year": 2026,
+       "month": 4,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 4,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "6月5號會員日滿888元贈50元券活動，限量500份於6/5(五)21:10已額滿",
+      "scope_label": "6月5號會員日",
+      "scope_start": {
+       "year": 2026,
+       "month": 6,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 6,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "7月5號會員日滿888元贈50元券活動，限量500份於7/5(日)21:39已額滿",
+      "scope_label": "7月5號會員日",
+      "scope_start": {
+       "year": 2026,
+       "month": 7,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 7,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "9月5號會員日滿888元贈50元券活動，限量500份於9/5(六)19:37已額滿",
+      "scope_label": "9月5號會員日",
+      "scope_start": {
+       "year": 2026,
+       "month": 9,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 9,
+       "day": 5,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "指定銀行加碼",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "加贈100元悠遊付現金回饋券1份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿3,000元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每戶每月回饋上限3份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定誠品生活門市",
+    "how": "使用悠遊付綁定凱基信用卡消費",
+    "limited": {
+     "value": "yes",
+     "quote": "每月回饋上限100份"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "每月回饋上限100份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

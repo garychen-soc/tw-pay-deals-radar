@@ -1,0 +1,317 @@
+{
+ "key": "017a83c02210d8ccf10d08fb",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:09:45+00:00",
+ "title": "台湾でTWQR対応のお店でPayPayが使えます！ 「PayPay」でお支払い、または、「指定の悠遊カード」のご提示で、 対象店舗で特典GET！",
+ "duration_ms": 17259,
+ "cost_usd": 0.0715416,
+ "usage": {
+  "input": 2,
+  "output": 3097,
+  "cache_creation": 9968,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "特典:任意の豆花1杯ご購入で、700mlの豆乳を1本プレゼント（先着100名様限定）"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本キャンペーン期間中、「店頭のPOPデザイン」が設置された店舗にて、「PayPay」、または「指定の悠遊カード」をご利用いただいた場合、対象店舗の特典が適用されます。"
+  },
+  "subs": [
+   {
+    "name": "【本願豆花店 西門店】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "700mlの豆乳を1本プレゼント"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【本願豆花店 西門店】",
+    "how": "「PayPay」でお支払い、または、「指定の悠遊カード」のご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着100名様限定"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "先着100名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【悄悄好食永康】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "ドリンク1杯プレゼント"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "other",
+      "per": "unclear",
+      "quote": "200台湾ドル以上ご購入で"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【悄悄好食永康】",
+    "how": "「PayPay」でお支払い、または、「指定の悠遊カード」のご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着50名様限定"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "先着50名様限定"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【南機場夜市・龍山寺駅】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "エコカップスリーブ1個プレゼント"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "累計250台湾ドルご購入ごとに"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【南機場夜市・龍山寺駅】",
+    "how": "「PayPay」でお支払い、または、「指定の悠遊カード」のご提示",
+    "limited": {
+     "value": "yes",
+     "quote": "先着500名様/条件達成ごとに進呈"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "先着500名様"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【遠東Garden City・国父記念館駅】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "other",
+      "quote": "「秀泰シネマ50台湾ドル分のフード割引券」1枚をプレゼント"
+     },
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "other",
+      "quote": "SOGO商品券100台湾ドル分をプレゼント"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "other",
+      "per": "txn",
+      "quote": "悠遊カードで1回800台湾ドル以上のお支払いで"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "お一人様1日1回/レシート1枚につき1回限り"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "お一人様/1カードにつき1回限り"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【遠東Garden City・国父記念館駅】",
+    "how": "悠遊カードでのお支払い",
+    "limited": {
+     "value": "yes",
+     "quote": "先着4,000枚、なくなり次第終了"
+    },
+    "quota": {
+     "seats": 4000,
+     "quote": "先着4,000枚、なくなり次第終了"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【遠東SOGO 台北忠孝館・忠孝復興駅】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "份",
+      "quote": "「MIOPANE 塩クロワッサン（バターロール）引換券」1枚をプレゼント"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "other",
+      "per": "txn",
+      "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "お一人様1日1回/レシート1枚につき1回限り"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "SOGO忠孝館B1フードコート",
+    "how": "悠遊カードで1回300台湾ドル以上のお支払い",
+    "limited": {
+     "value": "yes",
+     "quote": "毎月先着500名様、期間合計1,500名様"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "期間合計1,500名様"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【誠品生活 松菸店・市政府駅】",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 1,
+      "unit": "份",
+      "quote": "「好丘 プレーンベーグル引換券」1枚をプレゼント"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "other",
+      "per": "txn",
+      "quote": "悠遊カードで1回300台湾ドル以上のお支払いで"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "お一人様1日1回/レシート1枚につき1回限り"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "【誠品生活 松菸店・市政府駅】",
+    "how": "悠遊カードで1回300台湾ドル以上のお支払い",
+    "limited": {
+     "value": "yes",
+     "quote": "毎月先着500名様、期間合計1,500名様"
+    },
+    "quota": {
+     "seats": 1500,
+     "quote": "期間合計1,500名様"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

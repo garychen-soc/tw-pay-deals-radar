@@ -1,0 +1,100 @@
+{
+ "key": "28691732cd074ae3fb7d3ac5",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:54:14+00:00",
+ "title": "【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！",
+ "duration_ms": 7522,
+ "cost_usd": 0.0485536,
+ "usage": {
+  "input": 2,
+  "output": 1101,
+  "cache_creation": 9211,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可獲得一卡通綠點 168 點抽獎機會(每月共抽出 30 名，活動期間每人限中獎 1 次)"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動回饋項目為「一卡通綠點」，請至遲於當月底前加入一卡通綠點。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 168,
+      "unit": "點",
+      "quote": "即可獲得一卡通綠點 168 點抽獎機會"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "累積消費滿 100 元即享 1 次額外抽獎機會"
+     },
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "滿 200 元即享 2 次額外抽獎機會"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每人限中獎 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶，且完成任一筆手機門號轉帳",
+    "limited": {
+     "value": "yes",
+     "quote": "每月共抽出 30 名"
+    },
+    "quota": {
+     "seats": 30,
+     "quote": "每月共抽出 30 名"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請至遲於當月底前加入一卡通綠點",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

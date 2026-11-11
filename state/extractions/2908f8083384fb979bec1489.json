@@ -1,0 +1,101 @@
+{
+ "key": "2908f8083384fb979bec1489",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:29+00:00",
+ "title": "大家一起挺小農 台灣Pay結帳全站88折",
+ "duration_ms": 6249,
+ "cost_usd": 0.0343916,
+ "usage": {
+  "input": 2,
+  "output": 880,
+  "cache_creation": 6223,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額，立即享88折結帳金額優惠"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內用戶於活動地點，使用「台灣Pay」(限金融卡/帳戶) 進行支付，單筆消費不限金額，立即享88折結帳金額優惠"
+  },
+  "subs": [
+   {
+    "name": "活動一、全品項農產品優惠",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 88,
+      "unit": "折",
+      "quote": "立即享88折結帳金額優惠"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "單筆消費不限金額"
+    },
+    "where": "南農電舖(https://www.buy.org.tw/，含地方創生店家專區)。",
+    "how": "使用「台灣Pay」(限金融卡/帳戶) 進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "活動一回饋總金額新臺幣(以下同)40萬元，如達本項活動總金額上限，活動即停止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動一回饋總金額新臺幣(以下同)40萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二、會員全加碼",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": 88,
+      "unit": "元",
+      "quote": "每筆成功交易不限金額即加碼贈送88元金幣"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "「南農電舖會員」以「台灣Pay」(限金融卡/帳戶)進行支付者"
+    },
+    "where": "南農電舖(https://www.buy.org.tw/，含地方創生店家專區)。",
+    "how": "「南農電舖會員」以「台灣Pay」(限金融卡/帳戶)進行支付者",
+    "limited": {
+     "value": "yes",
+     "quote": "活動二回饋總金額40萬元，如達本項活動總金額上限，活動即停止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動二回饋總金額40萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

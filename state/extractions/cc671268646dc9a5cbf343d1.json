@@ -1,0 +1,83 @@
+{
+ "key": "cc671268646dc9a5cbf343d1",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:52:21+00:00",
+ "title": "艋舺夜市超給利 台灣Pay單筆享20%現金回饋",
+ "duration_ms": 7732,
+ "cost_usd": 0.036987599999999995,
+ "usage": {
+  "input": 2,
+  "output": 1214,
+  "cache_creation": 6037,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享20%現金回饋(小數點後四捨五入，非即時回饋)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點消費，使用「台灣 Pay」(限金融卡/帳戶)以QR Code掃碼支付成功"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額享20%現金回饋"
+     },
+     {
+      "kind": "points",
+      "value": 1.5,
+      "unit": "%",
+      "quote": "參加台灣Pay每筆消費再享1.5%等值紅利點數回饋活動"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易回饋金上限新臺幣(以下同)300元"
+     },
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "於活動期間每一金融卡號/帳戶最高回饋上限1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "艋舺夜市等商圈受理「台灣Pay」交易之店家",
+    "how": "以「台灣Pay」QR Code掃碼進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限47萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限47萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

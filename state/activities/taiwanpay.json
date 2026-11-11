@@ -13,7 +13,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間透過參與金融機構「行動銀行」APP或「台灣行動支付」APP以「台灣Pay」QR Code掃碼進行轉帳，享免手續費。",
   "offers": [
    {
     "name": "",
@@ -31,9 +31,10 @@
       "kind": "other",
       "value": null,
       "unit": "other",
-      "quote": "以「台灣Pay」QR Code掃碼進行轉帳，享免手續費"
+      "quote": "以「台灣Pay」QR Code掃碼進行轉帳，享免手續費。"
      }
     ],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -41,15 +42,14 @@
     "how": "以「台灣Pay」QR Code掃碼進行轉帳",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "826874960b3baa4d",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -66,7 +66,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "於活動期間至活動地點消費，出示「台灣Pay」付款條碼（金融卡 /帳戶/信用卡）進行支付",
   "offers": [
    {
     "name": "",
@@ -77,14 +77,34 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限共110萬元",
+    "quota_quote": "本活動回饋總金額上限共110萬元，額滿為止",
     "review": [],
     "rewards": [
      {
       "kind": "discount",
       "value": 200.0,
       "unit": "元",
-      "quote": "即享結帳金額現折200元"
+      "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)，即享結帳金額現折200元"
+     },
+     {
+      "kind": "discount",
+      "value": 400.0,
+      "unit": "元",
+      "quote": "滿4,000元(含)，即享現折400元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)"
+     },
+     {
+      "amount": 4000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "滿4,000元(含)，即享現折400元"
      }
     ],
     "caps": [
@@ -101,22 +121,14 @@
     "how": "出示「台灣Pay」付款條碼（金融卡 /帳戶/信用卡）進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限共110萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 2000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆交易金額滿新臺幣(以下同)2,000元(含)"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ae510cbc4c311bb4",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -133,7 +145,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣 Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -154,6 +166,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -165,18 +178,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "三峽老街商圈及八里渡船頭商圈指定店家",
-    "how": "使用「台灣Pay」QR Code掃碼進行支付",
+    "how": "使用「台灣 Pay」QR Code掃碼支付成功者",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "2d418c655a486836",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -193,7 +205,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -214,6 +226,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -228,15 +241,14 @@
     "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50 萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "30dcc9bec4f68b00",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -253,7 +265,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，並使用「台灣 Pay」QR Code (金融卡/帳戶/信用卡)進行支付，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -274,6 +286,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -288,15 +301,14 @@
     "how": "使用「台灣 Pay」QR Code (金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限55萬元，如達本活動回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "1075d4d96991a999",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -313,7 +325,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，並使用「台灣 Pay」QR Code掃碼支付(限金融卡/帳戶)成功者，單筆消費不限金額可享10%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -334,6 +346,7 @@
       "quote": "單筆消費不限金額可享10%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -348,15 +361,14 @@
     "how": "使用「台灣 Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限37萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "b06303affec3a94f",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -373,7 +385,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，出示「台灣Pay」付款條碼進行支付",
   "offers": [
    {
     "name": "",
@@ -391,14 +403,34 @@
       "kind": "cash",
       "value": 300.0,
       "unit": "元",
-      "quote": "1,500元以上(含)送300元"
+      "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
+     },
+     {
+      "kind": "cash",
+      "value": 600.0,
+      "unit": "元",
+      "quote": "滿3,000元送600元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
+     },
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "滿3,000元送600元"
      }
     ],
     "caps": [
      {
       "amount": 900,
       "unit": "元",
-      "per": "unknown",
+      "per": "campaign",
       "quote": "每金融卡/帳戶/信用卡回饋上限為900元"
      }
     ],
@@ -408,22 +440,14 @@
     "how": "出示「台灣Pay」付款條碼進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限55萬元，如達本活動回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 1500,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a1265cc2864d6419",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -440,7 +464,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點消費，出示「台灣Pay」付款條碼(即被掃交易，金融卡/帳戶/信用卡)進行支付",
   "offers": [
    {
     "name": "",
@@ -451,7 +475,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止",
+    "quota_quote": "活動一及活動二合計回饋總金額上限57.5萬元整",
     "review": [
      "子活動名稱不在原文中：活動一",
      "額滿引句不在原文中：(活動額滿)"
@@ -464,6 +488,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -475,11 +500,10 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "STUDIO A、Straight A受理「台灣Pay」之指定門市",
-    "how": "出示「台灣Pay」付款條碼(即被掃交易，金融卡/帳戶/信用卡)進行支付",
+    "how": "出示「台灣Pay」付款條碼(即被掃交易，金融卡/帳戶/信用卡)",
     "limited": "yes",
     "limited_quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    },
    {
     "name": "",
@@ -490,7 +514,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止",
+    "quota_quote": "活動一及活動二合計回饋總金額上限57.5萬元整",
     "review": [
      "子活動名稱不在原文中：活動二",
      "額滿引句不在原文中：(活動額滿)"
@@ -503,6 +527,7 @@
       "quote": "單筆消費不限金額享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -513,12 +538,11 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "STUDIO A官方網站(https://www.studioa.com.tw)、Straight A官方網站(https://www.straighta.com.tw)",
-    "how": "使用「台灣Pay」(即主掃交易，金融卡/帳戶/信用卡)以QR Code掃碼進行支付",
+    "where": "STUDIO A官方網站(https://www.studioa.com.tw)",
+    "how": "以QR Code掃碼進行支付",
     "limited": "yes",
     "limited_quote": "活動一及活動二合計回饋總金額上限57.5萬元整，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -536,7 +560,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "80b403c717c2d7db",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -553,7 +577,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
   "offers": [
    {
     "name": "",
@@ -580,6 +604,20 @@
       "quote": "滿2,000元(含)以上，即享現折200元優惠"
      }
     ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上"
+     },
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "滿2,000元(含)以上，即享現折200元優惠"
+     }
+    ],
     "caps": [
      {
       "amount": 1000,
@@ -591,25 +629,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "傑昇通信受理「台灣 Pay」之指定實體門市",
-    "how": "出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
+    "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限125萬元整，如達該總金額上限即停止回饋",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 1000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆交易結帳金額滿新臺幣(下同)1,000元(含)以上"
-     }
-    ]
+    "limited_quote": "回饋總金額上限125萬元，額滿為止",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "c6bc8b9fc3041817",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -626,7 +656,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付，單筆結帳不限金額享20%回饋",
   "offers": [
    {
     "name": "",
@@ -637,7 +667,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "回饋總金額上限110萬元，額滿為止",
+    "quota_quote": "回饋總金額上限110萬元",
     "review": [],
     "rewards": [
      {
@@ -647,6 +677,7 @@
       "quote": "單筆結帳不限金額享20%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -661,15 +692,14 @@
     "how": "出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "回饋總金額上限110萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "65cb5d84a4191939",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -685,8 +715,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "用戶於活動期間至活動地點消費，出示「台灣Pay」付款條碼(限金融卡/帳戶)成功支付",
   "offers": [
    {
     "name": "",
@@ -701,10 +731,18 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "cash",
       "value": 10.0,
       "unit": "%",
       "quote": "享10%現金回饋(非即時回饋，小數點後四捨五入)"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額達新臺幣(以下同)200元(含)以上者"
      }
     ],
     "caps": [
@@ -717,26 +755,18 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "全台全家便利商店實體門市，但不包含非開立全家便利商店發票之特殊店鋪",
+    "where": "全台全家便利商店實體門市",
     "how": "出示「台灣Pay」付款條碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限為110萬元，如達回饋總金額上限，即提前停止回饋",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 200,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費金額達新臺幣(以下同)200元(含)以上者"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ec0929de9dc8ef37",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -753,7 +783,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動地點消費，使用台灣 Pay 以QR Code掃碼支付成功（限金融卡/帳戶)或電子支付機構APP以QR Code掃碼支付成功",
   "offers": [
    {
     "name": "",
@@ -768,18 +798,13 @@
     "review": [],
     "rewards": [
      {
-      "kind": "points",
-      "value": 10.0,
-      "unit": "%",
-      "quote": "單筆消費不限金額可享 10% 回饋街口幣（即時回饋，小數點後四捨五入）"
-     },
-     {
       "kind": "percent",
       "value": 10.0,
       "unit": "%",
-      "quote": "亦可享10%現金回饋或等值紅利點數(非即時回饋，小數點後四捨五入)"
+      "quote": "單筆消費不限金額可享 10% 回饋街口幣（即時回饋，小數點後四捨五入）"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -794,15 +819,14 @@
     "how": "使用台灣 Pay 以QR Code掃碼支付成功（限金融卡/帳戶)或電子支付機構APP以QR Code掃碼支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限為30萬元整，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "46788654e49b4a21",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -819,78 +843,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
-  "offers": [
-   {
-    "name": "",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "percent",
-      "value": 10.0,
-      "unit": "%",
-      "quote": "單筆消費不限金額10%回饋現金或點數"
-     }
-    ],
-    "caps": [
-     {
-      "amount": 1000,
-      "unit": "元",
-      "per": "campaign",
-      "quote": "活動期間每一金融卡/帳戶、電子支付帳戶最高回饋新台幣(以下同)1,000元等值點數或現金"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "台中市新社區、大安區標示TWQR店家",
-    "how": "進行掃碼支付",
-    "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
-   }
-  ],
-  "title_sold_out": [
-   {
-    "scope_label": "",
-    "scope_start": null,
-    "scope_end": null,
-    "source": "title",
-    "evidence": {
-     "quote": "(活動額滿)新社大安TWQR消費趣 10%回饋很給利",
-     "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DH7MX5RKQT8TFRGSSZCBF"
-    }
-   }
-  ],
-  "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
-  "review": [],
-  "content_hash": "2b2487a5f6bb2a98",
-  "observed_at": "2026-11-10T22:20:35+08:00",
-  "stale": false
- },
- {
-  "id": "taiwanpay-383dc1481f",
-  "provider_id": "taiwanpay",
-  "provider_name": "台灣Pay",
-  "title": "(活動額滿)漫遊員山鄉TWQR輕鬆付享10%回饋",
-  "aliases": [],
-  "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVTCJ46TDYBDVVW13J2Y59",
-  "period_start": "2026-08-01",
-  "period_end": "2027-03-31",
-  "category": "掃碼支付（TWQR）",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，進行掃碼支付，參與機構支付採單筆消費不限金額10%回饋現金或點數",
   "offers": [
    {
     "name": "",
@@ -910,9 +863,83 @@
       "kind": "percent",
       "value": 10.0,
       "unit": "%",
+      "quote": "單筆消費不限金額10%回饋現金或點數"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡/帳戶、電子支付帳戶最高回饋新台幣(以下同)1,000元等值點數或現金"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "台中市新社區、大安區標示TWQR店家",
+    "how": "進行掃碼支付",
+    "limited": "yes",
+    "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [
+   {
+    "scope_label": "",
+    "scope_start": null,
+    "scope_end": null,
+    "source": "title",
+    "evidence": {
+     "quote": "(活動額滿)新社大安TWQR消費趣 10%回饋很給利",
+     "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25DH7MX5RKQT8TFRGSSZCBF"
+    }
+   }
+  ],
+  "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
+  "review": [],
+  "content_hash": "2b2487a5f6bb2a98",
+  "observed_at": "2026-11-11T08:52:01+08:00",
+  "stale": false
+ },
+ {
+  "id": "taiwanpay-383dc1481f",
+  "provider_id": "taiwanpay",
+  "provider_name": "台灣Pay",
+  "title": "(活動額滿)漫遊員山鄉TWQR輕鬆付享10%回饋",
+  "aliases": [],
+  "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01KXFVTCJ46TDYBDVVW13J2Y59",
+  "period_start": "2026-08-01",
+  "period_end": "2027-03-31",
+  "category": "掃碼支付（TWQR）",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "用戶於活動期間至活動地點以QR Code掃碼支付成功，單筆消費不限金額享10%回饋現金或點數",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "本活動回饋總金額上限5萬元",
+    "review": [
+     "額滿引句不在原文中：(活動額滿)"
+    ],
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10.0,
+      "unit": "%",
       "quote": "單筆消費不限金額享10%回饋現金或點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -933,8 +960,7 @@
     "how": "以QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -952,7 +978,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "dac97c7cd830928e",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -969,7 +995,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣 Pay」(限金融卡/帳戶)以QR Code掃碼支付成功，單筆消費不限金額享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -990,6 +1016,7 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -1010,15 +1037,14 @@
     "how": "使用「台灣 Pay」(限金融卡/帳戶)以QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "1be8cc8f72652647",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1035,7 +1061,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)，單筆不限消費金額，可享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -1046,16 +1072,17 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限47萬元，額滿為止，並公告於華南銀行官網",
+    "quota_quote": "本活動回饋總金額上限47萬元，額滿為止",
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "cash",
       "value": 20.0,
       "unit": "%",
       "quote": "可享20%現金回饋(非即時回饋，小數點後四捨五入)"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -1066,12 +1093,11 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "台北市大安區永康街及鄰近路、街、道受理「台灣Pay」之指定店家(詳華南銀行官網公告)",
+    "where": "台北市大安區永康街及鄰近路、街、道受理「台灣Pay」之指定店家",
     "how": "以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)",
     "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限47萬元，額滿為止，並公告於華南銀行官網",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "本活動回饋總金額上限47萬元，額滿為止",
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -1089,7 +1115,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "e609ddb71d735473",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1106,7 +1132,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點消費，使用「台灣 Pay」(限金融卡/帳戶)，以 QR Code 掃碼進行支付，單筆消費不限金額可享20%回饋",
   "offers": [
    {
     "name": "",
@@ -1127,6 +1153,7 @@
       "quote": "單筆消費不限金額可享20%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -1144,18 +1171,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "三峽鶯歌商圈內受理「台灣Pay」交易之指定攤商店家",
-    "how": "使用「台灣 Pay」(限金融卡/帳戶)，以 QR Code 掃碼進行支付",
+    "how": "以「台灣Pay」QR Code掃碼進行支付 (限金融卡/帳戶)",
     "limited": "yes",
-    "limited_quote": "本活動總回饋金額以47萬元為上限，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "本活動總回饋金額以47萬元為上限，額滿為止，並公告於合作金庫官網",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "85b2db36b720ec13",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1171,8 +1197,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "用戶於活動期間於活動地點出示漢神Plus APP會員條碼消費集點且使用台灣Pay付款條碼支付",
   "offers": [
    {
     "name": "",
@@ -1193,6 +1219,14 @@
       "quote": "即可獲得「200元漢神洲際電子商品券」乙份"
      }
     ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿新臺幣（以下同）2,000元（含）以上"
+     }
+    ],
     "caps": [
      {
       "amount": 2,
@@ -1207,22 +1241,14 @@
     "how": "使用台灣Pay付款條碼支付",
     "limited": "yes",
     "limited_quote": "本活動限量5,750份，贈完為止",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 2000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆滿新臺幣（以下同）2,000元（含）以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "26485bca7b522c20",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1239,7 +1265,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)進行支付，單筆消費不限金額享20%回饋",
   "offers": [
    {
     "name": "",
@@ -1250,7 +1276,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限110萬元",
+    "quota_quote": "本活動回饋總金額上限110萬元，額滿為止",
     "review": [],
     "rewards": [
      {
@@ -1260,6 +1286,7 @@
       "quote": "單筆消費不限金額享20%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 800,
@@ -1274,15 +1301,14 @@
     "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限110萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "cb2fcd2fdb0c539d",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1299,7 +1325,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，以「台灣Pay」掃碼支付，單筆結帳不限金額，可享20%回饋",
   "offers": [
    {
     "name": "",
@@ -1320,6 +1346,7 @@
       "quote": "可享20%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -1331,18 +1358,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "大稻埕、迪化商圈 (參與店家資訊詳第一銀行官網)",
-    "how": "使用「台灣Pay」(透過參與金融機構「行動銀行」APP或「台灣行動支付」APP) 至活動地點掃碼「TWQR」Code進行支付",
+    "how": "以「台灣Pay」掃碼支付",
     "limited": "yes",
     "limited_quote": "回饋總金額上限60萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "f426d0681b5e75f0",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1359,7 +1385,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "單筆不限消費金額可享20%現金回饋(非即時回饋，小數點後四捨五入)",
   "offers": [
    {
     "name": "",
@@ -1372,16 +1398,17 @@
     "quota": null,
     "quota_quote": "本活動回饋總金額上限47萬元",
     "review": [
-     "額滿引句不在原文中：(活動額滿)"
+     "額滿引句不在原文中：活動額滿"
     ],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "cash",
       "value": 20.0,
       "unit": "%",
       "quote": "單筆不限消費金額可享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -1396,8 +1423,7 @@
     "how": "以「台灣 Pay」QR Code 掃碼支付 (限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -1415,7 +1441,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ff1808965de98f9f",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1440,7 +1466,7 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "868549d5664a0227",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1457,7 +1483,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -1478,6 +1504,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -1489,18 +1516,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "大橋頭延三商圈受理「台灣Pay」交易之店家",
-    "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
+    "how": "使用「台灣Pay」QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "63c3b54da414b976",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1538,6 +1564,7 @@
       "quote": "單筆消費不限金額可享10%回饋現金或點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -1552,8 +1579,7 @@
     "how": "使用掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -1571,7 +1597,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "b2e6673d4038ab34",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1588,7 +1614,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動地點使用掃碼支付，單筆消費不限金額可享10%回饋現金或點數",
   "offers": [
    {
     "name": "",
@@ -1603,12 +1629,13 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "other",
       "value": 10.0,
       "unit": "%",
       "quote": "單筆消費不限金額可享10%回饋現金或點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -1622,9 +1649,8 @@
     "where": "澎湖地區標示TWQR店之家",
     "how": "使用掃碼支付",
     "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限10萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "本活動回饋總金額上限10萬元，額滿為止，並公告於合作金庫官網",
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -1642,7 +1668,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a35c26f1c02f011a",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1659,7 +1685,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點消費，使用「台灣Pay」(限金融卡/帳戶)以QR Code掃碼支付成功，單筆消費不限金額享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -1670,7 +1696,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額47萬元為上限，額滿為止",
+    "quota_quote": "本活動回饋總金額47萬元為上限",
     "review": [],
     "rewards": [
      {
@@ -1680,6 +1706,7 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -1693,16 +1720,15 @@
     "where": "臺北市華西街商圈、臺北市師大龍泉商圈內受理「台灣Pay」之攤商店家",
     "how": "使用「台灣Pay」(限金融卡/帳戶)以QR Code掃碼支付成功",
     "limited": "yes",
-    "limited_quote": "本活動回饋總金額47萬元為上限，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "本活動回饋總金額47萬元為上限，額滿為止，並公告於兆豐銀行官網。",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "aa1e19cebc4ae0d1",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1730,8 +1756,10 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "review": [],
+    "quota_quote": "本活動回饋總金額上限30萬元",
+    "review": [
+     "額滿引句不在原文中：(活動額滿)"
+    ],
     "rewards": [
      {
       "kind": "percent",
@@ -1740,6 +1768,7 @@
       "quote": "單筆消費不限金額享10%現金回饋或點數回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -1751,11 +1780,10 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "連江縣(馬祖)地區標示TWQR店家",
-    "how": "掃碼支付",
+    "how": "於活動地點消費，進行掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -1773,7 +1801,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "c58d04455a94459a",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1790,7 +1818,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，並出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
   "offers": [
    {
     "name": "",
@@ -1801,7 +1829,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限55萬元，額滿為止",
+    "quota_quote": "本活動回饋總金額上限55萬元",
     "review": [],
     "rewards": [
      {
@@ -1811,6 +1839,7 @@
       "quote": "單筆消費不限金額可享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -1821,19 +1850,18 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "墊腳石受理「台灣Pay」之門市",
+    "where": "墊腳石受理「台灣Pay」之門市(參與本活動之門市詳墊腳石官網，如有異動以墊腳石官網公告為準)",
     "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限55萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "本活動回饋總金額上限55萬元，額滿為止，並公告於臺灣銀行官網。",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "9edf8e890eef50e9",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1865,12 +1893,13 @@
     "review": [],
     "rewards": [
      {
-      "kind": "other",
+      "kind": "percent",
       "value": 10.0,
       "unit": "%",
-      "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
+      "quote": "單筆消費不限金額10%回饋現金或點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -1882,18 +1911,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "桃園市復興區標示TWQR店家",
-    "how": "掃碼支付",
+    "how": "用戶於活動地點掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限10萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "26193abc311c32be",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1909,8 +1937,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "活動期間內用戶於PChome24h購物網站或以PChome24h購物APP消費，使用「台灣Pay」(限金融卡/帳戶)成功付款且單筆消費滿新臺幣(以下同)1,000元(含)以上",
   "offers": [
    {
     "name": "",
@@ -1922,18 +1950,30 @@
     "order_quote": "",
     "quota": null,
     "quota_quote": "本活動回饋總P幣數量上限 72 萬P幣，額滿為止",
-    "review": [
-     "上限引句不在原文中：每一PChome帳戶月最高回饋100P幣為限"
-    ],
+    "review": [],
     "rewards": [
      {
       "kind": "points",
       "value": 100.0,
       "unit": "點",
-      "quote": "可享回饋100 PChome P幣(下稱P幣)"
+      "quote": "可享回饋100 PChome P幣"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
      }
     ],
     "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "month",
+      "quote": "每一PChome帳戶每月最高回饋100P幣為限"
+     },
      {
       "amount": 300,
       "unit": "點",
@@ -1947,22 +1987,14 @@
     "how": "使用「台灣Pay」(限金融卡/帳戶)成功付款",
     "limited": "yes",
     "limited_quote": "本活動回饋總P幣數量上限 72 萬P幣，額滿為止",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 1000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a88d9cb3cdb58576",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1979,7 +2011,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點以QR Code掃碼支付成功，單筆消費不限金額享10%回饋現金或點數",
   "offers": [
    {
     "name": "",
@@ -1990,16 +2022,17 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限5萬元，額滿為止",
+    "quota_quote": "本活動回饋總金額上限5萬元",
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "other",
       "value": 10.0,
       "unit": "%",
       "quote": "單筆消費不限金額享10%回饋現金或點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -2019,9 +2052,8 @@
     "where": "南投縣仁愛鄉標示TWQR之店家。",
     "how": "以QR Code掃碼支付",
     "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "本活動回饋總金額上限5萬元，額滿為止，並公告於兆豐銀行官網",
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -2039,7 +2071,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ae01508bce08d122",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2064,7 +2096,7 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "c4fc542b4594444a",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2081,7 +2113,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點使用「台灣Pay」(限金融卡/帳戶/信用卡)進行消費，單筆消費不限金額享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -2092,16 +2124,17 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額55萬元為上限，額滿為止",
+    "quota_quote": "本活動回饋總金額55萬元為上限",
     "review": [],
     "rewards": [
      {
-      "kind": "cash",
+      "kind": "percent",
       "value": 20.0,
       "unit": "%",
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -2112,19 +2145,18 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "東森購物網(https://www.etmall.com.tw)及東森購物APP。",
+    "where": "東森購物網(https://www.etmall.com.tw)及東森購物APP",
     "how": "使用「台灣Pay」(限金融卡/帳戶/信用卡)進行消費",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額55萬元為上限，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "10fa78346116dde6",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2141,7 +2173,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間於活動地點消費，以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)，單筆消費不限金額可享10%現金回饋",
   "offers": [
    {
     "name": "",
@@ -2162,6 +2194,7 @@
       "quote": "單筆消費不限金額可享10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -2176,15 +2209,14 @@
     "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，如達回饋金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "5d87ed4b70a344e7",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2201,7 +2233,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動地點掃碼支付，參與機構單筆消費不限金額10%回饋現金或點數",
   "offers": [
    {
     "name": "",
@@ -2216,12 +2248,13 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "other",
       "value": 10.0,
       "unit": "%",
-      "quote": "單筆消費不限金額10%回饋現金或點數"
+      "quote": "參與機構單筆消費不限金額10%回饋現金或點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -2236,15 +2269,14 @@
     "how": "於活動地點消費，進行掃碼支付之用戶",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限15萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "fbf12de052254181",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2261,7 +2293,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -2272,7 +2304,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限50萬元，額滿為止",
+    "quota_quote": "本活動回饋總金額上限50萬元",
     "review": [],
     "rewards": [
      {
@@ -2282,6 +2314,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -2296,15 +2329,14 @@
     "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "98664840ae44b7c1",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2321,7 +2353,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "符合活動資格之用戶將由系統將自動發送【100元微風電子酬賓券】至用戶之會員中",
+  "registration_quote": "當日單筆消費達2,000元(含)以上，符合活動資格之用戶將由系統將自動發送【100元微風電子酬賓券】至用戶之會員中",
   "offers": [
    {
     "name": "",
@@ -2342,6 +2374,14 @@
       "quote": "即贈【100元微風電子酬賓券】乙份(可累贈)"
      }
     ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同)2,000元(含)以上"
+     }
+    ],
     "caps": [
      {
       "amount": 5,
@@ -2351,9 +2391,9 @@
      },
      {
       "amount": 1,
-      "unit": "次",
+      "unit": "份",
       "per": "day",
-      "quote": "每日每會員限回饋乙次"
+      "quote": "每位微風會員每日限獲得乙份【100元微風電子酬賓券】"
      }
     ],
     "new_users_only": "unknown",
@@ -2362,22 +2402,14 @@
     "how": "出示「iPASS MONEY」或「台灣Pay」付款條碼進行支付",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 2000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿新臺幣(以下同)2,000元(含)以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "fc9fe864944c6839",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2394,7 +2426,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣 Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -2415,6 +2447,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -2426,18 +2459,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "台北寧夏觀光夜市指定店家。",
-    "how": "以「台灣Pay」QR Code掃碼進行支付",
+    "how": "使用「台灣 Pay」QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "e788362298ac7ada",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2454,7 +2486,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間用戶至Apple Rewards Store電商平台以「台灣 Pay」（限金融卡/帳戶）進行消費，可享單筆交易不限金額10%現金回饋",
   "offers": [
    {
     "name": "",
@@ -2475,6 +2507,7 @@
       "quote": "可享單筆交易不限金額10%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 500,
@@ -2486,18 +2519,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "Apple Rewards Store電商平台",
-    "how": "",
+    "how": "「台灣 Pay」（限金融卡/帳戶）",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限30萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "58b763004a286825",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2514,7 +2546,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點消費出示「台灣Pay」付款碼(信用卡/金融卡/帳戶)進行支付(即被掃交易)，單筆消費不限金額享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -2525,16 +2557,19 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限57.5萬元，額滿為止",
-    "review": [],
+    "quota_quote": "本活動回饋總金額上限57.5萬元",
+    "review": [
+     "額滿引句不在原文中：(活動額滿)"
+    ],
     "rewards": [
      {
-      "kind": "cash",
+      "kind": "percent",
       "value": 20.0,
       "unit": "%",
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -2549,8 +2584,7 @@
     "how": "出示「台灣Pay」付款碼(信用卡/金融卡/帳戶)進行支付(即被掃交易)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限57.5萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -2568,7 +2602,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "db9d386211e200e7",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2585,7 +2619,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點使用「台灣 Pay」(限金融卡/帳戶)以QR Code掃碼支付成功，單筆消費不限金額享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -2606,6 +2640,7 @@
       "quote": "單筆消費不限金額享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -2623,18 +2658,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "臨江街觀光夜市商圈內受理「台灣Pay」交易之店家",
-    "how": "以「台灣Pay」QR Code掃碼進行支付 (限金融卡/帳戶)",
+    "how": "以QR Code掃碼支付成功",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限47萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "0609e4530df8b25c",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2651,7 +2685,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "於活動期間至活動地點以「台灣Pay」QR Code掃碼支付，單筆消費不限金額可享20%現金回饋",
   "offers": [
    {
     "name": "",
@@ -2662,7 +2696,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限435,000元",
+    "quota_quote": "本活動回饋總金額上限435,000元，額滿為止",
     "review": [],
     "rewards": [
      {
@@ -2672,6 +2706,7 @@
       "quote": "單筆消費不限金額可享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -2686,15 +2721,14 @@
     "how": "以「台灣Pay」QR Code掃碼支付(限金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限435,000元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "c2da6337ccc60c6d",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2734,6 +2768,7 @@
       "quote": "單筆消費不限金額享10%之現金回饋或點數回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 200,
@@ -2748,8 +2783,7 @@
     "how": "進行掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限60萬元，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -2767,7 +2801,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "eeb35b9e2334cec4",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2783,8 +2817,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "活動期間內用戶於活動地點，使用「台灣Pay」(限金融卡/帳戶) 進行支付，單筆消費不限金額，立即享88折結帳金額優惠",
   "offers": [
    {
     "name": "活動一、全品項農產品優惠",
@@ -2805,15 +2839,15 @@
       "quote": "立即享88折結帳金額優惠"
      }
     ],
+    "min_spends": [],
     "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "南農電舖(https://www.buy.org.tw/，含地方創生店家專區)",
+    "new_users_only": "no",
+    "new_users_quote": "單筆消費不限金額",
+    "where": "南農電舖(https://www.buy.org.tw/，含地方創生店家專區)。",
     "how": "使用「台灣Pay」(限金融卡/帳戶) 進行支付",
     "limited": "yes",
     "limited_quote": "活動一回饋總金額新臺幣(以下同)40萬元，如達本項活動總金額上限，活動即停止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    },
    {
     "name": "活動二、會員全加碼",
@@ -2834,22 +2868,22 @@
       "quote": "每筆成功交易不限金額即加碼贈送88元金幣"
      }
     ],
+    "min_spends": [],
     "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "南農電舖(https://www.buy.org.tw/，含地方創生店家專區)",
+    "new_users_only": "no",
+    "new_users_quote": "「南農電舖會員」以「台灣Pay」(限金融卡/帳戶)進行支付者",
+    "where": "南農電舖(https://www.buy.org.tw/，含地方創生店家專區)。",
     "how": "「南農電舖會員」以「台灣Pay」(限金融卡/帳戶)進行支付者",
     "limited": "yes",
     "limited_quote": "活動二回饋總金額40萬元，如達本項活動總金額上限，活動即停止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "249c8e97e6c924b8",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2866,7 +2900,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動地點掃碼支付，除全支付可享單筆消費不限金額10%全點回饋外",
   "offers": [
    {
     "name": "",
@@ -2881,12 +2915,19 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "points",
       "value": 10.0,
       "unit": "%",
-      "quote": "單筆消費不限金額10%回饋現金或等值點數"
+      "quote": "全支付可享單筆消費不限金額10%全點回饋"
+     },
+     {
+      "kind": "other",
+      "value": 10.0,
+      "unit": "%",
+      "quote": "其他參與機構支付採單筆消費不限金額10%回饋現金或等值點數"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 50,
@@ -2898,18 +2939,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "10大指定商圈(西門町、永康商圈、淡水老街、士林夜市、逢甲夜市、基隆廟口、迪化街、一中街夜市、羅東夜市、九份老街)全支付標示TWQR之指定店家",
-    "how": "",
+    "how": "掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限300萬元(4月:20萬、5-12月:每月各35萬)，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a669bd4e906e00fc",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2926,7 +2966,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "使用「台灣 Pay」(透過參與金融機構「行動銀行」APP或「台灣行動支付」APP)於活動期間至活動地點消費，以「台灣 Pay」QR Code 掃碼進行支付(金融卡/帳戶)之用戶",
   "offers": [
    {
     "name": "",
@@ -2947,6 +2987,7 @@
       "quote": "單筆消費不限金額可享20%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -2961,15 +3002,14 @@
     "how": "以「台灣 Pay」QR Code 掃碼進行支付(金融卡/帳戶)",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限60萬元",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "b50e95032103e022",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -2985,8 +3025,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "用戶於活動期間至活動地點以台灣Pay付款，當日消費單筆滿新臺幣(以下同)2,000元(含)以上者",
   "offers": [
    {
     "name": "",
@@ -3007,6 +3047,14 @@
       "quote": "兌換「200元漢神巨蛋商品券」乙份"
      }
     ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "當日消費單筆滿新臺幣(以下同)2,000元(含)以上者"
+     }
+    ],
     "caps": [
      {
       "amount": 2,
@@ -3021,22 +3069,14 @@
     "how": "使用「台灣Pay」(透過參與金融機構「行動銀行」APP 或「台灣行動支付」APP )於活動地點消費",
     "limited": "yes",
     "limited_quote": "本活動之商品券回饋上限為5,750份，如達回饋上限，即停止兌換",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 2000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "當日消費單筆滿新臺幣(以下同)2,000元(含)以上者"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "39135e3510c8637b",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3053,7 +3093,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣Pay」QR Code掃碼支付成功者，單筆消費不限金額可享15%現金回饋",
   "offers": [
    {
     "name": "",
@@ -3074,6 +3114,7 @@
       "quote": "單筆消費不限金額可享15%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -3088,15 +3129,14 @@
     "how": "使用「台灣Pay」QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限110萬元整，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "e8eeeb46f614fa4d",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3113,7 +3153,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "用戶於活動期間至活動地點消費，使用「台灣Pay」QR Code掃碼支付成功者，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -3134,6 +3174,7 @@
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -3145,18 +3186,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "新北投溫泉商圈及鄰近受理「台灣Pay」交易之店家",
-    "how": "以「台灣Pay」QR Code掃碼(限金融卡/帳戶/信用卡)進行支付",
+    "how": "使用「台灣Pay」QR Code掃碼支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限50萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "dab36d49776de3e1",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3173,7 +3213,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點使用「台灣 Pay」(限金融卡/帳戶)，以 QR Code 掃碼進行支付",
   "offers": [
    {
     "name": "",
@@ -3184,8 +3224,10 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動總回饋金額以47萬元為上限，額滿為止",
-    "review": [],
+    "quota_quote": "本活動總回饋金額以47萬元為上限",
+    "review": [
+     "額滿引句不在原文中：(活動額滿)"
+    ],
     "rewards": [
      {
       "kind": "percent",
@@ -3194,6 +3236,7 @@
       "quote": "單筆消費不限金額可享20%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -3211,11 +3254,10 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "苗栗南庄商圈內受理「台灣Pay」交易之指定攤商店家",
-    "how": "以「台灣Pay」QR Code掃碼進行支付 (限金融卡/帳戶)",
+    "how": "以 QR Code 掃碼進行支付",
     "limited": "yes",
     "limited_quote": "本活動總回饋金額以47萬元為上限，額滿為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -3233,7 +3275,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "2efef369b31934ab",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3249,8 +3291,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "活動期間內用戶於MyCard網站或MyCard APP，使用「台灣 Pay」(限金融卡/帳戶)付款，單筆消費滿新臺幣(以下同)1,000元(含)以上，可享5%現金回饋",
   "offers": [
    {
     "name": "",
@@ -3268,7 +3310,15 @@
       "kind": "cash",
       "value": 5.0,
       "unit": "%",
-      "quote": "可享5%現金回饋(非即時回饋，小數點後四捨五入)"
+      "quote": "可享5%現金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
      }
     ],
     "caps": [
@@ -3285,22 +3335,14 @@
     "how": "使用「台灣 Pay」(限金融卡/帳戶)付款",
     "limited": "yes",
     "limited_quote": "本活動為限量回饋，將依用戶交易時序核算回饋資格",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 1000,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿新臺幣(以下同)1,000元(含)以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "18f3202e2e8a5651",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3317,7 +3359,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "用戶於活動期間至活動地點消費，並出示「台灣Pay」付款條碼(信用卡/金融卡/帳戶)進行支付",
+  "registration_quote": "用戶於活動期間至活動地點消費，並出示「台灣Pay」付款條碼(信用卡/金融卡/帳戶)進行支付，單筆消費不限金額可享20%之現金回饋",
   "offers": [
    {
     "name": "",
@@ -3332,12 +3374,13 @@
     "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "cash",
       "value": 20.0,
       "unit": "%",
       "quote": "單筆消費不限金額可享20%之現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 1000,
@@ -3352,15 +3395,14 @@
     "how": "出示「台灣Pay」付款條碼(信用卡/金融卡/帳戶)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限110萬元，如達回饋總金額上限，即停止回饋",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "107c94fa7ac4b212",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3377,7 +3419,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點出示「台灣Pay」付款碼(金融卡/帳戶/信用卡)進行消費",
   "offers": [
    {
     "name": "",
@@ -3395,7 +3437,15 @@
       "kind": "percent",
       "value": 20.0,
       "unit": "%",
-      "quote": "可享20%現金回饋(非即時回饋，小數點後無條件捨去)"
+      "quote": "可享20%現金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費金額滿新臺幣(以下同)500元(含)以上"
      }
     ],
     "caps": [
@@ -3409,18 +3459,10 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "Focus時尚流行館內受理「台灣Pay」之櫃位",
-    "how": "出示「台灣Pay」付款碼(金融卡/帳戶/信用卡)進行消費",
+    "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額以55萬元為上限，額滿為止",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 500,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費金額滿新臺幣(以下同)500元(含)以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [
@@ -3438,7 +3480,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "9ea6ff4573770142",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -3455,7 +3497,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "活動期間至活動地點消費，出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
   "offers": [
    {
     "name": "",
@@ -3466,7 +3508,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動回饋總金額上限55萬元，如達該總額上限即終止回饋",
+    "quota_quote": "本活動回饋總金額上限55萬元",
     "review": [],
     "rewards": [
      {
@@ -3476,14 +3518,6 @@
       "quote": "即享現折300元優惠"
      }
     ],
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "GREEN & SAFE永豐餘生技受理「台灣Pay」之指定實體門市",
-    "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
-    "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限55萬元，如達該總額上限即終止回饋",
-    "sold_out": [],
     "min_spends": [
      {
       "amount": 1500,
@@ -3491,14 +3525,22 @@
       "per": "txn",
       "quote": "單筆消費金額滿新臺幣（以下同）1,500元(含)以上"
      }
-    ]
+    ],
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "GREEN & SAFE永豐餘生技受理「台灣Pay」之指定實體門市",
+    "how": "出示「台灣Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
+    "limited": "yes",
+    "limited_quote": "本活動回饋總金額上限55萬元，如達該總額上限即終止回饋",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "6ce724d429738a3d",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  }
 ]

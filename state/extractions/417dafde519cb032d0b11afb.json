@@ -1,0 +1,77 @@
+{
+ "key": "417dafde519cb032d0b11afb",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:55:32+00:00",
+ "title": "玉山Unicard - 透過全盈+PAY申辦最高享12.5%回饋",
+ "duration_ms": 3783,
+ "cost_usd": 0.0306756,
+ "usage": {
+  "input": 2,
+  "output": 576,
+  "cache_creation": 6054,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "透過全盈+PAY專屬連結首次申辦玉山Unicard正卡，核卡後45天內持該卡綁定全盈+PAY新增一般消費享8%加碼回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "核卡後45天內持該卡綁定全盈+PAY新增一般消費享8%加碼回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 8,
+      "unit": "%",
+      "quote": "核卡後45天內持該卡綁定全盈+PAY新增一般消費享8%加碼回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 12.5,
+      "unit": "%",
+      "quote": "加上Unicard原卡片權益，最高可享12.5%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "點",
+      "per": "unclear",
+      "quote": "每歸戶回饋上限300點玉山e point"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "限未曾申辦過玉山Unicard正卡參加"
+    },
+    "where": "",
+    "how": "透過全盈+PAY專屬連結首次申辦玉山Unicard正卡",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

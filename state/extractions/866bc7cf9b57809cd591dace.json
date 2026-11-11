@@ -1,0 +1,84 @@
+{
+ "key": "866bc7cf9b57809cd591dace",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:12+00:00",
+ "title": "連結國泰世華帳戶於「王品集團指定餐廳」消費滿額享10%回饋！",
+ "duration_ms": 4464,
+ "cost_usd": 0.0394356,
+ "usage": {
+  "input": 2,
+  "output": 696,
+  "cache_creation": 7944,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新臺幣600元，筆筆享10%全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "使用全支付連結國泰世華新臺幣活期存款帳戶（支票存款帳戶與使用信用卡驗證之第三類數位存款帳戶不適用）並出示「付款碼」或掃描「全支付QR Code立牌」、「全支付TWQR QR Code立牌」付款，完成交易即可享以下回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "筆筆享10%全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣600元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "點",
+      "per": "txn",
+      "quote": "每一全支付帳號單筆最高享100全點回饋"
+     },
+     {
+      "amount": 150,
+      "unit": "點",
+      "per": "week",
+      "quote": "單週最高享150全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "「TASTy西堤、夏慕尼、品田牧場、就饗鐵板燒」合作夥伴之實體通路",
+    "how": "使用全支付連結國泰世華新臺幣活期存款帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每週回饋限量10,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每週回饋限量10,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

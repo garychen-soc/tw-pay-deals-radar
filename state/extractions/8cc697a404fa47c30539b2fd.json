@@ -1,0 +1,84 @@
+{
+ "key": "8cc697a404fa47c30539b2fd",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:31+00:00",
+ "title": "(活動額滿)漫遊苗栗南庄老街台灣Pay給你20%驚喜回饋",
+ "duration_ms": 7282,
+ "cost_usd": 0.0373596,
+ "usage": {
+  "input": 2,
+  "output": 1138,
+  "cache_creation": 6320,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額可享20%回饋(非即時回饋，小數點後四捨五入)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間至活動地點使用「台灣 Pay」(限金融卡/帳戶)，以 QR Code 掃碼進行支付"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額可享20%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易回饋金上限新臺幣(以下同) 1,000元"
+     },
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一金融卡號/帳戶最高回饋金以2,000元為限"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "苗栗南庄商圈內受理「台灣Pay」交易之指定攤商店家",
+    "how": "以 QR Code 掃碼進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋金額以47萬元為上限，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋金額以47萬元為上限"
+    },
+    "sold_out": [
+     {
+      "quote": "(活動額滿)",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

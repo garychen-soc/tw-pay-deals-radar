@@ -1,0 +1,322 @@
+{
+ "key": "258c1a51bb364f08b9453cb9",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:45+00:00",
+ "title": "foodpanda｜綁定國泰世華信用卡，最高10%回饋！首綁消費再贈點",
+ "duration_ms": 19844,
+ "cost_usd": 0.0703616,
+ "usage": {
+  "input": 2,
+  "output": 3477,
+  "cache_creation": 8723,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿 $199 享 3% 全點回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動「主活動」需於消費前完成「活動登錄」始享活動行銷回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "主活動｜需登錄：綁定國泰世華信用卡，滿$199享3%全點",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "單筆消費滿 $199 享 3% 全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 199,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $199 享 3% 全點回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 15,
+      "unit": "點",
+      "per": "txn",
+      "quote": "單筆最高可得 15 全點"
+     },
+     {
+      "amount": 60,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一波段活動內最高可得 60 全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "foodpanda全站",
+    "how": "綁定國泰世華銀行信用卡",
+    "limited": {
+     "value": "yes",
+     "quote": "每一波段活動總回饋限量 100,000 全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每一波段活動總回饋限量 100,000 全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "第一波活動於 2026/08/30 起開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "第二波活動於 2026/09/29 起開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 29,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "第三波活動於 2026/10/30 起開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "第四波活動於 2026/11/29 起開放登錄。",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 29,
+       "hour": null,
+       "minute": null
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "第二波活動於 2026/09/29 起開放登錄。"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動「主活動」需於消費前完成「活動登錄」始享活動行銷回饋資格。"
+    }
+   },
+   {
+    "name": "指定場域消費活動：綁定國泰世華信用卡，週週限量享5%全點",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "最高享 5% 全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "點",
+      "per": "week",
+      "quote": "每週最高可得 30 全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定場域",
+    "how": "使用全支付綁定國泰世華銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量，贈完為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡權益活動：綁定國泰世華CUBE信用卡，享2%小樹點",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "享 2% 小樹點（信用卡）回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於全支付國內合作店家使用全支付",
+    "how": "綁定國泰世華CUBE信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "於活動期間至CUBE App切換【全支付】權益方案",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 4,
+       "day": 22,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "方案設定自當日零時起之消費即依當次變更後之方案計算回饋"
+    }
+   },
+   {
+    "name": "首綁消費活動：首次綁定國泰世華信用卡當月消費享30全點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 30,
+      "unit": "點",
+      "quote": "單筆消費不限金額享 30 全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每一符合活動資格之全支付帳號限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定國泰世華銀行信用卡"
+    },
+    "where": "foodpanda全站",
+    "how": "首次綁定國泰世華銀行信用卡",
+    "limited": {
+     "value": "yes",
+     "quote": "每一波段活動總回饋限量 45,000 全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每一波段活動總回饋限量 45,000 全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

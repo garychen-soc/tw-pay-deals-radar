@@ -1,0 +1,171 @@
+{
+ "key": "083cd240dea09b55c1f2379f",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:13+00:00",
+ "title": "Samsung Wallet綁定全支付，全實體通路消費最高享5%回饋！",
+ "duration_ms": 7356,
+ "cost_usd": 0.052307599999999996,
+ "usage": {
+  "input": 2,
+  "output": 1186,
+  "cache_creation": 9937,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "消費不限金額享3%回饋(上限20全點)，滿800享5%回饋(上限40全點)"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動之主活動需於消費前完成「活動登錄」始享行銷活動回饋資格"
+  },
+  "subs": [
+   {
+    "name": "主活動｜需登錄：全實體通路消費最高享5%",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "消費不限金額享3%回饋(上限20全點)"
+     },
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "滿800享5%回饋(上限40全點)"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 800,
+      "unit": "元",
+      "per": "txn",
+      "quote": "滿800享5%回饋(上限40全點)"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 20,
+      "unit": "點",
+      "per": "txn",
+      "quote": "消費不限金額享3%回饋(上限20全點)"
+     },
+     {
+      "amount": 40,
+      "unit": "點",
+      "per": "txn",
+      "quote": "滿800享5%回饋(上限40全點)"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付帳號限回饋一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "全支付合作實體通路",
+    "how": "使用Samsung Wallet綁定全支付進行付款",
+    "limited": {
+     "value": "yes",
+     "quote": "數量有限送完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各月限量500,000全點，總合計1,500,000全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "本活動於2026/10/30、11/30、12/30 00:00起開放登錄，消費前需完成登錄。",
+      "kind": "enumerated",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [
+       {
+        "year": 2026,
+        "month": 10,
+        "day": 30,
+        "hour": 0,
+        "minute": 0
+       },
+       {
+        "year": 2026,
+        "month": 11,
+        "day": 30,
+        "hour": 0,
+        "minute": 0
+       },
+       {
+        "year": 2026,
+        "month": 12,
+        "day": 30,
+        "hour": 0,
+        "minute": 0
+       }
+      ],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "消費前需完成登錄"
+    }
+   },
+   {
+    "name": "加碼活動｜抽獎：不限金額消費抽摺疊手機大獎",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "【Galaxy Z Fold8 (256 GB) (市值約新臺幣59,900元)，共10名】抽獎機會一次"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全支付合作實體通路",
+    "how": "使用Samsung Wallet綁定全支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "共10名"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "共10名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

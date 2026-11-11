@@ -1,0 +1,129 @@
+{
+ "key": "61bcb0face550c155e949ec8",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:03:05+00:00",
+ "title": "國泰CUBE信用卡切換【全支付】權益享2%小樹點(信用卡)回饋",
+ "duration_ms": 5484,
+ "cost_usd": 0.0437496,
+ "usage": {
+  "input": 2,
+  "output": 965,
+  "cache_creation": 8350,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "以全支付綁定並刷CUBE信用卡享2%小樹點（信用卡）回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "於活動期間至CUBE App切換【全支付】權益方案，於全支付國內合作店家使用全支付並綁定國泰世華CUBE信用卡付款，享2%小樹點（信用卡）回饋。"
+  },
+  "subs": [
+   {
+    "name": "【國泰世華銀行】優惠：切換全支付權益，以全支付綁定並刷CUBE信用卡享2%小樹點（信用卡）回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 2,
+      "unit": "%",
+      "quote": "享2%小樹點（信用卡）回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "於全支付國內合作店家使用全支付",
+    "how": "綁定國泰世華CUBE信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "於活動期間至CUBE App切換【全支付】權益方案",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 4,
+       "day": 22,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": 23,
+       "minute": 59
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "方案設定自當日零時起之消費即依當次變更後之方案計算回饋"
+    }
+   },
+   {
+    "name": "【國泰世華銀行】優惠：全支付APP綁卡消費小樹點（信用卡）可折抵信用卡消費帳款",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 100,
+      "unit": "%",
+      "quote": "折抵帳款上限為每筆刷卡金額之100%"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "可接受全支付交易付款之指定通路",
+    "how": "於全支付App綁定CUBE信用卡後",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

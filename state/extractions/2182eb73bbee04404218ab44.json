@@ -1,0 +1,71 @@
+{
+ "key": "2182eb73bbee04404218ab44",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:53+00:00",
+ "title": "悠遊付暢遊金門 筆筆最高回饋23%",
+ "duration_ms": 6637,
+ "cost_usd": 0.0398196,
+ "usage": {
+  "input": 2,
+  "output": 1022,
+  "cache_creation": 7225,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "筆筆享20%回饋，每人/戶每月回饋上限新臺幣(下同)1,000元悠遊付回饋金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於暢遊金門指定店家使用悠遊付掃描「悠遊付TWQR立牌」或「悠遊付立牌」消費之人，視同參加本活動，為活動參加人。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "筆筆享20%回饋，每人/戶每月回饋上限新臺幣(下同)1,000元悠遊付回饋金"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "month",
+      "quote": "每人/戶每月回饋上限新臺幣(下同)1,000元悠遊付回饋金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "暢遊金門指定店家",
+    "how": "使用悠遊付「掃碼」或「付款碼」扣款支付完成消費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋金總額以25萬元為上限，送完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月回饋金總額以25萬元為上限，送完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "799d1db473fe7431f6a5e791",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:15+00:00",
+ "title": "【高雄流行音樂中心演唱會優惠券】憑演唱會門票可獲取 iPASS MONEY 優惠券！",
+ "duration_ms": 4513,
+ "cost_usd": 0.0425536,
+ "usage": {
+  "input": 2,
+  "output": 757,
+  "cache_creation": 8571,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "掃描 「高流應援優惠券酷卡」上之優惠券 QR CODE 即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "即可領取 iPASS MONEY 50 元「高流應援數位優惠券」"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 50 元後即可兌換 1 張"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "unclear",
+      "quote": "每場門票張數限領 1 張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高雄市指定店家",
+    "how": "使用 iPASS MONEY APP 掃描一卡通 TWQR 立牌付款",
+    "limited": {
+     "value": "yes",
+     "quote": "各場次數量有限，兌完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各場次數量有限，兌完為止"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "憑活動期間高雄流行音樂中心「海音館」當日演唱會票券（紙本/數位），即可至海音館服務台兌換",
+      "kind": "other",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "欲領取「高流應援數位優惠券」須先取得「高流應援優惠券酷卡」並掃描酷卡上 QRcode 方可獲得"
+    }
+   }
+  ]
+ }
+}

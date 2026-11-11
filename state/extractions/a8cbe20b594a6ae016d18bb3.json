@@ -1,0 +1,71 @@
+{
+ "key": "a8cbe20b594a6ae016d18bb3",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:53:53+00:00",
+ "title": "悠遊付逢1生活繳費享筆筆加碼2%回饋",
+ "duration_ms": 5089,
+ "cost_usd": 0.0339296,
+ "usage": {
+  "input": 2,
+  "output": 595,
+  "cache_creation": 6820,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用悠遊付APP繳納生活繳費項目，即享每筆加碼2%回饋，當日每悠遊付會員最高回饋50元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊付繳納生活繳費之人，視同參加本活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 2,
+      "unit": "%",
+      "quote": "即享每筆加碼2%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "day",
+      "quote": "每日每悠遊付帳戶回饋上限50元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "透過悠遊付APP首頁點選「生活繳費」進入頁面，繳納水費、電費、瓦斯費、電信費、有線電視費、健保費、學雜費、停車費",
+    "how": "生活繳費適用悠遊付錢包或悠遊付綁定之銀行帳戶、綁定玉山/台新信用卡支付",
+    "limited": {
+     "value": "yes",
+     "quote": "每日回饋總金額上限7萬元，先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每日回饋總金額上限7萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

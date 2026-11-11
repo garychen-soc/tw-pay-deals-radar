@@ -12,8 +12,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶於全盈+PAY合作通路（不包含全家便利商店)，筆筆消費不限金額享20%全盈儲值金回饋",
   "offers": [
    {
     "name": "",
@@ -24,7 +24,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "本活動設有回饋總上限",
+    "quota_quote": "本活動設有回饋總上限，如活動期間內已達回饋總上限",
     "review": [],
     "rewards": [
      {
@@ -34,6 +34,7 @@
       "quote": "筆筆消費不限金額享20%全盈儲值金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 100,
@@ -43,20 +44,19 @@
      }
     ],
     "new_users_only": "yes",
-    "new_users_quote": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶於全盈+PAY合作通路",
+    "new_users_quote": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶",
     "where": "全盈+PAY合作通路（不包含全家便利商店)",
     "how": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶",
     "limited": "yes",
     "limited_quote": "本活動設有回饋總上限，如活動期間內已達回饋總上限",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "f4a9d9f82701fb5b",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -72,33 +72,17 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "required",
-  "registration_quote": "僅限透過全盈+PAY專屬連結首次申辦玉山Unicard正卡，若透過其他管道申辦，恕不符合回饋資格。",
+  "registration": "not_required",
+  "registration_quote": "核卡後45天內持該卡綁定全盈+PAY新增一般消費享8%加碼回饋",
   "offers": [
    {
     "name": "",
-    "slots": [
-     {
-      "start": null,
-      "end": "2026-12-31T23:59:00+08:00",
-      "kind": "deadline",
-      "origin": "explicit",
-      "precision": "minute",
-      "holiday_shifted": false,
-      "note": "",
-      "evidence": {
-       "quote": "須於2026/12/31前首次申辦玉山Unicard正卡且核卡",
-       "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
-      }
-     }
-    ],
-    "rules": [
-     "須於2026/12/31前首次申辦玉山Unicard正卡且核卡"
-    ],
-    "reregister": "once",
-    "reregister_quote": "須於2026/12/31前首次申辦玉山Unicard正卡且核卡",
-    "order": "register_before_spend",
-    "order_quote": "並於核卡後45天內持該卡綁定全盈+PAY新增一般消費",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
     "quota": null,
     "quota_quote": "",
     "review": [],
@@ -107,9 +91,16 @@
       "kind": "percent",
       "value": 8.0,
       "unit": "%",
-      "quote": "新增一般消費享8%加碼回饋"
+      "quote": "核卡後45天內持該卡綁定全盈+PAY新增一般消費享8%加碼回饋"
+     },
+     {
+      "kind": "percent",
+      "value": 12.5,
+      "unit": "%",
+      "quote": "加上Unicard原卡片權益，最高可享12.5%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 300,
@@ -124,15 +115,14 @@
     "how": "透過全盈+PAY專屬連結首次申辦玉山Unicard正卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "e2030cfa09a0a3fe",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -149,7 +139,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "使用全盈+PAY 綁定台新銀行Richart卡Pay著刷不限金額消費享2.3%現金回饋。",
   "offers": [
    {
     "name": "",
@@ -170,6 +160,7 @@
       "quote": "不限金額消費享2.3%現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [],
     "new_users_only": "unknown",
     "new_users_quote": "",
@@ -177,15 +168,14 @@
     "how": "使用全盈+PAY 綁定台新銀行Richart卡Pay著刷",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "05337b1e841022b7",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -202,14 +192,12 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "required",
-  "registration_quote": "成功設定【永豐銀行/京城銀行帳戶自動扣繳永豐信用卡帳款】持卡人需於帳單結帳日前，完成設定正卡持卡人本人之永豐銀行/京城銀行新臺幣帳戶自動扣繳永豐信用卡帳單且扣款成功",
+  "registration_quote": "持卡人需於帳單結帳日前，完成設定正卡持卡人本人之永豐銀行/京城銀行新臺幣帳戶自動扣繳永豐信用卡帳單且扣款成功",
   "offers": [
    {
     "name": "",
     "slots": [],
-    "rules": [
-     "持卡人需於帳單結帳日前，完成設定正卡持卡人本人之永豐銀行/京城銀行新臺幣帳戶自動扣繳永豐信用卡帳單且扣款成功"
-    ],
+    "rules": [],
     "reregister": "unknown",
     "reregister_quote": "",
     "order": "unknown",
@@ -225,6 +213,7 @@
       "quote": "「館外餐飲/全盈+PAY」7%刷卡金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 100,
@@ -235,19 +224,20 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "「館外餐飲/全盈+PAY」",
+    "where": "館外餐飲/全盈+PAY",
     "how": "永豐MITSUI OUTLET PARK聯名卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
-  "review": [],
+  "review": [
+   "需登錄或領券，但官方未寫時點"
+  ],
   "content_hash": "1332d946bc39651d",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -263,69 +253,11 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "於活動期間內以指定連結新開立之證券新戶綁定全盈支付完成一筆口袋證券的台股或美股交易即可獲得",
   "offers": [
    {
-    "name": "新戶禮-200元全家虛擬禮物卡:",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 200.0,
-      "unit": "元",
-      "quote": "開戶完成送200元全家虛擬禮物卡"
-     }
-    ],
-    "caps": [],
-    "new_users_only": "yes",
-    "new_users_quote": "口袋證券「新戶」定義",
-    "where": "",
-    "how": "透過連結線上開立口袋證券帳戶",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
-   },
-   {
-    "name": "新戶享首月入金跨轉免手續費:",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "other",
-      "value": null,
-      "unit": "other",
-      "quote": "由全盈+PAY入金至口袋錢包，免跨轉手續費"
-     }
-    ],
-    "caps": [],
-    "new_users_only": "yes",
-    "new_users_quote": "口袋證券「新戶」定義",
-    "where": "",
-    "how": "設定全盈+PAY作為入金帳戶",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
-   },
-   {
-    "name": "新戶禮交易禮全家大杯經典拿鐵x3杯:",
+    "name": "",
     "slots": [],
     "rules": [],
     "reregister": "unknown",
@@ -333,45 +265,27 @@
     "order": "unknown",
     "order_quote": "",
     "quota": 250,
-    "quota_quote": "限量250名",
+    "quota_quote": "（限量250名）",
     "review": [],
     "rewards": [
+     {
+      "kind": "coupon",
+      "value": 200.0,
+      "unit": "元",
+      "quote": "開戶完成送200元全家虛擬禮物卡"
+     },
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "由全盈+PAY入金至口袋錢包，免跨轉手續費"
+     },
      {
       "kind": "gift",
       "value": 3.0,
       "unit": "other",
       "quote": "送全家大杯經典拿鐵3杯"
-     }
-    ],
-    "caps": [],
-    "new_users_only": "yes",
-    "new_users_quote": "口袋證券「新戶」定義",
-    "where": "",
-    "how": "綁定全盈+PAY",
-    "limited": "yes",
-    "limited_quote": "限量250名",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 1,
-      "unit": "筆",
-      "per": "campaign",
-      "quote": "綁定全盈+PAY並交易一筆"
-     }
-    ]
-   },
-   {
-    "name": "首次交易美股送300元超商購物金（每月限量1,000名）",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 1000,
-    "quota_quote": "每月限量1,000名",
-    "review": [],
-    "rewards": [
+     },
      {
       "kind": "coupon",
       "value": 300.0,
@@ -379,22 +293,29 @@
       "quote": "首次交易美股送300元超商購物金"
      }
     ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "綁定全盈+PAY並交易一筆"
+     }
+    ],
     "caps": [],
     "new_users_only": "yes",
-    "new_users_quote": "口袋證券「新戶」定義",
+    "new_users_quote": "口袋證券「新戶」定義:2026/07/01~2026/12/31（含）首次成功開立之18歲以上成年人",
     "where": "",
-    "how": "",
+    "how": "綁定全盈+PAY並交易一筆",
     "limited": "yes",
-    "limited_quote": "每月限量1,000名",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "於限量筆數名額內，先交易達成者先享回饋，額滿為止",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "071cc563ea9bce57",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -411,7 +332,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "required",
-  "registration_quote": "需於刷卡隔月15號至月底前登錄",
+  "registration_quote": "符合回饋資格之正卡持卡人須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
   "offers": [
    {
     "name": "",
@@ -425,7 +346,7 @@
       "holiday_shifted": false,
       "note": "",
       "evidence": {
-       "quote": "需於刷卡隔月15號至月底前登錄",
+       "quote": "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
        "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
       }
      },
@@ -438,7 +359,7 @@
       "holiday_shifted": false,
       "note": "",
       "evidence": {
-       "quote": "需於刷卡隔月15號至月底前登錄",
+       "quote": "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
        "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
       }
      },
@@ -451,20 +372,20 @@
       "holiday_shifted": false,
       "note": "",
       "evidence": {
-       "quote": "需於刷卡隔月15號至月底前登錄",
+       "quote": "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
        "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
       }
      }
     ],
     "rules": [
-     "需於刷卡隔月15號至月底前登錄"
+     "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄"
     ],
     "reregister": "each_period",
-    "reregister_quote": "需於刷卡隔月15號至月底前登錄",
+    "reregister_quote": "須於刷卡次月15 日起至月底前",
     "order": "retroactive_ok",
-    "order_quote": "需於刷卡隔月15號至月底前登錄",
+    "order_quote": "須於刷卡次月15 日起至月底前",
     "quota": 660,
-    "quota_quote": "每月限量 660 名",
+    "quota_quote": "活動一與活動二每月限量共計660名回饋",
     "review": [
      "子活動名稱不在原文中：活動一"
     ],
@@ -476,22 +397,22 @@
       "quote": "享一般消費最高2%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 100,
       "unit": "元",
       "per": "month",
-      "quote": "每戶每月回饋上限合計100元"
+      "quote": "活動一與活動二每戶每月回饋上限共計NT100元"
      }
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "「全盈+PAY」綁定並刷遠東商銀信用卡",
+    "how": "活動期間使用「全盈+PAY」綁定並刷遠東商銀信用卡",
     "limited": "yes",
-    "limited_quote": "每月限量 660 名",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "活動一與活動二每月限量共計660名回饋",
+    "sold_out": []
    },
    {
     "name": "",
@@ -505,7 +426,7 @@
       "holiday_shifted": false,
       "note": "",
       "evidence": {
-       "quote": "需於刷卡隔月15號至月底前登錄",
+       "quote": "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
        "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
       }
      },
@@ -518,7 +439,7 @@
       "holiday_shifted": false,
       "note": "",
       "evidence": {
-       "quote": "需於刷卡隔月15號至月底前登錄",
+       "quote": "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
        "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
       }
      },
@@ -531,20 +452,20 @@
       "holiday_shifted": false,
       "note": "",
       "evidence": {
-       "quote": "需於刷卡隔月15號至月底前登錄",
+       "quote": "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄",
        "url": "https://www.pluspay.com.tw/Campaign/Promotion/202607Events"
       }
      }
     ],
     "rules": [
-     "需於刷卡隔月15號至月底前登錄"
+     "須於刷卡次月15 日起至月底前於「遠銀官網首頁 → 信用卡 → 信用卡優惠 → 信用卡活動登錄專區」登錄"
     ],
     "reregister": "each_period",
-    "reregister_quote": "需於刷卡隔月15號至月底前登錄",
+    "reregister_quote": "須於刷卡次月15 日起至月底前",
     "order": "retroactive_ok",
-    "order_quote": "需於刷卡隔月15號至月底前登錄",
+    "order_quote": "須於刷卡次月15 日起至月底前",
     "quota": 660,
-    "quota_quote": "每月限量 660 名",
+    "quota_quote": "活動一與活動二每月限量共計660名回饋",
     "review": [
      "子活動名稱不在原文中：活動二"
     ],
@@ -556,29 +477,29 @@
       "quote": "一般消費享加碼1%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 100,
       "unit": "元",
       "per": "month",
-      "quote": "每戶每月回饋上限合計100元"
+      "quote": "活動一與活動二每戶每月回饋上限共計NT100元"
      }
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "綁定『遠東商銀HAPPY+』LINE官方帳號個人化服務",
+    "how": "綁定『遠東商銀HAPPY+』LINE官方帳號個人化服務者",
     "limited": "yes",
-    "limited_quote": "每月限量 660 名",
-    "sold_out": [],
-    "min_spends": []
+    "limited_quote": "活動一與活動二每月限量共計660名回饋",
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "f47832eff1d13770",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -594,11 +515,11 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "活動期間內於「EEC中山店」，使用全盈+PAY付款，單筆消費滿新台幣200元(含)以上贈新台幣50元全盈儲值金",
   "offers": [
    {
-    "name": "",
+    "name": "【東南亞好物一站購足🛒】",
     "slots": [],
     "rules": [],
     "reregister": "unknown",
@@ -613,7 +534,15 @@
       "kind": "cash",
       "value": 50.0,
       "unit": "元",
-      "quote": "單筆消費滿新台幣200元(含)以上贈新台幣50元全盈儲值金"
+      "quote": "贈新台幣50元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新台幣200元(含)以上"
      }
     ],
     "caps": [
@@ -627,25 +556,17 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "此活動合作通路僅限於EEC中山店實體門市",
-    "how": "使用全盈+PAY「付款碼」",
+    "how": "使用全盈+PAY支付(包含以全盈錢包(電支餘額)、綁定信用卡、連結銀行帳戶)",
     "limited": "yes",
     "limited_quote": "本活動每月回饋總量上限200份",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 200,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿新台幣200元(含)以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "038f02c04efd90dd",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -662,7 +583,7 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "",
+  "registration_quote": "筆消費不限金額享10%之現金回饋或點數回饋",
   "offers": [
    {
     "name": "",
@@ -683,6 +604,7 @@
       "quote": "筆消費不限金額享10%之現金回饋或點數回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 200,
@@ -697,15 +619,14 @@
     "how": "",
     "limited": "yes",
     "limited_quote": "本活動回饋總金額上限60萬元，如達本活動回饋總金額上限，本活動即終止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "7812921f712b3741",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -733,7 +654,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "每月總回饋上限16萬元",
+    "quota_quote": "優惠一2026年5月至2026年11月期間，每月總回饋上限16萬元",
     "review": [],
     "rewards": [
      {
@@ -743,6 +664,7 @@
       "quote": "消費金額享10% 現金回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 200,
@@ -757,8 +679,7 @@
     "how": "掃描「一卡通TWQR立牌」付款",
     "limited": "yes",
     "limited_quote": "每月贈完為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    },
    {
     "name": "優惠二:iPASS MONEY消費加碼享5%回饋!",
@@ -771,16 +692,17 @@
     "order": "retroactive_ok",
     "order_quote": "至遲須於消費當月底前完成同意加入一卡通綠點回饋",
     "quota": null,
-    "quota_quote": "每月總回饋上限2萬點",
+    "quota_quote": "優惠二每月總回饋上限2萬點",
     "review": [],
     "rewards": [
      {
       "kind": "points",
       "value": 5.0,
       "unit": "%",
-      "quote": "加碼享一卡通綠點5%回饋"
+      "quote": "消費金額加碼享一卡通綠點5%回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 50,
@@ -795,15 +717,14 @@
     "how": "使用iPASS MONEY APP掃描「一卡通TWQR立牌」付款",
     "limited": "yes",
     "limited_quote": "每月總回饋上限2萬點，每月贈完為止",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "4d0e0ef660b0a5d4",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -819,8 +740,8 @@
   "terms_source": "official",
   "external_url": "",
   "is_offer": "yes",
-  "registration": "unknown",
-  "registration_quote": "",
+  "registration": "not_required",
+  "registration_quote": "活動期間使用全盈+Pay首次綁定國泰世華信用卡於全家便利商店實體門市付款，單筆消費滿99元(含)以上",
   "offers": [
    {
     "name": "",
@@ -839,6 +760,14 @@
       "value": 100.0,
       "unit": "點",
       "quote": "加贈小樹點(信用卡)100點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿99元(含)以上(點數折抵後實際消費金額)"
      }
     ],
     "caps": [
@@ -861,22 +790,14 @@
     "how": "使用全盈+Pay首次綁定國泰世華信用卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 99,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿99元(含)以上(點數折抵後實際消費金額)"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "8db5c21d1f85f546",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -919,22 +840,28 @@
       "quote": "該筆消費始可享加碼4%小樹點(信用卡)回饋"
      }
     ],
+    "min_spends": [],
     "caps": [
      {
       "amount": 100,
       "unit": "點",
       "per": "campaign",
       "quote": "本活動每戶每活動區間回饋上限100點小樹點(信用卡)"
+     },
+     {
+      "amount": 400,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "整檔活動(2026/9/1~2026/12/31)合計最高每人可獲得400點小樹點(信用卡)"
      }
     ],
     "new_users_only": "no",
-    "new_users_quote": "本活動限信用卡正卡人使用",
-    "where": "於全家便利商店實體門市使用全盈+PAY",
-    "how": "全盈+PAY綁定國泰世華CUBE信用卡付款，且當筆刷卡消費須開啟『小樹點(信用卡)折抵』服務",
+    "new_users_quote": "活動期間於國泰世華CUBE APP領取【全家折抵加碼】優惠券，於全家便利商店實體門市使用全盈+PAY綁定國泰世華CUBE信用卡付款",
+    "where": "於全家便利商店實體門市",
+    "how": "使用全盈+PAY綁定國泰世華CUBE信用卡付款",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": []
+    "sold_out": []
    },
    {
     "name": "",
@@ -957,6 +884,14 @@
       "quote": "加贈小樹點(信用卡)100點"
      }
     ],
+    "min_spends": [
+     {
+      "amount": 99,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆信用卡帳單實際請款金額滿99元(含)以上"
+     }
+    ],
     "caps": [
      {
       "amount": 1,
@@ -966,27 +901,19 @@
      }
     ],
     "new_users_only": "yes",
-    "new_users_quote": "全盈+PAY首綁新戶定義:活動期間開始前未曾使用全盈+PAY綁定國泰世華信用卡",
-    "where": "於全家便利商店實體門市付款",
+    "new_users_quote": "全盈+PAY首綁新戶定義:活動期間開始前未曾使用全盈+PAY綁定國泰世華信用卡(不含簽帳金融卡)",
+    "where": "於全家便利商店實體門市",
     "how": "使用全盈+PAY首次綁定國泰世華信用卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 99,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆信用卡帳單實際請款金額滿99元(含)以上"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "7a90030f23db631c",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1017,15 +944,21 @@
     "order_quote": "須於當月月底前完成登錄，始可參加當月及後續月份回饋活動",
     "quota": null,
     "quota_quote": "",
-    "review": [
-     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
-    ],
+    "review": [],
     "rewards": [
      {
-      "kind": "percent",
+      "kind": "cash",
       "value": 5.0,
       "unit": "%",
-      "quote": "最高享5%現金回饋"
+      "quote": "並完成指定任務最高享5%現金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "month",
+      "quote": "當月一般消費累計達5,000元"
      }
     ],
     "caps": [
@@ -1033,7 +966,7 @@
       "amount": 200,
       "unit": "元",
       "per": "month",
-      "quote": "每歸戶每月回饋以NT$200為上限"
+      "quote": "每月每歸戶回饋上限200元"
      }
     ],
     "new_users_only": "unknown",
@@ -1042,22 +975,14 @@
     "how": "使用全盈+PAY 綁定上海商業銀行指定信用卡",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 5000,
-      "unit": "元",
-      "per": "month",
-      "quote": "當月一般消費累計達5,000元"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
   "review": [],
   "content_hash": "a0366126dfcd701c",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  },
  {
@@ -1079,20 +1004,32 @@
    {
     "name": "",
     "slots": [],
-    "rules": [],
+    "rules": [
+     "行動支付優惠需每月登錄"
+    ],
     "reregister": "each_period",
     "reregister_quote": "行動支付優惠需每月登錄",
     "order": "unknown",
     "order_quote": "",
     "quota": null,
     "quota_quote": "",
-    "review": [],
+    "review": [
+     "登錄時間為相對規則（例如消費後幾日內），沒有固定時點"
+    ],
     "rewards": [
      {
       "kind": "points",
       "value": 4.0,
       "unit": "%",
       "quote": "最高4%現金點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "month",
+      "quote": "國內一般消費累積滿3,000元享回饋資格"
      }
     ],
     "caps": [
@@ -1109,24 +1046,14 @@
     "how": "使用全盈+PAY 綁定並一般消費累積滿3,000元(含)以上",
     "limited": "unknown",
     "limited_quote": "",
-    "sold_out": [],
-    "min_spends": [
-     {
-      "amount": 3000,
-      "unit": "元",
-      "per": "month",
-      "quote": "每戶每月(每月係指當月1日~31日)適用之行動支付交易國內一般消費累積滿3,000元享回饋資格"
-     }
-    ]
+    "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://www.pluspay.com.tw/Campaign/Promotion",
-  "review": [
-   "需登錄或領券，但官方未寫時點"
-  ],
+  "review": [],
   "content_hash": "beb52ab2e092f163",
-  "observed_at": "2026-11-10T22:20:35+08:00",
+  "observed_at": "2026-11-11T08:52:01+08:00",
   "stale": false
  }
 ]

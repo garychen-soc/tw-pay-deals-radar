@@ -1,0 +1,90 @@
+{
+ "key": "fad0151138c533366c17cc67",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:55:10+00:00",
+ "title": "悠遊康是美，週一滿額最高送60元",
+ "duration_ms": 4367,
+ "cost_usd": 0.029413599999999998,
+ "usage": {
+  "input": 2,
+  "output": 627,
+  "cache_creation": 5611,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿299元(含)以上送「康是美30元現金折價券」"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於康是美實體門市，每週一持悠遊卡/悠遊聯名卡，以悠遊卡功能扣款單筆消費滿299元(含)以上送「康是美30元現金折價券」"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 30,
+      "unit": "元",
+      "quote": "送「康是美30元現金折價券」"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元(含)以上"
+     },
+     {
+      "amount": 598,
+      "unit": "元",
+      "per": "txn",
+      "quote": "滿(含)598元以上贈送2張"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "txn",
+      "quote": "單筆消費最高贈送2張"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "day",
+      "quote": "每卡每日限享優惠乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "康是美實體門市",
+    "how": "持悠遊卡/悠遊聯名卡，以悠遊卡功能扣款",
+    "limited": {
+     "value": "yes",
+     "quote": "總回饋限量5,000張，送完為止"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "總回饋限量5,000張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

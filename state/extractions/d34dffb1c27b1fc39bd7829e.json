@@ -1,0 +1,128 @@
+{
+ "key": "d34dffb1c27b1fc39bd7829e",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:09:09+00:00",
+ "title": "元大悠遊聯名卡首次自動加值享最高20%回饋刷卡金",
+ "duration_ms": 5047,
+ "cost_usd": 0.0348776,
+ "usage": {
+  "input": 2,
+  "output": 859,
+  "cache_creation": 6397,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持元大悠遊聯名卡首次自動加值享10%刷卡金回饋，每卡最高回饋金額為新台幣50元"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "並於指定時間內完成登錄，自動加值享10%刷卡金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "持元大悠遊聯名卡首次自動加值享10%刷卡金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "自動加值新台幣500元或其倍數之一定金額"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每卡最高回饋金額為新台幣50元"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每卡限1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "透過設備自動加值新台幣500元或其倍數之一定金額到元大悠遊聯名卡悠遊卡內",
+    "limited": {
+     "value": "yes",
+     "quote": "限量15,000卡"
+    },
+    "quota": {
+     "seats": 15000,
+     "quote": "限量15,000卡"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "★自動加值享 10% 刷卡金★",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "自動加值享10%刷卡金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "unclear",
+      "quote": "每戶回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "活動期間內申辦元大銀行悠遊聯名卡，並於指定時間內完成登錄",
+    "limited": {
+     "value": "yes",
+     "quote": "限量5,000名"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "限量5,000名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

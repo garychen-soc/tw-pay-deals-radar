@@ -1,0 +1,145 @@
+{
+ "key": "1c6377493052caaa1e036f4d",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:56:29+00:00",
+ "title": "全支付新戶限時加碼｜完成首筆消費不限金額送50全點！",
+ "duration_ms": 10686,
+ "cost_usd": 0.0475476,
+ "usage": {
+  "input": 2,
+  "output": 1660,
+  "cache_creation": 7562,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "完成首筆消費不限金額，即享50全點回饋！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於新戶活動期間完成註冊，以全支付付款，首筆消費不限金額，即贈全點50點回饋"
+  },
+  "subs": [
+   {
+    "name": "全支付新戶｜完成首筆消費不限金額，即享新戶禮50全點！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "即贈全點50點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付帳號限取得一次回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本活動限新戶參加"
+    },
+    "where": "本活動限於得使用全支付付款於全通路完成首筆交易",
+    "how": "使用全支付「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋限量2,250,000全點，以消費優先順序發送，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋限量2,250,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "付款即可筆筆再享最高3%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "付款即可筆筆再享最高5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

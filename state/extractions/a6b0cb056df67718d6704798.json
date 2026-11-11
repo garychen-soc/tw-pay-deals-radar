@@ -1,0 +1,71 @@
+{
+ "key": "a6b0cb056df67718d6704798",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:54:38+00:00",
+ "title": "全國加油站嗶悠遊卡/悠遊聯名卡支付，汽油每公升降0.5元",
+ "duration_ms": 3761,
+ "cost_usd": 0.028573599999999998,
+ "usage": {
+  "input": 2,
+  "output": 511,
+  "cache_creation": 5691,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "機車於人工加油島加油以悠遊卡功能扣款，享汽油每公升降價0.5元優惠。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間天天持悠遊卡/悠遊聯名卡到全國加油站，機車於人工加油島加油以悠遊卡功能扣款，享汽油每公升降價0.5元優惠。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 0.5,
+      "unit": "元",
+      "quote": "享汽油每公升降價0.5元優惠"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "txn",
+      "quote": "汽油每次加滿1公升以上"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全國加油站人工加油島",
+    "how": "以悠遊卡、悠遊聯名卡（含悠遊Debit卡）之悠遊卡功能扣款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

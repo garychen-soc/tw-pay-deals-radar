@@ -1,0 +1,71 @@
+{
+ "key": "7b720024849889069b358597",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:51:09+00:00",
+ "title": "兆豐銀行 首次綁定消費筆筆享20%回饋",
+ "duration_ms": 3726,
+ "cost_usd": 0.0361036,
+ "usage": {
+  "input": 2,
+  "output": 606,
+  "cache_creation": 7336,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "筆筆消費不限金額享20%全盈儲值金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶於全盈+PAY合作通路（不包含全家便利商店)，筆筆消費不限金額享20%全盈儲值金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 20,
+      "unit": "%",
+      "quote": "筆筆消費不限金額享20%全盈儲值金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每會員活動期間信用卡(含VISA金融卡)/帳戶限回饋上限100元全盈儲值金"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶"
+    },
+    "where": "全盈+PAY合作通路（不包含全家便利商店)",
+    "how": "首次綁定兆豐銀行信用卡(含VISA金融卡)/帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動設有回饋總上限，如活動期間內已達回饋總上限"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動設有回饋總上限"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

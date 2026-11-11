@@ -1,0 +1,544 @@
+{
+ "key": "17926d6572401da6ca9c6360",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:52:07+00:00",
+ "title": "首次綁定指定信用卡，最高88全點限量回饋！",
+ "duration_ms": 25153,
+ "cost_usd": 0.08692359999999999,
+ "usage": {
+  "input": 2,
+  "output": 4716,
+  "cache_creation": 9766,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "首次綁定臺灣企銀信用卡，單筆消費滿250元，享50全點回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加。"
+  },
+  "subs": [
+   {
+    "name": "【臺灣企銀】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿250元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿250元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定臺灣企銀信用卡"
+    },
+    "where": "",
+    "how": "使用全支付首次綁定之臺灣企銀信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量10,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量10,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【星展銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿300元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿300元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定星展銀行信用卡"
+    },
+    "where": "",
+    "how": "使用全支付首次綁定之星展銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量50,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量50,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【王道銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿200元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿200元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定王道銀行簽帳卡"
+    },
+    "where": "",
+    "how": "消費使用全支付首次綁定之王道銀行簽帳卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量10,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量10,000全點"
+    },
+    "sold_out": [
+     {
+      "quote": "(首週回饋已額滿)",
+      "scope_label": "首週",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【玉山銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 88,
+      "unit": "點",
+      "quote": "單筆消費滿388元，享88全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 388,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿388元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 88,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享88全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定玉山信用卡"
+    },
+    "where": "",
+    "how": "使用全支付首次綁定之玉山銀行信用卡完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量66,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量66,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【台北富邦銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿200元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿200元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定台北富邦銀行信用卡"
+    },
+    "where": "",
+    "how": "消費使用全支付首次綁定之台北富邦銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量50,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量50,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【聯邦銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿200元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿200元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定聯邦銀行信用卡"
+    },
+    "where": "",
+    "how": "消費使用全支付首次綁定之聯邦銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量25,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量25,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【華南銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿250元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿250元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定華南銀行信用卡"
+    },
+    "where": "",
+    "how": "消費使用全支付首次綁定之華南銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量10,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量10,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【台新銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿299元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定台新銀行信用卡"
+    },
+    "where": "",
+    "how": "使用全支付綁定之台新銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量40,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量40,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【元大銀行】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿299元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定元大銀行信用卡"
+    },
+    "where": "",
+    "how": "消費使用全支付首次綁定之元大銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量15,000全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量15,000全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【上海商銀】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "單筆消費滿299元，享50全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 50,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高享50全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "首次綁定上海商銀信用卡"
+    },
+    "where": "",
+    "how": "消費使用全支付首次綁定之上海商銀信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量7,500全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每週回饋限量7,500全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "key": "ae4d76c4821cb46a7d8738d2",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:35+00:00",
+ "title": "橡木桶刷台灣Pay 滿1,500元送300元回饋",
+ "duration_ms": 4266,
+ "cost_usd": 0.0331816,
+ "usage": {
+  "input": 2,
+  "output": 693,
+  "cache_creation": 6388,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元，滿3,000元送600元，以此類推。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點消費，出示「台灣Pay」付款條碼進行支付"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 300,
+      "unit": "元",
+      "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
+     },
+     {
+      "kind": "cash",
+      "value": 600,
+      "unit": "元",
+      "quote": "滿3,000元送600元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易結帳金額每滿新臺幣(以下同)1,500元以上(含)送300元"
+     },
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "滿3,000元送600元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 900,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每金融卡/帳戶/信用卡回饋上限為900元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "橡木桶指定門市(參與店家詳土地銀行官網)。",
+    "how": "出示「台灣Pay」付款條碼進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限55萬元，如達本活動回饋總金額上限，即停止回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限55萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "key": "fe22d422aa8ca8ad2acc3108",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:05:27+00:00",
+ "title": "百大品牌、乘車、繳費、日本、韓國｜指定場域完成消費，抽虎利應援周邊！",
+ "duration_ms": 12110,
+ "cost_usd": 0.0577156,
+ "usage": {
+  "input": 2,
+  "output": 2098,
+  "cache_creation": 9009,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即獲得本活動任務抽獎機會 乙 次，且可累計，抽獎機會無上限"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動全支付會員皆可參加，詳情請參閱本活動公告。"
+  },
+  "subs": [
+   {
+    "name": "【指定場域一｜百大品牌】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "指定百大品牌實體門市或線上通路",
+    "how": "使用全支付付款",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "總計抽10位"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【指定場域二｜乘車碼】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "台北捷運、雙北公車、基隆公車",
+    "how": "使用全支付「乘車碼」付款完成搭車",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "總計抽10位"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【指定場域三｜繳費】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "全支付APP「繳費」入口",
+    "how": "使用全支付付款完成繳費",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "總計抽10位"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【指定場域四｜日本PayPay】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "日本PayPay合作夥伴通路",
+    "how": "使用全支付付款完成消費",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "總計抽10位"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "【指定場域五｜韓國ZeroPay / HIVEX】",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": null,
+      "unit": "other",
+      "quote": "虎利應援周邊禮盒（總計抽10位）"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "韓國ZeroPay /HIVEX識別之收款系統合作商店實體門市，或於指定百貨/地區",
+    "how": "使用全支付付款完成消費",
+    "limited": {
+     "value": "yes",
+     "quote": "虎利應援周邊禮盒（總計抽10位）"
+    },
+    "quota": {
+     "seats": 10,
+     "quote": "總計抽10位"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

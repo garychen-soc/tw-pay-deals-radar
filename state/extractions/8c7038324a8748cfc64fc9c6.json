@@ -1,0 +1,129 @@
+{
+ "key": "8c7038324a8748cfc64fc9c6",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:53:43+00:00",
+ "title": "悠遊卡生活購物嗶計畫 週五六日萬家福/樂家康/Mia Cbon消費滿額享最高回饋8%",
+ "duration_ms": 6481,
+ "cost_usd": 0.039189600000000005,
+ "usage": {
+  "input": 2,
+  "output": 1007,
+  "cache_creation": 7105,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿599元(含)以上者，送50元萬家福折價券一份"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動需先至「萬家福APP」啟用電子券，付款過刷會員方得以參加活動。"
+  },
+  "subs": [
+   {
+    "name": "萬家福",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "送50元萬家福折價券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 599,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿599元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "week",
+      "quote": "每週每一uniopen 會員回饋上限100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "萬家福(量販店型)",
+    "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本指定通路優惠總限量5,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "本指定通路優惠總限量5,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動需先至「萬家福APP」啟用電子券，付款過刷會員方得以參加活動。"
+    }
+   },
+   {
+    "name": "樂家康/\nMiaCbon",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 24,
+      "unit": "元",
+      "quote": "送24元樂家康/Mia Cbon折價券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿299元(含)以上者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 48,
+      "unit": "元",
+      "per": "week",
+      "quote": "每週每一uniopen 會員回饋上限48元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "樂家康/Mia Cbon(超市店型)",
+    "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
+    "limited": {
+     "value": "yes",
+     "quote": "本指定通路優惠總限量10,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 10000,
+     "quote": "本指定通路優惠總限量10,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動需先至「萬家福APP」啟用電子券，付款過刷會員方得以參加活動。"
+    }
+   }
+  ]
+ }
+}

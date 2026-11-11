@@ -1,0 +1,71 @@
+{
+ "key": "6538975257b4278dfff13e7b",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:29+00:00",
+ "title": "食在有感 築間餐飲集團台灣Pay回饋20%",
+ "duration_ms": 3605,
+ "cost_usd": 0.0316296,
+ "usage": {
+  "input": 2,
+  "output": 589,
+  "cache_creation": 6260,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆結帳不限金額享20%回饋，每金融卡/帳戶/信用卡於活動期間回饋上限新臺幣(以下同)500元"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點消費，出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付，單筆結帳不限金額享20%回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆結帳不限金額享20%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每金融卡/帳戶/信用卡於活動期間回饋上限新臺幣(以下同)500元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "築間餐飲集團受理「台灣 Pay」之指定實體門市",
+    "how": "出示「台灣 Pay」付款條碼(金融卡/帳戶/信用卡)進行支付",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋總金額上限110萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋總金額上限110萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

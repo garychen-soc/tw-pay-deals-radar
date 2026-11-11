@@ -1,0 +1,112 @@
+{
+ "key": "9c89cf587d69ca1d5084d352",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:08:01+00:00",
+ "title": "【環保集點】點點成金！好康再升級！兌換一卡通綠點就送 50 元優惠券",
+ "duration_ms": 5207,
+ "cost_usd": 0.0464656,
+ "usage": {
+  "input": 2,
+  "output": 929,
+  "cache_creation": 9119,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "送 iPASS MONEY 優惠券 50 元 1 張"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "活動期間於環保集點平台，使用環保綠點兌換「一卡通綠點兌換碼」，並於一卡通 iPASS MONEY APP 完成 1 筆「一卡通綠點」兌領"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "送 iPASS MONEY 優惠券 50 元 1 張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "unclear",
+      "quote": "完成 1 筆「一卡通綠點」兌領"
+     },
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "使用 iPASS MONEY 單筆消費滿 299 元可兌換 1 張"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "活動期間每人每月限得 3 張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "可使用 iPASS MONEY APP 付款之通路均可使用，",
+    "how": "使用環保綠點兌換「一卡通綠點兌換碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "每月總限量 8 萬張，贈完為止"
+    },
+    "quota": {
+     "seats": 80000,
+     "quote": "每月總限量 8 萬張"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "活動日期:2026/10/20 - 2026/12/31",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 20,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 12,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "活動回饋資格每月重新計算，用戶每月皆須於環保集點平台使用環保綠點，兌換「一卡通綠點兌換碼」"
+    },
+    "order": {
+     "value": "retroactive_ok",
+     "quote": "活動期間於環保集點平台，使用環保綠點兌換「一卡通綠點兌換碼」，並於一卡通 iPASS MONEY APP 完成 1 筆「一卡通綠點」兌領"
+    }
+   }
+  ]
+ }
+}

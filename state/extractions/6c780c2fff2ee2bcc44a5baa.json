@@ -1,0 +1,84 @@
+{
+ "key": "6c780c2fff2ee2bcc44a5baa",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:07:42+00:00",
+ "title": "(活動額滿)漫遊員山鄉TWQR輕鬆付享10%回饋",
+ "duration_ms": 5945,
+ "cost_usd": 0.0346136,
+ "usage": {
+  "input": 2,
+  "output": 905,
+  "cache_creation": 6216,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享10%回饋現金或點數"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動期間至活動地點以QR Code掃碼支付成功，單筆消費不限金額享10%回饋現金或點數"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%回饋現金或點數"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易回饋金上限新臺幣(以下同)500元"
+     },
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "month",
+      "quote": "活動期間每月每帳戶合計最高回饋500元現金或等值點數"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "宜蘭縣員山鄉標示TWQR之店家。",
+    "how": "以QR Code掃碼支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限5萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限5萬元"
+    },
+    "sold_out": [
+     {
+      "quote": "(活動額滿)",
+      "scope_label": "",
+      "scope_start": null,
+      "scope_end": null
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

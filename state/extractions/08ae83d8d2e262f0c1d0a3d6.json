@@ -1,0 +1,106 @@
+{
+ "key": "08ae83d8d2e262f0c1d0a3d6",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:49:53+00:00",
+ "title": "【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！",
+ "duration_ms": 9278,
+ "cost_usd": 0.0511996,
+ "usage": {
+  "input": 2,
+  "output": 1404,
+  "cache_creation": 9115,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可獲得一卡通綠點 168 點抽獎機會(每月共抽出 30 名，活動期間每人限中獎 1 次)"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "須同意加入一卡通綠點回饋後，方符合活動回饋資格"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 168,
+      "unit": "點",
+      "quote": "即可獲得一卡通綠點 168 點抽獎機會"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "完成任一筆手機門號轉帳"
+     },
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "累積消費滿 100 元即享 1 次額外抽獎機會"
+     },
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "滿 200 元即享 2 次額外抽獎機會"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每人限中獎 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "透過 iPASS MONEY APP 內手機門號轉帳功能轉帳",
+    "how": "將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請至遲於當月底前加入一卡通綠點",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "key": "c8c69f5f34fc26ead9ee43ef",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:57:22+00:00",
+ "title": "街口捐款，即時送暖",
+ "duration_ms": 4372,
+ "cost_usd": 0.0351916,
+ "usage": {
+  "input": 2,
+  "output": 324,
+  "cache_creation": 7813,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "no",
+   "quote": "街口支付攜手創世基金會、世界展望會等，超過 300 間公益團體與捐款單位，至今累積募得逾新台幣 10 億元愛心善款"
+  },
+  "registration": {
+   "value": "unclear",
+   "quote": ""
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

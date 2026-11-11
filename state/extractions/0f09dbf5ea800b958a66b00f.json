@@ -1,0 +1,71 @@
+{
+ "key": "0f09dbf5ea800b958a66b00f",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:11+00:00",
+ "title": "通勤樂購券｜使用全支付乘車碼搭乘大眾運輸加碼5%全點回饋!",
+ "duration_ms": 4257,
+ "cost_usd": 0.0394796,
+ "usage": {
+  "input": 2,
+  "output": 640,
+  "cache_creation": 8095,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全支付乘車碼搭乘，出站並成功扣款將收到全通路5%券推播，至指定場域消費，最高享5%全點回饋!"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "本活動限無需進行活動登錄，惟需使用全支付APP「乘車碼」功能"
+  },
+  "subs": [
+   {
+    "name": "【主活動: 大眾運輸工具贈全通路5%回饋活動：活動期間內，使用全支付乘車碼搭乘，出站並成功扣款將收到全通路5%券推播，至指定場域消費，最高享5%全點回饋!】",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "可享消費5%全點回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 15,
+      "unit": "點",
+      "per": "txn",
+      "quote": "每一符合活動資格之全支付帳號單筆回饋上限15全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "全支付會員持通勤樂購券至可使用通勤樂購券之合作店家或通路消費",
+    "how": "使用全支付「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總回饋限量總計為180萬全點，每月預算30萬全點"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動總回饋限量總計為180萬全點，每月預算30萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

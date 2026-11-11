@@ -1,0 +1,78 @@
+{
+ "key": "620841ff77362519b502feac",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:10+00:00",
+ "title": "綁定玉山信用卡於全支付APP「繳費」入口繳費(稅)，單筆滿額享全點回饋",
+ "duration_ms": 3753,
+ "cost_usd": 0.0373576,
+ "usage": {
+  "input": 2,
+  "output": 615,
+  "cache_creation": 7627,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全支付綁定玉山銀行信用卡，於於全支付APP「繳費」入口繳費(稅)，單筆金額滿500元，享3%全點回饋。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間內，使用全支付綁定之玉山銀行信用卡付款，單筆金額滿500元，筆筆消費可享3%全點回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "單筆金額滿500元，筆筆消費可享3%全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆金額滿500元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "點",
+      "per": "week",
+      "quote": "本活動每一全支付帳號每週最高享30點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加。"
+    },
+    "where": "本活動回饋僅適用全支付APP「繳費」入口繳費(稅)",
+    "how": "使用全支付綁定之玉山銀行信用卡付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每週回饋限量60,000全點，贈完為止。"
+    },
+    "quota": {
+     "seats": 60000,
+     "quote": "每週回饋限量60,000全點，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

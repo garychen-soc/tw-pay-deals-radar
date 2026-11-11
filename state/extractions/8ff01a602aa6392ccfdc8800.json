@@ -1,0 +1,57 @@
+{
+ "key": "8ff01a602aa6392ccfdc8800",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:55:04+00:00",
+ "title": "【動物園行動支付上線】歐付寶Pay Taipei 暢遊動物園",
+ "duration_ms": 2962,
+ "cost_usd": 0.0276876,
+ "usage": {
+  "input": 2,
+  "output": 344,
+  "cache_creation": 5887,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "no",
+   "quote": "即日起，購買臺北市立動物園門票可以使用行動支付APP囉！"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "您可透過 一、自動購票機或人工售票口掃碼付款"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "臺北市立動物園",
+    "how": "自動購票機或人工售票口掃碼付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

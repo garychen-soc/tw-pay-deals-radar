@@ -1,0 +1,176 @@
+{
+ "key": "ec9943c669f3ea8889ede94a",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:04:25+00:00",
+ "title": "173ㄧ起上網｜出國網路首選滿千享130全點，指定付款最高16%回饋！",
+ "duration_ms": 10173,
+ "cost_usd": 0.0469676,
+ "usage": {
+  "input": 2,
+  "output": 1718,
+  "cache_creation": 7272,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全支付完成付款，可享以下回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內，於「173一起上網」線上官方通路結帳時，使用全支付完成付款，可享以下回饋"
+  },
+  "subs": [
+   {
+    "name": "主活動",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 30,
+      "unit": "點",
+      "quote": "單筆消費滿$249享30全點回饋"
+     },
+     {
+      "kind": "points",
+      "value": 60,
+      "unit": "點",
+      "quote": "單筆消費滿$499享60全點回饋"
+     },
+     {
+      "kind": "points",
+      "value": 130,
+      "unit": "點",
+      "quote": "單筆消費滿$999享130全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 249,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$249享30全點回饋"
+     },
+     {
+      "amount": 499,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$499享60全點回饋"
+     },
+     {
+      "amount": 999,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$999享130全點回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 130,
+      "unit": "點",
+      "per": "txn",
+      "quote": "本活動單筆訂單最高回饋130全點"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參與"
+    },
+    "where": "「173一起上網」線上官方通路",
+    "how": "使用全支付完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總回饋限量8萬全點，以消費優先順序計算，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動總回饋限量8萬全點，以消費優先順序計算，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "銀行帳戶付款活動",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 3,
+      "unit": "%",
+      "quote": "連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「173一起上網」線上官方通路",
+    "how": "連結「指定銀行帳戶」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡付款活動",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 5,
+      "unit": "%",
+      "quote": "綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "「173一起上網」線上官方通路",
+    "how": "綁定「指定信用卡」付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "key": "fa259368bff4b8b952da7570",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:53:39+00:00",
+ "title": "悠遊卡生活購物嗶計畫 美廉社天天消費滿額享最高回饋10%",
+ "duration_ms": 4754,
+ "cost_usd": 0.0326816,
+ "usage": {
+  "input": 2,
+  "output": 597,
+  "cache_creation": 6503,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "以悠遊卡功能單筆消費滿150元(含)以上，享悠遊付美廉社15元現金回饋券一份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "以悠遊卡功能於美廉社門市消費滿額之人，視同參加本活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 15,
+      "unit": "元",
+      "quote": "享悠遊付美廉社15元現金回饋券一份"
+     },
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "該新會員即可獲得「50元美廉社現金回饋券」1張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "以悠遊卡功能單筆消費滿150元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 3,
+      "unit": "份",
+      "per": "month",
+      "quote": "每悠遊付會員回饋上限3份/月"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動限悠遊付會員參加"
+    },
+    "where": "美廉社門市",
+    "how": "以悠遊卡功能",
+    "limited": {
+     "value": "yes",
+     "quote": "優惠總限量30,000份/月，送完為止"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "優惠總限量30,000份/月"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "key": "92917bd95dba679368d91b7a",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:03:23+00:00",
+ "title": "百大品牌生活育樂｜單筆滿$500享5%回饋！新戶首筆滿額加碼50全點",
+ "duration_ms": 16889,
+ "cost_usd": 0.07042759999999999,
+ "usage": {
+  "input": 2,
+  "output": 3166,
+  "cache_creation": 9517,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "可享以下回饋（請按「+」了解優惠細節及規定）:"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "需於消費前完成「活動登錄」始享活動行銷回饋資格"
+  },
+  "subs": [
+   {
+    "name": "主活動｜月月需登錄：「生活育樂」之品牌通路消費滿$500享5%全點回饋！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "單筆消費滿$500（含）元，可享5%全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿$500（含）元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 80,
+      "unit": "點",
+      "per": "month",
+      "quote": "個別活動期間內，最高可得80全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "於指定「生活育樂」之品牌通路結帳時",
+    "how": "使用全支付「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "各活動期間回饋限量10萬全點，以成功完成活動登錄後之消費優先順序計算，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各活動期間回饋限量10萬全點"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "於2026/06/29(一)00:00始開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 6,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "於2026/07/30(四)00:00始開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 7,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "於2026/08/30(日)00:00始開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 8,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "於2026/09/29(二)00:00始開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 9,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "於2026/10/30(五)00:00始開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 10,
+       "day": 30,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     },
+     {
+      "quote": "於2026/11/29(日)00:00始開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "each_period",
+     "quote": "主活動月月需登錄"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "需於消費前完成「活動登錄」始享活動行銷回饋資格"
+    }
+   },
+   {
+    "name": "帳戶加碼活動：活動期間內，使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 3,
+      "unit": "%",
+      "quote": "使用全支付連結指定合作銀行帳戶付款即可最高再享筆筆3%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用全支付連結指定合作銀行帳戶付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "信用卡加碼活動：活動期間內，使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "使用全支付連結指定合作銀行信用卡付款即可最高再享筆筆5%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用全支付連結指定合作銀行信用卡付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "全支付新戶於「生活育樂」之品牌通路消費滿$500享加碼新戶禮：回饋全點50點！",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 50,
+      "unit": "點",
+      "quote": "回饋全點50點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $500(含)元，即符合本優惠回饋資格"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全支付帳號活動期間限享1次回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "本優惠限2026/06/30(含)以前從未註冊為全支付會員者適用"
+    },
+    "where": "於指定「生活育樂」之品牌通路結帳時",
+    "how": "使用全支付「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "各波段回饋限量 3 萬全點，依於指定時間內成功註冊後之消費優先順序計算，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "各波段回饋限量 3 萬全點"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

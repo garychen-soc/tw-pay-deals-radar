@@ -1,0 +1,71 @@
+{
+ "key": "8419abcaa1f4d8b192e79d87",
+ "prompt_version": "2026-11-10.1",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:49:32+00:00",
+ "title": "Mister Donut",
+ "duration_ms": 3112,
+ "cost_usd": 0.0246516,
+ "usage": {
+  "input": 2,
+  "output": 450,
+  "cache_creation": 4863,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "平日週一至週五，甜甜圈/點心/現做飲品買4送1"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "以icash Pay結帳方可享有優惠，不得與其他優惠合併使用。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "甜甜圈/點心/現做飲品買4送1"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 4,
+      "unit": "份",
+      "per": "txn",
+      "quote": "甜甜圈/點心/現做飲品買4送1"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "僅適用於全台Mister Donut門市。",
+    "how": "以icash Pay結帳方可享有優惠",
+    "limited": {
+     "value": "yes",
+     "quote": "售完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

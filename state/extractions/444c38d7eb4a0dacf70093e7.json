@@ -1,0 +1,71 @@
+{
+ "key": "444c38d7eb4a0dacf70093e7",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T15:06:57+00:00",
+ "title": "老少咸宜作伙台灣Pay！華西街×師大商圈享20%回饋",
+ "duration_ms": 3651,
+ "cost_usd": 0.031659599999999996,
+ "usage": {
+  "input": 2,
+  "output": 590,
+  "cache_creation": 6265,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享20%現金回饋(非即時回饋，小數點後無條件捨去)"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間至活動地點消費，使用「台灣Pay」(限金融卡/帳戶)以QR Code掃碼支付成功，單筆消費不限金額享20%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "%",
+      "quote": "單筆消費不限金額享20%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易回饋金上限新臺幣(以下同)300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "臺北市華西街商圈、臺北市師大龍泉商圈內受理「台灣Pay」之攤商店家",
+    "how": "使用「台灣Pay」(限金融卡/帳戶)以QR Code掃碼支付成功",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額47萬元為上限，額滿為止，並公告於兆豐銀行官網。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額47萬元為上限"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

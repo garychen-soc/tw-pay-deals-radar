@@ -1,0 +1,70 @@
+{
+ "key": "dc2bb67110c0993629b98fcc",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-11T00:56:54+00:00",
+ "title": "身心障礙公益企劃",
+ "duration_ms": 4586,
+ "cost_usd": 0.0298456,
+ "usage": {
+  "input": 2,
+  "output": 429,
+  "cache_creation": 6214,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "享全通路筆筆 10% 街口幣回饋！"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "於活動頁面進行登記，享全通路筆筆 10% 街口幣回饋！"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "享全通路筆筆 10% 街口幣回饋！"
+     },
+     {
+      "kind": "points",
+      "value": 1,
+      "unit": "%",
+      "quote": "筆筆享 1% 街口幣回饋無上限！"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "全通路",
+    "how": "若選擇使用「華南銀行帳戶」 付款",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

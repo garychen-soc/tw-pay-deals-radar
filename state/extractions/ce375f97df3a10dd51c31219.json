@@ -1,0 +1,78 @@
+{
+ "key": "ce375f97df3a10dd51c31219",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-10T14:53:52+00:00",
+ "title": "康是美網購",
+ "duration_ms": 3917,
+ "cost_usd": 0.0246256,
+ "usage": {
+  "input": 2,
+  "output": 497,
+  "cache_creation": 4739,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當月於康是美網購使用 icash Pay 結帳消費(1元以上，不限金額)，次月贈 50 元折價券 1 張。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "當月於康是美網購使用 icash Pay 結帳消費(1元以上，不限金額)，次月贈 50 元折價券 1 張。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "次月贈 50 元折價券 1 張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "元",
+      "per": "txn",
+      "quote": "1元以上，不限金額"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "(每月限贈1張)"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "康是美網購",
+    "how": "使用 icash Pay 結帳消費",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
