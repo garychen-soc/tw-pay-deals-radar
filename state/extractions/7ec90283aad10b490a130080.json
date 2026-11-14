@@ -1,0 +1,195 @@
+{
+ "key": "7ec90283aad10b490a130080",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-14T02:40:06+00:00",
+ "title": "【京站台北店/京站小碧潭店】用 iPASS MONEY 消費，滿額贈好禮！",
+ "duration_ms": 13681,
+ "cost_usd": 0.0567576,
+ "usage": {
+  "input": 2,
+  "output": 1481,
+  "cache_creation": 10312,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "累積消費每滿 500 元送 50 元優惠券，最高限得 2 張"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫"
+  },
+  "subs": [
+   {
+    "name": "優惠一:累積消費每滿 500 元送 50 元優惠券，最高限得 2 張",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "贈送 iPASS MONEY 優惠券 50 元 1 張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "實際支付金額累積每滿 500 元"
+     },
+     {
+      "amount": 299,
+      "unit": "元",
+      "per": "txn",
+      "quote": "須有單筆消費滿 299 元之交易方可兌換"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "活動期間每人限得 2 張"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "京站台北店/京站小碧潭店現場消費",
+    "how": "結帳時使用一卡通 iPASS MONEY APP 開啟「付款碼」付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量 5,000 張（2 店合併計算），數量有限送完為止"
+    },
+    "quota": {
+     "seats": 5000,
+     "quote": "活動總限量 5,000 張（2 店合併計算）"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "優惠二:消費享一卡通綠點 10% 回饋",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "消費享一卡通綠點 10% 回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "month",
+      "quote": "每人每月回饋上限 200 點"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "京站台北店/京站小碧潭店",
+    "how": "使用 iPASS MONEY APP",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量 3,000 萬點，贈完即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動總限量 3,000 萬點，贈完即止"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "請至遲於消費當月底 點此同意 加入一卡通綠點計畫",
+      "kind": "deadline",
+      "is_example": false,
+      "holiday": "none",
+      "start": null,
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": true
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "須先同意加入一卡通綠點回饋後，方可開始累積及獲得一卡通綠點"
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "京站台北店Q卡友限定加碼:單筆消費滿 1,000 元贈造型一卡通",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "份",
+      "quote": "兌換領取造型一卡通乙張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "使用一卡通 iPASS MONEY APP 單筆消費滿 1,000 元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "unclear",
+      "quote": "每人限得 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "京站台北店",
+    "how": "限京站Q卡會員於京站台北店適用品牌使用一卡通 iPASS MONEY APP 付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每人限得 1 次，活動總限量 300 份"
+    },
+    "quota": {
+     "seats": 300,
+     "quote": "活動總限量 300 份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

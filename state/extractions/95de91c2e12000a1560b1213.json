@@ -1,0 +1,78 @@
+{
+ "key": "95de91c2e12000a1560b1213",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-14T02:40:00+00:00",
+ "title": "【大樂購物中心】使用 iPASS MONEY 當日累積消費滿 999 元送造型一卡通！",
+ "duration_ms": 6738,
+ "cost_usd": 0.0311516,
+ "usage": {
+  "input": 2,
+  "output": 538,
+  "cache_creation": 6268,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "當日累積消費滿 999 元，即可憑 iPASS MONEY APP 推播通知與發票明細，前往大樂購物中心服務台兌換領取造型一卡通乙張"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間於大樂購物中心現場消費，使用一卡通 iPASS MONEY APP 當日累積消費滿 999 元"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "兌換領取造型一卡通乙張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 999,
+      "unit": "元",
+      "per": "day",
+      "quote": "當日累積消費滿 999 元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限得 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "大樂購物中心現場消費",
+    "how": "使用一卡通 iPASS MONEY APP",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總限量 500 份"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "活動總限量 500 份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

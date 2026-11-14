@@ -1,0 +1,96 @@
+{
+ "key": "ac359b76c6ec05579a939360",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-14T02:40:23+00:00",
+ "title": "微風集團【 TWQR 感恩回饋加碼】活動辦法",
+ "duration_ms": 5778,
+ "cost_usd": 0.0364616,
+ "usage": {
+  "input": 2,
+  "output": 801,
+  "cache_creation": 6938,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費達檻即享 10% 加碼回饋；本活動回饋總金額最高 150 萬元，贈完為止。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "請下載「微風積點禮遇會員」，完成指定交易後，系統將自動發送電子酬賓券至會員的手機中。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 500,
+      "unit": "元",
+      "quote": "微風電子酬賓券 500 元"
+     },
+     {
+      "kind": "coupon",
+      "value": 300,
+      "unit": "元",
+      "quote": "微風電子酬賓券 300 元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 5,000 元"
+     },
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 3,000 元"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 5,
+      "unit": "份",
+      "per": "txn",
+      "quote": "每筆交易回饋上限 5 份"
+     },
+     {
+      "amount": 5,
+      "unit": "份",
+      "per": "day",
+      "quote": "每位微風會員每日限參加乙次，每次累計上限 5 份。"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "微風廣場、微風信義、微風南山、微風松高、微風南京受理「iPASS MONEY」及「台灣Pay」交易之櫃位",
+    "how": "使用「iPASS MONEY」、「台灣Pay」(透過參與金融機構「行動銀行APP」或「台灣行動支付APP」)至活動地點消費，出示付款條碼(即被掃交易，限金融卡/帳戶)進行支付之用戶",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額最高 150 萬元，贈完為止。"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額最高 150 萬元，贈完為止。"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

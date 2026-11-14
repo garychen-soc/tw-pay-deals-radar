@@ -1,0 +1,122 @@
+{
+ "key": "cb961b24e16f5438ad8f632c",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-14T02:39:59+00:00",
+ "title": "【土地銀行】iPASS MONEY 連結土地銀行帳戶，完成任務最高享 50 元！",
+ "duration_ms": 47595,
+ "cost_usd": 0.054694000000000007,
+ "usage": {
+  "input": 2,
+  "output": 927,
+  "cache_creation": 11355,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "回饋 iPASS MONEY 儲值金 20 元（每人限回饋乙次，限量前 500 名）"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間內以 iPASS MONEY「首次連結」土地銀行帳戶，回饋 iPASS MONEY 儲值金 20 元"
+  },
+  "subs": [
+   {
+    "name": "活動一:首次連結禮",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 20,
+      "unit": "元",
+      "quote": "回饋 iPASS MONEY 儲值金 20 元"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "限於 2026/11/10 00:00 前從未使用過 iPASS MONEY 連結土地銀行帳戶之用戶，即符合活動一「首次連結」資格"
+    },
+    "where": "",
+    "how": "於活動期間內以 iPASS MONEY「首次連結」土地銀行帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "每人限回饋乙次，限量前 500 名"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "限量前 500 名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:消費滿額禮",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30,
+      "unit": "元",
+      "quote": "享 iPASS MONEY 儲值金 30 元回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 150,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣(以下同) 150 元（含）以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "將上述帳戶設定為「自動儲值」或「同意自動儲值交易差額」帳戶（擇一即可）",
+    "limited": {
+     "value": "yes",
+     "quote": "每人限回饋乙次，限量前 3000 名"
+    },
+    "quota": {
+     "seats": 3000,
+     "quote": "限量前 3000 名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

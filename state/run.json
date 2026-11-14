@@ -1,17 +1,17 @@
 {
- "observed_at": "2026-11-11T08:52:01+08:00",
- "llm_calls": 89,
+ "observed_at": "2026-11-14T09:21:13+08:00",
+ "llm_calls": 18,
  "llm_failures": 0,
  "llm_usage": {
   "model": "sonnet",
-  "calls": 89,
-  "input_tokens": 184,
-  "output_tokens": 124219,
-  "cache_creation_tokens": 627575,
-  "cache_read_tokens": 334867,
-  "total_tokens": 1086845,
-  "cost_usd": 3.8198,
-  "llm_seconds": 800.0
+  "calls": 18,
+  "input_tokens": 38,
+  "output_tokens": 31962,
+  "cache_creation_tokens": 164853,
+  "cache_read_tokens": 60611,
+  "total_tokens": 257464,
+  "cost_usd": 0.9912,
+  "llm_seconds": 228.8
  },
  "publishable": true,
  "messages": [],
@@ -30,21 +30,21 @@
   {
    "provider_id": "taiwanpay",
    "provider_name": "台灣Pay",
-   "status": "ok",
+   "status": "blocked",
    "entry_url": "https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109",
-   "stubs": 55,
+   "stubs": 0,
    "activities": 54,
    "detail_failures": 0,
-   "message": "",
-   "carried": 0
+   "message": "來源拒絕自動化存取 https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109：HTTP 403（此類拒絕重試無效，需改用住宅 IP 或等官方解除限制）",
+   "carried": 54
   },
   {
    "provider_id": "ipassmoney",
    "provider_name": "一卡通 iPASS MONEY",
    "status": "ok",
    "entry_url": "https://www.i-pass.com.tw/Preferential?type=0&page=1",
-   "stubs": 39,
-   "activities": 39,
+   "stubs": 41,
+   "activities": 41,
    "detail_failures": 0,
    "message": "",
    "carried": 0
@@ -54,8 +54,8 @@
    "provider_name": "悠遊付",
    "status": "ok",
    "entry_url": "https://easywallet.easycard.com.tw/benefit",
-   "stubs": 74,
-   "activities": 74,
+   "stubs": 73,
+   "activities": 73,
    "detail_failures": 0,
    "message": "",
    "carried": 0
@@ -65,8 +65,8 @@
    "provider_name": "街口支付",
    "status": "ok",
    "entry_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-   "stubs": 35,
-   "activities": 35,
+   "stubs": 31,
+   "activities": 31,
    "detail_failures": 0,
    "message": "",
    "carried": 0
@@ -98,8 +98,8 @@
    "provider_name": "Pi 拍錢包",
    "status": "ok",
    "entry_url": "https://web.piapp.com.tw/events/",
-   "stubs": 6,
-   "activities": 6,
+   "stubs": 5,
+   "activities": 5,
    "detail_failures": 0,
    "message": "",
    "carried": 0
