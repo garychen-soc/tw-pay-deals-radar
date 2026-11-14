@@ -48,6 +48,20 @@ state/  唯一正本（進版控）→ emit → web/（Astro）＋ 行事曆
   `~/Library/Logs/tw-pay-radar/`；首次試跑 3 分鐘、LLM 17 次約 US$1。
 - 舊的 Claude 例行任務 `tw-pay-promo-monitor` 已停用。
 
+## 自我修復（2026-11-14）
+
+| 層 | 觸發 | 自動處理 | 通知 |
+|---|---|---|---|
+| 排程 | 08:50 沒成功（網路、睡眠、額度、任何錯誤） | 12:50、18:50 補跑；當天已成功就跳過 | 失敗必通知 |
+| 排程 | 上一輪殘留資料、push 被拒、Chromium 不見 | 清除、rebase 重推、重裝 | — |
+| 來源 | HTTP 403／429 | 改用瀏覽器重抓一次 | 有；連續 3 天建議永久改用 |
+| 來源 | 逾時、連線、5xx | 本輪結尾重試一次 | 有 |
+| 程式 | 修復後仍失敗、筆數驟降、明細大量失敗 | 背景開 Claude 修擷取器（`ops/repair.sh`），獨立分支＋PR，**不改 main** | 有；同一來源 3 天冷卻 |
+
+紀錄檔（只在本機）：`var/last_success`、`var/fallback_history.json`、`var/repairs.json`；
+修復 session 日誌在 `~/Library/Logs/tw-pay-radar/repair-*.log`，worktree 在
+`~/Projects/tw-pay-deals-radar-repair/`（沒開 PR 會自動清掉）。
+
 ## 開發
 
 ```bash
