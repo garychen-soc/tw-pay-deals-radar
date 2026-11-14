@@ -1,17 +1,17 @@
 {
- "observed_at": "2026-11-14T11:32:34+08:00",
- "llm_calls": 2,
+ "observed_at": "2026-11-14T11:49:09+08:00",
+ "llm_calls": 0,
  "llm_failures": 0,
  "llm_usage": {
   "model": "sonnet",
-  "calls": 2,
-  "input_tokens": 4,
-  "output_tokens": 2021,
-  "cache_creation_tokens": 12252,
-  "cache_read_tokens": 6956,
-  "total_tokens": 21233,
-  "cost_usd": 0.0706,
-  "llm_seconds": 15.2
+  "calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cache_creation_tokens": 0,
+  "cache_read_tokens": 0,
+  "total_tokens": 0,
+  "cost_usd": 0.0,
+  "llm_seconds": 0.0
  },
  "publishable": true,
  "messages": [],
@@ -25,7 +25,8 @@
    "activities": 52,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "taiwanpay",
@@ -36,7 +37,8 @@
    "activities": 55,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "ipassmoney",
@@ -47,7 +49,8 @@
    "activities": 41,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "easywallet",
@@ -58,7 +61,8 @@
    "activities": 73,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "jkopay",
@@ -69,7 +73,8 @@
    "activities": 31,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "opay",
@@ -80,7 +85,8 @@
    "activities": 11,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "icashpay",
@@ -91,7 +97,8 @@
    "activities": 11,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "pipay",
@@ -102,7 +109,8 @@
    "activities": 5,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "pluspay",
@@ -113,7 +121,8 @@
    "activities": 13,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "gamapay",
@@ -124,7 +133,8 @@
    "activities": 3,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   },
   {
    "provider_id": "pxmart",
@@ -135,7 +145,8 @@
    "activities": 6,
    "detail_failures": 0,
    "message": "",
-   "carried": 0
+   "carried": 0,
+   "fallback": ""
   }
  ]
 }
