@@ -277,3 +277,10 @@ def test_easywallet_terms_scoped() -> None:
     assert terms.title == "7-ELEVEN 嗶悠遊卡結帳滿$500現折$50"
     assert "10月份限量回饋2萬份於10/29(四)18:00已額滿" in terms.text
     assert len(terms.text) < 3000
+
+
+def test_taiwanpay_uses_browser_from_its_own_portal() -> None:
+    """Citrix 只放行瀏覽器（2026-11-14）；API 必須從同網域的官方頁內呼叫。"""
+    assert TaiwanPayAdapter.transport == "browser"
+    assert TaiwanPayAdapter.portal_url.startswith("https://www.taiwanpay.com.tw/")
+    assert TaiwanPayAdapter.user_agent is None, "不偽造 UA，只換成瀏覽器"

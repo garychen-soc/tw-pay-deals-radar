@@ -45,7 +45,9 @@ class BrowserFetcher(Fetcher):
     provide a display (the workflow uses Xvfb). Each source owns its own browser.
     """
 
-    def __init__(self, *args: Any, **kwargs: Any) -> None:
+    def __init__(self, *args: Any, warmup_url: str = "", **kwargs: Any) -> None:
+        # JSON API 只能從同網域的官方頁內呼叫：先開這一頁（通常是該服務的活動列表頁）
+        self.warmup_url = warmup_url
         super().__init__(*args, **kwargs)
         self._timeout = float(self._client.timeout.read or 25.0)
         self._playwright: Playwright | None = None
@@ -174,6 +176,51 @@ class BrowserFetcher(Fetcher):
             content_hash=hashlib.sha256(content).hexdigest(),
         )
 
+    def _post_json(self, url: str, payload: Any, max_bytes: int) -> Response:
+        """在同網域的官方頁內以 fetch 送出唯讀的 JSON 查詢（官網前端自己呼叫的那支 API）。
+
+        2026-11-14 起台灣Pay 前面加了 Citrix NetScaler：httpx／curl（任何 UA）連首頁都 403，
+        真實瀏覽器同一 IP、同一支 API 回 200。這裡不偽造身分、不解驗證碼，只是讓請求從
+        瀏覽器裡的官方頁發出（Gary 2026-11-14 核准）。
+        """
+        assert self._page is not None
+        target = urlsplit(url)
+        origin = f"{target.scheme}://{target.netloc}"
+        if not self._page.url.startswith(origin + "/"):
+            warmup = self.warmup_url if self.warmup_url.startswith(origin + "/") else origin + "/"
+            self._read(warmup, {}, MAX_BYTES)
+        result = self._page.evaluate(
+            """async ({url, body}) => {
+                const r = await fetch(url, {
+                    method: "POST", credentials: "same-origin",
+                    headers: {"Content-Type": "application/json"}, body: JSON.stringify(body),
+                });
+                return {status: r.status, url: r.url, type: r.headers.get("content-type") || "",
+                        text: await r.text()};
+            }""",
+            {"url": url, "body": payload},
+        )
+        final_url = str(result["url"])
+        if not is_allowed(final_url, self.domains):
+            raise BlockedURL(f"API 導向不可信任的位址：{final_url}")
+        status = int(result["status"])
+        if status in {401, 403, 429}:
+            raise AccessDenied(f"來源拒絕存取：{final_url} HTTP {status}")
+        if status >= 400:
+            raise FetchFailed(f"抓取失敗：{final_url} HTTP {status}")
+        text = str(result["text"])
+        content = text.encode("utf-8")
+        if len(content) > max_bytes:
+            raise FetchFailed(f"回應超過 {max_bytes} bytes：{final_url}")
+        return Response(
+            requested_url=url,
+            final_url=final_url,
+            status_code=status,
+            text=text,
+            content_type=str(result["type"]).split(";")[0],
+            content_hash=hashlib.sha256(content).hexdigest(),
+        )
+
     def get(
         self,
         url: str,
@@ -186,8 +233,8 @@ class BrowserFetcher(Fetcher):
     ) -> Response:
         if not is_allowed(url, self.domains):
             raise BlockedURL(f"URL 未通過安全檢查：{url}")
-        if data is not None or json_body is not None:
-            raise FetchFailed("瀏覽器來源只支援公開 HTML 的 GET，不提交表單")
+        if data is not None:
+            raise FetchFailed("瀏覽器來源不提交表單")
         self._ensure_browser()
         host = urlsplit(url).hostname or ""
         for attempt in range(RETRY_ATTEMPTS):
@@ -195,6 +242,8 @@ class BrowserFetcher(Fetcher):
                 time.sleep(RETRY_BACKOFF_SECONDS[min(attempt - 1, len(RETRY_BACKOFF_SECONDS) - 1)])
             self._throttle(host)
             try:
+                if json_body is not None:
+                    return self._post_json(url, json_body, max_bytes)
                 return self._read(url, headers or {}, max_bytes)
             except BrowserError as exc:
                 if self._blocked_url:

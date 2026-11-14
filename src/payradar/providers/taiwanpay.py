@@ -17,6 +17,10 @@
 ``otherInformation`` 與幾張介紹圖，條款多半在圖裡）；2＝活動合集（``campaignGroups``
 列出其他活動，那些活動在列表上本來就各有一筆）→ 拋 ``NotActivity`` 丟棄。
 
+2026-11-14 起官網前面加了 Citrix NetScaler 防護：httpx／curl 不論 UA 一律 403（連首頁），
+真實瀏覽器同一 IP 正常。因此改用 ``transport = "browser"``：開 ``portal_url`` 活動列表頁後，
+在頁面內以 fetch 呼叫上面兩支 API（經 Gary 2026-11-14 核准；不登入、不解驗證碼）。
+
 使用者頁面＝``/fisc-tpay/news/event/{systemSeq}``（必含 ``fisc-``；API 前綴
 ``/tpay/`` 套到頁面會 404）。
 """
@@ -69,6 +73,9 @@ class TaiwanPayAdapter(Adapter):
     id = "taiwanpay"
     name = "台灣Pay"
     domains = ["taiwanpay.com.tw"]
+    # 2026-11-14 起官網前加了 Citrix NetScaler，非瀏覽器客戶端一律 403（任何 UA 皆同）；
+    # 改由瀏覽器開 portal_url 後在頁內呼叫同一支 API（Gary 2026-11-14 核准）。
+    transport = "browser"
     entry_url = _API.format("TF020109")
     portal_url = "https://www.taiwanpay.com.tw/fisc-tpay/news/event"
 

@@ -20,7 +20,10 @@ def open_adapter(provider_id: str) -> Iterator[Adapter]:
         from .browser import BrowserFetcher
 
         fetcher = BrowserFetcher(
-            cls.domains, min_host_interval=cls.min_host_interval, user_agent=cls.user_agent
+            cls.domains,
+            min_host_interval=cls.min_host_interval,
+            user_agent=cls.user_agent,
+            warmup_url=cls.portal_url,
         )
     else:
         fetcher = Fetcher(
