@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import hashlib
 import re
+import subprocess
+import sys
 import time
 from contextlib import suppress
 from typing import Any
@@ -96,6 +98,27 @@ class BrowserFetcher(Fetcher):
             self._last_navigation = response
 
     def _ensure_browser(self) -> None:
+        try:
+            self._launch()
+        except FetchFailed as exc:
+            # 自我修復：Playwright 升級或快取被清後找不到瀏覽器執行檔 → 重裝 Chromium 一次再試
+            if (
+                "Executable doesn't exist" not in str(exc.__cause__ or "")
+                or BrowserFetcher._reinstalled
+            ):
+                raise
+            BrowserFetcher._reinstalled = True
+            subprocess.run(
+                [sys.executable, "-m", "playwright", "install", "chromium"],
+                check=False,
+                capture_output=True,
+                timeout=600,
+            )
+            self._launch()
+
+    _reinstalled = False
+
+    def _launch(self) -> None:
         if self._page is not None:
             return
         try:

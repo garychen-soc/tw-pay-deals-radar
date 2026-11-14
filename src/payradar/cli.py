@@ -6,6 +6,7 @@
     payradar usage [--days 30]                  每輪 LLM token 用量統計
     payradar emit                               只從 state 重產網站資料與行事曆
     payradar ptt                                更新 PTT 社群情報（失敗沿用上一份）
+    payradar health [--record-repair ID]        本輪健康判定：通知事項與要開修復 session 的來源
     payradar score                              以 golden 集評分目前 state
     payradar evaluate [--model sonnet]          只對 golden 頁面重跑抽取並評分
 
@@ -119,6 +120,8 @@ def main(argv: list[str] | None = None) -> int:
     usage.add_argument("--days", type=int, default=30)
     sub.add_parser("emit")
     sub.add_parser("ptt")
+    health_cmd = sub.add_parser("health")
+    health_cmd.add_argument("--record-repair", default="")
     sub.add_parser("score")
     evaluate = sub.add_parser("evaluate")
     evaluate.add_argument("--model", default=DEFAULT_MODEL)
@@ -180,6 +183,15 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "sample":
         rows = _sample(args.provider, args.limit, args.model, args.offset)
         print(json.dumps(rows, ensure_ascii=False, indent=1))
+        return 0
+    if args.command == "health":
+        from .health import record_repair, run_report
+
+        today = datetime.now(pipeline.TAIPEI).date()
+        if args.record_repair:
+            record_repair(args.record_repair, today)
+            return 0
+        print(json.dumps(run_report(today).as_dict(), ensure_ascii=False))
         return 0
     if args.command == "score":
         from .golden import score

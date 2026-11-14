@@ -13,10 +13,11 @@ from .transport import Fetcher
 
 
 @contextmanager
-def open_adapter(provider_id: str) -> Iterator[Adapter]:
+def open_adapter(provider_id: str, transport: str | None = None) -> Iterator[Adapter]:
+    """``transport`` 可覆寫擷取器宣告的方式（自我修復：HTTP 被擋時改用瀏覽器）。"""
     cls = providers.load(provider_id)
     fetcher: Fetcher
-    if cls.transport == "browser":
+    if (transport or cls.transport) == "browser":
         from .browser import BrowserFetcher
 
         fetcher = BrowserFetcher(

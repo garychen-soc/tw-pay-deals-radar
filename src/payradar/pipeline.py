@@ -11,7 +11,8 @@ import hashlib
 import json
 import logging
 import re
-from collections.abc import Iterable
+import time
+from collections.abc import Callable, Iterable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
@@ -36,7 +37,7 @@ from .models import Activity, SourceHealth, Stub
 from .providers.base import ExternalTerms, NotActivity
 from .sources import open_adapter
 from .textnorm import normalize
-from .transport import AccessDenied, TransportError
+from .transport import AccessDenied, FetchFailed, TransportError
 
 log = logging.getLogger(__name__)
 TAIPEI = ZoneInfo("Asia/Taipei")
@@ -61,6 +62,8 @@ class Fetched:
     health: SourceHealth
     pages: list[Page] = field(default_factory=list)
     skipped: list[str] = field(default_factory=list)
+    # 失敗是否為暫時性（逾時、連線、5xx）：是的話本輪結尾再重試一次
+    transient: bool = False
 
 
 @dataclass
@@ -78,14 +81,14 @@ class RunResult:
 # ---- 擷取 ----------------------------------------------------------------
 
 
-def fetch_provider(provider_id: str) -> Fetched:
+def fetch_provider(provider_id: str, transport: str | None = None) -> Fetched:
     cls = providers.load(provider_id)
     health = SourceHealth(
         provider_id=provider_id, provider_name=cls.name, status="ok", entry_url=cls.entry_url
     )
     out = Fetched(provider_id, health)
     try:
-        with open_adapter(provider_id) as adapter:
+        with open_adapter(provider_id, transport) as adapter:
             stubs = _dedupe(adapter.discover())
             health.stubs = len(stubs)
             failures = len(adapter.failures)
@@ -120,9 +123,56 @@ def fetch_provider(provider_id: str) -> Fetched:
                 health.message = "列表為空"
     except AccessDenied as exc:
         health.status, health.message = "blocked", str(exc)[:200]
+    except FetchFailed as exc:
+        health.status, health.message = "failed", f"{type(exc).__name__}: {exc}"[:200]
+        out.transient = True
     except Exception as exc:
         health.status, health.message = "failed", f"{type(exc).__name__}: {exc}"[:200]
     return out
+
+
+RETRY_PAUSE_SECONDS = 20.0
+
+
+def heal(
+    fetched: dict[str, Fetched],
+    fetch: Callable[[str, str | None], Fetched] = fetch_provider,
+    pause: float = RETRY_PAUSE_SECONDS,
+) -> list[str]:
+    """來源層自我修復，回傳要寫進本輪訊息的說明。
+
+    * 被擋（403／429）且原本走 HTTP → 改用瀏覽器重抓一次（Gary 2026-11-14 核准；不改 UA、
+      不登入、不解驗證碼）。
+    * 暫時性失敗（逾時、連線、5xx）→ 等其他來源跑完、稍候再以原方式重試一次。
+    結構性失敗（解析錯誤、列表為空）不在這裡重試，交給健康檢查判斷是否要開修復 session。
+    """
+    notes: list[str] = []
+    for provider_id, item in list(fetched.items()):
+        cls = providers.load(provider_id)
+        status = item.health.status
+        if status == "blocked" and cls.transport == "http":
+            retry, mode, label = (
+                fetch(provider_id, "browser"),
+                "browser",
+                "HTTP 被擋，改用瀏覽器重抓",
+            )
+        elif status == "failed" and item.transient:
+            time.sleep(pause)
+            retry, mode, label = fetch(provider_id, None), "retry", "暫時性失敗，重試"
+        else:
+            continue
+        before = item.health.message
+        if retry.health.status in ("ok", "partial"):
+            retry.health.fallback = mode  # type: ignore[assignment]
+            retry.health.message = "；".join(
+                filter(None, [f"{label}成功（原因：{before[:80]}）", retry.health.message])
+            )
+            fetched[provider_id] = retry
+            notes.append(f"{cls.name}：{label}成功")
+        else:
+            item.health.message = f"{before[:120]}；{label}仍失敗：{retry.health.message[:80]}"
+            notes.append(f"{cls.name}：{label}仍失敗")
+    return notes
 
 
 def _with_period(stub: Stub, text: str) -> Stub:
@@ -309,6 +359,7 @@ def run(
                 fetched[result.provider_id] = result
         for provider_id in browser_ids:
             fetched[provider_id] = fetch_provider(provider_id)
+        messages.extend(heal(fetched))
         for item in fetched.values():
             save_docs(item)
 

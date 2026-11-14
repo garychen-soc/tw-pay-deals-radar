@@ -67,6 +67,10 @@ class SourceHealth(Strict):
     detail_failures: int = 0
     message: str = ""
     carried: int = 0
+    fallback: Literal["", "browser", "retry"] = Field(
+        default="",
+        description="本輪自我修復方式：browser＝HTTP 被擋後改用瀏覽器；retry＝暫時性失敗後重試成功",
+    )
 
 
 # ---- 抽取結果 ---------------------------------------------------------------

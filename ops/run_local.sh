@@ -34,6 +34,16 @@ step() { echo "---- $(date '+%T') $*"; }
 trap 'notify "本輪未發布：第 ${LINENO} 行失敗，詳見 $LOG_DIR"' ERR
 
 cd "$REPO"
+# 補跑：每天 08:50 之外還有 12:50、18:50 兩個時段；當天已成功發布（或確認無變化）就跳過，
+# 失敗（網路、睡眠、額度用完、任何錯誤）才會在下個時段自動補跑。手動強制：PAYRADAR_FORCE=1
+MARK="$REPO/var/last_success"
+TODAY="$(date +%F)"
+if [ -z "${PAYRADAR_FORCE:-}" ] && [ -f "$MARK" ] && [ "$(cat "$MARK")" = "$TODAY" ]; then
+  echo "already published today; skip"
+  trap - ERR
+  exit 0
+fi
+
 # 同一時間只允許一個更新程序（shlock 會清掉已不存在 PID 的殘留鎖）
 LOCK="$REPO/state/.run.lock"
 if ! /usr/bin/shlock -f "$LOCK" -p $$; then
@@ -57,8 +67,10 @@ for attempt in $(seq 1 20); do
 done
 
 step "git pull"
+# 上一輪中途失敗可能留下未提交的資料：一律以 repo 為準（抽取快取是新檔、不受影響，下輪照用）
+git checkout -q -- state web/public 2>/dev/null || true
 git switch -q "$BRANCH"
-git pull -q --rebase origin "$BRANCH"
+git pull -q --rebase --autostash origin "$BRANCH"
 
 step "payradar run"
 set +e
@@ -76,16 +88,25 @@ if [ "$status" -ne 0 ]; then
   exit "$status"
 fi
 
-# 個別來源被擋或讀取失敗時照常發布（沿用上一輪資料並標示），但要通知，不能悄悄過期
-abnormal="$(.venv/bin/python -c '
-import json
-run = json.load(open("state/run.json"))
-print("、".join(s["provider_name"] + "（" + s["status"] + "）" for s in run["sources"] if s["status"] != "ok"))
-')"
-if [ -n "$abnormal" ]; then
-  echo "abnormal sources: $abnormal"
-  notify "來源異常：$abnormal，已沿用上一輪資料"
+# 健康檢查：被擋改用瀏覽器、重試恢復、仍異常的來源都要通知；自我修復後仍有結構性問題的
+# 來源在背景開 Claude 修復 session（獨立分支＋PR，不改 main；同一來源 3 天內只開一次）
+step "health"
+health_json="$(.venv/bin/payradar health)"
+echo "health: $health_json"
+notices="$(echo "$health_json" | .venv/bin/python -c 'import json,sys; print("；".join(json.load(sys.stdin)["notices"]))')"
+if [ -n "$notices" ]; then
+  notify "$notices"
 fi
+echo "$health_json" | .venv/bin/python -c '
+import json, sys
+for r in json.load(sys.stdin)["repairs"]:
+    print("\t".join([r["provider"], r["name"], r["reason"]]))
+' | while IFS=$'\t' read -r rp rname rreason; do
+  [ -n "$rp" ] || continue
+  echo "launch repair: $rp ($rreason)"
+  .venv/bin/payradar health --record-repair "$rp"
+  nohup "$REPO/ops/repair.sh" "$rp" "$rname" "$rreason" >/dev/null 2>&1 &
+done
 
 # PTT 社群情報：失敗沿用上一份，不影響發布
 step "ptt"
@@ -117,9 +138,15 @@ npm --prefix web run build >/dev/null
 git add state web/public
 if git diff --cached --quiet; then
   echo "no data change"
+  echo "$TODAY" > "$MARK"
   exit 0
 fi
 step "commit + push"
 git commit -q -m "data: refresh $(date '+%F %H:%M')"
-git push -q origin "$BRANCH"
+# push 被拒（遠端有新 commit，例如 golden 換新任務剛推）：rebase 後重推一次
+if ! git push -q origin "$BRANCH"; then
+  git pull -q --rebase origin "$BRANCH"
+  git push -q origin "$BRANCH"
+fi
+echo "$TODAY" > "$MARK"
 echo "==== $(date '+%F %T') published"
