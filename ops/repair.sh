@@ -51,7 +51,7 @@ PROMPT="$(sed -e "s|{{PROVIDER}}|$PROVIDER|g" -e "s|{{NAME}}|$NAME|g" -e "s|{{WO
 notify "偵測到「${REASON:0:40}」，已開修復 session"
 set +e
 timeout 2700 claude -p "$PROMPT" --model sonnet --permission-mode acceptEdits \
-  --allowedTools "${ALLOWED[@]}" --strict-mcp-config --no-session-persistence
+  --allowedTools "${ALLOWED[@]}" --strict-mcp-config --no-session-persistence </dev/null
 status=$?
 set -e
 echo "==== $(date '+%F %T') claude exit=$status"
