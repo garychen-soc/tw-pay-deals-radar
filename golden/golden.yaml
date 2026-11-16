@@ -370,7 +370,7 @@
   - 以icash Pay結帳方可享有優惠，不得與其他優惠合併使用。
   note: 買4送1為贈品記other；「買4」不是金額/筆數門檻，不記min_spend。
 - id: ipassmoney-01
-  is_offer: 'yes'
+  is_offer: true
   registration: required
   rewards:
   - unit: '%'
@@ -421,11 +421,11 @@
   - 綁定玉山 Unicard 消費，最高享 4.5% 回饋
   - 輸入指定代碼領元大信用卡專屬優惠券 50 元
   - 綁定 LINE Bank 快點卡消費，符合條件最高享 4% 回饋
-  note: 2026-11-10 換新（官方新增王道Debit卡11月份額滿聲明）。彙整頁列 10 個子活動，回饋逐項記；元大子活動須「輸入指定代碼領」優惠券，依 SPEC 輸入代碼屬主動動作→required（舊版記 unknown）。指定連結開戶/申辦不算登錄。兩則額滿皆為已發生聲明且自帶「11月份」→ 11/1~11/30。頁面無每人上限數字，caps 空。
+  note: 2026-11-16 換新。整頁彙整多個子活動；輸入指定代碼領券、指定連結開戶/申辦屬登錄動作→任一需要即 required。50元（元大券、土銀）與150/250/600元依同值同單位只記一次。額滿僅取兩則已發生的『11月份回饋上限已於…額滿』，範圍＝該月。
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GI2TSNQHW7ZKA64RZbVj
   title: 【iPASS MONEY】連結銀行帳戶/信用卡享優惠！
-  content_hash: ddb2d70de6ad6959
+  content_hash: 91a01dbcc267c71a
 - id: ipassmoney-02
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DAMADJE3436443FDm
@@ -556,11 +556,7 @@
   - 活動期間共計抽出 1,000 名得獎者，每帳號限中獎 1 次。
   note: 獎品為造型一卡通(實物)→other。須為新光三越會員，但非登錄步驟，判 not_required(略不確定)。獎項贈送完畢為條件句。
 - id: ipassmoney-08
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY
-  title: '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋'
-  content_hash: a2f095c186657f50
-  is_offer: 'yes'
+  is_offer: true
   registration: required
   rewards:
   - unit: '%'
@@ -578,15 +574,22 @@
   - amount: 200
     unit: 點
   sold_out:
-  - scope_start: '2026-10-01'
-    scope_end: '2026-10-31'
-    quote: '[本活動 10 月份回饋上限已於 2026/10/22 12:00 額滿]'
+  - scope_label: 優惠三
+    scope_start: null
+    scope_end: null
+    quote: '[本活動回饋上限已於 2026/11/11 19:00 額滿]'
   quotes:
   - 消費金額享 10% 現金回饋。
+  - 每人每帳戶每月回饋上限 200 元
   - 每人每月回饋上限 50 點
   - 享一卡通綠點10%回饋（每人每月回饋上限200點，活動總限量3,000萬點）
-  - '[優惠二活動 10 月份回饋上限已於 2026/10/22 12:00 額滿 ]'
-  note: 額滿僅涵蓋優惠二10月份。優惠二須同意加入綠點計畫、優惠一不用→混合 unknown。每月總回饋上限不入caps。；11-06 仲裁：整頁 registration＝任一子活動需登錄即 required
+  - 請先同意加入 一卡通綠點回饋計畫 方可獲得活動回饋
+  - '[本活動回饋上限已於 2026/11/11 19:00 額滿]'
+  note: 2026-11-16 換新。額滿僅指優惠三（活動總限量3,000萬點已額滿，無日期範圍，只填 scope_label）；優惠一/二每月上限『贈完為止』是條件句不記。優惠二須同意加入綠點計畫→整頁 required（SPEC 任一子活動需登錄）。每月總回饋上限與總限量為總預算不入 caps。
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GMZDSNALO3OM764nIIXY
+  title: '[優惠三活動回饋上限已於 2026/11/11 19:00 額滿 ] TWQR 今夜留給我，高雄兩大夜市消費最高享 25% 回饋'
+  content_hash: 497537a78893ba67
 - id: ipassmoney-09
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GMZTINYWBREUA64ayotP
@@ -856,80 +859,6 @@
   - 用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋(非即時回饋，小數點後四捨五入)。
   - ※ 活動期間每一帳戶最高回饋新台幣500元。本活動回饋總金額上限5萬元，額滿為止，並公告於兆豐銀行官網，恕不另行通知。
   note: 總上限5萬元為總預算非caps；額滿為止為條件句。
-- id: pipay-01
-  is_offer: 'yes'
-  registration: required
-  rewards:
-  - unit: 點
-    value: 500
-  - unit: 點
-    value: 1800
-  - unit: '%'
-    value: 5
-  - unit: '%'
-    value: 1
-  - unit: '%'
-    value: 4
-  - unit: '%'
-    value: 0.8
-  - unit: '%'
-    value: 2
-  - unit: '%'
-    value: 10
-  - unit: other
-    value: null
-  min_spend:
-  - amount: 15000
-    unit: 元
-  - amount: 36000
-    unit: 元
-  - amount: 499
-    unit: 元
-  - amount: 10000
-    unit: 元
-  - amount: 30000
-    unit: 元
-  - amount: 100000
-    unit: 元
-  caps:
-  - amount: 300
-    unit: 點
-  - amount: 3000
-    unit: 點
-  - amount: 150
-    unit: 點
-  - amount: 1
-    unit: 次
-  sold_out:
-  - scope_label: 活動一第一波
-    scope_start: '2026-11-01'
-    scope_end: '2026-11-08'
-    quote: (11/1-11/8活動一預算已於11/1 晚上 23:00額滿)
-  - scope_label: 活動二第一波
-    scope_start: '2026-11-01'
-    scope_end: '2026-11-08'
-    quote: (11/1-11/8活動二預算已於11/1 下午18:50額滿)
-  - scope_label: 活動二第二波
-    scope_start: '2026-11-09'
-    scope_end: '2026-11-11'
-    quote: (11/9-11/11活動二預算已於11/10 下午17:00額滿)
-  quotes:
-  - 活動一、單筆滿 $15,000 贈 500 P
-  - 活動二、單筆滿 $36,000 贈 1,800 P
-  - 於 Pi 拍錢包通路一般消費單筆滿 499 元，登錄享最高 5% P幣回饋 (每月每歸戶上限 300 P幣)
-  - ＊最高 5% P幣 = 基本權益 1% 無上限 + 單筆滿 499 元加碼 4% (每月每歸戶加碼 4% 回饋上限 300 P幣)。
-  - 門檻 1:累積滿 10,000 元，享加碼 0.8% P幣回饋
-  - 門檻 2:累積滿 30,000 元，享加碼 2% P幣回饋
-  - ＊門檻 1、2 擇優回饋，每月每歸戶最高回饋 3,000 P幣。
-  - 新戶首三月加碼 5% (每歸戶每月上限 150 P幣)
-  - 60 天內一般消費累積 100,000 元 (含) 以上，滿額贈「AirPods 4 等值之 Studio A 禮券」。
-  - 全活動期間 (11/1~11/11) 每人限回饋一次。
-  - ＊本活動需登錄，活動期間僅需登錄 1 次即可參加每月加碼活動
-  note: 2026-11-10 換新（官方新增活動二第二波額滿聲明）。P幣以「點」記（1 P幣=1元）；5%（登錄加碼總計）與新戶加碼 5% 同值記一次；Studio A 禮券記 other。三則額滿皆為已發生聲明且原文自帶波段日期；活動一第二波未見額滿聲明。活動總預算/各波段預算不記 caps；每歸戶限回饋 1 次與每人限回饋一次同為 1 次。
-  provider: pipay
-  url: https://web.piapp.com.tw/2611p24/
-  title: PChome 24h購物🔥1111超狂回饋🎁滿額最高贈1800 P幣
-  content_hash: fe8f8a8d3d9f3505
 - id: pipay-02
   provider: pipay
   url: https://web.piapp.com.tw/261112bonus/
@@ -1012,6 +941,32 @@
   - 活動期間內，持 Pi 拍錢包綁定中信ALL ME卡，於指定四大超商、超市、交通運輸、美食等通路付款，享最高3%點數回饋。
   - 核發點數為ALL ME點，1ALL ME點=新臺幣1元=1 P幣，每戶每月回饋上限300點，所有指定合作商店及更多詳情請見中國信託ALL ME卡官網。
   note: 全文未提登錄；綁定付款工具不算。1%基本+2%加碼(四大超商3%加碼)；通路加碼3%與總3%同值。
+- id: pipay-04
+  is_offer: true
+  registration: not_required
+  rewards:
+  - unit: 點
+    value: 100
+  - unit: 點
+    value: 300
+  min_spend:
+  - amount: 5000
+    unit: 元
+  - amount: 10000
+    unit: 元
+  caps:
+  - amount: 1
+    unit: 次
+  sold_out: []
+  quotes:
+  - 單筆實付滿 5,000 元 (含) 以上贈 100 P幣回饋
+  - 單筆實付滿 10,000 元 (含) 以上贈 300 P幣回饋
+  - ＊活動一、二擇優發放，每人僅贈點一次，不重複回饋。
+  note: 2026-11-16 換新（取代 pipay-01）。P幣 1:1 元，unit 比照既有 pipay 記『點』。無登錄/領券：僅需綁定 Pi 拍錢包與帳單e化（綁定／下載類不算登錄）。『每人僅贈點一次』記 1 次；活動總預算 8.5 萬元不是 caps。『贈完為止』條件句，無已發生額滿聲明。
+  provider: pipay
+  url: https://web.piapp.com.tw/hucc-coop_202611/
+  title: 主婦聯盟生活消費合作社｜ 2027年貨年菜預購滿額最高加碼贈300 P幣
+  content_hash: ae349e7a94978c6e
 - id: pluspay-01
   provider: pluspay
   url: https://www.pluspay.com.tw/Campaign/Promotion/202607Events
