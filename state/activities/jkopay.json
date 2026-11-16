@@ -256,7 +256,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "2ccef62d638c6dee",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -281,32 +281,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "4be8f0876616ffd1",
-  "observed_at": "2026-11-15T09:15:00+08:00",
-  "stale": false
- },
- {
-  "id": "jkopay-0bd87a70c5",
-  "provider_id": "jkopay",
-  "provider_name": "街口支付",
-  "title": "築間門市消費用街口",
-  "aliases": [],
-  "url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "period_start": "2026-10-12",
-  "period_end": "2026-11-15",
-  "category": "",
-  "terms_source": "external",
-  "external_url": "https://www.facebook.com/share/p/19FnLEYjmG/",
-  "is_offer": "unknown",
-  "registration": "unknown",
-  "registration_quote": "",
-  "offers": [],
-  "title_sold_out": [],
-  "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "review": [
-   "條款在合作方網站，未抽取，請點官方頁確認"
-  ],
-  "content_hash": "7c6dcff9b50b225b",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -597,7 +572,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "41e5c39f162c7b56",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -900,7 +875,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "6eb209356ab33cc4",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -1206,7 +1181,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "57cc105a39f9796d",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -1446,7 +1421,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "63eacb7dfd9a84ec",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -1712,7 +1687,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "727c0d5969474bc4",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2052,7 +2027,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "1c5f9e75887f14cb",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2270,7 +2245,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "013442e12bc4d9c9",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2452,7 +2427,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "0a8024d73c854144",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2498,7 +2473,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "22710f53f37ee5f1",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2523,7 +2498,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "d23577bf0c00fcbf",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2584,7 +2559,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "3cc9facdc9710699",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2609,7 +2584,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "518e2774536b335b",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -2897,7 +2872,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "5a17039793ef642f",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -3204,7 +3179,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "f4924932e0100e20",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -3440,7 +3415,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "859708239b4698cd",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -3627,224 +3602,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "8f677f1fb63ec809",
-  "observed_at": "2026-11-15T09:15:00+08:00",
-  "stale": false
- },
- {
-  "id": "jkopay-9e2fef8332",
-  "provider_id": "jkopay",
-  "provider_name": "街口支付",
-  "title": "門市限定最高享 20.5%",
-  "aliases": [],
-  "url": "https://mkt.jkopay.com/zh-TW/event/cosmed202611",
-  "period_start": "2026-11-09",
-  "period_end": "2026-11-15",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "required",
-  "registration_quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」",
-  "offers": [
-   {
-    "name": "領$66街口券",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "register_before_spend",
-    "order_quote": "先領取上方街口券，並於活動時間至「康是美適用實體門市」使用「街口支付」",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "discount",
-      "value": 66.0,
-      "unit": "元",
-      "quote": "單筆消費滿 $666 即可折抵 $66"
-     }
-    ],
-    "min_spends": [
-     {
-      "amount": 666,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費滿 $666 即可折抵 $66"
-     }
-    ],
-    "caps": [
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "campaign",
-      "quote": "每人限折抵1次"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "康是美適用實體門市",
-    "how": "使用「街口支付」",
-    "limited": "yes",
-    "limited_quote": "先折先贏",
-    "sold_out": []
-   },
-   {
-    "name": "最高7%街口幣再加碼",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "percent",
-      "value": 7.0,
-      "unit": "%",
-      "quote": "可享加碼 7% 街口幣回饋"
-     }
-    ],
-    "min_spends": [],
-    "caps": [
-     {
-      "amount": 65,
-      "unit": "元",
-      "per": "day",
-      "quote": "每人每日上限 $65"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "康是美適用實體門市",
-    "how": "使用街口支付結帳",
-    "limited": "yes",
-    "limited_quote": "每日預算用完為止",
-    "sold_out": []
-   },
-   {
-    "name": "抽 $66 OPENPOINT 5,000點",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 10,
-    "quota_quote": "共抽10名",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "points",
-      "value": 5000.0,
-      "unit": "點",
-      "quote": "OPENPOINT點數5,000點"
-     }
-    ],
-    "min_spends": [
-     {
-      "amount": 1,
-      "unit": "筆",
-      "per": "campaign",
-      "quote": "使用街口支付完成任一筆消費"
-     }
-    ],
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "康是美適用實體門市",
-    "how": "使用街口支付",
-    "limited": "yes",
-    "limited_quote": "共抽10名",
-    "sold_out": []
-   },
-   {
-    "name": "眾多付款優惠｜最高 10% 回饋",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "percent",
-      "value": 10.0,
-      "unit": "%",
-      "quote": "筆筆 10% 街口幣回饋"
-     },
-     {
-      "kind": "percent",
-      "value": 3.5,
-      "unit": "%",
-      "quote": "最高享 3.5% 街口幣回饋"
-     },
-     {
-      "kind": "percent",
-      "value": 2.5,
-      "unit": "%",
-      "quote": "最高 2.5% 街口幣回饋"
-     },
-     {
-      "kind": "percent",
-      "value": 1.0,
-      "unit": "%",
-      "quote": "筆筆享 1% 街口幣回饋無上限"
-     }
-    ],
-    "min_spends": [],
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "",
-    "how": "若選擇使用「華南銀行帳戶」 付款",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   },
-   {
-    "name": "新戶限定｜送 $50 街口券",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 50.0,
-      "unit": "元",
-      "quote": "即可領取專屬$50街口券"
-     }
-    ],
-    "min_spends": [],
-    "caps": [],
-    "new_users_only": "yes",
-    "new_users_quote": "「首次註冊」街口支付",
-    "where": "指定通路",
-    "how": "完成「實名認證或身份認證」，並綁定支付工具後",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "review": [
-   "需登錄或領券，但官方未寫時點"
-  ],
-  "content_hash": "e0cb5fc765b75de1",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -3968,7 +3726,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "a40be072017fb81f",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -3993,7 +3751,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "caa64783e39dc5ed",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -4204,32 +3962,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "edd5b2c07fba74f4",
-  "observed_at": "2026-11-15T09:15:00+08:00",
-  "stale": false
- },
- {
-  "id": "jkopay-b1869231ed",
-  "provider_id": "jkopay",
-  "provider_name": "街口支付",
-  "title": "旅天下官網新上線",
-  "aliases": [],
-  "url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "period_start": "2026-10-15",
-  "period_end": "2026-11-15",
-  "category": "",
-  "terms_source": "external",
-  "external_url": "https://www.gounitravel.com/category/zh-tw/index",
-  "is_offer": "unknown",
-  "registration": "unknown",
-  "registration_quote": "",
-  "offers": [],
-  "title_sold_out": [],
-  "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
-  "review": [
-   "條款在合作方網站，未抽取，請點官方頁確認"
-  ],
-  "content_hash": "dabf27f70fd32972",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -4729,7 +4462,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "38a20d08b649af3e",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -4927,7 +4660,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "f2b7319e36555e81",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -5141,7 +4874,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "de8504db4f835ac4",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -5392,7 +5125,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "c35a6058f0e7d9bd",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -5708,7 +5441,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "a047e1d35490a176",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -5929,7 +5662,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "d6517dead6690b29",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  },
  {
@@ -6230,7 +5963,7 @@
   "portal_url": "https://mkt.jkopay.com/zh-TW/campaign/newevent",
   "review": [],
   "content_hash": "d73c467575edfe64",
-  "observed_at": "2026-11-15T09:15:00+08:00",
+  "observed_at": "2026-11-16T09:30:17+08:00",
   "stale": false
  }
 ]
