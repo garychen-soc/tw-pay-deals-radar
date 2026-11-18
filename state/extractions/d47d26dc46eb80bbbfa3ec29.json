@@ -1,0 +1,71 @@
+{
+ "key": "d47d26dc46eb80bbbfa3ec29",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:43+00:00",
+ "title": "PayPay綁定國泰世華銀行 消費最高享15%回饋",
+ "duration_ms": 5227,
+ "cost_usd": 0.0351636,
+ "usage": {
+  "input": 2,
+  "output": 558,
+  "cache_creation": 7221,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "每筆消費享15%全盈儲值金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於日本PayPay合作商店之實體門市，以全盈+PAY綁定國泰世華銀行帳戶並透過PayPay付款，每筆消費享15%全盈儲值金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 15,
+      "unit": "%",
+      "quote": "每筆消費享15%全盈儲值金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "month",
+      "quote": "每位全盈+PAY會員每月最高回饋上限200元全盈儲值金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "日本PayPay合作商店之實體門市",
+    "how": "以全盈+PAY綁定國泰世華銀行帳戶並透過PayPay付款",
+    "limited": {
+     "value": "yes",
+     "quote": "活動總回饋上限30萬元，以消費優先順序計算，贈完為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月活動回饋上限10萬元，活動總回饋上限30萬元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

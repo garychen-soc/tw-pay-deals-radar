@@ -1,0 +1,71 @@
+{
+ "key": "0dd9fa91b8363decea8bcfa8",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:33+00:00",
+ "title": "暢遊日本用全盈 新戶限定10%限量回饋",
+ "duration_ms": 5776,
+ "cost_usd": 0.034157599999999996,
+ "usage": {
+  "input": 2,
+  "output": 567,
+  "cache_creation": 6947,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "筆筆回饋新臺幣10%全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "出示全盈+PAY日本版付款碼或掃描店家立牌QR Code，以全盈+PAY錢包或連結銀行帳戶完成付款，筆筆回饋新臺幣10%全盈儲值金"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "筆筆回饋新臺幣10%全盈儲值金"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "每一會員回饋上限新臺幣100元"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "新用戶於註冊當月"
+    },
+    "where": "日本PayPay合作商店之實體門市",
+    "how": "以全盈+PAY錢包或連結銀行帳戶完成付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月活動回饋總金額上限為新臺幣10,000元，活動期間總回饋上限新臺幣30,000元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "活動期間總回饋上限新臺幣30,000元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "key": "896e87a5db48896238152f24",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T00:59:45+00:00",
+ "title": "看到TWQR掃一下👀好康跟著來🔦集合~",
+ "duration_ms": 6458,
+ "cost_usd": 0.0414996,
+ "usage": {
+  "input": 2,
+  "output": 998,
+  "cache_creation": 7705,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用全盈+PAY付款單筆消費滿新台幣600元(含)以上，享15%全盈儲值金回饋。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於「實體通路支援TWQR掃碼支付商家」，使用全盈+PAY付款單筆消費滿新台幣600元(含)以上，享15%全盈儲值金回饋。"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 15,
+      "unit": "%",
+      "quote": "享15%全盈儲值金回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 600,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新台幣600元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "month",
+      "quote": "每一全盈支付會員每月回饋上限為新台幣300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "實體通路支援TWQR掃碼支付商家",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月總回饋上限為新台幣100,000元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月總回饋上限為新台幣100,000元"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "other",
+      "value": null,
+      "unit": "other",
+      "quote": "即可獲得1次抽獎資格"
+     },
+     {
+      "kind": "cash",
+      "value": 10000,
+      "unit": "元",
+      "quote": "抽全盈儲值金新台幣10,000元(含稅)，共1名"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "累積滿新台幣2,000元(含)以上，即可獲得1次抽獎資格"
+     },
+     {
+      "amount": 4000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "累積滿新台幣4,000元(含)以上，即可獲得2次抽獎資格"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "實體通路支援TWQR掃碼支付商家",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "抽全盈儲值金新台幣10,000元(含稅)，共1名"
+    },
+    "quota": {
+     "seats": 1,
+     "quote": "共1名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

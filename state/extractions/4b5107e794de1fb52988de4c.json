@@ -1,0 +1,129 @@
+{
+ "key": "4b5107e794de1fb52988de4c",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:17+00:00",
+ "title": "91APP 歲末狂BUY季⚡",
+ "duration_ms": 6500,
+ "cost_usd": 0.0372676,
+ "usage": {
+  "input": 2,
+  "output": 856,
+  "cache_creation": 7002,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單月單筆消費滿新台幣2,500元(含)以上，贈新台幣150元全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於91APP合作品牌消費使用全盈+PAY付款，單月單筆消費滿新台幣2,500元(含)以上，贈新台幣150元全盈儲值金"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 150,
+      "unit": "元",
+      "quote": "贈新台幣150元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 2500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單月單筆消費滿新台幣2,500元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "活動一及活動二每一全盈支付會員每月各限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "91APP合作品牌",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量120份"
+    },
+    "quota": {
+     "seats": 120,
+     "quote": "每月限量120份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 250,
+      "unit": "元",
+      "quote": "贈250元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 6000,
+      "unit": "元",
+      "per": "month",
+      "quote": "單月累積消費滿新台幣6,000元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "活動一及活動二每一全盈支付會員每月各限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "91APP合作品牌",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量50份"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "每月限量50份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

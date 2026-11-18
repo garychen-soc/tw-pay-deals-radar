@@ -1,0 +1,230 @@
+{
+ "key": "6b527f3129c4cdaf76cc267f",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:09+00:00",
+ "title": "生活繳費隨時GET🧡快速繳費到位📲",
+ "duration_ms": 9450,
+ "cost_usd": 0.049157599999999996,
+ "usage": {
+  "input": 2,
+  "output": 1655,
+  "cache_creation": 7977,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "贈新台幣100元全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內透過 全盈+PAY APP「繳費」功能繳納指定項目（水費、電費、瓦斯費、電信費【中華電信】、台北市停車費）"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "贈新台幣100元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆繳費金額滿新台幣1,200元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每一全盈支付會員每月限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": ""
+    },
+    "where": "",
+    "how": "透過 全盈+PAY APP「繳費」功能繳納指定項目（水費、電費、瓦斯費、電信費【中華電信】、台北市停車費）",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總量上限200份"
+    },
+    "quota": {
+     "seats": 200,
+     "quote": "本活動每月回饋總量上限200份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 50,
+      "unit": "元",
+      "quote": "贈新台幣50元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "筆",
+      "per": "campaign",
+      "quote": "完成一筆不限金額繳費"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全盈支付會員活動期間限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "活動期間首次綁定「生活自動繳」指定項目"
+    },
+    "where": "",
+    "how": "首次綁定「生活自動繳」指定項目（台灣自來水公司、台北自來水事業處、台灣電力公司、中華電信）內任意一項",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動期間回饋總量上限100份"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "本活動期間回饋總量上限100份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30,
+      "unit": "元",
+      "quote": "贈30元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆交易符合活動一回饋門檻者"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每一全盈支付會員每月限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": ""
+    },
+    "where": "",
+    "how": "綁定任一玉山銀行之信用卡繳費",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總量上限100份"
+    },
+    "quota": {
+     "seats": 100,
+     "quote": "本活動每月回饋總量上限100份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動四",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10000,
+      "unit": "元",
+      "quote": "抽全盈儲值金新台幣10,000元(含稅)，共1名"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1200,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "繳費累積滿新台幣1,200元(含)以上，即可獲得1次抽獎資格"
+     },
+     {
+      "amount": 2400,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "累積滿新台幣2,400元(含)以上，即可獲得2次抽獎資格"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "no",
+     "quote": ""
+    },
+    "where": "",
+    "how": "透過 全盈+PAY APP「繳費」功能繳納指定項目（水費、電費、瓦斯費、電信費【中華電信】、台北市停車費）",
+    "limited": {
+     "value": "yes",
+     "quote": "抽全盈儲值金新台幣10,000元(含稅)，共1名"
+    },
+    "quota": {
+     "seats": 1,
+     "quote": "共1名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

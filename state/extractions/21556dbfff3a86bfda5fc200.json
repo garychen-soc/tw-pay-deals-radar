@@ -1,0 +1,180 @@
+{
+ "key": "21556dbfff3a86bfda5fc200",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:12+00:00",
+ "title": "PChome 年終購物嘉年華🎀",
+ "duration_ms": 7568,
+ "cost_usd": 0.0382656,
+ "usage": {
+  "input": 2,
+  "output": 1183,
+  "cache_creation": 6434,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新台幣5,000元(含)以上，贈100P幣，每月限量300份"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於 PChome 24h 購物消費使用全盈+PAY付款，單筆消費滿新台幣5,000元(含)以上，贈100P幣"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 100,
+      "unit": "點",
+      "quote": "贈100P幣"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 5000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新台幣5,000元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一PChome帳號於各檔活動期間內，僅限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "PChome 24h 購物",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量300份"
+    },
+    "quota": {
+     "seats": 300,
+     "quote": "每月限量300份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 500,
+      "unit": "點",
+      "quote": "贈500P幣"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 12000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆訂單金額滿新臺幣12,000元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一PChome帳號於各檔活動期間內，僅限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "PChome 24h購物",
+    "how": "以全盈+PAY全額支付",
+    "limited": {
+     "value": "yes",
+     "quote": "每月之指定活動期間限量50份"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "每月之指定活動期間限量50份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 1200,
+      "unit": "點",
+      "quote": "贈1,200P幣"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 25000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆訂單金額滿新臺幣25,000元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一PChome帳號於各檔活動期間內，僅限回饋乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "PChome 24h購物",
+    "how": "以全盈+PAY全額支付",
+    "limited": {
+     "value": "yes",
+     "quote": "每月之指定活動期間限量50份"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "每月之指定活動期間限量50份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

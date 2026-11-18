@@ -1,0 +1,198 @@
+{
+ "key": "9745704e4f1f13c295626d10",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T00:58:36+00:00",
+ "title": "全家便利商店 悠遊付錢包帳戶滿額最高回饋16% 首次消費加贈20%回饋券",
+ "duration_ms": 13131,
+ "cost_usd": 0.0482516,
+ "usage": {
+  "input": 2,
+  "output": 1584,
+  "cache_creation": 7928,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "活動期間使用悠遊付錢包或綁定銀行帳戶於全家便利商店門市消費，單筆扣款滿100元享3%悠遊付回饋金。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊付於全家便利商店門市消費之人，視同參加本活動，為活動參加人"
+  },
+  "subs": [
+   {
+    "name": "活動一: 滿百筆筆回饋3%",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 3,
+      "unit": "%",
+      "quote": "單筆扣款滿100元享3%悠遊付回饋金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆扣款滿100元享3%悠遊付回饋金"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "month",
+      "quote": "本活動3%回饋每月每悠遊付會員回饋上限300元"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "活動期間使用悠遊付於全家便利商店門市消費之人，視同參加本活動，為活動參加人"
+    },
+    "where": "全家便利商店門市",
+    "how": "使用悠遊付錢包或綁定銀行帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "回饋總金額50萬元，先扣款先得回饋，額滿即止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "回饋總金額50萬元，先扣款先得回饋，額滿即止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二: 週一至週五 消費滿500元加贈40元現金回饋券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 40,
+      "unit": "元",
+      "quote": "即加贈40元悠遊付現金回饋券1張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆扣款滿500元，即加贈40元悠遊付現金回饋券1張"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "week",
+      "quote": "每週每悠遊付會員限領1張"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "活動期間使用悠遊付於全家便利商店門市消費之人，視同參加本活動，為活動參加人"
+    },
+    "where": "全家便利商店門市",
+    "how": "使用悠遊付錢包或綁定銀行帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "每週限量1,000張，每週每悠遊付會員限領1張，回饋總限量14,000張，送完為止"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "每週限量1,000張"
+    },
+    "sold_out": [
+     {
+      "quote": "本活動二活動期間11w1(11/2~11/6)限量1,000張優惠已於11/6 22:54額滿",
+      "scope_label": "11w1(11/2~11/6)",
+      "scope_start": {
+       "year": null,
+       "month": 11,
+       "day": 2,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": null,
+       "month": 11,
+       "day": 6,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三: 首次消費即贈20%回饋券",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 20,
+      "unit": "%",
+      "quote": "首次全家便利商店消費即贈20%悠遊付現金回饋券1張"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "元",
+      "per": "txn",
+      "quote": "最高回饋30元"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每悠遊付會員限領1次"
+     }
+    ],
+    "new_users_only": {
+     "value": "yes",
+     "quote": "註冊成為悠遊付會員後首次使用悠遊付於全家便利商店門市消費不限金額"
+    },
+    "where": "全家便利商店門市",
+    "how": "使用悠遊付",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量6,000份，3個月回饋總限量18,000份"
+    },
+    "quota": {
+     "seats": 6000,
+     "quote": "每月限量6,000份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

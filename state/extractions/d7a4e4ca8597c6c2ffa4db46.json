@@ -1,0 +1,78 @@
+{
+ "key": "d7a4e4ca8597c6c2ffa4db46",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T00:59:55+00:00",
+ "title": "補滿的不只是電量🔋還有你的移動能量⚡",
+ "duration_ms": 4675,
+ "cost_usd": 0.0335776,
+ "usage": {
+  "input": 2,
+  "output": 585,
+  "cache_creation": 6757,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單月累積消費滿新台幣250元(含)以上回饋8%全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於「星舟快充」，使用全盈+PAY付款，單月累積消費滿新台幣250元(含)以上回饋8%全盈儲值金。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 8,
+      "unit": "%",
+      "quote": "單月累積消費滿新台幣250元(含)以上回饋8%全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 250,
+      "unit": "元",
+      "per": "month",
+      "quote": "單月累積消費滿新台幣250元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "month",
+      "quote": "每一全盈支付會員每月回饋上限為新台幣100元全盈儲值金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "星舟快充",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總金額上限新台幣20,000元全盈儲值金"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月回饋總金額上限新台幣20,000元全盈儲值金"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

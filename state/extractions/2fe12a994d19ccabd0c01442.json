@@ -1,0 +1,78 @@
+{
+ "key": "2fe12a994d19ccabd0c01442",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T00:59:46+00:00",
+ "title": "PAY樂時刻🥳吃喝玩樂購！享精彩生活💝",
+ "duration_ms": 4484,
+ "cost_usd": 0.0355336,
+ "usage": {
+  "input": 2,
+  "output": 579,
+  "cache_creation": 7261,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新台幣1,500元(含)以上回饋10%全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於「精選實體品牌通路」，使用全盈+PAY付款，單筆消費滿新台幣1,500元(含)以上回饋10%全盈儲值金"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 10,
+      "unit": "%",
+      "quote": "回饋10%全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1500,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新台幣1,500元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "month",
+      "quote": "每一全盈支付會員每月回饋上限為新台幣300元全盈儲值金"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "精選實體品牌通路",
+    "how": "使用全盈+PAY「付款碼」",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動設有回饋總上限，如活動期間內已達回饋總上限"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動每月回饋總金額上限新台幣60,000元全盈儲值金"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

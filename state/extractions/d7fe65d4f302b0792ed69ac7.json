@@ -1,0 +1,90 @@
+{
+ "key": "d7fe65d4f302b0792ed69ac7",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T00:58:54+00:00",
+ "title": "高雄捷運掃悠遊付乘車碼 筆筆回饋30%",
+ "duration_ms": 12269,
+ "cost_usd": 0.0350696,
+ "usage": {
+  "input": 2,
+  "output": 1001,
+  "cache_creation": 6090,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用悠遊付乘車碼搭乘高雄捷運，筆筆享票價30%回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊付乘車碼搭乘高雄捷運者，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 30,
+      "unit": "%",
+      "quote": "筆筆享票價30%回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 30,
+      "unit": "元",
+      "per": "month",
+      "quote": "活動期間每會員每月回饋上限30元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "高雄捷運",
+    "how": "使用悠遊付乘車碼搭乘高雄捷運",
+    "limited": {
+     "value": "yes",
+     "quote": "每月活動總回饋金上限5萬元"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "每月活動總回饋金上限5萬元"
+    },
+    "sold_out": [
+     {
+      "quote": "11月份活動已於2026/11/15 19:38額滿",
+      "scope_label": "11月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

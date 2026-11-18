@@ -1,0 +1,78 @@
+{
+ "key": "54739b0aca81a9d6a1e24fc9",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:18+00:00",
+ "title": "智慧瓦斯生活 📱 完成任務享回饋 💰💰",
+ "duration_ms": 4501,
+ "cost_usd": 0.0315956,
+ "usage": {
+  "input": 2,
+  "output": 548,
+  "cache_creation": 6354,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新臺幣300元(含)以上，即贈新臺幣30元全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "透過「瓦斯通」APP，使用全盈+PAY 單筆消費滿新臺幣300元(含)以上，即贈新臺幣30元全盈儲值金"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 30,
+      "unit": "元",
+      "quote": "即贈新臺幣30元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 300,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新臺幣300元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 2,
+      "unit": "次",
+      "per": "month",
+      "quote": "每一全盈支付用戶每月限獲贈2次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "透過「瓦斯通」APP",
+    "how": "使用全盈+PAY",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總量上限為500份"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "本活動每月回饋總量上限為500份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

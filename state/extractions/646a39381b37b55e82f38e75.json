@@ -1,0 +1,78 @@
+{
+ "key": "646a39381b37b55e82f38e75",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T00:59:59+00:00",
+ "title": "帳單繳費新方式🧾掃TWQR輕鬆繳⭐",
+ "duration_ms": 4764,
+ "cost_usd": 0.033823599999999995,
+ "usage": {
+  "input": 2,
+  "output": 584,
+  "cache_creation": 6821,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單月累積繳費滿新台幣1,200元(含)以上，贈新台幣100元全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內，以全盈+PAY支付支援TWQR掃碼繳費之帳單，單月累積繳費滿新台幣1,200元(含)以上，贈新台幣100元全盈儲值金"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 100,
+      "unit": "元",
+      "quote": "贈新台幣100元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1200,
+      "unit": "元",
+      "per": "month",
+      "quote": "單月累積繳費滿新台幣1,200元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每一全盈支付用戶每月限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "以全盈+PAY支付支援TWQR掃碼繳費之帳單",
+    "how": "本活動付款方式限使用全盈+PAY支付",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總量上限200份"
+    },
+    "quota": {
+     "seats": 200,
+     "quote": "本活動每月回饋總量上限200份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

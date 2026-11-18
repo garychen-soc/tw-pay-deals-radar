@@ -1,0 +1,129 @@
+{
+ "key": "ed54593a17644f59fb653b23",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-18T01:00:06+00:00",
+ "title": "FUN樂隨行🎉網購盛典！時尚隨心購🛒",
+ "duration_ms": 6332,
+ "cost_usd": 0.036857600000000004,
+ "usage": {
+  "input": 2,
+  "output": 873,
+  "cache_creation": 6857,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費滿新台幣2,000元(含)以上贈新台幣200元全盈儲值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於「精選線上電商通路」，使用全盈+PAY付款，單筆消費滿新台幣2,000元(含)以上贈新台幣200元全盈儲值金"
+  },
+  "subs": [
+   {
+    "name": "活動一",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 200,
+      "unit": "元",
+      "quote": "贈新台幣200元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新台幣2,000元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "month",
+      "quote": "每一全盈支付會員每月限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "精選線上電商通路",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每月回饋總量上限150份"
+    },
+    "quota": {
+     "seats": 150,
+     "quote": "本活動每月回饋總量上限150份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 350,
+      "unit": "元",
+      "quote": "贈新台幣350元全盈儲值金"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 10000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿新台幣10,000元(含)以上"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一全盈支付會員活動期間限贈乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "精選線上電商通路",
+    "how": "使用全盈+PAY付款",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動期間回饋總量上限50份"
+    },
+    "quota": {
+     "seats": 50,
+     "quote": "本活動期間回饋總量上限50份"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
