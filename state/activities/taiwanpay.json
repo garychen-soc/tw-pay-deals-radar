@@ -50,7 +50,7 @@
   "review": [],
   "content_hash": "826874960b3baa4d",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-036ccbb4bc",
@@ -129,7 +129,7 @@
   "review": [],
   "content_hash": "ae510cbc4c311bb4",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-069399cb94",
@@ -154,7 +154,7 @@
   ],
   "content_hash": "a8359e9b888f8d04",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-07238bc51d",
@@ -214,7 +214,7 @@
   "review": [],
   "content_hash": "2d418c655a486836",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-0b4941ff13",
@@ -274,7 +274,7 @@
   "review": [],
   "content_hash": "30dcc9bec4f68b00",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-0d7f4ee68c",
@@ -334,7 +334,7 @@
   "review": [],
   "content_hash": "1075d4d96991a999",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-11e5b41545",
@@ -394,7 +394,7 @@
   "review": [],
   "content_hash": "b06303affec3a94f",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-144e6b4d93",
@@ -473,7 +473,7 @@
   "review": [],
   "content_hash": "a1265cc2864d6419",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-163da9a285",
@@ -586,7 +586,7 @@
   "review": [],
   "content_hash": "80b403c717c2d7db",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-17350c6bb8",
@@ -665,7 +665,7 @@
   "review": [],
   "content_hash": "c6bc8b9fc3041817",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-1ad3058ac4",
@@ -725,7 +725,7 @@
   "review": [],
   "content_hash": "65cb5d84a4191939",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-2146e7cf34",
@@ -792,7 +792,7 @@
   "review": [],
   "content_hash": "ec0929de9dc8ef37",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-2b0faa3301",
@@ -852,7 +852,7 @@
   "review": [],
   "content_hash": "46788654e49b4a21",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-30c0cb3897",
@@ -925,7 +925,7 @@
   "review": [],
   "content_hash": "2b2487a5f6bb2a98",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-383dc1481f",
@@ -1004,7 +1004,7 @@
   "review": [],
   "content_hash": "dac97c7cd830928e",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-3cc0718550",
@@ -1070,7 +1070,7 @@
   "review": [],
   "content_hash": "1be8cc8f72652647",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-4346e590a0",
@@ -1141,7 +1141,7 @@
   "review": [],
   "content_hash": "e609ddb71d735473",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-44d5a6bd41",
@@ -1207,7 +1207,7 @@
   "review": [],
   "content_hash": "85b2db36b720ec13",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-4bb3edeb68",
@@ -1274,7 +1274,7 @@
   "review": [],
   "content_hash": "26485bca7b522c20",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-524f691a7c",
@@ -1334,7 +1334,7 @@
   "review": [],
   "content_hash": "cb2fcd2fdb0c539d",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-5692fe434b",
@@ -1394,7 +1394,7 @@
   "review": [],
   "content_hash": "f426d0681b5e75f0",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-5d4c1aecd6",
@@ -1467,7 +1467,7 @@
   "review": [],
   "content_hash": "ff1808965de98f9f",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-647404129f",
@@ -1492,7 +1492,7 @@
   ],
   "content_hash": "868549d5664a0227",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-6d1ee7bf47",
@@ -1552,7 +1552,7 @@
   "review": [],
   "content_hash": "63c3b54da414b976",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-71bc384553",
@@ -1623,7 +1623,7 @@
   "review": [],
   "content_hash": "b2e6673d4038ab34",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-72123935b4",
@@ -1694,7 +1694,7 @@
   "review": [],
   "content_hash": "a35c26f1c02f011a",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-76af489b4b",
@@ -1754,7 +1754,7 @@
   "review": [],
   "content_hash": "aa1e19cebc4ae0d1",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-7d2d0585a2",
@@ -1827,7 +1827,7 @@
   "review": [],
   "content_hash": "c58d04455a94459a",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-8b0860f79f",
@@ -1887,7 +1887,7 @@
   "review": [],
   "content_hash": "9edf8e890eef50e9",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-8f0e681036",
@@ -1947,7 +1947,7 @@
   "review": [],
   "content_hash": "26193abc311c32be",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-903565405d",
@@ -2020,7 +2020,7 @@
   "review": [],
   "content_hash": "a88d9cb3cdb58576",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-91f93aeab3",
@@ -2097,7 +2097,7 @@
   "review": [],
   "content_hash": "ae01508bce08d122",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-97b1932fa5",
@@ -2122,7 +2122,7 @@
   ],
   "content_hash": "c4fc542b4594444a",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-9bc4d70bb9",
@@ -2182,7 +2182,7 @@
   "review": [],
   "content_hash": "10fa78346116dde6",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-9e6fab0591",
@@ -2242,7 +2242,7 @@
   "review": [],
   "content_hash": "5d87ed4b70a344e7",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-9f72f4b911",
@@ -2302,7 +2302,7 @@
   "review": [],
   "content_hash": "fbf12de052254181",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-a327d7dfd3",
@@ -2362,7 +2362,7 @@
   "review": [],
   "content_hash": "98664840ae44b7c1",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-a3e6462481",
@@ -2435,7 +2435,7 @@
   "review": [],
   "content_hash": "fc9fe864944c6839",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-a859dc45fa",
@@ -2495,7 +2495,7 @@
   "review": [],
   "content_hash": "e788362298ac7ada",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-a9503447c0",
@@ -2555,7 +2555,7 @@
   "review": [],
   "content_hash": "58b763004a286825",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-a9ea3f2f69",
@@ -2628,7 +2628,7 @@
   "review": [],
   "content_hash": "db9d386211e200e7",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-ab88f022f0",
@@ -2694,7 +2694,7 @@
   "review": [],
   "content_hash": "0609e4530df8b25c",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-ac92fed6a7",
@@ -2754,7 +2754,7 @@
   "review": [],
   "content_hash": "c2da6337ccc60c6d",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-af985c19ff",
@@ -2827,7 +2827,7 @@
   "review": [],
   "content_hash": "eeb35b9e2334cec4",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-b763a02853",
@@ -2909,7 +2909,7 @@
   "review": [],
   "content_hash": "93b6ac4a015a9c5c",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-bdfdb6c69c",
@@ -2975,7 +2975,7 @@
   "review": [],
   "content_hash": "a669bd4e906e00fc",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-c7d357024f",
@@ -3035,7 +3035,7 @@
   "review": [],
   "content_hash": "b50e95032103e022",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-e221829e83",
@@ -3102,7 +3102,7 @@
   "review": [],
   "content_hash": "39135e3510c8637b",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-e533925b0c",
@@ -3162,7 +3162,7 @@
   "review": [],
   "content_hash": "e8eeeb46f614fa4d",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-e7c21f2fe5",
@@ -3222,7 +3222,7 @@
   "review": [],
   "content_hash": "dab36d49776de3e1",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-e96218d6d4",
@@ -3301,7 +3301,7 @@
   "review": [],
   "content_hash": "2efef369b31934ab",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-ee4ada1163",
@@ -3368,7 +3368,7 @@
   "review": [],
   "content_hash": "18f3202e2e8a5651",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-f6ec9ec831",
@@ -3428,7 +3428,7 @@
   "review": [],
   "content_hash": "107c94fa7ac4b212",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-fb8953f52c",
@@ -3506,7 +3506,7 @@
   "review": [],
   "content_hash": "9ea6ff4573770142",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-fd24eb90c8",
@@ -3566,7 +3566,7 @@
   "review": [],
   "content_hash": "6ce724d429738a3d",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  },
  {
   "id": "taiwanpay-fe5825a258",
@@ -3633,6 +3633,6 @@
   "review": [],
   "content_hash": "099ad3d3c33b2f87",
   "observed_at": "2026-11-18T08:50:13+08:00",
-  "stale": false
+  "stale": true
  }
 ]

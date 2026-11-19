@@ -1,0 +1,158 @@
+{
+ "key": "1f569c0e071c40f7d858cab0",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-19T01:25:51+00:00",
+ "title": "憑指定演唱會門票，享三重活動好禮！",
+ "duration_ms": 15550,
+ "cost_usd": 0.0862784,
+ "usage": {
+  "input": 4,
+  "output": 2525,
+  "cache_creation": 14652,
+  "cache_read": 12062
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "持指定演唱會門票，兌換高雄商圈夜市優惠券 50 元，並使用參與機構之 APP 領取高雄商圈夜市數位券 100 元"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "欲領取「高雄商圈夜市數位券」之用戶，須於欲領券之 APP 完成開通「數位券」使用者券匣(錢包)服務功能"
+  },
+  "subs": [
+   {
+    "name": "活動一:高雄商圈夜市券 150 元",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "兌換高雄商圈夜市優惠券 50 元"
+     },
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "領取高雄商圈夜市數位券 100 元"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每張演唱會門票限領 1 次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "指定地點兌換處",
+    "how": "使用參與機構之 APP 領取高雄商圈夜市數位券 100 元",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動限量 7 萬張，發完即止"
+    },
+    "quota": {
+     "seats": 70000,
+     "quote": "本活動限量 7 萬張，發完即止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:現場使用 iPASS MONEY APP 領券加贈一卡通乙張",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 1,
+      "unit": "other",
+      "quote": "兌換精美一卡通乙張"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "活動期間每人限領一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "兌券現場",
+    "how": "使用 iPASS MONEY APP 開啟「掃碼支付」，掃描高雄商圈夜市數位券活動酷卡領券 QRcode",
+    "limited": {
+     "value": "yes",
+     "quote": "活動期間總贈送限量 3 萬張，每日每站數量有限贈完為止"
+    },
+    "quota": {
+     "seats": 30000,
+     "quote": "活動期間總贈送限量 3 萬張"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動三:全額使用完畢再加碼抽數位券 50 元",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "加碼抽「數位券」50 元 1 張"
+     }
+    ],
+    "min_spends": [],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "",
+    "how": "使用活動參與機構之 APP 完成高雄商圈夜市數位券領取",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
