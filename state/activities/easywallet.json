@@ -62,7 +62,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "b88813f50880181f",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -114,8 +114,14 @@
      {
       "amount": 100,
       "unit": "元",
+      "per": "txn",
+      "quote": "單筆回饋上限100元"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
       "per": "week",
-      "quote": "每週每一uniopen 會員回饋上限100元"
+      "quote": "每週每一uniopen 會員限回饋一次"
      }
     ],
     "new_users_only": "unknown",
@@ -123,7 +129,7 @@
     "where": "萬家福(量販店型)",
     "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
-    "limited_quote": "本指定通路優惠總限量5,000份/月，送完為止",
+    "limited_quote": "本指定通路優惠總限量5,000份/月，送完為止。",
     "sold_out": []
    },
    {
@@ -157,8 +163,14 @@
      {
       "amount": 48,
       "unit": "元",
+      "per": "txn",
+      "quote": "單筆回饋上限48元"
+     },
+     {
+      "amount": 1,
+      "unit": "次",
       "per": "week",
-      "quote": "每週每一uniopen 會員回饋上限48元"
+      "quote": "每週每一uniopen 會員限回饋一次"
      }
     ],
     "new_users_only": "unknown",
@@ -166,7 +178,7 @@
     "where": "樂家康/Mia Cbon(超市店型)",
     "how": "持悠遊卡(包含悠遊聯名卡、Debit卡、敬老卡、愛心卡)",
     "limited": "yes",
-    "limited_quote": "本指定通路優惠總限量10,000份/月，送完為止",
+    "limited_quote": "本指定通路優惠總限量10,000份/月，送完為止。",
     "sold_out": []
    }
   ],
@@ -175,8 +187,8 @@
   "review": [
    "需登錄或領券，但官方未寫時點"
   ],
-  "content_hash": "bcf2addfbe2cb3f1",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "content_hash": "a99062c36319164a",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -236,7 +248,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "2d8551339f54e8af",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -502,7 +514,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "4c513750728bfbc1",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -555,7 +567,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "cd80e6324d3cb4e9",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -674,7 +686,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "82f0a7b096fc1989",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -770,7 +782,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "3bb867efd2be318a",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1101,7 +1113,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "5811ac7dba9c8be4",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1168,7 +1180,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "dd4360f73c2c2fc1",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1239,7 +1251,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "0317470caf20544c",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1352,7 +1364,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "2333a6a9d6d5022f",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1549,7 +1561,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "02db32092b74d473",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1700,7 +1712,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "45cd3b2fff5b15f9",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1796,7 +1808,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "8da4cb4eea92548c",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -1849,7 +1861,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "2f02437dc2e9c03b",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2047,7 +2059,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "255de4abc7bae5ea",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2106,7 +2118,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "f618a40a37d3ff66",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2185,7 +2197,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "e9a70628b6bdd155",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2258,7 +2270,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "afdc59fda7cd3d82",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2453,7 +2465,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "31131f1b9544bf0c",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2583,7 +2595,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "06e1a0647f218e87",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2650,7 +2662,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "13ba0d90a4908137",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2710,7 +2722,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "7c20030df1901191",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2824,7 +2836,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "306123a4dc90d037",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2926,7 +2938,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "01ee32d815976f88",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -2979,7 +2991,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "ce9e52cb28407f1c",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3048,7 +3060,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "f5d2981c55ce1466",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3108,7 +3120,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "4f079ddab2e8d171",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3170,7 +3182,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "1492890979662a9f",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3296,7 +3308,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "ea68fc9b28482cc4",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3367,7 +3379,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "134fa7e7c05feb31",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3509,7 +3521,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "cdbb40e186ce8491",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3679,7 +3691,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "f375f636c63a3dfc",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3696,18 +3708,18 @@
   "external_url": "",
   "is_offer": "yes",
   "registration": "not_required",
-  "registration_quote": "活動期間使用悠遊付乘車碼或嗶乘車搭乘雙北捷運、雙北聯營公車者，視同參加本活動，為活動參加人",
+  "registration_quote": "活動期間使用悠遊付乘車碼或嗶乘車搭乘雙北捷運、雙北聯營公車者，視同參加本活動",
   "offers": [
    {
-    "name": "",
+    "name": "滿11趟(不含0元扣款)",
     "slots": [],
     "rules": [],
     "reregister": "unknown",
     "reregister_quote": "",
     "order": "unknown",
     "order_quote": "",
-    "quota": null,
-    "quota_quote": "即贈20元悠遊付現金回饋券(限量3萬份)",
+    "quota": 30000,
+    "quota_quote": "限量3萬份",
     "review": [],
     "rewards": [
      {
@@ -3715,18 +3727,6 @@
       "value": 20.0,
       "unit": "元",
       "quote": "即贈20元悠遊付現金回饋券(限量3萬份)"
-     },
-     {
-      "kind": "coupon",
-      "value": 30.0,
-      "unit": "元",
-      "quote": "即贈30元悠遊付現金回饋券(限量1.5萬份)"
-     },
-     {
-      "kind": "coupon",
-      "value": 50.0,
-      "unit": "元",
-      "quote": "再贈50元悠遊付現金回饋券(限量1.5萬份)"
      }
     ],
     "min_spends": [
@@ -3734,19 +3734,7 @@
       "amount": 11,
       "unit": "次",
       "per": "month",
-      "quote": "單月累計\n滿11趟(不含0元扣款)"
-     },
-     {
-      "amount": 21,
-      "unit": "次",
-      "per": "month",
-      "quote": "滿21趟(不含0元扣款)，即贈30元"
-     },
-     {
-      "amount": 30,
-      "unit": "次",
-      "per": "month",
-      "quote": "滿30趟(不含0元扣款)，再贈50元"
+      "quote": "滿11趟(不含0元扣款)，即贈20元悠遊付現金回饋券"
      }
     ],
     "caps": [],
@@ -3755,7 +3743,7 @@
     "where": "台北捷運(不含貓空纜車)、新北捷運環狀線、雙北聯營公車",
     "how": "悠遊付乘車碼或嗶乘車",
     "limited": "yes",
-    "limited_quote": "即贈20元悠遊付現金回饋券(限量3萬份)",
+    "limited_quote": "限量3萬份",
     "sold_out": [
      {
       "scope_label": "10月份",
@@ -3766,7 +3754,44 @@
        "quote": "10月份活動已於2026/10/21 20:28額滿",
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750"
       }
-     },
+     }
+    ]
+   },
+   {
+    "name": "滿21趟(不含0元扣款)",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 15000,
+    "quota_quote": "限量1.5萬份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 30.0,
+      "unit": "元",
+      "quote": "即贈30元悠遊付現金回饋券(限量1.5萬份)"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 21,
+      "unit": "次",
+      "per": "month",
+      "quote": "滿21趟(不含0元扣款)，即贈30元悠遊付現金回饋券"
+     }
+    ],
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "台北捷運(不含貓空纜車)、新北捷運環狀線、雙北聯營公車",
+    "how": "悠遊付乘車碼或嗶乘車",
+    "limited": "yes",
+    "limited_quote": "限量1.5萬份",
+    "sold_out": [
      {
       "scope_label": "10月份",
       "scope_start": "2026-10-01",
@@ -3777,6 +3802,53 @@
        "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750"
       }
      },
+     {
+      "scope_label": "11月份",
+      "scope_start": "2026-11-01",
+      "scope_end": "2026-11-30",
+      "source": "terms",
+      "evidence": {
+       "quote": "11月份活動已於2026/11/18 17:57額滿",
+       "url": "https://easywallet.easycard.com.tw/benefit/content?id=1790677750"
+      }
+     }
+    ]
+   },
+   {
+    "name": "滿30趟(不含0元扣款)",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 15000,
+    "quota_quote": "限量1.5萬份",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50.0,
+      "unit": "元",
+      "quote": "再贈50元悠遊付現金回饋券(限量1.5萬份)"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 30,
+      "unit": "次",
+      "per": "month",
+      "quote": "滿30趟(不含0元扣款)，再贈50元悠遊付現金回饋券"
+     }
+    ],
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "台北捷運(不含貓空纜車)、新北捷運環狀線、雙北聯營公車",
+    "how": "悠遊付乘車碼或嗶乘車",
+    "limited": "yes",
+    "limited_quote": "限量1.5萬份",
+    "sold_out": [
      {
       "scope_label": "10月份",
       "scope_start": "2026-10-01",
@@ -3793,8 +3865,8 @@
   "title_sold_out": [],
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
-  "content_hash": "0a3fe6858280e27c",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "content_hash": "83ad19d696b1dc70",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3859,7 +3931,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "b56b082b7d59b11e",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3919,7 +3991,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "f4fa1c679ee1b0ce",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -3990,7 +4062,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "f5b547d473961cda",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4098,7 +4170,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "55898ddd71d93327",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4165,7 +4237,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "57f7afe7679c1c0b",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4276,7 +4348,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "acb4d2fd4b3983f8",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4307,7 +4379,7 @@
     "quota_quote": "悠遊付每月上限1,200張、悠遊卡每月上限800張",
     "review": [
      "子活動名稱不在原文中：活動一",
-     "額滿引句不是已額滿的聲明：活動一100元券於11/14(六)10:26額滿"
+     "額滿引句不是已額滿的聲明：11月份:活動二首消50元券於11/13(五)16:07額滿"
     ],
     "rewards": [
      {
@@ -4321,14 +4393,14 @@
      {
       "amount": 500,
       "unit": "元",
-      "per": "month",
+      "per": "campaign",
       "quote": "累積扣款滿500元"
      }
     ],
     "caps": [
      {
       "amount": 1,
-      "unit": "次",
+      "unit": "份",
       "per": "month",
       "quote": "每悠遊付會員、每悠遊卡友每月回饋上限1張"
      }
@@ -4336,7 +4408,7 @@
     "new_users_only": "no",
     "new_users_quote": "悠遊付會員於摩斯漢堡使用悠遊付或記名悠遊卡累積扣款滿500元",
     "where": "摩斯漢堡",
-    "how": "使用悠遊付或記名悠遊卡累積扣款",
+    "how": "使用悠遊付或記名悠遊卡",
     "limited": "yes",
     "limited_quote": "悠遊付每月上限1,200張、悠遊卡每月上限800張",
     "sold_out": []
@@ -4349,11 +4421,11 @@
     "reregister_quote": "",
     "order": "unknown",
     "order_quote": "",
-    "quota": null,
+    "quota": 2000,
     "quota_quote": "每月上限2,000張",
     "review": [
      "子活動名稱不在原文中：活動二",
-     "額滿引句不是已額滿的聲明：活動二首消50元券於11/13(五)16:07額滿"
+     "額滿引句不是已額滿的聲明：11月份:活動二首消50元券於11/13(五)16:07額滿"
     ],
     "rewards": [
      {
@@ -4375,7 +4447,7 @@
     "new_users_only": "yes",
     "new_users_quote": "首次係指本活動前不曾以悠遊付於摩斯漢堡消費之人",
     "where": "摩斯漢堡",
-    "how": "首次使用悠遊付於摩斯漢堡消費任一餐點",
+    "how": "使用悠遊付",
     "limited": "yes",
     "limited_quote": "每悠遊付會員限贈1張，每月上限2,000張",
     "sold_out": []
@@ -4384,8 +4456,8 @@
   "title_sold_out": [],
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
-  "content_hash": "e3997915ee735b34",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "content_hash": "b03f33c59dd6728c",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4425,9 +4497,9 @@
      "限於7月1日至12月31日期間完成減塑Easy Life活動登錄"
     ],
     "reregister": "once",
-    "reregister_quote": "限於7月1日至12月31日期間完成減塑Easy Life活動登錄",
+    "reregister_quote": "每人限領一份",
     "order": "retroactive_ok",
-    "order_quote": "限於7月1日至12月31日期間完成減塑Easy Life活動登錄且於登錄當月集集樂集滿1次者",
+    "order_quote": "集集樂次數統計溯及自登錄日當月1日起進行累計",
     "quota": 10000,
     "quota_quote": "活動全期總限量10,000份",
     "review": [],
@@ -4455,8 +4527,8 @@
       "quote": "每人限領一份"
      }
     ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
+    "new_users_only": "yes",
+    "new_users_quote": "(7月1日前完成登錄者不適用)",
     "where": "",
     "how": "悠遊付APP首頁>減塑Easy Life>點選「我要登錄」",
     "limited": "yes",
@@ -4466,9 +4538,7 @@
    {
     "name": "挑戰2｜集次數",
     "slots": [],
-    "rules": [
-     "活動期間內登錄「減塑Easy Life」，集集樂次數統計溯及自登錄日當月1日起進行累計"
-    ],
+    "rules": [],
     "reregister": "once",
     "reregister_quote": "活動期間內登錄「減塑Easy Life」",
     "order": "retroactive_ok",
@@ -4476,12 +4546,11 @@
     "quota": null,
     "quota_quote": "回饋份數限量，先領先得，額滿即止",
     "review": [
-     "規則無法驗證（year=2026 在引句中找不到）：活動期間內登錄「減塑Easy Life」，集集樂次數統計溯及自登錄日當月1日起進",
-     "門檻 5 在引句中找不到：活動期間累積達指定次數即可兌換相對應之回饋",
-     "門檻 10 在引句中找不到：活動期間累積達指定次數即可兌換相對應之回饋",
-     "門檻 15 在引句中找不到：活動期間累積達指定次數即可兌換相對應之回饋",
-     "門檻 20 在引句中找不到：活動期間累積達指定次數即可兌換相對應之回饋",
-     "回饋數值 20 在引句中找不到：現金回饋券面額"
+     "門檻引句不在原文中：5次",
+     "門檻引句不在原文中：10次",
+     "門檻引句不在原文中：15次",
+     "門檻引句不在原文中：20次",
+     "回饋引句不在原文中：現金回饋券面額 20元"
     ],
     "rewards": [],
     "min_spends": [],
@@ -4495,8 +4564,8 @@
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "於台北建國假日花市消費購物時使用環保袋",
-    "how": "使用自帶杯、指定循環杯購買飲料",
+    "where": "限使用本活動循環杯合作業者之循環杯購買飲品",
+    "how": "需於悠遊付APP「減塑Easy Life 」活動頁面中完成綁定手機條碼載具",
     "limited": "yes",
     "limited_quote": "回饋份數限量，先領先得，額滿即止",
     "sold_out": []
@@ -4504,9 +4573,7 @@
    {
     "name": "挑戰3｜集重量",
     "slots": [],
-    "rules": [
-     "活動期間內登錄「減塑Easy Life」，集集樂減廢量統計溯及自登錄日當月1日起進行累計"
-    ],
+    "rules": [],
     "reregister": "once",
     "reregister_quote": "活動期間內登錄「減塑Easy Life」",
     "order": "retroactive_ok",
@@ -4514,13 +4581,25 @@
     "quota": null,
     "quota_quote": "回饋份數限量，先領先得，額滿即止",
     "review": [
-     "規則無法驗證（year=2026 在引句中找不到）：活動期間內登錄「減塑Easy Life」，集集樂減廢量統計溯及自登錄日當月1日起",
-     "門檻 1 在引句中找不到：活動期間累積達指定重量即可兌換相對應之回饋",
-     "門檻 2 在引句中找不到：活動期間累積達指定重量即可兌換相對應之回饋",
-     "回饋數值 20 在引句中找不到：現金回饋券面額"
+     "門檻 500 在引句中找不到：0.5Kg",
+     "門檻 1 在引句中找不到：1.5Kg",
+     "回饋引句不在原文中：現金回饋券面額 20元"
     ],
     "rewards": [],
-    "min_spends": [],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "1.0Kg"
+     },
+     {
+      "amount": 2,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "2.0Kg"
+     }
+    ],
     "caps": [
      {
       "amount": 1,
@@ -4532,7 +4611,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "",
-    "how": "使用自帶杯、指定循環杯購買飲料",
+    "how": "",
     "limited": "yes",
     "limited_quote": "回饋份數限量，先領先得，額滿即止",
     "sold_out": []
@@ -4541,7 +4620,6 @@
     "name": "挑戰4｜解任務",
     "slots": [],
     "rules": [
-     "限8/1起新登錄",
      "並於8/14前完成減塑Easy Life活動登錄者"
     ],
     "reregister": "once",
@@ -4573,20 +4651,20 @@
     ],
     "min_spends": [],
     "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
+    "new_users_only": "yes",
+    "new_users_quote": "完成減塑Easy Life活動登錄(限8/1起新登錄)",
     "where": "西門捷運站 6 號出口東側廣場 綠色塑形所攤位",
     "how": "攜帶環保杯+本人記名遊卡於現場攤位完成嗶卡",
     "limited": "yes",
-    "limited_quote": "可領5元現金回饋券，活動限量1,000份",
+    "limited_quote": "活動限量1,000份",
     "sold_out": []
    }
   ],
   "title_sold_out": [],
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
-  "content_hash": "9b00ffd8d1e9541a",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "content_hash": "de283b63155b1f6c",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4757,7 +4835,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "91400f7bd5561b92",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4830,7 +4908,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "86d764ef2a08489b",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4913,7 +4991,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "8556ff4ca8e3797b",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -4978,7 +5056,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "a9032829f5155f89",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -5112,7 +5190,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "f449b265accac5f7",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -5293,7 +5371,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "604a93fdee78c8e2",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -5416,7 +5494,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "903ed233abbe16e2",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -5925,7 +6003,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "9210a1d4f4c79cd1",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -6201,7 +6279,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "ab61d76adc3ff618",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -6268,7 +6346,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "c41134f4a168dc7a",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -6608,7 +6686,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "17a895fd73c96655",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -6742,7 +6820,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "a8e8db54379bff6d",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -6815,7 +6893,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "fc2506d025fe054a",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -7633,7 +7711,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "ff76aa73594ea5c5",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -7718,7 +7796,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "2190196304e3c316",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -7899,7 +7977,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "44ac91f9b3fe17f8",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -8027,7 +8105,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "2782b36b3554b119",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -8087,7 +8165,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "651119877ea41347",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -8290,7 +8368,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "389830252cd7160b",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -8453,7 +8531,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "d018ee988b8c6efe",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -8950,7 +9028,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "3871eabffe284903",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9175,7 +9253,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "c77ad854c39bc211",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9235,7 +9313,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "2c24c5fbb08f39d6",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9307,7 +9385,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "c8d93473e0d478a1",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9367,7 +9445,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "85181e02d3c15b9f",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9482,7 +9560,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "f1fe8d192db34ba7",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9612,7 +9690,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "ba76d32310b3e946",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9679,7 +9757,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "4eeaff5f332e9912",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  },
  {
@@ -9739,7 +9817,7 @@
   "portal_url": "https://easywallet.easycard.com.tw/benefit",
   "review": [],
   "content_hash": "6ce8ef4b96c7dcda",
-  "observed_at": "2026-11-19T09:18:15+08:00",
+  "observed_at": "2026-11-20T08:50:16+08:00",
   "stale": false
  }
 ]

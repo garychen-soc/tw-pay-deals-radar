@@ -1,17 +1,17 @@
 {
- "observed_at": "2026-11-19T09:18:15+08:00",
- "llm_calls": 4,
+ "observed_at": "2026-11-20T08:50:16+08:00",
+ "llm_calls": 6,
  "llm_failures": 0,
  "llm_usage": {
   "model": "sonnet",
-  "calls": 4,
-  "input_tokens": 10,
-  "output_tokens": 9133,
-  "cache_creation_tokens": 52116,
-  "cache_read_tokens": 15540,
-  "total_tokens": 76799,
-  "cost_usd": 0.3029,
-  "llm_seconds": 53.8
+  "calls": 6,
+  "input_tokens": 12,
+  "output_tokens": 8206,
+  "cache_creation_tokens": 55289,
+  "cache_read_tokens": 10434,
+  "total_tokens": 73941,
+  "cost_usd": 0.3053,
+  "llm_seconds": 88.1
  },
  "publishable": true,
  "messages": [],
@@ -31,13 +31,13 @@
   {
    "provider_id": "taiwanpay",
    "provider_name": "台灣Pay",
-   "status": "partial",
+   "status": "ok",
    "entry_url": "https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109",
-   "stubs": 57,
-   "activities": 56,
-   "detail_failures": 40,
-   "message": "筆數由 56 掉到 16（超過 40%），沿用上一輪資料",
-   "carried": 56,
+   "stubs": 58,
+   "activities": 57,
+   "detail_failures": 0,
+   "message": "",
+   "carried": 0,
    "fallback": ""
   },
   {
