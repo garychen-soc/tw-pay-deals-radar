@@ -56,7 +56,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "a30dd3b348ab14cd",
-  "observed_at": "2026-11-21T08:50:09+08:00",
+  "observed_at": "2026-11-22T09:19:11+08:00",
   "stale": false
  },
  {
@@ -188,7 +188,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "d3f1ceea4db5f3d0",
-  "observed_at": "2026-11-21T08:50:09+08:00",
+  "observed_at": "2026-11-22T09:19:11+08:00",
   "stale": false
  },
  {
@@ -276,7 +276,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "edf697a8eeff516e",
-  "observed_at": "2026-11-21T08:50:09+08:00",
+  "observed_at": "2026-11-22T09:19:11+08:00",
   "stale": false
  },
  {
@@ -465,7 +465,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "733992b0dcaa58aa",
-  "observed_at": "2026-11-21T08:50:09+08:00",
+  "observed_at": "2026-11-22T09:19:11+08:00",
   "stale": false
  },
  {
@@ -760,7 +760,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "a5909648ed722acd",
-  "observed_at": "2026-11-21T08:50:09+08:00",
+  "observed_at": "2026-11-22T09:19:11+08:00",
   "stale": false
  }
 ]
