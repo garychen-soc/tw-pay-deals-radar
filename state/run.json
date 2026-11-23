@@ -1,22 +1,20 @@
 {
- "observed_at": "2026-11-22T09:19:11+08:00",
- "llm_calls": 0,
+ "observed_at": "2026-11-23T09:19:17+08:00",
+ "llm_calls": 2,
  "llm_failures": 0,
  "llm_usage": {
   "model": "sonnet",
-  "calls": 0,
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "cache_creation_tokens": 0,
-  "cache_read_tokens": 0,
-  "total_tokens": 0,
-  "cost_usd": 0.0,
-  "llm_seconds": 0.0
+  "calls": 2,
+  "input_tokens": 4,
+  "output_tokens": 1359,
+  "cache_creation_tokens": 18937,
+  "cache_read_tokens": 3478,
+  "total_tokens": 23778,
+  "cost_usd": 0.09,
+  "llm_seconds": 29.5
  },
  "publishable": true,
- "messages": [
-  "台灣Pay：暫時性失敗，重試仍失敗"
- ],
+ "messages": [],
  "sources": [
   {
    "provider_id": "pxpayplus",
@@ -33,13 +31,13 @@
   {
    "provider_id": "taiwanpay",
    "provider_name": "台灣Pay",
-   "status": "failed",
+   "status": "ok",
    "entry_url": "https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109",
-   "stubs": 0,
-   "activities": 57,
+   "stubs": 59,
+   "activities": 58,
    "detail_failures": 0,
-   "message": "FetchFailed: 瀏覽器啟動失敗；需安裝 Chromium，Linux 需透過 Xvfb 執行；暫時性失敗，重試仍失敗：FetchFailed: 瀏覽器啟動失敗；需安裝 Chromium，Linux 需透過 Xvfb 執行",
-   "carried": 57,
+   "message": "",
+   "carried": 0,
    "fallback": ""
   },
   {
@@ -47,8 +45,8 @@
    "provider_name": "一卡通 iPASS MONEY",
    "status": "ok",
    "entry_url": "https://www.i-pass.com.tw/Preferential?type=0&page=1",
-   "stubs": 44,
-   "activities": 44,
+   "stubs": 43,
+   "activities": 43,
    "detail_failures": 0,
    "message": "",
    "carried": 0,
@@ -129,12 +127,12 @@
   {
    "provider_id": "gamapay",
    "provider_name": "橘子支付",
-   "status": "partial",
+   "status": "ok",
    "entry_url": "https://www.gamapay.com.tw/news_list.html",
-   "stubs": 2,
-   "activities": 2,
-   "detail_failures": 1,
-   "message": "1 筆明細讀取失敗",
+   "stubs": 3,
+   "activities": 3,
+   "detail_failures": 0,
+   "message": "",
    "carried": 0,
    "fallback": ""
   },

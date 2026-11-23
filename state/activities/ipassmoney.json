@@ -63,7 +63,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "e401996a98baaea7",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -88,7 +88,7 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "0f1e880c0622372c",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -242,7 +242,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b4fd2ae208f6b427",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -372,7 +372,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b8d2050c88fd4b7a",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -397,7 +397,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "b369c901374a3bbd",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -524,7 +524,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "43c370d20c1b0464",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -549,140 +549,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "cbb7bd3605af8155",
-  "observed_at": "2026-11-22T09:19:11+08:00",
-  "stale": false
- },
- {
-  "id": "ipassmoney-0e52485c19",
-  "provider_id": "ipassmoney",
-  "provider_name": "一卡通 iPASS MONEY",
-  "title": "憑指定演唱會門票，享三重活動好禮！",
-  "aliases": [],
-  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DIMISAQM2364vX8a7",
-  "period_start": "2026-11-17",
-  "period_end": "2026-11-22",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "required",
-  "registration_quote": "欲領取「高雄商圈夜市數位券」之用戶，須於欲領券之 APP 完成開通「數位券」使用者券匣(錢包)服務功能",
-  "offers": [
-   {
-    "name": "活動一:高雄商圈夜市券 150 元",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 70000,
-    "quota_quote": "本活動限量 7 萬張，發完即止",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 50.0,
-      "unit": "元",
-      "quote": "兌換高雄商圈夜市優惠券 50 元"
-     },
-     {
-      "kind": "coupon",
-      "value": 100.0,
-      "unit": "元",
-      "quote": "領取高雄商圈夜市數位券 100 元"
-     }
-    ],
-    "min_spends": [],
-    "caps": [
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "campaign",
-      "quote": "每張演唱會門票限領 1 次"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "指定地點兌換處",
-    "how": "使用參與機構之 APP 領取高雄商圈夜市數位券 100 元",
-    "limited": "yes",
-    "limited_quote": "本活動限量 7 萬張，發完即止",
-    "sold_out": []
-   },
-   {
-    "name": "活動二:現場使用 iPASS MONEY APP 領券加贈一卡通乙張",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": 30000,
-    "quota_quote": "活動期間總贈送限量 3 萬張",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "gift",
-      "value": 1.0,
-      "unit": "other",
-      "quote": "兌換精美一卡通乙張"
-     }
-    ],
-    "min_spends": [],
-    "caps": [
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "campaign",
-      "quote": "活動期間每人限領一次"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "兌券現場",
-    "how": "使用 iPASS MONEY APP 開啟「掃碼支付」，掃描高雄商圈夜市數位券活動酷卡領券 QRcode",
-    "limited": "yes",
-    "limited_quote": "活動期間總贈送限量 3 萬張，每日每站數量有限贈完為止",
-    "sold_out": []
-   },
-   {
-    "name": "活動三:全額使用完畢再加碼抽數位券 50 元",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 50.0,
-      "unit": "元",
-      "quote": "加碼抽「數位券」50 元 1 張"
-     }
-    ],
-    "min_spends": [],
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "",
-    "how": "使用活動參與機構之 APP 完成高雄商圈夜市數位券領取",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
-  "review": [
-   "需登錄或領券，但官方未寫時點"
-  ],
-  "content_hash": "b298b6223fd93179",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -767,7 +634,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "2b672d380ffc8eb2",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -836,7 +703,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "cc065afbfa989a20",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -945,7 +812,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "79750ad562c5d187",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1016,7 +883,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "05fe729871eaf25e",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1041,7 +908,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "4cc21dff0966b6de",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1157,7 +1024,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "8f5dfec97e6186a1",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1279,7 +1146,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "da553799c09c896e",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1348,7 +1215,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "26224a0412c5e0d9",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1434,7 +1301,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "71c64b97a7ad0345",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1543,7 +1410,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b0e39c46e3e95916",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -1610,7 +1477,90 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "89f288eb37c94f4b",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
+  "stale": false
+ },
+ {
+  "id": "ipassmoney-480c1c1519",
+  "provider_id": "ipassmoney",
+  "provider_name": "一卡通 iPASS MONEY",
+  "title": "【資安大升級】綁定 email 多一道防護，再抽 iPhone 18 Pro 及一卡通綠點 8888 點！",
+  "aliases": [],
+  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DIOIJDCCU464arnIM",
+  "period_start": "2026-11-23",
+  "period_end": "2026-12-31",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "須同意加入一卡通綠點始符合抽獎資格，請至遲於 2026 年 12 月底前 點此同意快速加入 一卡通綠點計畫",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [
+     "請至遲於 2026 年 12 月底前 點此同意快速加入 一卡通綠點計畫"
+    ],
+    "reregister": "once",
+    "reregister_quote": "須同意加入一卡通綠點始符合抽獎資格",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": null,
+    "quota_quote": "",
+    "review": [
+     "規則無法驗證（day=31 在引句中找不到）：請至遲於 2026 年 12 月底前 點此同意快速加入 一卡通綠點計畫",
+     "回饋數值 1 在引句中找不到：iPhone 18 Pro 256G"
+    ],
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 8888.0,
+      "unit": "點",
+      "quote": "一卡通綠點 8,888 點"
+     },
+     {
+      "kind": "points",
+      "value": 888.0,
+      "unit": "點",
+      "quote": "一卡通綠點 888 點"
+     },
+     {
+      "kind": "points",
+      "value": 666.0,
+      "unit": "點",
+      "quote": "一卡通綠點 666 點"
+     },
+     {
+      "kind": "points",
+      "value": 168.0,
+      "unit": "點",
+      "quote": "一卡通綠點 168 點"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 100,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "累積消費每滿 100 元即享 1 次額外抽獎機會"
+     }
+    ],
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "",
+    "how": "於 iPASS MONEY APP 首頁點選「錢包帳戶」＞「個人資料」＞選擇「綁定 email」功能",
+    "limited": "unknown",
+    "limited_quote": "",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
+  "review": [],
+  "content_hash": "9fb55abe62ecc16d",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2012,7 +1962,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "91a01dbcc267c71a",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2128,7 +2078,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b90a12081f01b5f5",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2199,7 +2149,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "e98c96abd0760c09",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2359,83 +2309,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "31adcf3bb31e8022",
-  "observed_at": "2026-11-22T09:19:11+08:00",
-  "stale": false
- },
- {
-  "id": "ipassmoney-75266cfbfe",
-  "provider_id": "ipassmoney",
-  "provider_name": "一卡通 iPASS MONEY",
-  "title": "【高雄商圈夜市數位券再加碼】用 iPASS MONEY APP 領券，符合條件抽 50 元數位券",
-  "aliases": [],
-  "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DINYQ2DBAK64jF3gg",
-  "period_start": "2026-11-17",
-  "period_end": "2026-11-22",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "required",
-  "registration_quote": "使用一卡通 iPASS MONEY APP 成功掃碼領取高雄商圈夜市數位券",
-  "offers": [
-   {
-    "name": "",
-    "slots": [
-     {
-      "start": "2026-11-18T00:00:00+08:00",
-      "end": "2026-11-22T23:59:00+08:00",
-      "kind": "range",
-      "origin": "explicit",
-      "precision": "minute",
-      "holiday_shifted": false,
-      "note": "",
-      "evidence": {
-       "quote": "活動日期:2026/11/18 00:00 - 2026/11/22 23:59",
-       "url": "https://www.i-pass.com.tw/Preferential/Detail/GM2DINYQ2DBAK64jF3gg"
-      }
-     }
-    ],
-    "rules": [
-     "活動日期:2026/11/18 00:00 - 2026/11/22 23:59"
-    ],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "retroactive_ok",
-    "order_quote": "活動期間使用一卡通 iPASS MONEY APP 完成高雄商圈夜市數位券領取，且於 2027/2/28 23:59 前「全額使用完畢」者",
-    "quota": 4000,
-    "quota_quote": "本活動共抽出 4,000 名",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 50.0,
-      "unit": "元",
-      "quote": "加碼抽「數位券」50 元 1 張"
-     }
-    ],
-    "min_spends": [],
-    "caps": [
-     {
-      "amount": 1,
-      "unit": "次",
-      "per": "campaign",
-      "quote": "每人限中獎一次"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "使用通路為全台數位券適用店家，不限於高雄商圈夜市數位券指定店家",
-    "how": "使用一卡通 iPASS MONEY APP 完成高雄商圈夜市數位券領取",
-    "limited": "yes",
-    "limited_quote": "本活動共抽出 4,000 名，每人限中獎一次。",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
-  "review": [],
-  "content_hash": "84e18131bc5a26fd",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2562,7 +2436,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "16eb53e344db51af",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2598,7 +2472,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "c070cf2db0697e31",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2623,7 +2497,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "1ae47bf74f776ee0",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2690,7 +2564,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "d938c85688c394c1",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2804,7 +2678,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "3b34222eaa6433ce",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2934,7 +2808,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "2edb6dd264d0073a",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -2959,7 +2833,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "53be31b155bd0a88",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3026,7 +2900,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "71787dd62bd20f3d",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3144,7 +3018,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "cdd85374e17871d4",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3222,7 +3096,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "777784f6d5a1c1c4",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3247,7 +3121,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "b2a18ddddcaf0c2d",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3403,7 +3277,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "497537a78893ba67",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3476,7 +3350,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "eef65a3256ec0e01",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3560,7 +3434,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "dfcef520e45d364a",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3649,7 +3523,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "15ba49ff40bf41cc",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3674,7 +3548,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "3c5bb52a59a3f9a4",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3710,7 +3584,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "7c6dd74368ea108a",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3813,7 +3687,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "b86bef0e0af8a161",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3875,7 +3749,7 @@
   "portal_url": "https://www.i-pass.com.tw/Preferential?type=0",
   "review": [],
   "content_hash": "096edfc4971ffcaa",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  },
  {
@@ -3900,7 +3774,7 @@
    "條款在合作方網站，未抽取，請點官方頁確認"
   ],
   "content_hash": "8ba01e8feb247e8d",
-  "observed_at": "2026-11-22T09:19:11+08:00",
+  "observed_at": "2026-11-23T09:19:17+08:00",
   "stale": false
  }
 ]
