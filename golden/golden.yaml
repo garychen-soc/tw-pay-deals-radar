@@ -45,11 +45,7 @@
   - 享最高8%回饋
   note: 活動僅每月5號，額滿各限當月5號(單日)，故 scope 取該日。8% 為標題宣稱最高回饋率。每月500/100份為總量不入caps。
 - id: easywallet-02
-  provider: easywallet
-  url: https://easywallet.easycard.com.tw/benefit/content?id=1782278283
-  title: 「減塑 Easy Life｜集集樂挑戰賽」
-  content_hash: 9b00ffd8d1e9541a
-  is_offer: 'yes'
+  is_offer: true
   registration: required
   rewards:
   - unit: 元
@@ -60,28 +56,23 @@
     value: 5
   - unit: other
     value: null
-  min_spend:
-  - amount: 1
-    unit: 次
-  - amount: 5
-    unit: 次
-  - amount: 10
-    unit: 次
-  - amount: 15
-    unit: 次
-  - amount: 20
-    unit: 次
+  min_spend: []
   caps:
   - amount: 1
     unit: 份
   sold_out: []
   quotes:
-  - 完成減塑Easy Life活動登錄且於登錄當月集集樂集滿1次者
-  - 每人限領一份，數量有限，贈完即止
-  - 登錄方式:悠遊付APP首頁>減塑Easy Life>點選「我要登錄」
-  - 活動期間累積達指定次數即可兌換相對應之回饋
-  - 前100名者，加碼再送悠遊卡1張(不挑款)
-  note: 門檻有累計次數與減廢重量(kg不在單位清單，未記)。悠遊卡贈品用 other。各項限量為總量不入caps；每人限領一份記 1 份。
+  - 登錄方式:悠遊付APP首頁>減塑Easy Life>點選「我要登錄」，即可參加活動。<立即登錄>
+  - 贈「悠遊付50元現金回饋券」一份，活動全期總限量10,000份，每人限領一份，數量有限，贈完即止。
+  - 每一回饋門檻獎項，每人限領一份
+  - 可領5元現金回饋券，活動限量1,000份。
+  - 8/8當日於現場攤位完成任務1+任務2之前100名者，加碼再送悠遊卡1張(不挑款)。
+  note: 2026-11-23 換新。須先登錄減塑Easy Life→required。回饋券：登錄禮50元、集次數/集重量各20元、解任務5元＋悠遊卡1張(other)。每人限領一份記 1 份。總限量(10,000份等)為總預算不入caps；『額滿即止』『贈完即止』『若額滿則活動提前結束』皆為條件句，sold_out 不記。現金回饋券『單筆滿5/20/50元』是券的使用門檻、集次數是累計次數，非明確參加消費門檻，拿不準不記
+    min_spend。
+  provider: easywallet
+  url: https://easywallet.easycard.com.tw/benefit/content?id=1782278283
+  title: 「減塑 Easy Life｜集集樂挑戰賽」
+  content_hash: de283b63155b1f6c
 - id: easywallet-03
   provider: easywallet
   url: https://easywallet.easycard.com.tw/benefit/content?id=1737338924
@@ -513,11 +504,7 @@
   - 每人每月回饋上限 200 點，活動總限量 10 萬點
   note: 額滿聲明僅涵蓋活動二(前1000名加贈50點)，其餘活動一/三未額滿；scope 依整個『活動二』記 null/null。總限量2,000份/1,000名/10萬點不入caps。
 - id: ipassmoney-05
-  provider: ipassmoney
-  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C
-  title: 【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！
-  content_hash: 114053b003acdcf0
-  is_offer: 'yes'
+  is_offer: true
   registration: required
   rewards:
   - unit: 點
@@ -525,15 +512,21 @@
   min_spend:
   - amount: 100
     unit: 元
+  - amount: 1
+    unit: 筆
   caps:
   - amount: 1
     unit: 次
   sold_out: []
   quotes:
-  - 將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶，且完成任一筆手機門號轉帳，即可獲得一卡通綠點 168 點抽獎機會(每月共抽出 30 名，活動期間每人限中獎 1 次)
-  - 累積消費滿 100 元即享 1 次額外抽獎機會
+  - 活動內容:活動期間內，將 iPASS MONEY 綁定為手機門號轉帳的預設帳戶，且完成任一筆手機門號轉帳，即可獲得一卡通綠點 168 點抽獎機會(每月共抽出 30 名，活動期間每人限中獎 1 次)。
+  - 活動期間當月使用 iPASS MONEY（含帳戶餘額或綁定信用卡付款）累積消費滿 100 元即享 1 次額外抽獎機會，滿 200 元即享 2 次額外抽獎機會，以此類推。
   - 須同意加入一卡通綠點回饋後，方符合活動回饋資格。
-  note: 抽獎。caps 取每人限中獎1次；『每人每月轉帳抽獎次數上限20次』是抽獎機會數非回饋上限，未記。min_spend 取消費加碼門檻100元；轉帳資格為任一筆不限金額未記。
+  note: 2026-11-23 換新。須同意加入一卡通綠點回饋計畫（且綁定手機門號為預設收款帳戶）→required。獎品為抽獎168點。min_spend 記加碼抽獎機會的『當月消費滿100元』，以及抽獎資格『完成任一筆手機門號轉帳』＝1筆（score 對照後更正：比照 ipassmoney-01『消費任1筆』前例記 1 筆；轉帳不限金額）。caps 記『活動期間每人限中獎1次』；每月抽出30名＝總名額、每月轉帳抽獎機會上限20次＝抽獎機會次數，依SPEC皆不是每人回饋上限，不記。
+  provider: ipassmoney
+  url: https://www.i-pass.com.tw/Preferential/Detail/GM2DEMQ4ZMJRH6417p3C
+  title: 【手機門號轉轉樂】綁定手機門號轉帳，筆筆轉帳樂抽一卡通綠點 168 點！
+  content_hash: 777784f6d5a1c1c4
 - id: ipassmoney-06
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DGMIM77TDA641VFCA
@@ -615,28 +608,29 @@
   - 每筆交易回饋上限5份
   note: 100元電子酬賓券記 100 元。caps=每日每會員1份(單筆5份為每筆上限未記)。需微風會員/APP但非登錄，not_required。；11-06 仲裁補記：每筆交易回饋上限5份
 - id: ipassmoney-10
-  is_offer: 'yes'
+  is_offer: true
   registration: required
   rewards:
   - unit: 元
     value: 50
-  min_spend:
-  - amount: 1
-    unit: 筆
+  min_spend: []
   caps:
   - amount: 1
     unit: 份
-  sold_out: []
+  sold_out:
+  - scope_start: null
+    scope_end: null
+    quote: '[活動回饋人數上限已於 2026/11/18 08:30 額滿 ]'
   quotes:
-  - 繳納任一筆地價稅，送「數位券」50 元 1張（每人限贈一張，限前 25, 000 名）
-  - 欲參加活動請先於 iPASS MONEY APP「開通」數位券錢包，若未開通數位券錢包將不符合活動資格
-  - 本活動回饋數位券總限量 25,000 張，額滿將公告於此活動網頁
-  note: 2026-11-10 新增（取代下架的 ipassmoney-07）。須先主動「開通」數位券錢包才有資格，屬參加前的主動開通動作（非單純綁定付款工具/下載 APP）→ required，此判讀無前例、略不確定。「繳納任一筆」記門檻 1 筆；「每人限贈一張」記 caps 1 份（張→份）。總限量 25,000 張/前 25,000 名為總名額非 caps。條款「例如本活動於 2026/11/5
-    15:00 提前額滿」是假設舉例，「額滿將公告」是條件句，皆不算 sold_out。
+  - '[活動回饋人數上限已於 2026/11/18 08:30 額滿 ]'
+  - 並在活動期間於 iPASS MONEY APP 透過本活動指定路徑，繳納任一筆地價稅，送「數位券」50 元 1張
+  - 每人限贈一張
+  - 本活動為回饋「數位券」，欲參加活動請先於 iPASS MONEY APP「開通」數位券錢包，若未開通數位券錢包將不符合活動資格。
+  note: 2026-11-23 換新。須先開通數位券錢包→required。額滿為官方已發生聲明（2026/11/18 08:30，整檔活動 scope 全空）。限前25,000名／總限量25,000張為總預算不入caps；每人限贈一張記 1 份（check 不接受『張』，依SPEC次數類單位同類）。繳任一筆地價稅無金額門檻，min_spend 不記。
   provider: ipassmoney
   url: https://www.i-pass.com.tw/Preferential/Detail/GM2DGNQMTS7KZ64g6ApJ
-  title: 【 TWQR 掃碼繳稅】用 iPASS MONEY APP 繳地價稅即贈 50 元數位券
-  content_hash: 9a6e9e22c7e4af3f
+  title: '[活動回饋人數上限已於 2026/11/18 08:30 額滿 ]【 TWQR 掃碼繳稅】用 iPASS MONEY APP 繳地價稅即贈 50 元數位券'
+  content_hash: 71c64b97a7ad0345
 - id: jkopay-01
   is_offer: 'yes'
   registration: required
@@ -723,7 +717,7 @@
   - 活動期間內「首次註冊」街口支付，完成「實名認證或身份認證」，並綁定支付工具後，即可領取專屬$50街口券。
   note: 標題稱最高40%但內文無40%，不記；週回饋金額$6,900為總預算非caps；額滿皆條件句。1次 caps 為「每人每週限回饋一次」。
 - id: jkopay-03
-  is_offer: 'yes'
+  is_offer: true
   registration: required
   rewards:
   - unit: '%'
@@ -736,8 +730,8 @@
     value: 3
   - unit: 元
     value: 50
-  - unit: 折
-    value: 6
+  - unit: other
+    value: null
   min_spend:
   - amount: 1000
     unit: 元
@@ -752,19 +746,19 @@
     unit: 次
   sold_out: []
   quotes:
-  - 當月於街口 APP「繳費專區」，繳費滿 $1,000，享 2% 回饋（每月每人上限一張 $20 街口券），本回饋需「手動領取」。
   - 所有付款工具合併計算，每人限領一次
+  - 當月於街口 APP「繳費專區」，繳費滿 $1,000，享 2% 回饋（每月每人上限一張 $20 街口券），本回饋需「手動領取」。
   - 當月於活動頁面登記後，於街口支付 App 繳費專區，使用華南銀行帳戶繳費付款，享 10% 街口幣回饋，單筆最高上限$30，每人每月上限$200。
   - 若綁定台新街口豬富卡，於指定繳費項目付款，享 0.15% 街口幣回饋無上限
   - 享繳費通路筆筆 3% 回饋，每人回饋上限 $200 街口幣回饋
-  - 即可領取並使用專屬 $50 街口券
+  - 首次註冊」街口支付，並完成「實名認證或身份認證」後，即可領取並使用專屬 $50 街口券
   - 綁定街口支付 APP，並設定自動代扣款成功，可享最高 6 折優惠！
-  - 每月限量 55,000 名，名額判別依系統「領取」時間為準，若無法領取則表示已額滿（先領先贏）
-  note: 2026-11-10 換新（整筆重標）。華南帳戶「當月於活動頁面登記」、2% 券需「手動領取」→ required。標題「最高 12%」與「累積最高 2.15%」為加總不記。caps：$20 券為每月每人上限、華南單筆 $30／每月 $200、街利存新戶 $200（同值記一次）、每人限領一次。每月限量 55,000 名為總名額非 caps；12 月券補發 20 元券屬既有券的效期補償、尊爵會員手續費抵用券非本頁活動回饋，皆不記。額滿皆條件句。
+  note: 2026-11-23 換新。2%需『手動領取』、華南10%需『活動頁面登記』→任一子活動需要即 required。rewards：2%街口券、華南10%街口幣、豬富卡0.15%、街利存新戶3%、新戶$50券，other＝停車最高6折＋尊爵會員手續費抵用券。『最高12%』『最高2.15%』為加總，不記。caps：2%每月每人上限一張$20券、華南單筆最高$30、每人每月上限$200（街利存每人上限$200同值，只記一次）；score
+    對照後更正：補『每人限領一次』＝1 次（2%活動每月每人上限一張券），比照11-06仲裁『限各回饋一次』納入 caps。每月限量55,000名為總名額不入caps；『若無法領取則表示已額滿（先領先贏）』是條件句，sold_out 不記。min_spend 只記繳費滿$1,000（2%）。
   provider: jkopay
   url: https://mkt.jkopay.com/zh-TW/campaign/jkopayebill
   title: 地價稅開徵囉！
-  content_hash: 63eacb7dfd9a84ec
+  content_hash: 8548c13e814b8509
 - id: jkopay-04
   provider: jkopay
   url: https://mkt.jkopay.com/zh-TW/campaign/mcdonalds
@@ -943,7 +937,7 @@
   note: 全文未提登錄；綁定付款工具不算。1%基本+2%加碼(四大超商3%加碼)；通路加碼3%與總3%同值。
 - id: pipay-04
   is_offer: true
-  registration: not_required
+  registration: unknown
   rewards:
   - unit: 點
     value: 100
@@ -957,16 +951,25 @@
   caps:
   - amount: 1
     unit: 次
-  sold_out: []
+  sold_out:
+  - scope_label: 活動一
+    scope_start: null
+    scope_end: null
+    quote: 活動一預算已於11/17 下午13:41額滿
+  - scope_label: 活動二
+    scope_start: null
+    scope_end: null
+    quote: 活動二預算已於11/21 凌晨00:07額滿
   quotes:
-  - 單筆實付滿 5,000 元 (含) 以上贈 100 P幣回饋
-  - 單筆實付滿 10,000 元 (含) 以上贈 300 P幣回饋
+  - 單筆滿 5,000 元贈 100 P幣 (活動一預算已於11/17 下午13:41額滿)
+  - 單筆滿 10,000 元贈 300 P幣 (活動二預算已於11/21 凌晨00:07額滿)
   - ＊活動一、二擇優發放，每人僅贈點一次，不重複回饋。
-  note: 2026-11-16 換新（取代 pipay-01）。P幣 1:1 元，unit 比照既有 pipay 記『點』。無登錄/領券：僅需綁定 Pi 拍錢包與帳單e化（綁定／下載類不算登錄）。『每人僅贈點一次』記 1 次；活動總預算 8.5 萬元不是 caps。『贈完為止』條件句，無已發生額滿聲明。
+  - 綁卡成功並申請玉山信用卡帳單e化始享 P幣回饋
+  note: 2026-11-23 換新。P幣1=1元，依前例記『點』。活動一、二預算額滿皆為官方已發生聲明，範圍為子活動（無日期範圍，只填 scope_label）。每人僅贈點一次記 1 次；活動回饋總預算8.5萬元為總預算不入caps。registration：條款只要求註冊/綁定Pi拍錢包App及申請信用卡帳單e化（參加資格，非活動登錄），沿用11-06仲裁精神記 unknown 不計分。
   provider: pipay
   url: https://web.piapp.com.tw/hucc-coop_202611/
   title: 主婦聯盟生活消費合作社｜ 2027年貨年菜預購滿額最高加碼贈300 P幣
-  content_hash: ae349e7a94978c6e
+  content_hash: d3f1ceea4db5f3d0
 - id: pluspay-01
   provider: pluspay
   url: https://www.pluspay.com.tw/Campaign/Promotion/202607Events
@@ -1293,12 +1296,8 @@
   - 單筆最高可得25全點
   note: 主活動需先登錄(每波段)。每人上限記每波段100點；單筆最高25點是單筆限制不記 caps。5%/3% 為銀行/信用卡加碼子活動。總限量50萬4千/每波段16萬8千為總預算。；11-06 仲裁：單筆／每次上限納入 caps（單筆最高可得25全點）
 - id: pxpayplus-08
-  provider: pxpayplus
-  url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=144
-  title: 全支付新戶限時加碼｜完成首筆消費不限金額送50全點！
-  content_hash: cac12d3cec8f78cb
-  is_offer: 'yes'
-  registration: not_required
+  is_offer: true
+  registration: unknown
   rewards:
   - unit: 點
     value: 50
@@ -1312,11 +1311,16 @@
     unit: 次
   sold_out: []
   quotes:
-  - 完成首筆消費不限金額，即享新戶禮50全點
-  - 每一全支付帳號限取得一次回饋。
-  - 【銀行帳戶付款活動：連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！】
-  - 【信用卡付款活動：綁定「指定信用卡」付款即可筆筆再享最高5%全點回饋！】
-  note: 新戶需『註冊成為會員』，但這是成為新戶本身、不是活動登錄，故記 not_required(有爭議)。限一次回饋記 1 次；總回饋2,250,000點是總預算。5%/3% 為加碼子活動。
+  - 全支付新戶：完成首筆消費不限金額，即享50全點回饋！
+  - 銀行/信用卡活動：指定銀行付款最高享5%全點回饋
+  - 連結「指定銀行帳戶」付款即可筆筆再享最高3%全點回饋！
+  - 每一全支付帳號限取得一次回饋
+  note: 2026-11-23 換新。新戶禮50全點（首筆消費不限金額，無金額門檻）；另列指定銀行帳戶最高3%、指定信用卡最高5%全點（細則在另頁，本頁只列最高值）。每一全支付帳號限取得一次回饋記 1 次；總回饋限量2,250,000全點為總預算不入caps。『贈完為止』是條件句，sold_out 不記。registration：只要求新戶註冊會員並完成首筆交易，無活動登錄/領券動作；註冊會員算不算登錄原文未界定，記
+    unknown 不計分。
+  provider: pxpayplus
+  url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=144
+  title: 全支付新戶限時加碼｜完成首筆消費不限金額送50全點！
+  content_hash: 47f7c195daef15c4
 - id: pxpayplus-09
   provider: pxpayplus
   url: https://marketing.pxpayplus.com/pxplus_marketing_page/activity_content_page?EventId=150
