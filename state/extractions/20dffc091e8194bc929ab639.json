@@ -1,0 +1,71 @@
+{
+ "key": "20dffc091e8194bc929ab639",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-24T01:06:49+00:00",
+ "title": "歐付寶TWQR至桃園市復興區消費享10%現金回饋",
+ "duration_ms": 6522,
+ "cost_usd": 0.0288796,
+ "usage": {
+  "input": 2,
+  "output": 492,
+  "cache_creation": 5815,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "單筆消費不限金額享10%現金回饋"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "用戶於活動時間至活動地點掃描TWQR支付成功，單筆消費不限金額享10%現金回饋"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 10,
+      "unit": "%",
+      "quote": "單筆消費不限金額享10%現金回饋"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "campaign",
+      "quote": "活動期間每一電子支付帳戶最高回饋新台幣1,000元"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "桃園市復興區標示 TWQR 之店家",
+    "how": "掃描TWQR",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動回饋總金額上限10萬元，額滿為止"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動回饋總金額上限10萬元，額滿為止"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

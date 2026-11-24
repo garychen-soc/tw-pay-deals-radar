@@ -1,0 +1,78 @@
+{
+ "key": "e3b94524300591b3fc727d29",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-24T01:06:49+00:00",
+ "title": "⏰限量搶！買Uber/Uber Eats抵用券滿$200 贈Uber One免費會籍兩個月💎",
+ "duration_ms": 7701,
+ "cost_usd": 0.0322716,
+ "usage": {
+  "input": 2,
+  "output": 702,
+  "cache_creation": 6138,
+  "cache_read": 3478
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可獲得一組「Uber One 免費會籍兩個月」連結。"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間內於拍享券購買 (兌換) 本活動頁面的 Uber/Uber Eats $200 (含) 以上餘額型抵用券並於 2026/12/6 前使用 (於 Uber/Uber Eats 歸戶) 完畢，即可獲得一組「Uber One 免費會籍兩個月」連結。"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 2,
+      "unit": "other",
+      "quote": "即可獲得一組「Uber One 免費會籍兩個月」連結。"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "本活動限單筆購買面額 200 元 (含) 以上抵用券並歸戶使用"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每個 Uber / Uber Eats 帳號僅能獲取一份「Uber One 免費會籍兩個月」"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "拍享券購買 (兌換) 本活動頁面的 Uber/Uber Eats $200 (含) 以上餘額型抵用券",
+    "how": "使用 (於 Uber/Uber Eats 歸戶) 完畢",
+    "limited": {
+     "value": "yes",
+     "quote": "單一會員僅有一次獲獎機會，限量前 500 組，贈完為止。"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "限量前 500 組"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}

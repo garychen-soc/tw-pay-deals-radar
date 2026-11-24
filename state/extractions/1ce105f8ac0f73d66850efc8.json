@@ -1,0 +1,157 @@
+{
+ "key": "1ce105f8ac0f73d66850efc8",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-24T01:05:51+00:00",
+ "title": "雄獅旅遊｜寒假春節跟團GO！單筆滿額最高省$1200",
+ "duration_ms": 335348,
+ "cost_usd": 0.0577456,
+ "usage": {
+  "input": 4,
+  "output": 1142,
+  "cache_creation": 11028,
+  "cache_read": 11028
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "完成交易即可享以下回饋"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "本活動需於消費前完成「活動登錄」始享活動行銷回饋資格。"
+  },
+  "subs": [
+   {
+    "name": "雄獅專屬折扣碼：下單輸入折扣碼｜單筆滿5萬現折$1000",
+    "rewards": [
+     {
+      "kind": "discount",
+      "value": 1000,
+      "unit": "元",
+      "quote": "單筆滿 $50,000 折 $1,000"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 50000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆滿 $50,000 折 $1,000"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "txn",
+      "quote": "每筆訂單限用 乙 組折扣碼"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "折扣碼限於雄獅旅遊網站、APP以網路下單使用",
+    "how": "下單時輸入「liongonew」折扣碼",
+    "limited": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "quota": {
+     "seats": null,
+     "quote": ""
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "旅遊假期活動：登錄活動｜滿額最高享200全點",
+    "rewards": [
+     {
+      "kind": "points",
+      "value": 5,
+      "unit": "%",
+      "quote": "單筆消費滿 $3,000（含）享 5% 全點回饋"
+     },
+     {
+      "kind": "points",
+      "value": 200,
+      "unit": "點",
+      "quote": "最高可得 200 全點回饋"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 3000,
+      "unit": "元",
+      "per": "txn",
+      "quote": "單筆消費滿 $3,000（含）享 5% 全點回饋"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 200,
+      "unit": "點",
+      "per": "campaign",
+      "quote": "每一全支付帳號最高可得 200 全點回饋"
+     }
+    ],
+    "new_users_only": {
+     "value": "no",
+     "quote": "本活動全支付會員皆可參加"
+    },
+    "where": "本活動僅限於雄獅旅遊官方網站內結帳時",
+    "how": "選擇以「全支付」付款並完成結帳",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動為限量回饋"
+    },
+    "quota": {
+     "seats": null,
+     "quote": "本活動為限量回饋"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "本活動於 2026/11/29 00:00 起開放登錄",
+      "kind": "opens_at",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 29,
+       "hour": 0,
+       "minute": 0
+      },
+      "end": null,
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "本活動需於消費前完成「活動登錄」始享活動行銷回饋資格。"
+    }
+   }
+  ]
+ }
+}

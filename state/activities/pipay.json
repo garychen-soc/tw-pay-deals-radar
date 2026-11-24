@@ -56,7 +56,74 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "a30dd3b348ab14cd",
-  "observed_at": "2026-11-23T09:19:17+08:00",
+  "observed_at": "2026-11-24T08:53:24+08:00",
+  "stale": false
+ },
+ {
+  "id": "pipay-130b58676f",
+  "provider_id": "pipay",
+  "provider_name": "Pi 拍錢包",
+  "title": "⏰限量搶！買Uber/Uber Eats抵用券滿$200 贈Uber One免費會籍兩個月💎",
+  "aliases": [],
+  "url": "https://web.piapp.com.tw/events-pi-tickets-ubereats-202611/",
+  "period_start": "2026-11-23",
+  "period_end": "2026-12-06",
+  "category": "",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "not_required",
+  "registration_quote": "活動期間內於拍享券購買 (兌換) 本活動頁面的 Uber/Uber Eats $200 (含) 以上餘額型抵用券並於 2026/12/6 前使用 (於 Uber/Uber Eats 歸戶) 完畢，即可獲得一組「Uber One 免費會籍兩個月」連結。",
+  "offers": [
+   {
+    "name": "",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 500,
+    "quota_quote": "限量前 500 組",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "gift",
+      "value": 2.0,
+      "unit": "other",
+      "quote": "即可獲得一組「Uber One 免費會籍兩個月」連結。"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 200,
+      "unit": "元",
+      "per": "txn",
+      "quote": "本活動限單筆購買面額 200 元 (含) 以上抵用券並歸戶使用"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "campaign",
+      "quote": "每個 Uber / Uber Eats 帳號僅能獲取一份「Uber One 免費會籍兩個月」"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "拍享券購買 (兌換) 本活動頁面的 Uber/Uber Eats $200 (含) 以上餘額型抵用券",
+    "how": "使用 (於 Uber/Uber Eats 歸戶) 完畢",
+    "limited": "yes",
+    "limited_quote": "單一會員僅有一次獲獎機會，限量前 500 組，贈完為止。",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://web.piapp.com.tw/events/",
+  "review": [],
+  "content_hash": "23b8f9a460719df7",
+  "observed_at": "2026-11-24T08:53:24+08:00",
   "stale": false
  },
  {
@@ -188,7 +255,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "d3f1ceea4db5f3d0",
-  "observed_at": "2026-11-23T09:19:17+08:00",
+  "observed_at": "2026-11-24T08:53:24+08:00",
   "stale": false
  },
  {
@@ -276,7 +343,7 @@
   "portal_url": "https://web.piapp.com.tw/events/",
   "review": [],
   "content_hash": "edf697a8eeff516e",
-  "observed_at": "2026-11-23T09:19:17+08:00",
+  "observed_at": "2026-11-24T08:53:24+08:00",
   "stale": false
  },
  {
@@ -465,7 +532,7 @@
    "需登錄或領券，但官方未寫時點"
   ],
   "content_hash": "733992b0dcaa58aa",
-  "observed_at": "2026-11-23T09:19:17+08:00",
+  "observed_at": "2026-11-24T08:53:24+08:00",
   "stale": false
  },
  {
@@ -493,7 +560,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "活動一回饋總預算 124,400 元",
+    "quota_quote": "活動一回饋總預算 124,400 元，11 月及 12 月各 62,200 元為限",
     "review": [],
     "rewards": [
      {
@@ -513,21 +580,21 @@
     ],
     "caps": [
      {
-      "amount": 311,
-      "unit": "點",
+      "amount": 1,
+      "unit": "次",
       "per": "month",
       "quote": "活動一每人每月僅給點一次，上限 311 P幣"
      },
      {
-      "amount": 1,
-      "unit": "次",
+      "amount": 311,
+      "unit": "點",
       "per": "month",
-      "quote": "活動一每人每月僅給點一次"
+      "quote": "活動一每人每月僅給點一次，上限 311 P幣"
      }
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "指定通路「露天市集」、「東森購物」、「智冠 MyCard」",
+    "where": "於指定通路「露天市集」、「東森購物」、「智冠 MyCard」消費",
     "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
     "limited_quote": "活動一回饋總預算 124,400 元，11 月及 12 月各 62,200 元為限，額滿為止",
@@ -542,7 +609,7 @@
     "order": "unknown",
     "order_quote": "",
     "quota": null,
-    "quota_quote": "活動二回饋總預算 366,600 元",
+    "quota_quote": "活動二回饋總預算 366,600 元，11 月及 12 月各 183,300 元為限",
     "review": [],
     "rewards": [
      {
@@ -562,25 +629,36 @@
     ],
     "caps": [
      {
-      "amount": 611,
-      "unit": "點",
+      "amount": 1,
+      "unit": "次",
       "per": "month",
       "quote": "活動二每人每月僅給點一次，上限 611 P幣"
      },
      {
-      "amount": 1,
-      "unit": "次",
+      "amount": 611,
+      "unit": "點",
       "per": "month",
-      "quote": "活動二每人每月僅給點一次"
+      "quote": "活動二每人每月僅給點一次，上限 611 P幣"
      }
     ],
     "new_users_only": "unknown",
     "new_users_quote": "",
-    "where": "指定通路「比比昂」、「神腦數位」、「全國電子」",
+    "where": "於指定通路「比比昂」、「神腦數位」、「全國電子」消費",
     "how": "持 Pi 拍錢包綁定玉山 Pi 拍錢包信用卡",
     "limited": "yes",
     "limited_quote": "活動二回饋總預算 366,600 元，11 月及 12 月各 183,300 元為限，額滿為止",
-    "sold_out": []
+    "sold_out": [
+     {
+      "scope_label": "11月",
+      "scope_start": "2026-11-01",
+      "scope_end": "2026-11-30",
+      "source": "terms",
+      "evidence": {
+       "quote": "11月活動二已於11/23 下午15:50額滿",
+       "url": "https://web.piapp.com.tw/261112bonus/"
+      }
+     }
+    ]
    },
    {
     "name": "綁定玉山 Pi 拍錢包信用卡支付，單筆滿 499 元登錄享最高 5% P幣回饋 (需登錄)",
@@ -589,17 +667,11 @@
     "reregister": "once",
     "reregister_quote": "活動期間僅需登錄 1 次即可參加每月加碼活動",
     "order": "retroactive_ok",
-    "order_quote": "自登錄當月始計算每月消費金額，不溯及既往",
+    "order_quote": "例如 2026/11/15 登錄，則可參加 2026/11/1~2027/2/28 之每月加碼活動",
     "quota": null,
     "quota_quote": "",
     "review": [],
     "rewards": [
-     {
-      "kind": "percent",
-      "value": 5.0,
-      "unit": "%",
-      "quote": "登錄享最高 5% P幣回饋"
-     },
      {
       "kind": "percent",
       "value": 1.0,
@@ -632,7 +704,7 @@
     "new_users_only": "unknown",
     "new_users_quote": "",
     "where": "Pi 拍錢包通路",
-    "how": "持玉山 Pi 拍錢包信用卡綁定 Pi 拍錢包 APP",
+    "how": "綁定玉山 Pi 拍錢包信用卡支付",
     "limited": "unknown",
     "limited_quote": "",
     "sold_out": []
@@ -644,7 +716,7 @@
     "reregister": "once",
     "reregister_quote": "活動期間僅需登錄 1 次即可參加每月刷卡活動",
     "order": "retroactive_ok",
-    "order_quote": "自登錄當月始計算當月國內一般消費累積金額，不溯及既往",
+    "order_quote": "例如 2026/11/15 登錄，則可參加 2026/11/1~2027/2/28 之每月刷卡活動",
     "quota": null,
     "quota_quote": "",
     "review": [],
@@ -667,13 +739,13 @@
       "amount": 10000,
       "unit": "元",
       "per": "month",
-      "quote": "累積滿 10,000 元"
+      "quote": "門檻 1:累積滿 10,000 元"
      },
      {
       "amount": 30000,
       "unit": "元",
       "per": "month",
-      "quote": "累積滿 30,000 元"
+      "quote": "門檻 2:累積滿 30,000 元"
      }
     ],
     "caps": [
@@ -711,15 +783,9 @@
       "quote": "核卡後 3 個月內享一般消費加碼 5% P幣"
      },
      {
-      "kind": "percent",
-      "value": 10.0,
-      "unit": "%",
-      "quote": "最高享 10% P幣回饋"
-     },
-     {
       "kind": "gift",
       "value": null,
-      "unit": "other",
+      "unit": "份",
       "quote": "滿額贈「AirPods 4 等值之 Studio A 禮券」"
      }
     ],
@@ -727,7 +793,7 @@
      {
       "amount": 100000,
       "unit": "元",
-      "per": "campaign",
+      "per": "unknown",
       "quote": "60 天內一般消費累積 100,000 元 (含) 以上"
      }
     ],
@@ -759,8 +825,8 @@
   "review": [
    "需登錄或領券，但官方未寫時點"
   ],
-  "content_hash": "a5909648ed722acd",
-  "observed_at": "2026-11-23T09:19:17+08:00",
+  "content_hash": "b6a5ffbd376e407b",
+  "observed_at": "2026-11-24T08:53:24+08:00",
   "stale": false
  }
 ]
