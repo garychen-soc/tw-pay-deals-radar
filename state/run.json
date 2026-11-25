@@ -1,30 +1,28 @@
 {
- "observed_at": "2026-11-24T08:53:24+08:00",
- "llm_calls": 12,
+ "observed_at": "2026-11-25T08:50:09+08:00",
+ "llm_calls": 8,
  "llm_failures": 0,
  "llm_usage": {
   "model": "sonnet",
-  "calls": 12,
-  "input_tokens": 28,
-  "output_tokens": 18128,
-  "cache_creation_tokens": 98546,
-  "cache_read_tokens": 56764,
-  "total_tokens": 173466,
-  "cost_usd": 0.5869,
-  "llm_seconds": 1134.2
+  "calls": 8,
+  "input_tokens": 16,
+  "output_tokens": 10647,
+  "cache_creation_tokens": 67511,
+  "cache_read_tokens": 20868,
+  "total_tokens": 99042,
+  "cost_usd": 0.3807,
+  "llm_seconds": 68.7
  },
  "publishable": true,
- "messages": [
-  "台灣Pay：暫時性失敗，重試仍失敗"
- ],
+ "messages": [],
  "sources": [
   {
    "provider_id": "pxpayplus",
    "provider_name": "全支付",
    "status": "ok",
    "entry_url": "https://service.pxpayplus.com/px-advertise/web/activity/detail/1",
-   "stubs": 54,
-   "activities": 54,
+   "stubs": 56,
+   "activities": 56,
    "detail_failures": 0,
    "message": "",
    "carried": 0,
@@ -33,13 +31,13 @@
   {
    "provider_id": "taiwanpay",
    "provider_name": "台灣Pay",
-   "status": "failed",
+   "status": "ok",
    "entry_url": "https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109",
-   "stubs": 0,
+   "stubs": 59,
    "activities": 58,
    "detail_failures": 0,
-   "message": "FetchFailed: 瀏覽器抓取失敗：https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/TF02/TF020109（已重試 3 次；Page.goto: Navigat；暫時性失敗，重試仍失敗：FetchFailed: 瀏覽器抓取失敗：https://www.taiwanpay.com.tw/tpay/v1.0.0/950/taiwanpayfapi/",
-   "carried": 58,
+   "message": "",
+   "carried": 0,
    "fallback": ""
   },
   {
@@ -47,8 +45,8 @@
    "provider_name": "一卡通 iPASS MONEY",
    "status": "ok",
    "entry_url": "https://www.i-pass.com.tw/Preferential?type=0&page=1",
-   "stubs": 43,
-   "activities": 43,
+   "stubs": 44,
+   "activities": 44,
    "detail_failures": 0,
    "message": "",
    "carried": 0,

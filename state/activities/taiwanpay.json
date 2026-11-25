@@ -49,8 +49,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "826874960b3baa4d",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-036ccbb4bc",
@@ -128,8 +128,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ae510cbc4c311bb4",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-069399cb94",
@@ -153,8 +153,8 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "a8359e9b888f8d04",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-07238bc51d",
@@ -213,8 +213,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "2d418c655a486836",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-0b4941ff13",
@@ -273,8 +273,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "30dcc9bec4f68b00",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-0d7f4ee68c",
@@ -333,8 +333,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "1075d4d96991a999",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-11e5b41545",
@@ -393,8 +393,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "b06303affec3a94f",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-144e6b4d93",
@@ -472,8 +472,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a1265cc2864d6419",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-163da9a285",
@@ -585,8 +585,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "80b403c717c2d7db",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-17350c6bb8",
@@ -664,8 +664,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "c6bc8b9fc3041817",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-1ad3058ac4",
@@ -724,75 +724,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "65cb5d84a4191939",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
- },
- {
-  "id": "taiwanpay-2146e7cf34",
-  "provider_id": "taiwanpay",
-  "provider_name": "台灣Pay",
-  "title": "全家消費台灣Pay，10%回饋超級配",
-  "aliases": [],
-  "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M5Y7YAQSPY2BXZZ1CKGEQYK3",
-  "period_start": "2026-10-28",
-  "period_end": "2026-11-24",
-  "category": "掃碼支付（TWQR）",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "not_required",
-  "registration_quote": "用戶於活動期間至活動地點消費，出示「台灣Pay」付款條碼(限金融卡/帳戶)成功支付",
-  "offers": [
-   {
-    "name": "",
-    "slots": [],
-    "rules": [],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "unknown",
-    "order_quote": "",
-    "quota": null,
-    "quota_quote": "本活動回饋總金額上限為110萬元",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "cash",
-      "value": 10.0,
-      "unit": "%",
-      "quote": "享10%現金回饋(非即時回饋，小數點後四捨五入)"
-     }
-    ],
-    "min_spends": [
-     {
-      "amount": 200,
-      "unit": "元",
-      "per": "txn",
-      "quote": "單筆消費金額達新臺幣(以下同)200元(含)以上者"
-     }
-    ],
-    "caps": [
-     {
-      "amount": 100,
-      "unit": "元",
-      "per": "campaign",
-      "quote": "活動期間內，每一金融卡號/帳戶之累積回饋上限為100元"
-     }
-    ],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "全台全家便利商店實體門市",
-    "how": "出示「台灣Pay」付款條碼(限金融卡/帳戶)進行支付",
-    "limited": "yes",
-    "limited_quote": "本活動回饋總金額上限為110萬元，如達回饋總金額上限，即提前停止回饋",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
-  "review": [],
-  "content_hash": "ec0929de9dc8ef37",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-2b0faa3301",
@@ -851,8 +784,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "46788654e49b4a21",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-30c0cb3897",
@@ -924,8 +857,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "2b2487a5f6bb2a98",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-383dc1481f",
@@ -1003,8 +936,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "dac97c7cd830928e",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-3cc0718550",
@@ -1069,8 +1002,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "1be8cc8f72652647",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-4346e590a0",
@@ -1140,8 +1073,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "e609ddb71d735473",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-44d5a6bd41",
@@ -1206,8 +1139,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "85b2db36b720ec13",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-4bb3edeb68",
@@ -1273,8 +1206,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "26485bca7b522c20",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-4d2e8e7e75",
@@ -1326,8 +1259,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "063ed80b900c85f5",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-524f691a7c",
@@ -1386,8 +1319,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "cb2fcd2fdb0c539d",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-5692fe434b",
@@ -1446,8 +1379,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "f426d0681b5e75f0",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-5d4c1aecd6",
@@ -1519,8 +1452,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ff1808965de98f9f",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-647404129f",
@@ -1544,8 +1477,8 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "868549d5664a0227",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-6d1ee7bf47",
@@ -1604,8 +1537,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "63c3b54da414b976",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-71bc384553",
@@ -1675,8 +1608,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "b2e6673d4038ab34",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-72123935b4",
@@ -1746,8 +1679,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a35c26f1c02f011a",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-76af489b4b",
@@ -1806,8 +1739,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "aa1e19cebc4ae0d1",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-7d2d0585a2",
@@ -1879,8 +1812,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "c58d04455a94459a",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-8b0860f79f",
@@ -1939,8 +1872,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "9edf8e890eef50e9",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-8f0e681036",
@@ -1999,8 +1932,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "26193abc311c32be",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-903565405d",
@@ -2072,8 +2005,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a88d9cb3cdb58576",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-91f93aeab3",
@@ -2149,8 +2082,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "ae01508bce08d122",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-97b1932fa5",
@@ -2174,8 +2107,8 @@
    "官方頁面沒有可讀的條款文字（多半是圖片），請直接查看活動頁"
   ],
   "content_hash": "c4fc542b4594444a",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-9bc4d70bb9",
@@ -2234,8 +2167,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "10fa78346116dde6",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-9e6fab0591",
@@ -2294,8 +2227,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "5d87ed4b70a344e7",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-9f72f4b911",
@@ -2354,8 +2287,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "fbf12de052254181",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-a327d7dfd3",
@@ -2414,8 +2347,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "98664840ae44b7c1",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-a3e6462481",
@@ -2487,8 +2420,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "fc9fe864944c6839",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-a859dc45fa",
@@ -2547,8 +2480,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "e788362298ac7ada",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-a9503447c0",
@@ -2607,8 +2540,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "58b763004a286825",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-a9ea3f2f69",
@@ -2680,8 +2613,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "db9d386211e200e7",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-ab88f022f0",
@@ -2746,8 +2679,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "0609e4530df8b25c",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-ac92fed6a7",
@@ -2806,8 +2739,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "c2da6337ccc60c6d",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-af985c19ff",
@@ -2879,8 +2812,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "eeb35b9e2334cec4",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-b763a02853",
@@ -2961,8 +2894,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "93b6ac4a015a9c5c",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-bdfdb6c69c",
@@ -3027,8 +2960,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "a669bd4e906e00fc",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-c7d357024f",
@@ -3087,8 +3020,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "b50e95032103e022",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-d0e842f95c",
@@ -3147,8 +3080,125 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "da3fcc44a4ba9b20",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
+ },
+ {
+  "id": "taiwanpay-d97eb378cf",
+  "provider_id": "taiwanpay",
+  "provider_name": "台灣Pay",
+  "title": "手機門號就是帳號，「號」運連連抽 888！",
+  "aliases": [],
+  "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event/01M25CYPR7C5B412Z21PPAJ4N4",
+  "period_start": "2026-11-27",
+  "period_end": "2026-12-29",
+  "category": "掃碼支付（TWQR）",
+  "terms_source": "official",
+  "external_url": "",
+  "is_offer": "yes",
+  "registration": "required",
+  "registration_quote": "並註冊紅包服務（須同意紅包服務條款，註冊方式詳附圖說明）",
+  "offers": [
+   {
+    "name": "活動一:手機門號轉帳天天抽",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 2083333,
+    "quota_quote": "本活動紅包限量2,083,333包",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 2.0,
+      "unit": "元",
+      "quote": "紅包中獎金額分別為2元、5元、8元或未中獎"
+     },
+     {
+      "kind": "cash",
+      "value": 5.0,
+      "unit": "元",
+      "quote": "紅包中獎金額分別為2元、5元、8元或未中獎"
+     },
+     {
+      "kind": "cash",
+      "value": 8.0,
+      "unit": "元",
+      "quote": "紅包中獎金額分別為2元、5元、8元或未中獎"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 666,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每成功完成一筆新臺幣(以下同)666元(含)以上轉帳"
+     }
+    ],
+    "caps": [],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "使用「台灣行動支付」APP。",
+    "how": "使用「台灣行動支付」APP之「手機門號」轉帳功能",
+    "limited": "yes",
+    "limited_quote": "本活動紅包限量2,083,333包",
+    "sold_out": []
+   },
+   {
+    "name": "活動二:手機門號轉帳888紅包週末加碼抽",
+    "slots": [],
+    "rules": [],
+    "reregister": "unknown",
+    "reregister_quote": "",
+    "order": "unknown",
+    "order_quote": "",
+    "quota": 88,
+    "quota_quote": "本活動每期抽出88個紅包",
+    "review": [],
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 888.0,
+      "unit": "元",
+      "quote": "每包中獎金額均為888元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 666,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每成功完成一筆666元(含)以上轉帳至「手機門號」之轉出交易"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "用戶活動期間限中獎乙次"
+     }
+    ],
+    "new_users_only": "unknown",
+    "new_users_quote": "",
+    "where": "使用「台灣行動支付」APP。",
+    "how": "使用「台灣行動支付」APP之「手機門號」轉帳功能",
+    "limited": "yes",
+    "limited_quote": "本活動每期抽出88個紅包",
+    "sold_out": []
+   }
+  ],
+  "title_sold_out": [],
+  "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
+  "review": [
+   "需登錄或領券，但官方未寫時點"
+  ],
+  "content_hash": "8f31ee5fd6db2dbd",
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-e221829e83",
@@ -3214,8 +3264,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "39135e3510c8637b",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-e533925b0c",
@@ -3274,8 +3324,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "e8eeeb46f614fa4d",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-e7c21f2fe5",
@@ -3334,8 +3384,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "dab36d49776de3e1",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-e96218d6d4",
@@ -3413,8 +3463,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "2efef369b31934ab",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-ee4ada1163",
@@ -3480,8 +3530,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "18f3202e2e8a5651",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-f6ec9ec831",
@@ -3540,8 +3590,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "107c94fa7ac4b212",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-fb8953f52c",
@@ -3618,8 +3668,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "9ea6ff4573770142",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-fd24eb90c8",
@@ -3678,8 +3728,8 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "6ce724d429738a3d",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  },
  {
   "id": "taiwanpay-fe5825a258",
@@ -3745,7 +3795,7 @@
   "portal_url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
   "review": [],
   "content_hash": "099ad3d3c33b2f87",
-  "observed_at": "2026-11-23T09:19:17+08:00",
-  "stale": true
+  "observed_at": "2026-11-25T08:50:09+08:00",
+  "stale": false
  }
 ]

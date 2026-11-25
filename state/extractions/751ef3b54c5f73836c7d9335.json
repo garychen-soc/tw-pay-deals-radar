@@ -1,0 +1,134 @@
+{
+ "key": "751ef3b54c5f73836c7d9335",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-25T00:52:32+00:00",
+ "title": "手機門號就是帳號，「號」運連連抽 888！",
+ "duration_ms": 10398,
+ "cost_usd": 0.057280000000000005,
+ "usage": {
+  "input": 2,
+  "output": 1518,
+  "cache_creation": 10524,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "即可立即獲得1次紅包抽獎機會"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "並註冊紅包服務（須同意紅包服務條款，註冊方式詳附圖說明）"
+  },
+  "subs": [
+   {
+    "name": "活動一:手機門號轉帳天天抽",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 2,
+      "unit": "元",
+      "quote": "紅包中獎金額分別為2元、5元、8元或未中獎"
+     },
+     {
+      "kind": "cash",
+      "value": 5,
+      "unit": "元",
+      "quote": "紅包中獎金額分別為2元、5元、8元或未中獎"
+     },
+     {
+      "kind": "cash",
+      "value": 8,
+      "unit": "元",
+      "quote": "紅包中獎金額分別為2元、5元、8元或未中獎"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 666,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每成功完成一筆新臺幣(以下同)666元(含)以上轉帳"
+     }
+    ],
+    "caps": [],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "使用「台灣行動支付」APP。",
+    "how": "使用「台灣行動支付」APP之「手機門號」轉帳功能",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動紅包限量2,083,333包"
+    },
+    "quota": {
+     "seats": 2083333,
+     "quote": "本活動紅包限量2,083,333包"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   },
+   {
+    "name": "活動二:手機門號轉帳888紅包週末加碼抽",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 888,
+      "unit": "元",
+      "quote": "每包中獎金額均為888元"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 666,
+      "unit": "元",
+      "per": "txn",
+      "quote": "每成功完成一筆666元(含)以上轉帳至「手機門號」之轉出交易"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "用戶活動期間限中獎乙次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "使用「台灣行動支付」APP。",
+    "how": "使用「台灣行動支付」APP之「手機門號」轉帳功能",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動每期抽出88個紅包"
+    },
+    "quota": {
+     "seats": 88,
+     "quote": "本活動每期抽出88個紅包"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
