@@ -1,74 +1,5 @@
 [
  {
-  "id": "pxmart-05efd724f6",
-  "provider_id": "pxmart",
-  "provider_name": "全聯 PX Pay",
-  "title": "202611 PX Pay 發票記帳加碼獎",
-  "aliases": [],
-  "url": "https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E",
-  "period_start": "2026-11-25",
-  "period_end": "2026-11-25",
-  "category": "",
-  "terms_source": "official",
-  "external_url": "",
-  "is_offer": "yes",
-  "registration": "required",
-  "registration_quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)",
-  "offers": [
-   {
-    "name": "",
-    "slots": [
-     {
-      "start": null,
-      "end": "2026-11-24T23:59:00+08:00",
-      "kind": "deadline",
-      "origin": "explicit",
-      "precision": "minute",
-      "holiday_shifted": false,
-      "note": "",
-      "evidence": {
-       "quote": "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)",
-       "url": "https://www.pxmart.com.tw/campaign/latest/202611%20PX%20Pay%20%E7%99%BC%E7%A5%A8%E8%A8%98%E5%B8%B3%E5%8A%A0%E7%A2%BC%E7%8D%8E"
-      }
-     }
-    ],
-    "rules": [
-     "於2026/11/24(含)前至PX Pay APP內(須更新至7.35.2以上)，發票記帳功能綁定手機條碼(共通性載具)"
-    ],
-    "reregister": "unknown",
-    "reregister_quote": "",
-    "order": "retroactive_ok",
-    "order_quote": "2026/9/1-2026/10/30無論全聯店內外發票，皆符合PX Pay 發票記帳加碼獎對獎資格",
-    "quota": null,
-    "quota_quote": "",
-    "review": [],
-    "rewards": [
-     {
-      "kind": "coupon",
-      "value": 100.0,
-      "unit": "元",
-      "quote": "全聯店內外發票，對中全聯加碼獎號，現金抵用券100元。"
-     }
-    ],
-    "min_spends": [],
-    "caps": [],
-    "new_users_only": "unknown",
-    "new_users_quote": "",
-    "where": "無論全聯店內外發票",
-    "how": "發票記帳功能綁定手機條碼(共通性載具)",
-    "limited": "unknown",
-    "limited_quote": "",
-    "sold_out": []
-   }
-  ],
-  "title_sold_out": [],
-  "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
-  "review": [],
-  "content_hash": "0fd6e8ed9ebf4dfd",
-  "observed_at": "2026-11-25T08:50:09+08:00",
-  "stale": false
- },
- {
   "id": "pxmart-2625c34715",
   "provider_id": "pxmart",
   "provider_name": "全聯 PX Pay",
@@ -136,7 +67,7 @@
   "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
   "review": [],
   "content_hash": "75f153a39b5abd88",
-  "observed_at": "2026-11-25T08:50:09+08:00",
+  "observed_at": "2026-11-26T08:50:07+08:00",
   "stale": false
  },
  {
@@ -209,7 +140,7 @@
   "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
   "review": [],
   "content_hash": "de2e759f3c2823de",
-  "observed_at": "2026-11-25T08:50:09+08:00",
+  "observed_at": "2026-11-26T08:50:07+08:00",
   "stale": false
  },
  {
@@ -497,7 +428,7 @@
   "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
   "review": [],
   "content_hash": "f13a53baae477381",
-  "observed_at": "2026-11-25T08:50:09+08:00",
+  "observed_at": "2026-11-26T08:50:07+08:00",
   "stale": false
  },
  {
@@ -564,7 +495,7 @@
   "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
   "review": [],
   "content_hash": "cd91f016d56cbf75",
-  "observed_at": "2026-11-25T08:50:09+08:00",
+  "observed_at": "2026-11-26T08:50:07+08:00",
   "stale": false
  },
  {
@@ -1067,7 +998,7 @@
   "portal_url": "https://www.pxmart.com.tw/campaign/pxpay-card",
   "review": [],
   "content_hash": "39cec3f5773b1ea9",
-  "observed_at": "2026-11-25T08:50:09+08:00",
+  "observed_at": "2026-11-26T08:50:07+08:00",
   "stale": false
  }
 ]

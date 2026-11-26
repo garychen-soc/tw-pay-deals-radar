@@ -1,0 +1,106 @@
+{
+ "key": "fb81a65c544f86e14c54d330",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-26T01:40:20+00:00",
+ "title": "【高雄商圈夜市數位券再加碼】用 iPASS MONEY APP 領券，符合條件抽 50 元數位券",
+ "duration_ms": 6249,
+ "cost_usd": 0.054848,
+ "usage": {
+  "input": 2,
+  "output": 824,
+  "cache_creation": 11651,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "加碼抽「數位券」50 元 1 張。"
+  },
+  "registration": {
+   "value": "required",
+   "quote": "使用一卡通 iPASS MONEY APP 成功掃碼領取高雄商圈夜市數位券"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "coupon",
+      "value": 50,
+      "unit": "元",
+      "quote": "加碼抽「數位券」50 元 1 張"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 1,
+      "unit": "other",
+      "per": "campaign",
+      "quote": "於 2027/2/28 前將高雄商圈夜市數位券全額使用完畢"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每人限中獎一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "使用通路為全台數位券適用店家",
+    "how": "使用一卡通 iPASS MONEY APP 成功掃碼領取高雄商圈夜市數位券",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動共抽出 4,000 名，每人限中獎一次。"
+    },
+    "quota": {
+     "seats": 4000,
+     "quote": "本活動共抽出 4,000 名"
+    },
+    "sold_out": [],
+    "rules": [
+     {
+      "quote": "2026/11/18 至 2026/11/22 持指定演唱會門票於高雄五處捷運站",
+      "kind": "range",
+      "is_example": false,
+      "holiday": "none",
+      "start": {
+       "year": 2026,
+       "month": 11,
+       "day": 18,
+       "hour": null,
+       "minute": null
+      },
+      "end": {
+       "year": 2026,
+       "month": 11,
+       "day": 22,
+       "hour": null,
+       "minute": null
+      },
+      "days_of_month": [],
+      "nth": null,
+      "weekday": null,
+      "dates": [],
+      "open_time": null,
+      "close_time": null,
+      "end_of_month": false
+     }
+    ],
+    "reregister": {
+     "value": "once",
+     "quote": "每人僅限擇一金融機構領取高雄商圈夜市數位券，無法重複領取。"
+    },
+    "order": {
+     "value": "register_before_spend",
+     "quote": "活動期間使用一卡通 iPASS MONEY APP 完成高雄商圈夜市數位券領取，且於 2027/2/28 23:59 前「全額使用完畢」者"
+    }
+   }
+  ]
+ }
+}

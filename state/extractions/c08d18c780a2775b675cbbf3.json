@@ -1,0 +1,71 @@
+{
+ "key": "c08d18c780a2775b675cbbf3",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-26T01:40:20+00:00",
+ "title": "嗶Xiaomi Watch S5 41mm完成任務送500元加值金",
+ "duration_ms": 5310,
+ "cost_usd": 0.042674000000000004,
+ "usage": {
+  "input": 2,
+  "output": 539,
+  "cache_creation": 9320,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "購買台灣小米販售之Xiaomi Watch S5 41mm，完成「新增悠遊卡」任務，可獲500元加值金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "於活動期間內，購買台灣小米販售之Xiaomi Watch S5 41mm，完成「新增悠遊卡」任務，可獲500元加值金"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "cash",
+      "value": 500,
+      "unit": "元",
+      "quote": "完成「新增悠遊卡」任務，可獲500元加值金"
+     }
+    ],
+    "min_spends": [],
+    "caps": [
+     {
+      "amount": 1,
+      "unit": "次",
+      "per": "campaign",
+      "quote": "每一手錶裝置限領一次"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "購買台灣小米販售之Xiaomi Watch S5 41mm",
+    "how": "完成「新增悠遊卡」任務",
+    "limited": {
+     "value": "yes",
+     "quote": "本活動總限量500名，每一手錶裝置限領一次，先領先得，送完為止"
+    },
+    "quota": {
+     "seats": 500,
+     "quote": "本活動總限量500名"
+    },
+    "sold_out": [],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
