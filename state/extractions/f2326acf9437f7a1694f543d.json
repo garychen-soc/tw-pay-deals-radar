@@ -1,0 +1,127 @@
+{
+ "key": "f2326acf9437f7a1694f543d",
+ "prompt_version": "2026-11-10.2",
+ "model": "sonnet",
+ "created_at": "2026-11-27T01:16:40+00:00",
+ "title": "7-ELEVEN悠遊付錢包/帳戶筆筆4% 滿額加贈券最高回饋12%",
+ "duration_ms": 9998,
+ "cost_usd": 0.055628,
+ "usage": {
+  "input": 2,
+  "output": 1460,
+  "cache_creation": 10256,
+  "cache_read": 0
+ },
+ "output": {
+  "is_offer": {
+   "value": "yes",
+   "quote": "使用悠遊付錢包或綁定銀行帳戶於7-ELEVEN門市消費，每筆扣款享4%悠遊付回饋金"
+  },
+  "registration": {
+   "value": "not_required",
+   "quote": "活動期間使用悠遊付於7-ELEVEN統一超商門市消費之人，視同參加本活動"
+  },
+  "subs": [
+   {
+    "name": "",
+    "rewards": [
+     {
+      "kind": "percent",
+      "value": 4,
+      "unit": "%",
+      "quote": "每筆扣款享4%悠遊付回饋金"
+     },
+     {
+      "kind": "coupon",
+      "value": 100,
+      "unit": "元",
+      "quote": "當月累計消費滿2,000元加贈100元現金回饋券一份"
+     }
+    ],
+    "min_spends": [
+     {
+      "amount": 2000,
+      "unit": "元",
+      "per": "month",
+      "quote": "當月累計消費滿2,000元加贈100元現金回饋券一份"
+     }
+    ],
+    "caps": [
+     {
+      "amount": 1000,
+      "unit": "元",
+      "per": "month",
+      "quote": "本活動筆筆4%回饋每月每戶回饋上限1,000元"
+     },
+     {
+      "amount": 1,
+      "unit": "份",
+      "per": "month",
+      "quote": "每月每戶限贈一份"
+     }
+    ],
+    "new_users_only": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "where": "7-ELEVEN門市",
+    "how": "使用悠遊付錢包或綁定銀行帳戶",
+    "limited": {
+     "value": "yes",
+     "quote": "每月限量1,000名"
+    },
+    "quota": {
+     "seats": 1000,
+     "quote": "每月限量1,000名"
+    },
+    "sold_out": [
+     {
+      "quote": "10月份於10/11(日)16:02已額滿",
+      "scope_label": "10月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 10,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 10,
+       "day": 31,
+       "hour": null,
+       "minute": null
+      }
+     },
+     {
+      "quote": "11月份於11/7(六)08:55已額滿",
+      "scope_label": "11月份",
+      "scope_start": {
+       "year": 2026,
+       "month": 11,
+       "day": 1,
+       "hour": null,
+       "minute": null
+      },
+      "scope_end": {
+       "year": 2026,
+       "month": 11,
+       "day": 30,
+       "hour": null,
+       "minute": null
+      }
+     }
+    ],
+    "rules": [],
+    "reregister": {
+     "value": "unclear",
+     "quote": ""
+    },
+    "order": {
+     "value": "unclear",
+     "quote": ""
+    }
+   }
+  ]
+ }
+}
